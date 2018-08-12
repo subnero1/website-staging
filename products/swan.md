@@ -2,7 +2,7 @@
 layout: page
 title: Subnero Water Assessment Network
 banner : images/swan_banner2.jpg
-thumbnail: images/swan_banner5.jpg
+thumbnail: images/swan-thumbnail.jpg
 excerpt:
   Scalable automous platforms for in-situ water quality measurements
 categories: water-quality-management
