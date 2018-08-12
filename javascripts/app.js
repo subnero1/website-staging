@@ -57,17 +57,17 @@ jQuery(document).foundation();
     //   $(this).addClass('appear');
     // });
 
-    $(window).scroll(function() {
+    // $(window).scroll(function() {
 
-      var scroll = $(window).scrollTop();
+    //   var scroll = $(window).scrollTop();
 
-      if ( scroll >= 40 ) {
-        $('body').addClass('shrink');
-      } else {
-        $('body').removeClass('shrink');
-      }
+    //   if ( scroll >= 40 ) {
+    //     $('body').addClass('shrink');
+    //   } else {
+    //     $('body').removeClass('shrink');
+    //   }
 
-    });
+    // });
 
     $('form#contact_form').validate({
       messages: { },
@@ -745,10 +745,10 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.SectionHeader = Tc.Module.extend({    
+  Tc.Module.SectionHeader = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
-    },    
+    },
     dependencies: function() {
     },
     onBinding: function() {
