@@ -8,7 +8,7 @@ banner : images/solutions-banner.jpg
 
 Our underwater modem provides a flexible platform for a variety of underwater networks and applications. With substantial computing power packed into a compact form factor, users are able to implement and deploy complex algorithms in the modem, hence allowing robust communication between underwater nodes as well as driving the innovation of new protocols and applications. Powered by UnetStack, a flexible agent-based underwater network stack, the modems provide options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
-![WNC]({{site.base}}/images/wnc.jpg)
+![WNC]({{site.baseurl}}/images/wnc.jpg)
 
 Our modems are available in many configurations that cater for different application needs. The _surface configuration_ is ideally suited for gateway nodes in an underwater network, connecting the underwater network to wired or wireless networks (e.g. 3G/4G, WiFi, satellite) above water. The _node configuration_ modems come as standalone packages with their own batteries. These are typically deployed in the water column or on the seabed, and can act as network routers, repeaters and beacons. The _embedded configuration_ modems are compact OEM devices that are designed for integration into Autonomous Underwater Vehicles (AUVs) and underwater sensors, allowing the AUVs and sensors to be connected. Once in the water, the different configuration modems seamlessly integrate into a single underwater communication network.
 

@@ -4,7 +4,7 @@ title:  Contact Us
 banner: images/contact-banner.jpg
 ---
 
-![Map]({{site.base}}/images/map.png)  
+![Map]({{site.baseurl}}/images/map.png)  
 [View larger map](https://www.google.com/maps/place/21+Heng+Mui+Keng+Terrace,Singapore)
 
 ## Contact
