@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: page
 title:  Underwater Network Simulator
-images: images/unetsim-banner.jpg
+images: ['images/unetsim-banner.jpg']
 excerpt:
   Simulator for underwater networks of the future
 categories: software
+section_id: products
 ---
 
 The UnetSim underwater network simulator enables a network engineer to simulate an underwater network on a single computer. It allows [UnetStack]({{ site.baseurl }}{% link products/unetstack.md %}) agents and protocols to be simulated in realistic channel conditions, with minimum effort. The simulator was designed with two key goals:
