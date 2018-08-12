@@ -1,13 +1,21 @@
 ---
-layout: page
+layout: default
 section_id: page
 ---
 
+<div class='full tall parallax' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='four spacing'></div>
+</div>
 
-<div class='row'>
-  <div class='large-12 columns'>
-    <div class='mod modBlogPost big'>
-      <div class='images'>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='images'>
         {% for image in page.images %}
         <div class='image'><img alt="" src="{{site.baseurl}}/{{image}}" /></div>
         {% endfor %}
@@ -16,8 +24,8 @@ section_id: page
         <p class='info'>
           <span>{{page.date | date: "%B %d, %Y" }}</span>
         </p>
-        <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+        <h1 class="thin"><a href="{{page.url}}">{{page.title}}</a></h1>
         {{ content }}
       </div>
-    </div>
-    <div class='two spacing'></div>
+  </div>
+</div>
