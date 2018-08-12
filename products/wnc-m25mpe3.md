@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WNC-M25MPE3 Platinum Edition Embedded Configuration Modem
-images: ['images/wnc-m25mpe3.jpg']
+banner : images/wnc-m25mpe3.jpg
 excerpt:
   Platinum edition modems delivering performance under the toughest environmental conditions
 categories: modem

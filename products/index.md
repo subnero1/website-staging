@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-images: ['images/products.jpg']
+banner : images/products.jpg
 ---
 
 <div class='full' style='background: #f5f5f5'>
@@ -20,12 +20,11 @@ images: ['images/products.jpg']
     {% for page in product_pages %}
       <div class='large-4 medium-4 columns'>
         <div class='mod modBlogPost'>
-        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.images[1]}}" /></a>
+        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
           <div class='content'>
-            <p class='date'>{{page.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{page.title}}</a></h4>
+            <h3 style="text-transform: none;">{{page.title}}</h3>
             <p>{{page.excerpt}}</p>
-          </div>
+          </div></a>
         </div>
       </div>
     {% endfor %}

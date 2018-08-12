@@ -8,8 +8,5 @@ github_username:  subnero1
 
 # Build settings
 markdown: kramdown
-encoding:    UTF-8
-
-paginate: 3
-paginate_path: "blog/page:num"
-exclude: ["content/"]
+encoding: UTF-8
+highlighter: rouge

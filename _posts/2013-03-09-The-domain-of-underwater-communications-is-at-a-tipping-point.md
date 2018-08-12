@@ -2,7 +2,7 @@
 layout: post
 title: Underwater networking technology featured in The Economist
 date:  2013-03-09
-images: images/CaptNemo.jpg
+header: images/CaptNemo.jpg
 categories:
 - wireless-networked-communications
 - media coverage

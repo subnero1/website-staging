@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title:  Solutions
-images: images/solutions-banner.jpg
+banner : images/solutions-banner.jpg
 ---
 
 ## Underwater communications & networking
