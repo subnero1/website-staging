@@ -11,4 +11,4 @@ The [open_resource magazine](http://www.ready-for-the-resource-revolution.com/en
 
 [The article](http://hosting.fluidbook.com/open-resource-magazine-03/#/36) interviews Dr. Mandar Chitre, one of the founders of Subnero, and talks about the applications of our underwater communication technology as well as some challenges in connecting the ocean to the internet.
 
-[![width](/images/open_resource.jpg)](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"}
+[![width]({{site.baseurl}}/images/open_resource.jpg)](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"}

@@ -16,10 +16,10 @@ title_color : "#E6782F"
       <p class='info'>
         <span>{{post.date | date: "%B %d, %Y" }}</span>
       </p>
-      <h3 style="text-transform: none;"><a href="{{post.url}}">{{post.title}}</a></h3>
+      <h3 style="text-transform: none;"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
       <p>{{post.excerpt}}</p>
       <div class='spacing'></div>
-      <a class="button small" href="{{post.url}}">Read more</a>
+      <a class="button small" href="{{site.baseurl}}{{post.url}}">Read more</a>
     </div>
   </div>
 {% endfor %}
