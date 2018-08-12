@@ -41,15 +41,12 @@ section_id: home
   <div id="main" role="main" class="top-shift">
     <div class="full no-padding">
     <div class="fullscreen">
-      <img id="fullscreen-video" src="images/lp1.jpg">
+      {% assign randomNumber = "now" | date: "%N" | modulo: 3 | plus: 1 %}
+      <img id="fullscreen-video" src="images/lp{{randomNumber}}.jpg">
       <div class="overlay"></div>
       <div class="layer">
-        <p class="small-title">MAKE THE RIGHT CHOICE</p>
-        <h1 class="thin" id="to-be-update">
-          Too fast <br> Too wild <br> Too different      </h1>
-        <h2 class="thin">
-          This is wrap, a creative digital company, creating solutions for any visual identity project, espetically for digital experiences and brand identities                          <a href="#works">View our works</a>
-        </h2>
+        <h1 class="thin" id="to-be-update">The future of <br> underwater wireless</h1>
+        <<div class='four spacing'></div>
       </div>
     </div>
   </div>
