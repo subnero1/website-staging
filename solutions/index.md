@@ -26,7 +26,7 @@ Our underwater modems can not only be used for communication, but also for under
 
 To safeguard and manage freshwater resources, effective spatial and temporal water sampling techniques are needed. Typical manual sampling used by environmental and water utility agencies is very labor-intensive and usually too sparse to capture contamination events in a timely manner. Fixed sensing buoys are able to provide real-time data but incapable of providing spatial coverage. Traditionally available AUVs are able to provide spatial coverage, but are economically and logistically expensive to operate.
 
-Our solution contains scalable, minimally propelled autonomous platforms that can carry in-situ water quality probes and operate with minimal manual support. These mobile nodes are equipped with navigation, sensing and real-time data transmission capabilities. They can autonomously execute missions provided by users and perform vertical profiling of the water column at points of interest. Users are then able to access the data and refine missions in real-time.
+The [Subnero Water Assessment Network]({{ site.baseurl }}{% link products/swan.md %}) (SWAN) contains scalable, minimally propelled autonomous platforms that can carry in-situ water quality probes and operate with minimal manual support. These mobile nodes are equipped with navigation, sensing and real-time data transmission capabilities. They can autonomously execute missions provided by users and perform vertical profiling of the water column at points of interest. Users are then able to access the data and refine missions in real-time.
 
 We provide professional deployment services and operational support for its clients.
 
@@ -35,3 +35,5 @@ We provide professional deployment services and operational support for its clie
 While our products are flexible enough to meet most client requirements, there are times when a client requires technology customization in order to meet some special needs. We are happy to advise clients on how best our products can be used to meet these needs, and customize the products when necessary for specific applications.
 
 Featured customized solutions:
+
+TODO
