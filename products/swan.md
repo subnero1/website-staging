@@ -21,7 +21,7 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
 
 ### Key features
 
-![](/images/swan-network.jpg)
+![]({{site.base}}/images/swan-network.jpg)
 
 - Unattended, autonomous
 - Mobile, intelligent
