@@ -1,13 +1,14 @@
 ---
 layout: post
-title: WNC-M25MSS3 Siver Edition Surface Configuration Modem
-images: images/wnc-m25mss3.jpg
+title: WNC-M25MPE3 Platinum Edition Embedded Configuration Modem
+images: ['images/wnc-m25mpe3.jpg']
 excerpt:
-  Silver edition modems are the workhorse communication nodes for use in general commercial deployments
+  Platinum edition modems delivering performance under the toughest environmental conditions
 categories: modem
+section_id: products
 ---
 
-WNC-M25MSS3 is a platinum edition underwater modem in surface (gateway) configuration. This modem is the workhorse communication node to be used in the general commercial deployments with larger range and depth-rating when compared to the research edition modem. A modem in the surface configuration operates on external power source and can be deployed from the surface.  This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily. The applications can be develeoped using a [simulator]({{ site.baseurl }}{% unetsim %}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{% unetstack %}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
+WNC-M25MPE3 is a platinum edition underwater modem in embedded (AUV/sensor) configuration. Designed with ease of integration and flexibilty as the primary focus, this modem is ideal for integration to underwater platforms (AUVs, ROVs). These modems provide a flexible platform with a substantial computing power packed into a compact form factor. Delivering performance under the toughest environmental conditions, Subnero's platinum edition modems are designed to meet rigorous quality standards mandated by sectors such as defense, oil & gas and subsea engineering. All devices are subjected to environmental stress screening (PCBA and unit level) before shipment. They also meet IPC class 2 workmanship requirement of PCBA and are conformally coated. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily. The applications can be develeoped using a [simulator]({{ site.baseurl }}{% link products/unetsim.md %}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{link products/unetstack.md %}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
 
 ## Technical specifications
 
@@ -21,7 +22,11 @@ WNC-M25MSS3 is a platinum edition underwater modem in surface (gateway) configur
 |  Software framework           |  UnetStack (software-defined), www.unetstack.net                                     |
 |  **Physical**                 |                                                                                      |
 |  Operating depth              |  up to 300 m                                                                         |
-|  Housing                      |  Aluminium                                                                           |
+|  Dimensions                   |  100 mm ∅, 200 m length (excluding transducer), Cylindrical form factor              |
+|  **Qualification tests**      |                                                                                      |
+|  Temperature, vibration, salinity, humidity              |  MIL-STD-810G                                             |
+|  Air transportation, shock    |  MIL-STD-810E                                                                        |
+|  EMI/EMC                      |  MIL-STD-461E                                                                        |
 |  **Interface**                |                                                                                      |
 |  Connectivity                 |  RS232, Ethernet, Acoustic commands                                                  |
 |  Software interface           |  UnetStack agents (Java, Groovy, Python), Interactive web UI, Linux sockets, JSON/TCP|
