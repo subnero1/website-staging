@@ -2,6 +2,7 @@
 layout: page
 title:  Underwater Network Stack
 banner : images/unetstack-banner.jpg
+thumbnail : images/unetstack-thumbnail.jpg
 excerpt:
   Agent-based underwater network stack to transform modems into sophisticated network nodes
 categories: software
@@ -14,7 +15,7 @@ UnetStack runs on all Subnero modems, but can be easily customized to run on mod
 
 ## Details
 
-![UnetStack](images/unetstack.png)
+![UnetStack]({{site.baseurl}}/images/unetstack.png)
 
 Commonly cited challenges in underwater networks include low bandwidth, long propagation delay, half-duplex nature of the links, high packet loss, and time-variability. To deploy successful networks in the face of such challenges, it is important to use highly optimized protocols that are specially designed for use in such networks. Specifically, cross-layer information sharing, low-bandwidth design and accurate transmission/reception timing can be critical in these protocols. Traditional layered network stacks provide good separation of concern, but result in sub-optimum protocols. Cross-layer optimization initiatives address this shortcoming by allowing direct interaction between layers. UnetStack takes a somewhat different approach. It consists of a collection of software agents that provide [well-defined services](https://www.unetstack.net/agent-ref.html). This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, [simulated]({{ site.baseurl }}{% link products/unetsim.md %}), tested and deployed.
 
