@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-images: "images/products.jpg"
+images: ['images/products.jpg']
 ---
 
 <div class='full' style='background: #f5f5f5'>
