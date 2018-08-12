@@ -6,7 +6,7 @@ banner : images/solutions-banner.jpg
 
 ## Underwater communications & networking
 
-![WNC](images/wnc.png)
+![WNC](/images/wnc.jpg)
 
 Our underwater modem provides a flexible platform for a variety of underwater networks and applications. With substantial computing power packed into a compact form factor, users are able to implement and deploy complex algorithms in the modem, hence allowing robust communication between underwater nodes as well as driving the innovation of new protocols and applications. Powered by UnetStack, a flexible agent-based underwater network stack, the modems provide options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 

@@ -2,6 +2,7 @@
 layout: page
 title:  Pulse
 banner : images/pulse-banner.jpg
+title_color : "#E6782F"
 ---
 
 {% for post in site.posts %}
