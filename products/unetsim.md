@@ -21,7 +21,7 @@ The simulator is available free-of-charge for download from [www.unetstack.net](
 
 A simple script written in a [domain-specific language](https://www.unetstack.net/simulation-dsl.html) (DSL) allows users to describe a simulation scenario in a natural way. This significantly reduces the barrier to entry for new users. A sample simulation DSL script is shown below:
 
-```
+```java
 channel.soundSpeed = 1500.mps
 modem.dataRate     = [800.bps, 2400.bps]
 modem.frameLength  = [16.bytes, 64.bytes]
