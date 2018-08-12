@@ -31,7 +31,7 @@ section_id: home
             {% assign active_class = "" %}
           {% endif %}
           <li class="{{active_class}}">
-            <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+            <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
           </li>
           {% endfor %}
         </ul>
