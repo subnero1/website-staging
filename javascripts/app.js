@@ -57,17 +57,17 @@ jQuery(document).foundation();
     //   $(this).addClass('appear');
     // });
 
-    // $(window).scroll(function() {
-
-    //   var scroll = $(window).scrollTop();
-
-    //   if ( scroll >= 40 ) {
-    //     $('body').addClass('shrink');
-    //   } else {
-    //     $('body').removeClass('shrink');
-    //   }
-
-    // });
+    // Shrink top bar on all pages except landing page
+    if ($('#fullscreen-video').length == 0){
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if ( scroll >= 40 ) {
+          $('body').addClass('shrink');
+        } else {
+          $('body').removeClass('shrink');
+        }
+      });
+    }
 
     $('form#contact_form').validate({
       messages: { },

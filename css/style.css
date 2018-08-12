@@ -3740,6 +3740,10 @@ p.small-title {
   margin-top: -100px;
 }
 
+.f-topbar-fixed {
+    padding-top: 100px;
+}
+
 
 @media only screen and (max-width: 60em) {
   .modTeamMember .overlay {
@@ -3979,5 +3983,9 @@ p.small-title {
   .fullscreen .layer h2 {
       font-size: 14px;
       width: 90%;
+  }
+
+  .f-topbar-fixed {
+      padding-top: 0px;
   }
 }
