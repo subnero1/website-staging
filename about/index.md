@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title:  About Us
-images: images/about-banner.jpg
+images: ['images/about-banner.jpg']
 ---
 
 ## Products & solutions

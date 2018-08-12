@@ -20,7 +20,7 @@ images: ['images/products.jpg']
     {% for page in product_pages %}
       <div class='large-4 medium-4 columns'>
         <div class='mod modBlogPost'>
-        	<a href="{{site.url}}{{page.url}}"><img alt="" src="{{site.url}}/{{page.images[1]}}" /></a>
+        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.images[1]}}" /></a>
           <div class='content'>
             <p class='date'>{{page.date | date: "%B %d, %Y" }}</p>
             <h4><a href="#">{{page.title}}</a></h4>

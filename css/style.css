@@ -657,6 +657,11 @@ hr {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.tall {
+  padding: 80px 0 80px 0 ;
+}
+
 .full.no-padding {
   padding: 0;
 }

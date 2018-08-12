@@ -1,19 +1,19 @@
 ---
-layout: default
+layout: page
 title:  Contact Us
-images: images/contact-banner.jpg
+images: ['images/contact-banner.jpg']
 ---
 
-![Map](images/map.png)  
+![Map](/images/map.png)
 [View larger map](https://www.google.com/maps/place/21+Heng+Mui+Keng+Terrace,Singapore)
 
 ## Contact
 
-Subnero Pte. Ltd.  
-#01-01/02, The Hangar, I-Cube  
-21 Heng Mui Keng Terrace  
-Singapore 119613  
-Tel: +65 9819 9552  
+Subnero Pte. Ltd.
+#01-01/02, The Hangar, I-Cube
+21 Heng Mui Keng Terrace
+Singapore 119613
+Tel: +65 9819 9552
 Email: info @ subnero.com
 
 ## Directions
