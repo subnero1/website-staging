@@ -2,11 +2,12 @@
 layout: post
 title: Underwater networking technology featured in The Economist
 date:  2013-03-09
-header: images/CaptNemo.jpg
 categories:
 - wireless-networked-communications
 - media coverage
 ---
+
+![Underwater Networking]({{site.baseurl}}/images/captnemo.jpg)
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.
 
