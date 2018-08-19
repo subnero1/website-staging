@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The need for a better monitoring solution
+banner : images/pulse-swan-banner.jpg
 date:  2015-08-01
 categories:
 - water-quality-monitoring

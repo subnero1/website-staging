@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Subnero underwater acoustic recorder (aRecorder)
-banner : images/arecorder-banner.jpg
+banner : images/pulse-arecorder-banner.jpg
 date:  2015-02-20
 categories:
 - sensing-and-monitoring
