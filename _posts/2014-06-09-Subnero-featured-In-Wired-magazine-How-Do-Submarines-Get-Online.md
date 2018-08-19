@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Subnero featured in Wired magazine
+banner : images/pulse-articles-banner3.jpg
 date:  2014-06-09
 categories:
 - wireless-networked-communications

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Subnero modems feature in research article published in IEEE Journal of Oceanic Engineering
+banner : images/pulse-articles-banner1.jpg
 date:  2017-02-02
 categories:
 - wireless-networked-communications

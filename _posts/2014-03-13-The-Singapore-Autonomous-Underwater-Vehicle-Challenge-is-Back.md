@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Singapore autonomous underwater vehicle challenge is back
+banner : images/pulse-sauvc2014-banner.jpg
 date:  2014-03-13
 categories: sauvc
 ---
@@ -27,4 +28,4 @@ Nanyang Technological University,
 Sports and Recreation Centre,
 20 Nanyang Green, Singapore 637715.
 
-Check out the [SAUVC website](http://ewh.ieee.org/r10/singapore/oes/sauvc/index.html){:target="_blank"} for more details.
+Check out the [SAUVC website](https://sauvc.org/){:target="_blank"} for more details.

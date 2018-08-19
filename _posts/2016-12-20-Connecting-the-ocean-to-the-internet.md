@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Connecting the ocean to the internet
+banner : images/pulse-articles-banner2.jpg
 date:  2016-12-20
 categories:
 - wireless-networked-communications

@@ -7,8 +7,6 @@ categories:
 - sensing-and-monitoring
 ---
 
-![Custom Subnero Modem]({{site.baseurl}}/images/pulse-arecorder-banner.jpg)
-
 While our modems are designed to transmit and receive data, they also provide direct access to acoustic signals. A client had a need to simply record underwater sounds at scheduled times. While this could easily be done with the modem without any customization, there was also a need to increase the battery endurance and to sample signals from multiple broadband hydrophones. With these customizations, the Subnero aRecorder was born.
 
 The Subnero aRecorder is a multi-hydrophone broadband data acquisition system designed for extended deployments in marine environments. It is designed to support 1 or more hydrophones with an aggregate sampling rate of up to 500kSa/s. The aRecorder comes with factory settable low pass and high pass filters. With the ability to schedule varying-duration deployments, aRecorder allows rapid environmental assessment where no previous data might have been available. it is designed for minimal manual intervention as well as ease of deployment & retrieval. Additional sensors such as GPS, depth sensors, compass etc. can easily be integrated to the system, catering to a variety of applications.
