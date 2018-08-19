@@ -16,13 +16,13 @@ Our modems are also available in several editions. The _silver edition_ modems a
 
 <iframe width="475" height="267" src="https://www.youtube.com/embed/VWZ8Nh3QgFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<div class='four spacing'></div>
+<div class='two spacing'></div>
 
 ## Underwater navigation
 
 Our underwater modems can not only be used for communication, but also for underwater navigation. They can be used for acoustic ranging, and to form a GPS-like infrastructure underwater, aiding underwater vehicles in self-localization as well as communication. The nodes can be used as beacons for position estimation and can transparently relay information. This allows vehicles to navigate accurately as well as communicate over long distances to other vehicles, underwater installations and/or surface nodes. These nodes may be easily dropped into water in an area of operation. Once in water, the nodes self-organize into an Underwater Positioning Network (UPN). This network can then be accessed by AUVs and Remotely Operated Vehicles (ROVs) to estimate their location, navigate and communicate effectively.
 
-<div class='four spacing'></div>
+<div class='two spacing'></div>
 
 ## In-water monitoring & sensing
 
@@ -34,7 +34,7 @@ The [Subnero Water Assessment Network]({{ site.baseurl }}{% link products/swan.m
 
 We provide professional deployment services and operational support for its clients.
 
-<div class='four spacing'></div>
+<div class='two spacing'></div>
 
 ## Customized solutions
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: World water day
-banner : images/pulse-world-waterday.jpg
+banner : images/pulse-world-waterday-banner.jpg
 date:  2014-03-22
 categories: water-quality-monitoring
 ---
