@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Underwater modem with a secondary data acquisition system
+banner : images/custommodem.jpg
 date:  2017-12-12
 image: images/CustomModem.jpg
 categories: wireless-networked-communications
