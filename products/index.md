@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Products
-banner : images/products.jpg
+banner : images/products-banner.jpg
 ---
 
 <div class='full' style='background: #f5f5f5'>

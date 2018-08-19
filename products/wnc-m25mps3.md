@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WNC-M25MPS3 Platinum Edition Surface Configuration Modem
-banner : images/wnc-m25mps3.jpg
+banner : images/wnc-m25mps3-banner.jpg
 thumbnail : images/wnc-m25mps3-thumbnail.jpg
 excerpt:
   Platinum edition modems delivering performance under the toughest environmental conditions
