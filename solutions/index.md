@@ -14,7 +14,9 @@ Our modems are available in many configurations that cater for different applica
 
 Our modems are also available in several editions. The _silver edition_ modems are robust communication devices, typically suited for most standard commercial deployments. The lower-cost _research edition_ modems provide a flexible tool that allows students, researchers and hobbyists to develop and test underwater networks. The _platinum edition_ modems use components that are designed for extended range of operating conditions, and undergo extensive environmental testing. They are best suited for applications in harsh environmental conditions or increased level of robustness.
 
+<div class="video-wrapper">
 <iframe width="475" height="267" src="https://www.youtube.com/embed/VWZ8Nh3QgFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 <div class='two spacing'></div>
 
@@ -26,7 +28,9 @@ Our underwater modems can not only be used for communication, but also for under
 
 ## In-water monitoring & sensing
 
+<div class="video-wrapper">
 <iframe width="475" height="267" src="https://www.youtube.com/embed/ea0CNGSMBU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 To safeguard and manage freshwater resources, effective spatial and temporal water sampling techniques are needed. Typical manual sampling used by environmental and water utility agencies is very labor-intensive and usually too sparse to capture contamination events in a timely manner. Fixed sensing buoys are able to provide real-time data but incapable of providing spatial coverage. Traditionally available AUVs are able to provide spatial coverage, but are economically and logistically expensive to operate.
 
