@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Solutions
-banner : images/solutions-banner.jpg
+banner : images/banner-solutions.jpg
 ---
 
 ## Underwater communications & networking

@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Contact Us
-banner: images/contact-banner.jpg
+banner: images/banner-contact.jpg
 ---
 
 ![Map]({{site.baseurl}}/images/map.png)  

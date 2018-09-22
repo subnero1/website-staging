@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Pulse
-banner : images/pulse-banner.jpg
+banner : images/banner-pulse.jpg
 title_color : "#E6782F"
 ---
 

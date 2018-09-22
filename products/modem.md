@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 
-banner : images/products-banner.jpg
-thumbnail: images/products-thumbnail.jpg
+banner : images/banner-products.jpg
+thumbnail: images/thumbnail-products.jpg
 categories: underwatermodem
 section_id: products
 ---
@@ -31,7 +31,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mpn3-thumbnail.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpn3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Node Configuration</h3>
 				          </div></a>
@@ -46,7 +46,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mps3-thumbnail.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
@@ -61,7 +61,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mpe3-thumbnail.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Embedded Configuration</h3>
 				          </div></a>
@@ -81,7 +81,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25msn3-thumbnail.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25msn3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Node Configuration</h3>
 				          </div></a>
@@ -96,7 +96,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mss3-thumbnail.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
@@ -111,7 +111,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mse3-thumbnail.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Embedded Configuration</h3>
 				          </div></a>

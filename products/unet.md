@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Underwater Network Technology
-banner : images/unetsim-banner.jpg
-thumbnail: images/unet.jpg
+banner : images/banner-unetsim.jpg
+thumbnail: images/boxart-unet.jpg
 categories: unet
 section_id: products
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Underwater networking technology featured in The Economist
-banner : images/pulse-articles-banner3.jpg
+banner : images/banner-pulse-articles3.jpg
 date:  2013-03-09
 categories:
 - wireless-networked-communications
@@ -10,7 +10,7 @@ categories:
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.
 
-![Underwater Networking]({{site.baseurl}}/images/captnemo.jpg)
+![Underwater Networking]({{site.baseurl}}/images/pulse-captnemo.jpg)
 
 While nodes in water are by no means new, the ability to connect these aquatic denizens - submarines, autonomous underwater vehicles (AUVs), sensing elements etc. via a network is now being recognized as a key planning element by defense &amp; homeland security agencies, water utilities- and commercial entities in a variety of industries that deal with in-water solutions.
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Research Edition Modems
-banner : images/wnc-m25mrs3-banner.jpg
-thumbnail : images/wnc-m25mrs3-thumbnail.jpg
+banner : images/banner-wnc-m25mrs3.jpg
+thumbnail : images/thumbnail-wnc-m25mrs3.jpg
 excerpt:
   Research edition modems aimed directly at academic researchers and underwater technology enthusiasts
 categories: modem

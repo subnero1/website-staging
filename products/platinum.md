@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Platinum Edition Modems
-banner : images/wnc-m25mpn3-banner.jpg
-thumbnail : images/wnc-m25mpn3-thumbnail.jpg
+banner : images/banner-wnc-m25mpn3.jpg
+thumbnail : images/thumbnail-wnc-m25mpn3.jpg
 excerpt:
   Platinum edition modems delivering performance under the toughest environmental conditions
 categories: modem
@@ -13,7 +13,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 
 <div class='full' style='background: #f5f5f5'>
 	<div class ='product' style='width:98.7%'>
-		<img alt="" src="{{site.baseurl}}/images/wnc-m25mpn3-thumbnail-300.jpg"/>
+		<img alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mpn3.jpg"/>
 		<div class='small-3 columns'>     
 		</div>
 		<div class='small-8 columns'>
@@ -33,12 +33,12 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
   			</div>
   		</div>
   		<div class='small-3 columns'>
-  			<img style='float:right;margin-bottom: 0 auto' alt="" src="{{site.baseurl}}/images/wnc-m25mps3-thumbnail-300.png"/>
+  			<img style='float:right;margin-bottom: 0 auto' alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mps3.png"/>
   		</div>
   </div> 
 
   <div class ='product' style='width:98.7%;'>
-  		<img class='img-rounded' alt="" src="{{site.baseurl}}/images/wnc-m25mpe3-thumbnail-300.jpg"/>
+  		<img class='img-rounded' alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mpe3.jpg"/>
   		<div class='small-3 columns'>      
   		</div>
   		<div class='small-8 columns'>

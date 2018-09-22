@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Support
-banner : images/support-banner.jpg
+banner : images/banner-support.jpg
 ---
 
 ## Documentation

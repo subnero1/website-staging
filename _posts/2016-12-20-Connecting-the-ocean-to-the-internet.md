@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connecting the ocean to the internet
-banner : images/pulse-articles-banner2.jpg
+banner : images/banner-pulse-articles2.jpg
 date:  2016-12-20
 categories:
 - wireless-networked-communications
@@ -12,4 +12,4 @@ The [open_resource magazine](http://www.ready-for-the-resource-revolution.com/en
 
 [The article](http://hosting.fluidbook.com/open-resource-magazine-03/#/36) interviews Dr. Mandar Chitre, one of the founders of Subnero, and talks about the applications of our underwater communication technology as well as some challenges in connecting the ocean to the internet.
 
-[![width]({{site.baseurl}}/images/open_resource.jpg)](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"}
+[![width]({{site.baseurl}}/images/pulse-open_resource.jpg)](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"}

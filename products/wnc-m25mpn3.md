@@ -1,8 +1,8 @@
 ---
 layout: post
 title: WNC-M25MPN3 Platinum Edition Node Configuration Modem
-banner : images/wnc-m25mpn3-banner.jpg
-thumbnail : images/wnc-m25mpn3-thumbnail.jpg
+banner : images/banner-wnc-m25mpn3.jpg
+thumbnail : images/thumbnail-wnc-m25mpn3.jpg
 excerpt:
   Platinum edition modems delivering performance under the toughest environmental conditions
 categories: modem

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: WNC-M25MRS3 Research Edition Surface Configuration Modem
-banner : images/wnc-m25mrs3-banner.jpg
-thumbnail : images/wnc-m25mrs3-thumbnail.jpg
+banner : images/banner-wnc-m25mrs3.jpg
+thumbnail : images/thumbnail-wnc-m25mrs3.jpg
 excerpt:
   Research edition modems aimed directly at academic researchers and underwater technology enthusiasts
 categories: modem

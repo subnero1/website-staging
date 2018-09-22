@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Careers
-banner: images/career-banner.jpg
+banner: images/banner-careers.jpg
 ---
 
 Subnero provides communications, networking and robotics solutions to the sub-sea engineering, environment monitoring and defense industries. We have a reputation for innovation and are currently looking to expand our team.

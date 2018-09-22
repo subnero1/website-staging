@@ -1,8 +1,8 @@
 ---
 layout: page
 title:  Underwater Network Simulator
-banner : images/unetsim-banner.jpg
-thumbnail : images/unetsim-thumbnail.jpg
+banner : images/banner-unetsim.jpg
+thumbnail : images/thumbnail-unetsim.jpg
 excerpt:
   Simulator for underwater networks of the future
 categories: software

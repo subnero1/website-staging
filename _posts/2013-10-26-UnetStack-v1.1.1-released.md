@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UnetStack v1.1.1 released!
-banner : images/pulse-unet1-1-banner.jpg
+banner : images/banner-pulse-unet1-1.jpg
 date:  2013-10-26
 categories: wireless-networked-communications
 ---

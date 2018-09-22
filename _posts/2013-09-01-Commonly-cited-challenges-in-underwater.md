@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software-defined Networking takes a big leap forward in underwater communications
-banner : images/unetstack-banner.jpg
+banner : images/banner-unetstack.jpg
 date:  2013-09-01
 categories: wireless-networked-communications
 ---
