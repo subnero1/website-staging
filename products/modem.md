@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 
-banner : images/solutions-banner.jpg
-thumbnail: images/underwatermodem.jpg
+banner : images/products-banner.jpg
+thumbnail: images/products-thumbnail.jpg
 categories: underwatermodem
 section_id: products
 ---
@@ -20,6 +20,7 @@ section_id: products
 <!--<div class='full' style='background:#F5F5F5'>-->
 <div class='cGBxoB'>
 <section class='bsPRnx'>
+	<h1 class='thin' style='text-align: center'>Subnero M2M series modems</h1>
 	<div class='eyXpDN'>
 		<div class='cmXrEt'>
 			<h1 class='thin' style='text-align: center'>Platinum Edition</h1>
@@ -28,11 +29,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MPE3" %}
+  						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mpn3-thumbnail.jpg" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Node Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
@@ -43,11 +44,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MPN3" %}
+  						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mps3-thumbnail.jpg" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
@@ -58,11 +59,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MPS3" %}
+  						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mpe3-thumbnail.jpg" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Embedded Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
@@ -78,11 +79,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MSE3" %}
+  						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25msn3-thumbnail.jpg" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Node Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
@@ -93,11 +94,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MSN3" %}
+  						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mss3-thumbnail.jpg" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
@@ -108,11 +109,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MSS3" %}
+  						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mse3-thumbnail.jpg" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Embedded Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
@@ -128,11 +129,11 @@ section_id: products
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
-  						{% if page.title contains "WNC-M25MRS3" %}
+  						{% if page.title contains "Research Edition Modems" %}
 				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
 				          	<div class='content'>
-				            <h3 style="text-transform: none;">{{site.baseurl}}{{page.title}}</h3>
+				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
 				        </div>
 				        {% endif %}
