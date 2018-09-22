@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 
-banner : images/banner-products.jpg
+title: Subnero M2M series modems
+banner : images/banner-pulse-unet.jpg
 thumbnail: images/thumbnail-products.jpg
 categories: underwatermodem
 section_id: products
