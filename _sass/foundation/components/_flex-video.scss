@@ -47,7 +47,7 @@ $flex-video-widescreen-padding-bottom: 56.34% !default;
 div.video-wrapper iframe{
   display: block;
   margin: auto;
-
+  margin-bottom: $flex-video-margin-bottom;
 }
 
 @include exports("flex-video") {

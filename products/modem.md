@@ -1,0 +1,149 @@
+---
+layout: default
+title: 
+banner : images/products-banner.jpg
+thumbnail: images/products-thumbnail.jpg
+categories: underwatermodem
+section_id: products
+---
+
+<div class='full tall parallax' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='four spacing'></div>
+</div>
+
+<!--<div class='full' style='background:#F5F5F5'>-->
+<div class='cGBxoB'>
+<section class='bsPRnx'>
+	<h1 class='thin' style='text-align: center'>Subnero M2M series modems</h1>
+	<div class='eyXpDN'>
+		<div class='cmXrEt'>
+			<h1 class='thin' style='text-align: center'>Platinum Edition</h1>
+			<ul class="gfXsQG">
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Platinum Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mpn3-thumbnail.jpg" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Node Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Platinum Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mps3-thumbnail.jpg" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Surface Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Platinum Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mpe3-thumbnail.jpg" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Embedded Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class='cmXrEt'>
+			<h1 class='thin' style='text-align: center'>Silver Edition</h1>
+			<ul class="gfXsQG">
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Silver Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25msn3-thumbnail.jpg" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Node Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Silver Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mss3-thumbnail.jpg" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Surface Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Silver Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/wnc-m25mse3-thumbnail.jpg" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Embedded Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class='cmXrEt'>
+			<h1 class='thin' style='text-align: center'>Research Edition</h1>
+			<ul class="gfXsQG">
+				<li class="fuqHMA">
+					<div class="hOXnHC">
+						{% assign product_pages = site.pages | where:"categories","modem" %}
+  						{% for page in product_pages %}
+  						{% if page.title contains "Research Edition Modems" %}
+				        <div class='mod modBlogPost'>
+				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				          	<div class='content'>
+				            <h3 style="text-transform: none;">Surface Configuration</h3>
+				          </div></a>
+				        </div>
+				        {% endif %}
+				        {% endfor %}
+					</div>
+				</li>
+				<li class="fuqHMA"></li>
+				<li class="fuqHMA"></li>
+			</ul>
+		</div>
+	</div>
+</section>
+</div>
