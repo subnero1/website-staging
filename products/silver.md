@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Silver Edition Modems
-banner : images/banner-wnc-m25mss3.jpg
+banner : images/banner-silver.jpg
 thumbnail : images/thumbnail-wnc-m25mss3.jpg
 excerpt:
   Silver edition modems are the workhorse communication nodes for use in general commercial deployments
@@ -9,7 +9,49 @@ categories: modem
 section_id: products
 ---
 
-WNC-M25MSS3 is a silver edition underwater modem in surface (gateway) configuration. This modem is the workhorse communication node to be used in the general commercial deployments with larger range and depth-rating when compared to the research edition modem. A modem in the surface configuration operates on external power source and can be deployed from the surface.  This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily. The applications can be develeoped using a [simulator]({{ site.baseurl }}{link products/unetsim.md}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{link products/unetstack.md}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
+Subnero's silver edition underwater modem is the workhorse communication node to be used in the general commercial deployments with larger range and depth-rating when compared to the research edition modem. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+
+<div class='full' style='background: #f5f5f5'>
+	<div class ='product' style='width:98.7%'>
+		<img alt="" src="{{site.baseurl}}/images/boxart-wnc-m25msn3.jpg"/>
+		<div class='small-3 columns'>     
+		</div>
+		<div class='small-8 columns'>
+			<div class='content'>
+				<h3 style="text-transform: none;">Node Configuration</h3>
+				<p>A modem in the node configuration operates on batteries and can be deployed in a standalone mode.</p>
+			</div>
+		</div>
+	</div>
+
+
+  <div class ='product' style='background:#F5F5F5;'>
+  		<div class='small-8 columns'>
+  			<div class='content'>
+  				<h3 style="text-transform: none;">Surface Configuration</h3>
+  				<p>A modem in the surface configuration operates on external power source and can be deployed from the surface.</p>
+  			</div>
+  		</div>
+  		<div class='small-3 columns'>
+  			<img style='float:right;margin-bottom: 0 auto' alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mss3.png"/>
+  		</div>
+  </div> 
+
+  <div class ='product' style='width:98.7%;'>
+  		<img class='img-rounded' alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse3.jpg"/>
+  		<div class='small-3 columns'>      
+  		</div>
+  		<div class='small-8 columns'>
+  			<div class='content'>
+  				<h3 style="text-transform: none;">Embedded Configuration</h3>
+  				<p>Designed with ease of integration and flexibilty as the primary focus, this modem is ideal for integration to underwater platforms (AUVs, ROVs).</p>
+  			</div>
+  		</div>
+  </div>
+</div>
+
+The applications can be develeoped using a [simulator]({{ site.baseurl }}{link products/unet.md}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{link products/unetstack.md}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
+
 
 ## Technical specifications
 

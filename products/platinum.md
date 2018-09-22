@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Platinum Edition Modems
-banner : images/banner-wnc-m25mpn3.jpg
+banner : images/banner-platinum.jpg
 thumbnail : images/thumbnail-wnc-m25mpn3.jpg
 excerpt:
   Platinum edition modems delivering performance under the toughest environmental conditions
