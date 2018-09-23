@@ -6,7 +6,7 @@ banner : images/banner-products.jpg
 
 <div class='full' style='background: #f5f5f5'>
 
-  {% assign product_pages = site.pages | where:"categories","unet" %}
+  {% assign product_pages = site.pages | where:"categories","underwatermodem" %}
   {% for page in product_pages %}
   <div class ='product' style='width:98.7%'>
   <a href="{{site.baseurl}}{{page.url}}">
@@ -15,22 +15,22 @@ banner : images/banner-products.jpg
     </div>
     <div class='small-8 columns'>
     <div class='content'>
-    <h3 style="text-transform: none;">Underwater Network Stack & Simulator</h3>
-    <p>An agent-based software stack and simulator for underwater networks</p>
+    <h3 style="text-transform: none;">Wireless Networked Communications</h3>
+    <p>Software defined underwater acoustic modems for networking, navigation and sensing.</p>
     </div>
   </div>
   </a>
   </div>
   {% endfor %}
 
-  {% assign product_pages = site.pages | where:"categories","underwatermodem" %}
+  {% assign product_pages = site.pages | where:"categories","unet" %}
   {% for page in product_pages %}
   <div class ='product' style='background:#F5F5F5;'>
     <a href="{{site.baseurl}}{{page.url}}"> 
     <div class='small-8 columns'>
     <div class='content'>
-    <h3 style="text-transform: none;">Wireless Networked Communications</h3>
-    <p>Software defined underwater acoustic modems for networking, navigation and sensing.</p>
+    <h3 style="text-transform: none;">Underwater Network Stack & Simulator</h3>
+    <p>An agent-based software stack and simulator for underwater networks.</p>
     </div>
     </div>
     <div class='small-3 columns'>
