@@ -6,6 +6,8 @@ date:  2014-03-13
 categories: sauvc
 ---
 
+The Singapore autonomous underwater vehicle (SAUVC) challenge is back.
+
 #### What
 
 Students from around the world undertake the challenge of building an underwater vehicle that has to perform a set of tasks autonomously. Tasks include following a path, dropping a ball in a bucket, bumping a flare and locating the exit which is demarcated with two acoustic pingers. All this has to be done without surfacing or touching the floor.

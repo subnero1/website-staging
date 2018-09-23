@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Edition Modems
-banner : images/banner-wnc-m25mrs3.jpg
+banner : images/banner-research.jpg
 thumbnail : images/thumbnail-wnc-m25mrs3.jpg
 excerpt:
   Research edition modems aimed directly at academic researchers and underwater technology enthusiasts
@@ -12,6 +12,7 @@ section_id: products
 WNC-M25MRS3 is a research edition underwater modem suitable for the academic researchers and underwater technology enthusiasts. These modems provide a flexible platform with a substantial computing power packed into a compact form factor. Our research edition modems are designed to bridge the gap between developing applications using a [simulator]({{ site.baseurl }}{link products/unet.md}) and high-end commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily. The modem runs the [UnetStack]({{ site.baseurl }}{link products/unet.md}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
 
 ## Technical specifications
+{: .centered-text}
 
 |  Specification                |  Details                                                                             |
 | ------------------------------| -------------------------------------------------------------------------------------|

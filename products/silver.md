@@ -19,6 +19,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 		<div class='small-8 columns'>
 			<div class='content'>
 				<h3 style="text-transform: none;">Node Configuration</h3>
+        <h4 style="text-transform: none;">WNC-M25MSN3</h4>
 				<p>A modem in the node configuration operates on batteries and can be deployed in a standalone mode.</p>
 			</div>
 		</div>
@@ -29,6 +30,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   		<div class='small-8 columns'>
   			<div class='content'>
   				<h3 style="text-transform: none;">Surface Configuration</h3>
+          <h4 style="text-transform: none;">WNC-M25MSS3</h4>
   				<p>A modem in the surface configuration operates on external power source and can be deployed from the surface.</p>
   			</div>
   		</div>
@@ -44,6 +46,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   		<div class='small-8 columns'>
   			<div class='content'>
   				<h3 style="text-transform: none;">Embedded Configuration</h3>
+          <h4 style="text-transform: none;">WNC-M25MSE3</h4>
   				<p>Designed with ease of integration and flexibilty as the primary focus, this modem is ideal for integration to underwater platforms (AUVs, ROVs).</p>
   			</div>
   		</div>
@@ -54,6 +57,7 @@ The applications can be develeoped using a [simulator]({{ site.baseurl }}{link p
 
 
 ## Technical specifications
+{: .centered-text}
 
 |  Specification                |  Details                                                                             |
 | ------------------------------| -------------------------------------------------------------------------------------|

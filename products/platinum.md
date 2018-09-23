@@ -2,7 +2,7 @@
 layout: post
 title: Platinum Edition Modems
 banner : images/banner-platinum.jpg
-thumbnail : images/thumbnail-wnc-m25mpn3.jpg
+thumbnail : images/thumbnail-wnc-m25mps3.jpg
 excerpt:
   Platinum edition modems delivering performance under the toughest environmental conditions
 categories: modem
@@ -19,6 +19,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 		<div class='small-8 columns'>
 			<div class='content'>
 				<h3 style="text-transform: none;">Node Configuration</h3>
+        <h4 style="text-transform: none;">WNC-M25MPN3</h4>
 				<p>A modem in the node configuration operates on batteries and can be deployed in a standalone mode.</p>
 			</div>
 		</div>
@@ -29,6 +30,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
   		<div class='small-8 columns'>
   			<div class='content'>
   				<h3 style="text-transform: none;">Surface Configuration</h3>
+          <h4 style="text-transform: none;">WNC-M25MPS3</h4>
   				<p>A modem in the surface configuration operates on external power source and can be deployed from the surface.</p>
   			</div>
   		</div>
@@ -44,6 +46,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
   		<div class='small-8 columns'>
   			<div class='content'>
   				<h3 style="text-transform: none;">Embedded Configuration</h3>
+          <h4 style="text-transform: none;">WNC-M25MPE3</h4>
   				<p>Designed with ease of integration and flexibilty as the primary focus, this modem is ideal for integration to underwater platforms (AUVs, ROVs).</p>
   			</div>
   		</div>
@@ -52,7 +55,9 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 
 The applications can be develeoped using a [simulator]({{ site.baseurl }}{link products/unet.md}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{link products/unetstack.md}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
 
-## Technical specifications
+## Technical Specifications
+{: .centered-text}
+
 
 |  Specification                |  Details                                                                             |
 | ------------------------------| -------------------------------------------------------------------------------------|
@@ -77,6 +82,7 @@ The applications can be develeoped using a [simulator]({{ site.baseurl }}{link p
 |  Bandwidth                    |  16 kHz (nominal)                                                                    |
 |  Source level                 |  max. 185 dB re 1 μPa @ 1 m (rms)                                                    |
 |  Modulation (software-defined)|  PSK-OFDM, incoherent OFDM, FH-BFSK, JANUS (subject to operating frequency band)     |
+
 
 
 Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html).
