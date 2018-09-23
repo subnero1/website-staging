@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Research Edition Modems
 banner : images/banner-research.jpg
 thumbnail : images/thumbnail-wnc-m25mrs3.jpg

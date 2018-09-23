@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Platinum Edition Modems
 banner : images/banner-platinum.jpg
 thumbnail : images/thumbnail-wnc-m25mps3.jpg

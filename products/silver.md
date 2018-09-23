@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Silver Edition Modems
 banner : images/banner-silver.jpg
 thumbnail : images/thumbnail-wnc-m25mss3.jpg
