@@ -47,5 +47,5 @@ While our products are flexible enough to meet most client requirements, there a
 
 Featured customized solutions:
 
-- [Underwater modem with a secondary data acquisition system]({{ site.baseurl }}{_posts/2017-12-12-Underwater-modem-with-multiple-hydrophones.md})
-- [Underwater acoustic recorder]({{ site.baseurl }}{_posts/2015-02-20-aRecorder.md})
+- [Underwater modem with a secondary data acquisition system]({{site.baseurl}}{%link _posts/2017-12-12-Underwater-modem-with-multiple-hydrophones.md %})
+- [Underwater acoustic recorder]({{site.baseurl}}{%link _posts/2015-02-20-aRecorder.md %})

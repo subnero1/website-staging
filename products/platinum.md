@@ -53,11 +53,10 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
   </div>
 </div>
 
-The applications can be develeoped using a [simulator]({{ site.baseurl }}{link products/unet.md}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{link products/unetstack.md}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
+The applications can be develeoped using a [simulator]({{ site.baseurl }}{%link products/unet.md %}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{%link products/unetstack.md %}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
 
 ## Technical Specifications
 {: .centered-text}
-
 
 |  Specification                |  Details                                                                             |
 | ------------------------------| -------------------------------------------------------------------------------------|
@@ -82,7 +81,6 @@ The applications can be develeoped using a [simulator]({{ site.baseurl }}{link p
 |  Bandwidth                    |  16 kHz (nominal)                                                                    |
 |  Source level                 |  max. 185 dB re 1 μPa @ 1 m (rms)                                                    |
 |  Modulation (software-defined)|  PSK-OFDM, incoherent OFDM, FH-BFSK, JANUS (subject to operating frequency band)     |
-
 
 
 Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html).
