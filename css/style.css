@@ -4197,7 +4197,7 @@ list-style-type: disc;
     text-align: justify;
     font-size: 100%;
     font-weight: 400;
-    color: #333333;
+    color: #FFFFFF;
     line-height: 170%;
 }
 
@@ -4208,12 +4208,7 @@ list-style-type: disc;
 
 .direct h2{
     margin-left: -5px;
-    font-size:1.5em;
-    text-decoration: underline;
-}
-
-.direct a:hover {
-  color: #E6782F;
+    font-size:1.6em;
 }
 
 .contacts {
@@ -4241,7 +4236,7 @@ list-style-type: disc;
 
 .col2 {
     float: left;
-    width: 25%;
+    width: 60%;
     margin-left: 3%;
     text-align: left;
     margin: 20px;
