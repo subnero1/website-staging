@@ -23,10 +23,11 @@ banner: images/banner-contact.jpg
 	</div>
 	</div>
 	    <div class="col2">
-	<img src="/images/map.png">
+	<img src="{{site.baseurl}}/images/map.png">
         <a href="https://www.google.com/maps/place/21+Heng+Mui+Keng+Terrace,Singapore" target="_blank">View Larger Map</a>
 	</div>
 </div>
+
 
 <!-- This script is for hiding and showing the directions-->
 <script language="javascript">
