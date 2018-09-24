@@ -67,12 +67,10 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
   		</div>
   </div>
 </div>
-<div class='four spacing'></div>
-<div class='four spacing'></div>
-<div class='four spacing'></div>
+<div class='two spacing'></div>
+
 
 ## Comparison with other methods
-{: .centered-text}
 
 |                 |  SWAN |   Manual |   Fixed buoy |  AUV |
 | --------------- | ----- | -------- | ------------ | ---- |
@@ -87,7 +85,6 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
 <div class='two spacing'></div>
 
 ## Technical specifications
-{: .centered-text}
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
