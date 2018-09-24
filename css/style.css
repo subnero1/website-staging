@@ -4189,7 +4189,72 @@ list-style-type: disc;
 -webkit-padding-start: 40px;
 }
 
+.direct {
+    width: 100%;
+    clear: both;
+    text-align: justify;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: 400;
+    color: #333333;
+    line-height: 170%;
+}
 
+.direct ul {
+    margin-left: 12px;
+    color: #999;
+}
+
+.direct h2{
+    margin-left: -5px;
+    font-size:1.5em;
+    text-decoration: underline;
+}
+
+.direct a:hover {
+  color: #E6782F;
+}
+
+.contacts {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col1 {
+    width: 35%;
+    float: left;
+    margin-left: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.col1 img {
+    float: left;
+    margin-left: 0px;
+}
+
+.col1 a {
+    float: left;
+}
+
+.col2 {
+    float: left;
+    width: 25%;
+    margin-left: 3%;
+    text-align: left;
+    margin: 20px;
+}
+
+.col2 img {
+    float: left;
+}
+
+.col3 {
+    float: left;
+    width: 35%;
+}
 
 
 
