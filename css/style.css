@@ -3657,7 +3657,7 @@ p.small-title {
   letter-spacing:4px;
   font-size:14px;
   font-weight:700;
-  font-family:Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .fullscreen .layer h1 {
@@ -3998,7 +3998,7 @@ p.small-title {
 .product{
   background:#ffffff;
   min-height: 249px;
-  
+
   img{
     margin-left:0 auto;
     min-height: 170px;
