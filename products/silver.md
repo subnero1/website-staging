@@ -53,11 +53,12 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   </div>
 </div>
 
+<div class='two spacing'></div>
+
 The applications can be develeoped using a [simulator]({{ site.baseurl }}{%link products/unet.md %}) before the commercial deployments. The modem runs the [UnetStack]({{ site.baseurl }}{%link products/unetstack.md %}) underwater networking stack, and provides a wide-range of functionality such as data transmission, navigation, time synchronization, and networked operations.
 
 
 ## Technical specifications
-{: .centered-text}
 
 |  Specification                |  Details                                                                             |
 | ------------------------------| -------------------------------------------------------------------------------------|
