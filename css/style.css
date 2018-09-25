@@ -814,6 +814,10 @@ ul.shortcode-list i {
   color: #333;
 }
 
+.top-bar img{
+  margin-bottom: 10px;
+}
+
 .contain-to-grid {
   -moz-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
