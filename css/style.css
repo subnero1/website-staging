@@ -854,11 +854,14 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar {
+  margin-left: 50px;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+
+
 .contain-to-grid .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
   -moz-transition-property: all;
   -o-transition-property: all;
