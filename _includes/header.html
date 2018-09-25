@@ -3,7 +3,7 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href='{{site.baseurl}}index.html'>
+          <a href='{{site.baseurl}}/index.html'>
             <img alt="" src="{{site.baseurl}}/images/subnero_logo_small.png" />
           </a>
         </h1>
@@ -23,11 +23,11 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.baseurl}}{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.baseurl}}{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.baseurl}}/{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
