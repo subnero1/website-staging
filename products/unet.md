@@ -15,7 +15,7 @@ UnetStack is a flexible agent-based underwater network stack that allows softwar
 
 ![UnetStack]({{site.baseurl}}/images/unetstack.png){: .center-image  }
 
-UnetStack consists of a collection of software agents that provide [well-defined services](https://www.unetstack.net/agent-ref.html). This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed.
+UnetStack consists of a collection of software agents that provide [well-defined services](https://www.unetstack.net/agent-ref.html){:target="_blank"}. This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed.
 
 UnetStack defines commonly needed agents with services, messages, capabilities and parameters. The stack is extensible, allowing agents to provide additional services that may be used by other agents for the development of optimized network protocols. Although the stack focuses on underwater networks, it allows wired and wireless radio links to be included as part of the network.
 
@@ -30,11 +30,11 @@ The UnetSim underwater network simulator enables a network engineer to simulate 
 
 Essentially, once a protocol is developed and tested in simulation, it is ready to be deployed and tested at sea in any UnetStack-compatible modem.
 
-The simulator is available free-of-charge for download from [www.unetstack.net](https://www.unetstack.net/downloads.html).
+The simulator is available free-of-charge for download from [www.unetstack.net](https://www.unetstack.net/downloads.html){:target="_blank"}.
 
 ## How does it work?
 
-A simple script written in a [domain-specific language](https://www.unetstack.net/simulation-dsl.html) (DSL) allows users to describe a simulation scenario in a natural way. This significantly reduces the barrier to entry for new users. A sample simulation DSL script is shown below:
+A simple script written in a [domain-specific language](https://www.unetstack.net/simulation-dsl.html){:target="_blank"} (DSL) allows users to describe a simulation scenario in a natural way. This significantly reduces the barrier to entry for new users. A sample simulation DSL script is shown below:
 
 ```java
 channel.soundSpeed = 1500.mps
@@ -52,4 +52,4 @@ simulate 1.hour, {
 
 The simulator is highly customizable, with the ability to support user-defined modem behavioral models, physics-based channel models, various motion models, customized trace file formats, etc.
 
-Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html).
+Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html){:target="_blank"}.

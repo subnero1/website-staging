@@ -83,4 +83,4 @@ The applications can be develeoped using a [simulator]({{ site.baseurl }}{%link 
 |  Modulation (software-defined)|  PSK-OFDM, incoherent OFDM, FH-BFSK, JANUS (subject to operating frequency band)     |
 
 
-Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html).
+Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html){:target="_blank"}.
