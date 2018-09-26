@@ -854,7 +854,6 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar {
-  margin-left: 50px;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -4257,6 +4256,7 @@ list-style-type: disc;
     float: left;
     width: 35%;
 }
+
 
 
 
