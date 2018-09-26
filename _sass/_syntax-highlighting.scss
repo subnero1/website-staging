@@ -30,6 +30,7 @@ figure.highlight {
     background: $base00;
     color: $base05;
     line-height: 1.8;
+    overflow-x: scroll;
     > pre,
     pre.highlight {
         margin: 0;
@@ -50,6 +51,7 @@ div.highlighter-rouge{
     background: #EEE;
     color: $base05;
     line-height: 1.8;
+    overflow-x: scroll;
     > pre,
     pre.highlight {
         margin: 0;
