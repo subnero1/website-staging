@@ -22,7 +22,7 @@ title_color : "#E6782F"
       </p>
       <h3 style="text-transform: none;"><a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a></h3>
       {% if isnews %}
-      <h5 style="text-transform: none;">From <a href="{{post.source}}">{{post.source}}</a> </h5>
+      <h5 style="text-transform: none;">From <a target="_blank" href="{{post.source}}">{{post.source}}</a> </h5>
       {% else %}
       <p>{{post.excerpt}}</p>
       <a class="button small" href="{{site.baseurl}}{{post.url}}">Read more</a>
