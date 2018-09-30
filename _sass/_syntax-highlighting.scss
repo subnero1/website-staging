@@ -2,7 +2,7 @@
 
 // ==========================================================================
 //   Syntax highlighting
-// ========================================================================== 
+// ==========================================================================
 
 // base16 Material Theme
 $base00: #263238 !default;  // Default Background
@@ -37,12 +37,11 @@ figure.highlight {
         padding: 1em
     }
     >code,
-    .highlight code{ 
+    .highlight code{
         background-color: $base00;
         border:0;
+        padding: unset;
     }
-
-
 }
 
 div.highlighter-rouge{
@@ -58,7 +57,7 @@ div.highlighter-rouge{
         padding: 1em
     }
     >code,
-    .highlight code{ 
+    .highlight code{
         background-color: #EEE;
         border:0;
     }
@@ -104,7 +103,7 @@ code.highlighter-rouge{
 .highlight .hll{ background-color:$base00}
 
 
-.highlight{ 
+.highlight{
  .c{ /* Comment */ color:$base04}
  .err{ /* Error */ color:$base08}
  .k{ /* Keyword */ color:$base0e}
@@ -193,27 +192,27 @@ code.highlighter-rouge{
             text-align: center;
         }
     }
-    
-    
+
+
 }
 
 .dataframe thead tr {
     :nth-child(n+2) {
         color: black;
         //width: 100px;
-        
+
         font-size: 0.75em;
         text-align: center !important;
         border-top: 0;
         border-left: 0;
         border-right: 0;
     }
-    
+
     :first-child {
         border-top: 0;
         border-left: 0;
     }
-    
+
 }
 
 table.dataframe {
