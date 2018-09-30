@@ -10,7 +10,7 @@ categories:
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.
 
-![Underwater Networking]({{site.baseurl}}/images/pulse-captnemo.jpg)
+![Underwater Networking]({{site.baseurl}}/images/pulse-captnemo.jpg){: .center-image }
 
 While nodes in water are by no means new, the ability to connect these aquatic denizens - submarines, autonomous underwater vehicles (AUVs), sensing elements etc. via a network is now being recognized as a key planning element by defense &amp; homeland security agencies, water utilities- and commercial entities in a variety of industries that deal with in-water solutions.
 
