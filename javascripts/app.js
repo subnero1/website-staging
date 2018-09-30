@@ -69,49 +69,6 @@ jQuery(document).foundation();
       });
     }
 
-    $('form#contact_form').validate({
-      messages: { },
-      submitHandler: function(form) {
-        $.ajax({
-          type: 'POST',
-          url: 'send.php',
-          data: $(form).serialize(),
-          success: function(data) {
-            if(data.match(/success/)) {
-              $(form).trigger('reset');
-              $('#thanks').show().fadeOut(5000);
-            }
-          }
-        });
-        return false;
-      }
-    });
-
-    if($('.masonry-container').length > 0) {
-
-      $('.masonry-container').each(function() {
-        var that = $(this);
-
-        // initialize Masonry after all images have loaded
-        $(that).imagesLoaded(function() {
-
-          setTimeout(function() {
-            window.msnry = new Masonry($(that)[0], {
-              itemSelector: '.mod',
-              // columnWidth: '.mod',
-              gutter: 30
-            });
-
-            // window.msnry.layout();
-
-          }, 10);
-
-        });
-
-      });
-    }
-
-
     // onepage nav scroll
     if ( $("nav.top-bar.onepage").length > 0 ) {
       $('.top-bar-section a[href=#top]').closest('li').addClass('active');
