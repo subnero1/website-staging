@@ -827,10 +827,14 @@ ul.shortcode-list i {
   height: 60px;
   line-height: 60px;
 }
-.contain-to-grid .top-bar-section ul li {
+.contain-to-grid .top-bar-section ul li a:hover{
   background: transparent;
+  color:#FF8C00;
 }
-
+.f-topbar-fixed .transparent.white.fixed.contain-to-grid .top-bar-section ul li a:hover{
+  background: transparent;
+  color:#FF8C00;
+}
 .contain-to-grid.shadowless {
   height: auto;
   -moz-box-shadow: none;
@@ -3045,6 +3049,7 @@ form input.error, form textarea.error {
 }
 body {
   overflow-y: scroll;
+  background-color: black;
 }
 
 .modMasonryGallery .gallery-nav {
@@ -3627,6 +3632,9 @@ body {
   overflow:hidden;
 }
 
+fullscreen:not(.loaded){
+  display:none;}
+
 #fullscreen-video {
   width:100%;
   height:100%;
@@ -3754,7 +3762,7 @@ p.small-title {
   margin-top: -100px;
 }
 
-.f-topbar-fixed {
+.f-topbar-fixed{
     padding-top: 100px;
 }
 
@@ -4265,4 +4273,10 @@ list-style-type: disc;
   overflow-y: scroll;
 }
 
-
+.jumbotron {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  margin: 100px 0px;
+}
