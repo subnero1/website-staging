@@ -40,9 +40,17 @@ section_id: home
   </div>
   <div id="main" role="main" class="top-shift">
     <div class="full no-padding">
-    <div class="fullscreen">
-      {% assign randomNumber = "now" | date: "%N" | modulo: 7 | plus: 1 %}
-      <img id="fullscreen-video" src="images/lp{{randomNumber}}.jpg">
+    <div class="fullscreen" onload="document.body.classList.add('loaded')">
+      <img id="fullscreen-video">
+      <script>
+      var images =['lp1.jpg', 'lp2.jpg', 'lp3.jpg','lp4.jpg','lp5.jpg','lp6.jpg','lp7.jpg'];
+      var maxImages = images.length;
+      var rand = Math.floor(Math.random() * maxImages);
+      var image = images[rand];
+      console.log(image);
+
+      document.getElementById('fullscreen-video').src = "images/"+image;
+      </script>
       <div class="overlay"></div>
       <div class="layer">
         <h1 class="thin" id="to-be-update">The future of <br> underwater wireless</h1>
