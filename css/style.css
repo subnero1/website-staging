@@ -3049,7 +3049,6 @@ form input.error, form textarea.error {
 }
 body {
   overflow-y: scroll;
-  background-color: black;
 }
 
 .modMasonryGallery .gallery-nav {
