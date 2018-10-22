@@ -37,3 +37,9 @@ WNC-M25MRS3 is a research edition underwater modem suitable for the academic res
 
 
 Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html){:target="_blank"}.
+
+<h2>Brochures</h2>
+<div class="brochure-container">
+  <a href="{{site.baseurl}}/brochures/subnero-modem.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem.jpg"></a>
+  <a class="brochure-text" href="{{site.baseurl}}/brochures/subnero-modem.pdf">Subnero Underwater Modems</a>
+</div>

@@ -53,3 +53,9 @@ simulate 1.hour, {
 The simulator is highly customizable, with the ability to support user-defined modem behavioral models, physics-based channel models, various motion models, customized trace file formats, etc.
 
 Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html){:target="_blank"}.
+
+<h2>Brochures</h2>
+<div class="brochure-container">
+  <a href="{{site.baseurl}}/brochures/unetstack.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack.jpg"></a>
+  <a class="brochure-text" href="{{site.baseurl}}/brochures/unetstack.pdf">UnetStack</a>
+</div>

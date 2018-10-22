@@ -3049,7 +3049,6 @@ form input.error, form textarea.error {
 }
 body {
   overflow-y: scroll;
-  background-color: #2857a3;
 }
 
 .modMasonryGallery .gallery-nav {
@@ -4366,4 +4365,24 @@ border-image-width: initial;
 border-image-outset: initial;
 border-image-repeat: initial;
 background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.498039) 100%);
+}
+
+div.brochure-container {
+    display:flex;
+    justify-content:
+    flex-start;
+    align-items: center;
+}
+
+img.brochure-thumb{
+    max-height: 100px;
+    margin: 10px;
+}
+
+a.brochure-text{
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #d5641a;
+    font-size: 1.2em;
 }

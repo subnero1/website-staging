@@ -99,3 +99,13 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
 | Dimensions (base, including thrusters) | 70 × 40 × 40 cm                           |
 | Weight (typical)                       | 12 kg                                     |
 | Additional accessories                 | Battery charger, storage stand            |
+
+<h3>Brochures</h3>
+<div class="brochure-container">
+  <a href="{{site.baseurl}}/brochures/subnero-swan.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan.jpg"></a>
+  <a class="brochure-text" href="{{site.baseurl}}/brochures/subnero-swan.pdf">Subnero Water Assessment Network (SWAN)</a>
+</div>
+<div class="brochure-container">
+  <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan.jpg"></a>
+  <a class="brochure-text" href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf">Subnero Water Assessment Network (SWAN) (Chinese)</a>
+</div>
