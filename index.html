@@ -43,11 +43,12 @@ section_id: home
     <div class="fullscreen" onload="document.body.classList.add('loaded')">
       <img id="fullscreen-video">
       <script>
-        var id;
+        var numImages = 12;
         if (window.location.hash &&  parseInt(window.location.hash.substring(1))){
-          id =  parseInt(window.location.hash.substring(1));
-        }else{
-          id = Math.floor(Math.random() * 7)+1;
+          var id =  parseInt(window.location.hash.substring(1));
+        }
+        if (!id || id > numImages){
+          id = Math.floor(Math.random() * numImages)+1;
         }
         document.getElementById('fullscreen-video').src = "images/lp"+id+".jpg";
       </script>
