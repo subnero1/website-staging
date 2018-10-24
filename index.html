@@ -43,13 +43,13 @@ section_id: home
     <div class="fullscreen" onload="document.body.classList.add('loaded')">
       <img id="fullscreen-video">
       <script>
-      var images =['lp1.jpg', 'lp2.jpg', 'lp3.jpg','lp4.jpg','lp5.jpg','lp6.jpg','lp7.jpg','lp8.jpg','lp9.jpg','lp10.jpg','lp11.jpg','lp12.jpg'];
-      var maxImages = images.length;
-      var rand = Math.floor(Math.random() * maxImages);
-      var image = images[rand];
-      console.log(image);
-
-      document.getElementById('fullscreen-video').src = "images/"+image;
+        var id;
+        if (window.location.hash &&  parseInt(window.location.hash.substring(1))){
+          id =  parseInt(window.location.hash.substring(1));
+        }else{
+          id = Math.floor(Math.random() * 7)+1;
+        }
+        document.getElementById('fullscreen-video').src = "images/lp"+id+".jpg";
       </script>
       <div class="overlay"></div>
       <div class="layer">
