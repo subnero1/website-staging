@@ -7,7 +7,7 @@ categories: underwatermodem
 section_id: products
 ---
 
-<div class='full tall parallax' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+<div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
       <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->

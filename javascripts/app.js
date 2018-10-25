@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 jQuery(document).foundation();
 
 
-(function($) {
+/*(function($) {
   "use strict";
   $(document).ready(function() {
 
@@ -58,7 +58,7 @@ jQuery(document).foundation();
     // });
 
     // Shrink top bar on all pages except landing page
-    if ($('#fullscreen-video').length == 0){
+    /*if ($('#fullscreen-video').length == 0){
       $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if ( scroll >= 40 ) {
@@ -67,10 +67,10 @@ jQuery(document).foundation();
           $('body').removeClass('shrink');
         }
       });
-    }
+    }*/
 
     // onepage nav scroll
-    if ( $("nav.top-bar.onepage").length > 0 ) {
+    /*if ( $("nav.top-bar.onepage").length > 0 ) {
       $('.top-bar-section a[href=#top]').closest('li').addClass('active');
 
       var ctx = $("nav.top-bar.onepage");
@@ -141,5 +141,5 @@ jQuery(document).foundation();
 
 
   });
-})(jQuery);
+})(jQuery);*/
 
