@@ -29,10 +29,6 @@ Our underwater modems can not only be used for communication, but also for under
 
 ## In-water monitoring & sensing
 
-<div class="video-wrapper">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/ea0CNGSMBU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
 To safeguard and manage freshwater resources, effective spatial and temporal water sampling techniques are needed. Typical manual sampling used by environmental and water utility agencies is very labor-intensive and usually too sparse to capture contamination events in a timely manner. Fixed sensing buoys are able to provide real-time data but incapable of providing spatial coverage. Traditionally available AUVs are able to provide spatial coverage, but are economically and logistically expensive to operate.
 
 The [Subnero Water Assessment Network]({{ site.baseurl }}{% link products/swan.md %}) (SWAN) contains scalable, minimally propelled autonomous platforms that can carry in-situ water quality probes and operate with minimal manual support. These mobile nodes are equipped with navigation, sensing and real-time data transmission capabilities. They can autonomously execute missions provided by users and perform vertical profiling of the water column at points of interest. Users are then able to access the data and refine missions in real-time.
