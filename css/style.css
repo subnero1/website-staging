@@ -1114,7 +1114,7 @@ form input.error, form textarea.error {
 
 /*Sidebar */
 .links {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .links ul {
   margin: 0;
@@ -1154,10 +1154,16 @@ form input.error, form textarea.error {
 #footer ul a:hover {
   color: #eee;
 }
+#footer .socials{
+  display: flex;
+  justify-content: flex-end
+  margin-right: 15px;
+}
 #footer ul.socials li {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
+  list-style: none;
 }
 #footer ul.socials i {
   width: 40px;
@@ -1170,6 +1176,7 @@ form input.error, form textarea.error {
   text-align: center;
   font-size: 1.25rem;
   line-height: 3rem;
+  margin-right: 10px;
 }
 #footer ul.socials a:hover i {
   -moz-transition: all 0.2s linear;
