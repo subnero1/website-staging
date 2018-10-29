@@ -1114,7 +1114,7 @@ form input.error, form textarea.error {
 
 /*Sidebar */
 .links {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .links ul {
   margin: 0;
