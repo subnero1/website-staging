@@ -13,7 +13,7 @@ banner : images/banner-support.jpg
 	<div class="spacing">
 	</div>
 	<div class="brochure-container">
-		<a  href="{{site.baseurl}}/brochures/subnero-highspeedmodem.pdf" style="font-size: 1.2em;">2. Subnero High Speed Modem Co-processor User Manual</a>
+		<a  href="{{site.baseurl}}/brochures/subnero-highspeedmodem.pdf" style="font-size: 1.2em;">2. Subnero Underwater Modem Co-processor User Manual</a>
 	</div>
 	<div class="spacing">
 	</div>
