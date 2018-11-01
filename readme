@@ -2,6 +2,8 @@
 
 > The future of underwater wireless
 
+[![Build Status](https://travis-ci.com/subnero1/subnero1.github.io.svg?branch=master)](https://travis-ci.com/subnero1/subnero1.github.io)
+
 ## Install
 
 1. clone the project: `git clone git@github.com:subnero1/website.git && cd website`
