@@ -57,5 +57,5 @@ Detailed documentation is available on the [UnetStack documentation page](https:
 <h2>Brochures</h2>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/unetstack.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/unetstack.pdf" style="font-size: 1.2em;">UnetStack</a>
+  <a href="{{site.baseurl}}/brochures/unetstack.pdf" target="_blank" style="font-size: 1.2em;">UnetStack</a>
 </div>

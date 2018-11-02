@@ -88,9 +88,9 @@ Detailed documentation is available on the [UnetStack documentation page](https:
 <h2>Brochures</h2>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/subnero-modemforauv.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/auv.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/subnero-modemforauv.pdf" style="font-size: 1.2em;">Subnero Underwater Modems for AUVs</a>
+  <a href="{{site.baseurl}}/brochures/subnero-modemforauv.pdf" target="_blank" style="font-size: 1.2em;">Subnero Underwater Modems for AUVs</a>
 </div>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/subnero-modem.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/subnero-modem.pdf" style="font-size: 1.2em;">Subnero Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/subnero-modem.pdf" target="_blank" style="font-size: 1.2em;">Subnero Underwater Modems</a>
 </div>

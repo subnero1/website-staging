@@ -41,5 +41,5 @@ Detailed documentation is available on the [UnetStack documentation page](https:
 <h2>Brochures</h2>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/subnero-modem.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/subnero-modem.pdf" style="font-size: 1.2em;">Subnero Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/subnero-modem.pdf" target="_blank" style="font-size: 1.2em;">Subnero Underwater Modems</a>
 </div>

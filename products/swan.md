@@ -103,9 +103,9 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
 ## Brochures
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/subnero-swan.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/subnero-swan.pdf" style="font-size: 1.2em;">Subnero Water Assessment Network (SWAN)</a>
+  <a href="{{site.baseurl}}/brochures/subnero-swan.pdf" target="_blank" style="font-size: 1.2em;">Subnero Water Assessment Network (SWAN)</a>
 </div>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf" style="font-size: 1.2em;">Subnero Water Assessment Network (SWAN) (Chinese)</a>
+  <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf" target="_blank" style="font-size: 1.2em;">Subnero Water Assessment Network (SWAN) (Chinese)</a>
 </div>
