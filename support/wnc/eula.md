@@ -1,0 +1,34 @@
+---
+title: End User License Agreement
+layout: page
+banner : images/banner-about.jpg
+---
+
+## Subnero Product & Software End User License Agreement
+
+This is an agreement between you and Subnero Pte Ltd or its affiliates (“Subnero”) and governs your Use of Subnero Products and/or Software.
+
+- **“You”** and **“Your”** means the individual or legal entity licensing the Software under this EULA.
+- **"Products"** means a hardware appliance with installed Software.
+- **“Software”** means the Subnero computer programs and any Upgrades made available to you by an Approved Source.
+- **“Documentation”** is the Subnero user or technical manuals, training materials, specifications or other documentation applicable to the Software and made available to you by an Approved Source.
+- **“Approved Source”** means (i) Subnero or (ii) the Subnero authorized reseller, distributor or systems integrator from whom you acquired the Products.
+- **“Upgrades”** means all updates, upgrades, bug fixes, error corrections, enhancements and other modifications to the Software and backup copies thereof.\\
+<br>
+1. **ACCEPTANCE OF TERMS**. By Using the Product, you agree to be bound by the terms of the EULA. If you are entering into this EULA on behalf of an entity, you represent that you have authority to bind that entity. If you do not have such authority or you do not agree to the terms of the EULA, neither you nor the entity may Use the Product or Software. A standard COTS product may be returned to the Approved Source for a refund within thirty (30) days of the date you acquired the Product or Software. This option is not available for customer-specific and/or bespoke solutions.
+2. **LICENSE TO USE**. Subject to payment of the applicable fees and compliance with this EULA, Subnero grants you a limited, non-exclusive and non-transferable license to Use object code versions of the Software along with a relevant Product and the Documentation solely for your internal operations and in accordance with the Documentation. Subnero licenses you the right to Use only the Software you acquire from an Approved Source. Unless contrary to applicable law, you are not licensed to Use the Software on secondhand or refurbished Subnero Product not authorized by Subnero, or on Subnero Product not purchased through an Approved Source.
+3. The Software may contain open source software, subject to separate license terms made available with the Subnero Software or Documentation.
+4. **OWNERSHIP OF INTELLECTUAL PROPERTY**. Subnero or its licensors retain ownership of all intellectual property rights in and to the Software, including copies, improvements, enhancements, derivative works and modifications thereof. your rights to Use the Software are limited to those expressly granted by this EULA. No other rights with respect to the Software or any related intellectual property rights are granted or implied.
+5. **LIMITATIONS AND RESTRICTIONS**. you will not and will not allow a third party to:
+a. transfer, sublicense, or assign your rights under this license to any other person or entity, unless expressly authorized by Subnero in writing;
+b. modify, adapt or create derivative works of the Product, Software or Documentation;
+c. reverse engineer, decompile, decrypt, disassemble or otherwise attempt to derive the design of the Product or source code for the Software;
+d. make the functionality of the Product or Software available to third parties, whether as an application service provider, or on a rental, service bureau, cloud service, hosted service, or other similar basis unless expressly authorized by Subnero in writing;
+e. Use Software that is licensed for a specific device, whether physical or virtual, on another device, unless expressly authorized by Subnero in writing; or
+f. remove, modify, or conceal any Product identification, copyright, proprietary, intellectual property notices or other marks on or within the Product or Software;
+6. **THIRD PARTY USE OF PRODUCT**. you may permit a third party to Use the Product licensed to you under this EULA if such Use is solely (i) on your behalf, (ii) for your internal operations, and (iii) in compliance with this EULA. you agree that you are liable for any breach of this EULA by that third party.
+7. **DISCLAIMER**. Except as expressly set forth above, Subnero and its licensors provide Product and Software “as is” and expressly disclaim all warranties, conditions or other terms, whether express, implied or statutory, including without limitation, warranties, conditions or other terms regarding merchantability, fitness for a particular purpose, design, condition, capacity, performance, title, and non-infringement. Subnero does not warrant that the Product or Software will operate uninterrupted or error-free or that all errors will be corrected. In addition, Subnero does not warrant that the Product or Software will be free of vulnerability to intrusion or attack.
+8. **LIMITATIONS AND EXCLUSIONS OF LIABILITY**. In no event will Subnero or its licensors be liable for the following, regardless of the theory of liability or whether arising out of the use or inability to use the Product or Software or otherwise, even if a party been advised of the possibility of such damages: (a) indirect, incidental, exemplary, special or consequential damages; (b) loss or corruption of data or interrupted or loss of business; or (c) loss of revenue, profits, goodwill or anticipated sales or savings. All liability of Subnero, its affiliates, officers, directors, employees, agents, suppliers and licensors collectively, to you, whether based in warranty, contract, tort (including negligence), or otherwise, shall not exceed the license fees paid by you to any Approved Source for the Software that gave rise to the claim. This limitation of liability for Software is cumulative and not per incident. Nothing in this Agreement limits or excludes any liability that cannot be limited or excluded under applicable law.
+9. **TERM AND TERMINATION**. This EULA shall remain effective until terminated or until the expiration of the applicable license or subscription term. you may terminate the EULA at any time by ceasing use of or destroying all copies of Product or Software. This EULA will immediately terminate if you breach its terms, or if you fail to pay any portion of the applicable license fees and you fail to cure that payment breach within thirty (30) days of notice.
+10. **GOVERNING LAW, JURISDICTION AND VENUE.**. Any dispute arising out of or in connection with this license, shall be referred to and finally resolved by arbitration in Singapore in the English language.
+11. **INTEGRATION**. If any portion of this EULA is found to be void or unenforceable, the remaining provisions of the EULA shall remain in full force and effect.
