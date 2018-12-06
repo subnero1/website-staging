@@ -4368,12 +4368,16 @@ h1{
   width:95vw;
 }
 
+.media.product.post{
+  height:145px;
+}
+
 .media.product img{
     height:100%;
   }
 
 .product.post h3{ 
-  font-size:2em;
+  font-size:0.7em;
 }
 
 .product p{

@@ -32,39 +32,29 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
 - Low cost, simple & safe
 
 <div class='full' style='background: #f5f5f5'>
-	<div class ='product' style='width:98.7%'>
-		<img class='img-rounded' alt="" src="{{site.baseurl}}/images/boxart-autonomous.jpg"/>
-		<div class='small-3 columns'></div>
-		<div class='small-8 columns'>
-			<div class='content'>
-				<h3 style="text-transform: none;">Fully autonomous</h3>
-				<p>A team of low-cost robotic swans navigate autonomously, take in-site water quality measurements, upload results to a central server, and when required, collect water samples. Users can monitor a fleet of swans from the comfort of their own offices.</p>
-			</div>
-		</div>
-	</div>
 
+  <div class ='media product' >
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-autonomous.jpg"/>    
+    <div class='media-body product product-content'>
+    <h3 style="text-transform: none;">Fully autonomous</h3>
+        <p>A team of low-cost robotic swans navigate autonomously, take in-site water quality measurements, upload results to a central server, and when required, collect water samples. Users can monitor a fleet of swans from the comfort of their own offices.</p>
+    </div>
+  </div>
 
-  <div class ='product' style='background:#F5F5F5;'>
-  		<div class='small-8 columns'>
-  			<div class='content'>
-  				<h3 style="text-transform: none;">Cloud enabled</h3>
-  				<p>A cloud-based system allows the operator to adapt missions quickly based on real-time data. Operators can access the user interface from a variety of platforms such as tablets and mobile phones. This enables rapid software updates and improved scalability, thereby lowering operational costs.</p>
-  			</div>
-  		</div>
-  		<div class='small-3 columns'>
-  		<img class='img-rounded' alt="" src="{{site.baseurl}}/images/boxart-cloud.jpg"/>
-  		</div>
-  </div> 
+  <div class ='media product post' style='background: #f5f5f5' >   
+    <div class='media-body product product-content' style='background: #f5f5f5'>
+   <h3 style="text-transform: none;">Cloud enabled</h3>
+          <p>A cloud-based system allows the operator to adapt missions quickly based on real-time data. Operators can access the user interface from a variety of platforms<!--  such as tablets and mobile phones -->. This enables rapid software updates and improved scalability, thereby lowering operational costs.</p>
+    </div>
+    <img class = "ml-3" alt="" src="{{site.baseurl}}/images/boxart-cloud.jpg"/> 
+  </div>
 
-  <div class ='product' style='width:98.7%;'>
-  		<img class='img-rounded' alt="" src="{{site.baseurl}}/images/boxart-ease.jpg"/>
-  		<div class='small-3 columns'></div>
-  		<div class='small-8 columns'>
-  			<div class='content'>
-  				<h3 style="text-transform: none;">Ease of integration</h3>
-  				<p>The SWAN supports industry standard water quality probes. Other sensors such as camera, echo sounder, etc can be easily integrated into the system, catering to a variety of applications such as water quality monitoring, surveillance and bathymetric mapping.</p>
-  			</div>
-  		</div>
+  <div class ='media product' >
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-ease.jpg"/>    
+    <div class='media-body product product-content'>
+   <h3 style="text-transform: none;">Ease of integration</h3>
+          <p>The SWAN supports industry standard water quality probes. Other sensors such as camera, echo sounder, etc can be easily integrated into the system, catering to a variety of applications such as water quality monitoring, surveillance and bathymetric mapping.</p>
+    </div>
   </div>
 </div>
 <div class='two spacing'></div>
@@ -103,9 +93,9 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
 ## Brochures
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/subnero-swan.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/subnero-swan.pdf" target="_blank" style="font-size: 1.2em;">Subnero Water Assessment Network (SWAN)</a>
+  <a href="{{site.baseurl}}/brochures/subnero-swan.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
 </div>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf" target="_blank" style="font-size: 1.2em;">Subnero Water Assessment Network (SWAN) (Chinese)</a>
+  <a href="{{site.baseurl}}/brochures/SWAN_Brochure_Chinese_v3.1.pdf" target="_blank">Subnero Water Assessment Network (SWAN) (Chinese)</a>
 </div>
