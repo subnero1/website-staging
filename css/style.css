@@ -1204,6 +1204,7 @@ form input.error, form textarea.error {
 #footer.fullwidth ul.socials li {
   margin-right: 10px;
 }
+
 .modBarGraph .bars {
   margin: 0;
   list-style: none;
@@ -3651,8 +3652,8 @@ body {
   background-image: -webkit-linear-gradient(#000 0%, #000 60%, #000);
   background-image: linear-gradient(#000 0%, #000 60%, #000);
   opacity:0.5;
-  position:absolute;
-  z-index:3;
+  position:relative;
+  z-index:0;
   width:100%;
   top:0;
   left:0;
@@ -3761,12 +3762,14 @@ p.small-title {
 }
 
 #main.top-shift {
-  margin-top: -100px;
+  /*margin-top: -100px;*/
+  margin: 0;
 }
 
-.f-topbar-fixed{
-  padding-top: 100px;
-}
+/*.f-topbar-fixed{
+  /*padding-top: 100px;*/
+  /*padding-top:0px;
+}*/
 
 
 @media only screen and (max-width: 60em) {
@@ -3836,7 +3839,7 @@ p.small-title {
   .contain-to-grid.transparent {
     height: 100px;
     overflow: visible;
-    position: relative;
+    /*position: absolute;*/
   }
   .contain-to-grid.transparent .top-bar-section ul li {
     background-color: rgba(0, 0, 0, 0.8);
@@ -4010,12 +4013,66 @@ p.small-title {
   }
 
   .f-topbar-fixed {
-    padding-top: 0;
+    padding-top: 100px;
   }
 }
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1593px to 1860px
+*/
+@media (min-width: 1593px){
+.media.product{
+  background:#ffffff;
+  min-height: 249px;
+  width:58vw;
+}
+
+.product img{
+    margin-left:0 auto;
+    min-height: 249px;
+}
+
+.product.post h3{
+  font-size:2em;
+}
+
+.product h3{
+  padding-top: 40px;
+  margin-bottom: 1px;
+  font-size:1.8em;
+  margin-top:20px
+}
+.product h3 a {
+  color: #333;
+}
+.product h3 a:hover {
+  color: #E6782F;
+}
+
+.media.product.product-content{
+  padding-left: 40px;
+}
+
+#company{
+  font-size: 1em;
+}
+
+.brochure-container a{
+  font-size: 1.2em;
+}
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) and (max-width: 1592px){
 .product{
   background:#ffffff;
   min-height: 249px;
+  width:70vw;
 
   img{
     margin-left:0 auto;
@@ -4047,6 +4104,356 @@ p.small-title {
 .product-content{
   padding-left: 40px;
 }
+#company{
+  font-size: 1em;
+}
+
+.brochure-container a{
+  font-size: 1.2em;
+}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px){
+.media.product{
+  background:#ffffff;
+  min-height: 200px;
+  width:100vw;
+}
+
+.product a img{
+    margin-left:0 auto;
+    min-height: 200px;
+}
+.product.post{
+  min-height: 240px;
+}
+
+.product.post h3{
+  font-size:2em;
+}
+
+.product h3{
+  padding-top: 40px;
+  margin-bottom: 1px;
+  font-size:1.8em;
+  margin-top:20px
+}
+.product h3 a {
+  color: #333;
+}
+.product h3 a:hover {
+  color: #E6782F;
+}
+
+.product-content{
+  padding-left: 40px;
+  min-height:200px;
+}
+
+.full.tall{
+  padding:0px;
+}
+
+#company{
+  font-size: 1em;
+}
+
+.brochure-container a{
+  font-size: 1.2em;
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+.product{
+  background:#ffffff;
+  height: 180px;
+  width:100vw;
+}
+
+.product img{
+    height:100%;
+    max-width:100%;
+}
+
+.product.post{
+  min-height: 240px;
+}
+
+.product.post h3{
+  font-size:2em;
+}
+
+.product h3{
+  padding-top: 30px;
+  margin-bottom: 1px;
+  font-size:1.8em;
+  margin-top:10px
+}
+.product h3 a {
+  color: #333;
+}
+.product h3 a:hover {
+  color: #E6782F;
+}
+
+.product-content{
+  /*padding-left: 30px;*/
+}
+
+#support,#careers{
+  width:11.3%;
+}
+
+#contact{
+  width:20%;
+}
+#socials{
+  width:43%;
+}
+
+.full.tall{
+  padding:0px;
+}
+#company{
+  font-size: 1em;
+}
+
+.brochure-container a{
+  font-size: 1.2em;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+
+.product{
+  background:#ffffff;
+  min-height: 182px;
+  width:100vw;
+}
+
+.product img{
+    margin-left:0 auto;
+    min-height: 182px;
+}
+
+.product.post{
+  min-height: 240px;
+}
+
+.product.post h3{
+  font-size:2em;
+}
+
+.product h3{
+  padding-top: 40px;
+  margin-bottom: 1px;
+  font-size:1.8em;
+  margin-top:20px
+}
+.product h3 a {
+  color: #333;
+}
+.product h3 a:hover {
+  color: #E6782F;
+}
+
+.product-content{
+  padding-left: 40px;
+}
+.full.tall{
+  padding:0px;
+}
+#company{
+  font-size: 1em;
+}
+
+.brochure-container a{
+  font-size: 1.2em;
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px){
+
+.media.product{
+  background:#ffffff;
+  height: 20vh;
+  width:95vw;
+  /*width:120vw;*/
+}
+
+.media.product img{
+    margin-left:0 auto;
+    height: 100%;
+  }
+
+
+.product.post{
+  min-height: 240px;
+}
+
+.product.post h3{
+  font-size:1.5em;
+}
+
+.product p{
+  font-size:1em;
+}
+
+.product h3{
+  padding-top: 15px;
+  margin-bottom: 1px;
+  font-size:1.1em;
+  margin-top:7px
+}
+.product h3 a {
+  color: #333;
+}
+.product h3 a:hover {
+  color: #E6782F;
+}
+
+.product-content{
+  padding-left: 15px;
+}
+
+.full.tall{
+  padding:0px;
+}
+
+#company{
+  font-size: 0.9em;
+}
+
+.brochure-container a{
+  font-size: 1em;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.media.product{
+  background:#ffffff;
+  height:120px;
+  width:95vw;
+}
+
+.media.product img{
+    height:100%;
+  }
+
+.product.post h3{ 
+  font-size:2em;
+}
+
+.product p{
+  font-size:0.6em;
+}
+
+.product h3{
+  padding-top: 15px;
+  margin-bottom: 0.7px;
+  font-size:0.7em;
+  margin-top:7px
+}
+.product h3 a {
+  color: #333;
+}
+.product h3 a:hover {
+  color: #E6782F;
+}
+
+.product h4{
+  margin-bottom: 1px;
+}
+
+.product-content{
+  padding-left: 15px;
+}
+.full.tall{
+  padding:0px 0px 0px 0px;
+  background-position: 0% 100%;
+}
+
+#support,#careers{
+  width:11%;
+  font-size: 0.5em;
+}
+
+#contact{
+  width:28%;
+  font-size: 0.5em;
+}
+#socials{
+  width:50%;
+}
+
+#company{
+  font-size: 0.7em;
+}
+
+#footer{
+  width:100%;
+}
+
+#footer ul.socials i{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 10px;
+  line-height: 1.5rem;
+  margin-right: 0px;
+}
+
+.contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img{
+  width:20vw;
+}
+
+p{
+  font-size: 1rem;
+}
+
+.brochure-container a{
+  font-size: 1em;
+}
+
+h1{
+  font-size: 2rem;
+}
+}
+
+/*End of media queries for products page*/
 
 .cGBxoB {
   width: 100%;
@@ -4270,7 +4677,7 @@ ul, menu, dir {
 }
 
 .row{
-  width:100%;
+  /*width:100%;*/
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -4389,3 +4796,44 @@ hr {
   color: #d5641a;
   font-size: 1.2em;
 }
+
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+
+.ml-3, .mx-3 {
+    margin-left: 1rem!important;
+}
+.align-self-start {
+    -ms-flex-item-align: start!important;
+    align-self: flex-start!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
