@@ -4069,16 +4069,15 @@ p.small-title {
   ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) and (max-width: 1592px){
-.product{
+.media.product{
   background:#ffffff;
   min-height: 249px;
-  width:70vw;
-
-  img{
-    margin-left:0 auto;
-    min-height: 170px;
-  }
 }
+
+.media.product a img{
+    margin-left:0 auto;
+    min-height: 249px;
+  }
 
 .product.post{
   min-height: 240px;
@@ -4122,12 +4121,12 @@ p.small-title {
 .media.product{
   background:#ffffff;
   min-height: 200px;
-  width:100vw;
 }
 
-.product a img{
+.media.product a img{
     margin-left:0 auto;
     min-height: 200px;
+    width:100%;
 }
 .product.post{
   min-height: 240px;
@@ -4176,13 +4175,13 @@ p.small-title {
 
 @media (min-width: 768px) and (max-width: 1023px)
 {
-.product{
+.media.product{
   background:#ffffff;
   height: 180px;
   width:100vw;
 }
 
-.product img{
+.media.product img{
     height:100%;
     max-width:100%;
 }
@@ -4300,7 +4299,6 @@ p.small-title {
   background:#ffffff;
   height: 20vh;
   width:95vw;
-  /*width:120vw;*/
 }
 
 .media.product img{
