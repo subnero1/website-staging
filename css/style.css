@@ -3839,7 +3839,7 @@ p.small-title {
   .contain-to-grid.transparent {
     height: 100px;
     overflow: visible;
-    /*position: absolute;*/
+    position: absolute;
   }
   .contain-to-grid.transparent .top-bar-section ul li {
     background-color: rgba(0, 0, 0, 0.8);
@@ -4010,10 +4010,6 @@ p.small-title {
   .fullscreen .layer h2 {
     font-size: 14px;
     width: 90%;
-  }
-
-  .f-topbar-fixed {
-    padding-top: 100px;
   }
 }
 
