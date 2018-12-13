@@ -859,7 +859,7 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar {
-  max-width: 90vw;
+  /*max-width: 95vw;*/
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -3771,8 +3771,24 @@ p.small-title {
   /*padding-top:0px;
 }*/
 
+@media only screen and (max-width: 1060px){
+  .fullscreen .layer {
+    top: 25%;
+    padding: 20px;
+  }
 
-@media only screen and (max-width: 60em) {
+  .fullscreen .layer h1 {
+    font-size: 80px;
+    width: 90%;
+  }
+
+  .fullscreen .layer h2 {
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
   .modTeamMember .overlay {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.8);
@@ -3936,6 +3952,10 @@ p.small-title {
   .modBoxedSlider .caption h2 {
     font-size: 1.8rem;
   }
+
+  .fullscreen .layer {
+    left: 10px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4019,45 +4039,45 @@ p.small-title {
   ##Screen = 1593px to 1860px
 */
 @media (min-width: 1593px){
-.media.product{
-  background:#ffffff;
-  min-height: 249px;
-  width:58vw;
-}
-
-.product img{
-    margin-left:0 auto;
+  .media.product{
+    background:#ffffff;
     min-height: 249px;
-}
+    width:58vw;
+  }
 
-.product.post h3{
-  font-size:2em;
-}
+  .product img{
+      margin-left:0 auto;
+      min-height: 249px;
+  }
 
-.product h3{
-  padding-top: 40px;
-  margin-bottom: 1px;
-  font-size:1.8em;
-  margin-top:20px
-}
-.product h3 a {
-  color: #333;
-}
-.product h3 a:hover {
-  color: #E6782F;
-}
+  .product.post h3{
+    font-size:2em;
+  }
 
-.media.product.product-content{
-  padding-left: 40px;
-}
+  .product h3{
+    padding-top: 40px;
+    margin-bottom: 1px;
+    font-size:1.8em;
+    margin-top:20px
+  }
+  .product h3 a {
+    color: #333;
+  }
+  .product h3 a:hover {
+    color: #E6782F;
+  }
 
-#company{
-  font-size: 1em;
-}
+  .media.product.product-content{
+    padding-left: 40px;
+  }
 
-.brochure-container a{
-  font-size: 1.2em;
-}
+  #company{
+    font-size: 1em;
+  }
+
+  .brochure-container a{
+    font-size: 1.2em;
+  }
 }
 
 /*
