@@ -3630,7 +3630,7 @@ body {
 }
 
 .fullscreen {
-  min-height:800px;
+  min-height:700px;
   height:100vh;
   position:relative;
   max-height:1500px;
@@ -4018,7 +4018,7 @@ p.small-title {
 }
 
 
-/* 
+/*
   ##Device = Desktops
   ##Screen = 1593px to 1860px
 */
@@ -4064,7 +4064,7 @@ p.small-title {
 }
 }
 
-/* 
+/*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
@@ -4112,7 +4112,7 @@ p.small-title {
 }
 }
 
-/* 
+/*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
@@ -4168,7 +4168,7 @@ p.small-title {
 
 }
 
-/* 
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
@@ -4234,7 +4234,7 @@ p.small-title {
 }
 }
 
-/* 
+/*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
@@ -4288,7 +4288,7 @@ p.small-title {
 }
 }
 
-/* 
+/*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
@@ -4358,7 +4358,7 @@ h1{
 
 }
 
-/* 
+/*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
@@ -4378,7 +4378,7 @@ h1{
     height:100%;
   }
 
-.product.post h3{ 
+.product.post h3{
   font-size:0.7em;
 }
 
@@ -4689,9 +4689,8 @@ ul, menu, dir {
 }
 
 .row{
-  /*width:100%;*/
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .jumbotron {
