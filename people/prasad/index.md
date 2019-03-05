@@ -14,11 +14,11 @@ Prasad Anjangi received his Ph.D. in Electrical & Computer Engineering from Nati
 
 Currently, he is a Research Fellow and part of the core team at Subnero Pte. Ltd. He worked in semiconductor industries with Atmel and STMicroelectronics as Firmware and Senior Design Engineer, respectively, from 2009 to 2012. His current research interests include underwater acoustic communications, signal processing, networking protocol design, and autonomous underwater vehicles.
 Dr. Anjangi has served in technical program committee of WUWNet and is a reviewer of IEEE Journal of Oceanic Engineering and IEEE Transactions on Communications.
-
+</p>
 Please visit the following web page for more details.
 
 **Webpage:** [prasadtiru.github.io ](prasadtiru.github.io)
 
 **Email  :** prasad.anjangi@u.nus.edu , prasad@subnero.com
 
-</p>
+
