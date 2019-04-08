@@ -6,6 +6,7 @@ date:  2018-05-27
 categories:
 - newsletter
 - media coverage
+thumbnail: images/boxart-autonomous.jpg
 ---
 
 We are delighted to share the following updates with you:

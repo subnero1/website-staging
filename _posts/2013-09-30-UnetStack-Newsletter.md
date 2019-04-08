@@ -6,6 +6,7 @@ date:  2013-09-30
 categories:
 - newsletter
 - media coverage
+thumbnail: images/boxart-unet.jpg
 ---
 
 Unetstack v1.1 is now available for download.

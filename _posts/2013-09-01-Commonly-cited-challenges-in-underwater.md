@@ -4,6 +4,7 @@ title: Software-defined Networking takes a big leap forward in underwater commun
 banner : images/banner-unetstack.jpg
 date:  2013-09-01
 categories: wireless-networked-communications
+thumbnail: images/boxart-cloud.jpg
 ---
 
 Commonly cited challenges in underwater networks include low bandwidth, long propagation delay, half-duplex nature of the links, high packet loss, and time-variability. To deploy successful networks in the face of such challenges, cross-layer information sharing, low-bandwidth design and accurate transmission/reception timing can be critical. Traditional layered network stacks provide good separation of concern, but result in sub-optimal protocols for underwater networks.

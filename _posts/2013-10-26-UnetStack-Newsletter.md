@@ -6,6 +6,7 @@ date:  2013-10-26
 categories:
 - newsletter
 - media coverage
+thumbnail: images/boxart-unet.jpg
 ---
 
 The Acoustic Research Laboratory (ARL) and Subnero are proud to announce the public availability of UnetStack v1.1.1: The flexible network stack for underwater communications!
