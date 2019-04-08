@@ -5,6 +5,7 @@ banner : images/banner-pulse-arecorder.jpg
 date:  2015-02-20
 categories:
 - sensing-and-monitoring
+thumbnail: images/boxart-modem.jpg
 ---
 
 While our modems are designed to transmit and receive data, they also provide direct access to acoustic signals. A client had a need to simply record underwater sounds at scheduled times. While this could easily be done with the modem without any customization, there was also a need to increase the battery endurance and to sample signals from multiple broadband hydrophones. With these customizations, the Subnero aRecorder was born.

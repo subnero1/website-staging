@@ -6,6 +6,7 @@ date:  2016-03-29
 categories:
 - newsletter
 - media coverage
+thumbnail: images/boxart-unet.jpg
 ---
 
 We have 3 quick updates: 

@@ -6,6 +6,7 @@ date:  2015-05-14
 categories:
 - newsletter
 - media coverage
+thumbnail: images/boxart-modem.jpg
 ---
 
 Meet us at OCEANS' 15

@@ -6,6 +6,7 @@ date:  2013-03-09
 categories:
 - wireless-networked-communications
 - media coverage
+thumbnail: images/economist.png
 ---
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.

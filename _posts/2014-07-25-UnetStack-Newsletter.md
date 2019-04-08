@@ -6,6 +6,7 @@ date:  2014-07-25
 categories:
 - newsletter
 - media coverage
+thumbnail: images/boxart-unet.jpg
 ---
 
 UnetStack and simulator v1.2 released!
