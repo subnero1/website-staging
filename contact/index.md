@@ -3,7 +3,7 @@ layout: page
 title:  Contact Us
 banner: images/banner-contact.jpg
 ---
-<div class='row'>
+<div class='row' style='overflow-x: visible'>
 <div class ='small-4 columns'>
 <div class="contacts">
     <div class="col1">
