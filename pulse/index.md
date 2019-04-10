@@ -21,10 +21,14 @@ title_color : "#E6782F"
     <div class='large-12 columns' style='display:flex; flex-wrap:wrap'>
 {% for post in site.posts %}
   {% assign isnews = false %}
+  {% assign isimage = false %}
   {% if post.external_url != null %}
     {% assign isnews = true %}
   {% endif %}
-  <div class='large-4 columns'>
+  {% if post.thumbnail != null %}
+    {% assign isimage = true %}
+  {% endif %}
+  <div class='large-4 columns' id='pulsepage'>
   <div class='mod modBlogPost'>
     <div class='images'>
       {% for image in post.images %}
@@ -32,7 +36,7 @@ title_color : "#E6782F"
       {% endfor %}
     </div>
     <div class='content' style='background:#f5F5F5;box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.1);'>
-      <div class='image'><img alt="" src="{{site.url}}/{{post.thumbnail}}" /></div>
+      <div class='image'><img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" /></div>
       <p class='info'>
         <span>{{post.date | date: "%B %d, %Y" }}</span>
       </p>
