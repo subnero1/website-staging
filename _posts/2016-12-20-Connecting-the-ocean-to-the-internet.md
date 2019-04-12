@@ -4,8 +4,8 @@ title: Connecting the ocean to the internet
 banner : images/banner-pulse-articles2.jpg
 date:  2016-12-20
 categories:
-- wireless-networked-communications
-- media coverage
+- wnc
+- media
 thumbnail: images/boxart-ease.jpg
 ---
 

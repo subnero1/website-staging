@@ -5,7 +5,7 @@ banner : images/banner-pulse-articles3.jpg
 date:  2018-05-27
 categories:
 - newsletter
-- media coverage
+- media
 thumbnail: images/boxart-autonomous.jpg
 ---
 
