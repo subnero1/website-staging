@@ -5,7 +5,7 @@ banner : images/banner-pulse-articles2.jpg
 date:  2016-03-29
 categories:
 - newsletter
-- media coverage
+- media
 thumbnail: images/boxart-unet.jpg
 ---
 

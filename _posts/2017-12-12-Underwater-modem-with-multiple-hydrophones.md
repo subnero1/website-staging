@@ -3,7 +3,7 @@ layout: post
 title: Underwater modem with a secondary data acquisition system
 banner : images/banner-pulse-custommodem.jpg
 date:  2017-12-12
-categories: wireless-networked-communications
+categories: wnc
 thumbnail: images/boxart-modem.jpg
 ---
 

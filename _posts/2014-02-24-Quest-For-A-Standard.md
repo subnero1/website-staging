@@ -3,7 +3,7 @@ layout: post
 title: Quest for a standard
 banner : images/banner-pulse-standard.jpg
 date:  2014-02-24
-categories: wireless-networked-communications
+categories: wnc
 thumbnail: images/wired.jpeg
 ---
 

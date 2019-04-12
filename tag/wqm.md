@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: News"
+title: "TAG: water quality monitoring"
 banner : images/banner-pulse.jpg
-tag: news
+tag: wqm
 ---

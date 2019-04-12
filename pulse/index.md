@@ -40,7 +40,7 @@ title_color : "#E6782F"
       <p class='info'>
         <span>{{post.date | date: "%B %d, %Y" }}</span>
       </p>
-      <h3 style="text-transform: none;"><a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a></h3>
+      <h3 style="text-transform: none;"><a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a></h3>
       <span>
       {% for tag in post.categories %}
         {% capture tag_name %}{{ tag }}{% endcapture %}

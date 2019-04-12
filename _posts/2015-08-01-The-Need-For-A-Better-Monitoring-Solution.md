@@ -4,8 +4,8 @@ title: The need for a better monitoring solution
 banner : images/banner-pulse-swan.jpg
 date:  2015-08-01
 categories:
-- water-quality-monitoring
-- media coverage
+- wqm
+- media
 thumbnail: images/boxart-swan.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: News"
+title: "TAG: news"
 banner : images/banner-pulse.jpg
 tag: news
 ---
