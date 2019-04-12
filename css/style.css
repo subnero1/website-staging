@@ -4864,3 +4864,15 @@ img {
     box-sizing: border-box;
 }
 
+#pulsepage .mod.modBlogPost .content{
+  background:#f5F5F5;box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+#pulsepage .mod.modBlogPost .content .pulse-tags a{
+  color:#999;
+}
+
+#pulsepage .mod.modBlogPost .content span:hover{
+  background:#E0E0E0;
+  border-radius:0.3em;
+}
