@@ -4231,7 +4231,7 @@ p.small-title {
   width:11.3%;
 }
 
-#contact{
+#footer-contact{
   width:20%;
 }
 #socials{
@@ -4372,6 +4372,10 @@ h1{
   font-size: 2rem;
 }
 
+#pulsepage{
+  width:30%;
+}
+
 }
 
 /*
@@ -4438,7 +4442,7 @@ h1{
   font-size: 0.5em;
 }
 
-#contact{
+#footer-contact{
   width:28%;
   font-size: 0.5em;
 }
@@ -4863,4 +4867,6 @@ img {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+
 
