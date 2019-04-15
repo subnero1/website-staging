@@ -17,7 +17,7 @@ Today, we are excited to share a new software framework to connect to UnetStack 
  
 ### Check out the Unet Blog
 
-The [Unet Blog](https://blog.unetstack.net/){:target="_blank"} is meant to be a place to share and discuss topics related to underwater communications and networking and exciting ways to develop related applications.
+The [Unet Blog](https://blog.unetstack.n/){:target="_blank"} is meant to be a place to share and discuss topics related to underwater communications and networking and exciting ways to develop related applications.
 
 ### Updates to ArlPy
 
