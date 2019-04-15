@@ -3,5 +3,5 @@ cache: bundler
 rvm:
   - 2.3.1
 
-install: bundle install
-script: jekyll build --safe
+
+script: awesome_bot _posts/*.md 
