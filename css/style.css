@@ -4710,7 +4710,7 @@ ul, menu, dir {
 .col1 {
   width: 35%;
   float: left;
-  margin-left: 3vw;
+  margin-left: 0;
   text-align: left;
   margin-bottom: 20px;
 }
