@@ -860,7 +860,7 @@ ul.shortcode-list i {
 }
 .contain-to-grid .top-bar {
   /*max-width: 95vw;*/
-  min-width:75vw;
+  min-width:85vw;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -917,7 +917,7 @@ ul.shortcode-list i {
 
 .transparent.white.fixed.contain-to-grid .title-area img{
   width:130px;
-  padding-top: 10px;
+  padding-top: 20px;
   display: inline-block;
 }
 
@@ -4058,7 +4058,7 @@ p.small-title {
 
   .transparent.white.fixed.contain-to-grid .title-area img{
     width:100px;
-    padding-top: 6px;
+    padding-top: 15px;
     display: inline-block;
   }
 }
