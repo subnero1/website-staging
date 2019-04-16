@@ -8,7 +8,8 @@ banner: images/banner-contact.jpg
 <div class="contacts">
     <div class="col1">
 	<br>
-	<div class="vcard" style='border: 0;'>
+	<!-- <div class="vcard" style='border: 0;'> -->
+    <div class="vcard">
 	<p class="adr">
 	    <span class="street-address"> #01-01/02, The Hangar, I-Cube
 	    <br>21 Heng Mui Keng Terrace</span>
@@ -31,7 +32,7 @@ banner: images/banner-contact.jpg
 <!-- This script is for hiding and showing the directions-->
 <div class='direct'>
 	<h2>Directions</h2>
-	<div id='toggleText' style='display: block;'>
+	<div id='toggleText'>
 		<h3>By Train</h3>	
 		<ul>
             <li>Alight at Haw Par Villa station (CC25)</li>
