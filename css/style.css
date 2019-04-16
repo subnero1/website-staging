@@ -905,7 +905,6 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-  width: 100%;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
