@@ -3,12 +3,10 @@ layout: page
 title:  Contact Us
 banner: images/banner-contact.jpg
 ---
-<div class='row'>
-<div class ='small-4 columns'>
-<div class="contacts">
+<div class='contacts' >
     <div class="col1">
 	<br>
-	<div class="vcard" style='border: 0;'>
+    <div class="vcard">
 	<p class="adr">
 	    <span class="street-address"> #01-01/02, The Hangar, I-Cube
 	    <br>21 Heng Mui Keng Terrace</span>
@@ -31,7 +29,7 @@ banner: images/banner-contact.jpg
 <!-- This script is for hiding and showing the directions-->
 <div class='direct'>
 	<h2>Directions</h2>
-	<div id='toggleText' style='display: block;'>
+	<div id='toggleText'>
 		<h3>By Train</h3>	
 		<ul>
             <li>Alight at Haw Par Villa station (CC25)</li>
@@ -49,13 +47,9 @@ banner: images/banner-contact.jpg
 </div>
 </div>
 </div>
-</div>
-</div>
 
-<div class='row'>
-<div class='small-4 columns'>
 <div class="contacts">
-<div class='col1'>
+<div class='col2'>
     <!-- Begin MailChimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <div id="mc_embed_signup">
@@ -295,8 +289,6 @@ function mce_success_cb(resp) {
   <h1>Meet Subnero at OCEANS' 15</h1>
   <p>Subnero will be exhibiting at OCEANS’ May 18-21st, 2015 at Genoa, Italy.<br><a href="https://www.google.com/maps/place/Centro+Congressi+-+Porto+Antico+di+Genova/@44.412703,8.918326,16z/data=!4m5!1m2!2m1!1sCentro+Congressi+-+Porto+Antico+di+Genova,+Magazzini+del+Cotone,+Modulo+9+-+1°+piano,+Genova,+Italy!3m1!1s0x12d343e0f5dca5b1:0x5ba186f3b55c4ebc?hl=en-GB"target="_blank">Visit us!</a> </p>
 </div> -->
-</div>
-</div>
 </div>
 </div>
 
