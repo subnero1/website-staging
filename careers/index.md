@@ -14,7 +14,7 @@ If you think you will fit in into an environment that values openness, ownership
 
 Our engineering team designs and builds the hardware, software and networking technologies that power all of our customers’ services, operating in challenging scenarios. We are looking for enthusiastic and highly motivated engineers with a passion for developing well-engineered products, to join our growing team in Singapore.
 
-### Product Engineer
+### 1. Product Engineer
 
 You will be the owner of a product line for our water quality sensing and monitoring solutions, responsible for everything from product roadmap, customer interaction, mechanical design, testing of prototypes, field trials and production. You will work with the rest of our engineering team in creating novel robotic solutions for autonomously sensing and monitoring water quality.
 
@@ -42,7 +42,7 @@ You will be the owner of a product line for our water quality sensing and monito
 - Ability to work independently on multiple large, individual projects or major segments of complex company-wide projects.
 - Comfortable working in a startup environment.
 
-### Electronics Engineer
+### 2. Electronics Engineer
 
 You will be involved in the design & development of electrical/electronic systems with a focus on analog electronics including amplifier design (audio), impedance matching, component selection, PCB design and fabrication, integration and manufacturing support.
 
@@ -64,7 +64,7 @@ You will be involved in the design & development of electrical/electronic system
 - Ability to generate options and create a positive working experience.
 - Comfortable working in a startup environment.
 
-### Integration and Support Engineer
+### 3. Integration and Support Engineer
 
 You will be the interface between the R&D engineering team and our production vendors as well as some of our customers. As the link between engineering and product operations, you will assist with production tasks as well as resolution of issues with field operations, coordinate software / hardware rollouts and provide engineers with adequate data, operational details and initial root cause analysis.
 
