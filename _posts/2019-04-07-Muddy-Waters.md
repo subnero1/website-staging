@@ -6,4 +6,5 @@ external_url: https://www.channelnewsasia.com/news/video-on-demand/tipping-point
 source : https://www.channelnewsasia.com/
 ---
 
-The SWAN feature in a documentory, from Channel News Asia, about water preservation.
+The SWAN featured in a documentory from Channel News Asia, about water preservation.
+Within 35 min 50s in the documentary, you can see the SWAN in action with the team explaining its functionality and how it gives real time data on the water quality in Singapore. 
