@@ -6,7 +6,7 @@ date:  2013-09-30
 categories:
 - newsletter
 - media
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
 
 Unetstack v1.1 is now available for download.

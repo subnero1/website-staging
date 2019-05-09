@@ -6,7 +6,7 @@ date:  2017-02-02
 categories:
 - wnc
 - media
-thumbnail: images/boxart-modem.jpg
+thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
 
 A peer-reviewed technical communication was recently published in IEEE Journal of Oceanic Engineering presenting a review of the literature on software-defined underwater acoustic modems. The paper titled "[Software-Defined Underwater Acoustic Modems: Historical Review and the NILUS Approach](http://ieeexplore.ieee.org/document/7579629/){:target="_blank"}" by *Dol. et. al*  presented the past and ongoing academic efforts, and industrial developments on the software defined underwater acoustic modem structures and functionalities.

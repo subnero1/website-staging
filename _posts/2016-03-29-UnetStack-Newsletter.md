@@ -6,7 +6,7 @@ date:  2016-03-29
 categories:
 - newsletter
 - media
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/pulse-thumbnail-blue2.jpg
 ---
 
 We have 3 quick updates: 
