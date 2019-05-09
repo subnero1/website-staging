@@ -6,7 +6,7 @@ date:  2015-05-14
 categories:
 - newsletter
 - media
-thumbnail: images/boxart-modem.jpg
+thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
 
 Meet us at OCEANS' 15

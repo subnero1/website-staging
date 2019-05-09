@@ -6,7 +6,7 @@ date:  2018-05-27
 categories:
 - newsletter
 - media
-thumbnail: images/boxart-autonomous.jpg
+thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
 
 We are delighted to share the following updates with you:
