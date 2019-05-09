@@ -34,7 +34,7 @@ You will be the owner of a product line for our water quality sensing and monito
 
 - A degree or diploma in Mechanical Engineering, or equivalent.
 - Experience in dealing with various aspects of product development lifecycle.
-- 2+ years of work experience in a related role.
+- 2 or more years of work experience in a related role.
 - Experience working on freshwater/marine hardware products is a plus.
 - Knowledge of computer-aided design software (e.g. SolidWorks, Fusion360)
 - Ability to efficiently manage and implement quick-turnaround, tactical projects as a team player.
