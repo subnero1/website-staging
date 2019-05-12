@@ -35,19 +35,21 @@ title_color : "#E6782F"
         <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
       {% endfor %}
     </div>
-    <div class='content' style='background:#f5F5F5;box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.1);'>
+    <div class='content'>
       <div class='image'><img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" /></div>
       <p class='info'>
         <span>{{post.date | date: "%B %d, %Y" }}</span>
       </p>
       <h3 style="text-transform: none;"><a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a></h3>
-      <span>
+      
       {% for tag in post.categories %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
+        <span class="pulse-tags" >
         <i class="fa fa-tag fa-fw"></i>
-        <a href="/tag/{{ tag_name }}" style="color:#999">{{ tag_name }}&nbsp;</a>
+        <a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
+        </span>
       {% endfor %}
-    </span>
+    
       <!-- {% if isnews %}
       <h5 style="text-transform: none;">From <a target="_blank" href="{{post.source}}">{{post.source}}</a> </h5>
       {% else %}
