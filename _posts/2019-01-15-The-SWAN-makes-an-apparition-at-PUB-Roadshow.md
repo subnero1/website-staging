@@ -4,6 +4,7 @@ title: SWAN at PUB roadshow
 banner : images/banner-pulse-standard.jpg
 date:  2019-01-15
 categories: wqm
+thumbnail: images/pulse-thumbnail-swan-roadshow.jpg
 ---
 
 The SWAN made an apparition at the PUB roadshow.
