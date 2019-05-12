@@ -45,3 +45,4 @@ Featured customized solutions:
 
 - [Underwater modem with a secondary data acquisition system]({{site.baseurl}}{%link _posts/2017-12-12-Underwater-modem-with-multiple-hydrophones.md %})
 - [Underwater acoustic recorder]({{site.baseurl}}{%link _posts/2015-02-20-aRecorder.md %})
+- [Underwater modem with a co-processor]({{site.baseurl}}{%link _posts/2018-11-17-Underwater-modem-with-a-coprocessor.md %})

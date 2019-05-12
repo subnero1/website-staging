@@ -9,7 +9,7 @@ banner : images/banner-support.jpg
 - [Getting started with UnetStack](https://www.unetstack.net/quickstart.html)
 - [UnetStack developer's guide](https://www.unetstack.net/devguide.html)
 - [UnetStack API reference](https://www.unetstack.net/javadoc/index.html)
-- [fjåge developer's guide](http://org-arl.github.io/fjage/doc/html)
+- [fjåge developer's guide](https://fjage.readthedocs.io/en/latest/)
 - [fjåge API reference](http://org-arl.github.io/fjage/javadoc)
 - [UnetStack Python API](https://github.com/org-arl/unet-contrib/tree/master/contrib/Unet-Python-API)
 - [UnetStack C API](https://github.com/org-arl/unet-contrib/tree/master/contrib/Unet-C-API)
