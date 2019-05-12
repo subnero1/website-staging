@@ -4,8 +4,9 @@ title: Connecting the ocean to the internet
 banner : images/banner-pulse-articles2.jpg
 date:  2016-12-20
 categories:
-- wireless-networked-communications
-- media coverage
+- wnc
+- media
+thumbnail: images/pulse-thumbnail-connecting.jpg
 ---
 
 The [open_resource magazine](http://www.ready-for-the-resource-revolution.com/en/magazine/){:target="_blank"}, a biannual magazine from [Suez](http://www.suez-environnement.com/){:target="_blank"} which covers great ideas and solutions around management and usage of our natural resource, recently covered Subnero in their 3rd issue.

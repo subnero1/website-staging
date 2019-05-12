@@ -5,7 +5,8 @@ banner : images/banner-pulse-articles1.jpg
 date:  2014-07-25
 categories:
 - newsletter
-- media coverage
+- media
+thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
 
 UnetStack and simulator v1.2 released!

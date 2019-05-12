@@ -3,7 +3,8 @@ layout: post
 title: World water day
 banner : images/banner-pulse-world-waterday.jpg
 date:  2014-03-22
-categories: water-quality-monitoring
+categories: wqm
+thumbnail: images/pulse-thumbnail-blue4.jpg
 ---
 
 World water day is held annually on the 22nd of March.

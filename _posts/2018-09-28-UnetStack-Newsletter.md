@@ -5,7 +5,8 @@ banner : images/banner-pulse-articles4.jpg
 date:  2018-09-28
 categories:
 - newsletter
-- media coverage
+- media
+thumbnail: images/boxart-unet.jpg
 ---
 
 We are delighted to share the following news updates with you:

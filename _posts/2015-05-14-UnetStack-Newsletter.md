@@ -5,7 +5,8 @@ banner : images/banner-pulse-articles3.jpg
 date:  2015-05-14
 categories:
 - newsletter
-- media coverage
+- media
+thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
 
 Meet us at OCEANS' 15

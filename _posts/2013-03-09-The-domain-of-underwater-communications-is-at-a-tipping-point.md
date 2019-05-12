@@ -4,8 +4,9 @@ title: Underwater networking technology featured in The Economist
 banner : images/banner-pulse-articles3.jpg
 date:  2013-03-09
 categories:
-- wireless-networked-communications
-- media coverage
+- wnc
+- media
+thumbnail: images/pulse-thumbnail-economist.png
 ---
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.

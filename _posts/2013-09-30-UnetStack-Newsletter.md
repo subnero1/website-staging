@@ -5,7 +5,8 @@ banner : images/banner-pulse-articles2.jpg
 date:  2013-09-30
 categories:
 - newsletter
-- media coverage
+- media
+thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
 
 Unetstack v1.1 is now available for download.
