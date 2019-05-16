@@ -4,6 +4,7 @@ title: Underwater modem with a co-processor
 banner : images/banner-pulse-standard.jpg
 date:  2018-11-17
 categories: wnc
+thumbnail: images/pulse-thumbnail-modems.jpg
 ---
 
 It is a common need for someone to integrate their own systems with the underwater modems. For example, a customer required a co-processor to be connected to the underwater modem using a network interface, over which the they wanted to interact with the modems and develop their own algorithms and applications. Subnero underwater modems provide options for easy customization and extension. We took this requirement and provided a solution which is illustrated in the block diagram below:
