@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://subnero1.github.io/" # the base hostname & protocol for your site
 twitter_username: subnero
 github_username:  subnero1
-default_image: images/boxart-modem.jpg
+default_image: images/pulse-thumbnail-default.jpg
 
 # Build settings
 markdown: kramdown
