@@ -36,7 +36,11 @@ title_color : "#E6782F"
       {% endfor %}
     </div>
     <div class='content'>
-      <div class='image'><img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" /></div>
+      <div class='image'>
+        <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
+        <img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
+        </a>
+      </div>
       <p class='info'>
         <span>{{post.date | date: "%B %d, %Y" }}</span>
       </p>
