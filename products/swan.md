@@ -37,14 +37,14 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-autonomous.jpg"/>    
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;">Fully autonomous</h3>
-        <p>A team of low-cost robotic swans navigate autonomously, take in-site water quality measurements, upload results to a central server, and when required, collect water samples. Users can monitor a fleet of swans from the comfort of their own offices.</p>
+        <p>A team of autonomous low-cost robotic swans that can take in-situ water quality measurements as well as water samples.</p>
     </div>
   </div>
 
   <div class ='media product post' style='background: #f5f5f5' >   
     <div class='media-body product product-content' style='background: #f5f5f5'>
    <h3 style="text-transform: none;">Cloud enabled</h3>
-          <p>A cloud-based system allows the operator to adapt missions quickly based on real-time data. Operators can access the user interface from a variety of platforms<!--  such as tablets and mobile phones -->. This enables rapid software updates and improved scalability, thereby lowering operational costs.</p>
+          <p>A cloud-based system allows the operator to adapt missions quickly based on real-time data.</p>
     </div>
     <img class = "ml-3" alt="" src="{{site.baseurl}}/images/boxart-cloud.jpg"/> 
   </div>
@@ -53,7 +53,7 @@ The SWAN provides a scalable, autonomous platform for in-situ water quality meas
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-ease.jpg"/>    
     <div class='media-body product product-content'>
    <h3 style="text-transform: none;">Ease of integration</h3>
-          <p>The SWAN supports industry standard water quality probes. Other sensors such as camera, echo sounder, etc can be easily integrated into the system, catering to a variety of applications such as water quality monitoring, surveillance and bathymetric mapping.</p>
+          <p>The SWAN supports industry standard water quality probes and various other sensors.</p>
     </div>
   </div>
 </div>
