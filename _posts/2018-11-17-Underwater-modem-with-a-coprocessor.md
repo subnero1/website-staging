@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Underwater modem with a co-processor
-banner : images/banner-pulse-standard.jpg
+banner : images/banner-pulse-custommodem.jpg
 date:  2018-11-17
 categories: wnc
 thumbnail: images/pulse-thumbnail-modems.jpg
