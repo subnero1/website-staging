@@ -8,7 +8,7 @@ banner : images/banner-support.jpg
 <div class="row">
 <div style="padding-left: 5%">
 	<div class="brochure-container">
-		<a  href="{{site.baseurl}}/brochures/modem-manual.pdf" style="font-size: 1.2em;">1. Subnero Underwater Modem User Manual</a>
+		<a  href="{{site.baseurl}}/brochures/Subnero_Underwater_User_Manual.pdf" style="font-size: 1.2em;">1. Subnero Underwater Modem User Manual</a>
 	</div>
 	<div class="spacing">
 	</div>
