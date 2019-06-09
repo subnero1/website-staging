@@ -25,7 +25,7 @@ section_id: products
 		<div class='cmXrEt'>
 			<h1 class='thin' style='text-align: center'>Platinum Edition</h1>
 			<ul class="gfXsQG">
-				<li class="fuqHMA">
+<!-- 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
   						{% for page in product_pages %}
@@ -39,7 +39,7 @@ section_id: products
 				        {% endif %}
 				        {% endfor %}
 					</div>
-				</li>
+				</li> -->
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
@@ -70,6 +70,7 @@ section_id: products
 				        {% endfor %}
 					</div>
 				</li>
+				<li class="fuqHMA"></li>
 			</ul>
 		</div>
 		<div class='cmXrEt'>
