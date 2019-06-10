@@ -25,21 +25,6 @@ section_id: products
 		<div class='cmXrEt'>
 			<h1 class='thin' style='text-align: center'>Platinum Edition</h1>
 			<ul class="gfXsQG">
-<!-- 				<li class="fuqHMA">
-					<div class="hOXnHC">
-						{% assign product_pages = site.pages | where:"categories","modem" %}
-  						{% for page in product_pages %}
-  						{% if page.title contains "Platinum Edition Modems" %}
-				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpn3.jpg" />
-				          	<div class='content'>
-				            <h3 style="text-transform: none;">Node Configuration</h3>
-				          </div></a>
-				        </div>
-				        {% endif %}
-				        {% endfor %}
-					</div>
-				</li> -->
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}

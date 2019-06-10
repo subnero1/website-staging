@@ -13,15 +13,6 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 
 <div class='full' style='background: #f5f5f5'>
 
-<!--   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mpn3.jpg"/>    
-    <div class='media-body product product-content'>
-    <h3 style="text-transform: none;">Node Configuration</h3>
-        <h4 style="text-transform: none;">WNC-M25MPN3</h4>
-        <p>A modem in the node configuration operates on batteries and can be deployed in a standalone mode.</p>
-    </div>
-  </div> -->
-
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mpe3.jpg"/>    
     <div class='media-body product product-content'>
