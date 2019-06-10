@@ -31,21 +31,6 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpn3.jpg" />
-				          	<div class='content'>
-				            <h3 style="text-transform: none;">Node Configuration</h3>
-				          </div></a>
-				        </div>
-				        {% endif %}
-				        {% endfor %}
-					</div>
-				</li>
-				<li class="fuqHMA">
-					<div class="hOXnHC">
-						{% assign product_pages = site.pages | where:"categories","modem" %}
-  						{% for page in product_pages %}
-  						{% if page.title contains "Platinum Edition Modems" %}
-				        <div class='mod modBlogPost'>
 				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Surface Configuration</h3>
@@ -70,6 +55,7 @@ section_id: products
 				        {% endfor %}
 					</div>
 				</li>
+				<li class="fuqHMA"></li>
 			</ul>
 		</div>
 		<div class='cmXrEt'>

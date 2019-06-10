@@ -56,6 +56,6 @@ Detailed documentation is available on the [UnetStack documentation page](https:
 
 <h2>Brochures</h2>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/unetstack.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/unetstack.pdf" target="_blank" style="font-size: 1.2em;">UnetStack</a>
+  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure-v3.0.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack3.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure-v3.0.pdf" target="_blank" style="font-size: 1.2em;">UnetStack3</a>
 </div>
