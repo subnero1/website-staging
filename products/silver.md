@@ -50,10 +50,10 @@ Detailed documentation is available on the [UnetStack documentation page](https:
 
 <h2>Brochures</h2>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-v4.0.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/auv.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-Modem-v4.0.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
   <a href="{{site.baseurl}}/brochures/Subnero-Modem-v4.0.pdf" target="_blank">Subnero Underwater Modems</a>
 </div>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications-v4.0.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications-v4.0.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
   <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications-v4.0.pdf" target="_blank">Subnero Underwater Modems (Technical Specifications)</a>
 </div>
