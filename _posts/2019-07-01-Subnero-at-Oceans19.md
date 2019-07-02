@@ -17,7 +17,7 @@ These industry thought leaders gather for four days to highlight relevant topics
 
 The [Marine Technology Society](https://www.mtsociety.org/) and the [IEEE Oceanic Engineering Society](http://ieeeoes.org/) partner to present OCEANS. This prestigious conference and exhibition draws an audience of more than 2,000 attendees.
 
-Subnero attends this event once a year, every year. Once again we made new acquaintances and caught up on the latest news from the industry. We were privileged to attend Dr John Potter’s tutorial on Janus and to do a demonstration using UnetStack3. Our booth was very well attended during the entire exhibition.
+Subnero attends this event once a year, every year. Once again we made new acquaintances and caught up on the latest news from the industry. We were privileged to help with Dr. John Potter’s tutorial on JANUS and to do a demonstration of JANUS using UnetStack3. We had lots of activity at our booth during the entire exhibition as well.
 
 We can’t wait for OCEANS 20 in Singapore! #Oceans20Singapore
 
