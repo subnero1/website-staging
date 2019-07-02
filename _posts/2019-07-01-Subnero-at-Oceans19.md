@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Subnero at Oceans'19, Marseille
+title: Subnero at OCEANS'19, Marseille
 banner : images/banner-pulse-standard.jpg
 date:  2019-07-01
 categories: WNC
 thumbnail: images/pulse-thumbnail-oceans19.jpg
 ---
 
-![]({{site.baseurl}}/images/pulse-oceans19-1.jpg){: .center-image  }
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDhKM-z8En8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 OCEANS is a bi-annual event for global marine technologists, engineers, scientists, students, government officials and lawyers.
 
@@ -17,7 +19,7 @@ The [Marine Technology Society](https://www.mtsociety.org/) and the [IEEE Ocea
 
 Subnero attends this event once a year, every year. Once again we made new acquaintances and caught up on the latest news from the industry. We were privileged to attend Dr John Potter’s tutorial on Janus and to do a demonstration using UnetStack3. Our booth was very well attended during the entire exhibition.
 
-We can’t wait for Oceans 20 in Singapore! #Oceans20Singapore
+We can’t wait for OCEANS 20 in Singapore! #Oceans20Singapore
 
 <div>
     <img src="{{site.baseurl}}/images/pulse-oceans19-2.jpg" style="margin:5px 25px 5px 100px">
