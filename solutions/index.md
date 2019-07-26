@@ -38,7 +38,6 @@ The [Subnero Water Assessment Network]({{ site.baseurl }}{% link products/swan.m
 We provide professional deployment services and operational support for its clients.
 
 <div class='one spacing'></div>
-<div id="custom"></div>
 ## Customized solutions
 
 While our products are flexible enough to meet most client requirements, there are times when a client requires technology customization in order to meet some special needs. We are happy to advise clients on how best our products can be used to meet these needs, and customize the products when necessary for specific applications.
