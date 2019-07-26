@@ -11,12 +11,13 @@ section_id: products
 
 Delivering performance under the toughest environmental conditions, Subnero's platinum edition modems are designed to meet rigorous quality standards mandated by sectors such as defense, oil & gas and subsea engineering. All devices are subjected to environmental stress screening (PCBA and unit level) before shipment. They also meet IPC class 2 workmanship requirement of PCBA and are conformally coated. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
+<div id="embedded"></div>
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mpe3.jpg"/>    
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;">Embedded Configuration</h3>
+    <h3 style="text-transform: none;" id="surface">Embedded Configuration</h3>
           <h4 style="text-transform: none;">WNC-M25MPE3</h4>
           <p>Designed with ease of integration and flexibilty as the primary focus, this modem is ideal for integration to underwater platforms (AUVs, ROVs).</p>
     </div>

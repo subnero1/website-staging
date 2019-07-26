@@ -16,7 +16,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25msn3.jpg"/>    
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;">Node Configuration</h3>
+    <h3 style="text-transform: none;" id="surface">Node Configuration</h3>
         <h4 style="text-transform: none;">WNC-M25MSN3</h4>
         <p>A modem in the node configuration operates on batteries and can be deployed in a standalone mode.</p>
     </div>
@@ -24,7 +24,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 
   <div class ='media product' style='background: #f5f5f5' >   
     <div class='media-body product product-content' style='background: #f5f5f5'>
-    <h3 style="text-transform: none;">Surface Configuration</h3>
+    <h3 style="text-transform: none;" id="embedded">Surface Configuration</h3>
           <h4 style="text-transform: none;">WNC-M25MSS3</h4>
           <p>A modem in the surface configuration operates on external power source and can be deployed from the surface.</p>
     </div>
