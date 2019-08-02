@@ -139,7 +139,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Solutions" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}#custom"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+				        	<a href="{{site.baseurl}}{{page.url}}#customized-solutions"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Custom Configuration</h3>
 				          </div></a>
