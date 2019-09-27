@@ -111,6 +111,7 @@ section_id: products
 		<div class='cmXrEt'>
 			<h1 class='thin' style='text-align: center'>Research Edition</h1>
 			<ul class="gfXsQG">
+				<li class="fuqHMA"></li>
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
@@ -127,30 +128,16 @@ section_id: products
 					</div>
 				</li>
 				<li class="fuqHMA"></li>
-				<li class="fuqHMA"></li>
 			</ul>
 		</div>
 		<div class='cmXrEt'>
-			<h1 class='thin' style='text-align: center'>Customized Solutions</h1>
-			<ul class="gfXsQG">
-				<li class="fuqHMA">
-					<div class="hOXnHC">
-						{% assign product_pages = site.pages | where:"categories","solutions" %}
-  						{% for page in product_pages %}
-  						{% if page.title contains "Solutions" %}
-				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}#customized-solutions"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
-				          	<div class='content'>
-				            <h3 style="text-transform: none;">Custom Configuration</h3>
-				          </div></a>
-				        </div>
-				        {% endif %}
-				        {% endfor %}
-					</div>
-				</li>
-				<li class="fuqHMA"></li>
-				<li class="fuqHMA"></li>
-			</ul>
+			{% assign product_pages = site.pages | where:"categories","solutions" %}
+			{% for page in product_pages %}
+			{% if page.title contains "Solutions" %}
+            <h1 class='thin' style='text-align: center'>Subnero Customized Solutions <p><a href="{{site.baseurl}}{{page.url}}#customized-solutions" style="text-transform: none;">[View details..]</a></p>
+            </h1>
+            {% endif %}
+			{% endfor %}
 		</div>
 	</div>
 </section>

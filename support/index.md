@@ -44,8 +44,8 @@ banner : images/banner-support.jpg
 
 ## Training
 
-We provide training programs to help you use our solutions most effectively and customize our products for your specific use case. For more information, please contact us at support@subnero.com
+We provide training programs to help you use our solutions most effectively and customize our products for your specific use case. For more information, please contact us at support@subnero.com.
 
 ## Contact
 
-If you can't find the information you were looking for above, you may contact us at support@subnero.com
+If you can't find the information you were looking for above, you may contact us at support@subnero.com.
