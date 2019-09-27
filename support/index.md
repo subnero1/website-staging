@@ -42,6 +42,10 @@ banner : images/banner-support.jpg
 - [fjåge project](https://github.com/org-arl/fjage)
 - [Unet user contributions](https://github.com/org-arl/unet-contrib)
 
+## Training
+
+We provide training programs to help you use our solutions most effectively and customize our products for your specific use case. For more information, please contact us at support@subnero.com.
+
 ## Contact
 
-If you can't find the information you were looking for above, you may contact us at support @ subnero.com
+If you can't find the information you were looking for above, you may contact us at support@subnero.com.

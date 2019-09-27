@@ -31,7 +31,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}/#surface"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
@@ -46,7 +46,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Platinum Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}/#title"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Embedded Configuration</h3>
 				          </div></a>
@@ -67,7 +67,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25msn3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}/#title"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25msn3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Node Configuration</h3>
 				          </div></a>
@@ -82,7 +82,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}#surface"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Surface Configuration</h3>
 				          </div></a>
@@ -97,7 +97,7 @@ section_id: products
   						{% for page in product_pages %}
   						{% if page.title contains "Silver Edition Modems" %}
 				        <div class='mod modBlogPost'>
-				        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
+				        	<a href="{{site.baseurl}}{{page.url}}/#embedded"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
 				          	<div class='content'>
 				            <h3 style="text-transform: none;">Embedded Configuration</h3>
 				          </div></a>
@@ -111,6 +111,7 @@ section_id: products
 		<div class='cmXrEt'>
 			<h1 class='thin' style='text-align: center'>Research Edition</h1>
 			<ul class="gfXsQG">
+				<li class="fuqHMA"></li>
 				<li class="fuqHMA">
 					<div class="hOXnHC">
 						{% assign product_pages = site.pages | where:"categories","modem" %}
@@ -127,8 +128,16 @@ section_id: products
 					</div>
 				</li>
 				<li class="fuqHMA"></li>
-				<li class="fuqHMA"></li>
 			</ul>
+		</div>
+		<div class='cmXrEt'>
+			{% assign product_pages = site.pages | where:"categories","solutions" %}
+			{% for page in product_pages %}
+			{% if page.title contains "Solutions" %}
+            <h1 class='thin' style='text-align: center'>Subnero Customized Solutions <p><a href="{{site.baseurl}}{{page.url}}#customized-solutions" style="text-transform: none;">[View details..]</a></p>
+            </h1>
+            {% endif %}
+			{% endfor %}
 		</div>
 	</div>
 </section>
