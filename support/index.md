@@ -6,9 +6,9 @@ banner : images/banner-support.jpg
 
 ## Documentation
 
-- [Getting started with UnetStack](https://www.unetstack.net/quickstart.html)
-- [UnetStack developer's guide](https://www.unetstack.net/devguide.html)
-- [UnetStack API reference](https://www.unetstack.net/javadoc/index.html)
+- [Getting started with UnetStack](https://unetstack.net/index.html#docs)
+- [UnetStack developer's guide](https://unetstack.net/handbook/unet-handbook_preface.html)
+- [UnetStack API reference](https://unetstack.net/javadoc/3.0/)
 - [fjåge developer's guide](https://fjage.readthedocs.io/en/latest/)
 - [fjåge API reference](http://org-arl.github.io/fjage/javadoc)
 - [UnetStack Python API](https://github.com/org-arl/unet-contrib/tree/master/contrib/Unet-Python-API)
@@ -17,7 +17,7 @@ banner : images/banner-support.jpg
 ## Tutorials
 
 - [UnetStack Python tutorial](https://www.unetstack.net/_static/python-gateway-tutorial.html)
-- [Medium access control tutorial](https://www.unetstack.net/mac.html)
+- [Medium access control tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html)
 - [Video tutorial: Getting started with UnetStack](http://www.youtube.com/watch?v=0EVlYz10lao)
 - [Video tutorial: Developing UnetStack agents](http://www.youtube.com/watch?v=dprJPdrf_m8)
 - [Video tutorial: Simulating underwater networks](http://www.youtube.com/watch?v=ybVWh2Yaw8w)
@@ -34,7 +34,7 @@ banner : images/banner-support.jpg
 
 ## Downloads
 
-- [Unet simulator downloads](https://www.unetstack.net/downloads.html)
+- [Unet simulator downloads](https://www.unetstack.net/downloads/)
 
 ## Useful links
 
