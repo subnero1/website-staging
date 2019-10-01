@@ -13,9 +13,9 @@ Commonly cited challenges in underwater networks include low bandwidth, long pro
 
 UnetStack is a flexible agent-based underwater network stack that allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed. The stack runs on an underwater modem or on a host computer connected to the modem, transforming the modem into a sophisticated network node. UnetStack can also serve as a gateway to private terrestrial or satellite networks, or to the Internet.
 
-![UnetStack]({{site.baseurl}}/images/unetstack.png){: .center-image  }
+![UnetStack]({{site.baseurl}}/images/unetstack3.png){: .center-image  }
 
-UnetStack consists of a collection of software agents that provide [well-defined services](https://www.unetstack.net/agent-ref.html){:target="_blank"}. This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed.
+UnetStack consists of a collection of software agents that provide [well-defined services](https://unetstack.net/handbook/unet-handbook_services_and_capabilities.html){:target="_blank"}. This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed.
 
 UnetStack defines commonly needed agents with services, messages, capabilities and parameters. The stack is extensible, allowing agents to provide additional services that may be used by other agents for the development of optimized network protocols. Although the stack focuses on underwater networks, it allows wired and wireless radio links to be included as part of the network.
 
@@ -30,7 +30,7 @@ The UnetSim underwater network simulator enables a network engineer to simulate 
 
 Essentially, once a protocol is developed and tested in simulation, it is ready to be deployed and tested at sea in any UnetStack-compatible modem.
 
-The simulator is available free-of-charge for download from [www.unetstack.net](https://www.unetstack.net/downloads.html){:target="_blank"}.
+The simulator is available free-of-charge for download from [www.unetstack.net](https://unetstack.net/downloads/){:target="_blank"}.
 
 ## How does it work?
 
