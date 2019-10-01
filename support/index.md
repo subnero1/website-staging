@@ -16,7 +16,7 @@ banner : images/banner-support.jpg
 
 ## Tutorials
 
-- [UnetStack Python tutorial](https://www.unetstack.net/_static/python-gateway-tutorial.html)
+- [UnetStack Python tutorial](https://github.com/org-arl/unet-contrib/blob/master/contrib/Unet-Python-API/python-gateway-tutorial.ipynb)
 - [Medium access control tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html)
 - [Video tutorial: Getting started with UnetStack](http://www.youtube.com/watch?v=0EVlYz10lao)
 - [Video tutorial: Developing UnetStack agents](http://www.youtube.com/watch?v=dprJPdrf_m8)
