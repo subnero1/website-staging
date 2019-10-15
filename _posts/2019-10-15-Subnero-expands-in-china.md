@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Subnero expands in China
-banner : images/banner-unetstack.jpg
+banner : images/banner-pulse-standard.jpg
 date:  2019-10-15
 categories: wnc
-thumbnail: images/boxart-cloud.jpg
+thumbnail: images/pulse-smartsea.jpg
 ---
 
 Subnero, the leading global provider of in-water wireless communication and monitoring systems is further expanding its Asian operations, having signed a partnership with Wuxi Smartsea Technology Co. Ltd. to support China business growth.
