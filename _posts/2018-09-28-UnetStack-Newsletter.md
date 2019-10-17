@@ -13,7 +13,7 @@ We are delighted to share the following news updates with you:
 
 ### Introducing UnetPy - Python API for UnetStack
 
-Today, we are excited to share a new software framework to connect to UnetStack through python - [UnetPy](https://github.com/org-arl/unet-contrib/tree/master/contrib/Unet-Python-API){:target="_blank"}. UnetPy allows developers and users to use frameworks such as Jupyter notebook or similar Python tools to develop applications. UnetPy uses the package fjågepy. A simple tutorial is available [here](https://github.com/org-arl/unet-contrib/blob/master/contrib/Unet-Python-API/python-gateway-tutorial.ipynb/){:target="_blank"} to help you get started.
+Today, we are excited to share a new software framework to connect to UnetStack through python - [UnetPy](https://github.com/org-arl/unet-contrib/tree/master/unetsocket/python){:target="_blank"}. UnetPy allows developers and users to use frameworks such as Jupyter notebook or similar Python tools to develop applications. UnetPy uses the package fjågepy. A simple tutorial is available [here](https://github.com/org-arl/unet-contrib/blob/master/unetsocket/python/python-gateway-tutorial.ipynb/){:target="_blank"} to help you get started.
  
 ### Check out the Unet Blog
 

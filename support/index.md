@@ -11,12 +11,12 @@ banner : images/banner-support.jpg
 - [UnetStack API reference](https://unetstack.net/javadoc/3.0/){:target="_blank"}
 - [fjåge developer's guide](https://fjage.readthedocs.io/en/latest/){:target="_blank"}
 - [fjåge API reference](http://org-arl.github.io/fjage/javadoc){:target="_blank"}
-- [UnetStack Python API](https://github.com/org-arl/unet-contrib/tree/master/contrib/Unet-Python-API){:target="_blank"}
-- [UnetStack C API](https://github.com/org-arl/unet-contrib/tree/master/contrib/Unet-C-API){:target="_blank"}
+- [UnetStack Python API](https://github.com/org-arl/unet-contrib/tree/master/unetsocket/python){:target="_blank"}
+- [UnetStack C API](https://github.com/org-arl/unet-contrib/tree/master/unetsocket/c){:target="_blank"}
 
 ## Tutorials
 
-- [UnetStack Python tutorial](https://github.com/org-arl/unet-contrib/blob/master/contrib/Unet-Python-API/python-gateway-tutorial.ipynb){:target="_blank"}
+- [UnetStack Python tutorial](https://github.com/org-arl/unet-contrib/blob/master/unetsocket/python/python-gateway-tutorial.ipynb){:target="_blank"}
 - [Medium access control tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html){:target="_blank"}
 - [Video tutorial: Getting started with UnetStack](http://www.youtube.com/watch?v=0EVlYz10lao){:target="_blank"}
 - [Video tutorial: Developing UnetStack agents](http://www.youtube.com/watch?v=dprJPdrf_m8){:target="_blank"}
