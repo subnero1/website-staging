@@ -31,6 +31,8 @@
     - If there is a reference to our modems/UnetStack/SWAN, it would be good to provide links to the respective page in our website or the UnetStack website.
   
 - Click `Commit new file` at the bottom of the page.
+- Create a `Pull request` to add the post to master.
+  - Go to `Pull request` tab shown on top of the page. Click `New pull request`, select `Reviewers` from the right-hand side as Manu/Chinmay/Anne and click `Create pull request`.
 
-
+- Once all the review comments are addressed and the reviewers have approved and if all the `Travis` checks have passed, the branch can be merged to master.
 
