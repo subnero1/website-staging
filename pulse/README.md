@@ -1,9 +1,8 @@
 
-### Steps to create a new post in the `pulse` page of the website.
-
-##### Points to note:
+#### Points to note:
 - All branch names and image names to be in lower case.
 
+#### Steps to create a new post in the `pulse` page of the website.
 - Create a new branch in the website repo.
   - Click the `Branch` dropdown on the top-left side, enter the name of the branch and click `Create new branch`. The             branch will be created and set as the new branch.
 - Create a new file under the branch in the `_posts` folder.
