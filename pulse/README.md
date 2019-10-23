@@ -19,6 +19,7 @@
         thumbnail: images/pulse-smartsea.jpg
         ---
   ```
+    - There should be no spaces before the dashes and there should be one space after the colon.
     - The `title` and `date` are shown below the image for each post in the pulse page.
     - The `categories` section is to link the relevant tags to the post. Currently, we have `media`, `news`, `newsletter`, `sauvc`, `sensors`, `wnc` and `wqm`.
     - The `thumbnail` is the image of the post in the https://subnero.com/pulse/. The image has to be added in the `images` folder and named as `pulse-thumbnail-<name of the image>.jpg`
