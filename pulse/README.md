@@ -1,6 +1,7 @@
 
 #### Points to note:
 - All branch names and image names to be in lower case.
+- All names to be hyphen separated.
 
 #### Steps to create a new post in the `pulse` page of the website.
 - Create a new branch in the website repo.
@@ -38,5 +39,9 @@
 - Create a `Pull request` to add the post to master.
   - Go to `Pull request` tab shown on top of the page. Click `New pull request`, select `Reviewers` from the right-hand side as Manu/Chinmay/Anne and click `Create pull request`.
 
+- The comments from the reviewers can be seen in the `Pull request` and will also be received as mail alerts.
+- When there is any commit in this repo, `Travis` checks are triggered automatically to check for broken links in the website.
+![](../images/travis-progress.jpg){: .center-image  }
+
 - Once all the review comments are addressed and the reviewers have approved and if all the `Travis` checks have passed, the branch can be merged to master.
-![](../images/travis_checks.jpg){: .center-image  }
+![](../images/travis-checks.jpg){: .center-image  }
