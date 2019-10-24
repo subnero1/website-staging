@@ -10,29 +10,40 @@
   - Go to the `_posts` folder and click `Create new file`. Enter the name of the post in the format `YYYY-MM-DD-<Name of           the article separated by hyphen>`. For eg: 2013-09-10-Subnero-featured-in-the-Economist.md.
 - Layout of the post.
   - The following should be given in the beginning of the file.
-  ```
-        ---
-        layout: post
-        title: Subnero expands in China
-        banner : images/banner-pulse-standard.jpg
-        date:  2019-10-15
-        categories: wnc
-        thumbnail: images/pulse-smartsea.jpg
-        ---
-  ```
+```
+---
+layout: post
+title: Subnero expands in China
+banner : images/banner-pulse-standard.jpg
+date:  2019-10-15
+categories: wnc
+thumbnail: images/pulse-smartsea.jpg
+---
+```
     
     - There should be no spaces before the dashes and there should be one space after the colon.
     - The `title` and `date` are shown below the image for each post in the pulse page.
     - The `categories` section is to link the relevant tags to the post. Currently, we have `media`, `news`, `newsletter`, `sauvc`, `sensors`, `wnc` and `wqm`.
     - The `thumbnail` is the image of the post in the https://subnero.com/pulse/. The image has to be added in the `images` folder and named as `pulse-thumbnail-<name of the image>.jpg`
     - It would be good to have images in the post. The image needs to be added in the `images` folder and named as `pulse-<name of the image>.jpg`. The image can be added in the post as shown below.
-    ```
-    ![]({{site.baseurl}}/images/pulse-imdex.jpg){: .center-image  }
-    ```
+```
+![]({{site.baseurl}}/images/pulse-imdex.jpg){: .center-image  }
+```
     - Any links added to the post should be in markdown format.
-      ```
-      [iOceans](http://www.cso.org.cn/ggxx/2019/0926/2816.html){:target="_blank"}
-      ```
+```
+[iOceans](http://www.cso.org.cn/ggxx/2019/0926/2816.html){:target="_blank"}
+```
+    - If the pulse article is a direct link to a website, post content will include an `external_url` and `source` instead of `banner` and `date`.
+```
+---
+layout: post
+title: SWAN featured in TechAlert of IPI Singapore
+external_url: https://www.ipi-singapore.org/technology-offers/real-time-water-quality-monitoring-and-sensing-smart-autonomous-surface-vessel
+source: https://www.ipi-singapore.org/technology-offers/
+categories: news
+thumbnail: images/Pulse-SWAN.jpg
+--- 
+```
     - If there is a reference to our modems/UnetStack/SWAN, it would be good to provide links to the respective page in our website or the UnetStack website.
   
 - Click `Commit new file` at the bottom of the page.
