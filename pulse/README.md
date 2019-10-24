@@ -1,6 +1,8 @@
 
-### Steps to create a new post in the `pulse` page of the website.
+#### Points to note:
+- All branch names and image names to be in lower case.
 
+#### Steps to create a new post in the `pulse` page of the website.
 - Create a new branch in the website repo.
   - Click the `Branch` dropdown on the top-left side, enter the name of the branch and click `Create new branch`. The             branch will be created and set as the new branch.
 - Create a new file under the branch in the `_posts` folder.
@@ -17,6 +19,8 @@
         thumbnail: images/pulse-smartsea.jpg
         ---
   ```
+    
+    - There should be no spaces before the dashes and there should be one space after the colon.
     - The `title` and `date` are shown below the image for each post in the pulse page.
     - The `categories` section is to link the relevant tags to the post. Currently, we have `media`, `news`, `newsletter`, `sauvc`, `sensors`, `wnc` and `wqm`.
     - The `thumbnail` is the image of the post in the https://subnero.com/pulse/. The image has to be added in the `images` folder and named as `pulse-thumbnail-<name of the image>.jpg`
@@ -35,4 +39,4 @@
   - Go to `Pull request` tab shown on top of the page. Click `New pull request`, select `Reviewers` from the right-hand side as Manu/Chinmay/Anne and click `Create pull request`.
 
 - Once all the review comments are addressed and the reviewers have approved and if all the `Travis` checks have passed, the branch can be merged to master.
-
+![](../images/travis_checks.jpg){: .center-image  }
