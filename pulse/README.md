@@ -41,7 +41,7 @@
 
 - The comments from the reviewers can be seen in the `Pull request` and will also be received as mail alerts.
 - When there is any commit in this repo, `Travis` checks are triggered automatically to check for broken links in the website.
-![](../images/travis-progress.jpg){: .center-image  }
+![](../images/travis-progress.jpg)
 
 - Once all the review comments are addressed and the reviewers have approved and if all the `Travis` checks have passed, the branch can be merged to master.
-![](../images/travis-checks.jpg){: .center-image  }
+![](../images/travis-checks.jpg)
