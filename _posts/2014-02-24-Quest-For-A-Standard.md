@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-standard.jpg
 
 Standards are the reason why our phones and Wi-Fi routers of different brands can communicate seamlessly. In this case 802.11x being the accepted standard. However these standards haven’t been here since the birth of the wireless technology. It took a great deal of time to arrive at something most could agree upon. That time is here for underwater networks. There is a pressing need for a standard. Currently interoperability is limited and happens through gateways that will connect different set-ups, so nodes in one network will go through a ‘translator’ to be able to communicate with another network. However this is less than ideal for the long term and peer to peer offers a well-defined evolution as demonstrated by terrestrial wireless systems.
 
-This need for a standard is extensively discussed in the article by [Captain Edward H. Lundquist, Proceedings Magazine, February 2014](http://www.usni.org/magazines/proceedings/2014-02/search-standard-answer){:target="_blank"}.
+This need for a standard is extensively discussed in the article by [Captain Edward H. Lundquist, Proceedings Magazine, February 2014](https://www.usni.org/magazines/proceedings/2014/february/search-standard-answer){:target="_blank"}.
 
 
 To summarize some the key points of the article,
