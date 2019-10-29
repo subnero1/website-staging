@@ -20,7 +20,7 @@ section_id: products
 <!--<div class='full' style='background:#F5F5F5'>-->
 <div class='cGBxoB'>
 <section class='bsPRnx'>
-	<h1 class='thin' style='text-align: center'>Subnero M2M series modems</h1>
+	<h1 class='thin' style='text-align: center'>Subnero M25M series modems</h1>
 	<div class='eyXpDN'>
 		<div class='cmXrEt'>
 			<h1 class='thin' style='text-align: center'>Platinum Edition</h1>
