@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subnero M2M series modems
+title: Subnero M25M series modems
 banner : images/banner-modem.jpg
 thumbnail: images/boxart-modem.jpg
 categories: underwatermodem
