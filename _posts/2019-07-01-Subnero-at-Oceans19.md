@@ -3,7 +3,7 @@ layout: post
 title: Subnero at OCEANS'19, Marseille
 banner : images/banner-pulse-standard.jpg
 date:  2019-07-01
-categories: WNC
+categories: wnc
 thumbnail: images/pulse-thumbnail-oceans19.jpg
 ---
 
