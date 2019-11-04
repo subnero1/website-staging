@@ -5,6 +5,6 @@ rvm:
 
 before_script: gem install awesome_bot
 
-script: awesome_bot _posts/*.md  support/**/*.md  support/*.md products/*.md solutions/*.md contact/*.md  pulse/*.md --allow-dupe --allow-redirect --allow-ssl --skip-save-results
+script: awesome_bot _posts/*.md  support/**/*.md  support/*.md products/*.md solutions/*.md contact/*.md  pulse/*.md --allow-dupe --allow-redirect --allow-ssl --skip-save-results --set-timeout 100
 notifications:
   email: false
