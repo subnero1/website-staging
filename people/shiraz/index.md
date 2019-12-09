@@ -4,8 +4,8 @@ title: Shiraz Shahabudeen
 banner: images/banner-about.jpg
 ---
 
-<div>   
-	<img src="/images/shiraz.jpg" style="width:30%">
+<div>
+	<img src="/images/people/shiraz.jpg" style="width:30%">
 </div>
 <div class="spacing"></div>
 <p>

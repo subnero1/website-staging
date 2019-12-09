@@ -5,7 +5,7 @@ banner: images/banner-about.jpg
 ---
 
 <div>
-	<img src="/images/prasad.jpg" style="width:30%">
+	<img src="/images/people/prasad.jpg" style="width:30%">
 </div>
 <div class="spacing"></div>
 <p>
