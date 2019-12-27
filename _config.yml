@@ -13,3 +13,5 @@ markdown: kramdown
 encoding:    UTF-8
 highlighter: rouge
 
+# Google Analytics
+google_analytics: UA—130948711-1
