@@ -34,7 +34,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="{{ "/javascripts/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% if site.google_analytics %}
   {% include analytics.html %}
   {% endif %}
 </head>
