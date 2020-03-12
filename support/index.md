@@ -18,10 +18,8 @@ banner : images/banner-support.jpg
 
 - [UnetStack Python tutorial](https://github.com/org-arl/unet-contrib/blob/master/unetsocket/python/python-gateway-tutorial.ipynb){:target="_blank"}
 - [Medium access control tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html){:target="_blank"}
-- [Video tutorial: Getting started with UnetStack](http://www.youtube.com/watch?v=0EVlYz10lao){:target="_blank"}
-- [Video tutorial: Developing UnetStack agents](http://www.youtube.com/watch?v=dprJPdrf_m8){:target="_blank"}
-- [Video tutorial: Simulating underwater networks](http://www.youtube.com/watch?v=ybVWh2Yaw8w){:target="_blank"}
-- [Video tutorial: The default network stack](http://www.youtube.com/watch?v=OFBXgebl8Nc){:target="_blank"}
+- [Video tutorials on UnetStack3](https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw){:target="_blank"}
+- [Video tutorials on Subnero underwater acoustic modems](https://www.youtube.com/channel/UC5sm2Hjyz7BqufEQainQbtA){:target="_blank"}
 
 ## Relevant Papers
 
