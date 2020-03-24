@@ -34,7 +34,7 @@ The simulator is available free-of-charge for download from [www.unetstack.net](
 
 ## How does it work?
 
-A simple script written in a [domain-specific language](https://www.unetstack.net/simulation-dsl.html){:target="_blank"} (DSL) allows users to describe a simulation scenario in a natural way. This significantly reduces the barrier to entry for new users. A sample simulation DSL script is shown below:
+A simple script written in a [domain-specific language](https://unetstack.net/handbook/unet-handbook_writing_simulation_scripts.html){:target="_blank"} (DSL) allows users to describe a simulation scenario in a natural way. This significantly reduces the barrier to entry for new users. A sample simulation DSL script is shown below:
 
 ```java
 channel.soundSpeed = 1500.mps
