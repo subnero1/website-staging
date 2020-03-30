@@ -4124,6 +4124,11 @@ p.small-title {
     font-size: 1.3rem;
   }
 
+  .posts{
+    background: #f5f5f5;
+    min-height: 50vh;
+  }
+
 }
 
 /*
@@ -4182,7 +4187,12 @@ p.small-title {
 }
 .top-bar-section ul li > a{
     font-size: 1.2rem;
-  }
+}
+
+.posts{
+  background: #f5f5f5;
+  min-height: 50vh;
+}
 
 }
 
@@ -4256,6 +4266,11 @@ p.small-title {
     font-size: 1.2rem;
   }
 
+.posts{
+  background: #f5f5f5;
+  min-height: 60vh;
+}
+
 }
 
 /*
@@ -4322,6 +4337,11 @@ p.small-title {
 
 .brochure-container a{
   font-size: 1.2em;
+}
+
+.posts{
+  background: #f5f5f5;
+  min-height: 60vh;
 }
 
 }
@@ -4504,6 +4524,11 @@ h1{
   margin-right: 10px;
 }
 
+.posts{
+  background: #f5f5f5;
+  min-height: 60vh;
+}
+
 }
 
 /*
@@ -4609,6 +4634,11 @@ p, .direct ul{
 
 h1{
   font-size: 2rem;
+}
+
+.posts{
+  background: #f5f5f5;
+  min-height: 60vh;
 }
 }
 
