@@ -7,5 +7,7 @@ categories: wnc
 thumbnail: images/pulse-thumbnail-node-modem.jpeg
 ---
 Our silver edition NC modem is taking the plunge in the Mediterranean Sea.
-The team of Dr Roee Diamant at The University of Haifa deployed the Subnero modem with an additional [co-processor] (https://subnero.com/wnc/2018/11/17/Underwater-modem-with-a-coprocessor.html) that is configured with sonar-like functionalities for their research.
-Contact us to find out more about software-defined acoustic modems.
+
+The team of Dr Roee Diamant, at The University of Haifa, deployed a Node configuration Subnero modem with an additional [co-processor](https://subnero.com/wnc/2018/11/17/Underwater-modem-with-a-coprocessor.html), that is configured with sonar-like functionalities, for their research.
+
+[Contact us](https://subnero.com/contact/) to find out more about software-defined acoustic modems.
