@@ -34,5 +34,3 @@ Also check out the video for the new features in UnetStack 3.1.
 </div>
 
 Can't wait to try it! Here is the [link](https://unetstack.net/downloads/){:target="_blank"} to download it.
-
-We look forward to hearing any feedback that you may have.
