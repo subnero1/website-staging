@@ -6,8 +6,10 @@ date:  2020-03-30
 categories: wnc
 thumbnail: images/pulse-thumbnail-node-modem.jpeg
 ---
-
-![]({{site.baseurl}}/images/pulse-thumbnail-node-modem.jpeg){: .center-image  }
+<div style="display: flex;justify-content: center">
+    <img src="{{site.baseurl}}/images/pulse-thumbnail-node-modem.jpeg" style=
+    'width: 50%'>
+</div>
 
 Our [Silver edition](https://subnero.com/products/silver.html#title) (Node Configuration) modem is taking the plunge in the Mediterranean Sea.
 
