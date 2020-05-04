@@ -7,8 +7,7 @@ categories: wnc
 thumbnail: images/pulse-thumbnail-node-modem.jpeg
 ---
 <div style="display: flex;justify-content: center">
-    <img src="{{site.baseurl}}/images/pulse-thumbnail-node-modem.jpeg" style=
-    'width: 50%'>
+    <img src="{{site.baseurl}}/images/pulse-thumbnail-node-modem.jpeg" class='pulse-img'>
 </div>
 
 Our [Silver edition](https://subnero.com/products/silver.html#title) (Node Configuration) modem is taking the plunge in the Mediterranean Sea.
