@@ -5044,3 +5044,8 @@ img {
   margin-bottom: 2vh;
 }
 
+.pulse-img-div{
+  display: flex;
+  justify-content: center;
+}
+

@@ -6,7 +6,7 @@ date:  2020-03-30
 categories: wnc
 thumbnail: images/pulse-thumbnail-node-modem.jpeg
 ---
-<div style="display: flex;justify-content: center">
+<div class='pulse-img-div'>
     <img src="{{site.baseurl}}/images/pulse-thumbnail-node-modem.jpeg" class='pulse-img'>
 </div>
 
