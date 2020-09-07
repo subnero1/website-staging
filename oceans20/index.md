@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Subnero @ Oceans 20
+permalink: /oceans20
 banner: images/banner-about.jpg
 ---
 
