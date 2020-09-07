@@ -13,7 +13,10 @@ We'll be updating this page through the duration of the Oceans 20 Conference, pl
 
 ## Slides
 
+[Slides for PART 1](tutorial-part-1.pdf)\
+[Slides for PART 2](tutorial-part-2.pdf)\
 [Slides for PART 3](tutorial-part-3.pdf)\
+[Slides for PART 4](tutorial-part-4.pdf)\
 [Slides for PART 5](tutorial-part-5.pdf)\
 [Slides for PART 6](tutorial-part-6.pdf)
 
