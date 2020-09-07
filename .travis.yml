@@ -1,5 +1,6 @@
+dist: trusty
 language: ruby
-rvm: 2.4.1
+rvm: 2.6
 before_script: gem install awesome_bot
 script: awesome_bot _posts/*.md  support/**/*.md  support/*.md products/*.md solutions/*.md contact/*.md  pulse/*.md --allow-dupe --allow-redirect --allow-ssl --skip-save-results --set-timeout 1000 --white-list http://www.smartseatech.com/en/index.aspx
 notifications:
