@@ -6,7 +6,7 @@
 
 ## Install
 
-1. clone the project: `git clone git@github.com:subnero1/website.git && cd website`
+1. clone the project: `git clone git@github.com:subnero1/subnero1.github.io.git && cd subnero1.github.io`
 
 ## Development
 
