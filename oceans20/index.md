@@ -25,5 +25,3 @@ We'll be updating this page through the duration of the Oceans 20 Conference, pl
 ## Videos
 
 Coming Soon!
-
-
