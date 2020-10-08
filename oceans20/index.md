@@ -82,7 +82,7 @@ To run this jupyter notebook, follow the instructions in the video carefully. Yo
 
 This questionnaire is *ONLY REQUIRED* for those who require CEU credits. For those who do not require credits, this questionnaire is optional.
 
-Coming soon!
+[Link to questionnaire](questionnaire.pdf)
 
 ## Videos
 
