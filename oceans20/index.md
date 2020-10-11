@@ -56,7 +56,7 @@ To carry out the hands-on sessions in PART 3, PART 4 and PART 5, the participant
 <!-- ### Download Unet Simulator -->
 <h1 style="font-size: 24px;">Download Unet Simulator</h1>
 
-Visit the [link](https://github.com/org-arl/unet-contrib/tree/master/contrib/oceans-tutorial-2020) and download `unet-3.1.0` folder to your machine.
+Visit the [link](https://github.com/org-arl/unet-contrib/tree/master/contrib/oceans-tutorial-2020) and download `unet-3.1.0.zip` package to your machine. Unzip and extract the to see `unet-3.1.0` folder which contains the simulation scripts that you will use in this tutorial.
 
 <!-- ### Resources and code for PART 3 -->
 <h1 style="font-size: 24px;">Resources and code for PART 3</h1>
