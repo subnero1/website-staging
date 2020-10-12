@@ -96,4 +96,11 @@ This questionnaire is *ONLY REQUIRED* for those who require CEU credits. For tho
 <!-- ## Videos -->
 <h1 style="font-size: 32px;"><u>Videos</u></h1>
 
-Access the videos at Global Oceans 2020 virtual platform.
+The videos for each part will be uploaded soon here.
+
+<!-- [PART 1 Video]()
+[PART 2 Video]()
+[PART 3 Video]()
+[PART 4 Video]()
+[PART 5 Video]()
+[PART 6 Video]() -->
