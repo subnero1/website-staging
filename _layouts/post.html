@@ -3,7 +3,7 @@ layout: default
 section_id: page
 ---
 
-<div class ='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+<div class ='full tall' style='background-image: url({{site.baseurl}}/{% if page.banner %}{{page.banner}}{% else %}images/banner-pulse-articles1.jpg{% endif %});'>
   <div class='row'>
     <div class='large-12 columns'>
       <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
@@ -25,7 +25,12 @@ section_id: page
           <span>{{page.date | date: "%B %d, %Y" }}</span>
         </p>
         <h1 class="thin">{{page.title}}</h1>
+        {% assign content = page.content | strip_newlines %}
+        {% if content != "" %}
         {{ content }}
+        {% elsif page.external_url != null %}
+        <h3> Link : <a href="{{page.external_url}}">{{page.external_url}}</a></h3>
+        {% endif %}
       </div>
   </div>
 </div>
