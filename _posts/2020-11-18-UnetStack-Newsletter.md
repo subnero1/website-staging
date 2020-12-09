@@ -30,7 +30,7 @@ We also have a few new blog articles that we are excited to share:
 
 Check out our [YouTube channel](https://www.youtube.com/channel/UC5sm2Hjyz7BqufEQainQbtA) for the latest videos about Practical Underwater Software-Defined Network.
 
-![]({{site.baseurl}}/images/pulse-UnetAudio01.jpg){: .center-image  }
+![]({{site.baseurl}}/images/pulse-unetaudio01.jpg){: .center-image  }
 
 Unet audio:
 
