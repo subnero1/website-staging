@@ -30,6 +30,8 @@ We also have a few new blog articles that we are excited to share:
 
 Check out our [YouTube channel](https://www.youtube.com/channel/UC5sm2Hjyz7BqufEQainQbtA) for the latest videos about Practical Underwater Software-Defined Network.
 
+![]({{site.baseurl}}/images/pulse-UnetAudio01.jpg){: .center-image  }
+
 Unet audio:
 
 Did you know that Unet audio is freely available from the same community edition and that it enables you to convert your Linux or Mac laptop into a UnetStack powered software-defined acoustic modem? Read all about in the [UnetStack handbook](https://unetstack.net/handbook) (section 15.4).
