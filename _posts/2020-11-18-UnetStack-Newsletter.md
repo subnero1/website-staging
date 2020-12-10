@@ -8,7 +8,7 @@ categories:
 - media
 thumbnail: images/boxart-unet.jpg
 ---
-# Unetstack v3.2 release & latest blogs
+## Unetstack v3.2 release & latest blogs
 
 The latest version of UnetStack3 is now ready to download.
 
@@ -32,6 +32,6 @@ Check out our [YouTube channel](https://www.youtube.com/channel/UC5sm2Hjyz7BqufE
 
 ![]({{site.baseurl}}/images/pulse-unetaudio01.jpg){: .center-image  }
 
-Unet audio:
+## Unet audio:
 
 Did you know that Unet audio is freely available from the same community edition and that it enables you to convert your Linux or Mac laptop into a UnetStack powered software-defined acoustic modem? Read all about in the [UnetStack handbook](https://unetstack.net/handbook) (section 15.4).
