@@ -17,4 +17,4 @@ We loved being part of the event.
 
 We look forward to attending the next one, hopefully in person.
 
-![]({{site.baseurl}}/images/pulse-auv2020.jpg){: .center-image  }
+![](/images/pulse-auv2020.jpg){: .center-image  }
