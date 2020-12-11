@@ -34,6 +34,6 @@ Check out our [YouTube channel](https://www.youtube.com/channel/UC5sm2Hjyz7BqufE
 
 Did you know that Unet audio is freely available from the same community edition and that it enables you to convert your Linux or Mac laptop into a UnetStack powered software-defined acoustic modem? 
 
-Read all about in the [UnetStack handbook](https://unetstack.net/handbook){:target="_blank"} (section 15.4).
+Read all about in [section 15.4 of UnetStack handbook](https://unetstack.net/handbook/unet-handbook_physical_service.html#_transmitting_receiving_using_unet_audio){:target="_blank"}.
 
 ![]({{site.baseurl}}/images/pulse-unetaudio01.jpg){: .center-image  }
