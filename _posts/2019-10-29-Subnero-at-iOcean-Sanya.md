@@ -7,11 +7,11 @@ categories: wnc
 thumbnail: images/pulse-thumbnail-smartsea-team.jpg
 ---
 
-Subnero was delighted to be with [Wuxi Smartsea Technology](http://www.smartseatech.com/en/index.aspx){:target="_blank"} at [iOceans 19](http://www.cso.org.cn/ggxx/2019/0926/2816.html){:target="_blank"}.
+Subnero was delighted to be with [Wuxi Smartsea Technology](http://www.smartseatech.com/en/index.aspx){:target="_blank"} at iOceans 19 conference.
 
 The event took place from the 25th to the 27th of October, in Sanya, China.
 
-This is Subnero's first exhibition in China, with their new business partner. 
+This is Subnero's first exhibition in China, with their new business partner.
 
 We are confident that this is the beginning of a long and successful partnership in China.
 
