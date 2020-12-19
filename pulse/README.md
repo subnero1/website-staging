@@ -20,7 +20,7 @@ categories: wnc
 thumbnail: images/pulse-smartsea.jpg
 ---
 ```
-    
+
     - There should be no spaces before the dashes and there should be one space after the colon.
     - The `title` and `date` are shown below the image for each post in the pulse page.
     - The `categories` section is to link the relevant tags to the post. Currently, we have `media`, `news`, `newsletter`, `sauvc`, `sensors`, `wnc` and `wqm`.
@@ -31,21 +31,21 @@ thumbnail: images/pulse-smartsea.jpg
 ```
     - Any links added to the post should be in markdown format.
 ```
-[iOceans](http://www.cso.org.cn/ggxx/2019/0926/2816.html){:target="_blank"}
+[Unet handbook](https://unetstack.net/handbook/){:target="_blank"}
 ```
     - If the pulse article is a direct link to a website, post content will include an `external_url` and `source` instead of `banner` and `date`.
 ```
 ---
 layout: post
-title: SWAN featured in TechAlert of IPI Singapore
-external_url: https://www.ipi-singapore.org/technology-offers/real-time-water-quality-monitoring-and-sensing-smart-autonomous-surface-vessel
-source: https://www.ipi-singapore.org/technology-offers/
-categories: news
-thumbnail: images/Pulse-SWAN.jpg
---- 
+category: news
+title: Punchlines
+external_url: https://www.straitstimes.com/opinion/cartoons/punchlines-july-17-2018
+source : https://www.straitstimes.com/opinion/cartoons
+thumbnail: images/pulse-thumbnail-swan-comic.jpg
+---
 ```
     - If there is a reference to our modems/UnetStack/SWAN, it would be good to provide links to the respective page in our website or the UnetStack website.
-  
+
 - Click `Commit new file` at the bottom of the page.
 - Create a `Pull request` to add the post to master.
   - Go to `Pull request` tab shown on top of the page. Click `New pull request`, select `Reviewers` from the right-hand side as Manu/Chinmay/Anne and click `Create pull request`.
