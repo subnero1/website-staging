@@ -12,7 +12,7 @@ For the second consecutive year, the Subnero team attended the virtual workshop 
 The objectives of the workshop were to give participants an understanding of the basics of underwater communications, to build underwater communication topologies and setting up simulations in UnetStack amongst others.
 
 To that effect, on Wednesday 16th of December, [Dr Shiraz Shahabudeen](https://subnero.com/people/shiraz/) did an overview of underwater communications, whilst Ms Florie Mancel talked about Subnero modems and solutions.
-On Thursday 17th of December, Dr Prasad Anjangi did a presentation on underwater protocols layers.
+On Thursday 17th of December, [Dr Prasad Anjangi](https://subnero.com/people/prasad/) did a presentation on underwater protocols layers.
 
 The presentations were very well recevied and generated some very interesting questions from the numerous participants.
 
