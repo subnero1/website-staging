@@ -3,7 +3,7 @@ layout: post
 title: Subnero talks at the Open-source Network Experimentation
 banner : images/banner-pulse-standard.jpg
 date:  2020-12-17
-categories: wnc, news
+categories: wnc news
 thumbnail: images/pulse-thumbnail-NITK-2020.jpg
 ---
 
@@ -11,7 +11,8 @@ For the second consecutive year, the Subnero team attended the virtual workshop 
 
 The objectives of the workshop were to give participants an understanding of the basics of underwater communications, to build underwater communication topologies and setting up simulations in UnetStack amongst others.
 
-To that effect, on Wednesday 16th of December, [Dr Shiraz Shahabudeen](https://subnero.com/people/shiraz/) did an overview of underwater communications, whilst Ms Florie Mancel talked about Subnero modems and solutions.
+To that effect, on Wednesday 16th of December, [Dr Shiraz Shahabudeen](https://subnero.com/people/shiraz/) did an overview of underwater communications, whilst Ms Florie Mancel talked about Subnero modems and solutions. 
+
 On Thursday 17th of December, [Dr Prasad Anjangi](https://subnero.com/people/prasad/) did a presentation on underwater protocols layers.
 
 The presentations were very well received and generated some very interesting questions from the numerous participants.
