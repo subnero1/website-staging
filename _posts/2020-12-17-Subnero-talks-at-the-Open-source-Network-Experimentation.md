@@ -3,7 +3,7 @@ layout: post
 title: Subnero talks at the Open-source Network Experimentation
 banner : images/banner-pulse-standard.jpg
 date:  2020-12-17
-categories: wnc; news
+categories: wnc, news
 thumbnail: images/pulse-thumbnail-NITK-2020.jpg
 ---
 
