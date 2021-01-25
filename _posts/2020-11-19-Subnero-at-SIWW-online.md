@@ -10,7 +10,7 @@ thumbnail: images/pulse-thumbnail-siww-online.jpg
 Due to the pandemic, Singapore International Water Week has been postponed to July 2021. 
 Instead of waiting until then, the organisors arranged a virtual show.
 
-Subnero had a virtual booth with personnel available on line, permanently, to attend any visitors' queries.
+Subnero had a virtual booth with personnel available online, permanently, to attend any visitors' queries.
 
 The organisation of this show was very smooth.
 
