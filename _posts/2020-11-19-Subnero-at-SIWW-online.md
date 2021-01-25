@@ -12,9 +12,11 @@ Instead of waiting until then, the organizers arranged a virtual show.
 
 Subnero had a virtual booth with personnel available online, permanently, to attend any visitors' queries.
 
-We took this opportunity to display our new [white paper about the SWAN](https://subnero.com/brochures/SWAN-White-paper.pdf), describing the different components of our networked solution as well as to create new posters. We also display the details of our [underwater modems](https://subnero.com/brochures/Subnero-Modem-v4.0.pdf).
+We took this opportunity to display our new [white paper about the SWAN](https://subnero.com/brochures/SWAN-White-paper.pdf), describing the different components of our networked solution as well as to create new posters (as per picture below). 
 
-The show was very well attended.
+We also displayed the details of our [underwater modems](https://subnero.com/brochures/Subnero-Modem-v4.0.pdf), that can be used with water data collection underwater.
+
+The show was very well attended and had a number of very interested talks.
 
 We are looking forward for the exhibition to take place, in person (hopefully), on the 20th - 24th of June 2021.
 
