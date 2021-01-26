@@ -7,7 +7,7 @@ categories: wnc news
 thumbnail: images/pulse-thumbnail-build-the-future.jpg
 ---
 
-Our CEO, Mr Manu Ignatius, talked to Cameron Wiese, from Build The Future, about the [future of underwater wireless communications](https://open.spotify.com/episode/1FrGPojKUVl8R9GnVeNiCT).
+Our CEO, Mr Manu Ignatius, talked to Cameron Wiese, from [Build The Future](https://www.buildthefuturepodcast.com/), about the [future of underwater wireless communications](https://www.buildthefuturepodcast.com/episode/manu-ignatius-subnero).
 
 Build the Future shares the compelling visions of the future and the stories of those building it.
 
