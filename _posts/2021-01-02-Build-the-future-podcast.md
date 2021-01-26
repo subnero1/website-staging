@@ -13,5 +13,4 @@ Build the Future shares the compelling visions of the future and the stories of 
 
 In this episode, Manu also talks about the work we do at Subnero, the state of underwater networks today, marine research, underwater robots, and the future of our oceans.
 
-Plug your earphones in, switch your screen off for half and hour and listen!
-
+Plug your earphones in, switch your screen off for half an hour and listen!
