@@ -4,7 +4,7 @@ title: Podcast with Build The Future
 banner : images/banner-pulse-standard.jpg
 date:  2021-01-02
 categories: wnc news
-thumbnail: images/pulse-thumbnail-build-the-future.jpg
+thumbnail: images/pulse-thumbnail-build-the-future.png
 ---
 
 Our CEO, Mr Manu Ignatius, talked to Cameron Wiese, from [Build The Future](https://www.buildthefuturepodcast.com/), about the [future of underwater wireless communications](https://www.buildthefuturepodcast.com/episode/manu-ignatius-subnero).
