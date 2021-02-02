@@ -7,7 +7,7 @@ categories: swan
 thumbnail: images/pulse-thumbnail-siww-online.png
 ---
 
-Due to the pandemic, [Singapore International Water Week](https://www.siww.com.sg/) has been postponed to July 2021. 
+Due to the pandemic, [Singapore International Water Week](https://www.siww.com.sg/){:target="_blank"} has been postponed to July 2021. 
 Instead of waiting until then, the organizers arranged a virtual show.
 
 Subnero had a virtual booth with personnel available online, permanently, to attend any visitors' queries.
