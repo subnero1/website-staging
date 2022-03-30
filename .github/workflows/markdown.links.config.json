@@ -1,0 +1,16 @@
+{
+    "ignorePatterns": [
+        { "pattern" : "^https?://www.smartseatech.com/en/index.aspx" }, 
+        { "pattern" : "^https?://www.asianscientist.com.*" }, 
+        { "pattern" : "^https?://www.oceans19mtsieeemarseille.org.*" },
+        { "pattern" : "^{{site.baseurl}}.*" },
+        { "pattern" : "^https://www.opengovasia.com/" },
+        { "pattern" : "^\/images.*"},
+        { "pattern" : "^https://medium.com/@NUSEnterprise/"},
+        { "pattern" : "^https://www.mtsociety.org/"}
+    ],
+    "retryOn429": true,
+    "retryCount": 5,
+    "fallbackRetryDelay": "30s",
+    "timeout":"20s"
+  }

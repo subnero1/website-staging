@@ -15,7 +15,7 @@ This is Subnero's first exhibition in China, with their new business partner.
 
 We are confident that this is the beginning of a long and successful partnership in China.
 
-Both Subnero and Wuxi Smartsea Technology will be present at [Oceans 2020](https://singapore20.oceansconference.org/){:target="_blank"}, in Singapore.
+Both Subnero and Wuxi Smartsea Technology will be present at Oceans 2020, in Singapore.
 <div style="display: flex;flex-wrap: wrap;">
     <div style="flex:50%;max-width: 50%">
     <img src="{{site.baseurl}}/images/pulse-ioceans19-2.jpg" style="margin:5px">

@@ -11,7 +11,7 @@ thumbnail: images/pulse-thumbnail-blue1.jpg
 
 UnetStack and simulator v1.2 released!
 
-[UnetStack](http://www.unetstack.net){:target="_blank"} and simulator v1.2, with numerous [enhancements and new features](https://www.unetstack.net/relnotes-v1.2.html){:target="_blank"}, is now available for [download](https://www.unetstack.net/downloads.html){:target="_blank"}.
+[UnetStack](https://unetstack.net/){:target="_blank"} and simulator v1.2, with numerous enhancements and new features, is now available for [download](https://unetstack.net/#downloads){:target="_blank"}.
 
 ### Highlights
 
@@ -19,7 +19,7 @@ UnetStack and simulator v1.2 released!
 - Several protocol enhancements, and a new MAC protocol
 - Support for software-defined modems (baseband service)
 - Windows OS support, and usability enhancements
-- Documentation updates and [video tutorials](http://www.youtube.com/playlist?list=PLnqY-RltGuGUaGXxuCEPpH3BYxTLtfA_2){:target="_blank"}
+- Documentation updates and [video tutorials](https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw/playlists){:target="_blank"}
 
 A modem implementation of UnetStack is available from [Subnero](http://www.subnero.com){:target="_blank"}.
  

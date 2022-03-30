@@ -17,16 +17,16 @@ We have 3 quick updates:
 
 ### UnetStack and simulator v1.3 released.
 
-[UnetStack and simulator v1.3](http://www.unetstack.net/){:target="_blank"} is now available for download. This release comes with an Integrated Development Environment (IDE) which includes all required tools and dependencies to quickly start developing and simulating underwater networks.
+[UnetStack and simulator v1.3](https://unetstack.net/){:target="_blank"} is now available for download. This release comes with an Integrated Development Environment (IDE) which includes all required tools and dependencies to quickly start developing and simulating underwater networks.
 
 Highlights:
 
 - New integrated development environment (IDE).
-- Declarative [PDU framework](https://www.unetstack.net/cookbook.html#encoding-and-decoding-pdus){:target="_blank"} to make packet encoding and decoding a breeze.
-- Declarative [finite state machine (FSM) framework](https://www.unetstack.net/javadoc/org/arl/unet/FSMBuilder.html){:target="_blank"} to enable you to focus on protocol logic, rather than FSM programming.
-- [Tutorial](https://www.unetstack.net/mac.html){:target="_blank"} to demonstrate the new frameworks, and to get you started on developing your own medium access control (MAC) agents.
+- Declarative [PDU framework](https://unetstack.net/handbook/unet-handbook_implementing_network_protocols.html#_simple_mac_with_handshake){:target="_blank"} to make packet encoding and decoding a breeze.
+- Declarative [finite state machine (FSM) framework](https://unetstack.net/handbook/unet-handbook_implementing_network_protocols.html#_simple_mac_with_handshake){:target="_blank"} to enable you to focus on protocol logic, rather than FSM programming.
+- [Tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html){:target="_blank"} to demonstrate the new frameworks, and to get you started on developing your own medium access control (MAC) agents.
 
-Check out [v1.3 release notes](https://www.unetstack.net/relnotes-v1.3.html){:target="_blank"} for a complete list of new features, changes and bug fixes.
+Check out v1.3 release notes for a complete list of new features, changes and bug fixes.
 
 ### Tutorial on Underwater Acoustic Networking at OCEANS ’16.
 

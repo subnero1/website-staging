@@ -16,7 +16,7 @@ The UnetSim underwater network simulator enables a network engineer to simulate 
 
 Essentially, once a protocol is developed and tested in simulation, it is ready to be deployed and tested at sea in any UnetStack-compatible modem.
 
-The simulator is available free-of-charge for download from [www.unetstack.net](https://www.unetstack.net/downloads.html).
+The simulator is available free-of-charge for download from [www.unetstack.net](https://unetstack.net/#downloads).
 
 ## How does it work?
 
@@ -38,4 +38,4 @@ simulate 1.hour, {
 
 The simulator is highly customizable, with the ability to support user-defined modem behavioral models, physics-based channel models, various motion models, customized trace file formats, etc.
 
-Detailed documentation is available on the [UnetStack documentation page](https://www.unetstack.net/docs.html).
+Detailed documentation is available on the [UnetStack documentation page](https://unetstack.net/index.html#docs).

@@ -2,8 +2,8 @@
 layout: post
 category: news
 title: From balloons to shrimp-filled shallows, the future is wireless
-external_url: http://www.reuters.com/article/2014/04/27/us-internet-connect-idUSBREA3Q0OH20140427
-source : https://www.reuters.com/
+external_url: https://www.cnbc.com/2014/04/27/from-balloons-to-shrimp-filled-shallows-the-future-is-wireless.html
+source : https://www.cnbc.com/world/
 date:   2014-04-27
 thumbnail: images/pulse-thumbnail-internet.jpg
 ---

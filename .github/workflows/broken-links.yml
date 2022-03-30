@@ -1,0 +1,26 @@
+name: Broken link check
+on: 
+  schedule:
+    - cron:  '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  markdown-link-check:
+    name: Check markdown files for broken links
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      id: checker
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/markdown.links.config.json'
+    - uses: slackapi/slack-github-action@v1.16.0
+      if: failure()
+      id: slack
+      with:
+        payload: '{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":"Website Broken Link Check Status : *${{steps.checker.outcome}}*. \n\n Details : https://github.com/${{github.repository}}/actions/runs/${{github.run_id}} "}}]}'
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
