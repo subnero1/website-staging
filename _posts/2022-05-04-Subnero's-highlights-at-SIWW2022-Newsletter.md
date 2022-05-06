@@ -7,7 +7,6 @@ categories: newsletter
 thumbnail: images/pulse-thumbnail-marinaSWAN.jpg
 ---
 
-## Subnero's highlights at SIWW 2022
 
 We had a great show at the Singapore International Water Week (SIWW) 2022 where we showcased the new version of our Subnero Water Assessment Network (SWAN). We are glad to have connected with many of you during the exhibition. Thank you for your support. Here are some highlights from the show.
 
