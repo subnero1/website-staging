@@ -4,7 +4,7 @@ title: Subnero's highlights at SIWW 2022
 banner : images/pulse-SIWWSWAN.jpg
 date:  2022-04-25
 categories: newsletter
-thumbnail: images/pulse-thumbnail-marinaSWAN.jpg
+thumbnail: images/pulse-thumbnail-marinaSWAN2.jpg
 ---
 
 
