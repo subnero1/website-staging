@@ -28,7 +28,7 @@ directions:
     	<p class="adr">{{ page.email }}</p>
     </div>
     <img src="{{site.baseurl}}/images/map.png">
-    <a href="https://www.google.com/maps/place/21+Heng+Mui+Keng+Terrace,Singapore" target="_blank">View Larger Map</a>
+    <a href="https://www.google.com/maps/place/1003+Bukit+Merah+Central,+Singapore+159836" target="_blank">View Larger Map</a>
   </div>
   <div class='large-6 col2'>
   <!-- This script is for hiding and showing the directions-->
