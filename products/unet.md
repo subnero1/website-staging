@@ -82,6 +82,6 @@ Subnero modems may have an associated **Commercial (Dev-tools)** edition. [Conta
 
 <h2>Brochures</h2>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure-v3.0.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack3.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure-v3.0.pdf" target="_blank" style="font-size: 1.2em;">UnetStack3</a>
+  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack.png"></a>
+  <a href="{{site.baseurl}}/brochures/UnetStack-Brochure.pdf" target="_blank" style="font-size: 1.2em;">UnetStack3</a>
 </div>
