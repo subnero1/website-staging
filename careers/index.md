@@ -36,6 +36,6 @@ As a Front-end developer, you will be responsible for designing and building the
 - Any experience with back-end technologies like Java, Python, and Rust is a plus.
 
 
-> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/engineering/production-engineer-subnero-731700a7dac4ea40360855396642205c).
+> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/information-technology/frontend-developer-subnero-c906667a8d9e77491f86b6c72a2f82c5).
 
 If you think you will fit in into an environment that values openness, ownership, quality and innovation, we'd like to hear from you. To explore a career with us, email us at hr @ subnero.com
