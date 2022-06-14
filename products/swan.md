@@ -276,10 +276,10 @@ tabs: swancomponents
     <div class='large-12 columns swan-flex-col'>
       <h2>Brochures</h2>
       <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank" class='brochure-margin'>
+        <a href="{{site.baseurl}}/brochures/SWAN-Brochure.pdf" target="_blank" class='brochure-margin'>
           <img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan_brochure.jpg">
         </a>
-        <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
+        <a href="{{site.baseurl}}/brochures/SWAN-Brochure.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
       </div>
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank" class='brochure-margin'>
