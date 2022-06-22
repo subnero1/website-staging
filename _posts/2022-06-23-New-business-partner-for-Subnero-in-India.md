@@ -6,7 +6,7 @@ date:  2022-06-23
 categories: news, SWAN
 thumbnail: images/pulse-rijas.png
 ---
-Subnero, the leading provider of underwater wireless networking and in-water monitoring solutions, is bringing the Subnero Water Assessment Network (SWAN) beyond Singapore’s waters to the Indian market, having signed a partnership with [RIJAS Technical Solutions](https://www.linkedin.com/company/rijas-technical-solutions-pvt-ltd/).
+Subnero, the leading provider of underwater wireless networking and in-water monitoring solutions, is bringing the Subnero Water Assessment Network (SWAN) beyond Singapore’s waters to the Indian market, having signed a partnership with [RIJAS Technical Solutions](https://www.linkedin.com/company/rijas-technical-solutions-pvt-ltd/){:target="_blank"}.
 
 RIJAS Technical Solutions (RIJAS), headquartered in Mumbai, is an Indian engineering company committed to the elimination of environmental wastes, by adopting energy-efficient technologies and contributing toward clean & healthy communities, thereby enabling their customers to meet their sustainable business goals.
 
