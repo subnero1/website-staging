@@ -3,7 +3,7 @@ layout: post
 title: New business partner for Subnero in India
 banner : images/banner-pulse-standard.jpg
 date:  2022-06-23
-categories: news, SWAN
+categories: news wqm
 thumbnail: images/pulse-rijas.png
 ---
 Subnero, the leading provider of underwater wireless networking and in-water monitoring solutions, is bringing the Subnero Water Assessment Network (SWAN) beyond Singapore’s waters to the Indian market, having signed a partnership with [RIJAS Technical Solutions](https://www.linkedin.com/company/rijas-technical-solutions-pvt-ltd/){:target="_blank"}.
