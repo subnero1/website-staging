@@ -7,7 +7,8 @@
         { "pattern" : "^https://www.opengovasia.com/" },
         { "pattern" : "^\/images.*"},
         { "pattern" : "^https://medium.com/@NUSEnterprise/"},
-        { "pattern" : "^https://www.mtsociety.org/"}
+        { "pattern" : "^https://www.mtsociety.org/"},
+        { "pattern" : "^https://www.linkedin.com/company/rijas-technical-solutions-pvt-ltd/"}
     ],
     "retryOn429": true,
     "retryCount": 5,
