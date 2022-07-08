@@ -12,9 +12,6 @@ banner : images/banner-support.jpg
 			<li>
 				<a  href="{{site.baseurl}}/brochures/modem-manual.pdf" style="font-size: 1.2em;" target="_blank"> Subnero Underwater Modem User Manual</a>
 			</li>
-			<li>
-				<a  href="{{site.baseurl}}/brochures/co-proc-manual.pdf" style="font-size: 1.2em;" target="_blank">Subnero Underwater Modem Co-processor User Manual</a>
-			</li>
 		</ul>
 	</div>
 	<div class="spacing"></div>
