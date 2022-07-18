@@ -22,7 +22,7 @@ As a Front-end developer, you will be responsible for designing and building the
 - Stay up-to-date on emerging web and other technologies.
 
 #### Qualifications
-- 2 or more years of relevant experience as a Front-end developer. Fresh graduates with relevant experience are welcome to apply.
+- 4 or more years of relevant experience as a Front-end developer. Fresh graduates with relevant experience are welcome to apply.
 - Degree in computer science, related field, or equivalent practical experience.
 - Proficiency in HTML, CSS, JavaScript.
 - Good understanding of in-browser debugging and testing. Any experience with automated testing is a plus.
@@ -36,6 +36,6 @@ As a Front-end developer, you will be responsible for designing and building the
 - Any experience with back-end technologies like Java, Python, and Rust is a plus.
 
 
-> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/information-technology/frontend-developer-subnero-c906667a8d9e77491f86b6c72a2f82c5).
+> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/information-technology/frontend-developer-subnero-6ef04f0728bf6170cb4e2a967c54a321).
 
 If you think you will fit in into an environment that values openness, ownership, quality and innovation, we'd like to hear from you. To explore a career with us, email us at hr @ subnero.com
