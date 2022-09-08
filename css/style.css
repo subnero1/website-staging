@@ -5271,8 +5271,19 @@ hr {
   align-items: center;
 }
 
+.brochure-right {
+  width: 85%;
+  margin-left: 1rem;
+}
+
 .brochure-margin{
   margin-right:1em;
+}
+
+.brochure-icon-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .brochure-thumb{
@@ -5283,6 +5294,8 @@ hr {
 .brochure-thumb-small{
   max-height: 60px;
   margin: 10px 10px 10px 0;
+  width: 60px;
+  object-fit: contain;
 }
 
 .brochure-text{
@@ -5792,13 +5805,12 @@ ul{
 
 .quick-link-icons{
   color:#E6782F;
-  padding: 0.5em 0.5em 0.5em 0.2em;
-  width: 1.7em;
 }
 
 .quick-link-socials{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 2rem;
 }
 
 /* SWAN page css */

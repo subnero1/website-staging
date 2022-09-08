@@ -13,5 +13,5 @@
     "retryOn429": true,
     "retryCount": 5,
     "fallbackRetryDelay": "30s",
-    "timeout":"20s"
+    "timeout":"1m"
   }
