@@ -4,7 +4,7 @@ title: Redefining water quality monitoring with Blue Robotics and the SWAN
 banner: images/banner-pulse-Florence54.jpg
 date:  2022-09-08
 categories: wqm
-thumbnail: images/pulse-smallmarina.jpg
+thumbnail: images/pulse-thumbnail-smallmarina.jpg
 ---
 
 The [Subnero Water Assessment Network (SWAN)](https://subnero.com/products/swan.html){:target="_blank"} is a solution that automates the process of water quality monitoring, through a network of autonomous surface robot "swans" (SwanBots) and data-collecting assets (SwanNodes) connected to the SwanCloud server. The SWAN provides the user with real-time water quality data, required by water utilities, water treatment companies, or water infrastructure organizations for monitoring their water supplies. 
