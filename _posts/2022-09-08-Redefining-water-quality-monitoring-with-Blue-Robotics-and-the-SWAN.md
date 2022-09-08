@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redefining water quality monitoring with Blue Robotics and the SWAN
-banner: images/banner-pulse-Florence54.jpg
+banner: images/pulse-Florence54.jpg
 date:  2022-09-08
 categories: wqm
 thumbnail: images/pulse-thumbnail-smallmarina.jpg
