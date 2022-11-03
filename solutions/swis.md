@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Subnero Wireless Integrated Solution
-banner : images/banner-SwanBot.jpg
-thumbnail: images/boxart-swan.jpg
+banner : images/banner-SWIS.jpg
+thumbnail: images/boxart-swis.jpg
 excerpt: Subnero Wireless Integrated Solution for ADCPs
 categories: swis
 section_id: solutions
@@ -12,29 +12,29 @@ tabs: swancomponents
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='swan-overlay'></div>
     <div class='large-12 columns'>
-      <h1 class='banner-sub-heading'>Smart monitoring of the world's most precious resource.</h1>
+      <!-- <h1 class='banner-sub-heading'>Smart monitoring of the world's most precious resource.</h1> -->
       <div class='banner-heading'>
         <h1 class='banner-text'>
-          <span class='orange'>S</span>ubnero <span class='orange'>W</span>ater <span class='orange'>A</span>ssessment <span class='orange'>N</span>etwork</h1>
-        <h2 class='banner-sub-heading'>Redefines water quality monitoring.</h2>
+          <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>olution (<span class='orange'>SWIS</span>)</h1>
+        <h2 class='banner-sub-heading'>for ADCPs</h2>
       </div>
     </div>
 </div>
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns swan-flex-col row-padding-bottom'>
-    <h2 class='centered-text'>Autonomous water quality monitoring with smart surface robots</h2>
+    <h2 class='centered-text'>Near real-time wireless data transfer for current measurements</h2>
   </div>
   <div class='large-4 columns swan-flex-col'>
-    <p>The Subnero Water Assessment Network (<span class='swan-highlight'>SWAN</span>) is a network that provides real-time monitoring and analysis of water quality at various depths along with the ability to collect water samples and can span across diverse assets, including SwanBots, sensor nodes, and data analytics systems.</p>
-    <p>Let’s take a look at how <span class='swan-highlight'>SWAN</span> solves today’s challenges in water quality monitoring.</p>
+    <p>Subnero Wireless Integrated Solution (<span class='swan-highlight'>SWIS</span>) for ADCPs provides a seamless end-to-end solution for the wireless transfer of ADCP data to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
+    <p>Let’s take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
     <div>
     <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a>
     </div>
   </div>
   <div class='large-8 columns'>
     <div class="flex-video swan-video">
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/kNGR6LmSVwE?list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xQ3nxZIUz2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -44,26 +44,26 @@ tabs: swancomponents
     <div class='large-5 columns'>
       <div class='accordion-container'>
         <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1' for="rad1">Dense datasets in real-time</label>
-          <label class="accordion-label" for="rad2" id='accordion-label-2' >Safe and sustainable</label>
-          <label class="accordion-label" for="rad3" id='accordion-label-3' >High cost savings</label>
+          <label class="accordion-label hover-active" id='accordion-label-1' for="rad1">Wireless data transfer</label>
+          <label class="accordion-label" for="rad2" id='accordion-label-2' >Seamless user experience</label>
+          <label class="accordion-label" for="rad3" id='accordion-label-3' >Overall cost savings</label>
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
-                <li>Large datasets enable advanced data analytics methods for preventive controls.</li>
-                <li>Faster identification of hotspots leads to quicker response times on tackling potential issues.</li>
+                <li>Subnero <a target="_blank" href='{{site.baseurl}}/products/modem'>WNC</a> devices providing high performance acoustic links.</li>
+                <li>Near real-time data availability with smart previews.</li>
               </ul>
             </div>
             <div class='content-2'>
               <ul>
-                <li>Simultaneous coverage over large areas using networked operations powered by SWAN's Bevy Intelligence.</li>
-                <li>Carbon-free and eco-friendly. Runs on rechargeable batteries.</li>
+                <li>Intuitive user interface enabling seamless experience.</li>
+                <li>Device info and file list available as soon as a connection is made.</li>
               </ul>
             </div>
             <div class='content-3'>
               <ul>
-                <li>Minimal need for human intervention.</li>
-                <li>Up to 10x cost savings per sample.</li>
+                <li>Avoid costly cables and regular human intervention.</li>
+                <li>Data analytics at the edge providing further costs reduction.</li>
               </ul>
             </div>
           </div>
@@ -71,7 +71,7 @@ tabs: swancomponents
       </div>
     </div>
     <div class='large-6 columns container accordion-img'>
-      <img src='{{site.baseurl}}/images/swan-sustainable.jpg'>
+      <img src='{{site.baseurl}}/images/adcp-deploy.jpg'>
     </div>
   </div>
 </div>
@@ -81,67 +81,93 @@ tabs: swancomponents
 <div class='row accordion-row row-width row-padding-bottom'>
   <div class='large-6 columns'>
     <div class='accordion-container row-item'>
-      <h2>Common problems with traditional methods of water sampling</h2>
+      <h2>Challenges with traditional methods of ADCP data collection</h2>
       </div>
   </div>
   <div class='row-item '>
     <ul class='item-list list-border'>
-      <li>Labour-intensive</li>
+      <li>Expensive</li>
+      <li>Logistically challenging</li>
       <li>Lacks in-field data processing capability</li>
-      <li>Lacks real-time monitoring</li>
-      <li>Insufficient data for trend analysis</li>
-      <li>Costly operations</li>
+      <li>Cables are prone to entanglement</li>
+      <li>Device retrieval using divers:</li>
+      <ul class='item-list'>
+        <li style="margin-left:2em">Lacks near real-time monitoring</li>
+        <li style="margin-left:2em">Lacks timely detection of device malfunction or theft</li>
+        <li style="margin-left:2em">Has potential diver safety concerns</li>
+      </ul>
     </ul>
   </div>
 </div>
 <!-- Applications -->
 <div class='bg-grey'>
   <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>Applications of SWAN</h1>
+    <h1 class='section-heading'>SWIS Features</h1>
   </div>
   <div class='container row row-width row-padding-bottom'>
-    <div class='large-4 columns swan-flex-col row-width'>
+    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fab fa-watchman-monitoring'></i>
-        <h2>Water quality monitoring</h2>
+        <h2>Data Summarization</h2>
       </div>
-      <p class='auto-margin'>Critical water parameters in large and remote water bodies can be monitored continuously and in real-time, without the need for human intervention.</p>
+      <p class='auto-margin'>Content-Aware Data Summarization (CADS) engine providing data summary for whole deployments.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width'>
+    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-search-location'></i>
-        <h2>Hotspot detection</h2>
+        <h2>Fault Detection</h2>
       </div>
-      <p class='auto-margin'>Problematic areas of the water body can be identified and alerted to the user quickly, in the form of notifications or heatmaps on the UI.</p>
+      <p class='auto-margin'>Quick and easy retrieval of ADCP status information such as mode, pitch, battery voltage etc.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width'>
+    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='fa fa-binoculars'></i>
-        <h2>Remote surveillance</h2>
+        <i class="fa fa-calendar"></i>
+        <h2>Smart Scheduling</h2>
       </div>
-      <p class='auto-margin'>Images captured by the SwanBot’s camera are available in real-time to the user, making it perfect for surveillance of wildlife or suspicious activities.</p>      
+      <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules for power savings.</p>
+    </div>
+    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-gamepad'></i>
+        <h2>Remote Control</h2>
+      </div>
+      <p class='auto-margin'>Ability to remotely reconfigure ADCPs and communication parameters in the field, during deployment.</p>
+    </div>
+    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-exclamation-triangle'></i>
+        <h2>Fault Tolerance</h2>
+      </div>
+      <p class='auto-margin'>Multiple copies of data files providing protection against data loss and equipment failure.</p>
+    </div>
+    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+      <div class='section-sub-heading'>
+        <i class='fa fa-wifi'></i>
+        <h2>Smart Profiles</h2>
+      </div>
+      <p class='auto-margin'>Best wireless communication performance in a given environment using communication profiles.</p>
     </div>
   </div>
   <div class='row-padding-bottom'></div>
 </div>
 <!-- Safer environments -->
-<div style='background-image: url({{site.baseurl}}/images/swan-safer-env.jpg);'>
+<div style='background-image: url({{site.baseurl}}/images/swis-second-banner.jpg);'>
   <div class='swan-position'>
     <div class="swan-overlay"></div>
     <div class='row accordion-row swan-position'>
-      <h1 class='section-heading bg-white heading-padding'>Safer environments with SWAN</h1>
+      <h1 class='section-heading bg-white heading-padding'>Deployment of SWIS</h1>
     </div>
     <div class='row row-width row-padding-bottom'>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
-          <h2> Monitoring dissolved oxygen</h2>
+          <h2>Pre-Deployment</h2>
           <p>The amount of dissolved oxygen in water has to maintain certain levels as it has an immense impact on aquatic life.</p>
           <p class='content-padding'><span class='swan-highlight'>SWAN</span> generate alerts based on user settings, which notifies the user when dissolved oxygen levels go beyond a threshold value, for corrective measures to be taken in time.</p>
         </div>
       </div>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
-          <h2> Monitoring blue green algae</h2>
+          <h2>During Deployment</h2>
           <p>Algae is a growing concern worldwide. An outbreak in blue green algae can cause a prolonged, damaging impact on local water supplies and leisure activies.</p>
           <p><span class='swan-highlight'>SWAN</span> helps to predict the onset of algae blooms by monitoring chlorophyll-a and blue green algae levels, while providing historical data for trend analysis.</p>
         </div>
@@ -152,10 +178,10 @@ tabs: swancomponents
 <!-- Components of SWAN -->
 <div class='bg-grey'>
   <div class='row'>
-    <h1 class='section-heading'>Components of SWAN</h1>
+    <h1 class='section-heading'>Components of SWIS</h1>
   </div>
-  {% for item in site.data.swan-tabs %}
-      {% if item.name ==  "SwanBot" %}
+  {% for item in site.data.swis-tabs %}
+      {% if item.name ==  "Subnero WNC Series" %}
           {% assign checked = "checked" %}
       {% else %}
           {% assign checked = "" %}
@@ -163,14 +189,14 @@ tabs: swancomponents
   <input id="{{ item.input_id }}" name='tab-control' type='radio' class='radio' {{checked}}>
   {% endfor %}
     <div class='row row-width type-container bg-grey'>
-      {% for item in site.data.swan-tabs %}
+      {% for item in site.data.swis-tabs %}
           <label class='type-item' id="{{ item.id }}" for="{{ item.input_id }}">{{ item.name }}</label>
       {% endfor %}
     </div>
   <div class="tab-panels">
     <div class='row features-row'>
       <div class='large-12 columns'>
-      {% for item in site.data.swan-tabs %}
+      {% for item in site.data.swis-tabs %}
       <div id='{{item.panel_id}}' class='tab-panel'>
         <div class='bg-grey'>
           <div class='row row-width section-margin'>
@@ -199,7 +225,7 @@ tabs: swancomponents
 </div>
 {%- include radio-select.html -%}
 <!-- How it works -->
-<div>
+<!-- <div>
   <div class='row row-padding-bottom'>
     <h1 class='section-heading'>SWAN in action</h1>
   </div>
@@ -222,10 +248,10 @@ tabs: swancomponents
     </div>
   </div>
   <div class='row-padding-bottom'></div>
-</div>
+</div> -->
 <!-- SWAN in the news -->
-<div class='bg-grey'>
-  <div class='row row-padding-bottom'>
+<div class='bg-white'>
+  <!-- <div class='row row-padding-bottom'>
     <h1 class='section-heading'>SWAN in the news</h1>
   </div>
   <div class='row row-width'>
@@ -271,21 +297,18 @@ tabs: swancomponents
       <a href='https://www.youtube.com/watch?v=612MNtANjmQ&list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S' target="_blank"><button class='button-outline'>More videos</button></a>
     </div>
     </div>
+  </div> -->
+  <div class='row row-padding-bottom'>
+    <!-- <h1 class='section-heading'>Brochures</h1> -->
   </div>
   <div class='row row-width row-padding-bottom'>
     <div class='large-12 columns swan-flex-col'>
       <h2>Brochures</h2>
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/SWAN-Brochure.pdf" target="_blank" class='brochure-margin'>
-          <img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan_brochure.jpg">
+          <img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg">
         </a>
-        <a href="{{site.baseurl}}/brochures/SWAN-Brochure.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
-      </div>
-      <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank" class='brochure-margin'>
-          <img class="brochure-thumb" src="{{site.baseurl}}/brochures/white-paper.jpg">
-        </a>
-        <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank">Subnero Water Assessment Network (SWAN) White Paper</a>
+        <a href="{{site.baseurl}}/brochures/SWIS-for-ADCP.pdf" target="_blank">Subnero Wireless Integrated Solution (SWIS) for ADCPs</a>
       </div>
     </div>
   </div>
