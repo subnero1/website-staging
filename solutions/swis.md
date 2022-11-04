@@ -12,7 +12,6 @@ tabs: swancomponents
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='swan-overlay'></div>
     <div class='large-12 columns'>
-      <!-- <h1 class='banner-sub-heading'>Smart monitoring of the world's most precious resource.</h1> -->
       <div class='banner-heading'>
         <h1 class='banner-text'>
           <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>olution</h1>
