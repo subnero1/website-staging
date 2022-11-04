@@ -160,16 +160,21 @@ tabs: swancomponents
     <div class='row row-width row-padding-bottom'>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
-          <h2>Pre-Deployment</h2>
-          <p>The amount of dissolved oxygen in water has to maintain certain levels as it has an immense impact on aquatic life.</p>
-          <p class='content-padding'><span class='swan-highlight'>SWAN</span> generate alerts based on user settings, which notifies the user when dissolved oxygen levels go beyond a threshold value, for corrective measures to be taken in time.</p>
+          <h2>Pre-deployment</h2>
+          <p>1. After ADCP configuration, select the preferred smart schedule based on the deployment requirement from the web UI.</p>
+          <p>2. Connect the ADCP, modem, and battery using the supplied underwater cable.</p>
+          <p>3. The solution is ready for seabed deployment.</p>
         </div>
       </div>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>During Deployment</h2>
-          <p>Algae is a growing concern worldwide. An outbreak in blue green algae can cause a prolonged, damaging impact on local water supplies and leisure activies.</p>
-          <p><span class='swan-highlight'>SWAN</span> helps to predict the onset of algae blooms by monitoring chlorophyll-a and blue green algae levels, while providing historical data for trend analysis.</p>
+          <p>1. Click the "Connect" button on the web UI of the topside modem to establish a connection.</p>
+          <p>2. Device info and file list is displayed.</p>
+          <p>3. Users may choose to create and download a smart preview or the original file.</p>
+          <p>4. The download progress is displayed till the file download is complete.</p>
+          <p>5. Click the "Disconnect" button so that the seabed unit enters sleep state.</p>
+          <p>6. The user may open the downloaded file or smart preview using the ADCP vendor's software.</p>
         </div>
       </div>
     </div>

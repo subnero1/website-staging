@@ -30,7 +30,7 @@
   id: swan-tab-three
   input_id: SwanNode
   panel_id: swan-panel-three
-  thumbnail: images/swansense.jpg
+  thumbnail: images/CADS.jpg
   order: 3
   introduction: Robust communication links in the cloud provide real-time updates through technologies such as Disruption Tolerant Networking (DTN) technology. DTN is incorporated in SWAN to ensure that data is not lost during intermittent or limited network connectivity.
   sections:
