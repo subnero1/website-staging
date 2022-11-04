@@ -21,12 +21,12 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
   <div class ='category-container bg-grey'>
     <div class='category-row'>    
       <div class='large-3 columns category-img'>
-        <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/> 
+        <a href='{{site.baseurl}}/solutions/swis'><img alt="" style="border-radius: 20%" src="{{site.baseurl}}/{{page.thumbnail}}"/></a>
       </div>
       <div class='large-9 columns'>       
         <div class='category-content'>
-          <h1>Subnero Wireless Integrated Solution</h1>
-          <h3>For ADCPs</h3>
+          <a href='{{site.baseurl}}/solutions/swis'><h1>Subnero Wireless Integrated Solution</h1></a>
+          <a href='{{site.baseurl}}/solutions/swis'><h3>For ADCPs</h3></a>
           <div class='media'>
             <div class='modem-type'>
               <a href='{{site.baseurl}}/solutions/swis'><button class='button-outline'>View details</button></a>

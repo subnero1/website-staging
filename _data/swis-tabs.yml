@@ -1,5 +1,5 @@
 - name: Subnero WNC Series
-  id: swan-tab-one
+  id: swis-tab-one
   input_id: SwanBot
   panel_id: swan-panel-one
   thumbnail: images/swis-WNC.jpg
@@ -13,7 +13,7 @@
       icon: camera
       description: A HD camera that captures images that is displayed to the user in real-time.
 - name: SWIS UI
-  id: swan-tab-two
+  id: swis-tab-two
   input_id: SwanCloud
   panel_id: swan-panel-two
   thumbnail: images/swis-ui.png
@@ -27,7 +27,7 @@
       icon: brain
       description: Intelligent plug-ins for multi-node data analysis and path planning.
 - name: CADS Engine
-  id: swan-tab-three
+  id: swis-tab-three
   input_id: SwanNode
   panel_id: swan-panel-three
   thumbnail: images/CADS.jpg

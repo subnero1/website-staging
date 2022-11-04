@@ -23,7 +23,7 @@ tabs: swancomponents
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns swan-flex-col row-padding-bottom'>
-    <h2 class='centered-text'>Near real-time wireless data transfer for current measurements</h2>
+    <h2 class='centered-text'>Near real-time wireless data transfer for ADCP data</h2>
   </div>
   <div class='large-4 columns swan-flex-col'>
     <p>Subnero Wireless Integrated Solution (<span class='swan-highlight'>SWIS</span>) for ADCPs provides a seamless end-to-end solution for the wireless transfer of ADCP data to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
@@ -155,7 +155,7 @@ tabs: swancomponents
   <div class='swan-position'>
     <div class="swan-overlay"></div>
     <div class='row accordion-row swan-position'>
-      <h1 class='section-heading bg-white heading-padding'>Deployment of SWIS</h1>
+      <h1 class='section-heading bg-white heading-padding'>Deployment Procedure</h1>
     </div>
     <div class='row row-width row-padding-bottom'>
       <div class='large-6 columns'>
