@@ -147,7 +147,7 @@ tabs: swancomponents
   </div>
   <div class='row-padding-bottom'></div>
 </div>
-<!-- Safer environments -->
+<!-- Deployment Procedure -->
 <div style='background-image: url({{site.baseurl}}/images/swis-second-banner.jpg);'>
   <div class='swan-position'>
     <div class="swan-overlay"></div>
@@ -222,82 +222,8 @@ tabs: swancomponents
   </div>
 </div>
 {%- include radio-select.html -%}
-<!-- How it works -->
-<!-- <div>
-  <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>SWAN in action</h1>
-  </div>
-  <div class='four-spacing'></div>
-  <div class='row row-width row-padding-bottom'>
-    <div class='large-8 columns'>
-      <div class="flex-video swan-video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/D9lNpEeCdII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class='large-4 columns'>
-      <div class='swan-flex-col row-padding-bottom'>
-        <div class='section-sub-heading'>
-          <h2>Monitor water quality in 3 simple steps:</h2>
-        </div>
-        <p class='large-text'>1. <span class='swan-highlight'>Select</span> a mission.</p>
-        <p class='large-text'>2. <span class='swan-highlight'>Deploy</span> the SwanBot.</p>
-        <p class='large-text'>3. <span class='swan-highlight'>Start</span> the mission.</p>
-      </div>
-    </div>
-  </div>
-  <div class='row-padding-bottom'></div>
-</div> -->
-<!-- SWAN in the news -->
 <div class='bg-white'>
-  <!-- <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>SWAN in the news</h1>
-  </div>
-  <div class='row row-width'>
-      {% assign count = 0 %}
-      {% assign swan_posts = site.posts | where: "categories", "swan" %}
-      {% for post in swan_posts %}
-      {% assign isnews = false %}
-      {% assign isimage = false %}
-      {% if post.external_url != null %}
-        {% assign isnews = true %}
-      {% endif %}
-      {% if post.thumbnail != null %}
-        {% assign isimage = true %}
-      {% endif %}
-      <div class='large-4 columns' id='pulsepage'>
-        <div class='mod modBlogPost'>
-          <div class='images'>
-            {% for image in post.images %}
-              <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
-            {% endfor %}
-          </div>
-          <div class='content fixed-height'>
-            <div class='image'>
-              <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
-              <img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
-              </a>
-            </div>
-            <p class='info'>
-              <span>{{post.date | date: "%B %d, %Y" }}</span>
-            </p>
-            <h3 style="text-transform: none;"><a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a></h3>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-  </div>
-  <div class='row accordion-row row-padding-bottom'>
-    <div class='media'>
-      <div class='modem-type'>
-      <a href='{{site.baseurl}}/pulse'><button class='button-outline'>Related articles</button></a>
-    </div>
-    <div class='modem-type'>
-      <a href='https://www.youtube.com/watch?v=612MNtANjmQ&list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S' target="_blank"><button class='button-outline'>More videos</button></a>
-    </div>
-    </div>
-  </div> -->
   <div class='row row-padding-bottom'>
-    <!-- <h1 class='section-heading'>Brochures</h1> -->
   </div>
   <div class='row row-width row-padding-bottom'>
     <div class='large-12 columns swan-flex-col'>
