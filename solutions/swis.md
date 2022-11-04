@@ -177,7 +177,6 @@ tabs: swancomponents
     </div>
   </div>
 </div>
-<!-- Components of SWAN -->
 <div class='bg-grey'>
   <div class='row'>
     <h1 class='section-heading'>Components of SWIS</h1>
