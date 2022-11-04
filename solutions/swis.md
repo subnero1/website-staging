@@ -97,7 +97,6 @@ tabs: swancomponents
     </ul>
   </div>
 </div>
-<!-- Applications -->
 <div class='bg-grey'>
   <div class='row row-padding-bottom'>
     <h1 class='section-heading'>SWIS Features</h1>
