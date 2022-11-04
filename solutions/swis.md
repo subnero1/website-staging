@@ -15,7 +15,7 @@ tabs: swancomponents
       <!-- <h1 class='banner-sub-heading'>Smart monitoring of the world's most precious resource.</h1> -->
       <div class='banner-heading'>
         <h1 class='banner-text'>
-          <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>olution (<span class='orange'>SWIS</span>)</h1>
+          <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>olution</h1>
         <h2 class='banner-sub-heading'>for ADCPs</h2>
       </div>
     </div>
@@ -27,7 +27,7 @@ tabs: swancomponents
   </div>
   <div class='large-4 columns swan-flex-col'>
     <p>Subnero Wireless Integrated Solution (<span class='swan-highlight'>SWIS</span>) for ADCPs provides a seamless end-to-end solution for the wireless transfer of ADCP data to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
-    <p>Let’s take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
+    <p>Take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
     <div>
     <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a>
     </div>
@@ -86,15 +86,15 @@ tabs: swancomponents
   </div>
   <div class='row-item '>
     <ul class='item-list list-border'>
-      <li>Expensive</li>
-      <li>Logistically challenging</li>
-      <li>Lacks in-field data processing capability</li>
-      <li>Cables are prone to entanglement</li>
-      <li>Device retrieval using divers:</li>
+      <li>&#x27A4; Expensive &#10060;</li>
+      <li>&#x27A4; Logistically challenging &#10060;</li>
+      <li>&#x27A4; Lacks in-field data processing capability &#10060;</li>
+      <li>&#x27A4; Cables are prone to entanglement &#10060;</li>
+      <li>&#x27A4; Device retrieval using divers:</li>
       <ul class='item-list'>
-        <li style="margin-left:2em">Lacks near real-time monitoring</li>
-        <li style="margin-left:2em">Lacks timely detection of device malfunction or theft</li>
-        <li style="margin-left:2em">Has potential diver safety concerns</li>
+        <li style="margin-left:2em">&#x27A2; Lacks near real-time monitoring &#10060;</li>
+        <li style="margin-left:2em">&#x27A2; Lacks timely detection of device malfunction or theft &#10060;</li>
+        <li style="margin-left:2em">&#x27A2; Has potential diver safety concerns &#10060;</li>
       </ul>
     </ul>
   </div>
@@ -124,7 +124,7 @@ tabs: swancomponents
         <i class="fa fa-calendar"></i>
         <h2>Smart Scheduling</h2>
       </div>
-      <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules providing overall power savings.</p>
+      <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules providing significant power savings.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
@@ -138,7 +138,7 @@ tabs: swancomponents
         <i class='fa fa-exclamation-triangle'></i>
         <h2>Fault Tolerance</h2>
       </div>
-      <p class='auto-margin'>Multiple copies of data files providing protection against data loss and equipment failure.</p>
+      <p class='auto-margin'>Multiple copies of data files are kept for protection against data loss and equipment failure.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
@@ -161,20 +161,17 @@ tabs: swancomponents
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>Pre-deployment</h2>
-          <p>1. After ADCP configuration, select the preferred smart schedule based on the deployment requirement from the web UI.</p>
+          <p>1. Select the preferred smart schedule from the seabed unit's web UI.</p>
           <p>2. Connect the ADCP, modem, and battery using the supplied underwater cable.</p>
-          <p>3. The solution is ready for seabed deployment.</p>
+          <p>3. Deploy the seabed system.</p>
         </div>
       </div>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>During Deployment</h2>
-          <p>1. Click the "Connect" button on the web UI of the topside modem to establish a connection.</p>
-          <p>2. Device info and file list is displayed.</p>
-          <p>3. Users may choose to create and download a smart preview or the original file.</p>
-          <p>4. The download progress is displayed till the file download is complete.</p>
-          <p>5. Click the "Disconnect" button so that the seabed unit enters sleep state.</p>
-          <p>6. The user may open the downloaded file or smart preview using the ADCP vendor's software.</p>
+          <p>1. Click the "Connect" button on the web UI to establish a connection.</p>
+          <p>2. Download smart preview or the original file.</p>
+          <p>3. Click the "Disconnect" button so that the seabed unit enters sleep state.</p>
         </div>
       </div>
     </div>
