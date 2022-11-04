@@ -75,7 +75,6 @@ tabs: swancomponents
   </div>
 </div>
 {%- include hover-display.html -%}
-<!-- Common problems -->
 <div class='row-padding-bottom'></div>
 <div class='row accordion-row row-width row-padding-bottom'>
   <div class='large-6 columns'>
