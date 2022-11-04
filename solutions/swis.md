@@ -107,24 +107,24 @@ tabs: swancomponents
   <div class='container row row-width row-padding-bottom'>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='fab fa-watchman-monitoring'></i>
+        <i class='fa fa-eye'></i>
         <h2>Data Summarization</h2>
       </div>
-      <p class='auto-margin'>Content-Aware Data Summarization (CADS) engine providing data summary for whole deployments.</p>
+      <p class='auto-margin'>Content-Aware Data Summarization (CADS) engine providing smart previews for partial or whole deployments.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-search-location'></i>
         <h2>Fault Detection</h2>
       </div>
-      <p class='auto-margin'>Quick and easy retrieval of ADCP status information such as mode, pitch, battery voltage etc.</p>
+      <p class='auto-margin'>Quick and easy retrieval of ADCP status information such as mode, pitch, battery voltage etc. for early fault detection.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class="fa fa-calendar"></i>
         <h2>Smart Scheduling</h2>
       </div>
-      <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules for power savings.</p>
+      <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules providing overall power savings.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>

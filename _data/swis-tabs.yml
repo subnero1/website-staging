@@ -4,36 +4,36 @@
   panel_id: swan-panel-one
   thumbnail: images/swis-WNC.jpg
   order: 1
-  introduction: A portable Unmanned Surface Vessel (USV) that navigates the water surface for real-time data collection. A SwanBot is equipped with the following.
+  introduction: Ease of use, integration ready and support for multiple ADCPs are some of the additional advantages of Subnero WNC series of products.
   sections:
-    - name: SwanSampler
-      icon: vial
-      description: A watertight container that captures water samples of 1 liter capacity at 1-2 selected locations.
-    - name: Camera
-      icon: camera
-      description: A HD camera that captures images that is displayed to the user in real-time.
+    - name: Easy Plug and Play
+      icon: plug
+      description: Support for popular ADCP models and brands. Simple plug and play. New integrations require less than a month.
+    - name: Multiple deployments
+      icon: anchor
+      description: Download data from multiple seabed units using a single topside unit, making the data retrieval process faster and efficient.
 - name: SWIS UI
   id: swis-tab-two
   input_id: SwanCloud
   panel_id: swan-panel-two
   thumbnail: images/swis-ui.png
   order: 2
-  introduction: The cloud-based decision support system powered by Unetstack, for executing intelligent missions in the SWAN, as well as visualizing the collected water quality data on SwanViz User Interface (UI).
+  introduction: Intuitive web-based user interface (UI) powered by Unetstack for configuration, data download and visualization. No software installation required. Operating system and platform independent.
   sections:
-    - name: SwanViz
-      icon: desktop
-      description: Web based UI for mission planning and data visualization which is accessible via desktop and mobile.
-    - name: Bevy Intelligence
-      icon: brain
-      description: Intelligent plug-ins for multi-node data analysis and path planning.
+    - name: Intuitive
+      icon: thumbs-up
+      description: All relevant information such as device information, smart previews and file list in one place.
+    - name: Multi-platform support
+      icon: laptop
+      description: Accessible via desktop, laptops, tablets and mobile platforms.
 - name: CADS Engine
   id: swis-tab-three
   input_id: SwanNode
   panel_id: swan-panel-three
   thumbnail: images/CADS.jpg
   order: 3
-  introduction: Robust communication links in the cloud provide real-time updates through technologies such as Disruption Tolerant Networking (DTN) technology. DTN is incorporated in SWAN to ensure that data is not lost during intermittent or limited network connectivity.
+  introduction: Content-Aware Data Summarization (CADS) engine that leverages machine learning techniques to generate smart previews of the ADCP data files.
   sections:
-    - name: Third party nodes
-      icon: cogs
-      description: Third party nodes such as drones, smart buoys, or other ASVs, that can be linked to SwanCloud for centralized data visualization on the SwanViz UI.
+    - name: Machine Learning Enabled
+      icon: brain
+      description: CADS engine supports summary generation for a user-selectable date range and compression ratio for ADCP files.
