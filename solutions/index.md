@@ -18,7 +18,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 <div class='full'>
   {% assign soln_pages = site.pages | where:"categories","swis" %}
   {% for page in soln_pages %}
-  <div class ='category-container bg-grey'>
+  <div class ='category-container bg-white'>
     <div class='category-row'>    
       <div class='large-3 columns category-img'>
         <a href='{{site.baseurl}}/solutions/swis'><img alt="" style="border-radius: 20%" src="{{site.baseurl}}/{{page.thumbnail}}"/></a>

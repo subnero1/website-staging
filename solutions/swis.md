@@ -3,7 +3,7 @@ layout: default
 title: Subnero Wireless Integrated Solution
 banner : images/banner-SWIS.jpg
 thumbnail: images/boxart-swis.jpg
-excerpt: Subnero Wireless Integrated Solution for ADCPs
+excerpt: Subnero Wireless Integrated Suite, ADCP Edition
 categories: swis
 section_id: solutions
 tabs: swancomponents
