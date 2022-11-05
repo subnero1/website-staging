@@ -14,8 +14,8 @@ tabs: swancomponents
     <div class='large-12 columns'>
       <div class='banner-heading'>
         <h1 class='banner-text'>
-          <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>olution</h1>
-        <h2 class='banner-sub-heading'>for ADCPs</h2>
+          <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>uite</h1>
+        <h2 class='banner-sub-heading'>ADCP Edition</h2>
       </div>
     </div>
 </div>
@@ -25,7 +25,7 @@ tabs: swancomponents
     <h2 class='centered-text'>Near real-time wireless data transfer for ADCP data</h2>
   </div>
   <div class='large-4 columns swan-flex-col'>
-    <p>Subnero Wireless Integrated Solution (<span class='swan-highlight'>SWIS</span>) for ADCPs provides a seamless end-to-end solution for the wireless transfer of ADCP data to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
+    <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
     <p>Take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
     <div>
     <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a>
@@ -232,7 +232,7 @@ tabs: swancomponents
         <a href="{{site.baseurl}}/brochures/SWAN-Brochure.pdf" target="_blank" class='brochure-margin'>
           <img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg">
         </a>
-        <a href="{{site.baseurl}}/brochures/SWIS-for-ADCP.pdf" target="_blank">Subnero Wireless Integrated Solution (SWIS) for ADCPs</a>
+        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank">Subnero Wireless Integrated Suite (SWIS), ADCP Edition</a>
       </div>
     </div>
   </div>
