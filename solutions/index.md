@@ -25,8 +25,8 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
       <div class='large-9 columns'>       
         <div class='category-content'>
-          <a href='{{site.baseurl}}/solutions/swis'><h1>Subnero Wireless Integrated Solution</h1></a>
-          <a href='{{site.baseurl}}/solutions/swis'><h3>For ADCPs</h3></a>
+          <a href='{{site.baseurl}}/solutions/swis'><h1>Subnero Wireless Integrated Suite</h1></a>
+          <a href='{{site.baseurl}}/solutions/swis'><h3>ADCP Edition</h3></a>
           <div class='media'>
             <div class='modem-type'>
               <a href='{{site.baseurl}}/solutions/swis'><button class='button-outline'>View details</button></a>
