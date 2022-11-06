@@ -73,30 +73,68 @@ tabs: swancomponents
     </div>
   </div>
 </div>
-<!-- Challenges with traditional ADCP -->
-{%- include hover-display.html -%}
-<div class='row-padding-bottom'></div>
-<div class='row accordion-row row-width row-padding-bottom'>
-  <div class='large-6 columns'>
-    <div class='accordion-container row-item'>
-      <h2>Challenges with traditional methods of ADCP data collection</h2>
-      </div>
+<!-- Comparison -->
+<div class='bg-white'>
+<div class='row row-padding-bottom'>
+    <h1 class='section-heading'>Comparison with traditional methods of ADCP data collection</h1>
   </div>
-  <div class='row-item '>
-    <ul class='item-list list-border'>
-      <li>&#x27A4; Expensive &#10060;</li>
-      <li>&#x27A4; Logistically challenging &#10060;</li>
-      <li>&#x27A4; Lacks in-field data processing capability &#10060;</li>
-      <li>&#x27A4; Cables are prone to entanglement &#10060;</li>
-      <li>&#x27A4; Device retrieval using divers:</li>
-      <ul class='item-list'>
-        <li style="margin-left:2em">&#x27A2; Lacks near real-time monitoring &#10060;</li>
-        <li style="margin-left:2em">&#x27A2; Lacks timely detection of device malfunction or theft &#10060;</li>
-        <li style="margin-left:2em">&#x27A2; Has potential diver safety concerns &#10060;</li>
-      </ul>
-    </ul>
+  <div class='row accordion-row row-width row-padding-bottom'>
+    <div class='large-1 columns'></div>
+    <div class='large-8 columns'>
+      <table>
+        <tr>
+          <th>#</th>
+          <th>SWIS</th>
+          <th>Cables</th>
+          <th>Divers</th>
+        </tr>
+        <tr>
+          <td>Cost</td>
+          <td>&#9989; Reasonable</td>
+          <td>&#10060; Expensive</td>
+          <td>&#10060; Expensive</td>
+        </tr>
+        <tr>
+          <td>Ease of deployment</td>
+          <td>&#9989; Simple</td>
+          <td>&#10060; Challenging</td>
+          <td>&#10060; Challenging</td>
+        </tr>
+        <tr>
+          <td>Near real-time data</td>
+          <td>&#9989; Near real-time</td>
+          <td>&#9989; Real-time</td>
+          <td>&#10060; No</td>
+        </tr>
+        <tr>
+          <td>In-field data processing</td>
+          <td>&#9989; Yes</td>
+          <td>&#10060; No</td>
+          <td>&#10060; No</td>
+        </tr>
+        <tr>
+          <td>Early fault detection</td>
+          <td>&#9989; Yes</td>
+          <td>&#9989; Yes</td>
+          <td>&#10060; No</td>
+        </tr>
+        <tr>
+          <td>Operational safety</td>
+          <td>&#9989; Safe</td>
+          <td>&#10060; Potential for entanglement</td>
+          <td>&#10060; Diver safety concerns</td>
+        </tr>
+        <tr>
+          <td>Fault tolerance</td>
+          <td>&#9989; Multiple copies of data</td>
+          <td>&#10060; Potential loss due to entanglement</td>
+          <td>&#10060; Potential loss due to theft</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
+<!-- SWIS Features -->
 <div class='bg-grey'>
   <div class='row row-padding-bottom'>
     <h1 class='section-heading'>SWIS Features</h1>
@@ -218,6 +256,7 @@ tabs: swancomponents
     </div>
   </div>
 </div>
+<!-- Brochures -->
 {%- include radio-select.html -%}
 <div class='bg-white'>
   <div class='row row-padding-bottom'>
