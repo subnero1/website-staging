@@ -158,27 +158,13 @@ tabs: swancomponents
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>Pre-deployment</h2>
-          <img src='{{site.baseurl}}/images/swis-deploy-01.jpg'>
-          <div class='one spacing'></div>
-          <p>1. Select the preferred smart schedule from the seabed unit's web UI.</p>
-          <img src='{{site.baseurl}}/images/swis-deploy-02.jpg'>
-          <div class='one spacing'></div>
-          <p>2. Connect the ADCP, modem, and battery using the supplied underwater cable.</p>
-          <p>3. Deploy the seabed system.</p>
+          <img src='{{site.baseurl}}/images/swis-deploy-01.png'>
         </div>
       </div>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>During Deployment</h2>
-          <img src='{{site.baseurl}}/images/swis-deploy-03.jpg'>
-          <div class='one spacing'></div>
-          <p>1. Click the "Connect" button on the web UI to establish a connection.</p>
-          <img src='{{site.baseurl}}/images/swis-deploy-04.jpg'>
-          <div class='one spacing'></div>
-          <p>2. Download smart preview or the original file.</p>
-          <img src='{{site.baseurl}}/images/swis-deploy-05.jpg'>
-          <div class='one spacing'></div>
-          <p>3. Click the "Disconnect" button so that the seabed unit enters sleep state.</p>
+          <img src='{{site.baseurl}}/images/swis-deploy-02.png'>
         </div>
       </div>
     </div>
