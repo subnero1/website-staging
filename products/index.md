@@ -25,7 +25,7 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
         <div class='large-9 columns'>
           <div class='category-content'>
             <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><h1>Wireless Networked Communications</h1></a>
-            <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><h3>Software defined underwater acoustic modems for networking, navigation and monitoring.</h3></a>
+            <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><h3>Software defined underwater acoustic modems for communication, networking, navigation and monitoring.</h3></a>
             <div class='media'>
               <div class='modem-type'>
                 <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
@@ -72,7 +72,7 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
   </div>
   {% endfor %}
 
-  {% assign product_pages = site.pages | where:"categories","water-quality-management" %}
+  <!-- {% assign product_pages = site.pages | where:"categories","water-quality-management" %}
   {% for page in product_pages %}
   <div class ='category-container bg-grey'>
     <div class='category-row'>    
@@ -92,5 +92,5 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
       </div>
     </div>
   </div>
-    {% endfor %}
+    {% endfor %} -->
 </div>
