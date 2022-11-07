@@ -33,7 +33,7 @@ tabs: swancomponents
   </div>
   <div class='large-8 columns'>
     <div class="flex-video swan-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/pyu0eaOTWR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/a6HHxP9pEzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -135,6 +135,7 @@ tabs: swancomponents
       </table>
     </div>
   </div>
+  <div class='two spacing'></div>
 </div>
 <!-- SWIS Features -->
 <div class='bg-grey'>
@@ -144,42 +145,42 @@ tabs: swancomponents
   <div class='container row row-width row-padding-bottom'>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='far fa-lg fa-eye'></i>
+        <i class='fa fa-lg fa-eye'></i>
         <h2>Data Summarization</h2>
       </div>
       <p class='auto-margin'>Content-Aware Data Summarization (CADS) engine providing smart previews for partial or whole deployments.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='far fa-lg fa-search-location'></i>
+        <i class='fa fa-lg fa-search-location'></i>
         <h2>Fault Detection</h2>
       </div>
       <p class='auto-margin'>Quick and easy retrieval of ADCP status information such as mode, pitch, battery voltage etc. for early fault detection.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class="far fa-lg fa-calendar"></i>
+        <i class="fa fa-lg fa-calendar"></i>
         <h2>Smart Scheduling</h2>
       </div>
       <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules providing significant power savings.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='far fa-lg fa-gamepad'></i>
+        <i class='fa fa-lg fa-gamepad'></i>
         <h2>Remote Control</h2>
       </div>
       <p class='auto-margin'>Ability to remotely reconfigure ADCPs and communication parameters in the field, during deployment.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='far fa-lg fa-exclamation-triangle'></i>
+        <i class='fa fa-lg fa-exclamation-triangle'></i>
         <h2>Fault Tolerance</h2>
       </div>
       <p class='auto-margin'>Multiple copies of data files are kept for protection against data loss and equipment failure.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
-        <i class='far fa-lg fa-wifi'></i>
+        <i class='fa fa-lg fa-wifi'></i>
         <h2>Smart Profiles</h2>
       </div>
       <p class='auto-margin'>Best wireless communication performance in a given environment using communication profiles.</p>
@@ -240,7 +241,7 @@ tabs: swancomponents
                   <p> {{ item.introduction }}</p>
                   {% for section in item.sections %}
                   <div class='section-sub-heading'>
-                    <i class='far fa-lg fa-{{ section.icon }}'></i>
+                    <i class='fa fa-lg fa-{{ section.icon }}'></i>
                     <h3>{{section.name}}</h3>
                   </div>
                   <p>{{section.description}}</p>
