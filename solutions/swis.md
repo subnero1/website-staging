@@ -81,58 +81,60 @@ tabs: swancomponents
   </div>
   <div class='row'>
     <div class='medium-12 columns align-center-middle'>
-      <table class='table hover' align="center" style="font-size: 2em;">
-        <thead>
+      <div class="table-scroll">
+        <table class='table hover' align="center" style="font-size: 2em;">
+          <thead>
+            <tr>
+              <th></th>
+              <th>SWIS</th>
+              <th>Cables</th>
+              <th>Divers</th>
+            </tr>
+          </thead>
           <tr>
-            <th></th>
-            <th>SWIS</th>
-            <th>Cables</th>
-            <th>Divers</th>
+            <td>Cost</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Reasonable</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Expensive</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Expensive</td>
           </tr>
-        </thead>
-        <tr>
-          <td>Cost</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Reasonable</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Expensive</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Expensive</td>
-        </tr>
-        <tr>
-          <td>Ease of deployment</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Simple</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Challenging</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Challenging</td>
-        </tr>
-        <tr>
-          <td>Near real-time data</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Near real-time</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Real-time</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> No</td>
-        </tr>
-        <tr>
-          <td>In-field data processing</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Yes</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> No</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> No</td>
-        </tr>
-        <tr>
-          <td>Early fault detection</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Yes</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Yes</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> No</td>
-        </tr>
-        <tr>
-          <td>Operational safety</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Safe</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Potential for entanglement</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Diver safety concerns</td>
-        </tr>
-        <tr>
-          <td>Fault tolerance</td>
-          <td><i class='far fa-lg fa-check-circle green'></i> Multiple copies of data</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Potential loss due to entanglement</td>
-          <td><i class='far fa-lg fa-times-circle red'></i> Potential loss due to theft</td>
-        </tr>
-      </table>
+          <tr>
+            <td>Ease of deployment</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Simple</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Challenging</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Challenging</td>
+          </tr>
+          <tr>
+            <td>Near real-time data</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Near real-time</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Real-time</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> No</td>
+          </tr>
+          <tr>
+            <td>In-field data processing</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Yes</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> No</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> No</td>
+          </tr>
+          <tr>
+            <td>Early fault detection</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Yes</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Yes</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> No</td>
+          </tr>
+          <tr>
+            <td>Operational safety</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Safe</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Potential for entanglement</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Diver safety concerns</td>
+          </tr>
+          <tr>
+            <td>Fault tolerance</td>
+            <td><i class='far fa-lg fa-check-circle green'></i> Multiple copies of data</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Potential loss due to entanglement</td>
+            <td><i class='far fa-lg fa-times-circle red'></i> Potential loss due to theft</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
   <div class='two spacing'></div>
@@ -242,7 +244,7 @@ tabs: swancomponents
                   {% for section in item.sections %}
                   <div class='section-sub-heading'>
                     <i class='fa fa-lg fa-{{ section.icon }}'></i>
-                    <h3>{{section.name}}</h3>
+                    <h4>{{section.name}}</h4>
                   </div>
                   <p>{{section.description}}</p>
                   {% endfor %}
