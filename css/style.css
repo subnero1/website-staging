@@ -6067,3 +6067,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .list-border{
   border-left: solid 2px #E6782F;
 }
+
+.round-border-20 {
+  border-radius: 20%
+}

@@ -15,12 +15,10 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 </div>
 
 <div class='full'>
-  {% assign soln_pages = site.pages | where:"categories","swis" %}
-  {% for page in soln_pages %}
   <div class ='category-container bg-white'>
     <div class='category-row'>    
       <div class='large-3 columns category-img'>
-        <a href='{{site.baseurl}}/solutions/swis'><img alt="" style="border-radius: 20%" src="{{site.baseurl}}/{{page.thumbnail}}"/></a>
+        <a href='{{site.baseurl}}/solutions/swis'><img alt="" class='round-border-20' src="{{site.baseurl}}/images/boxart-swis.jpg"/></a>
       </div>
       <div class='large-9 columns'>       
         <div class='category-content'>
@@ -35,13 +33,10 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
     </div>
   </div>
-    {% endfor %}
-  {% assign soln_pages = site.pages | where:"categories","water-quality-management" %}
-  {% for page in soln_pages %}
   <div class ='category-container bg-grey'>
     <div class='category-row'>    
       <div class='large-3 columns category-img'>
-        <a href='{{site.baseurl}}/solutions/swan'><img alt="" style="border-radius: 20%" src="{{site.baseurl}}/{{page.thumbnail}}"/></a>
+        <a href='{{site.baseurl}}/solutions/swan'><img alt="" class='round-border-20' src="{{site.baseurl}}/images/boxart-swan.jpg"/></a>
       </div>
       <div class='large-9 columns'>       
         <div class='category-content'>
@@ -56,5 +51,4 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
     </div>
   </div>
-    {% endfor %}
 </div>
