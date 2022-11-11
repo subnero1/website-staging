@@ -28,7 +28,7 @@ tabs: swancomponents
     <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
     <p>Take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
     <div>
-      <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a> <a href="https://zcvo-zgph.maillist-manage.com/ua/Optin?od=11287ecaf85c8c&zx=1340c2ec&sD=17b2b19eddc97992" target="_blank" class='centered-text hOXnHC'><button class="button-outline">BOOK A DEMO</button></a>
+      <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a> <a href="https://zc.vg/pkUls" target="_blank" class='centered-text hOXnHC'><button class="button-outline">BOOK A DEMO</button></a>
     </div>
   </div>
   <div class='large-8 columns'>
