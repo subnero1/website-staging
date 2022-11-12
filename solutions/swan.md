@@ -29,7 +29,7 @@ tabs: swancomponents
     <p>The Subnero Water Assessment Network (<span class='swan-highlight'>SWAN</span>) is a network that provides real-time monitoring and analysis of water quality at various depths along with the ability to collect water samples and can span across diverse assets, including SwanBots, sensor nodes, and data analytics systems.</p>
     <p>Let’s take a look at how <span class='swan-highlight'>SWAN</span> solves today’s challenges in water quality monitoring.</p>
     <div>
-    <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a>
+    <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">PURCHASE ENQUIRY</button></a>
     </div>
   </div>
   <div class='large-8 columns'>
