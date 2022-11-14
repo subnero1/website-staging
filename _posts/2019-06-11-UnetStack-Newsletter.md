@@ -37,5 +37,4 @@ Our new brochures have arrived!
 We will be distributing, for the first time, our new brochures showing in detail the new specifications of our modems.
 You can have a sneak preview using the following links:
 -  [Underwater Modems](https://subnero.com/brochures/Subnero-MF-Modems.pdf){:target="_blank"}
--  [Underwater Modems specifications](https://subnero.com/brochures/Subnero-MF-Modem-Specifications.pdf){:target="_blank"}
 -  [UnetStack 3](https://subnero.com/brochures/UnetStack-Brochure.pdf){:target="_blank"}

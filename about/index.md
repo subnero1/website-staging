@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  About Us - Subnero
-banner : images/banner-solutions.jpg
+banner : images/banner-about.jpg
 excerpt: Subnero provides underwater wireless communication, navigation, monitoring and sensing, using underwater acoustic modems and unmanned surface vehicles for water quality monitoring.
 ---
 

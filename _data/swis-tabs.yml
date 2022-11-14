@@ -1,0 +1,39 @@
+- name: Subnero WNC Series
+  id: swis-tab-one
+  input_id: SwanBot
+  panel_id: swan-panel-one
+  thumbnail: images/swis-WNC.jpg
+  order: 1
+  introduction: Ease of use, integration ready and support for multiple ADCPs are some of the additional advantages of Subnero WNC series of products.
+  sections:
+    - name: Easy Plug and Play
+      icon: plug
+      description: Support for popular ADCP models and brands. Simple plug and play. New integrations require less than a month.
+    - name: Multiple deployments
+      icon: anchor
+      description: Download data from multiple seabed units using a single topside unit, making the data retrieval process faster and efficient.
+- name: SWIS UI
+  id: swis-tab-two
+  input_id: SwanCloud
+  panel_id: swan-panel-two
+  thumbnail: images/swis-ui.png
+  order: 2
+  introduction: Intuitive web-based user interface (UI) powered by Unetstack for configuration, data download and visualization. No software installation required. Operating system and platform independent.
+  sections:
+    - name: Intuitive
+      icon: thumbs-up
+      description: All relevant information such as device information, smart previews and file list in one place.
+    - name: Multi-platform support
+      icon: laptop
+      description: Accessible via desktop, laptops, tablets and mobile platforms.
+- name: CADS Engine
+  id: swis-tab-three
+  input_id: SwanNode
+  panel_id: swan-panel-three
+  thumbnail: images/CADS.jpg
+  order: 3
+  introduction: Content-Aware Data Summarization (CADS) engine that leverages machine learning techniques to generate smart previews of the ADCP data files.
+  sections:
+    - name: Machine Learning Enabled
+      icon: brain
+      description: CADS engine supports summary generation for a user-selectable date range and compression ratio for ADCP files.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UnetStack Newsletter - November 2020
-banner : images/banner-solutions.jpg
+banner : images/banner-about.jpg
 date:  2020-11-18
 categories:
 - newsletter

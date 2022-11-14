@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UnetStack Newsletter - April 2021
-banner : images/banner-solutions.jpg
+banner : images/banner-about.jpg
 date:  2021-04-26
 categories:
 - newsletter

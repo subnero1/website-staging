@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UnetStack Newsletter - April 2020
-banner : images/banner-solutions.jpg
+banner : images/banner-about.jpg
 date:  2020-04-08
 categories:
 - newsletter
