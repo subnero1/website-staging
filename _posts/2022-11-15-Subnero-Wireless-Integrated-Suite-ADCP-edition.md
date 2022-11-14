@@ -2,17 +2,22 @@
 layout: post
 title: Subnero Wireless Integrated Suite (SWIS) - ADCP edition
 banner: images/banner-SWIS.jpg
-date:  2022-11-15
-categories: swis, wnc
+date: 2022-11-13
+categories: swis wnc
 thumbnail: images/boxart-swis.jpg
 ---
 
+![]({{site.baseurl}}/images/swis-cover.jpg){: .center-image  }
+
 Subnero, a Singapore-headquartered company is launching its latest development: Subnero Wireless Integrated Suite (SWIS) - ADCP edition.
+
 Acoustic Doppler Current Profilers or ADCPs are used to measure high-quality underwater current data which is essential for many subsea operations such as coral reef health studies, metocean studies, discharge pattern surveys, ship navigation, subsea construction, inspection, intervention, and decommissioning.
 
 When deploying ADCPs, users are generally presented with two choices to retrieve the data. Either retrieve the device after deployment and download the data or connect the bottom-mounted device to a buoy or a platform using a cable to download the data in real-time. Both these choices are expensive, logistically challenging, prone to data loss or equipment failure and may need additional permits which can increase the overall cost and complexity of the operation.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a6HHxP9pEzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="flex-video video">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/a6HHxP9pEzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 SWIS - ADCP edition provides seamless wireless connectivity to a seabed-mounted ADCP integrated with the Subnero Wireless Network Communication (WNC) series of products. 
 
@@ -29,8 +34,5 @@ SWIS features a Content-Aware Data Summarization or CADS engine that leverages m
 In addition, SWIS provides smart scheduling capabilities for optimizing battery usage, as well as fault tolerance by duplicating the data in both the ADCP as well as the WNC device to ensure data retrieval in the event of an equipment failure. SWIS also supports downloading data from multiple ADCPs deployed in the same area using a single topside unit.
 
 All of these not only makes your experience of deploying and managing multiple ADCPs easier but also drives down the costs dramatically by avoiding costly cables or frequent device retrievals, it also makes SWIS an ideal solution for subsea applications that need near-real-time access to current measurements.
-After attending a local demonstration, Bob Couts, job title at Bintang Subsea said “SWIS will open up new possibilities for subsea operations due to its simplicity”
-
-Subnero is constantly working to bring you new features to help you realize your vision of underwater communication and networking.
 
 Contact us at info@subnero.com for more information, quotation or request for a demo.
