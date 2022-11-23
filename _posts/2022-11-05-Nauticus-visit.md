@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nauticus Robotics visits Subnero
+title: Happy Customer, Happy Supplier! - Nauticus Robotics'visit was a success.
 banner : images/banner-pulse-standard.jpg
 date:  2022-11-05
 categories: wnc
