@@ -58,7 +58,7 @@ As a Front-end developer, you will be responsible for designing and building the
 - Familiarity with software like Adobe Suite, Photoshop, and CMS (Jekyll, WordPress, etc).
 - Any experience with back-end technologies like Java, Python, and Rust is a plus.
 
-> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/information-technology/frontend-developer-subnero-6ef04f0728bf6170cb4e2a967c54a321).
+> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/information-technology/frontend-developer-subnero-dd9663d1aa2be090937a58809bc4e8f9).
 
 ---
 
