@@ -31,32 +31,25 @@ You will be involved in developing, deploying, and maintaining software for vari
 
 ---
 
-## Front-end Developer
-As a Front-end developer, you will be responsible for designing and building the UI/UX for Subnero's products and solutions. You should be able to translate our company and customer needs into functional and appealing web-based user interfaces.
+## Frontend JavaScript Developer
+Subnero relies on Web-based user interfaces on all our products to deliver an intuitive and effective means to interact with our devices and technologies. We believe that a great user interface and user experience are key aspects of a great product. We're looking for a Frontend JavaScript Developer to develop great Web-based user interfaces for our products using modern JavaScript, HTML, and CSS optimized for design, performance, and quality.
 
 #### Roles & Responsibilities
-- Create user-friendly web applications which enable users to effectively use Subnero products and solutions.
-- Design, debug and maintain Subnero websites.
-- Design, debug and maintain internal web-based tools.
-- Optimize web applications for performance and mobile responsiveness.
-- Collaborate with back-end developers to improve usability for web applications.
-- Work with users and customers to improve the user interfaces.
-- Create quality mockups and prototypes.
+- Create and maintain web applications using JavaScript, HTML, and CSS
+- Integrate with backend APIs (REST, WebSockets) to create interactive user interfaces
+- Create modern and responsive layouts for Web-based user interfaces
+- Create and maintain test scripts, continuous builds, and deployment procedures
+- Create documentation, peer review design and code, and give SMART feedback
 - Stay up-to-date on emerging web and other technologies.
 
 #### Qualifications
-- 4 or more years of relevant experience as a Front-end developer. Fresh graduates with relevant experience are welcome to apply.
-- Degree in computer science, related field, or equivalent practical experience.
-- Proficiency in HTML, CSS, JavaScript.
-- Good understanding of in-browser debugging and testing. Any experience with automated testing is a plus.
-- Familiarity with modern JavaScript standards (ES6, etc).
-- Familiarity with modern Web Framework (React, Vue, Vanilla, etc) and related tooling (nodejs, etc).
-- In-depth understanding of the entire web development process (design, development, and deployment).
-- Familiarity with version control systems like git.
-- Some understanding of layout aesthetics, design, and color theory.
-- Good problem-solving, verbal communication, and interpersonal skills.
-- Familiarity with software like Adobe Suite, Photoshop, and CMS (Jekyll, WordPress, etc).
-- Any experience with back-end technologies like Java, Python, and Rust is a plus.
+- 3 or more years of experience with HTML/CSS/JavaScript and JavaScript frameworks such as jQuery, React.js, Vue.js
+- Experience with client-side single-page application development
+- Experience with backend API integration using REST and/or WebSockets
+- Exceptional communication and organizational skills
+- Familiarity with version control systems such as git and GitHub
+- An eye for good design and aesthetics
+- Familiarity with design tools software like Figma, Canva, Adobe Photoshop
 
 > My Careers Future [link](https://www.mycareersfuture.gov.sg/job/information-technology/frontend-developer-subnero-dd9663d1aa2be090937a58809bc4e8f9).
 
