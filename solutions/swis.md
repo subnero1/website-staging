@@ -261,9 +261,37 @@ tabs: swancomponents
     </div>
   </div>
 </div>
+<!-- How it works -->
+<div>
+  <div class='row row-padding-bottom'>
+    <h1 class='section-heading'>SWIS in Action</h1>
+  </div>
+  <div class='four-spacing'></div>
+  <div class='row row-width row-padding-bottom'>
+    <div class='large-8 columns'>
+      <div class="flex-video swan-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RCqQeVunGQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <div class='swan-flex-col row-padding-bottom'>
+        <div class='section-sub-heading'>
+          <h2>Access seabed ADCP data 3 simple steps:</h2>
+        </div>
+        <p class='large-text'>1. Configure & deploy</p>
+        <p class='large-text'>2. Connect</p>
+        <p class='large-text'>3. Download</p>
+        <h2>Bonus:</h2>
+        <p class='large-text'>1. Smart previews</p>
+        <p class='large-text'>2. Communication profiles</p>
+      </div>
+    </div>
+  </div>
+  <div class='row-padding-bottom'></div>
+</div>
 <!-- Brochures -->
 {%- include radio-select.html -%}
-<div class='bg-white'>
+<div class='bg-grey'>
   <div class='row row-padding-bottom'>
   </div>
   <div class='row row-width row-padding-bottom'>
