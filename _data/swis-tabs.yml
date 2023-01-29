@@ -30,7 +30,7 @@
   id: swis-tab-three
   input_id: SwanNode
   panel_id: swan-panel-three
-  thumbnail: images/CADS.jpg
+  thumbnail: images/CAP.jpg
   order: 3
   introduction: Content-Aware Processing (CAP) engine that leverages machine learning techniques to generate smart previews of the ADCP data files.
   sections:
