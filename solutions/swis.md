@@ -25,7 +25,7 @@ tabs: swancomponents
     <h2 class='centered-text'>Near real-time wireless data transfer for ADCP data</h2>
   </div>
   <div class='large-4 columns swan-flex-col'>
-    <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Data Summarization (CADS) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
+    <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
     <p>Take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
     <div>
       <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">PURCHASE ENQUIRY</button></a> <a href="https://zc.vg/pkUls" target="_blank" class='centered-text hOXnHC'><button class="button-outline">SIGNUP FOR A DEMO</button></a>
@@ -150,7 +150,7 @@ tabs: swancomponents
         <i class='fa fa-lg fa-eye'></i>
         <h2>Data Summarization</h2>
       </div>
-      <p class='auto-margin'>Content-Aware Data Summarization (CADS) engine providing smart previews for partial or whole deployments.</p>
+      <p class='auto-margin'>Content-Aware Processing (CAP) engine providing smart previews for partial or whole deployments.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
