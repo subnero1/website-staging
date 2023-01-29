@@ -26,14 +26,14 @@
     - name: Multi-platform support
       icon: laptop
       description: Accessible via desktop, laptops, tablets and mobile platforms.
-- name: CADS Engine
+- name: CAP Engine
   id: swis-tab-three
   input_id: SwanNode
   panel_id: swan-panel-three
   thumbnail: images/CADS.jpg
   order: 3
-  introduction: Content-Aware Data Summarization (CADS) engine that leverages machine learning techniques to generate smart previews of the ADCP data files.
+  introduction: Content-Aware Processing (CAP) engine that leverages machine learning techniques to generate smart previews of the ADCP data files.
   sections:
     - name: Machine Learning Enabled
       icon: brain
-      description: CADS engine supports summary generation for a user-selectable date range and compression ratio for ADCP files.
+      description: CAP engine supports summary generation for a user-selectable date range and compression ratio for ADCP files.
