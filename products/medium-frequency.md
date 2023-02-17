@@ -45,11 +45,11 @@ order: 2
         <li class="modem-container">
             {% assign product_pages = site.pages | where:"categories","modem" %}
             {% for page in product_pages %}
-            {% if page.title contains "WNC-M25MSS3" %}
+            {% if page.title contains "WNC-M25MSS4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                 <div class='content'>
-                <h2>Standalone Configuration <br>WNC-M25MSS3</h2>
+                <h2>Standalone Configuration <br>WNC-M25MSS4</h2>
               </div></a>
             </div>
             {% endif %}
@@ -58,11 +58,11 @@ order: 2
         <li class="modem-container">
             {% assign product_pages = site.pages | where:"categories","modem" %}
             {% for page in product_pages %}
-            {% if page.title contains "WNC-M25MSE3" %}
+            {% if page.title contains "WNC-M25MSO4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                 <div class='content'>
-                <h2>Embedded Configuration <br>WNC-M25MSE3</h2>
+                <h2>OEM Configuration <br>WNC-M25MSO4</h2>
               </div></a>
             </div>
             {% endif %}
@@ -71,13 +71,13 @@ order: 2
         <li class="modem-container">
             {% assign product_pages = site.pages | where:"categories","wnc" %}
             {% for page in product_pages %}
-            {% if page.title contains "WNC-M25MSS3+xCh" %}
+            {% if page.title contains "WNC-M25MSS4+xCh" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <h2 class="new-tag"> NEW </h2>
+                    <!-- <h2 class="new-tag"> NEW </h2> -->
                     <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
-                        <h2>Multi-Channel Configuration <br>WNC-M25MSS3+xCh</h2>
+                        <h2>Multi-Channel Configuration <br>WNC-M25MSS4+xCh</h2>
                     </div>
                 </a>
             </div>
@@ -93,11 +93,11 @@ order: 2
         <li class="modem-container">
             {% assign product_pages = site.pages | where:"categories","modem" %}
             {% for page in product_pages %}
-            {% if page.title contains "WNC-M25MRS3" %}
+            {% if page.title contains "WNC-M25MRS4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                 <div class='content'>
-                <h2>Standalone Configuration <br>WNC-M25MRS3</h2>
+                <h2>Standalone Configuration <br>WNC-M25MRS4</h2>
               </div></a>
             </div>
             {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WNC-M25MSE3
+title: WNC-M25MSO4
 banner : images/banner-silver.jpg
 thumbnail : images/thumbnail-wnc-m25mse3.png
 excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
@@ -8,7 +8,7 @@ categories: modem
 section_id: products
 ---
 
-## Silver Edition Embedded Configuration Modem
+## Silver Edition OEM Configuration Modem
 
 Subnero's silver edition underwater modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
@@ -31,8 +31,8 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse3.jpg"/>
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">Embedded Configuration</h3>
-        <p>Designed with ease of integration and flexibility as the primary focus, the embedded configuration (EC) is ideal for integration to bigger platforms such as AUV, ROVs or sensors. Available with pressure hull option for free flooded platforms.</p>
+    <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
+        <p>Designed with ease of integration and flexibility as the primary focus, the OEM configuration (OC) is ideal for integration to bigger platforms such as AUV, ROVs or sensors. Available with pressure hull option for free flooded platforms.</p>
     </div>
   </div>
 </div>
@@ -54,7 +54,6 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | JANUS support                          | Yes, subject to operating frequency band  |
 | Carrier frequency                      | 24 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
-| Source level                           | 185 dB re 1 µPa @ 1 m rms (nominal)       |
 
 ### Software
 
@@ -69,7 +68,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 4 W (receive mode, nominal)<br>< 60 W (transmit mode, avg.)<br>< 80 W (transmit mode, max.)|
+| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)|
 | External interface                     | Ethernet (10/100 Mbps)*                   |
 | On-board storage                       | 32 GB*                                    |
 
@@ -77,7 +76,6 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Hull material                          | Aluminum                                  |
 | Operating depth                        | 2000 m (Transducer)                       |
 | Dimensions                             | ⌀ 105 ✕ 150 mm                            |
 | Operating temperature                  | 0 to 70 °C (Electronics), 0 to 40 °C (Transducer)|

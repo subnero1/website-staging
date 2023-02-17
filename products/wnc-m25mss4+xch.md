@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WNC-M25MSS3+xCh
+title: WNC-M25MSS4+xCh
 banner : images/banner-multichannel.jpg
 thumbnail : images/thumbnail-wnc-multichannel.png
 excerpt: Subnero's underwater acoustic modems with multiple channels for high-speed data acquisition.
@@ -18,17 +18,13 @@ Subnero's multi-channel modems, provide the capability to record synchronized si
 
 ## Key Features
 
-- Integrated Subnero [silver edition](./wnc-m25mss3.md) modems.
-- Multiple synchronized receiving channels.
+- Multiple synchronized receiving channels for enhanced communication performance.
 - Ability to choose between 1 - 4 additional receiving channels.
-- Scheduled and trigger based recordings.
 - Access to raw signals from all receiving channels.
 - Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}). Examples are:
   - Rapid environmental assessment.
   - Diversity combining techniques to enhance communication performance.
   - Positioning applications (e.g. USBL).
-<!-- - Software upgrade option for [Unity](./unity.md) to enhance communication performance using spatial diversity techniques -->
-<!-- - Software upgrade option for enabling [USBL](./usbl.md) functionality -->
 
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
@@ -69,7 +65,7 @@ Subnero's multi-channel modems, provide the capability to record synchronized si
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Power consumption                      | < 7 W (receive mode, nominal)<br>< 60 W (transmit mode, avg.)<br>< 80 W (transmit mode, max.)|
+| Power consumption                      | < 7 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)|
 | Dimensions                             | ⌀ 127 ✕ 324 mm                            |
 
 </div>

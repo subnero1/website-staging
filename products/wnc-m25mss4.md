@@ -1,9 +1,9 @@
 ---
 layout: page
-title: WNC-M25MSS3
+title: WNC-M25MSS4
 banner : images/banner-silver.jpg
 thumbnail : images/thumbnail-wnc-m25mss3.png
-excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
+excerpt: Subnero silver edition underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
 ---
@@ -21,7 +21,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 - Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
 - Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
-- Support for [multiple receiving channels](./wnc-m25mss3+xch.md) for a variety of applications.
+- Support for [multiple receiving channels]({{site.baseurl}}/products/wnc-m25mss4+xch.html) for a variety of applications.
 
 \* Depending on channel conditions and reliability requirements.
 
@@ -54,7 +54,6 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | JANUS support                          | Yes, subject to operating frequency band  |
 | Carrier frequency                      | 24 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
-| Source level                           | 185 dB re 1 µPa @ 1 m rms (nominal)       |
 
 ### Software
 
@@ -69,7 +68,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 4 W (receive mode, nominal)<br>< 60 W (transmit mode, avg.)<br>< 80 W (transmit mode, max.)|
+| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)|
 | External interface                     | Ethernet (10/100 Mbps)*                   |
 | On-board storage                       | 32 GB*                                    |
 

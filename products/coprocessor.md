@@ -61,10 +61,10 @@ excerpt: Co-processor for Subnero underwater acoustic modems.
         <label class='lbl-toggle' for='compatibility'></label>
         <div class='collapsible-content'>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss3">WNC-M25MSS3 - Silver Edition Standalone Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mse3">WNC-M25MSE3 - Silver Edition Embedded Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition OEM Configuration Modem</a>
           </div>
         </div>
       </div>

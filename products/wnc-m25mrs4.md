@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Research Edition Modems
+title: WNC-M25MRS4
 banner : images/banner-research.jpg
-thumbnail : images/thumbnail-wnc-m25mrs3.jpg
-excerpt: Subnero research edition modems are geared towards academic researchers and underwater technology enthusiasts.
+thumbnail : images/thumbnail-wnc-m25mrs3.png
+excerpt: Subnero research edition of underwater acoustic modems are geared towards academic researchers and underwater technology enthusiasts.
 categories: modem
 section_id: products
 ---
 
-Our research edition modems are designed to bridge the gap between developing applications using a [simulator]({{ site.baseurl }}{%link products/unet.md %}) and high-end commercial deployments. Due to its low cost, these modems provide an easier entry to the world of underwater communications to any underwater technology enthusiasts. The modem runs the [UnetStack]({{ site.baseurl }}{%link products/unetstack.md %}) underwater networking stack, and provides a wide-range of functionality such as data transmission & reception, navigation, time synchronization, and networked operations.
+## Research Edition Modem
+
+Our research edition modems are designed to bridge the gap between developing applications using a [simulator]({{ site.baseurl }}{%link products/unet.md %}) and high-end commercial deployments. Due to its low cost, these modems provide an easier entry to the world of underwater communications to any underwater technology enthusiasts.
 
 ## Key Features
 
@@ -21,9 +23,7 @@ Our research edition modems are designed to bridge the gap between developing ap
 
 \* Depending on channel conditions and reliability requirements.
 
-<div class='one spacing'></div>
-
-## Available Configurations
+<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
 <div class='full' style='background: #f5f5f5'>
 
@@ -31,7 +31,6 @@ Our research edition modems are designed to bridge the gap between developing ap
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mrs3.jpg"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
-        <h4 style="text-transform: none;">WNC-M25MRS3</h4>
         <p>A modem in the standalone configuration (SC) operates on external power source such as a battery (for underwater deployments) or a power supply (for deployments from the water surface).</p>
     </div>
   </div>
@@ -39,7 +38,11 @@ Our research edition modems are designed to bridge the gap between developing ap
 
 <div class='two spacing'></div>
 
-<h2 style="text-transform: none;" id="r_techspec">+ TECHNICAL SPECIFICATIONS</h2>
+<div class='wrap-collapsible'>
+<h2 style="text-transform: none;" id="r_techspec">TECHNICAL SPECIFICATIONS</h2>
+<input id ='tech-specs' class='toggle' type='checkbox'>
+<label class='lbl-toggle' for='tech-specs'></label>
+<div class='collapsible-content' markdown="1">
 
 ### Communication
 
@@ -50,7 +53,6 @@ Our research edition modems are designed to bridge the gap between developing ap
 | JANUS support                          | Yes, subject to operating frequency band  |
 | Carrier frequency                      | 24 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
-| Source level                           | 175 dB re 1 µPa @ 1 m rms (nominal)       |
 
 ### Software
 
@@ -78,10 +80,16 @@ Our research edition modems are designed to bridge the gap between developing ap
 | Dimensions                             | ⌀ 130 ✕ 290 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 
-<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+</div>
+</div>
 
-<h2>Brochures</h2>
+<div class='wrap-collapsible'>
+  <h2>Brochures</h2>
+  <input id ='compatibility' class='toggle' type='checkbox'>
+  <label class='lbl-toggle' for='compatibility'></label>
+  <div class='collapsible-content'>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+</div>
 </div>
