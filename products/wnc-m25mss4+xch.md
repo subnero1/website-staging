@@ -86,10 +86,7 @@ Subnero's multi-channel modems utilize advanced spatial diversity combining tech
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <ul>
-        <li><a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a></li>
-        <li><a href="https://lsc-pagepro.mydigitalpublication.com/publication/?m=60787&i=727818&p=17&ver=html5" target="_blank">Multichannel Modems The'Swiss Army Knife'of Acoustic Modems in the Maritime Domain, SEA TECHNOLOGY 62.11 (2021): 17-21.</a></li>
-      </ul>
+      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
     </div>
 </div>
 </div>

@@ -2,7 +2,7 @@
 layout: page
 title: Underwater Network Technology
 banner : images/banner-unetsim.jpg
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/boxart-unet.png
 categories: unet
 section_id: products
 ---
@@ -13,7 +13,7 @@ Commonly cited challenges in underwater networks include low bandwidth, long pro
 
 UnetStack is a flexible agent-based underwater network stack that allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed. The stack runs on an underwater modem or on a host computer connected to the modem, transforming the modem into a sophisticated network node. UnetStack can also serve as a gateway to private terrestrial or satellite networks, or to the Internet.
 
-![UnetStack]({{site.baseurl}}/images/unetstack3.png){: .center-image  }
+![UnetStack]({{site.baseurl}}/images/unetstack4.png){: .center-image  }
 
 UnetStack consists of a collection of software agents that provide [well-defined services](https://unetstack.net/handbook/unet-handbook_services_and_capabilities.html){:target="_blank"}. This framework provides good separation of concern while allowing information to be shared, services to be provided, and behaviors to be negotiated between different agents. The resulting network stack is flexible and allows software-defined underwater networks to be rapidly designed, simulated, tested and deployed.
 
