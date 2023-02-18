@@ -67,17 +67,17 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
           <tr>
             <td>Aluminum</td>
             <td>300 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a><br><a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Channel Configuration Modem</a></td>
           </tr>
           <tr>
             <td>Stainless Steel</td>
             <td>2000 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
           <tr>
             <td>Titanium</td>
             <td>4000 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mse4">Silver Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>

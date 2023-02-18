@@ -59,10 +59,10 @@ excerpt: Electrical interfaces for Subnero underwater acoustic modems
         <label class='lbl-toggle' for='compatibility'></label>
         <div class='collapsible-content'>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition OEM Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mse4">Silver Edition OEM Configuration Modem</a>
           </div>
         </div>
       </div>
