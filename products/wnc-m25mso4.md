@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MSO4
 banner : images/banner-silver.jpg
-thumbnail : images/thumbnail-wnc-m25mse3.png
+thumbnail : images/thumbnail-wnc-m25mse4.png
 excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
@@ -15,7 +15,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 ## Key Features
 
 - Up to 15 kbps data rate\*.
-- Up to 5 km communication range in tropical waters.
+- Up to 5 km communication range (horizontal & vertical) in tropical waters.
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
@@ -29,10 +29,10 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse3.jpg"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
-        <p>Designed with ease of integration and flexibility as the primary focus, the OEM configuration (OC) is ideal for integration to bigger platforms such as AUV, ROVs or sensors. Available with pressure hull option for free flooded platforms.</p>
+        <p>The OEM configuration (OC) is tailored to facilitate seamless integration and adaptability, making it a top pick for incorporation into larger platforms, such as AUVs, ROVs, and sensors. Additionally, for free flooded platforms, it comes equipped with a pressure hull option.</p>
     </div>
   </div>
 </div>

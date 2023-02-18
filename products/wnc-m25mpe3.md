@@ -14,7 +14,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 
 ## Key Features
 - Up to 15 kbps data rate\*.
-- Up to 5 km communication range in tropical waters.
+- Up to 5 km communication range (horizontal & vertical) in tropical waters.
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
@@ -59,7 +59,6 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 | JANUS support                          | Yes, subject to operating frequency band  |
 | Carrier frequency                      | 24 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
-| Source level                           | 185 dB re 1 µPa @ 1 m rms (nominal)       |
 
 ### Software
 

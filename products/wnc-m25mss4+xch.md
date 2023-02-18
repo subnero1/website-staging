@@ -10,15 +10,12 @@ section_id: products
 
 ## Multi-channel Configuration Modem
 
-Subnero's multi-channel modems, provide the capability to record synchronized signals from multiple hydrophones, in addition to the regular communication channel thereby enabling a plethora of new applications.
-
-<div class="flex-video video">
-  <iframe src="https://www.youtube.com/embed/1OtxLh8z0zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+Subnero's multi-channel modems utilize advanced spatial diversity combining techniques to extract data from multiple receiving channels, enabling exceptional communication performance even in the most challenging conditions. Beyond this, these modems possess the unique capability to record synchronized raw signals from multiple hydrophones, allowing for a diverse range of innovative applications such as localization and passive acoustic monitoring.
 
 ## Key Features
 
 - Multiple synchronized receiving channels for enhanced communication performance.
+- 2x communication performance as compared to the [single channel]({{site.baseurl}}/products/wnc-m25mss4.html) equivalents.
 - Ability to choose between 1 - 4 additional receiving channels.
 - Access to raw signals from all receiving channels.
 - Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}). Examples are:
@@ -32,10 +29,10 @@ Subnero's multi-channel modems, provide the capability to record synchronized si
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-multichannel2.jpg"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-multichannel.png"/>
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">Standalone Configuration with Multiple Receiving Channels</h3>
-          <p>A modem in the standalone configuration (SC) with multiple receiving channels, operates on external power source and combines a versatile acoustic modem with a multi-channel acoustic recorder, ideal for long term deployments.</p>
+    <h3 style="text-transform: none;" id="surface">Multi-channel Configuration</h3>
+          <p>With multiple synchronous channels, a multi-channel modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>
     </div>
   </div>
 </div>
@@ -50,14 +47,14 @@ Subnero's multi-channel modems, provide the capability to record synchronized si
 
 ### Modem
 
-- <a href="{{site.baseurl}}/products/wnc-m25mss3.html#s_techspec">Silver edition modem technical specifications</a>
+- <a href="{{site.baseurl}}/products/wnc-m25mss4.html#s_techspec">Silver edition modem technical specifications</a>
 
 ### Recorder
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-|  Additional receiving channels         | up to 4                                   |
-|  Sampling rate (per channel)           | 128 or 256 kSa/s                          |
+|  Additional receiving channels         | up to 3                                   |
+|  Sampling rate (per channel)           | upto 256 kSa/s                            |
 |  Fixed gain                            | 10 dB                                     |
 |  Programmable gain                     | 36 dB                                     |
 
@@ -89,7 +86,10 @@ Subnero's multi-channel modems, provide the capability to record synchronized si
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
+      <ul>
+        <li><a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a></li>
+        <li><a href="https://lsc-pagepro.mydigitalpublication.com/publication/?m=60787&i=727818&p=17&ver=html5" target="_blank">Multichannel Modems The'Swiss Army Knife'of Acoustic Modems in the Maritime Domain, SEA TECHNOLOGY 62.11 (2021): 17-21.</a></li>
+      </ul>
     </div>
 </div>
 </div>

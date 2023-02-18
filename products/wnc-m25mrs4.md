@@ -31,7 +31,7 @@ Our research edition modems are designed to bridge the gap between developing ap
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mrs4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
-        <p>A modem in the standalone configuration (SC) operates on external power source such as a battery (for underwater deployments) or a power supply (for deployments from the water surface).</p>
+        <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an external power source, which could be a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
     </div>
   </div>
 </div>

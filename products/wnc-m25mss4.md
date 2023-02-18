@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MSS4
 banner : images/banner-silver.jpg
-thumbnail : images/thumbnail-wnc-m25mss3.png
+thumbnail : images/thumbnail-wnc-m25mss4.png
 excerpt: Subnero silver edition underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
@@ -15,7 +15,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 ## Key Features
 
 - Up to 15 kbps data rate\*.
-- Up to 5 km communication range in tropical waters.
+- Up to 5 km communication range (horizontal & vertical) in tropical waters.
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
@@ -30,10 +30,10 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mss3.png"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mss4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
-        <p>A modem in the standalone configuration (SC) operates on external power source such as a battery (for underwater deployments) or a power supply (for deployments from the water surface).</p>
+        <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an external power source, which could be a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
     </div>
   </div>
 </div>
