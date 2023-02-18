@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MRS4
 banner : images/banner-research.jpg
-thumbnail : images/thumbnail-wnc-m25mrs3.png
+thumbnail : images/thumbnail-wnc-m25mrs4.png
 excerpt: Subnero research edition of underwater acoustic modems are geared towards academic researchers and underwater technology enthusiasts.
 categories: modem
 section_id: products
@@ -28,7 +28,7 @@ Our research edition modems are designed to bridge the gap between developing ap
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mrs3.jpg"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mrs4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
         <p>A modem in the standalone configuration (SC) operates on external power source such as a battery (for underwater deployments) or a power supply (for deployments from the water surface).</p>
