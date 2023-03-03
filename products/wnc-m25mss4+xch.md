@@ -74,8 +74,8 @@ Subnero's multi-channel modems utilize advanced spatial diversity combining tech
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Multi-Channel-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Multi-Channel-Modems.pdf" target="_blank">Subnero M25M Multi-Channel Modems</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero M25M Multi-Channel Modems</a>
 </div>
 </div>
 </div>
@@ -86,7 +86,7 @@ Subnero's multi-channel modems utilize advanced spatial diversity combining tech
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
+      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-MC-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
     </div>
 </div>
 </div>

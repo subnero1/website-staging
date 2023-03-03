@@ -23,9 +23,14 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
         </div>
         <div class='large-9 columns'>
           <div class='category-content'>
-            <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><h1>Wireless Networked Communications</h1></a>
-            <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><h3>Software defined underwater acoustic modems for communication, networking, navigation and monitoring.</h3></a>
+            <a href='{{site.baseurl}}/products/wnc.html'><h1>Wireless Networked Communications</h1></a>
+            <a href='{{site.baseurl}}/products/wnc.html'><h3>Software defined underwater acoustic modems for communication, networking, navigation and monitoring.</h3></a>
             <div class='media'>
+              <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/wnc.html'>
+                  <button class='button-outline'>WNC product series</button>
+                </a>
+              </div>
               <div class='modem-type'>
                 <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
                   <button class='button-outline'>M25M series</button>
