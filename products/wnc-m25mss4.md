@@ -52,7 +52,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
 | JANUS support                          | Yes, subject to operating frequency band  |
-| Carrier frequency                      | 24 kHz                                    |
+| Carrier frequency                      | 25 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
 ### Software
@@ -68,7 +68,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)|
+| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)< 1 mW (deep sleep mode)|
 | External interface                     | Ethernet (10/100 Mbps)*                   |
 | On-board storage                       | 32 GB*                                    |
 
@@ -78,7 +78,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | -------------------------------------- | ----------------------------------------- |
 | Hull material                          | Aluminum*                                 |
 | Operating depth                        | 100 m*                                    |
-| Dimensions                             | ⌀ 127 ✕ 280 mm                            |
+| Dimensions                             | ⌀ 127 ✕ 270 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 
 \* Upgrades available. [Read more]({{site.baseurl}}/products/modem.html?&section=Accessories).

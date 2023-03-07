@@ -52,7 +52,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
 | JANUS support                          | Yes, subject to operating frequency band  |
-| Carrier frequency                      | 24 kHz                                    |
+| Carrier frequency                      | 25 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
 ### Software
@@ -68,7 +68,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)|
+| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)<br>< 1 mW (deep sleep mode)|
 | External interface                     | Ethernet (10/100 Mbps)*                   |
 | On-board storage                       | 32 GB*                                    |
 
@@ -77,7 +77,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Operating depth                        | 2000 m (Transducer)                       |
-| Dimensions                             | ⌀ 105 ✕ 150 mm                            |
+| Dimensions                             | ⌀ 105 ✕ 120 mm                            |
 | Operating temperature                  | 0 to 70 °C (Electronics), 0 to 40 °C (Transducer)|
 
 \* Upgrades available. [Read more]({{site.baseurl}}/products/modem.html?&section=Accessories).
