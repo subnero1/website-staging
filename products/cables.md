@@ -65,29 +65,22 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
             <td>Compatibility</td>
           </tr>
           <tr>
-            <td>W-00T10-10</td>
-            <td>Underwater cable, 10 m</td>
+            <td>W-60T01-05<br>W-60T01-10<br>W-60T01-25<br>W-60T01-30</td>
+            <td>Underwater cable, 5 m<br>Underwater cable, 10 m<br>Underwater cable, 25 m<br>Underwater cable, 30 m</td>
             <td>Power, Ethernet</td>
             <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
           <tr>
-            <td>W-00T10-15</td>
-            <td>Underwater cable, 15 m</td>
-            <td>Power, Ethernet</td>
+            <td>W-64T03-05<br>W-64T03-10<br>W-64T03-15</td>
+            <td>Underwater cable, 5 m<br>Underwater cable, 10 m<br>Underwater cable, 15 m</td>
+            <td>Power, Ethernet, RS232</td>
             <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
           <tr>
-            <td>W-00T10-25</td>
-            <td>Underwater cable, 25 m</td>
+            <td>W-00T01-05<br>W-00T01-10<br>W-00T01-25<br>W-00T01-30</td>
+            <td>Underwater cable, 5 m<br>Underwater cable, 10 m<br>Underwater cable, 25 m<br>Underwater cable, 30 m</td>
             <td>Power, Ethernet</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a>
-              <br/><a href="{{site.baseurl}}/products/wnc-m25mrs4">Research Edition Standalone Configuration</a></td>
-          </tr>
-          <tr>
-            <td>W-00T10-30</td>
-            <td>Underwater cable, 30 m</td>
-            <td>Power, Ethernet</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mrs4">Research Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>
