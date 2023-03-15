@@ -88,8 +88,20 @@ Our research edition modems are designed to bridge the gap between developing ap
   <input id ='compatibility' class='toggle' type='checkbox'>
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
-<div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+    <div class="brochure-container">
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+    </div>
+  </div>
 </div>
+
+<div class='wrap-collapsible'>
+  <h2>Useful Links</h2>
+  <input id ='useful-links' class='toggle' type='checkbox'>
+  <label class='lbl-toggle' for='useful-links'></label>
+  <div class='collapsible-content'>
+    <div class="brochure-container">
+      <a href="{{site.baseurl}}/products/wnc.html" target="_blank">WNC Product Series</a>
+    </div>
+  </div>
 </div>
