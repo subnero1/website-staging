@@ -298,9 +298,7 @@ tabs: swancomponents
     <div class='large-12 columns swan-flex-col'>
       <h2>Brochures</h2>
       <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/SWAN-Brochure.pdf" target="_blank" class='brochure-margin'>
-          <img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg">
-        </a>
+        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class='brochure-margin'><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg"></a>
         <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank">Subnero Wireless Integrated Suite (SWIS), ADCP Edition</a>
       </div>
     </div>
