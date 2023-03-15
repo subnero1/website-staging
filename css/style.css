@@ -6073,3 +6073,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .round-border-20 {
   border-radius: 20%
 }
+
+.round-border-50 {
+  border-radius: 50%
+}

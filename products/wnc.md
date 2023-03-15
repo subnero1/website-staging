@@ -12,9 +12,9 @@ section_id: products
   <div class='large-12 columns'>
     <div class='banner-heading'>
       <h1 class='banner-text'>
-        <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>N</span>etworked <span class='orange'>C</span>ommunications
+        Subnero <span class='orange'>W</span>ireless <span class='orange'>N</span>etworked <span class='orange'>C</span>ommunications (WNC)
       </h1>
-      <h2 class='banner-sub-heading'>WNC Product Series</h2>
+      <h2 class='banner-sub-heading'>Product Series</h2>
     </div>
   </div>
 </div>
@@ -83,25 +83,25 @@ section_id: products
   </div>
   <div class='container row row-width row-padding-bottom'>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
-      <img src='{{site.baseurl}}/images/i-defense.png' width="120" height="120">
+      <img src='{{site.baseurl}}/images/thumbnail-defense.png' width="300" height="300" class='round-border-50'>
+      <br>
       <div class='section-sub-heading'>
-        <!-- <i class='fa fa-lg fa-eye'></i> -->
         <h2>Defense</h2>
       </div>
       <p class='auto-margin'>The platinum edition modems are an ideal solution for defense customers, as they offer best-in-class communication performance in harsh environments, are MIL-qualified, reduce complexity by using a single hardware platform for multiple functions, and support advanced features such as extended range and in-field reconfigurability with communication profiles and adaptive link tuning.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
-      <img src='{{site.baseurl}}/images/i-commercial.png' width="120" height="120">
+      <img src='{{site.baseurl}}/images/thumbnail-offshore.png' width="300" height="300" class='round-border-50'>
+      <br>
       <div class='section-sub-heading'>
-        <!-- <i class='fa fa-lg fa-search-location'></i> -->
-        <h2>Subsea & Offshore</h2>
+        <h2>Offshore & Subsea</h2>
       </div>
       <p class='auto-margin'>The Subnero WNC series of devices are the go-to solution for subsea & offshore customers, offering support for a wide variety of sensors and software ecosystems, Content Aware Processing (CAP) engine, deep sleep state for long deployments, and a single hardware platform capable of replacing multiple legacy systems, thereby reducing operational costs and improving reliability and safety.</p>
     </div>
     <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
-    <img src='{{site.baseurl}}/images/i-research.png' width="120" height="120">
+    <img src='{{site.baseurl}}/images/thumbnail-research.png' width="300" height="300" class='round-border-50'>
+    <br>
       <div class='section-sub-heading'>
-        <!-- <i class="fa fa-lg fa-calendar"></i> -->
         <h2>Scientific Research</h2>
       </div>
       <p class='auto-margin'>For scientific research customers, the Subnero WNC series of products offer customizable platform and media agnostic network stack, support for multiple computer languages, versatile hardware with an onboard GPU, full-fledged simulator, arbitrary waveform transmission and reception with the option to deploy your own physical layer, with the added bonus of a free community edition of UnetStack for non-commercial use.</p>
@@ -157,8 +157,8 @@ section_id: products
     </div>
   </div>
 </div>
-<!-- Simple Deployment  -->
-<div style='background-image: url({{site.baseurl}}/images/swis-second-banner.jpg);'>
+<!-- Editions and Configurations  -->
+<div style='background-image: url({{site.baseurl}}/images/wnc-bg02.jpg);'>
   <div class='swan-position'>
     <div class="swan-overlay"></div>
     <div class='row accordion-row swan-position'>
@@ -168,15 +168,15 @@ section_id: products
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>Editions</h2>
-          <p>Subnero offers three different editions of underwater modems: the platinum, silver and research editions.</p>
-          <img src='{{site.baseurl}}/images/swis-deploy-01.png'>
+          <p>WNC series is available in three editions: the platinum, silver and research editions.</p>
+          <img src='{{site.baseurl}}/images/wnc-edition.png'>
         </div>
       </div>
       <div class='large-6 columns'>
         <div class='swan-flex-col bg-white card-content'>
           <h2>Configurations</h2>
-          <p>Subnero offers various configurations for its underwater modems to enable different deployment scenarios.</p>
-          <img src='{{site.baseurl}}/images/swis-deploy-02.png'>
+          <p>WNC series is available in various configurations to enable different deployment scenarios.</p>
+          <img src='{{site.baseurl}}/images/wnc-configuration.png'>
         </div>
       </div>
     </div>
