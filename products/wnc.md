@@ -24,7 +24,10 @@ section_id: products
     <h2 class='centered-text'>Powered by UnetStack4, the Software-Defined Network Stack for Underwater Applications.</h2>
   </div>
   <div class='large-4 columns swan-flex-col'>
-    <p>Subnero's fourth-generation Wireless Networked Communication (<span class='swan-highlight'>WNC</span>) series of underwater acoustic modems is designed to provide best-in-class communication performance, advanced networking and localization capabilities, and developer tools to simplify the development and deployment of underwater wireless networks. Equipped with our new and improved software, UnetStack4, our generation 4 modems are designed to take your underwater communication to the next level.</p>
+    <p>Subnero's fourth-generation Wireless Networked Communication (<span class='swan-highlight'>WNC</span>) series of underwater acoustic modems is designed to provide best-in-class communication performance, advanced networking and localization capabilities, and developer tools to simplify the development and deployment of underwater wireless networks. Equipped with our new and improved software, <a href="https://unetstack.net/" target="_blank">UnetStack4</a>, our generation 4 modems are designed to take your underwater communication to the next level.</p>
+    <div>
+      <a href="{{site.baseurl}}/products/modem.html" class='centered-text hOXnHC'><button class="button-outline">VIEW PRODUCTS</button></a>
+    </div>
     <div>
       <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">PURCHASE ENQUIRY</button></a>
     </div>
@@ -198,6 +201,10 @@ section_id: products
         <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
         <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
       </div>
+      <div class="brochure-container">
+					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
+					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank">[Whitepaper] The Future of Underwater Wireless</a>
+				</div>
     </div>
   </div>
 </div>

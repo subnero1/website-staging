@@ -73,11 +73,15 @@ Subnero's multi-channel modems utilize advanced spatial diversity combining tech
   <input id ='compatibility' class='toggle' type='checkbox'>
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
-<div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero M25M Multi-Channel Modems</a>
-</div>
-</div>
+    <div class="brochure-container">
+      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero M25M Multi-Channel Modems</a>
+    </div>
+    <div class="brochure-container">
+        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">Generation 4 Wireless Networked Communications (WNC), Product Series Brief</a>
+    </div>
+  </div>
 </div>
 
 <div class='wrap-collapsible'>

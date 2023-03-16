@@ -95,9 +95,9 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
   <input id ='compatibility' class='toggle' type='checkbox'>
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
-<div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
-</div>
-</div>
+    <div class="brochure-container">
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem3.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+    </div>
+  </div>
 </div>
