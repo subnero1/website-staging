@@ -21,10 +21,10 @@ tabs: swancomponents
 </div>
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
-  <div class='large-12 columns swan-flex-col row-padding-bottom'>
+  <div class='large-12 columns flex-col row-padding-bottom'>
     <h2 class='centered-text'>Near real-time wireless data transfer for ADCP data</h2>
   </div>
-  <div class='large-4 columns swan-flex-col'>
+  <div class='large-4 columns flex-col'>
     <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
     <p>Take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
     <div>
@@ -145,42 +145,42 @@ tabs: swancomponents
     <h1 class='section-heading'>SWIS Features</h1>
   </div>
   <div class='container row row-width row-padding-bottom'>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-lg fa-eye'></i>
         <h2>Data Summarization</h2>
       </div>
       <p class='auto-margin'>Content-Aware Processing (CAP) engine providing smart previews for partial or whole deployments.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-lg fa-search-location'></i>
         <h2>Fault Detection</h2>
       </div>
       <p class='auto-margin'>Quick and easy retrieval of ADCP status information such as mode, pitch, battery voltage etc. for early fault detection.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class="fa fa-lg fa-calendar"></i>
         <h2>Smart Scheduling</h2>
       </div>
       <p class='auto-margin'>Supporting regular and adhoc data downloads with user-defined schedules providing significant power savings.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-lg fa-gamepad'></i>
         <h2>Remote Control</h2>
       </div>
       <p class='auto-margin'>Ability to remotely reconfigure ADCPs and communication parameters in the field, during deployment.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-lg fa-exclamation-triangle'></i>
         <h2>Fault Tolerance</h2>
       </div>
       <p class='auto-margin'>Multiple copies of data files are kept for protection against data loss and equipment failure.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-lg fa-wifi'></i>
         <h2>Smart Profiles</h2>
@@ -199,13 +199,13 @@ tabs: swancomponents
     </div>
     <div class='row row-width row-padding-bottom'>
       <div class='large-6 columns'>
-        <div class='swan-flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content'>
           <h2>Pre-deployment</h2>
           <img src='{{site.baseurl}}/images/swis-deploy-01.png'>
         </div>
       </div>
       <div class='large-6 columns'>
-        <div class='swan-flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content'>
           <h2>During Deployment</h2>
           <img src='{{site.baseurl}}/images/swis-deploy-02.png'>
         </div>
@@ -218,48 +218,7 @@ tabs: swancomponents
   <div class='row'>
     <h1 class='section-heading'>Components of SWIS</h1>
   </div>
-  {% for item in site.data.swis-tabs %}
-  {% if item.name ==  "Subnero WNC Series" %}
-  {% assign checked = "checked" %}
-  {% else %}
-  {% assign checked = "" %}
-  {% endif %}
-  <input id="{{ item.input_id }}" name='tab-control' type='radio' class='radio' {{checked}}>
-  {% endfor %}
-  <div class='row row-width type-container bg-grey'>
-    {% for item in site.data.swis-tabs %}
-    <label class='type-item' id="{{ item.id }}" for="{{ item.input_id }}">{{ item.name }}</label>
-    {% endfor %}
-  </div>
-  <div class="tab-panels">
-    <div class='row features-row'>
-      <div class='large-12 columns'>
-        {% for item in site.data.swis-tabs %}
-        <div id='{{item.panel_id}}' class='tab-panel'>
-          <div class='bg-grey'>
-            <div class='row row-width section-margin'>
-              <div class='large-6 columns'>
-                <div class='swan-flex-col'>
-                  <p> {{ item.introduction }}</p>
-                  {% for section in item.sections %}
-                  <div class='section-sub-heading'>
-                    <i class='fa fa-lg fa-{{ section.icon }}'></i>
-                    <h4>{{section.name}}</h4>
-                  </div>
-                  <p>{{section.description}}</p>
-                  {% endfor %}
-                </div>
-              </div>
-              <div class='large-5 columns'>
-                <img src="{{site.baseurl}}/{{item.thumbnail}}">
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  {% include tabbed-columns.html content=site.data.swis-tabs%}
 </div>
 <!-- How it works -->
 <div>
@@ -274,7 +233,7 @@ tabs: swancomponents
       </div>
     </div>
     <div class='large-4 columns'>
-      <div class='swan-flex-col row-padding-bottom'>
+      <div class='flex-col row-padding-bottom'>
         <div class='section-sub-heading'>
           <h2>Access seabed ADCP data 3 simple steps:</h2>
         </div>
@@ -295,7 +254,7 @@ tabs: swancomponents
   <div class='row row-padding-bottom'>
   </div>
   <div class='row row-width row-padding-bottom'>
-    <div class='large-12 columns swan-flex-col'>
+    <div class='large-12 columns flex-col'>
       <h2>Brochures</h2>
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class='brochure-margin'><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg"></a>

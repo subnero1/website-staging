@@ -20,10 +20,10 @@ section_id: products
 </div>
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
-  <div class='large-12 columns swan-flex-col row-padding-bottom'>
+  <div class='large-12 columns flex-col row-padding-bottom'>
     <h2 class='centered-text'>Powered by UnetStack4, the Software-Defined Network Stack for Underwater Applications.</h2>
   </div>
-  <div class='large-4 columns swan-flex-col'>
+  <div class='large-4 columns flex-col'>
     <p>Subnero's fourth-generation Wireless Networked Communication (<span class='swan-highlight'>WNC</span>) series of underwater acoustic modems is designed to provide best-in-class communication performance, advanced networking and localization capabilities, and developer tools to simplify the development and deployment of underwater wireless networks. Equipped with our new and improved software, <a href="https://unetstack.net/" target="_blank">UnetStack4</a>, our generation 4 modems are designed to take your underwater communication to the next level.</p>
     <div>
       <a href="{{site.baseurl}}/products/modem.html" class='centered-text hOXnHC'><button class="button-outline">VIEW PRODUCTS</button></a>
@@ -48,9 +48,9 @@ section_id: products
     <div class='large-5 columns'>
       <div class='accordion-container'>
         <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1' for="rad1">Best in-class performance</label>
-          <label class="accordion-label" for="rad2" id='accordion-label-2' >Software-Defined Design</label>
-          <label class="accordion-label" for="rad3" id='accordion-label-3' >Advanced Networking Features</label>
+          <label class="accordion-label hover-active" id='accordion-label-1'>Best in-class performance</label>
+          <label class="accordion-label" id='accordion-label-2' >Software-Defined Design</label>
+          <label class="accordion-label" id='accordion-label-3' >Advanced Networking Features</label>
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
@@ -79,13 +79,14 @@ section_id: products
     </div>
   </div>
 </div>
+{%- include hover-display.html -%}
 <!-- Industries -->
 <div class='bg-white'>
   <div class='row row-padding-bottom'>
     <h1 class='section-heading'>Industries</h1>
   </div>
   <div class='container row row-width row-padding-bottom'>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
       <img src='{{site.baseurl}}/images/thumbnail-defense.png' width="300" height="300" class='round-border-50'>
       <br>
       <div class='section-sub-heading'>
@@ -93,7 +94,7 @@ section_id: products
       </div>
       <p class='auto-margin'>The platinum edition modems are an ideal solution for defense customers, as they offer best-in-class communication performance in harsh environments, are MIL-qualified, reduce complexity by using a single hardware platform for multiple functions, and support advanced features such as extended range and in-field reconfigurability with communication profiles and adaptive link tuning.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
       <img src='{{site.baseurl}}/images/thumbnail-offshore.png' width="300" height="300" class='round-border-50'>
       <br>
       <div class='section-sub-heading'>
@@ -101,7 +102,7 @@ section_id: products
       </div>
       <p class='auto-margin'>The Subnero WNC series of devices are the go-to solution for subsea & offshore customers, offering support for a wide variety of sensors and software ecosystems, Content Aware Processing (CAP) engine, deep sleep state for long deployments, and a single hardware platform capable of replacing multiple legacy systems, thereby reducing operational costs and improving reliability and safety.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width row-padding-bottom'>
+    <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
     <img src='{{site.baseurl}}/images/thumbnail-research.png' width="300" height="300" class='round-border-50'>
     <br>
       <div class='section-sub-heading'>
@@ -117,49 +118,9 @@ section_id: products
   <div class='row'>
     <h1 class='section-heading'>Applications</h1>
   </div>
-  {% for item in site.data.wnc-tabs %}
-  {% if item.name ==  "Marine Robotics" %}
-  {% assign checked = "checked" %}
-  {% else %}
-  {% assign checked = "" %}
-  {% endif %}
-  <input id="{{ item.input_id }}" name='tab-control' type='radio' class='radio' {{checked}}>
-  {% endfor %}
-  <div class='row row-width type-container bg-grey'>
-    {% for item in site.data.wnc-tabs %}
-    <label class='type-item' id="{{ item.id }}" for="{{ item.input_id }}">{{ item.name }}</label>
-    {% endfor %}
-  </div>
-  <div class="tab-panels">
-    <div class='row features-row'>
-      <div class='large-12 columns'>
-        {% for item in site.data.wnc-tabs %}
-        <div id='{{item.panel_id}}' class='tab-panel'>
-          <div class='bg-grey'>
-            <div class='row row-width section-margin'>
-              <div class='large-6 columns'>
-                <div class='swan-flex-col'>
-                  <p> {{ item.introduction }}</p>
-                  {% for section in item.sections %}
-                  <div class='section-sub-heading'>
-                    <i class='fa fa-lg fa-{{ section.icon }}'></i>
-                    <h4>{{section.name}}</h4>
-                  </div>
-                  <p>{{section.description}}</p>
-                  {% endfor %}
-                </div>
-              </div>
-              <div class='large-5 columns'>
-                <img src="{{site.baseurl}}/{{item.thumbnail}}">
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+  {% include tabbed-columns.html content=site.data.wnc-tabs%}
 </div>
+
 <!-- Editions and Configurations  -->
 <div style='background-image: url({{site.baseurl}}/images/wnc-bg02.jpg);'>
   <div class='swan-position'>
@@ -169,14 +130,14 @@ section_id: products
     </div>
     <div class='row row-width row-padding-bottom'>
       <div class='large-6 columns'>
-        <div class='swan-flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content'>
           <h2>Editions</h2>
           <p>WNC series is available in three editions: the platinum, silver and research editions.</p>
           <img src='{{site.baseurl}}/images/wnc-edition.png'>
         </div>
       </div>
       <div class='large-6 columns'>
-        <div class='swan-flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content'>
           <h2>Configurations</h2>
           <p>WNC series is available in various configurations to enable different deployment scenarios.</p>
           <img src='{{site.baseurl}}/images/wnc-configuration.png'>
@@ -191,7 +152,7 @@ section_id: products
   <div class='row row-padding-bottom'>
   </div>
   <div class='row row-width row-padding-bottom'>
-    <div class='large-12 columns swan-flex-col'>
+    <div class='large-12 columns flex-col'>
       <h2>Brochures</h2>
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>

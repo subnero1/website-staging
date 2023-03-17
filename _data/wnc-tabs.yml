@@ -1,9 +1,7 @@
 - name: Marine Robotics
   id: wnc-tab-one
-  input_id: SwanBot
-  panel_id: swan-panel-one
+  input_id: marine-robotics
   thumbnail: images/wnc-mr02.jpg
-  order: 1
   introduction: Offload the complexities of managing multiple communication interfaces, data types (e.g. telemetry, C2, payload), and attributes in your underwater vehicle to <span class='orange'>Ripple</span>.
   sections:
     - name: Single interface
@@ -17,10 +15,8 @@
       description: Media agnostic end-end connectivity for a variety of links such as UDP/IP, optical, satellite links, and multiple acoustic frequency bands.
 - name: Underwater Sensors
   id: wnc-tab-two
-  input_id: SwanCloud
-  panel_id: swan-panel-two
+  input_id: underwater-sensors
   thumbnail: images/swis-WNC.jpg
-  order: 2
   introduction: Ease of use, integration ready and support for multiple sensors are some of the advantages of <a target="_blank" href='/solutions/swis' class='orange'>Subnero Wireless Integrated Suite (SWIS)</a> packaged solution.
   sections:
     - name: Easy Plug and Play
@@ -35,9 +31,7 @@
 # - name: Divers
 #   id: wnc-tab-three
 #   input_id: SwanNode
-#   panel_id: swan-panel-three
 #   thumbnail: images/wnc-divers.jpg
-#   order: 3
 #   introduction: Real-time underwater communication, localization and monitoring system for defense, commercial and recreational divers.
 #   sections:
 #     - name: TODO
@@ -48,10 +42,8 @@
 #       description: TODO
 - name: Underwater Networks
   id: wnc-tab-four
-  input_id: SwanFour
-  panel_id: swan-panel-four
+  input_id: underwater-networks
   thumbnail: images/wnc-wind.jpg
-  order: 4
   introduction: Combine UnetStack with Subnero’s WNC portfolio, and you have a truly scalable, dynamically configurable, and extendable underwater communication and positioning network termed <span class="orange">Subnero Underwater Network (SUN)</span>.
   sections:
     - name: Subnero Underwater Network (SUN)
@@ -60,4 +52,4 @@
     - name: Internet of Underwater Things (IoUT)
       icon: wifi
       description: True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).
-    
+
