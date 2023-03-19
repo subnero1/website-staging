@@ -6,12 +6,17 @@
     <input id="{{ item.input_id }}" name='tab-control' name="wnc-tabs" type='radio' class='radio'>
     {% endif %}
     {% endfor %}
-    <div class='row row-width type-container bg-grey'>
+    {% if include.type == "features" %}
+    <div class='type-container row row-width bg-grey'>
+    {% elsif include.type == 'products' %}
+    <div class='type-container sticky'>
+    {% endif %}
         {% for item in include.content %}
         <label class='type-item' for="{{ item.input_id }}">{{ item.name }}</label>
         {% endfor %}
     </div>
     <div class="tab-panels">
+        {% if include.type == "features" %}
         <div class='row features-row'>
             <div class='large-12 columns'>
                 {% for item in include.content %}
@@ -39,5 +44,18 @@
                 {% endfor %}
             </div>
         </div>
+        {% elsif include.type == 'products' %}
+            {% assign product_tabs = site.pages | where:"categories","product-type" | sort: "order" %}
+            <div id='panel-one' class='tab-panel'>
+                {% for page in product_tabs %}
+                    {{ page.content }}
+                {% endfor %}
+            </div>
+            {% for page in product_tabs %}
+            <div id='{{page.tab-id}}' class='tab-panel'>
+                {{ page.content }}
+            </div>
+            {% endfor %}
+        {% endif %}
     </div>
 </div>

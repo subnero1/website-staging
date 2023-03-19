@@ -118,7 +118,7 @@ section_id: products
   <div class='row'>
     <h1 class='section-heading'>Applications</h1>
   </div>
-  {% include tabbed-columns.html content=site.data.wnc-tabs%}
+  {% include tabbed-columns.html content=site.data.wnc-tabs type="features" %}
 </div>
 
 <!-- Editions and Configurations  -->

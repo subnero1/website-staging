@@ -44,9 +44,9 @@ tabs: swancomponents
     <div class='large-5 columns'>
       <div class='accordion-container'>
         <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1' for="rad1">Dense datasets in real-time</label>
-          <label class="accordion-label" for="rad2" id='accordion-label-2' >Safe and sustainable</label>
-          <label class="accordion-label" for="rad3" id='accordion-label-3' >High cost savings</label>
+          <label class="accordion-label hover-active" id='accordion-label-1'>Dense datasets in real-time</label>
+          <label class="accordion-label" id='accordion-label-2' >Safe and sustainable</label>
+          <label class="accordion-label" id='accordion-label-3' >High cost savings</label>
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
@@ -154,7 +154,7 @@ tabs: swancomponents
   <div class='row'>
     <h1 class='section-heading'>Components of SWAN</h1>
   </div>
-  {% include tabbed-columns.html content=site.data.swan-tabs%}
+  {% include tabbed-columns.html content=site.data.swan-tabs type="features" %}
 </div>
 {%- include radio-select.html -%}
 <!-- How it works -->

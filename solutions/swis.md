@@ -43,9 +43,9 @@ tabs: swancomponents
     <div class='large-5 columns'>
       <div class='accordion-container'>
         <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1' for="rad1">Wireless data transfer</label>
-          <label class="accordion-label" for="rad2" id='accordion-label-2' >Seamless user experience</label>
-          <label class="accordion-label" for="rad3" id='accordion-label-3' >Overall cost savings</label>
+          <label class="accordion-label hover-active" id='accordion-label-1'>Wireless data transfer</label>
+          <label class="accordion-label" id='accordion-label-2' >Seamless user experience</label>
+          <label class="accordion-label" id='accordion-label-3' >Overall cost savings</label>
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
@@ -74,6 +74,7 @@ tabs: swancomponents
     </div>
   </div>
 </div>
+{%- include hover-display.html -%}
 <!-- Comparison -->
 <div class='bg-white'>
   <div class='row row-padding-bottom'>
@@ -218,7 +219,7 @@ tabs: swancomponents
   <div class='row'>
     <h1 class='section-heading'>Components of SWIS</h1>
   </div>
-  {% include tabbed-columns.html content=site.data.swis-tabs%}
+  {% include tabbed-columns.html content=site.data.swis-tabs type="features" %}
 </div>
 <!-- How it works -->
 <div>
