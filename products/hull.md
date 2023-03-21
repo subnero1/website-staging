@@ -77,7 +77,7 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
           <tr>
             <td>Titanium</td>
             <td>4000 m, 6000 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mse4">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>

@@ -58,7 +58,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <i class='icon fa fa-users'></i>
         <h2 align="center"> Our team</h2>
     </div>
-    <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing. We dabble with digital communication techniques for fun and play with unmanned surface vehicles for stress relief. We decorate our Christmas trees with colorful PCBs, have debates about what programming languages or design techniques are the best (we all have our favorites), and turn debugging sessions into hackathons.</p>
+    <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing. We dabble with digital communication techniques for fun and play with unmanned surface vehicles for stress relief. We decorate our Christmas trees with colorful PCBs, have debates about which programming languages or design techniques are the best (we all have our favorites), and turn debugging sessions into hackathons.</p>
     <p>We are proud of what we do at Subnero. We end our weeks with Friday hacks, plan weekend dive trips, and are excited for Monday mornings.</p>
     <p style='width: 100%'><a href='{{site.baseurl}}/careers'>Let us know</a> if you would like to be part of our vibrant team.</p>
 
@@ -67,7 +67,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <i class='icon fas fa-drafting-compass'></i>
         <h2 align="center"> Our Technology</h2>
     </div>        
-    <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS have become so ubiquitous that we rarely think about them. Developing robust wireless communications, networking, and localization is crucial to exploring the world and expanding our knowledge about it, which is why we know less about our oceans than we do about the Moon or Mars. We intend to change that with our technology and offerings.</p>
+    <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS have become so ubiquitous that we rarely think about them. Developing robust wireless communications, networking, and localization is crucial to exploring the world and expanding our knowledge about it, which is why we know less about our oceans than we do about the Moon or Mars. We intend to change that with our technology and offerings to give the oceans a voice.</p>
     <div class='spacing'></div>
     <div class='about-button-container'>
         <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
