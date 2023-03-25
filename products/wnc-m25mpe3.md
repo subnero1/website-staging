@@ -14,7 +14,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 
 ## Key Features
 - Up to 15 kbps data rate\*.
-- Up to 5 km communication range in tropical waters.
+- Up to 5 km communication range (horizontal & vertical) in tropical waters.
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
@@ -57,9 +57,8 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
 | JANUS support                          | Yes, subject to operating frequency band  |
-| Carrier frequency                      | 24 kHz                                    |
+| Carrier frequency                      | 25 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
-| Source level                           | 185 dB re 1 µPa @ 1 m rms (nominal)       |
 
 ### Software
 
@@ -98,8 +97,8 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
   <div class="brochure-container">
-    <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-    <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+    <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem3.jpg"></a>
+    <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank">Subnero M25M Underwater Modems</a>
   </div>
   </div>
 </div>

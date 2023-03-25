@@ -75,13 +75,13 @@ excerpt: Additional sensors for Subnero underwater acoustic modems.
         <label class='lbl-toggle' for='compatibility'></label>
         <div class='collapsible-content'>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss3">WNC-M25MSS3 - Silver Edition Standalone Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mse3">WNC-M25MSE3 - Silver Edition Embedded Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mso4">Silver Edition OEM Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss3+xch">WNC-M25MSS3+xCh - Silver Edition Multi-Channel Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Channel Configuration Modem</a>
           </div>
         </div>
       </div>

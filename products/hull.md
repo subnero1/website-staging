@@ -37,8 +37,8 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
             <h1>Hull Options</h1>
             <h3>Additional hull materials for various depth ratings for Subnero underwater modems</h3>
             <ul>
-              <li>Supported depths: 100 m, 300 m, 2000 m</li>
-              <li>Supported materials: Aluminum, Stainless Steel</li>
+              <li>Supported depths: 300 m, 2000 m, 4000 m, 6000 m</li>
+              <li>Supported materials: Aluminum, Stainless Steel, Titanium</li>
             </ul>
             <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
         </div>
@@ -49,7 +49,7 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
         <input id ='product' class='toggle' type='checkbox'>
         <label class='lbl-toggle' for='product'></label>
         <div class='collapsible-content'>
-          <p>Support for depth ratings up to 2000 m with different hull materials.</p>
+          <p>Support for depth ratings up to 4000 m with different hull materials.</p>
         </div>
       </div>
       <hr>
@@ -67,19 +67,17 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
           <tr>
             <td>Aluminum</td>
             <td>300 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a>
-              <br/><a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition Embedded Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a><br><a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Channel Configuration Modem</a></td>
           </tr>
           <tr>
             <td>Stainless Steel</td>
             <td>2000 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss3">Silver Edition Standalone Configuration</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
           <tr>
-            <td>Aluminum</td>
-            <td>100 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mse3">Silver Edition Embedded Configuration</a>
-              <br/><a href="{{site.baseurl}}/products/wnc-m25mrs3">Research Edition Standalone Configuration</a></td>
+            <td>Titanium</td>
+            <td>4000 m, 6000 m</td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
         </table>
       </div>

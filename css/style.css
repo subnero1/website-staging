@@ -5650,25 +5650,19 @@ h2.modem-sub-heading{
   display:none;
 }
 
-#SwanBot:checked ~ .type-container #swan-tab-one,
-#SwanCloud:checked ~ .type-container #swan-tab-two,
-#SwanNode:checked ~ .type-container #swan-tab-three,
-#all-products:checked ~ .type-container #tab-one,
-#L5Lseries:checked ~ .type-container #tab-two,
-#M25Mseries:checked ~ .type-container #tab-three,
-#Accessories:checked ~ .type-container #tab-four {
-    border-bottom:2px solid #E6782F;
+div.tab-columns input:nth-child(1):checked ~ .type-container label:nth-child(1),
+div.tab-columns input:nth-child(2):checked ~ .type-container label:nth-child(2),
+div.tab-columns input:nth-child(3):checked ~ .type-container label:nth-child(3){
+  border-bottom:2px solid #E6782F;
 }
 
-#SwanBot:checked ~ .tab-panels #swan-panel-one,
-#SwanCloud:checked ~ .tab-panels #swan-panel-two,
-#SwanNode:checked ~ .tab-panels #swan-panel-three,
-#all-products:checked ~ .tab-panels #panel-one,
-#L5Lseries:checked ~ .tab-panels #panel-two,
-#M25Mseries:checked ~ .tab-panels #panel-three,
-#Accessories:checked ~ .tab-panels #panel-four {
-  display:block
+div.tab-columns input:nth-child(1):checked ~ .tab-panels div.tab-panel:nth-child(1),
+div.tab-columns input:nth-child(2):checked ~ .tab-panels div.tab-panel:nth-child(2),
+div.tab-columns input:nth-child(3):checked ~ .tab-panels div.tab-panel:nth-child(3){
+  display:block;
 }
+
+
 /* End of tabs section */
 
 .category-container{
@@ -5854,10 +5848,14 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin-top: 12em;
 }
 
-.swan-flex-col{
+.flex-col{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.flex-col-center {
+  align-items: center;
 }
 
 .section-sub-heading{
@@ -5866,7 +5864,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   align-items: baseline;
 }
 
-.section-sub-heading h2, .section-sub-heading h3, .swan-flex-col h2, .swan-flex-col h3{
+.section-sub-heading h2, .section-sub-heading h3, .flex-col h2, .flex-col h3{
   text-transform: none;
 }
 
@@ -6070,4 +6068,8 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 
 .round-border-20 {
   border-radius: 20%
+}
+
+.round-border-50 {
+  border-radius: 50%
 }
