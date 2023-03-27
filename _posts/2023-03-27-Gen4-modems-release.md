@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-smartsea.jpg
 
 We're thrilled to introduce our newest product release - Generation 4 WNC product series! 
 
-Equipped with our new and improved software, UnetStack4, our generation 4 modems are designed to take your underwater communication to the next level. Our latest release includes a range of exciting features that will satisfy all of your deployment needs. 
+Equipped with our new and improved software, UnetStack4, our [generation 4 modems](https://subnero.com/products/wnc){:target=_blank} are designed to take your underwater communication to the next level. Our latest release includes a range of exciting features that will satisfy all of your deployment needs. 
 
 
 Here are just a few highlights: 
