@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-gen4.png
 
 Singapore-based company Subnero has launched its [fourth-generation Wireless Networked Communication (WNC) series of underwater acoustic modems](https://subnero.com/products/wnc){:target="_blank"}. 
 
-The upgraded devices provide best-in-class communication performance, advanced networking and localization capabilities, and developer tools to simplify the development and deployment of underwater wireless networks.
+The upgraded devices provide best-in-class communication performance in any given environment, advanced networking and localization capabilities, and developer tools to simplify the development and deployment of underwater wireless networks.
 This launch is the culmination of our continuous effort to improve and innovate. We have listened closely to customer feedback and learned valuable insights that have been incorporated into the fourth generation of the WNC product series.
 
 
