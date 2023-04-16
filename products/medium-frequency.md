@@ -62,11 +62,11 @@ order: 2
         <li class="modem-container">
             {% assign product_pages = site.pages | where:"categories","modem" %}
             {% for page in product_pages %}
-            {% if page.title contains "WNC-M25MRS4" %}
+            {% if page.title contains "S1000-N" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                 <div class='content'>
-                <h2>Standalone Configuration <br>WNC-M25MRS4</h2>
+                <h2>Standalone Configuration <br>S1000-N</h2>
               </div></a>
             </div>
             {% endif %}
