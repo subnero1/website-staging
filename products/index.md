@@ -28,7 +28,7 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
             <div class='media'>
               <div class='modem-type'>
                 <a href='{{site.baseurl}}/products/wnc.html'>
-                  <button class='button-outline'>WNC product series</button>
+                  <button class='button-outline'>WNC series</button>
                 </a>
               </div>
               <div class='modem-type'>
