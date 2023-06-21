@@ -80,7 +80,8 @@ Subnero relies on Web-based user interfaces on all our products to deliver an in
 - Stay up-to-date on emerging web and other technologies.
 
 ### Qualifications
-- 3 or more years of experience with HTML/CSS/JavaScript and JavaScript frameworks such as jQuery, React.js, Vue.js
+- 3 or more years of experience with HTML/CSS/JavaScript
+- 1 or more years of experience with Vue.js (or similar frameworks)
 - Experience with client-side single-page application development
 - Experience with backend API integration using REST and/or WebSockets
 - Exceptional communication and organizational skills
