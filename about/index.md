@@ -20,21 +20,21 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <div class='centered-text'>
             <i class='icon fa fa-landmark'></i> 
             <h2 align="center">Our company</h2>
-            <p class='about-text-padding'>Subnero is a Singapore-based company at the forefront of underwater wireless technology.</p>
+            <p class='about-text-padding'>Subnero is a Singapore-based company at the forefront of in-water wireless technology.</p>
         </div>
     </div>
     <div class='large-3 columns bg-grey column-margin'>
         <div class='centered-text'>
             <i class='icon fa fa-hands-helping'></i>
             <h2 align="center">Our mission</h2>
-            <p class='about-text-padding'>To offer high performance underwater communication, navigation, monitoring and sensing solutions for commercial deployments.</p>
+            <p class='about-text-padding'>To offer high-performance in-water communication, navigation, monitoring, and sensing solutions for commercial deployments.</p>
         </div>            
     </div>
     <div class='large-3 columns bg-grey column-margin'>
         <div class='centered-text'>
             <i class='icon fa fa-hand-holding-water'></i>
             <h2 align="center"> Our vision</h2>
-            <p class='about-text-padding'>To be the de-facto standard for underwater communication and in-water sensing networks.</p>
+            <p class='about-text-padding'>To be the de-facto standard for in-water communication and sensing networks.</p>
         </div>            
     </div>
 </div>
