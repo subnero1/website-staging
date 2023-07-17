@@ -22,7 +22,7 @@ tabs: swancomponents
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns flex-col row-padding-bottom'>
-    <h2 class='centered-text'>Near real-time wireless data transfer for ADCP data</h2>
+    <h2 class='centered-text'>On-demand wireless data transfer for ADCP data</h2>
   </div>
   <div class='large-4 columns flex-col'>
     <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
