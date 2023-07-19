@@ -4,7 +4,7 @@ title: Interfaces
 banner : images/banner-electrical.jpg
 thumbnail: images/thumbnail-rs232.png
 categories: accessories
-excerpt: Electrical interfaces for Subnero underwater acoustic modems
+excerpt: Electrical interfaces for Subnero underwater acoustic smart modems
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>

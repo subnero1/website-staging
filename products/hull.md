@@ -4,7 +4,7 @@ title: Hulls
 banner : images/banner-mechanical.jpg
 thumbnail: images/thumbnail-hull.png
 categories: accessories
-excerpt: Additional storage for Subnero underwater acoustic modems.
+excerpt: Additional hull options for Subnero underwater acoustic smart modems.
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -35,7 +35,7 @@ excerpt: Additional storage for Subnero underwater acoustic modems.
         </div>
         <div class='accessories-info'>
             <h1>Hull Options</h1>
-            <h3>Additional hull materials for various depth ratings for Subnero underwater modems</h3>
+            <h3>Additional hull materials for various depth ratings for Subnero underwater acoustic smart modems</h3>
             <ul>
               <li>Supported depths: 300 m, 2000 m, 4000 m, 6000 m</li>
               <li>Supported materials: Aluminum, Stainless Steel, Titanium</li>
