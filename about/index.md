@@ -2,7 +2,7 @@
 layout: default
 title:  About Us - Subnero
 banner : images/banner-about.jpg
-excerpt: Subnero provides underwater wireless communication, navigation, monitoring and sensing, using underwater acoustic modems and unmanned surface vehicles for water quality monitoring.
+excerpt: Subnero provides underwater wireless communication, navigation, monitoring and sensing, using underwater acoustic smart modems and unmanned surface vehicles for water quality monitoring.
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -49,7 +49,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <i class='icon fa fa-plane-departure'></i>
         <h2 align="center"> Our journey</h2>
     </div>
-    <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of the National University of Singapore (NUS) when a team of researchers procured acoustic modems to get periodic status updates from underwater sensors used in their scientific research. They quickly realized that tropical shallow waters around Singapore presented some of the most challenging conditions for acoustic communications in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand and overcome the difficulties in underwater acoustic communications. A decade and multiple projects later, we have a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs, and UnetStack software framework that repeatedly demonstrates superior performance in any environment.</p>
+    <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of the National University of Singapore (NUS) when a team of researchers procured acoustic modems to get periodic status updates from underwater sensors used in their scientific research. They quickly realized that tropical shallow waters around Singapore presented some of the most challenging conditions for acoustic communications in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand and overcome the difficulties in underwater acoustic communications. A decade and multiple projects later, we have a variety of technologies and research platforms such as the Unet II smart modems, Water Quality Monitoring USVs, and UnetStack software framework that repeatedly demonstrates superior performance in any environment.</p>
     <br>
     <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that push the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogeneous underwater networks.</p>
     
