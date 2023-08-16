@@ -860,7 +860,10 @@ ul.shortcode-list i {
 }
 .contain-to-grid .top-bar {
   /*max-width: 95vw;*/
-  min-width:85vw;
+  /* min-width:85vw; */
+  width: 94%;
+  max-width: 1280px;
+  margin: 0 auto;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -3697,10 +3700,14 @@ body {
 .fullscreen .layer {
   position:absolute;
   z-index:4;
-  width:100%;
-  left:30px;
-  bottom:10%;
-  padding:50px 80px 50px 50px;
+  width:94%;
+  max-width: 1280px;
+  left:0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  padding: 0;
 }
 
 p.small-title {
@@ -3715,22 +3722,22 @@ p.small-title {
 
 .fullscreen .layer h1 {
   color:#fff;
-  font-size:90px;
-  font-weight:600;
-  letter-spacing:0;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 0;
   line-height:1.1em;
   text-transform:none;
-  margin-bottom:100px;
+  margin-bottom: 48px;
 }
 
-.fullscreen .layer h1::after {
+/* .fullscreen .layer h1::after {
   content:"";
   width:40px;
   height:1px;
   background:#E6782F;
   display:block;
   margin:20px 0 0;
-}
+} */
 
 .fullscreen .layer h1 strong {
   color:#E6782F;
@@ -3803,11 +3810,11 @@ p.small-title {
 
 .fullscreen .announcements {
   position:relative;
-  z-index:4;
+  /* z-index:4;
   float: right;
   width:60%;
   top:10%;
-  padding:50px 50px 50px 50px;
+  padding:50px 50px 50px 50px; */
 }
 
 .fullscreen .announcements h1 {
@@ -3828,12 +3835,10 @@ p.small-title {
 }
 
 .fullscreen .announcements h3 {
-  color:#fff;
-  font-size:25px;
-  font-weight:100;
-  letter-spacing:0;
-  line-height:1.1em;
+  color:#bbbbbb;
+  font-size:20px;
   text-transform:none;
+  margin: 0;
 }
 
 #main.top-shift {
@@ -3847,8 +3852,8 @@ p.small-title {
   }
 
   .fullscreen .layer h1 {
-    font-size: 80px;
-    width: 90%;
+    font-size: 54px;
+    /* width: 90%; */
   }
 
   .fullscreen .layer h2 {
@@ -3868,10 +3873,10 @@ p.small-title {
 }
 
 @media only screen and (max-width: 960px) {
-  .fullscreen .layer {
+  /* .fullscreen .layer {
     top: 50%;
     padding: 20px;
-  }
+  } */
 
   .modTeamMember .overlay {
     opacity: 1;
@@ -4051,9 +4056,9 @@ p.small-title {
     font-size: 1.8rem;
   }
 
-  .fullscreen .layer {
+  /* .fullscreen .layer {
     left: 10px;
-  }
+  } */
 
   .type-item{
     font-size:1rem;
@@ -4121,10 +4126,10 @@ p.small-title {
     display: none;
   }
 
-  .fullscreen .layer {
+  /* .fullscreen .layer {
     top: 50%;
     padding: 20px;
-  }
+  } */
 
   .fullscreen .layer h1 {
     font-size: 40px;
@@ -4214,10 +4219,10 @@ p.small-title {
     min-height: 50vh;
   }
 
-  .fullscreen .layer {
+  /* .fullscreen .layer {
     top: 50%;
     padding: 20px;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:5em;
@@ -4334,14 +4339,14 @@ p.small-title {
     min-height: 50vh;
   }
 
-  .fullscreen .layer {
+  /* .fullscreen .layer {
       top: 50%;
       padding: 20px;
-    }
+    } */
 
-  .fullscreen .announcements {
+  /* .fullscreen .announcements {
     width: 70%;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:4em;
@@ -4461,13 +4466,13 @@ p.small-title {
     min-height: 60vh;
   }
 
-  .fullscreen .layer{
+  /* .fullscreen .layer{
     top: 40%;
-  }
+  } */
 
-  .fullscreen .announcements {
+  /* .fullscreen .announcements {
     width: 70%;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:3em;
@@ -4583,13 +4588,13 @@ p.small-title {
     flex-direction: column;
   }
 
-  .fullscreen .layer{
+  /* .fullscreen .layer{
     top: 40%;
-  }
+  } */
 
-  .fullscreen .announcements {
+  /* .fullscreen .announcements {
     width: 70%;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:3em;
@@ -4701,9 +4706,9 @@ p.small-title {
   .brochure-container a{
     font-size: 1.2em;
   }
-  .fullscreen .announcements {
+  /* .fullscreen .announcements {
     width: 70%;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:3em;
@@ -4857,10 +4862,10 @@ p.small-title {
     flex-direction: column;
   }
 
-  .fullscreen .announcements {
+  /* .fullscreen .announcements {
     width: 100%;
     padding-left: 35px;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:2em;
@@ -5023,10 +5028,10 @@ p.small-title {
     flex-direction: column;
   }
 
-  .fullscreen .announcements {
+  /* .fullscreen .announcements {
     width: 100%;
     padding-left: 35px;
-  }
+  } */
 
   .fullscreen .announcements h1 {
     font-size:2em;
