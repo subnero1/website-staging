@@ -30,7 +30,7 @@ section_id: home
           {% else %}
             {% assign active_class = "" %}
           {% endif %}
-          <li class="{{active_class}}">
+          <li class="{{active_class}}" >
             <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
           </li>
           {% endfor %}
@@ -58,9 +58,25 @@ section_id: home
         <h1 class="thin" id="to-be-update">The future of <br> underwater wireless</h1>
         <!-- <div class='four spacing'></div> -->
         <div class="announcements">
-          <h3 class="thin">In the News: </h3>
-          <h2><a href="{{site.baseurl}}/wnc/2023/04/18/Subnero-and-Popoto-Modem-partner-to-launch-S1000-N.html">Subnero and Popoto Modem partner to launch the S1000-N</a></h2>
-      </div>
+          <h3 class="thin">What's new? </h3>
+          <!-- <h2><a href="{{site.baseurl}}/wnc/2023/04/18/Subnero-and-Popoto-Modem-partner-to-launch-S1000-N.html">Subnero and Popoto Modem partner to launch the S1000-N</a></h2> -->
+          {% for post in site.posts limit:3 %}
+          <h2><a href="{{site.url}}/{{post.url}}">{{ post.title }}</a></h2> 
+          {% endfor %}
+        </div>
+        <script>
+          let animEl = document.querySelectorAll('.announcements h2');
+          if(animEl){
+            let count = 0;
+            animEl[count].classList.add('active');
+            let intervalId = setInterval(function() {
+              animEl[count].classList.remove('active');
+              count++;
+              if(count >= animEl.length) count = 0;
+              animEl[count].classList.add('active');
+            }, 6000);
+          }
+        </script>
       </div>
     </div>
   </div>
