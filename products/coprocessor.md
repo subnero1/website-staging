@@ -4,7 +4,7 @@ title: Coprocessor
 banner : images/banner-electrical.jpg
 thumbnail: images/thumbnail-coprocessor.png
 categories: accessories
-excerpt: Co-processor for Subnero underwater acoustic modems.
+excerpt: Co-processor for Subnero underwater acoustic smart modems.
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>

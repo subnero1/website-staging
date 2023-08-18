@@ -3,14 +3,14 @@ layout: page
 title: WNC-M25MSS4+xCh
 banner : images/banner-multichannel.jpg
 thumbnail : images/thumbnail-wnc-multichannel.png
-excerpt: Subnero's underwater acoustic modems with multiple channels for high-speed data acquisition.
+excerpt: Subnero's underwater acoustic smart modems with multiple channels for high-speed data acquisition.
 categories: wnc
 section_id: products
 ---
 
 ## Multi-channel Configuration Modem
 
-Subnero's multi-channel modems utilize advanced spatial diversity combining techniques to extract data from multiple receiving channels, enabling exceptional communication performance even in the most challenging conditions. Beyond this, these modems possess the unique capability to record synchronized raw signals from multiple hydrophones, allowing for a diverse range of innovative applications such as localization and passive acoustic monitoring.
+Subnero's multi-channel smart modems utilize advanced spatial diversity combining techniques to extract data from multiple receiving channels, enabling exceptional communication performance even in the most challenging conditions. Beyond this, these modems possess the unique capability to record synchronized raw signals from multiple hydrophones, allowing for a diverse range of innovative applications such as localization and passive acoustic monitoring.
 
 ## Key Features
 

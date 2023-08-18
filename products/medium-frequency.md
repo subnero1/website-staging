@@ -6,7 +6,7 @@ tab-id: panel-three
 order: 2
 ---
 
-<h1 class='panel-heading'>M25M SERIES ACOUSTIC MODEMS</h1>
+<h1 class='panel-heading'>M25M SERIES ACOUSTIC SMART MODEMS</h1>
 <!-- <h2 class='panel-sub-heading'>High bandwidth applications</h2> -->
 <div class='grey-container'>
     <h2 class='edition'>Silver Edition</h2>

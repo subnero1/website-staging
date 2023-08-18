@@ -3,14 +3,14 @@ layout: page
 title: WNC-M25MSS4
 banner : images/banner-silver.jpg
 thumbnail : images/thumbnail-wnc-m25mss4.png
-excerpt: Subnero silver edition underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
+excerpt: Subnero silver edition underwater acoustic smart modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
 ---
 
 ## Silver Edition Standalone Configuration Modem
 
-Subnero's silver edition underwater modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+Subnero's silver edition underwater smart modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
 ## Key Features
 

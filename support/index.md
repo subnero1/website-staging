@@ -19,7 +19,7 @@ banner : images/banner-support.jpg
 - [UnetStack Python tutorial](https://github.com/org-arl/unet-contrib/blob/master/unetsocket/python/python-gateway-tutorial.ipynb){:target="_blank"}
 - [Medium access control tutorial](https://unetstack.net/handbook/unet-handbook_medium_access_control.html){:target="_blank"}
 - [Video tutorials on UnetStack3](https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw){:target="_blank"}
-- [Video tutorials on Subnero underwater acoustic modems](https://www.youtube.com/channel/UC5sm2Hjyz7BqufEQainQbtA){:target="_blank"}
+- [Video tutorials on Subnero underwater acoustic smart modems](https://www.youtube.com/channel/UC5sm2Hjyz7BqufEQainQbtA){:target="_blank"}
 
 ## Relevant Papers
 

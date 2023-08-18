@@ -3,14 +3,14 @@ layout: page
 title: WNC-M25MPE3
 banner : images/banner-platinum.jpg
 thumbnail : images/thumbnail-wnc-m25mpe3.png
-excerpt: Subnero platinum edition of underwater acoustic modems delivering performance under the toughest environmental conditions.
+excerpt: Subnero platinum edition of underwater acoustic smart modems delivering performance under the toughest environmental conditions.
 categories: modem
 section_id: products
 ---
 
 ## Platinum Edition Embedded Configuration Modem
 
-Delivering performance under the toughest environmental conditions, Subnero's platinum edition modems are designed to meet rigorous quality standards mandated by sectors such as defense, oil & gas and subsea engineering.
+Delivering performance under the toughest environmental conditions, Subnero's platinum edition smart modems are designed to meet rigorous quality standards mandated by sectors such as defense, oil & gas and subsea engineering.
 
 ## Key Features
 - Up to 15 kbps data rate\*.
