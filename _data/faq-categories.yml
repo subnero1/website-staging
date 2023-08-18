@@ -1,0 +1,8 @@
+- name: General
+  link: general
+- name: Editions
+  link: editions
+- name: Configuration
+  link: configuration
+- name: Service
+  link: service

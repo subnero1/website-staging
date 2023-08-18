@@ -10,6 +10,9 @@
 - name: About
   path: about/
   section_id: about
+- name: FAQ
+  path: faq/
+  section_id: faq
 - name: Contact
   path: contact/
   section_id: contact
