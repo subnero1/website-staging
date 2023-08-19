@@ -25,20 +25,25 @@ excerpt: Frequently asked questions about Subnero's offerings
         {% endfor %}    
       </ul>
     </div>
+
     <div class="faq-content">
       <!-- {% assign faq_pages = site.pages | where:"categories","general" %} -->
 
       {% for faqcat in site.data.faq-categories %}
+      <a name="{{ faqcat.link }}"></a>
+      <div class="section-head">
+        <h3>{{ faqcat.name}}</h3>
+      </div>
+      <div>
       {% for faq in site.faq %}
-      {% if faq.faq_sectiion == faqcat.link %}
-      
-        <h3 id="{{ faqcat.link }}">{{ faqcat.name}}</h3>
-        <div>
+      {% if faq.faq_section == faqcat.link %}
+        
           <h3>{{ faq.title }}</h3>
           <p>{{ faq.content }}</p>
-        </div>
+        
       {% endif %}
       {% endfor %}
+      </div>
       {% endfor %}    
 
     </div>
