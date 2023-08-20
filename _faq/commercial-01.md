@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Readiness of the system. Is it a commercially available system, or some development is needed?
+title: What is the typical lead time of your systems?
 faq_section: commercial
 ---
 
-Commercially available within 4 to 8 working weeks.
+All our smart modems are available within a standard lead time of 4 to 8 working weeks.

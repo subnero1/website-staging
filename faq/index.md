@@ -27,7 +27,7 @@ excerpt: Frequently asked questions about Subnero's offerings
     </div>
 
     <div class="faq-content">
-    <p>We understand that you may have questions about our products and services, and we're here to provide you with the answers you need. Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights. Below, you'll find categorized sections that cover various aspects of our offerings, making it easier than ever to find the information you're seeking. If you can't find what you're looking for, don't hesitate to reach out to our dedicated support team – we're here to assist you every step of the way. </p>
+    <p>Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights. If you can't find what you're looking for, don't hesitate to reach out to info@subnero.com</p>
       <!-- {% assign faq_pages = site.pages | where:"categories","general" %} -->
 
       {% for faqcat in site.data.faq-categories %}
@@ -49,23 +49,8 @@ excerpt: Frequently asked questions about Subnero's offerings
       {% endif %}
       {% endfor %}
       </div>
-      {% endfor %}    
+      {% endfor %}
 
     </div>
   </div>
 </div>
-
-
-<!-- 
-Frequently asked questions about Subnero's offerings (https://docs.google.com/document/d/1X3tvhAK7__nBliCYVxtVr9aDL5_iso8gzzn5p2tvNok/edit?usp=sharing)
-- WNC
-  - General
-  - Editions & Configurations
-  - Hardware (Mechanical, Electrical, Accessories)
-  - Performance
-  - Other Features
-  - Software, UnetStack & Communication Algorithms
-- Commercial
-- SWIS - ADCP Edition 
-
--->

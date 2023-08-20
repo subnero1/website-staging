@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Does the unit include an AGC?
+title: Does your modems use an AGC (Automatic Gain Control)?
 faq_section: other-features
 ---
 
-We use a 24 bit ADC in our modems, and this provides sufficient dynamic range that we do not need an AGC.
+No. Subnero smart modems do not use an AGC.

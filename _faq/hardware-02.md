@@ -1,7 +1,7 @@
 ---
 layout: default
-title: What is the maximum length of cable available between the modem and transducer for the OEM/embedded configuration?
+title: What is the maximum length of cable available between the modem and transducer for the OEM configuration?
 faq_section: hardware
 ---
 
-Standard length is 1 m. Maximum length is 5 m.
+Standard cable length is 5 m. Customization requests are considered on a case-by-case basis.

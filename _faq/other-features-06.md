@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What frequency bands are used in OFDM? Center frequencies and bandwidth?
+title: What frequency bands are used in OFDM? Can you share the center frequencies and bandwidth?
 faq_section: other-features
 ---
 

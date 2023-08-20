@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Do the modems support JANUS?
+title: Do the modems support JANUS protocol?
 faq_section: other-features
 ---
 

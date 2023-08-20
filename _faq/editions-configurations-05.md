@@ -4,4 +4,4 @@ title: Does the modem require an external power source? Do any of the models com
 faq_section: editions-configurations
 ---
 
-Content will be updated soon!
+The Research Edition modem S1000-N offers an internal battery edition. However, for all other models, including Silver and Platinum editions, an external power source is required, which can be in the form of a power supply or a battery.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What level of signal diversity/ encoding/encryption is there in terms of immunity from other acoustic equipment? (i.e. what’s the chip length of the encoding and how many channels are therefore available without interference).
+title: What level of signal diversity/encoding is there to protect from interference from other acoustic equipment? (i.e. what’s the chip length of the encoding and how many channels are therefore available without interference).
 faq_section: software
 ---
 

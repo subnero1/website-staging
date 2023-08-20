@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Have you incorporated a multipath rejection algorithm and if so what guard-time does the kit have?
+title: Have you incorporated a multipath rejection algorithm and if so what does the guard-times look like?
 faq_section: software
 ---
 
