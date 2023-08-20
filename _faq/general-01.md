@@ -2,7 +2,6 @@
 layout: default
 title: Who uses Subnero’s underwater acoustic modems?
 faq_section: general
-excerpt: faqs under general section
 ---
 
 Subnero’s modems are utilized by a diverse range of users across multiple domains, including defense, marine & subsea, oil and gas, and scientific research. Here are some typical applications and user groups for Subnero underwater acoustic modems:

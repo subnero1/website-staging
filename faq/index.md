@@ -27,20 +27,25 @@ excerpt: Frequently asked questions about Subnero's offerings
     </div>
 
     <div class="faq-content">
+    <p>We understand that you may have questions about our products and services, and we're here to provide you with the answers you need. Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights. Below, you'll find categorized sections that cover various aspects of our offerings, making it easier than ever to find the information you're seeking. If you can't find what you're looking for, don't hesitate to reach out to our dedicated support team – we're here to assist you every step of the way. </p>
       <!-- {% assign faq_pages = site.pages | where:"categories","general" %} -->
 
       {% for faqcat in site.data.faq-categories %}
-      <a name="{{ faqcat.link }}"></a>
-      <div class="section-head">
+      <div id="{{ faqcat.link }}" class="section-head">
         <h3>{{ faqcat.name}}</h3>
       </div>
-      <div>
+      <div class="faq-listing">
       {% for faq in site.faq %}
       {% if faq.faq_section == faqcat.link %}
-        
-          <h3>{{ faq.title }}</h3>
-          <p>{{ faq.content }}</p>
-        
+        {% assign filename = faq.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.', '-' %}
+        <div class="faq-item">
+          <input class="toggle-checkbox" type="checkbox" id="{{ filename }}" />
+          <label class="toggle-label" for="{{ filename }}"><span class="faq-q">Q.</span>{{ faq.title }}</label>
+          <div class="item-content">
+            {{ faq.content }}
+          </div>
+          <span class="toggle-icon"></span>
+        </div>
       {% endif %}
       {% endfor %}
       </div>

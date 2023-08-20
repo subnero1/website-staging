@@ -1,0 +1,7 @@
+---
+layout: default
+title: Does the Research Edition modem support standalone and OEM configuration?
+faq_section: editions-configurations
+---
+
+The Research Edition modem only supports the standalone configuration, while the Platinum Edition modems offer both standalone and embedded configurations for integration into larger platforms. In addition to the standalone configuration, the Silver Edition modems support OEM and multichannel configurations, and are designed to accommodate additional configurations in the future for applications such as localization and tracking.

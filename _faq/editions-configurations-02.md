@@ -1,8 +1,7 @@
 ---
 layout: default
 title: What are the various configurations your modems are available for?
-faq_section: editions
-excerpt: faqs under editions & configuration section
+faq_section: editions-configurations
 ---
 
 Our modems are available in the following configurations:

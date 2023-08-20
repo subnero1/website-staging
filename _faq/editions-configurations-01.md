@@ -1,8 +1,7 @@
 ---
 layout: default
 title: What are the various editions your modems are available for?
-faq_section: editions
-excerpt: faqs under editions & configuration section
+faq_section: editions-configurations
 ---
 
 Subnero underwater modems are available in three distinct editions: Platinum, Silver, and Research. Here's an overview of each edition:
