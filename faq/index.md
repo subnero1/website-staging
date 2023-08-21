@@ -31,7 +31,7 @@ excerpt: Frequently asked questions about Subnero's offerings
       <!-- {% assign faq_pages = site.pages | where:"categories","general" %} -->
 
       {% for faqcat in site.data.faq-categories %}
-      <div id="{{ faqcat.link }}" class="section-head">
+      <div id="{{ faqcat.link }}" class="section-head anchor-link">
         <h3>{{ faqcat.name}}</h3>
       </div>
       <div class="faq-listing">

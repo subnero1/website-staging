@@ -21,11 +21,6 @@ banner : images/banner-support.jpg
 - [Video tutorials on UnetStack3](https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw){:target="_blank"}
 - [Video tutorials on Subnero underwater acoustic smart modems](https://www.youtube.com/channel/UC5sm2Hjyz7BqufEQainQbtA){:target="_blank"}
 
-## Relevant Papers
-
-- M. Chitre, R. Bhatnagar, and W.-S. Soh, "UnetStack: an agent-based software stack and simulator for underwater networks," in Proceedings of OCEANS 2014 MTS/IEEE, St. John's, Canada, September 2014. [(pdf)](https://arl.nus.edu.sg/wp-content/publications/Oceans14unetstack.pdf){:target="_blank"}
-- M. Chitre, R. Bhatnagar, M. Ignatius, and S. Suman, "Baseband Signal Processing with UnetStack," in Proceedings of Underwater Communications Networking 2014, Italy, September 2014. [(pdf)](https://arl.nus.edu.sg/wp-content/publications/sdmodem.pdf){:target="_blank"}
-
 ## Discussion forums
 
 - [UnetStack discussions](https://stackoverflow.com/questions/tagged/unetstack){:target="_blank"}
