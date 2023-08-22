@@ -1070,6 +1070,7 @@ ul.info i:hover {
 }
 .top-bar-section ul.submenu li {
   float: none;
+  background-color: transparent !important;
 }  
 .top-bar-section ul.submenu li + li {
   margin-top: 12px;
@@ -4195,7 +4196,7 @@ p.small-title {
     display: block;
     position: static;
     padding: 0 0 0 3rem;
-    background-color: #333333;
+    background-color: transparent;
   }
 }
 
