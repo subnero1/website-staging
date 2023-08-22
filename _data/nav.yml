@@ -11,7 +11,7 @@
   path: about/
   section_id: about
 - name: Resources
-  path: support/
+  path: ./#
   section_id: resources
   submenu:
   - name: Training & Support
