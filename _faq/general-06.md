@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Are there any export control regulations applicable for acoustic modems?
-faq_section: commercial
+faq_section: general
 ---
 
 There isn't any export restriction on the M25M series of modems. The S60H modems will need an EUS (End User Statement) so that we can apply for an export license before they can be shipped to the end-user.

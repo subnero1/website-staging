@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is your warranty and duration of free support (via, telephone or email) after the procurement?
-faq_section: commercial
+faq_section: general
 ---
 
 Subnero modems come with a free 1 year limited warranty coverage for defective parts. Please see below for an overview of warranty coverage.
