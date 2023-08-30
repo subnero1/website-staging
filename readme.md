@@ -22,3 +22,6 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
   LANG="en_US.UTF-8"
   ```
 - push to github pages: `git push origin master`
+
+## FAQ Section
+TODO
