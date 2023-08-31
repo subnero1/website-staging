@@ -17,19 +17,39 @@ excerpt: Frequently asked questions about Subnero's offerings
 
 <div class="section-faq">
 
+  <style id="search-style"></style>
+
   <h2 class="page-title">{{ page.title }}</h2>
   <div class="faq-row">
     <div class="faq-categories">
-      <ul>
-        {% for faqcat in site.data.faq-categories %}
-          <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a></li>
-        {% endfor %}    
-      </ul>
-    </div>
+      <div class="field-wrapper">
+            
+        <div class="search-field">
+          <input type="search" name="search" id="search" placeholder="search" />
+          <i class="fa fa-search"></i>
+        </div>
+
+        <ul class="section-list">
+          {% for faqcat in site.data.faq-categories %}
+            <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a></li>
+          {% endfor %}    
+        </ul>
+
+        </div>  
+      </div>
 
     <div class="faq-content">
       <p class="intro-text">Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights. If you can't find what you're looking for, don't hesitate to reach out to info@subnero.com</p>
       <!-- {% assign faq_pages = site.pages | where:"categories","general" %} -->
+
+      <div class="print-btn">
+        <a href="#" onclick="window.print(); return false; ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
+            <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+            <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z" />
+          </svg>
+        </a>
+      </div>
 
       {% for faqcat in site.data.faq-categories %}
       <div id="{{ faqcat.link }}" class="section-head anchor-link">
@@ -39,7 +59,7 @@ excerpt: Frequently asked questions about Subnero's offerings
       {% for faq in site.faq %}
       {% if faq.faq_section == faqcat.link %}
         {% assign filename = faq.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.', '-' %}
-        <div class="faq-item">
+        <div class="faq-item" data-index="{{ faq.title }}">
           <input class="toggle-checkbox" type="checkbox" id="{{ filename }}" />
           <label class="toggle-label" for="{{ filename }}"><span class="faq-q">Q.</span>{{ faq.title }}</label>
           <div class="item-content">
@@ -55,12 +75,50 @@ excerpt: Frequently asked questions about Subnero's offerings
     </div>
   </div>
 
-  <div class="print-btn">
-  <a href="#" onclick="window.print(); return false; ">
-    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
-      <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
-      <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2H5zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4V3zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2H5zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z" />
-    </svg>
-  </a>
-  </div>
+<script>
+var searchStyle = document.getElementById('search-style')
+var urlParams = new URLSearchParams(window.location.search)
+var searchEl = document.getElementById('search')
+var searchParamValue = urlParams.get('search')
+
+if (urlParams.get('search')) {
+  searchEl.value = searchParamValue
+  displayResults(searchParamValue)
+} else {
+  clearURLparams()
+}
+
+searchEl.addEventListener('input', function() {
+  if (!this.value) {
+    searchStyle.innerHTML = ""
+    clearURLparams()
+    return
+  }
+
+  displayResults(this.value)
+  this.value ? addURLParams(this.value) : clearURLparams()
+})
+
+function clearURLparams() {
+  if (history.pushState) {
+    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname
+    window.history.pushState({path:newurl},'',newurl)
+  }
+}
+
+function addURLParams(params) {
+  if (history.pushState) {
+    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?search=' + params
+    window.history.pushState({path:newurl},'',newurl)
+  }
+}
+
+function displayResults(searchTerm) {
+  searchStyle.innerHTML = ".faq-item:not([data-index*=\"" + searchTerm.toLowerCase() + "\"]) { display: none; }"
+}
+
+
+</script>
+
+
 </div>

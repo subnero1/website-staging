@@ -3933,9 +3933,11 @@ p.small-title {
   flex: none;
   padding: 0 2rem;
 }
-.faq-categories > ul{
+.field-wrapper {
   position: sticky;
   top: 120px;
+}
+.faq-categories .section-list{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -4018,17 +4020,36 @@ p.small-title {
   scroll-margin-top: 150px;
 }
 .anchor-link {
-  /* display: block;
-  visibility: hidden;
-  position: relative;
-  top: -110px; */
   color: #d1d1d1;
   scroll-margin-top: 120px;
 }
 .print-btn {
+  position: relative;
+}
+.print-btn a {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  right: 0;
+  top: 30px;
+}
+.search-field {
+  position: relative;
+}
+.search-field input{
+  padding: 8px 8px 8px 32px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.search-field .fa {
+  position: absolute;
+  font-size: 18px;
+  color: #cfcfcf;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-field input::placeholder {
+  color: #cfcfcf;
+  font-weight: 400;
 }
 
 @media print {
