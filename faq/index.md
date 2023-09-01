@@ -92,7 +92,7 @@ let searchStyle = document.getElementById('search-style')
 let urlParams = new URLSearchParams(window.location.search)
 let searchEl = document.getElementById('search')
 let searchParamValue = urlParams.get('search')
-let faqSection = document.querySelectorAll('.faq-section');
+// let faqSection = document.querySelectorAll('.faq-section');
 let faqListing = document.querySelectorAll('.faq-listing');
 
 if (urlParams.get('search')) {
@@ -133,6 +133,7 @@ function displayResults(searchTerm) {
   searchStyle.innerHTML = ".faq-item:not([data-index*=\"" + searchTerm.toLowerCase() + "\"]) { display: none; }";
   checkDisplayNone();
 }
+
 function checkDisplayNone() {
   faqListing.forEach(item => {
     let faqitem = item.querySelectorAll('.faq-item');
@@ -153,7 +154,7 @@ function checkDisplayNone() {
 
 //toggle switch
 let toggleSwitch = document.querySelector('#toggle-switch');
-let faqContent = document.querySelector('.faq-content');
+// let faqContent = document.querySelector('.faq-content');
 let toggleCheckbox = document.querySelectorAll('.toggle-checkbox');
 toggleSwitch.addEventListener('change', function() {
   
@@ -167,8 +168,6 @@ toggleSwitch.addEventListener('change', function() {
     })
   }
 })
-
-
 
 </script>
 </div>
