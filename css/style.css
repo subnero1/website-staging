@@ -4024,26 +4024,31 @@ p.small-title {
   scroll-margin-top: 120px;
 }
 .print-btn {
-  position: relative;
+  flex: none;
 }
-.print-btn a {
-  position: absolute;
-  right: 0;
-  top: 30px;
+.faq-actions {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  padding: 5rem 0 2rem;
+  border-top: 1px solid #e7e7e7;
 }
 .search-field {
   position: relative;
+  flex: 0 1 62%;
 }
 .search-field input{
-  padding: 8px 8px 8px 32px;
+  height: 4rem;
+  margin: 0;
+  padding: 8px 8px 8px 40px;
   font-size: 18px;
   border-radius: 4px;
 }
 .search-field .fa {
   position: absolute;
-  font-size: 18px;
+  font-size: 22px;
   color: #cfcfcf;
-  left: 8px;
+  left: 12px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -4051,13 +4056,60 @@ p.small-title {
   color: #cfcfcf;
   font-weight: 400;
 }
+.hlight {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.faq-section:has(.faq-listing.faq-hidden) {
+  display: none;
+}
+.toggle-btn {
+  margin-left: auto;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+.toggle-btn input[type="checkbox"]{
+  display: initial;
+  appearance: none;
+  margin: 0;
+
+  font: inherit;
+  color: currentColor;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #E6782F;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+
+  cursor: pointer;
+}
+.toggle-btn input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  /* transition: 120ms transform ease-in-out; */
+  box-shadow: inset 1em 1em #000;
+  background-color: #000;
+}
+
+.toggle-btn input[type="checkbox"]:checked::before {
+  transform: scale(1.1);
+}
+
 
 @media print {
   @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }
   .contain-to-grid.sticky {
     position: relative;
   }
-  .toggle-topbar, .top-bar-section, .print-btn, .hero, .faq-categories,
+  .toggle-topbar, .top-bar-section, .print-btn, .hero, .faq-categories, .faq-actions,
   #footer .footer-row, .toggle-label::after {
     display: none;
   }
