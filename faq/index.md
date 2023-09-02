@@ -91,14 +91,17 @@ excerpt: Frequently asked questions about Subnero's offerings
         <div class="faq-listing">
           {% for faq in site.faq %}
           {% if faq.faq_section == faqcat.link %}
-            {% assign filename = faq.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.', '-' %}
-            <div class="faq-item" data-index="{{ faq.search_content }}">
+            {% assign filename = faq.url | replace_first: '/faq/', '' | replace: '.html', '' %}
+            <div id="faq-{{ filename }}" class="faq-item" data-index="{{ faq.search_content }}">
               <input class="toggle-checkbox" type="checkbox" id="{{ filename }}" />
-              <label class="toggle-label" for="{{ filename }}"><span class="faq-q">Q.</span>{{ faq.title }}</label>
+              <label class="toggle-label" for="{{ filename }}">
+                {{ faq.title }}
+                <a href="#faq-{{ filename }}" class="quick-link-anchor"><i class="fa fa-link"></i></a>
+              </label>
               <div class="item-content">
                 {{ faq.content }}
               </div>
-              <span class="toggle-icon"></span>
+              
             </div>
           {% endif %}
           {% endfor %}
@@ -189,7 +192,6 @@ function showMessageOnFilterNone() {
     messageBox.removeAttribute('style');
   }
 }
-
 
 
 //toggle switch
