@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Do you work with local partners/distributors at different geographies?
+search_content: Do you work with local partners/distributors at different geographies?
 faq_section: general
 ---
 

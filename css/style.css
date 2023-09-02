@@ -3922,6 +3922,7 @@ p.small-title {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+  padding-bottom: 6rem;
   display: flex;
   column-gap: 2rem;
 }
@@ -3953,6 +3954,9 @@ p.small-title {
 }
 .faq-categories li + li{
   margin-top: 10px;
+}
+.faq-categories .sub-links li:last-child {
+  border-bottom: none;
 }
 .page-title {
   text-align: center;
@@ -4026,12 +4030,17 @@ p.small-title {
 .print-btn {
   flex: none;
 }
+.print-btn a {
+  display: block;
+  line-height: 1;
+}
 .faq-actions {
   display: flex;
   align-items: center;
   column-gap: 24px;
-  padding: 5rem 0 2rem;
-  border-top: 1px solid #e7e7e7;
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: #f8f8f8;
 }
 .search-field {
   position: relative;
@@ -4102,7 +4111,16 @@ p.small-title {
 .toggle-btn input[type="checkbox"]:checked::before {
   transform: scale(1.1);
 }
-
+.filter-empty {
+  display: none;
+  padding: 6rem 3rem;
+}
+.filter-empty p {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
 
 @media print {
   @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }

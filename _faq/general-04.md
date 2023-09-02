@@ -1,6 +1,7 @@
 ---
 layout: default
 title: What is your warranty and duration of free support (via, telephone or email) after the procurement?
+search_content: What is your warranty and duration of free support (via, telephone or email) after the procurement?
 faq_section: general
 ---
 

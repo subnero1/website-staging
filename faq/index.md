@@ -26,7 +26,15 @@ excerpt: Frequently asked questions about Subnero's offerings
         
         <ul class="section-list">
           {% for faqcat in site.data.faq-categories %}
-            <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a></li>
+            <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a>
+              {% if faqcat.submenu %}
+                <ul class="sub-links">
+                {% for entry in faqcat.submenu %}
+                  <li><a href="#{{entry.link}}">{{ entry.name }}</a></li>
+                {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
           {% endfor %}    
         </ul>
 
@@ -36,7 +44,6 @@ excerpt: Frequently asked questions about Subnero's offerings
     <div class="faq-content">
       <p class="intro-text">Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights.</p>
       <p class="hlight">If you can't find what you're looking for, don't hesitate to reach out to info@subnero.com.</p>
-      <!-- {% assign faq_pages = site.pages | where:"categories","general" %} -->
 
       <div class="faq-actions">
 
@@ -58,10 +65,25 @@ excerpt: Frequently asked questions about Subnero's offerings
             </svg>
           </a>
         </div>
-      
+
       </div>
 
-      {% for faqcat in site.data.faq-categories %}
+        {% assign allSections = "" | split: ',' %}
+        {% for faqcat in site.data.faq-categories %}
+
+          {% unless faqcat.submenu %}
+            {% assign allSections = allSections | push: faqcat %}
+          {% endunless %}
+
+          {% if faqcat.submenu %}
+            {% for item in faqcat.submenu %}
+              {% assign allSections = allSections | push: item %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+
+
+      {% for faqcat in allSections %}
       <section class="faq-section">
         <div id="{{ faqcat.link }}" class="section-head anchor-link">
           <h3>{{ faqcat.name}}</h3>
@@ -70,7 +92,7 @@ excerpt: Frequently asked questions about Subnero's offerings
           {% for faq in site.faq %}
           {% if faq.faq_section == faqcat.link %}
             {% assign filename = faq.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.', '-' %}
-            <div class="faq-item" data-index="{{ faq.title }}">
+            <div class="faq-item" data-index="{{ faq.search_content }}">
               <input class="toggle-checkbox" type="checkbox" id="{{ filename }}" />
               <label class="toggle-label" for="{{ filename }}"><span class="faq-q">Q.</span>{{ faq.title }}</label>
               <div class="item-content">
@@ -81,8 +103,12 @@ excerpt: Frequently asked questions about Subnero's offerings
           {% endif %}
           {% endfor %}
         </div>
-        </section>
-          {% endfor %}
+      </section>
+      {% endfor %}
+
+      <div class="filter-empty">
+        <p>If you still can't find what you're looking for, feel free to contact us (info@subnero.com) for assistance. Our friendly team is here to help.</p>
+      </div>
 
     </div>
   </div>
@@ -149,8 +175,22 @@ function checkDisplayNone() {
         item.classList.remove('faq-hidden');
       }
     }
-  })
+  });
+  showMessageOnFilterNone();
 }
+function showMessageOnFilterNone() {
+  let faqListing = document.querySelectorAll('.faq-listing');
+  let faqHidden = document.querySelectorAll('.faq-listing.faq-hidden');
+  let messageBox = document.querySelector('.filter-empty');
+
+  if(faqListing.length == faqHidden.length) {
+    messageBox.setAttribute('style', 'display:block');
+  }else{
+    messageBox.removeAttribute('style');
+  }
+}
+
+
 
 //toggle switch
 let toggleSwitch = document.querySelector('#toggle-switch');

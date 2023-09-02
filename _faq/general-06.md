@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Are there any export control regulations applicable for acoustic modems?
+search_content: Are there any export control regulations applicable for acoustic modems?
 faq_section: general
 ---
 

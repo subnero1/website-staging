@@ -1,6 +1,7 @@
 ---
 layout: default
 title: What is the typical battery capacity required for a deployment?
+search_content: What is the typical battery capacity required for a deployment?
 faq_section: swis-adcp
 ---
 

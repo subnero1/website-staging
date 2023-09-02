@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Do you offer training programs for your devices?
+search_content: Do you offer training programs for your devices?
 faq_section: general
 ---
 

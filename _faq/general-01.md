@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Who uses Subnero’s underwater acoustic modems?
+search_content: Who uses Subnero’s underwater acoustic modems?
 faq_section: general
 ---
 

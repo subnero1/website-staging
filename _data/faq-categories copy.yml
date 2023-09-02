@@ -1,0 +1,14 @@
+- name: General
+  link: general
+- name: Editions & Configurations
+  link: editions-configurations
+- name: Hardware (Mechanical, Electrical, Accessories)
+  link: hardware
+- name: Performance
+  link: performance
+- name: Other Features
+  link: other-features
+- name: Software, UnetStack & Communication Algorithms
+  link: software
+- name: SWIS - ADCP Edition
+  link: swis-adcp

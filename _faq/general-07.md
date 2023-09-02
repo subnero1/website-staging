@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Does the device come with a user manual?
+search_content: Does the device come with a user manual?
 faq_section: general
 ---
 
