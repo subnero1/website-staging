@@ -1,0 +1,337 @@
+---
+layout: default
+title: Battery Calculator
+---
+
+<div style="padding: 1rem;">
+
+	<div class="row">
+		<h2 class="page-title">{{ page.title }}</h2>
+		<div v-clock id="batteryApp" class="battery-app">
+            <section class="section-help">
+				<button @click="showHelp = !showHelp">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+				</button>
+				<div class="help-content" :class="{'active': showHelp}">
+                    <h3>To use this calculator, follow these steps:</h3>
+                    <ol>
+                        <li>Distance: Enter the distance between the topside and seabed modem (slant range) in meters.</li>
+                        <li>File Size: Provide the calculated file size (in kilobytes) obtained from the ADCP software.</li>
+                        <li>Number of Transmissions: Specify the number of times you need to transfer per day.</li>
+                        <li>Interpret Results: The program will recommend the modem, calculate the data rate, transmission power, and various durations based on the inputs.</li>
+                        <li>Transmission Limits: The program imposes certain limits to optimize power consumption. It allows a maximum total transmission duration of 12 hours and a maximum of 10 transmissions per day. If any of these limits are exceeded, consider adjusting the file size or the number of transmissions.</li>
+                        <li>Battery Capacity: The program will present the estimated battery capacity requirements for your deployment on a daily, weekly, and monthly basis.</li>
+                        <li>Remember to use the tool as a guidance tool rather than a definitive source, and consider consulting experts and conducting additional analysis for accurate battery capacity estimations.</li>
+                        <li>To use, type `python3 swis-power-calc.py` from the program's folder. Make sure Python is installed in your computer.</li>
+                    </ol>
+                </div>
+			</section>
+            <section class="app-section step1">
+                <div class="section-row input">
+                    <label for="range">Enter distance between topside and seabed modem (slant range) (m)</label>
+                    <div class="input-field">
+                        <input v-model="inputRange" type="number" id="range" min="0" max="1500">
+                        <button class="button-outline" @click="calculateRange">Check</button>
+                    </div>
+                    <p class="error" v-if="rangeOutputValues.isError.value" >[[ rangeOutputValues.errorMessage ]]</p>
+                </div>
+                <div class="section-row output" v-if="rangeOutputValues.verified.value" >
+                    <p>Range <span>[[ rangeOutputValues.range ]] m</span></p>
+                    <p>Recommended modem <span v-html="rangeOutputValues.recommendedModem.value "></span></p>
+                    <p>Modem (fc) <span>[[ rangeOutputValues.modem ]] Hz</span></p>
+                </div>
+            </section>
+            <section class="app-section step2" :class="{'inactive': sectionCompleted < 1}">
+                <div class="section-row input">
+                    <label for="file-size">Enter file size for each transmission (kB)</label>
+                    <div class="input-field">
+                        <input v-model="inputFileSize" type="number" id="file-size">
+                        <button class="button-outline" @click="calculateFileSize">Check</button>
+                    </div>
+                    <p class="note">NOTE: Use the filesize (in kilobytes) obtained from the ADCP software for the next step.</p>
+                    <p class="error" v-if="fileSizeOutputValues.isError.value" >[[ fileSizeOutputValues.errorMessage ]]</p>
+                </div>
+                <div class="section-row output" v-if="fileSizeOutputValues.verified.value" >
+                    <p>File Size <span>[[ fileSizeOutputValues.fileSize.value ]] kb</span></p>
+                    <p>Expected Data Rate <span>[[ fileSizeOutputValues.dataRate.value ]] bps</span></p>
+                    <p>Expected tx Power <span>[[ fileSizeOutputValues.txPower.value ]] w</span></p>
+                </div>
+            </section>
+            <section class="app-section step3" :class="{'inactive': sectionCompleted < 2}">
+                <div class="section-row input">
+                    <label for="transmission">How many times a day you need to transmit?</label>
+                    <div class="input-field">
+                        <input v-model="inputTransmission" type="number" id="transmission">
+                        <button class="button-outline" @click="calculateTransmission">Check</button>
+                    </div>
+                    <p class="error" v-if="transmissionOutputValues.isError.value" >[[ transmissionOutputValues.errorMessage ]]</p>
+                </div>
+                <div class="section-row output" v-if="transmissionOutputValues.verified.value">
+                    <p>Frequency of transfer <span>[[ transmissionOutputValues.transferFrequency.value ]]</span></p>
+
+                    <div class="misce">
+                        <p>TX duration <span>[[ transmissionOutputValues.txDuration.value ]]</span> </p>
+                        <p>RX duration <span>[[ transmissionOutputValues.rxDuration.value ]]</span> </p>
+                        <p>Sleep duration <span>[[ transmissionOutputValues.sleepDuration.value ]]</span></p>
+                    </div>
+                    <div class="misce">
+                        <p>TX battery capacity requirement <span>[[ transmissionOutputValues.txRequirement.value ]]</span></p>
+                        <p>RX battery capacity requirement <span>[[ transmissionOutputValues.rxRequirement.value ]]</span></p>
+                        <p>Sleep battery capacity requirement <span>[[ transmissionOutputValues.sleepRequirement.value ]]</span></p>
+                    </div>
+                    <div class="misce">
+                        <div class="sub-head">Expected battery capacity requirement:</div>
+                        <p>Daily <span>[[ transmissionOutputValues.dailyRequirement.value ]]</span></p>
+                        <p>Weekly <span>[[ transmissionOutputValues.weeklyRequirement.value ]]</span></p>
+                        <p>Monthly <span>[[ transmissionOutputValues.monthlyRequirement.value ]]</span></p>
+                    </div>
+                </div>
+            </section>
+            <div class="disclaimer">
+                <p><b>Disclaimer:</b> The battery capacity calculation tool for SWIS - ADCP edition offers a general estimation based on assumptions regarding link speed and power consumption for subsea deployments. However, if the underwater channel conditions differ significantly from typical channels used for these calculations, the assumptions may not be accurate, leading to incorrect calculations. The tool should be used as guidance rather than definitive values, and users are advised to exercise their own judgment, conduct further analysis, and consult experts. The developers and providers of the tool are not liable for any damages or losses resulting from its use or reliance on its calculations.</p>
+            </div>
+        </div>
+
+	</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script>
+const { createApp, ref } = Vue;
+
+createApp( {
+	delimiters: ['[[', ']]'],
+    setup() {
+        const setupVars = {
+            MF: 24000,
+            HF: 64000,
+            MAX_TOTAL_TX_DURATION: 43200, //12 hours
+            MAX_TRANSMISSIONS: 12, //12 times a day
+            MIN_IDLE_DURATION: 600, //10 minutes
+            RX_POWER: 4, //watts
+            SLEEP_POWER: 0.01, //watts
+        }
+        const inputRange = ref(null);
+        const inputFileSize = ref(null);
+        const inputTransmission = ref(null);
+
+        let showHelp = ref(false);
+        let speed = ref(null);
+
+        let data_rate = ref(null);
+        let tx_power = ref(null);
+
+        let sectionCompleted = ref(0);
+        
+        const rangeOutputValues = {
+            verified: ref(false),
+            isError: ref(false),
+            errorMessage: 'Range invalid, please input a range between 1 - 1500m',
+            range: ref(''),
+            recommendedModem: ref(''),
+            modem: ref(''),
+        };
+        const fileSizeOutputValues = {
+            verified: ref(false),
+            isError: ref(false),
+            errorMessage: 'Invalid file size, please input a value between 0.1 - 1000 kb',
+            fileSize: ref(''),
+            dataRate: ref(''),
+            txPower: ref(''),
+        };
+        const transmissionOutputValues = {
+            verified: ref(false),
+            isError: ref(false),
+            errorMessage: ref(''),
+
+            transferFrequency: ref(''),
+
+            txDuration: ref(''),
+            rxDuration: ref(''),
+            sleepDuration: ref(''),
+
+            txRequirement: ref(''),
+            rxRequirement: ref(''),
+            sleepRequirement: ref(''),
+
+            dailyRequirement: ref(''),
+            weeklyRequirement: ref(''),
+            monthlyRequirement: ref(''),
+        };
+
+        const calculateRange = () => {
+            if(inputRange.value < 1 || inputRange.value  > 1500) {
+                rangeOutputValues.isError.value = true;
+                return;
+            }
+            rangeOutputValues.isError.value = false;
+            rangeOutputValues.verified.value = true;
+
+            rangeOutputValues.range.value = inputRange.value;
+
+            if(inputRange.value < 100) {
+                speed.value = setupVars.HF;
+                rangeOutputValues.recommendedModem.value = 'S60H series modems';
+            } else if (inputRange.value <= 1500) {
+                speed.value = setupVars.MF;
+                rangeOutputValues.recommendedModem.value = 'M25M series modems';
+            }
+
+            rangeOutputValues.modem.value = speed.value;
+
+            sectionCompleted.value = 1;
+
+        }
+
+        const calculateFileSize = () => {
+            if(inputFileSize.value < 1 || inputFileSize.value  > 1000) {
+                fileSizeOutputValues.isError.value = true;
+                return;
+            }
+
+            fileSizeOutputValues.isError.value = false;
+            fileSizeOutputValues.verified.value = true;
+
+            fileSizeOutputValues.fileSize.value = inputFileSize.value * 8;
+
+            data_rate.value = datarate(inputRange.value, speed.value);
+
+            if(data_rate.value) {
+                fileSizeOutputValues.dataRate.value = data_rate.value;
+            }else {
+                fileSizeOutputValues.dataRate.value = "Range is beyond the limit supported"
+            }
+
+            tx_power.value = txpower(inputRange.value, speed.value);
+            fileSizeOutputValues.txPower.value = tx_power.value;
+
+            sectionCompleted.value = 2;
+        }
+
+        const calculateTransmission = () => {
+            if(inputTransmission.value < 1 ) {
+                transmissionOutputValues.isError.value = true;
+                transmissionOutputValues.errorMessage.value = 'ERROR: Please enter a value above 0';
+                return
+            }
+            if(inputTransmission.value > setupVars.MAX_TRANSMISSIONS) {
+                transmissionOutputValues.isError.value = true;
+                transmissionOutputValues.errorMessage.value = 
+                `ERROR: count is more than ${setupVars.MAX_TRANSMISSIONS}. Consider reducing the number of downloads per day, which will help to minimize power consumption.`;
+                return;
+            }
+
+            transmissionOutputValues.isError.value = false;
+            transmissionOutputValues.verified.value = true;
+            transmissionOutputValues.errorMessage.value = '';
+
+            transmissionOutputValues.transferFrequency.value = inputTransmission.value;
+
+            //tx duration
+            const tx_duration = inputFileSize.value * 1000 / datarate(inputRange.value, speed.value);
+
+            if(tx_duration * inputTransmission.value > setupVars.MAX_TOTAL_TX_DURATION) {
+                transmissionOutputValues.isError.value = true;
+                transmissionOutputValues.errorMessage.value = 'There are some errors';
+                return;
+            }
+
+            //rx duration
+            const rx_duration = setupVars.MIN_IDLE_DURATION;
+
+            //sleep duration
+            const sleep_duration = 86400 - (tx_duration * rx_duration) * inputTransmission.value;
+
+            if(sleep_duration < 0) {
+                transmissionOutputValues.isError.value = true;
+                transmissionOutputValues.errorMessage.value = 'ERROR: sleep duration is negative';
+            }
+
+            transmissionOutputValues.txDuration.value = 
+            `${tx_duration} seconds (${roundToTwoDecimals(tx_duration/(60*60))}) hrs
+            `;
+            transmissionOutputValues.rxDuration.value = 
+            `${rx_duration} seconds (${roundToTwoDecimals(rx_duration/(60))}) mins
+            `;
+            transmissionOutputValues.sleepDuration.value = 
+            `${sleep_duration} seconds (${roundToTwoDecimals(sleep_duration/(60*60))}) hrs
+            `;
+
+            transmissionOutputValues.txRequirement.value = 
+            `${roundToTwoDecimals((tx_duration * inputTransmission.value * tx_power.value) / (60 * 60) )} wh
+            `;
+            transmissionOutputValues.rxRequirement.value = 
+            `${roundToTwoDecimals((rx_duration * inputTransmission.value * setupVars.RX_POWER) / (60 * 60) )} wh
+            `;
+            transmissionOutputValues.sleepRequirement.value = 
+            `${roundToTwoDecimals((sleep_duration * inputTransmission.value * setupVars.SLEEP_POWER) / (60 * 60) )} wh
+            `;
+
+            const daily_capacity = ((tx_duration * inputTransmission.value * tx_power.value) + (rx_duration * inputTransmission.value * setupVars.RX_POWER) + (sleep_duration * setupVars.SLEEP_POWER)) / (60 * 60);
+
+            transmissionOutputValues.dailyRequirement.value = 
+            `${roundToTwoDecimals(daily_capacity)} wh`; 
+            transmissionOutputValues.weeklyRequirement.value = 
+            `${roundToTwoDecimals(daily_capacity * 7)} wh`; 
+            transmissionOutputValues.monthlyRequirement.value = 
+            `${roundToTwoDecimals(daily_capacity * 30)} wh`; 
+
+        }
+
+        //helper functions
+        const datarate = (range, fc) => {
+            if(range < 0) return none;
+
+            if (fc == setupVars.MF) {
+                if(range < 10) return 5000;
+                if(range < 100) return 3000;
+                if(range < 1000) return 2000;
+                if(range < 2000) return 5000;
+                if(range > 2000) return none;
+            }else if (fc == setupVars.HF) {
+                if(range < 10) return 25000;
+                if(range < 100) return 20000;
+                if(range < 1000) return 5000;
+                if(range > 2000) return none;
+            }
+        }
+
+        const txpower = (range, fc) =>  {
+            if(range < 0) return none;
+
+            if (fc == setupVars.MF || fc == setupVars.HF) {
+                if(range < 10) return dbToWatts(-20, 45);
+                if(range < 100) return dbToWatts(-10, 45);
+                return dbToWatts(0, 45);
+            }
+        }
+
+        const dbToWatts = (db, watts) => Math.pow(10, db / 10) * watts;
+
+        // const roundToTwoDecimals = (num) => Math.round((num + Number.EPSILON) * 100) / 100;
+        const roundToTwoDecimals = (num) => parseFloat(num).toFixed(2);
+
+        return { 
+            showHelp,
+            sectionCompleted,
+
+            inputRange, 
+            inputFileSize, 
+            inputTransmission, 
+
+            rangeOutputValues,
+            fileSizeOutputValues,
+            transmissionOutputValues,
+
+            calculateRange,
+            calculateFileSize,
+            calculateTransmission,
+
+        };
+    }
+
+}).mount('#batteryApp');
+
+</script>
+
+
+</div>

@@ -70,7 +70,7 @@ html {
   left: 0;
   position: absolute;
   opacity: 0;
-  filtbYgvkJer:alpha(opacity=0);
+  /* filtbYgvkJer:alpha(opacity=0); */
 }
 
 .ui-front {
@@ -4137,6 +4137,116 @@ p.small-title {
   font-size: 20px;
   text-align: center;
 }
+/*battery app*/
+.row:has(.battery-app) {
+  max-width: 68rem;
+}
+.section-help {
+  position: relative;
+}
+.section-help button{
+  background: transparent;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+.section-help svg {
+  fill: #000;
+}
+.help-content {
+  display: none;
+  padding: 4rem;
+  margin-bottom: 1.4rem;
+  color: #000;
+  background-color: #fff9ef;
+}
+.help-content.active {
+  display: block;
+}
+.battery-app  .error {
+  color: #f00;
+}
+.battery-app ol li{
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.battery-app .app-section {
+  display: flex;
+  gap: 0.4rem;
+  padding: 1.4rem;
+  background-color: #f8f8f8;
+}
+.battery-app .app-section + .app-section {
+  margin-top: 1.4rem;
+}
+.battery-app .section-row {
+  padding: 1.4rem 2rem;
+}
+.battery-app .section-row.input {
+  flex-basis: 54%;
+}
+.battery-app .section-row.output {
+  flex: 1;
+}
+.battery-app .section-row.output p {
+  font-size: 16px;
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #d7e4ed;
+}
+.battery-app .section-row.output p span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.battery-app .section-row label {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: default;
+}
+.battery-app .input-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 14px 0;
+}
+.battery-app input[type="number"] {
+  flex-basis: 60%;
+  display: inline-block;
+  border: 1px solid #a7a7a7;
+  font-size: 22px;
+  width: 200px;
+  padding: 6px 10px;
+  margin: 0;
+}
+.battery-app .section-row button {
+  flex: none;
+  align-self: stretch;
+  padding: 0 20px;
+  margin: 0;
+}
+.battery-app .app-section.inactive {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.battery-app .disclaimer {
+  padding-top: 3rem;
+  font-size: 14px;
+}
+.battery-app .sub-head {
+  padding: 10px 0 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 
 @media print {
   @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }
@@ -5354,9 +5464,9 @@ li {
   text-align: -webkit-match-parent;
 }
 
-photon-wifi:49*, *:after, *:before {
+/* photon-wifi:49*, *:after, *:before {
   box-sizing: border-box;
-}
+} */
 
 .product h3{
   text-transform: none;
