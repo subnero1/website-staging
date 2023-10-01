@@ -4520,6 +4520,12 @@ p.small-title {
   .toggle-checkbox:checked + .toggle-label::after {
     top: 6px;
   }
+  .battery-app .app-section {
+    display: block;
+  }
+  .help-content {
+    padding: 2rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
