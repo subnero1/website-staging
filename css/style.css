@@ -4138,13 +4138,16 @@ p.small-title {
   text-align: center;
 }
 /*battery app*/
-.row:has(.battery-app) {
-  max-width: 68rem;
+.bc-wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.6rem;
 }
-.section-help {
+.bc-help {
   position: relative;
 }
-.section-help button{
+.bc-help button {
   background: transparent;
   border: none;
   width: auto;
@@ -4155,7 +4158,7 @@ p.small-title {
   right: 0;
   top: -30px;
 }
-.section-help svg {
+.bc-help svg {
   fill: #000;
 }
 .help-content {
@@ -4168,85 +4171,121 @@ p.small-title {
 .help-content.active {
   display: block;
 }
-.battery-app  .error {
-  color: #f00;
+.help-content li + li {
+  margin-top: 10px;
 }
-.battery-app ol li{
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-.battery-app .app-section {
-  display: flex;
-  gap: 0.4rem;
-  padding: 1.4rem;
+/*Calculator section*/
+.battery-app .bc-fields {
+  padding: 0.9rem 1.6rem;
   background-color: #f8f8f8;
 }
-.battery-app .app-section + .app-section {
-  margin-top: 1.4rem;
+.battery-app .bc-row {
+  display: grid; 
+  grid-template-columns: 1fr 220px 68px;
+  gap: 6px;
+  align-items: center;
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid #d4d4d4;
 }
-.battery-app .section-row {
-  padding: 1.4rem 2rem;
+.battery-app .bc-label {
+  padding-right: 1rem;
 }
-.battery-app .section-row.input {
-  flex-basis: 54%;
-}
-.battery-app .section-row.output {
-  flex: 1;
-}
-.battery-app .section-row.output p {
-  font-size: 16px;
+.battery-app .bc-label p {
   margin: 0;
-  padding: 12px 0;
-  border-bottom: 1px solid #d7e4ed;
+  line-height: 1.4;
 }
-.battery-app .section-row.output p span {
-  display: block;
-  font-size: 20px;
-  font-weight: 500;
+.battery-app .bc-label-main {
+  font-size: 18px;
   color: #000;
-}
-.battery-app .section-row label {
-  display: block;
-  font-size: 20px;
   font-weight: 500;
-  cursor: default;
 }
-.battery-app .input-field {
+.battery-app .bc-label-sub {
+  font-size: 16px;
+  font-style: italic;
+  color: #808080;
+}
+.battery-app .bc-button-row {
+  padding: 3rem 0.8rem 1.6rem;
+  text-align: center;
+}
+.battery-app .bc-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 52px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  background-color: #e6782f;
+  border-radius: 6px;
+}
+.battery-app .bc-input > input[type="number"] {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  font-size: 22px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.battery-app .bc-input.radio {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin: 14px 0;
+  gap: 16px;
 }
-.battery-app input[type="number"] {
-  flex-basis: 60%;
-  display: inline-block;
-  border: 1px solid #a7a7a7;
-  font-size: 22px;
-  width: 200px;
-  padding: 6px 10px;
-  margin: 0;
+.battery-app .bc-output {
+  margin: 2rem 0;
 }
-.battery-app .section-row button {
-  flex: none;
-  align-self: stretch;
-  padding: 0 20px;
-  margin: 0;
+.battery-app .bc-output h5 {
+  margin: 0 0 12px;
+  font-size: 1rem;
 }
-.battery-app .app-section.inactive {
-  opacity: 0.3;
-  pointer-events: none;
+.battery-app .bc-output-group {
+  padding: 0.9rem 1.6rem;
+  background-color: #f8f8f8;
+}
+.bc-output-group + .bc-output-group {
+  margin-top: 0.6rem;
+}
+.battery-app .bc-output-row {
+  display: grid;
+  grid-template-columns: .7fr 1fr;
+  line-height: 1;
+  padding: 0.84rem 0.6rem;
+  color: #000;
+  font-size: 1.2rem;
+}
+.bc-output-row + .bc-output-row {
+  border-top: 1px solid #d4d4d4;
+}
+.battery-app .bc-col-value {
+  font-size: 1rem;
+}
+.battery-app .bc-value {
+  color: #007A8C;
+  margin-right: 4px;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.battery-app .bc-unit {
+  color: #808080;
 }
 .battery-app .disclaimer {
-  padding-top: 3rem;
-  font-size: 14px;
+  font-size: .86rem;
+  margin-top: 2rem;
 }
-.battery-app .sub-head {
-  padding: 10px 0 0;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
+.battery-app .error {
+  grid-column: 1 / -1;
+  color: #ff0000;
 }
-
+.battery-app .bc-row.recommendation {
+  grid-column: 1 / -1;
+  padding: 0.72rem 0;
+  border-bottom: none;
+}
+.battery-app .recommendation .bc-label-main {
+  font-size: 1rem;
+}
 
 @media print {
   @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }
@@ -4520,12 +4559,22 @@ p.small-title {
   .toggle-checkbox:checked + .toggle-label::after {
     top: 6px;
   }
-  .battery-app .app-section {
-    display: block;
+  .battery-app .bc-label {
+    grid-column: 1 / -1;
+  }
+  .battery-app .bc-input {
+    grid-column: 1 / 3;
+  }
+  .battery-app .bc-output-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .help-content {
-    padding: 2rem;
+    padding: 1rem;
   }
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -4608,7 +4657,6 @@ p.small-title {
     color:#222;
   }
 }
-
 
 /*
   ##Device = Desktops
