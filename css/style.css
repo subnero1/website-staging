@@ -3862,6 +3862,180 @@ p.small-title {
   margin: 0;
 }
 
+/*battery app*/
+[v-cloak] {
+  display: none;
+}
+.bc-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2.4rem 1.6rem 1.6rem;
+}
+.bc-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  padding: 3.4rem 0 2rem;
+}
+.bc-header .page-title {
+  margin: 0;
+  padding: 0;
+}
+.bc-header button {
+  background: transparent;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.bc-header .fa {
+  color: #545454;
+  font-size: 20px;
+}
+.help-content {
+  display: none;
+  padding: 4rem;
+  margin-bottom: 1.4rem;
+  color: #000;
+  background-color: #fff9ef;
+}
+.help-content.active {
+  display: block;
+}
+.help-content li + li {
+  margin-top: 10px;
+}
+.bc-wrapper .bc-fields {
+  padding: 2rem 1.6rem 1rem;
+  background-color: #f8f8f8;
+}
+.bc-wrapper .bc-row {
+  display: grid; 
+  grid-template-columns: 1fr 255px 64px;
+  gap: 6px;
+  align-items: center;
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid #d4d4d4;
+}
+.bc-wrapper .bc-label {
+  padding-right: 1rem;
+}
+.bc-wrapper .bc-label p {
+  margin: 0;
+  line-height: 1.4;
+}
+.bc-wrapper .bc-label-main {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+.bc-wrapper .bc-label-sub {
+  font-size: 16px;
+  font-style: italic;
+  color: #808080;
+}
+.bc-wrapper .bc-button-row {
+  padding: 3rem 0.8rem 1.6rem;
+  text-align: center;
+}
+.bc-wrapper .bc-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 52px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  background-color: #e6782f;
+  border-radius: 6px;
+}
+.bc-wrapper .bc-input > input[type="number"] {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  font-size: 22px;
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.bc-wrapper .bc-input.radio {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.bc-wrapper .bc-input.bc-column.radio {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.bc-wrapper .bc-input.radio label{
+  font-size: 1.1rem;
+  color: #000;
+}
+.bc-wrapper .bc-output {
+  margin: 2rem 0;
+}
+.bc-wrapper .bc-output h5 {
+  font-size: 1.2rem;
+  margin: 24px 0 12px;
+  padding-left: 1rem;
+}
+.bc-wrapper .bc-output-group {
+  padding: 0.9rem 1.6rem;
+  background-color: #f8f8f8;
+}
+.bc-wrapper .bc-output-group.highlighted {
+  background-color: #fffbe0;
+}
+.bc-output-group + .bc-output-group {
+  margin-top: 0.6rem;
+}
+.bc-wrapper .bc-output-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 1;
+  padding: 0.84rem 0.6rem;
+  color: #000;
+  font-size: 1.2rem;
+}
+.bc-output-row + .bc-output-row {
+  border-top: 1px solid #d4d4d4;
+}
+.bc-wrapper .bc-col-value {
+  font-size: 1rem;
+}
+.bc-wrapper .bc-value {
+  color: #007A8C;
+  margin-right: 4px;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.bc-wrapper .bc-value span {
+  color: #808080;
+  font-weight: 400;
+  font-size: 14px;
+}
+.bc-wrapper .bc-unit {
+  color: #808080;
+}
+.bc-wrapper .disclaimer {
+  font-size: .86rem;
+  margin-top: 2rem;
+}
+.bc-wrapper .error {
+  grid-column: 1 / -1;
+  color: #ff0000;
+}
+.bc-wrapper .common-errors {
+  padding: 1.6rem;
+}
+.output-section {
+  scroll-margin-top: 100px;
+}  
+
 @media only screen and (max-width: 1060px){
   .fullscreen .layer {
     top: 50%;

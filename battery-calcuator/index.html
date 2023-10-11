@@ -1,0 +1,508 @@
+---
+layout: default
+title: Battery Calculator
+---
+
+<div id="batteryApp" class="bc-wrapper" v-cloak>
+    <header class="bc-header">
+        <h2 class="page-title">Battery Calculator</h2>
+        <button @click="showHelp = !showHelp">
+            <i class="fa fa-question-circle"></i>
+        </button>
+    </header>
+    <div class="bc-body">
+        <section class="bc-help">
+            <div class="help-content" :class="{'active': showHelp}">
+                <h3>To use this calculator, follow these steps:</h3>
+                <ol>
+                    <li>Specify distance between the topside and seabed modems (slant range) in meters (and select modem if required). Current acceptable range is 1 - 1500 meters.</li>
+                    <li>Provide calculated filesize (in kilobytes) from the ADCP software.</li>
+                    <li>Enter the number of times to transfer per day or week (minimum 1 per day or week, maximum 12 times a day of week)</li>
+                    <li>Enter the expected idle duration for each transmission (minimum 10 minutes, maximum 60 minutes)</li>
+                    <li>The program recommends the modem to be used, calculates data rate, transmission power, and durations.</li>
+                    <li>NOTE: Maximum 12-hour total transmission duration.</li>
+                    <li>Battery capacity: Estimated daily, weekly, and monthly battery capacity requirements.</li>
+                </ol>
+            </div>
+        </section>
+
+        <div class="bc-fields">
+
+            <div class="bc-row">
+                <div class="bc-label">
+                    <p class="bc-label-main">Enter distance between topside and seabed modem (m)</p>
+                    <p class="bc-label-sub">(Slant Range)</p>
+                </div>
+                <div class="bc-input">
+                    <input v-model="distanceInput" type="number" id="range" min="1" max="1500" maxlength="4">
+                </div>
+                <div class="bc-unit">m</div>
+
+                <div class="error">[[ rangeError ]]</div>
+            </div>
+
+            <div class="bc-row">
+                <div class="bc-label">
+                    <p class="bc-label-main">Select the appropriate series of Acoustic Smart Modem to be used</p>
+                </div>
+                <div class="bc-input bc-column radio">
+                    <label>
+                        <input v-model="recommended" type="radio" id="hf-input" value="hf" :disabled="distanceInput > 150">
+                        S60H series modems
+                    </label>
+                    <label>
+                        <input v-model="recommended" type="radio" id="mf-input" value="mf" >
+                        M25M series modems
+                    </label>
+                </div>
+            </div>
+
+            <div class="bc-row">
+                <div class="bc-label">
+                    <p class="bc-label-main">Enter file size for each transmission</p>
+                    <p class="bc-label-sub">(Use the filesize (in kilobytes) obtained from the ADCP software)</p>
+                </div>
+                <div class="bc-input">
+                    <input v-model="filesizeInput" type="number" id="file-size" min="0" max="1500">
+                </div>
+                <div class="bc-unit">kB</div>
+                <div class="error">[[ filesizeError ]]</div>
+            </div>
+
+            <div class="bc-row">
+                <div class="bc-label">
+                    <p class="bc-label-main">Are you planning for daily or  weekly or monthly download?</p>
+                </div>
+                <div class="bc-input radio">
+                    <label>
+                        <input v-model="downloadFrequency" type="radio" id="frequency-daily" value="1" >
+                        Daily
+                    </label>
+                    <label>
+                        <input v-model="downloadFrequency" type="radio" id="frequency-weekly" value="7" >
+                        Weekly
+                    </label>
+                    <label>
+                        <input v-model="downloadFrequency" type="radio" id="frequency-monthly" value="30" >
+                        Monthly
+                    </label>
+                </div>
+            </div>
+
+            <div class="bc-row">
+                <div class="bc-label">
+                    <p class="bc-label-main">How many times a day you need to transmit in the chosen duration?</p>
+                    <p class="bc-label-sub">(Maximum is 12 times)</p>
+                </div>
+                <div class="bc-input">
+                    <input v-model="transmissionInput" type="number" id="transmission" min="0" max="12">
+                </div>
+                <div class="bc-unit">times</div>
+                <div class="error">[[ timesError ]]</div>
+            </div>
+
+            <div class="bc-row">
+                <div class="bc-label">
+                    <p class="bc-label-main">How long will the seabed setup be in idle (receive mode) each time it is connected (in minutes)?</p>
+                    <p class="bc-label-sub">Default value: 10 minutes</p>
+                </div>
+                <div class="bc-input">
+                    <input v-model="idleMode" type="number" id="idlemode" min="10" max="60">
+                </div>
+                <div class="bc-unit">minutes</div>
+                <div class="error">[[ idleError ]]</div>
+            </div>
+
+            <div class="bc-button-row ">
+                <button class="bc-btn" @click="calculateBattery" >Calculate</button>
+            </div>
+        </div>
+        <div class="output-section"></div>
+        <div class="common-errors error">[[ commonError ]]</div>
+        <div class="bc-output" v-if="noErrors">
+
+            <h5>Expected battery capacity requirement</h5>
+            <div class="bc-output-group highlighted">
+                <div class="bc-output-row" v-if="downloadFrequency == 1">
+                    <div class="bc-column bc-col-label">Daily</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.dailycapacity ]]</span>
+                        <span class="bc-unit">Wh</span>
+                    </div>
+                </div>
+                <div class="bc-output-row" v-if="downloadFrequency <= 7">
+                    <div class="bc-column bc-col-label">Weekly</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.weeklycapacity ]]</span>
+                        <span class="bc-unit">Wh</span>
+                    </div>
+                </div>
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Monthly</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.monthlycapacity ]]</span>
+                        <span class="bc-unit">Wh</span>
+                    </div>
+                </div>
+            </div>
+
+            <h5>Additional Info</h5>
+            <div class="bc-output-group">
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Selected modem</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.recommended ]]</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bc-output-group">
+               
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Expected link speed</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.datarate ]]</span>
+                        <span class="bc-unit">bps</span>
+                    </div>
+                </div>
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Expected transmit power consumption</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.txpower ]]</span>
+                        <span class="bc-unit">w</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bc-output-group">
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Transmit duration</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value" v-html="updatedOutputText(resultValues.txduration)"></span>
+                        <span class="bc-unit"></span>
+                    </div>
+                </div>
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Receive/idle duration</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value" v-html="updatedOutputText(resultValues.rxduration)"></span>
+                        <span class="bc-unit"></span>
+                    </div>
+                </div>
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Sleep duration</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value" v-html="updatedOutputText(resultValues.sleepduration)"></span>
+                        <span class="bc-unit"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bc-output-group">
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Transmit battery capacity requirement</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.txcapacity ]]</span>
+                        <span class="bc-unit">Wh</span>
+                    </div>
+                </div>
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Receive battery capacity requirement</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.rxcapacity ]]</span>
+                        <span class="bc-unit">Wh</span>
+                    </div>
+                </div>
+                <div class="bc-output-row">
+                    <div class="bc-column bc-col-label">Sleep battery capacity requirement</div>
+                    <div class="bc-column bc-col-value">
+                        <span class="bc-value">[[ resultValues.sleepcapacity ]]</span>
+                        <span class="bc-unit">wh</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="disclaimer">
+            <p><b>Disclaimer:</b> The battery capacity calculation tool for SWIS - ADCP edition offers a general estimation based on assumptions regarding link speed and power consumption for subsea deployments. However, if the underwater channel conditions differ significantly from typical channels used for these calculations, the assumptions may not be accurate, leading to incorrect calculations. The tool should be used as guidance rather than definitive values, and users are advised to exercise their own judgment, conduct further analysis, and consult experts. The developers and providers of the tool are not liable for any damages or losses resulting from its use or reliance on its calculations.</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script>
+const { createApp, ref, reactive, nextTick, watch, computed } = Vue;
+
+createApp( {
+    delimiters: ['[[', ']]'],
+    setup() {
+        const setupVars = {
+            MF: 24000,
+            HF: 64000,
+            MAX_TOTAL_TX_DURATION: 43200, //12 hours
+            MAX_TRANSMISSIONS: 12, //12 times a day
+            MIN_IDLE_DURATION: 600, //10 minutes
+            MAX_IDLE_DURATION: 3600, //60 min
+            RX_POWER: 4, //watts
+            SLEEP_POWER: 0.01, //watts
+        }
+
+        //models
+        const distanceInput = ref(null);
+        let recommended = ref(null);
+        const filesizeInput = ref(null);
+        const downloadFrequency = ref(1); //1 / 7 / 30
+        const transmissionInput = ref(null);
+        const idleMode = ref(10);
+
+        //misc vars
+        const showHelp = ref(false);
+
+        //Error Messages
+        const noErrors = ref(false);
+        const rangeError = ref('');
+        const filesizeError = ref('');
+        const timesError = ref('');
+        const idleError = ref('');
+        const commonError = ref('');
+
+        const errors = reactive({
+            common01: 'This field cannot be empty',
+            distance02: 'Range value cannot be less than 1',
+            distance03: 'Range value cannot be more than 1500',
+            filesize02: 'File size cannnot be less than 1 kB',
+            filesize03: 'File size cannot be greater than 2000 kB',
+            times01: 'Please enter a value greater than 0',
+            times02: `Transfer count cannot be greater than the optimum value of ${setupVars.MAX_TRANSMISSIONS}. Consider reducing the number of downloads per day, which will help to minimize power consumption.`,
+            idle01: 'Invalid value, receive/idle time should be between 10 and 60 minutes.',
+            commonError01: `Transmit duration is greater than ${setupVars.MAX_TOTAL_TX_DURATION /(60*60) } hours. Consider configuring the ADCP to generate smaller files or opting for a preview file download instead of raw data when the total transmission duration exceeds 12 hours per day, aiming to minimize power consumption.`,
+            commonError02: 'Total transmit duration is more than 12 hrs. Consider configuring the ADCP to generate smaller files or opting for a preview file download instead of raw data when the total transmission duration exceeds 12 hours per day, aiming to minimize power consumption.'
+        });
+
+        //result
+        const resultValues = reactive({
+            dailycapacity: 'na',
+            weeklycapacity: 'na',
+            monthlycapacity: 'na',
+            recommended: 'na',
+            modem: 'na',
+            datarate: 'na',
+            txpower: 'na',
+            txduration: 'na',
+            rxduration: 'na',
+            sleepduration: 'na',
+            txcapacity: 'na',
+            rxcapacity: 'na',
+            sleepcapacity: 'na',
+            
+        });
+
+        //watch changes in range to set radio buttons
+        watch(distanceInput, (currentRange, prevRange) => {
+
+            if(currentRange > 0 && currentRange <= 150) {
+                recommended.value = 'hf';
+            }else if(currentRange > 150) {
+                recommended.value = 'mf';
+            }else {
+                recommended.value = null;
+            }
+        });
+        
+        const calculateBattery = () => {
+            checkForErrors();
+
+            if(noErrors.value) {
+                doCalculations();
+            }
+        }
+
+        const checkForErrors = () => {
+
+            if(distanceInput.value == null) {
+                rangeError.value = errors.common01;
+            }else if(distanceInput.value < 1) {
+                rangeError.value = errors.distance02;
+            }else if(distanceInput.value > 1500) {
+                rangeError.value = errors.distance03;
+            }else{
+                rangeError.value = '';
+            }
+
+            if(filesizeInput.value == null) {
+                filesizeError.value = errors.common01;
+            }else if(filesizeInput.value < 1) {
+                filesizeError.value = errors.filesize02;
+            }else if(filesizeInput.value > 2000) {
+                filesizeError.value = errors.filesize03;
+            }else{
+                filesizeError.value = '';
+            }
+
+            if(transmissionInput.value == null || transmissionInput.value < 1) {
+                timesError.value = errors.times01;
+            }else if(transmissionInput.value > 12) {
+                timesError.value = errors.times02;
+            }else{
+                timesError.value = '';
+            }
+
+            if(idleMode.value < setupVars.MIN_IDLE_DURATION / 60 || idleMode.value > setupVars.MAX_IDLE_DURATION / 60) {
+                idleError.value = errors.idle01;
+            }else{
+                idleError.value = '';
+            }
+
+            if(rangeError.value == '' && filesizeError.value == '' && timesError.value == '' && idleError.value == '') {
+                noErrors.value = true;
+            }else {
+                noErrors.value = false;
+            }
+        }
+        
+        const doCalculations = () => {
+
+            //base calculated values
+            let total_seconds = 24 * 60 * 60 * downloadFrequency.value;
+            let speed = null;
+            let file_size = filesizeInput.value * 8;
+
+            //recommended
+           if(recommended.value === 'hf'){
+            speed = setupVars.HF;
+            resultValues.recommended = 'S60H series modems';
+           }else if(recommended.value === 'mf') {
+            speed = setupVars.MF;
+            resultValues.recommended = 'M25M series modems';
+           }
+
+            //datarate
+            const data_rate = datarate(distanceInput.value, speed);
+            if(data_rate) {
+                resultValues.datarate = data_rate;
+            }else {
+                resultValues.datarate = "Range is beyond the limit supported"
+            }
+
+            //txpower
+            const tx_power = txpower(distanceInput.value, speed);
+            resultValues.txpower = roundToTwoDecimals(tx_power);
+
+            //txduration 
+            const tx_duration = file_size * 1000 / data_rate;
+            resultValues.txduration = tx_duration;
+            if(tx_duration > setupVars.MAX_TOTAL_TX_DURATION) {
+                commonError.value = errors.commonError01;
+            }
+
+            //rxduration
+            const rx_duration = idleMode.value * 60; //Converting to seconds
+            resultValues.rxduration = rx_duration;
+
+            //sleepduration
+            const sleep_duration = total_seconds - (tx_duration + rx_duration) * transmissionInput.value;
+            resultValues.sleepduration = sleep_duration;
+
+            //txcapacity
+            resultValues.txcapacity = roundToTwoDecimals((tx_duration * transmissionInput.value * tx_power) / (60 * 60));
+
+            //rxcapacity
+            resultValues.rxcapacity = roundToTwoDecimals((rx_duration * transmissionInput.value * setupVars.RX_POWER) / (60 * 60));
+
+            //sleepcapacity
+            resultValues.sleepcapacity = roundToTwoDecimals((sleep_duration * transmissionInput.value * setupVars.SLEEP_POWER) / (60 * 60));
+
+            //capacities
+            let capacityCalc = ((tx_duration * transmissionInput.value * tx_power) + (rx_duration * transmissionInput.value * setupVars.RX_POWER) + (sleep_duration * setupVars.SLEEP_POWER)) / (60 * 60);
+
+            if(downloadFrequency.value == 1) {
+                resultValues.dailycapacity = roundToTwoDecimals(capacityCalc);
+                resultValues.weeklycapacity = roundToTwoDecimals(capacityCalc * 7);
+                resultValues.monthlycapacity = roundToTwoDecimals(capacityCalc * 30);
+            }
+            if(downloadFrequency.value == 7) {
+                resultValues.dailycapacity = 0;
+                resultValues.weeklycapacity = roundToTwoDecimals(capacityCalc);
+                resultValues.monthlycapacity = roundToTwoDecimals(capacityCalc * 4);
+            }
+            if(downloadFrequency.value == 30) {
+                resultValues.dailycapacity = 0;
+                resultValues.weeklycapacity = 0;
+                resultValues.monthlycapacity = roundToTwoDecimals(capacityCalc);
+            }
+
+            //noErrors
+            nextTick(() => {
+                let el = document.querySelector('.output-section');
+                if(el) {
+                    el.scrollIntoView({ behavior: "smooth" })
+                }
+            })
+        }
+
+        //helper functions
+        const datarate = (range, fc) => {
+            if(range < 0) return none;
+
+            if (fc == setupVars.MF) {
+                if(range < 11) return 5000;
+                if(range < 101) return 3000;
+                if(range < 1001) return 2000;
+                if(range < 2001) return 5000;
+                if(range >=2001) return none;
+            }else if (fc == setupVars.HF) {
+                if(range < 11) return 25000;
+                if(range < 101) return 20000;
+                if(range < 1001) return 5000;
+                if(range >= 2001) return none;
+            }
+        }
+
+        const txpower = (range, fc) =>  {
+            if(range < 0) return none;
+
+            if (fc == setupVars.MF || fc == setupVars.HF) {
+                if(range < 10) return dbToWatts(-20, 45);
+                if(range < 100) return dbToWatts(-10, 45);
+                return dbToWatts(0, 45);
+            }
+        }
+
+        const dbToWatts = (db, watts) => Math.pow(10, db / 10) * watts;
+
+        const roundToTwoDecimals = (num) => parseFloat(num).toFixed(2);
+
+        const updatedOutputText = (textToFormat) => {
+            if(!textToFormat) return;
+            let inputInSeconds = roundToTwoDecimals(textToFormat);
+            let inputInHours = roundToTwoDecimals(textToFormat / (60 * 60));;
+            return  `${inputInSeconds} <span>seconds</span> (${inputInHours} <span>hrs</span>)`;
+        }
+
+        return { 
+            showHelp,
+            rangeError, 
+            filesizeError,
+            timesError,
+            idleError,
+            commonError,
+            noErrors,
+            distanceInput, 
+            recommended, 
+            idleMode, 
+            filesizeInput,
+            downloadFrequency, 
+            transmissionInput, 
+            calculateBattery,
+            resultValues,
+            updatedOutputText,
+        };
+    }
+
+}).mount('#batteryApp');
+
+</script>
+
+
