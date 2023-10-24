@@ -25,7 +25,7 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
             <div class="help-content" :class="{'active': showHelp}">
                 <h3>To use this program, follow these steps:</h3>
                 <ol>
-                    <li>SDistance: Enter the distance between the topside and seabed modem (slant range) in meters.</li>
+                    <li>Distance: Enter the distance between the topside and seabed modem (slant range) in meters.</li>
                     <li>File Size: Provide the calculated file size (in kilobytes) obtained from the ADCP software.</li>
                     <li>Number of Transmissions: Specify the number of times you need to transfer per day/week/month.</li>
                     <li>Interpret Results: The program will recommend the modem, calculate the data rate, transmission power, and various durations based on the inputs.</li>
@@ -41,8 +41,15 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
             <div class="bc-row-wrapper">
                 <div class="bc-row">
                     <div class="bc-label">
-                        <p class="bc-label-main">What is the distance between the topside and seabed modem (in meters)?</p>
-                        <p class="bc-label-sub">(Slant Range)</p>
+                        <p class="bc-label-main">Distance between the topside and seabed modem 
+                            <span class="tooltip-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#666" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                  </svg>
+                                  <span class="tooltip2">Slant Range</span>
+                            </span>
+                        </p>
                     </div>
                     <div class="bc-input">
                         <input v-model="distanceInput" type="number" id="range" min="1" max="1500" maxlength="4">
@@ -55,7 +62,7 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
             <div class="bc-row-wrapper">
                 <div class="bc-row two-col">
                     <div class="bc-label">
-                        <p class="bc-label-main">What is the preferred series of Acoustic Smart Modem to be used?</p>
+                        <p class="bc-label-main">Acoustic Smart Modem series</p>
                     </div>
                     <div class="bc-input bc-column radio">
                         <label>
@@ -74,13 +81,20 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
             <div class="bc-row-wrapper">
                 <div class="bc-row">
                     <div class="bc-label">
-                        <p class="bc-label-main">What is the file size for each transmission (in kilobytes, as obtained from the ADCP software)?</p>
-                        <p class="bc-label-sub">(Use the filesize (in kilobytes) obtained from the ADCP software)</p>
+                        <p class="bc-label-main">File size per download 
+                            <span class="tooltip-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#666" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                                <span class="tooltip2">Use the filesize obtained from the ADCP software</span>
+                            </span>
+                        </p>
                     </div>
                     <div class="bc-input">
                         <input v-model="filesizeInput" type="number" id="file-size" min="0" max="1500">
                     </div>
-                    <div class="bc-unit">kB</div>
+                    <div class="bc-unit">KB</div>
                 </div>
                 <div class="error">[[ filesizeError ]]</div>
             </div>            
@@ -88,8 +102,7 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
             <div class="bc-row-wrapper">
                 <div class="bc-row two-col">
                     <div class="bc-label">
-                        <p class="bc-label-main">What is the frequency of downloads?</p>
-                        <p class="bc-label-sub">(Maximum 4 (daily), 7 (weekly) or 15 (monthly))</p>
+                        <p class="bc-label-main">Frequency of downloads</p>
                     </div>
                     <div class="bc-input bc-column bc-range">
                         <div class="range-row">
@@ -175,28 +188,28 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
                     <div class="bc-column bc-col-label">Expected transmit power consumption</div>
                     <div class="bc-column bc-col-value">
                         <span class="bc-value">[[ resultValues.txpower ]]</span>
-                        <span class="bc-unit">w</span>
+                        <span class="bc-unit">W</span>
                     </div>
                 </div>
             </div>
 
             <div class="bc-output-group">
                 <div class="bc-output-row">
-                    <div class="bc-column bc-col-label">Transmit duration</div>
+                    <div class="bc-column bc-col-label">Transmit duration per download</div>
                     <div class="bc-column bc-col-value">
                         <span class="bc-value" v-html="updatedOutputText(resultValues.txduration)"></span>
                         <span class="bc-unit"></span>
                     </div>
                 </div>
                 <div class="bc-output-row">
-                    <div class="bc-column bc-col-label">Receive/idle duration</div>
+                    <div class="bc-column bc-col-label">Receive / idle duration per download</div>
                     <div class="bc-column bc-col-value">
                         <span class="bc-value" v-html="updatedOutputText(resultValues.rxduration)"></span>
                         <span class="bc-unit"></span>
                     </div>
                 </div>
                 <div class="bc-output-row">
-                    <div class="bc-column bc-col-label">Sleep duration</div>
+                    <div class="bc-column bc-col-label">Daily sleep duration</div>
                     <div class="bc-column bc-col-value">
                         <span class="bc-value" v-html="updatedOutputText(resultValues.sleepduration)"></span>
                         <span class="bc-unit"></span>
@@ -223,7 +236,7 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
                     <div class="bc-column bc-col-label">Sleep battery capacity requirement</div>
                     <div class="bc-column bc-col-value">
                         <span class="bc-value">[[ resultValues.sleepcapacity ]]</span>
-                        <span class="bc-unit">wh</span>
+                        <span class="bc-unit">Wh</span>
                     </div>
                 </div>
             </div>
@@ -238,7 +251,7 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 <script>
-const { createApp, ref, reactive, nextTick, watch, computed, onMounted } = Vue;
+const { createApp, ref, reactive, nextTick, watch, watchEffect, computed, onMounted } = Vue;
 
 createApp( {
     delimiters: ['[[', ']]'],
@@ -275,8 +288,8 @@ createApp( {
             common01: 'This field cannot be empty',
             distance02: 'Range value cannot be less than 1',
             distance03: 'Range value cannot be more than 1500',
-            filesize02: 'File size cannnot be less than 1 kB',
-            filesize03: 'File size cannot be greater than 2000 kB',
+            filesize02: 'File size cannnot be less than 1 KB',
+            filesize03: 'File size cannot be greater than 2000 KB',
             modemError01: 'Please select a modem',
             commonError01: `Transmit duration is greater than ${setupVars.MAX_TOTAL_TX_DURATION /(60*60) } hours. Consider configuring the ADCP to generate smaller files or opting for a preview file download instead of raw data when the total transmission duration exceeds 12 hours per day, aiming to minimize power consumption.`,
             commonError02: 'ERROR: Total transmit duration is more than 12 hrs. Consider configuring the ADCP to generate smaller files or opting for a preview file download instead of raw data when the total transmission duration exceeds 12 hours per day, aiming to minimize power consumption.',
@@ -312,6 +325,13 @@ createApp( {
                 recommended.value = null;
             }
         });
+
+        watch([distanceInput, recommended, filesizeInput, filesizeInput, downloadTimes], (
+            [newDistance, newReco, newFileSize, newFrequency, newTimes], 
+            [prevDistance, prevReco, preFileSize, prevFrequency, prevTimes]) => {
+                noErrors.value = false;
+        });
+
         const revisedTransitTimes = computed(() => {
             downloadTimes.value = 1;
             return Number(donwloadFrequency.value);
@@ -321,7 +341,7 @@ createApp( {
             const frequency =  Math.round(donwloadFrequency.value / 2);
             return downloadTimes.value <= frequency ? 'in-range' : 'out-range';   
         })
-        
+
         const calculateBattery = () => {
             checkForErrors();
 
@@ -329,7 +349,7 @@ createApp( {
                 doCalculations();
             }
         }
-
+        
         const checkForErrors = () => {
 
             if(distanceInput.value == null) {
@@ -425,7 +445,6 @@ createApp( {
             if(resultValues.downloadCount == 7) timeFrequency = 'weekly';
             if(resultValues.downloadCount == 15) timeFrequency = 'monthly';
 
-            console.log(downloadTimes.value)
             resultValues.downloadFrequency = `${downloadTimes.value}  ${downloadTimes.value > 1 ? 'times' : 'time'} ${timeFrequency}`;
 
             //sleepduration
@@ -524,7 +543,7 @@ createApp( {
             if(!textToFormat) return;
             let inputInSeconds = textToFormat;
             let inputInHours = roundToTwoDecimals(textToFormat / (60 * 60));;
-            return  `${inputInSeconds} <span>seconds</span> (${inputInHours} <span>hrs</span>)`;
+            return  `${inputInSeconds} <span>sec</span> (${inputInHours} <span>hrs</span>)`;
         }
 
         const generateURL = () => {
