@@ -90,7 +90,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-MC-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
+      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
     </div>
 </div>
 </div>
