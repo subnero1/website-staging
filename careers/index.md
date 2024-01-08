@@ -4,9 +4,9 @@ title:  Careers
 banner: images/banner-careers.jpg
 ---
 
-Subnero provides communications, networking, and robotics solutions to the sub-sea engineering, environment monitoring and defense industries. We have a reputation for innovation and are currently looking to expand our team.
+Subnero provides communications, networking, and robotics solutions to the sub-sea engineering, environment monitoring, and defense industries. We have a reputation for innovation and are currently looking to expand our team.
 
-At Subnero, we believe that quality is key since our reputation drives our success. Quality comes naturally when everyone owns the task they undertake, do it with pride, and give it their best. We also practice a culture of openness and continual improvement, giving and accepting timely feedback. We don't believe in being constrained by conventional thinking -- no idea is too crazy to discuss! We like people who think out of the box, innovate, and come up with solutions that push the boundary of what is possible.
+At Subnero, we believe that quality is key since our reputation drives our success. Quality comes naturally when everyone owns the task they undertake, does it with pride, and gives it their best. We also practice a culture of openness and continual improvement, giving and accepting timely feedback. We don't believe in being constrained by conventional thinking -- no idea is too crazy to discuss! We like people who think out of the box, innovate, and come up with solutions that push the boundaries of what is possible.
 
 ---
 ## Sales Executive
@@ -33,7 +33,7 @@ As a Sales Executive at Subnero, your role is pivotal in nurturing client relati
 - Background in technology with familiarity with wireless technologies or the telecom sector is advantageous.
 - Good spoken and written English.
 - Excellent communication and interpersonal skills with a strong attention to detail.
-- Ability to work independently across multiple timezones is a must.
+- Ability to work independently across multiple time zones is a must.
 - Comfortable operating within a startup environment.
 
 ---
