@@ -31,6 +31,7 @@ As a Sales Executive at Subnero, your role is pivotal in nurturing client relati
 - Sales experience in telecom or marine & subsea sectors is a plus.
 - Proven track record of driving independent sales plans and achieving targets.
 - Background in technology with familiarity with wireless technologies or the telecom sector is advantageous.
+- Proficiency in utilizing software-focused systems and processes for efficient daily workflow management is essential for this role.
 - Good spoken and written English.
 - Excellent communication and interpersonal skills with a strong attention to detail.
 - Ability to work independently across multiple time zones is a must.
