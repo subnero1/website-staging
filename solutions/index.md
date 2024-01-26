@@ -33,22 +33,4 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
     </div>
   </div>
-  <div class ='category-container bg-grey'>
-    <div class='category-row'>    
-      <div class='large-3 columns category-img'>
-        <a href='{{site.baseurl}}/solutions/swan'><img alt="" class='round-border-20' src="{{site.baseurl}}/images/boxart-swan.jpg"/></a>
-      </div>
-      <div class='large-9 columns'>       
-        <div class='category-content'>
-          <a href='{{site.baseurl}}/solutions/swan'><h1>Subnero Water Assessment Network</h1></a>
-          <a href='{{site.baseurl}}/solutions/swan'><h3>Scalable, autonomous network of unmanned surface vehicles for real-time in-situ, water quality measurements.</h3></a>
-          <div class='media'>
-            <div class='modem-type'>
-              <a href='{{site.baseurl}}/solutions/swan'><button class='button-outline'>View details</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
