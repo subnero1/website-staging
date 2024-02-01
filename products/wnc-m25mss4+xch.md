@@ -63,7 +63,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power consumption                      | < 7 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)|
-| Dimensions                             | ⌀ 127 ✕ 324 mm                            |
+| Dimensions                             | ⌀ 127 ✕ 416 mm                            |
 
 </div>
 </div>
