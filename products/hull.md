@@ -37,7 +37,7 @@ excerpt: Additional hull options for Subnero underwater acoustic smart modems.
             <h1>Hull Options</h1>
             <h3>Additional hull materials for various depth ratings for Subnero underwater acoustic smart modems</h3>
             <ul>
-              <li>Supported depths: 300 m, 2000 m, 4000 m, 6000 m</li>
+              <li>Supported depths: 300 m, 2000 m, 4000 m</li>
               <li>Supported materials: Aluminum, Stainless Steel, Titanium</li>
             </ul>
             <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
@@ -76,7 +76,7 @@ excerpt: Additional hull options for Subnero underwater acoustic smart modems.
           </tr>
           <tr>
             <td>Titanium</td>
-            <td>4000 m, 6000 m</td>
+            <td>4000 m</td>
             <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a></td>
           </tr>
         </table>
