@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unlocking Underwater Connectivity using UnetStack
-banner: images/banner-pulse-world-waterday.jpg
+banner: images/banner-unetstack4.jpg
 date:  2024-02-06
 categories: unetstack
 thumbnail: images/pulse-thumbnail-unetstack4.jpg
