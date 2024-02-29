@@ -1,8 +1,8 @@
 ---
 layout: page
 title: WNC-S40HSS4+xCh
-banner : images/banner-multichannel.jpg
-thumbnail : images/thumbnail-wnc-multichannel.png
+banner : images/banner-multichannel-hf.jpg
+thumbnail : images/thumbnail-wnc-s40hss4+xch.png
 excerpt: Subnero's underwater acoustic smart modems with multiple channels for high-speed data acquisition.
 categories: wnc
 section_id: products
@@ -15,7 +15,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
 ## Key Features
 
 - Multiple synchronized receiving channels for enhanced communication performance.
-- 2x communication performance as compared to the [single channel]({{site.baseurl}}/products/wnc-m25mss4.html) equivalents.
+- 2x communication performance as compared to the [single channel]({{site.baseurl}}/products/wnc-s40hss4.html) equivalents.
 - Ability to choose between 1 - 4 additional receiving channels.
 - Access to raw signals from all receiving channels.
 - Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}). Examples are:
@@ -29,7 +29,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-multichannel.png"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hss4+xch.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Multi-channel Configuration</h3>
           <p>With multiple synchronous channels, a multi-channel modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>
@@ -75,7 +75,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
   <div class='collapsible-content'>
     <div class="brochure-container">
       <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
-      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero M25M Multi-Channel Modems</a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero Multi-Channel Configuration Modems</a>
     </div>
     <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>

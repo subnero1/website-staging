@@ -1,8 +1,8 @@
 ---
 layout: page
 title: WNC-S40HSO4
-banner : images/banner-silver.jpg
-thumbnail : images/thumbnail-wnc-m25mse4.png
+banner : images/banner-silver-hf.jpg
+thumbnail : images/thumbnail-wnc-s40hso4.png
 excerpt: Subnero silver edition of underwater acoustic smart modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
@@ -14,8 +14,8 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 
 ## Key Features
 
-- Up to 15 kbps data rate\*.
-- Up to 5 km communication range (horizontal & vertical) in tropical waters.
+- Up to 33 kbps data rate\*.
+- Up to 1 km communication range (horizontal & vertical) in tropical waters.
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
@@ -29,7 +29,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse4.png"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hso4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
         <p>The OEM configuration (OC) is tailored to facilitate seamless integration and adaptability, making it a top pick for incorporation into larger platforms, such as AUVs, ROVs, and sensors. Additionally, for free flooded platforms, it comes equipped with a pressure hull option.</p>
@@ -50,8 +50,8 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
-| FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
-| Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
+| FEC (Forward Error Correction)         | LDPC (up to 1/6 rate code)                |
+| Bandwidth                              | 25 kHz (25 - 50 kHz)                      |
 
 ### Software
 
@@ -59,7 +59,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | -------------------------------------- | ----------------------------------------- |
 | Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unet.md %})|
 | User Interface                         | Interactive web UI                        |
-| Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia, Matlab|
+| Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 
 ### Electrical
 
@@ -90,8 +90,8 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+      <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">Subnero S40H Underwater Modems</a>
     </div>
     <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>

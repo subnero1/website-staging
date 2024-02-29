@@ -48,7 +48,7 @@ excerpt: Additional storage for Subnero underwater acoustic smart modems.
         <label class='lbl-toggle' for='product'></label>
         <div class='collapsible-content'>
           <p>Increase the storage space available for your Subnero devices with additional storage options.</p>
-          <p>Available sizes: 256 GB, 1 TB</p>
+          <p>Available sizes: 1 TB</p>
         </div>
       </div>
       <hr>

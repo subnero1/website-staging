@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WNC-M25MSS4
-banner : images/banner-silver.jpg
+banner : images/banner-silver-mf.jpg
 thumbnail : images/thumbnail-wnc-m25mss4.png
 excerpt: Subnero silver edition underwater acoustic smart modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
