@@ -2,7 +2,7 @@
 layout: post
 title: Subnero High-Speed Acoustic Smart Modems
 banner: images/banner-unetstack4.jpg
-date:  2024-03-11
+date:  2024-03-01
 categories: wnc news
 thumbnail: images/boxart-modem.png
 ---
