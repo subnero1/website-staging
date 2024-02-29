@@ -4,7 +4,7 @@ title: Subnero High-Speed Acoustic Smart Modems
 banner: images/banner-unetstack4.jpg
 date:  2024-03-11
 categories: wnc news
-thumbnail: images/pulse-thumbnail-unetstack4.jpg
+thumbnail: images/boxart-modem.png
 ---
 
 *Singapore, March 11, 2024* – Subnero Pte. Ltd., a leading provider of underwater communication solutions headquartered in Singapore, proudly announces the launch of its latest innovation, the [S40H series](http://subnero.com/products/modem.html?&section=S40Hseries) of high-speed acoustic smart modems, marking a significant advancement in wireless networked communication ([WNC](http://subnero.com/products/wnc.html)) technology.
