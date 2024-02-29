@@ -52,7 +52,6 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
 | JANUS support                          | Yes, subject to operating frequency band  |
-| Carrier frequency                      | 25 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
 ### Software
@@ -61,7 +60,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | -------------------------------------- | ----------------------------------------- |
 | Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unet.md %})|
 | User Interface                         | Interactive web UI                        |
-| Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia, Matlab|
+| Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 
 ### Electrical
 
@@ -77,7 +76,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Hull material                          | Aluminum*                                 |
-| Operating depth                        | 100 m*                                    |
+| Operating depth                        | 300 m*                                    |
 | Dimensions                             | ⌀ 127 ✕ 316 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 

@@ -54,7 +54,7 @@ section_id: products
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
-                <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S60H series).</li>
+                <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S40H series).</li>
                 <li>More than <span class='orange'>4 km</span> range in challenging conditions (M25M series).</li>
                 <li>Robust performance with communication profiles and link tuning.</li>
               </ul>

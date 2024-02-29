@@ -57,7 +57,6 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
 | JANUS support                          | Yes, subject to operating frequency band  |
-| Carrier frequency                      | 25 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
 ### Software
@@ -66,7 +65,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 | -------------------------------------- | ----------------------------------------- |
 | Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unet.md %})|
 | User interface                         | Interactive web UI                        |
-| Software interfaces                    | Java, Groovy, Python, C, JavaScript, Julia, Matlab|
+| Software interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 
 ### Electrical
 
