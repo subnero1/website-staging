@@ -37,6 +37,11 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
                 </a>
               </div>
               <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/modem.html?&section=S40Hseries'>
+                  <button class='button-outline'>S40H series</button>
+                </a>
+              </div>
+              <div class='modem-type'>
                 <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
                   <button class='button-outline'>M25M series</button>
                 </a>

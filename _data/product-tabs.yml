@@ -2,6 +2,10 @@
   id: tab-one
   input_id: all-products
   panel_id: panel-one
+- name: S40H series
+  id: tab-two
+  input_id: S40Hseries
+  panel_id: panel-two
 - name: M25M series
   id: tab-three
   input_id: M25Mseries
