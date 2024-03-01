@@ -7,7 +7,7 @@ categories: wnc news
 thumbnail: images/pulse-thumbnail-hf.jpg
 ---
 
-*Singapore, March 11, 2024* – Subnero Pte. Ltd., a leading provider of underwater communication solutions headquartered in Singapore, proudly announces the launch of its latest innovation, the [S40H series](http://subnero.com/products/modem.html?&section=S40Hseries) of high-speed acoustic smart modems, marking a significant advancement in wireless networked communication ([WNC](http://subnero.com/products/wnc.html)) technology.
+*Singapore, March 11, 2024* – Subnero Pte. Ltd., a leading provider of underwater communication solutions headquartered in Singapore, proudly announces the launch of its latest innovation, the [S40H series](/products/modem.html?&section=S40Hseries) of high-speed acoustic smart modems, marking a significant advancement in wireless networked communication ([WNC](/products/wnc.html)) technology.
 
 <div class='pulse-img-div'>
     <img src="{{site.baseurl}}/images/pulse-hf-pr.jpg" class='pulse-img'>
@@ -18,7 +18,7 @@ Designed to excel in challenging shallow water conditions, the S40H series intro
 - **Enhanced Performance:** Utilizing a higher frequency band and boasting a larger bandwidth (25 kHz bandwidth, from 25 - 50 kHz band), the S40H series achieves data rates of up to 33 kbps, ensuring seamless connectivity even in the harshest underwater environments.
 - **Extended Range:** With the capability to provide connectivity for up to 1 km, these modems offer unparalleled communication range, enabling unprecedented access in challenging conditions.
 - **Versatile Applications:** Equipped with advanced underwater communication algorithms, the S40H series unlocks a myriad of possibilities, including high-speed data transfer for underwater IoT applications, underwater image transfer, and large sensor payload data transfer for marine robotics.
-- **Enhanced Performance:** The [multi-channel variant](http://subnero.com/products/wnc-s40hss4+xch.html) of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
+- **Enhanced Performance:** The [multi-channel variant](/products/wnc-s40hss4+xch.html) of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
 - **Powered by UnetStack:** Leveraging UnetStack, a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
 - **Class-Leading Performance:** Combining a software-defined open architecture design with edge computing capability and machine learning-based link tuning features, these modems set a new standard for performance in the subsea wireless industry.
 

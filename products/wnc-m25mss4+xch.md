@@ -51,7 +51,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
 - <a href="{{site.baseurl}}/products/wnc-s40hss4.html#s_techspec">S40H series technical specifications</a>
 
 
-### Recorder
+### Additional Channels
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
