@@ -10,7 +10,20 @@ section_id: products
 
 ## Multi-channel Configuration Modem
 
-Subnero's multi-channel smart modems utilize advanced spatial diversity combining techniques to extract data from multiple receiving channels, enabling exceptional communication performance even in the most challenging conditions. Beyond this, these modems possess the unique capability to record synchronized raw signals from multiple hydrophones, allowing for a diverse range of innovative applications such as localization and passive acoustic monitoring.
+Engineered with cutting-edge spatial diversity combining techniques to optimize data extraction across multiple receiving channels, Subnero's multi-channel configuration smart modems redefine underwater communication performance, delivering unparalleled reliability in the most demanding environments. Moreover, their distinctive feature allows for the synchronized recording of raw signals from multiple hydrophones, empowering users with a versatile toolkit for innovative applications, including localization and passive acoustic monitoring.
+
+<div class='pulse-img-div'>
+    <img src="{{site.baseurl}}/images/mc-performance.png" class='pulse-img'>
+</div>
+
+## Applications
+
+- High-speed data transfer for underwater IoT sensors
+- On-demand image transfer
+- Large sensor payload data transfer for marine robotics
+- Underwater networks
+- Rapid environmental assessment.
+- Underwater localization & positioning (e.g. USBL)
 
 ## Key Features
 
@@ -18,10 +31,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
 - 2x communication performance as compared to the [single channel]({{site.baseurl}}/products/wnc-s40hss4.html) equivalents.
 - Ability to choose between 1 - 4 additional receiving channels.
 - Access to raw signals from all receiving channels.
-- Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}). Examples are:
-  - Rapid environmental assessment.
-  - Diversity combining techniques to enhance communication performance.
-  - Positioning applications (e.g. USBL).
+- Ability to develop and deploy user defined applications using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
 
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
@@ -32,7 +42,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hss4+xch.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Multi-channel Configuration</h3>
-          <p>With multiple synchronous channels, a multi-channel modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>
+          <p>Utilizing several synchronized channels, a multi-channel modem adeptly manages and optimizes data transmission within its operating environment, guaranteeing optimal communication performance. This setup enhances both the speed and reliability of data transfer and provides a better user experience.</p>
     </div>
   </div>
 </div>

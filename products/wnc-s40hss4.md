@@ -10,7 +10,14 @@ section_id: products
 
 ## Silver Edition Standalone Configuration Modem
 
-Subnero's silver edition underwater smart modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+Designed as a versatile workhorse, Subnero's silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.
+
+## Applications
+
+- High-speed data transfer for underwater IoT sensors
+- On-demand image transfer
+- Large sensor payload data transfer for marine robotics
+- Underwater networks
 
 ## Key Features
 
@@ -33,7 +40,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hss4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
-        <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an external power source, which could be a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
+        <p>The standalone configuration (SC) features a pressure housing tailored to accommodate various deployment depths and operate on external power sources, whether underwater with batteries or from the water's surface with a power supply. Engineered for unparalleled versatility and dependability across diverse deployment scenarios, this configuration ensures robust data transmission, even in the most demanding environments, guaranteeing seamless and uninterrupted operations.</p>
     </div>
   </div>
 </div>

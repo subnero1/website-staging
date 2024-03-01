@@ -10,7 +10,14 @@ section_id: products
 
 ## Silver Edition OEM Configuration Modem
 
-Subnero's silver edition underwater smart modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+Designed as a versatile workhorse, Subnero's silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.
+
+## Applications
+
+- High-speed data transfer for underwater IoT sensors
+- On-demand image transfer
+- Large sensor payload data transfer for marine robotics
+- Underwater networks
 
 ## Key Features
 
@@ -32,7 +39,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hso4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
-        <p>The OEM configuration (OC) is tailored to facilitate seamless integration and adaptability, making it a top pick for incorporation into larger platforms, such as AUVs, ROVs, and sensors. Additionally, for free flooded platforms, it comes equipped with a pressure hull option.</p>
+        <p>The OEM configuration (OC) streamlines integration and enhances adaptability, rendering it an ideal choice for seamless integration into subsea platforms like AUVs, ROVs, and sensor systems. Furthermore, it offers a pressure hull option specifically designed for free-flooded platforms, ensuring comprehensive compatibility across diverse marine environments.</p>
     </div>
   </div>
 </div>
