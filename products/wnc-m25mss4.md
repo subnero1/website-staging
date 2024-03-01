@@ -67,7 +67,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)< 1 mW (deep sleep mode)|
+| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)<br>< 1 mW (deep sleep mode)|
 | External interface                     | Ethernet (10/100 Mbps)*                   |
 | On-board storage                       | 32 GB*                                    |
 

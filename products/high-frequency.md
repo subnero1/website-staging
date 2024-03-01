@@ -16,10 +16,13 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-S40HSS4" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
-                <div class='content'>
-                <h2>Standalone Configuration <br>WNC-S40HSS4</h2>
-              </div></a>
+                <a href="{{site.baseurl}}{{page.url}}">
+                    <h2 class="new-tag"> NEW </h2>
+                    <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <div class='content'>
+                        <h2>Standalone Configuration <br>WNC-S40HSS4</h2>
+                    </div>
+                </a>
             </div>
             {% endif %}
             {% endfor %}
@@ -29,10 +32,13 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-S40HSO4" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
-                <div class='content'>
-                <h2>OEM Configuration <br>WNC-S40HSO4</h2>
-              </div></a>
+                <a href="{{site.baseurl}}{{page.url}}">
+                    <h2 class="new-tag"> NEW </h2>
+                    <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <div class='content'>
+                        <h2>OEM Configuration <br>WNC-S40HSO4</h2>
+                    </div>
+                </a>
             </div>
             {% endif %}
             {% endfor %}
@@ -43,7 +49,7 @@ order: 2
             {% if page.title contains "WNC-S40HSS4+xCh" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <!-- <h2 class="new-tag"> NEW </h2> -->
+                    <h2 class="new-tag"> NEW </h2>
                     <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>Multi-Channel Configuration <br>WNC-S40HSS4+xCh</h2>
