@@ -3829,7 +3829,7 @@ p.small-title {
 }
 .latest-news a:hover {
   color: #fff;
-} 
+}
 .latest-news a.active {
   visibility: visible;
   opacity: 1;
@@ -3960,7 +3960,7 @@ p.small-title {
   border-bottom: 1px solid #d4d4d4;
 }
 .bc-wrapper .bc-row {
-  display: grid; 
+  display: grid;
   grid-template-columns: 1fr 255px 64px;
   gap: 6px;
   align-items: start;
@@ -4050,12 +4050,12 @@ input[type="range"]::-moz-range-track {
   height: 8px;
 }
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none; 
+  -webkit-appearance: none;
   appearance: none;
   margin-top: -4px;
   background-color: #007A8C;
   height: 16px;
-  width: 12px;    
+  width: 12px;
 }
 .frequency-row {
   width: 100%;
@@ -4131,7 +4131,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .output-section {
   scroll-margin-top: 100px;
-}  
+}
 .bc-wrapper .range-selected {
   flex: none;
   display: flex;
@@ -4414,7 +4414,7 @@ input[type="range"]::-webkit-slider-thumb {
     font-size:1rem;
     color:#222;
   }
-  .fullscreen .announcements { 
+  .fullscreen .announcements {
     flex-direction: column;
     align-items: flex-start;
     height: 100px;
@@ -5984,13 +5984,17 @@ h2.modem-sub-heading{
 
 div.tab-columns input:nth-child(1):checked ~ .type-container label:nth-child(1),
 div.tab-columns input:nth-child(2):checked ~ .type-container label:nth-child(2),
-div.tab-columns input:nth-child(3):checked ~ .type-container label:nth-child(3){
+div.tab-columns input:nth-child(3):checked ~ .type-container label:nth-child(3),
+div.tab-columns input:nth-child(4):checked ~ .type-container label:nth-child(4),
+div.tab-columns input:nth-child(5):checked ~ .type-container label:nth-child(5){
   border-bottom:2px solid #E6782F;
 }
 
 div.tab-columns input:nth-child(1):checked ~ .tab-panels div.tab-panel:nth-child(1),
 div.tab-columns input:nth-child(2):checked ~ .tab-panels div.tab-panel:nth-child(2),
-div.tab-columns input:nth-child(3):checked ~ .tab-panels div.tab-panel:nth-child(3){
+div.tab-columns input:nth-child(3):checked ~ .tab-panels div.tab-panel:nth-child(3),
+div.tab-columns input:nth-child(4):checked ~ .tab-panels div.tab-panel:nth-child(4),
+div.tab-columns input:nth-child(5):checked ~ .tab-panels div.tab-panel:nth-child(5){
   display:block;
 }
 
