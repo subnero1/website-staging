@@ -26,4 +26,4 @@ The S40H series modems are officially launched during Oceanology International 2
 
 *About Subnero:* Subnero serves defense, marine, subsea, offshore energy, and scientific research sectors with global customers, enabling a range of use cases in the most demanding conditions. For more information, visit [Subnero's website](https://subnero.com).
 
-For media inquiries, please contact sales@subnero.com
+For media inquiries, please contact sales@subnero.com.
