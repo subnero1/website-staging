@@ -15,7 +15,7 @@ thumbnail: images/pulse-thumbnail-hf.jpg
 
 Designed to excel in challenging shallow water conditions, the S40H series introduces a groundbreaking blend of cutting-edge features:
 
-- **Enhanced Performance:** Utilizing a higher frequency band and boasting a larger bandwidth (25 kHz bandwidth, from 25 - 50 kHz band), the S40H series achieves data rates of up to 33 kbps, ensuring seamless connectivity even in the harshest underwater environments.
+- **High Data Rates:** Utilizing a higher frequency band and boasting a larger bandwidth (25 kHz bandwidth, from 25 - 50 kHz band), the S40H series achieves data rates of up to 33 kbps, ensuring seamless connectivity even in the harshest underwater environments.
 - **Extended Range:** With the capability to provide wireless connectivity for a communication range up to 1 km, enabling unprecedented access in challenging conditions.
 - **Versatile Applications:** Equipped with advanced underwater communication algorithms, the S40H series unlocks a myriad of possibilities, including high-speed data transfer for underwater IoT applications, underwater image transfer, and large sensor payload data transfer for marine robotics.
 - **Enhanced Performance:** The [multi-channel variant](/products/wnc-s40hss4+xch.html) of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
