@@ -163,9 +163,17 @@ section_id: products
         <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
       </div>
       <div class="brochure-container">
-					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">Subnero S40H Underwater Modems</a>
+      </div>
+      <div class="brochure-container">
+					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
 					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank">[Whitepaper] The Future of Underwater Wireless</a>
-				</div>
+			</div>
+      <div class="brochure-container">
+        <a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/uentstack-whitepaper.jpg"></a>
+				<a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank">[Whitepaper] Unlocking Underwater Connectivity</a>
+      </div>
     </div>
   </div>
 </div>
