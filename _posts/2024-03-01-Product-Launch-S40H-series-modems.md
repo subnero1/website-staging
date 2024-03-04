@@ -19,7 +19,7 @@ Designed to excel in challenging shallow water conditions, the S40H series intro
 - **Extended Range:** With the capability to provide wireless connectivity for a communication range up to 1 km, enabling unprecedented access in challenging conditions.
 - **Versatile Applications:** Equipped with advanced underwater communication algorithms, the S40H series unlocks a myriad of possibilities, including high-speed data transfer for underwater IoT applications, underwater image transfer, and large sensor payload data transfer for marine robotics.
 - **Enhanced Performance:** The [multi-channel variant](/products/wnc-s40hss4+xch.html) of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
-- **Powered by UnetStack:** Leveraging UnetStack, a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
+- **Powered by UnetStack:** Leveraging [UnetStack](https://unetstack.net/), a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
 - **Class-Leading Performance:** Combining a software-defined open architecture design with edge computing capability and machine learning-based link tuning features, these modems set a new standard for performance in the subsea wireless industry.
 
 The S40H series modems are officially launched during Oceanology International 2024, with immediate availability for orders. Shipping will commence during the summer of 2024.
