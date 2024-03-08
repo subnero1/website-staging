@@ -15,14 +15,15 @@ thumbnail: images/pulse-thumbnail-hf.jpg
 
 Designed to excel in challenging shallow water conditions, the S40H series introduces a groundbreaking blend of cutting-edge features:
 
-- **High Data Rates:** Utilizing a higher frequency band and boasting a larger bandwidth (25 kHz bandwidth, from 25 - 50 kHz band), the S40H series achieves data rates of up to 33 kbps, ensuring seamless connectivity even in the harshest underwater environments.
-- **Extended Range:** With the capability to provide wireless connectivity for a communication range up to 1 km, enabling unprecedented access in challenging conditions.
+- **Higher Data Rates:** Utilizing a higher frequency band and boasting a larger bandwidth (25 kHz bandwidth, from 25 - 50 kHz band), the S40H series achieves data rates of up to 33 kbps, ensuring seamless connectivity even in the harshest underwater environments.
+- **Extended Range:** Providing connectivity of up to 1 km, this series offers a competitive range in challenging conditions to enable your short-range deployments.
 - **Versatile Applications:** Equipped with advanced underwater communication algorithms, the S40H series unlocks a myriad of possibilities, including high-speed data transfer for underwater IoT applications, underwater image transfer, and large sensor payload data transfer for marine robotics.
 - **Enhanced Capability:** The [multi-channel variant](/products/wnc-s40hss4+xch.html) of the modem further enhances performance through robust links supported by leveraging spatial diversity combining techniques.
 - **Powered by UnetStack:** Leveraging [UnetStack](https://unetstack.net/), a versatile software framework for underwater communications and networking, the S40H series delivers unparalleled performance and adaptability.
 - **Class-Leading Performance:** Combining a software-defined open architecture design with edge computing capability and machine learning-based link tuning features, these modems set a new standard for performance in the subsea wireless industry.
 
-The S40H series modems are officially launched during Oceanology International 2024, with immediate availability for orders. Shipping will commence during the summer of 2024.
+
+Subnero is officially launching the S40H series modems at Oceanology International 2024, with immediate availability for orders. Shipping will commence during the summer of 2024. Drop by stand A103 at London Excel during 12 - 14 March for more details.
 
 *About Subnero:* Subnero serves defense, marine, subsea, offshore energy, and scientific research sectors with global customers, enabling a range of use cases in the most demanding conditions. For more information, visit [Subnero's website](https://subnero.com).
 
