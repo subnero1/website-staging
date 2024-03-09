@@ -2,11 +2,11 @@
   id: wnc-tab-one
   input_id: marine-robotics
   thumbnail: images/wnc-mr02.jpg
-  introduction: Offload the complexities of managing multiple communication interfaces, data types (e.g. telemetry, C2, payload), and attributes in your underwater vehicle to <span class='orange'>Ripple</span>.
+  introduction: Offload the complexities of managing multiple communication interfaces, data types (e.g. telemetry, C2, payload), and attributes in your underwater vehicle to <span class='orange'>UnetStack</span>.
   sections:
     - name: Single interface
       icon: link
-      description: Ripple exposes a single interface to manage all your communication interfaces, and devices, both above and below water.
+      description: UnetStack exposes a single interface to manage all your communication interfaces, and devices, both above and below water.
     - name: Multiple data types
       icon: database
       description: Content-aware prioritization, processing and routing for telemetry, C2, mission, and payload data types.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WNC-M25MSS4
-banner : images/banner-silver.jpg
+banner : images/banner-silver-mf.jpg
 thumbnail : images/thumbnail-wnc-m25mss4.png
 excerpt: Subnero silver edition underwater acoustic smart modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
@@ -52,7 +52,6 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
 | FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
 | JANUS support                          | Yes, subject to operating frequency band  |
-| Carrier frequency                      | 25 kHz                                    |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
 ### Software
@@ -61,14 +60,14 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | -------------------------------------- | ----------------------------------------- |
 | Framework                              | [UnetStack]({{ site.baseurl }}{%link products/unet.md %})|
 | User Interface                         | Interactive web UI                        |
-| Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia, Matlab|
+| Software Interfaces                    | Java, Groovy, Python, C, JavaScript, Julia|
 
 ### Electrical
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)< 1 mW (deep sleep mode)|
+| Power consumption                      | < 4 W (receive mode, nominal)<br>< 45 W (transmit mode, avg.)<br>< 1 mW (deep sleep mode)|
 | External interface                     | Ethernet (10/100 Mbps)*                   |
 | On-board storage                       | 32 GB*                                    |
 
@@ -77,7 +76,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Hull material                          | Aluminum*                                 |
-| Operating depth                        | 100 m*                                    |
+| Operating depth                        | 300 m*                                    |
 | Dimensions                             | ⌀ 127 ✕ 316 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 

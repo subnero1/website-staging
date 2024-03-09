@@ -54,7 +54,7 @@ section_id: products
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
-                <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S60H series).</li>
+                <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S40H series).</li>
                 <li>More than <span class='orange'>4 km</span> range in challenging conditions (M25M series).</li>
                 <li>Robust performance with communication profiles and link tuning.</li>
               </ul>
@@ -163,9 +163,17 @@ section_id: products
         <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
       </div>
       <div class="brochure-container">
-					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">Subnero S40H Underwater Modems</a>
+      </div>
+      <div class="brochure-container">
+					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
 					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank">[Whitepaper] The Future of Underwater Wireless</a>
-				</div>
+			</div>
+      <div class="brochure-container">
+        <a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/uentstack-whitepaper.jpg"></a>
+				<a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank">[Whitepaper] Unlocking Underwater Connectivity</a>
+      </div>
     </div>
   </div>
 </div>

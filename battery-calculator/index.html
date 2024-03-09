@@ -67,7 +67,7 @@ title: Battery Capacity Requirement Calculator for SWIS - ADCP Edition
                     <div class="bc-input bc-column radio">
                         <label>
                             <input v-model="recommended" type="radio" id="hf-input" value="hf" :disabled="distanceInput > 150">
-                            S60H series modems
+                            S40H series modems
                         </label>
                         <label>
                             <input v-model="recommended" type="radio" id="mf-input" value="mf" >
@@ -391,7 +391,7 @@ createApp( {
             let fc = null;
            if(recommended.value === 'hf' ){
             fc = setupVars.HF;
-            resultValues.recommended = 'S60H series modems';
+            resultValues.recommended = 'S40H series modems';
            }else if(recommended.value === 'mf') {
             fc = setupVars.MF;
             resultValues.recommended = 'M25M series modems';
