@@ -2,7 +2,7 @@
 layout: post
 title: New Product Launch - Subnero High-Speed Acoustic Smart Modems
 banner: images/banner-pulse-hf.jpg
-date:  2024-03-11
+date:  2024-03-01
 categories: wnc news
 thumbnail: images/pulse-thumbnail-hf.jpg
 ---
