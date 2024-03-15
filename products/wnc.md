@@ -171,7 +171,7 @@ section_id: products
 					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank">[Whitepaper] The Future of Underwater Wireless</a>
 			</div>
       <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/uentstack-whitepaper.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack-whitepaper.jpg"></a>
 				<a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank">[Whitepaper] Unlocking Underwater Connectivity</a>
       </div>
     </div>
