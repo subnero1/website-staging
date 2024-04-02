@@ -9,35 +9,34 @@ Subnero provides communications, networking, and robotics solutions to the sub-s
 At Subnero, we believe that quality is key since our reputation drives our success. Quality comes naturally when everyone owns the task they undertake, does it with pride, and gives it their best. We also practice a culture of openness and continual improvement, giving and accepting timely feedback. We don't believe in being constrained by conventional thinking -- no idea is too crazy to discuss! We like people who think out of the box, innovate, and come up with solutions that push the boundaries of what is possible.
 
 ---
-## Sales Executive
+## Field Engineer
 
-As a Sales Executive at Subnero, your role is pivotal in nurturing client relationships, driving business growth, and ensuring seamless sales processes. You'll be instrumental in expanding our market presence and fostering long-term partnerships.
+We are seeking a dedicated and skilled Field Engineer to join our team. In this role, you will collaborate closely with Project and Product Managers and Engineers to facilitate the testing of our products and solutions both in controlled lab environments and during field trials. You will be responsible for designing and executing comprehensive testing plans, ensuring the quality and performance of our offerings meet the highest standards.
 
 ### Roles & Responsibilities
-- Cultivate and expand existing client relationships, fostering growth and identifying new business opportunities.
-- Prepare quotations, engage in RFQs, and contribute to tender bids as needed, ensuring accuracy and timeliness.
-- Steer ongoing leads through the sales pipeline, driving them towards successful closures.
-- Coordinate customer activities, including meetings, follow-up sessions, and product demos, ensuring a smooth experience.
-- Implement post-sales follow-ups to secure repeat orders and maintain client satisfaction.
-- Manage and upkeep the CRM system for efficient tracking and organization of client interactions.
-- Actively participate in networking events during industry exhibitions and conferences to expand our reach and build connections.
-- Oversee the management of the company's sales exhibition booths and related activities, maximizing visibility and impact.
-- Responsible for regular sales newsletters to existing and potential customers, ensuring timely and engaging communication.
-- Collect market intelligence, analyze the competitor landscape, and conduct periodic market research to drive informed sales strategies.
+- Collaborate with Project and Product Managers to organize field testing and demonstrations for Subnero's products and solutions.
+- Assist in the setup and configuration for customer demonstrations, test setups and field activities, including procuring necessary equipment, resources, and permits.
+- Design and develop protocols and procedures for a variety of internal and external projects and product/solution developments.
+- Execute test/demonstration plans in field locations, assessing product performance and functionality under real-world scenarios against a defined metric.
+- Collect and analyze data obtained from field deployments, identifying trends, anomalies, and areas for improvement.
+- Work closely with engineering and development teams to communicate test results, provide feedback, and contribute to product development.
+- Assist in troubleshooting technical issues encountered during testing and demonstration, working with the development engineers to find optimal solutions.
+- Maintain accurate records of activities, including test cases, results, and observations.
+- Collaborate with cross-functional teams to ensure alignment of testing and demonstration efforts with project timelines and objectives.
 
 ### Qualifications
-- Two (2) or more years of relevant experience in sales. Fresh graduates with the right attitude are welcome to apply.
-- BS/MS degree in business administration or a related field.
-- Sales experience in telecom or marine & subsea sectors is a plus.
-- Proven track record of driving independent sales plans and achieving targets.
-- Background in technology with familiarity with wireless technologies or the telecom sector is advantageous.
-- Proficiency in utilizing software-focused systems and processes for efficient daily workflow management is essential for this role.
-- Good spoken and written English.
-- Excellent communication and interpersonal skills with a strong attention to detail.
+- Bachelor's degree in Computer/Electrical Engineering, Computer Science, or a related field. Fresh graduates are welcome to apply.
+- Experience in basic software engineering to troubleshoot issues and develop simple test scripts.
+- Demonstrated experience in assisting Project and Product Managers with organizing and executing field activities and creating and implementing testing plans.
+- Strong analytical skills with attention to detail.
+- Effective communication and interpersonal skills, with the ability to work collaboratively in a team environment.
+- Willingness to travel and work in various field locations as required including on boats in local waters of Singapore.
+- Knowledge of relevant industry standards and regulations is a plus.
 - Ability to work independently across multiple time zones is a must.
-- Comfortable operating within a startup environment.
+- Comfortable operating within a fast-paced environment.
 
-> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/sales/sales-executive-subnero-e707c127859e1b5ac4e50b9ee19b7331)
+
+> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/076c10db3ddd115c6da09c6ec9e45512)
 
 ---
 
