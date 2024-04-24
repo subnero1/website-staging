@@ -40,3 +40,26 @@ We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, 
 > My Careers Future [link](https://www.mycareersfuture.gov.sg/job/076c10db3ddd115c6da09c6ec9e45512)
 
 ---
+
+## Embedded Software Engineer (Linux Based Platforms)
+You will be involved in developing and deploying embedded software and frameworks for various Subnero product offerings. As a part of the software team at Subnero, you will be working closely with the hardware team to develop software for core Subnero products in the domain of underwater networking and robotics.
+
+#### Roles & Responsibilities
+- Design, develop, and test software on embedded / Linux platforms in C/C++/Java/Groovy/Julia/Rust.
+- Setup, build and manage embedded Linux systems on hardware platforms developed in-house.
+- Design, develop, and test Linux drivers, such as Ethernet, USB, I2C, SPI, and UART.
+- Design, develop and test software for micro-controllers.
+- Support electronics hardware design.
+
+#### Qualifications
+- Bachelor's degree in engineering or equivalent practical experience.
+- 4 or more years of relevant experience designing, debugging and supporting software development on embedded / Linux platforms.
+- Strong design and programming skills in C/C++/Java/Groovy in Linux/Unix environments. Experience in Python, Julia, and Rust is a plus.
+- Experience with working on ARM-based embedded Linux platforms. Experience with systems like Yocto, and Buildroot is a plus.
+- Experience designing and developing software for micro-controllers. Experience with ARM-Cortex-M micro-controllers is a plus.
+- Experience low-level software bring up of embedded platforms.
+- Strong understanding of networking (TCP/IP), socket APIs, inter-process communications, concurrent programming, and RTOS.
+- Ability to work independently on multiple large, individual projects, or major segments of complex company-wide projects.
+- Comfortable working in a startup-like environment.
+
+---
