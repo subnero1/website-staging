@@ -26,7 +26,7 @@ We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, 
 
 
 ### Qualifications
-- Bachelor’s degree in Electrical Engineering, Mechanical Engineering, Ocean Engineering, or a related field.
+- Bachelor’s degree in engineering, or a related field.
 - Proven experience in subsea engineering, IoT deployment, or underwater robotics, preferably in an offshore or marine environment.
 - Experience in subsea system communication protocols, such as acoustic modems, RF communication, and satellite communication is preferred.
 - Proficiency in programming languages commonly used in IoT applications, such as Python, C/C++, Java/Groovy.
