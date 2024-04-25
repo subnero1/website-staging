@@ -9,7 +9,7 @@ Subnero provides communications, networking, and robotics solutions to the sub-s
 At Subnero, we believe that quality is key since our reputation drives our success. Quality comes naturally when everyone owns the task they undertake, does it with pride, and gives it their best. We also practice a culture of openness and continual improvement, giving and accepting timely feedback. We don't believe in being constrained by conventional thinking -- no idea is too crazy to discuss! We like people who think out of the box, innovate, and come up with solutions that push the boundaries of what is possible.
 
 ---
-## Subsea IoT Deployment Engineer
+## Subsea IoT Engineer
 We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, you will collaborate closely with Project and Product Managers and Engineers to facilitate the testing of our products and solutions both in controlled lab environments and during fields trials at sea or in marina environments. You will be responsible for designing and executing comprehensive test plans, ensuring the quality and performance of our offerings meet the highest standards.
 
 
