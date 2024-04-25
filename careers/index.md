@@ -10,7 +10,7 @@ At Subnero, we believe that quality is key since our reputation drives our succe
 
 ---
 ## Subsea IoT Engineer
-We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, you will collaborate closely with Project and Product Managers and Engineers to facilitate the testing of our products and solutions both in controlled lab environments and during fields trials at sea or in marina environments. You will be responsible for designing and executing comprehensive test plans, ensuring the quality and performance of our offerings meet the highest standards.
+We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, you will collaborate closely with Product Managers and Engineers to facilitate testing our products and solutions in controlled lab environments as well as during field trials at sea. You will be responsible for designing and executing comprehensive test plans, ensuring the quality and performance of our offerings meet the highest standards.
 
 
 ### Roles & Responsibilities
