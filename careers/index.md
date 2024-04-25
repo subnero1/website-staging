@@ -49,7 +49,7 @@ You will be involved in developing and deploying embedded software for various S
 - Setup, build and manage embedded Linux systems on hardware platforms developed in-house.
 - Design, develop, and test Linux drivers, such as Ethernet, USB, I2C, SPI, and UART.
 - Design, develop and test software for micro-controllers.
-- Support electronics hardware design.
+- Support electronics hardware design team with design inputs and software for prototyping and testing.
 
 #### Qualifications
 - Bachelor's degree in engineering or equivalent practical experience.
