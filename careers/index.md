@@ -41,7 +41,7 @@ We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, 
 
 ---
 
-## Embedded Software Engineer (Linux Based Platforms)
+## Systems Software Engineer
 You will be involved in developing and deploying embedded software and frameworks for various Subnero product offerings. As a part of the software team at Subnero, you will be working closely with the hardware team to develop software for core Subnero products in the domain of underwater networking and robotics.
 
 #### Roles & Responsibilities
