@@ -30,7 +30,7 @@ We are seeking a Subsea IoT Deployment Engineer to join our team. In this role, 
 - Proven experience in subsea engineering, IoT deployment, or underwater robotics, preferably in an offshore or marine environment.
 - Experience with communication protocols, such as acoustic modems, RF communication, or satellite communication will be valuable.
 - Proficiency in programming languages commonly used in IoT applications, such as Python, C/C++, Java/Groovy.
-- Familiarity with subsea sensors, actuators, data loggers, and other instrumentation used for environmental monitoring and control.
+- Familiarity with subsea sensors, actuators, data loggers, and other instrumentation used for environmental monitoring and control would be valuable.
 - Experience with project management methodologies, including planning, scheduling, budgeting, and risk management.
 - Excellent problem-solving skills and the ability to work effectively in challenging and dynamic environments.
 - Strong communication skills, both written and verbal, with the ability to interact professionally with clients, vendors, and team members.
