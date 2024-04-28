@@ -62,4 +62,6 @@ You will be involved in developing and deploying embedded software for various S
 - Ability to work independently on multiple large, individual projects, or major segments of complex company-wide projects.
 - Comfortable working in a startup-like environment.
 
+> My Careers Future [link](https://www.mycareersfuture.gov.sg/job/engineering/systems-software-engineer-subnero-48f0a93689911e0963cf121f2f703180)
+
 ---
