@@ -20,22 +20,22 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <div class='centered-text'>
             <i class='icon fa fa-landmark'></i> 
             <h2 align="center">Our company</h2>
-            <p class='about-text-padding'>Subnero is a Singapore-based company providing cutting-edge products and solutions for in-water wireless networks.</p>
+            <p class='about-text-padding'>Subnero is a Singapore-based company providing industry leading products and solutions for in-water wireless networks.</p>
         </div>
     </div>
     <div class='large-3 columns bg-grey column-margin'>
         <div class='centered-text'>
             <i class='icon fa fa-hands-helping'></i>
             <h2 align="center">Our mission</h2>
-            <p class='about-text-padding'>To offer high-quality in-water communication, navigation, monitoring, and sensing solutions through continuous innovation.</p>
-        </div>            
+            <p class='about-text-padding'>To offer innovative high-quality in-water communication, navigation, monitoring, and sensing solutions.</p>
+        </div>
     </div>
     <div class='large-3 columns bg-grey column-margin'>
         <div class='centered-text'>
             <i class='icon fa fa-hand-holding-water'></i>
             <h2 align="center"> Our vision</h2>
             <p class='about-text-padding'>To be the de-facto standard for in-water communication and sensing networks.</p>
-        </div>            
+        </div>
     </div>
 </div>
 <div class='three spacing'></div>
@@ -93,7 +93,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
             <p>Thank you Subnero for excellent Software-defined underwater acoustic modems! I am so glad to finally see something that can actually run developed software seamlessly on hardware without further modifications.</p>
             <h3 class='author'>Jay Patel</h3>
             <p class='author'>PhD student, <a href='https://www.dal.ca/' target="_blank">University of Dalhousie</a></p>
-        </div>            
+        </div>
     </div>
 </div>
 <div class='four spacing'></div>
