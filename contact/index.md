@@ -7,7 +7,7 @@ address: |
     #04-05
     Singapore 159836
 phone: +65 9819 9552
-email: info@subnero.com
+email: sales@subnero.com
 directions: 
   mode: BY TRAIN
   steps: |

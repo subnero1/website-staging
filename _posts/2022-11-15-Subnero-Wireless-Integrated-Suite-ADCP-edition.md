@@ -37,4 +37,4 @@ All of these not only makes your experience of deploying and managing multiple A
 
 After attending a local demonstration, Bob Coutts, Survey Business Development at Bintang Subsea noted “SWIS opens up new possibilities for the efficient and reliable acquisition of subsea sensor data.”
 
-Contact us at info@subnero.com for more information, quotation or request for a demo.
+Contact us at sales@subnero.com for more information, quotation or request for a demo.

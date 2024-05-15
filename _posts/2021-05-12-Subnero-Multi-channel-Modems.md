@@ -31,4 +31,4 @@ For power users, the full potential of the device can be harnessed through the c
 
 We hope you find our multi-channel modems exciting.
 
-We love to hear from you. Let us know your thoughts and comments through info@subnero.com.
+We love to hear from you. Let us know your thoughts and comments through sales@subnero.com.
