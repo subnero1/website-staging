@@ -69,7 +69,7 @@ section_id: home
         <h3 class="thin">What's new? </h3>
         <div class="latest-news">
           {% for post in site.posts limit:3 %}
-            <a href="{{site.url}}/{{post.url}}">{{ post.title }}</a>
+            <a href="{{site.url}}{{post.url}}">{{ post.title }}</a>
           {% endfor %}
         </div>
       </div>
