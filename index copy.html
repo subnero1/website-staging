@@ -25,30 +25,22 @@ section_id: home
       <section class='top-bar-section'>
         <ul class="right">
           {% for item in site.data.nav %}
-            {% if item.section_id == page.section_id %}
-              {% assign active_class = "active" %}
-            {% else %}
-              {% assign active_class = "" %}
-            {% endif %}
-  
-            {% if item.submenu %}
-            <li class="has-dropdown {{ active_class }}" >
-              <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-              {% if item.submenu %}
-              <ul class="submenu">
-                <li><a href="{{ site.baseurl}}/{{ item.path }}">All</a></li>
-              {% for entry in item.submenu %}
-                <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
-              {% endfor %}
-              </ul>
-              {% endif %}
-            </li>
-            {% else %}
-            <li class="{{active_class}}">
-              <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-            </li>
+          {% if item.section_id == page.section_id %}
+            {% assign active_class = "active" %}
+          {% else %}
+            {% assign active_class = "" %}
           {% endif %}
+          <li class="{{active_class}}" >
+            <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+            {% if item.submenu %}
+            <ul class="submenu">
+            {% for entry in item.submenu %}
+              <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
             {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
         </ul>
       </section>
     </nav>

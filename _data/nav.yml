@@ -23,6 +23,19 @@
 - name: About
   path: about/
   section_id: about
+- name: Resources
+  path: ./#
+  section_id: resources
+  submenu:
+  - name: Training & Support
+    path: /support
+    section_id: support
+  - name: FAQ
+    path: /faq
+    section_id: faq
+  - name: Quick Links
+    path: /quicklinks
+    section_id: quicklinks
 - name: Contact
   path: contact/
   section_id: contact

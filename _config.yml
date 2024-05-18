@@ -6,6 +6,9 @@ twitter_username: subnero
 github_username:  subnero1
 default_image: images/pulse-thumbnail-default.jpg
 
+collections:
+  - faq
+
 # Build settings
 markdown: kramdown
 encoding:    UTF-8
