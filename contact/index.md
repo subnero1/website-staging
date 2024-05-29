@@ -7,7 +7,8 @@ address: |
     #04-05
     Singapore 159836
 phone: +65 9819 9552
-email: info@subnero.com
+email1: info@subnero.com (General enquiries)
+email2: sales@subnero.com (Sales enquiries)
 directions: 
   mode: BY TRAIN
   steps: |
@@ -25,7 +26,8 @@ directions:
     <div class="vcard">
     	<p class="distributor-addr">{{ page.address }}</p>
     	<p class="adr">{{ page.phone }}</p>
-    	<p class="adr">{{ page.email }}</p>
+    	<p class="adr">{{ page.email1 }}</p>
+      <p class="adr">{{ page.email2 }}</p>
       <!-- Begin MailChimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
       <div id="mc_embed_signup">
