@@ -1,17 +1,23 @@
-- name: General
-  link: general
 - name: WNC
   link: WNC
   submenu:
+  - name: General
+    link: wnc-general
   - name: Editions & Configurations
     link: editions-configurations
-  - name: Hardware (Mechanical, Electrical, Accessories)
-    link: hardware
-  - name: Performance
-    link: performance
+  - name: Communication
+    link: communication
+  - name: Positioning
+    link: positioning
+  - name: Software
+    link: software
+  - name: Compatibility
+    link: compatibility
   - name: Other Features
     link: other-features
-  - name: Software, UnetStack & Communication Algorithms
-    link: software
-- name: SWIS - ADCP Edition
-  link: swis-adcp
+  - name: Accessories & Upgrades
+    link: accessories-upgrades
+- name: SWIS
+  link: swis
+- name: General
+  link: general
