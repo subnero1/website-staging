@@ -147,7 +147,7 @@ section_id: products
         <div class='flex-col bg-white card-content'>
           <h2>Bands</h2>
           <p>Available in different frequency bands for various applications.</p>
-          <img src='{{site.baseurl}}/images/wnc-configuration.png'>
+          <img src='{{site.baseurl}}/images/wnc-bands.png'>
         </div>
       </div>
     </div>
