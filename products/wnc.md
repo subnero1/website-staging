@@ -128,23 +128,23 @@ section_id: products
     <div class='row accordion-row swan-position'>
       <h1 class='section-heading bg-white heading-padding'>Editions, Configurations and Bands</h1>
     </div>
-    <div class='row row-width row-padding-bottom'>
+    <div class='container row row-width row-padding-bottom'>
       <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content card-spacing'>
           <h2>Editions</h2>
           <p>Available three editions: the platinum, silver and research editions.</p>
           <img src='{{site.baseurl}}/images/wnc-edition.png'>
         </div>
       </div>
       <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content card-spacing'>
           <h2>Configurations</h2>
           <p>Available in various configurations for multiple deployment scenarios.</p>
           <img src='{{site.baseurl}}/images/wnc-configuration.png'>
         </div>
       </div>
       <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content'>
+        <div class='flex-col bg-white card-content card-spacing'>
           <h2>Bands</h2>
           <p>Available in different frequency bands for various applications.</p>
           <img src='{{site.baseurl}}/images/wnc-bands.png'>

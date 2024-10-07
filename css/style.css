@@ -6249,6 +6249,10 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin:5em 3.5em 2em;
 }
 
+.card-content.card-spacing {
+  margin: 2rem 0 0 !important;
+}
+
 .card-content h2{
   border-bottom: 2px solid #E6782F;
 }
