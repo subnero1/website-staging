@@ -1,6 +1,19 @@
 - name: Products
   path: products/
   section_id: products
+  submenu:
+  - name: S40H Series
+    path: /products/modem.html?&section=S40Hseries
+    section_id: s40h
+  - name: L12L series
+    path: /products/modem.html?&section=L12Lseries
+    section_id: l12l
+  - name: M25M series
+    path: /products/modem.html?&section=M25Mseries
+    section_id: m25m
+  - name: Unetstack
+    path: /products/unet
+    section_id: unetstack
 - name: Solutions
   path: solutions/
   section_id: solutions

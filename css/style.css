@@ -1050,6 +1050,57 @@ ul.info i:hover {
   color: #fff;
 }
 
+/* top menu */
+.top-bar-section ul li {
+  position: relative !important;
+  cursor: pointer;
+}
+.top-bar-section ul.submenu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 180px;
+  padding: 1.6rem 1.8rem;
+  min-height: 100px;
+  white-space: nowrap;
+  border-radius: 4px;
+  background-color: rgb(255 255 255 / 100%);
+  box-shadow: 0px 8px 13px 2px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.top-bar-section ul.submenu li {
+  float: none;
+  background-color: transparent !important;
+}  
+.top-bar-section ul.submenu li + li {
+  margin-top: 8px;
+}
+.top-bar-section ul.submenu li a {
+  height: auto !important;
+  line-height: 1 !important;
+  color: #999 !important; 
+  padding: 4px 0 !important;
+}
+.top-bar-section ul.submenu li a:hover {
+  color: #E6782F !important;
+}
+.top-bar-section ul li:hover ul.submenu {
+  display: block !important;
+}
+.top-bar-section ul > li:hover a[href^="/."] {
+  pointer-events: none;
+  color: #E6782F !important;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background-color: #fff;
+}
+.top-bar-section ul.submenu li:last-child {
+  border-top: 1px solid #cccccc;
+  padding-top: 9px;
+  margin-top: 12px
+}
+
 /*Contact page */
 .contact-details h4 {
   margin-bottom: 5px;

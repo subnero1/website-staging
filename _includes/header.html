@@ -4,7 +4,7 @@
       <li class='name'>
         <h1>
           <a href='{{site.baseurl}}/'>
-            <img alt="" src="{{site.baseurl}}/images/subnero_logo_small.png" />
+            <img class="subnero-logo" alt="Subnero" src="{{site.baseurl}}/images/subnero_logo_small.png" />
           </a>
         </h1>
       </li>
@@ -21,23 +21,23 @@
             {% assign active_class = "" %}
           {% endif %}
 
-          {% if item.children %}
-            <li class="has-dropdown {{active_class}}">
-              <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-              <ul class='dropdown'>
-                {% for child in item.children %}
-                  <li>
-                    <a href="{{site.baseurl}}/{{ child.path }}">{{ child.name }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </li>
+          {% if item.submenu %}
+          <li class="has-dropdown {{ active_class }}" >
+            <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+            {% if item.submenu %}
+            <ul class="submenu">
+            {% for entry in item.submenu %}
+              <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
           {% else %}
-            <li class="{{active_class}}">
-              <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-            </li>
-          {% endif %}
-        {% endfor %}
+          <li class="{{active_class}}">
+            <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+          </li>
+        {% endif %}
+          {% endfor %}
       </ul>
     </section>
   </nav>
