@@ -23,6 +23,7 @@ Offering communication ranges exceeding 10 km or up to 8 kbps of data rate, the 
 
 - More than 10 km communication range in tropical waters\*.
 - Up to 8 kbps data rate\*.
+- Support for NATO JANUS standard
 - Ranging functionality with 0.1 m precision.
 - Doppler resilience of ±4 knots or better.
 - Support for coherent and incoherent communication schemes.
