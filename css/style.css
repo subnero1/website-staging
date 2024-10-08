@@ -1081,6 +1081,7 @@ ul.info i:hover {
   line-height: 1 !important;
   color: #999 !important; 
   padding: 4px 0 !important;
+  text-transform: capitalize;
 }
 .top-bar-section ul.submenu li a:hover {
   color: #E6782F !important;
