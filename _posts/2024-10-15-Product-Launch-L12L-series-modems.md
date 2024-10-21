@@ -4,10 +4,15 @@ title: New Product Launch - Subnero Long Range Acoustic Smart Modems
 banner: images/banner-pulse-lf.jpg
 date:  2024-10-5
 categories: wnc news
-thumbnail: images/pulse-thumbnail-hf.jpg
+thumbnail: images/pulse-thumbnail-lf.jpg
 ---
 
 Subnero Launches the L12L Series: Advanced Long-Range Acoustic Smart Modems for Underwater Communication
+
+<div class='pulse-img-div'>
+    <img src="{{site.baseurl}}/images/pulse-lf-pr.jpg" class='pulse-img'>
+</div>
+
 
 Subnero is proud to announce the release of the L12L series, a cutting-edge addition to our family of underwater acoustic smart modems. Designed specifically for long-range subsea wireless communication, the L12L series is engineered to deliver exceptional performance in even the most challenging underwater environments. With a communication range exceeding 10 km or data rates configurable up to 8 kbps, this modem is ideal for applications requiring robust, reliable, and efficient wireless communication in difficult conditions.
 
