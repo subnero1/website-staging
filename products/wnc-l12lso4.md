@@ -10,7 +10,7 @@ section_id: products
 
 ## Silver Edition OEM Configuration Modem
 
-Offering communication ranges exceeding 10 km or up to 8 kbps of data rate, the L12L series of acoustic smart modems are designed for long-range subsea wireless communications in challenging environments. With features like an ultra-low power deep sleep state consuming less than 1 mW, precise localization and ranging, and arbitrary waveform transmission and recording capabilities, these modems are optimized for high-efficiency underwater operations.
+Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the L12L series of acoustic smart modems are designed for long-range subsea wireless communications in challenging environments. With features like an ultra-low power deep sleep state consuming less than 1 mW, precise localization and ranging, and arbitrary waveform transmission and recording capabilities, these modems are optimized for high-efficiency underwater operations.
 
 ## Applications
 
