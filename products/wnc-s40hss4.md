@@ -57,7 +57,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
-| FEC (Forward Error Correction)         | LDPC (up to 1/6 rate code)                |
+| FEC (Forward Error Correction)         | LDPC, BCH, Convolution code               |
 | Bandwidth                              | 25 kHz (25 - 50 kHz)                      |
 
 ### Software

@@ -57,7 +57,7 @@ Offering communication ranges exceeding 10 km and up to 8 kbps of data rate, the
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
-| FEC (Forward Error Correction)         | LDPC, Convolution code                    |
+| FEC (Forward Error Correction)         | LDPC, BCH, Convolution code               |
 | Bandwidth                              | 7 kHz (9 - 16 kHz)                        |
 
 ### Software

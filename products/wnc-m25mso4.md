@@ -50,7 +50,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Modulation (software defined)          | PSK-OFDM, FH-BFSK                         |
-| FEC (Forward Error Correction)         | - LDPC (up to 1/6 rate code)<br>- JANUS (1/2 rate convolution code)|
+| FEC (Forward Error Correction)         | LDPC, BCH, Convolution code               |
 | JANUS support                          | Yes, subject to operating frequency band  |
 | Bandwidth                              | 12 kHz (20 - 32 kHz)                      |
 
