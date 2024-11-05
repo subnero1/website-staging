@@ -37,6 +37,8 @@ The Marketing and Customer Engagement Specialist will play a role in supporting 
 - Proactive, customer-focused attitude with the ability to manage multiple tasks simultaneously.
 - Prior experience in customer support or account management is an advantage.
 
+[Mycareersfuture Link](https://www.mycareersfuture.gov.sg/job/9b7cd2844e9f77ebda3b2596c35ac6b3)
+
 Email hr (at) subnero (dot) com with your applications. 
 
 ---
