@@ -2,7 +2,7 @@
 layout: default
 title: Products - Subnero
 banner : images/banner-products.jpg
-excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking and SWAN for real-time water-quality monitoring.
+excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking.
 ---
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
@@ -32,13 +32,13 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
                 </a>
               </div>
               <div class='modem-type'>
-                <a href='{{site.baseurl}}/brochures/WNC-whitepaper.pdf' target="_blank">
-                  <button class='button-outline'>Whitepaper</button>
+                <a href='{{site.baseurl}}/products/modem.html?&section=S40Hseries'>
+                  <button class='button-outline'>S40H series</button>
                 </a>
               </div>
               <div class='modem-type'>
-                <a href='{{site.baseurl}}/products/modem.html?&section=S40Hseries'>
-                  <button class='button-outline'>S40H series</button>
+                <a href='{{site.baseurl}}/products/modem.html?&section=L12Lseries'>
+                  <button class='button-outline'>L12L series</button>
                 </a>
               </div>
               <div class='modem-type'>

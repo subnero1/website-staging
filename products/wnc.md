@@ -55,7 +55,7 @@ section_id: products
             <div class='content-1'>
               <ul>
                 <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S40H series).</li>
-                <li>More than <span class='orange'>4 km</span> range in challenging conditions (M25M series).</li>
+                <li>More than <span class='orange'>10 km</span> range in challenging conditions (L12L series).</li>
                 <li>Robust performance with communication profiles and link tuning.</li>
               </ul>
             </div>
@@ -126,21 +126,28 @@ section_id: products
   <div class='swan-position'>
     <div class="swan-overlay"></div>
     <div class='row accordion-row swan-position'>
-      <h1 class='section-heading bg-white heading-padding'>Editions and Configurations</h1>
+      <h1 class='section-heading bg-white heading-padding'>Editions, Configurations and Bands</h1>
     </div>
-    <div class='row row-width row-padding-bottom'>
-      <div class='large-6 columns'>
-        <div class='flex-col bg-white card-content'>
+    <div class='container row row-width row-padding-bottom'>
+      <div class='large-4 columns'>
+        <div class='flex-col bg-white card-content card-spacing'>
           <h2>Editions</h2>
-          <p>WNC series is available in three editions: the platinum, silver and research editions.</p>
+          <p>Available three editions: the platinum, silver and research editions.</p>
           <img src='{{site.baseurl}}/images/wnc-edition.png'>
         </div>
       </div>
-      <div class='large-6 columns'>
-        <div class='flex-col bg-white card-content'>
+      <div class='large-4 columns'>
+        <div class='flex-col bg-white card-content card-spacing'>
           <h2>Configurations</h2>
-          <p>WNC series is available in various configurations to enable different deployment scenarios.</p>
+          <p>Available in various configurations for multiple deployment scenarios.</p>
           <img src='{{site.baseurl}}/images/wnc-configuration.png'>
+        </div>
+      </div>
+      <div class='large-4 columns'>
+        <div class='flex-col bg-white card-content card-spacing'>
+          <h2>Bands</h2>
+          <p>Available in different frequency bands for various applications.</p>
+          <img src='{{site.baseurl}}/images/wnc-bands.png'>
         </div>
       </div>
     </div>
@@ -165,6 +172,10 @@ section_id: products
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
         <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">Subnero S40H Underwater Modems</a>
+      </div>
+      <div class="brochure-container">
+        <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem7.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">Subnero L12L Underwater Modems</a>
       </div>
       <div class="brochure-container">
 					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
