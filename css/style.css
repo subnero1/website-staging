@@ -1097,7 +1097,7 @@ ul.info i:hover {
   background-color: #fff;
 }
 .top-bar-section ul.submenu li:last-child {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid rgba(200,200,200,0.5);
   padding-top: 9px;
   margin-top: 12px
 }
@@ -4424,6 +4424,18 @@ input[type="range"]::-webkit-slider-thumb {
   .latest-news a {
     font-size: 1.2rem;
   }
+  .top-bar-section .has-dropdown ul.submenu {
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 0;
+    padding-top: 0;
+    padding-left: 32px;
+    background-color: #333333;
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
+    background-color: transparent;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -5703,6 +5715,9 @@ hr {
     display: flex;
     -ms-flex-align: start;
     align-items: flex-start;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 *, ::after, ::before {
     box-sizing: border-box;
@@ -6092,8 +6107,8 @@ div.tab-columns input:nth-child(5):checked ~ .tab-panels div.tab-panel:nth-child
 }
 
 .media .modem-type{
-  padding-top: 3em;
-  margin-right: 1em;
+  /* padding-top: 3em; */
+  /* margin-right: 1em; */
   align-self: flex-end;
 }
 
