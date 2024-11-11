@@ -23,9 +23,10 @@
 
           {% if item.submenu %}
           <li class="has-dropdown {{ active_class }}" >
-            <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+            <a href="#">{{ item.name }}</a>
             {% if item.submenu %}
             <ul class="submenu">
+              <li><a href="{{ site.baseurl}}/{{ item.path }}">All</a></li>
             {% for entry in item.submenu %}
               <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
             {% endfor %}

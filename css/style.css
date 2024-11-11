@@ -4336,7 +4336,7 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 0 20px;
   }
   .contain-to-grid .top-bar-section .has-dropdown > a:after {
-    top: 50%;
+    top: 26px;
   }
 
   .contain-to-grid.alt .top-bar-section ul li > a {
@@ -4423,6 +4423,13 @@ input[type="range"]::-webkit-slider-thumb {
   }
   .latest-news a {
     font-size: 1.2rem;
+  }
+  .top-bar-section .has-dropdown > a {
+    pointer-events: none;
+  }
+  .top-bar-section .has-dropdown:hover,
+  .top-bar-section .has-dropdown:active {
+    background-color: #333;
   }
   .top-bar-section .has-dropdown ul.submenu {
     display: block;
