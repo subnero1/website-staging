@@ -4428,8 +4428,9 @@ input[type="range"]::-webkit-slider-thumb {
     pointer-events: none;
   }
   .top-bar-section .has-dropdown:hover,
-  .top-bar-section .has-dropdown:active {
-    background-color: #333;
+  .top-bar-section .has-dropdown:active,
+  .top-bar-section .has-dropdown > a {
+    background-color: #333 !important;
   }
   .top-bar-section .has-dropdown ul.submenu {
     display: block;

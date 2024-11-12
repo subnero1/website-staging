@@ -23,7 +23,7 @@
 
           {% if item.submenu %}
           <li class="has-dropdown {{ active_class }}" >
-            <a href="#">{{ item.name }}</a>
+            <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
             {% if item.submenu %}
             <ul class="submenu">
               <li><a href="{{ site.baseurl}}/{{ item.path }}">All</a></li>
