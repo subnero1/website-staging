@@ -1060,8 +1060,8 @@ ul.info i:hover {
   position: absolute;
   top: 70px;
   left: 0;
-  width: 180px;
-  padding: 1.6rem 1.8rem;
+  width: 200px;
+  padding: 1.4rem;
   min-height: 100px;
   white-space: nowrap;
   border-radius: 4px;
@@ -1071,10 +1071,11 @@ ul.info i:hover {
 }
 .top-bar-section ul.submenu li {
   float: none;
+  padding: 4px 2px;
   background-color: transparent !important;
 }  
 .top-bar-section ul.submenu li + li {
-  margin-top: 8px;
+  border-top: 1px solid rgba(200,200,200,0.5);
 }
 .top-bar-section ul.submenu li a {
   height: auto !important;
@@ -1095,11 +1096,6 @@ ul.info i:hover {
 }
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background-color: #fff;
-}
-.top-bar-section ul.submenu li:last-child {
-  border-top: 1px solid rgba(200,200,200,0.5);
-  padding-top: 9px;
-  margin-top: 12px
 }
 
 /*Contact page */
