@@ -11,7 +11,7 @@
   - name: M25M series
     path: /products/modem.html?&section=M25Mseries
     section_id: m25m
-  - name: Unetstack
+  - name: UnetStack
     path: /products/unet
     section_id: unetstack
 - name: Solutions
