@@ -1074,9 +1074,9 @@ ul.info i:hover {
   padding: 4px 2px;
   background-color: transparent !important;
 }  
-.top-bar-section ul.submenu li + li {
+/* .top-bar-section ul.submenu li + li {
   border-top: 1px solid rgba(200,200,200,0.5);
-}
+} */
 .top-bar-section ul.submenu li a {
   height: auto !important;
   line-height: 1 !important;
@@ -1096,6 +1096,13 @@ ul.info i:hover {
 }
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background-color: #fff;
+}
+
+.top-bar-section ul.submenu li:nth-last-child(2), 
+.top-bar-section ul.submenu li:first-child {
+  border-bottom: 1px solid rgba(200,200,200,0.5);
+  margin-bottom: 2px;
+  padding-bottom: 8px;
 }
 
 /*Contact page */
