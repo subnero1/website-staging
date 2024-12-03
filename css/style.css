@@ -1059,8 +1059,8 @@ ul.info i:hover {
   position: absolute;
   top: 70px;
   left: 0;
-  min-width: 100%;
-  padding: 1.6rem 1.8rem;
+  width: 200px;
+  padding: 1.4rem;
   min-height: 100px;
   white-space: nowrap;
   border-radius: 4px;
@@ -1070,16 +1070,15 @@ ul.info i:hover {
 }
 .top-bar-section ul.submenu li {
   float: none;
+  padding: 4px 2px;
   background-color: transparent !important;
 }  
-.top-bar-section ul.submenu li + li {
-  margin-top: 12px;
-}
 .top-bar-section ul.submenu li a {
   height: auto !important;
   line-height: 1 !important;
   color: #999 !important; 
   padding: 4px 0 !important;
+  text-transform: capitalize;
 }
 .top-bar-section ul.submenu li a:hover {
   color: #E6782F !important;
@@ -1091,7 +1090,16 @@ ul.info i:hover {
   pointer-events: none;
   color: #E6782F !important;
 }
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background-color: #fff;
+}
 
+.top-bar-section ul.submenu.products li:nth-last-child(2), 
+.top-bar-section ul.submenu.products li:first-child {
+  border-bottom: 1px solid rgba(200,200,200,0.5);
+  margin-bottom: 2px;
+  padding-bottom: 8px;
+}
 
 /*Contact page */
 .contact-details h4 {
@@ -1206,8 +1214,7 @@ form input.error, form textarea.error {
 .links {
   margin-bottom: 0;
   width: 50%;
-  text-align: right;
-  padding-right: 6rem;
+  text-align: center;
 }
 .links ul {
   margin: 0;
@@ -4493,7 +4500,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 961px) {
 
   .modTeamMember .overlay {
     opacity: 1;
@@ -4640,10 +4647,24 @@ input[type="range"]::-webkit-slider-thumb {
   .latest-news a {
     font-size: 1.2rem;
   }
-  .top-bar-section ul.submenu {
+  .top-bar-section .has-dropdown > a {
+    pointer-events: none;
+  }
+  .top-bar-section .has-dropdown:hover,
+  .top-bar-section .has-dropdown:active,
+  .top-bar-section .has-dropdown > a {
+    background-color: #333 !important;
+  }
+  .top-bar-section .has-dropdown ul.submenu {
     display: block;
-    position: static;
-    padding: 0 0 0 3rem;
+    position: relative;
+    width: 100%;
+    top: 0;
+    padding-top: 0;
+    padding-left: 32px;
+    background-color: #333333;
+  }
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
     background-color: transparent;
   }
 }
@@ -4826,6 +4847,11 @@ input[type="range"]::-webkit-slider-thumb {
     display: none;
   }
 
+  /* .fullscreen .layer {
+    top: 50%;
+    padding: 20px;
+  } */
+
   .fullscreen .layer h1 {
     font-size: 40px;
   }
@@ -4846,6 +4872,7 @@ input[type="range"]::-webkit-slider-thumb {
     color:#222;
   }
 }
+
 
 /*
   ##Device = Desktops
