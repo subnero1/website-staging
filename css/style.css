@@ -6761,3 +6761,24 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .round-border-50 {
   border-radius: 50%
 }
+@media print {
+  .contain-to-grid {
+    position: static;
+    height: 90px;
+  }
+  .contain-to-grid .top-bar-section,
+  .contain-to-grid .toggle-topbar, 
+  .contain-to-grid *::before, 
+  .contain-to-grid *::after,
+  .hero,
+  .faq-actions, 
+  .faq-categories,
+  #footer .footer-row,
+  #footer *::before, 
+  #footer *::after {
+    display: none !important;
+  }
+  .faq-listing {
+    margin-bottom: 1.4rem;
+  }
+}
