@@ -4088,6 +4088,9 @@ p.small-title {
   color: #cfcfcf;
   font-weight: 400;
 }
+.search-field label {
+  white-space: nowrap;
+}
 .hlight {
   margin-top: 20px;
   font-weight: 500;
@@ -4667,6 +4670,16 @@ input[type="range"]::-webkit-slider-thumb {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     background-color: transparent;
   }
+  .faq-categories {
+    display: none;
+  }
+  .faq-content {
+    padding: 0 1rem;
+  }
+  .faq-actions {
+    padding: .8rem;
+    column-gap: 12px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -4755,12 +4768,6 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: 180px;
     left: auto;
     right: 0;
-  }
-  .faq-categories {
-    display: none;
-  }
-  .faq-content {
-    padding: 0 1rem;
   }
   .section-head {
     padding: 1rem 0;
@@ -4870,6 +4877,14 @@ input[type="range"]::-webkit-slider-thumb {
   .type-item{
     font-size:1rem;
     color:#222;
+  }
+  .faq-actions {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+  .search-field {
+    width: 100%;
+    flex-basis: 100%;
   }
 }
 
