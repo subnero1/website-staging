@@ -92,7 +92,8 @@ We are seeking a talented and motivated Software Engineer to join our team in de
 - Professional growth opportunities, including working with leading industry experts.
 
 **How to Apply:**
-Send your resume and a cover letter detailing your experience with relevant technologies to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
+- [Apply at MyCareersFuture](https://www.mycareersfuture.gov.sg/job/information-technology/software-engineer-underwater-communication-systems-subnero-34d43021949b796678bc1977386f7d4c)
+- Send your resume and a cover letter detailing your experience with relevant technologies to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
 
 ---
 
@@ -155,4 +156,5 @@ We are looking for a skilled **Systems Software Engineer** with expertise in emb
 - Opportunities for professional growth and interaction with industry leaders.
 
 **How to Apply:**
-Send your resume and a cover letter detailing your experience with relevant technologies to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
+- [Apply at MyCareersFuture](https://www.mycareersfuture.gov.sg/job/information-technology/systems-software-engineer-subnero-1b44608a2436e040245cc0abf0ff9593)
+- Send your resume and a cover letter detailing your experience with relevant technologies to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
