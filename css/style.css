@@ -6760,24 +6760,31 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .round-border-50 {
   border-radius: 50%
 }
+
 @media print {
-  .contain-to-grid {
-    position: static;
-    height: 90px;
+  @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }
+  .contain-to-grid.sticky {
+    position: relative;
   }
-  .contain-to-grid .top-bar-section,
-  .contain-to-grid .toggle-topbar, 
-  .contain-to-grid *::before, 
-  .contain-to-grid *::after,
-  .hero,
-  .faq-actions, 
-  .faq-categories,
-  #footer .footer-row,
-  #footer *::before, 
-  #footer *::after {
-    display: none !important;
+  .toggle-topbar, .top-bar-section, .print-btn, .hero, .faq-categories, .faq-actions,
+  #footer .footer-row, .toggle-label::after {
+    display: none;
   }
-  .faq-listing {
-    margin-bottom: 1.4rem;
-  }
+  a[href]:after {
+    display: none;
+    visibility: hidden;
+ }
+ .subnero-logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+ #footer {
+  padding-top: 4rem;
+ }
+ .item-content {
+  display: block;
+ }
+
 }
