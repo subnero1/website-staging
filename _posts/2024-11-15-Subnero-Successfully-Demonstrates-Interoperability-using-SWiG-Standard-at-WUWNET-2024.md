@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Subnero Successfully Demonstrates Interoperability using SWiG Standard at WUWNET 2024
-banner: images/banner-unetstack.jpg
+banner: images/banner-pulse-swig-interop.jpg
 date:  2024-11-15
 categories: wnc news
-thumbnail: images/pulse-thumbnail-network2.jpg
+thumbnail: images/pulse-thumbnail-swig-interop.jpg
 ---
-
-## Subnero Successfully Demonstrates Interoperability using SWiG Standard at WUWNET 2024
 
 Subnero recently participated in an interoperability test at the WUWNET 2024 conference in Šibenik, Croatia. The goal of the event was to demonstrate seamless communication between acoustic modems from various vendors using the Subsea Wireless Group's (SWiG) acoustic Level 1 standard specification. We were thrilled to successfully showcase interoperability alongside EvoLogics GmbH, WSENSE and NORCE (research modem) during an in-water demonstration in the Adriatic Sea.
 
@@ -25,8 +23,8 @@ We at Subnero are excited by the outcome of this successful interoperability tes
 
 **Social media highlights:**
 
-* Subnero: "We were thrilled to successfully demonstrate interoperability with other vendors such as EvoLogics GmbH and WSENSE using the hashtag#SWiG standard during an in-water demonstration in the Adriatic Sea." [Link](https://www.linkedin.com/posts/subnero_swig-wuwnet2024-swig-activity-7259144995218075648-7h0F)
+* Subnero: "We were thrilled to successfully demonstrate interoperability with other vendors such as EvoLogics GmbH and WSENSE using the hashtag#SWiG standard during an in-water demonstration in the Adriatic Sea." <a href="https://www.linkedin.com/posts/subnero_swig-wuwnet2024-swig-activity-7259144995218075648-7h0F" target="_blank">Link</a>
 
-* EvoLogics GmbH: "Our team has just returned from beautiful Šibenik, Croatia, where EvoLogics, Subnero, and WSENSE collaborated to successfully showcase interoperability among our underwater modems at the SWiG event during the #WUWNet conference." [Link](https://www.linkedin.com/posts/evologics-gmbh_evologics-wuwnet-norce-activity-7259873544346472448-KrE7)
+* EvoLogics GmbH: "Our team has just returned from beautiful Šibenik, Croatia, where EvoLogics, Subnero, and WSENSE collaborated to successfully showcase interoperability among our underwater modems at the SWiG event during the #WUWNet conference." <a href="https://www.linkedin.com/posts/evologics-gmbh_evologics-wuwnet-norce-activity-7259873544346472448-KrE7" target="_blank">Link</a>
 
-* WSENSE:  "Our recent participation in the #SWiG (Subsea Wireless Group) demonstration in Šibenik, Croatia, marked a significant step forward in underwater interoperability!" [Link](https://www.linkedin.com/posts/wsense_swig-wsense-swigacoustic-activity-7261708120257675264-68mq)
+* WSENSE:  "Our recent participation in the #SWiG (Subsea Wireless Group) demonstration in Šibenik, Croatia, marked a significant step forward in underwater interoperability!" <a href="https://www.linkedin.com/posts/wsense_swig-wsense-swigacoustic-activity-7261708120257675264-68mq" target="_blank">Link</a>
