@@ -3,21 +3,23 @@
   submenu:
   - name: General
     link: wnc-general
-  - name: Editions & Configurations
-    link: editions-configurations
-  - name: Communication
-    link: communication
-  - name: Positioning
-    link: positioning
-  - name: Software
-    link: software
-  - name: Compatibility
-    link: compatibility
-  - name: Other Features
+  - name: Products
+    link: products
+  - name: Performance
+    link: performance
+  - name: UnetStack
+    link: unetstack
+  - name: Integration
+    link: integration
+  - name: Battery and Power
+    link: battery-and-power
+  - name: Other features
     link: other-features
   - name: Accessories & Upgrades
     link: accessories-upgrades
+  - name: Device Settings
+    link: device-settings
 - name: SWIS
   link: swis
-- name: General
-  link: general
+- name: Commercial
+  link: commercial

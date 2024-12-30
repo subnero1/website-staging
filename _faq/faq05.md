@@ -1,13 +1,15 @@
 ---
 layout: default
-title: What are the various frequency bands available for the modems?
-search_content: What are the various frequency bands available for the modems?
-faq_section: editions-configurations
+title: What models of Subnero modems are available, and how do they perform?
+search_content: What models of Subnero modems are available, and how do they perform?
+faq_section: products
 ---
 
-Subnero offers modems in the following frequency bands:
-- Low Frequency (9 kHz - 16 kHz): L12L series
-- Medium Frequency (20 kHz - 32 kHz): M25M series
-- High Frequency (25 kHz - 55 kHz): S40H series
+Subnero modems are categorized by frequency bands, each optimized for specific needs:
+- **L12L Series (Low Frequency, 9-16 kHz)**: Long-range communication, tested over 10 km with data rates between 100 bps and 7 kbps.
+- **M25M Series (Medium Frequency, 20-32 kHz)**: Balanced range and data rate, tested up to 4 km with rates of up to 15 kbps.
+- **S40H Series (High Frequency, 25-55 kHz)**: High-speed communication, with data rates up to 33 kbps under 1 km range.
 
-For more details, please visit: https://subnero.com/products/modem.html
+Each series is suited for specific applications, from long-range deployments to short-range high-speed communication. For more details about these frequency bands and their specific applications, please visit [https://subnero.com/products/modem.html](https://subnero.com/products/modem.html).
+
+For more details about customizations, contact us at sales@subnero.com.

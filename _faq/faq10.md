@@ -1,8 +1,8 @@
 ---
 layout: default
-title: What is the maximum depth rating of the modems?
-search_content: What is the maximum depth rating of the modems?
-faq_section: editions-configurations
+title: Does the Research Edition modem support standalone and OEM configurations?
+search_content: Does the Research Edition modem support standalone and OEM configurations?
+faq_section: products
 ---
 
-Standard Silver Edition Standalone Configuration modems are rated for 300 m depth. Users can upgrade the hull to support 2000 m, 4000 m and 6000 m depending on the application. Refer to [hull options](https://subnero.com/products/hull.html) for more details.
+The Research Edition modem is only available in the standalone configuration.

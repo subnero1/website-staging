@@ -1,13 +1,12 @@
 ---
 layout: default
-title: What are the various available configurations for the modems?
-search_content: What are the various available configurations for the modems?
-faq_section: editions-configurations
+title: What is the Lloyd’s mirror effect, and how does it impact underwater acoustic communication?
+search_content: What is the Lloyd’s mirror effect, and how does it impact underwater acoustic communication?
+faq_section: wnc-general
 ---
 
-Subnero modems come in various configurations:
-- The Standalone Configuration (SC) offers flexibility and reliability for various deployment scenarios
-- The OEM Configuration (OC) is ideal for integration into larger platforms like AUVs and sensors
-- The Multi-channel Configuration (MC) features multiple synchronous receiving channels for efficient data transfer, speed, and reliability. 
+The Lloyd’s mirror effect occurs when sound waves from a source interfere with their reflections off the water surface, causing signal fading and distortion near the surface. This phenomenon can reduce communication reliability and increase error rates, especially in shallow deployments. Positioning modems at greater depths helps mitigate these effects.
 
-Each configuration is tailored to meet different deployment and application needs, providing effective underwater communication solutions.
+**References**
+- “Principles of Underwater Sound” by Robert J. Urick
+- [UnderwaterAcoustics.jl](https://github.com/org-arl/UnderwaterAcoustics.jl)

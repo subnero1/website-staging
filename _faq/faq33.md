@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 
-search_content: 
+title: Can we do ranging and localization using Subnero modems?
+search_content: Can we do ranging and localization using Subnero modems?
 faq_section: other-features
 ---
 
+Yes, Subnero modems support acoustic ranging out-of-the-box. With software upgrades, multi-channel modems can function as USBL systems for positioning and tracking. For more on localization with multiple modems, see this blog article: [https://blog.unetstack.net/on-underwater-localization-using-unetstack](https://blog.unetstack.net/on-underwater-localization-using-unetstack)

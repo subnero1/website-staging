@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Is the Research Edition modem available in both standalone and OEM configurations?
-search_content: Is the Research Edition modem available in both standalone and OEM configurations?
-faq_section: editions-configurations
+title: What is the multichannel configuration and what are its advantages?
+search_content: What is the multichannel configuration and what are its advantages?
+faq_section: products
 ---
 
-The Research Edition modem only supports the standalone configuration. If you are interested in other configurations, please consider the Platinum or Silver Edition modems.
+The multichannel configuration features multiple receiving channels for improved communication reliability and supports additional functionalities like USBL and passive acoustic monitoring.
+
+**References**
+- [Brochure](https://subnero.com/brochures/Subnero-MC-Modems.pdf)
+- [Magazine article](https://lsc-pagepro.mydigitalpublication.com/publication/?m=60787&i=727818&p=17&ver=html5)
+- 

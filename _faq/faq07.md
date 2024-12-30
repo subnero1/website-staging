@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Which configuration is best suited for an underwater vehicle such as an AUV?
-search_content: Which configuration is best suited for an underwater vehicle such as an AUV?
-faq_section: editions-configurations
+title: What configurations of Subnero modems are available?
+search_content: What configurations of Subnero modems are available?
+faq_section: products
 ---
 
-The OEM configuration is designed to be seamlessly incorporated with subsea platforms, such as autonomous underwater vehicles (AUVs), owing to its compact dimensions. This facilitates the efficient utilization of space within the AUV, thereby ensuring optimal functionality and performance. Additional information can be found at the following link: https://subnero.com/products/wnc-m25mso4.htm
+Subnero modems are available in Standalone, OEM, and Multichannel configurations, each suited for specific use cases:
+- **Standalone Configuration**: Pressure-housed and ideal for surface or seabed deployments where robustness and durability are required.
+- **OEM Configuration**: Compact and designed for seamless integration into platforms like AUVs and ROVs, enabling lightweight and flexible deployments.
+- **Multichannel Configuration**: Equipped with multiple receiving channels, it enhances data reliability and throughput, making it suitable for advanced applications like USBL positioning or passive acoustic monitoring.
+
+For more information about the different configurations, visit: [https://subnero.com/products/modem.html](https://subnero.com/products/modem.html)
