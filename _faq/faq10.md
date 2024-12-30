@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Does the Research Edition modem support standalone and OEM configurations?
-search_content: Does the Research Edition modem support standalone and OEM configurations?
+title: Is the Research Edition modem available in OEM configuration?
+search_content: Is the Research Edition modem available in OEM configuration?
 faq_section: products
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: How many external sensors can an acoustic modem interface with?
-search_content: How many external sensors can an acoustic modem interface with?
+title: How many external sensors can a Subnero modem interface with?
+search_content: How many external sensors can a Subnero modem interface with?
 faq_section: integration
 ---
 

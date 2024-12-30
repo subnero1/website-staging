@@ -10,6 +10,4 @@ Subnero modems are categorized by frequency bands, each optimized for specific n
 - **M25M Series (Medium Frequency, 20-32 kHz)**: Balanced range and data rate, tested up to 4 km with rates of up to 15 kbps.
 - **S40H Series (High Frequency, 25-55 kHz)**: High-speed communication, with data rates up to 33 kbps under 1 km range.
 
-Each series is suited for specific applications, from long-range deployments to short-range high-speed communication. For more details about these frequency bands and their specific applications, please visit [https://subnero.com/products/modem.html](https://subnero.com/products/modem.html).
-
-For more details about customizations, contact us at sales@subnero.com.
+Each series is suited for specific applications, from long-range deployments to high-speed communication. For more details about these frequency bands, please visit [https://subnero.com/products/modem.html](https://subnero.com/products/modem.html).
