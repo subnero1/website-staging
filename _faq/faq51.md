@@ -1,13 +1,12 @@
 ---
 layout: default
-title: How do I use SWIS - ADCP Edition with Nortek ADCPs?
-search_content: How do I use SWIS - ADCP Edition with Nortek ADCPs?
+title: What is the communication range for using SWIS - ADCP Edition to download data?
+search_content: What is the communication range for using SWIS - ADCP Edition to download data?
 faq_section: swis
 ---
 
-Using SWIS - ADCP Edition with Nortek ADCPs involves three steps:
-1. Configure & Deploy: Set up the ADCP to collect necessary data and configure the seabed modem accordingly.
-2. Connect: Deploy a topside modem via a boat or telemetry buoy to establish communication with the seabed modem.
-3. Download: Use the interface to download or schedule automatic data retrieval. Preview functions allow quick summaries for efficient data review.
+The communication range for SWIS - ADCP Edition depends on the series of modem being used:
+- M25M Series: Recommended range is up to 2 km.
+- S40H Series: Recommended range is up to 500 m.
 
-With customizable communication profiles, SWIS optimizes performance for specific environments, ensuring reliable data transfer from ADCPs to the surface.
+Actual performance may vary based on environmental factors and deployment conditions.
