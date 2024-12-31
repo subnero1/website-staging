@@ -6,8 +6,10 @@ faq_section: other-features
 ---
 
 Subnero modems support arbitrary waveform transmission and recording:
-- Recording: Use commands like `bbrec` for baseband samples or `bb.record=true` for long-term storage.
-- Streaming: Configure continuous waveform data using parameters like `bb.bbscnt`.
-- Transmission: Use `bbtx` or `pbtx` commands for custom signal transmission.
+
+- **Recording**: Use the `bbrec` command to capture baseband samples or enable `bb.record=true` to store passband samples directly on the modem's storage.  
+- **Streaming**: Configure `bb.bbscnt` or `bb.pbscnt` parameters for continuous baseband or passband data streaming.  
+- **Detections**: Set `bbmon.enable=true` to record all detections (`RxBasebandSignalNtf`) from the baseband agent into a file named `signals-<timestamp>.txt`.  
+- **Transmission**: Use the `bbtx` or `pbtx` commands to transmit baseband or passband signals.  
 
 Refer to the [Unet Handbook](https://unetstack.net/handbook/unet-handbook_baseband_service.html) or help text for detailed guidance on these commands.

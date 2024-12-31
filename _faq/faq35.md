@@ -6,7 +6,7 @@ faq_section: other-features
 ---
 
 Subnero modems feature two types of clocks to support time synchronization: the system clock and the baseband clock.
-- System Clock: Provides OS time and retains time during power-off using an RTC. Synchronizable via NTP.
-- Baseband Clock: Used for timestamping and ranging, with a drift of ±100 ppb.
+- The system clock provides OS time and retains time during power-off using an RTC. It is synchronizable via NTP.
+- The baseband clock is used for timestamping and ranging, with a drift of ±100 ppb. External synchronization between modems is supported via PPS signal for timestamp alignment across modems. The captured timestamps are available on the baseband agent as `bb.syncSystemTime` and `bb.syncBasebandTime` which can be used for synchronization.
 
-Additionally, external synchronization is supported via PPS signals, enabling precise timestamp alignment across modems. An optional OCXO clock (±25 ppb) is available for applications needing extremely low drift. For more details about clock synchronization, contact us at sales@subnero.com.
+For applications requiring even lower drift, an optional OCXO clock (±25 ppb) is available. For more details about clock synchronization, contact us at sales@subnero.com.
