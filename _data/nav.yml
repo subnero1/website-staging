@@ -20,9 +20,6 @@
 - name: Pulse
   path: pulse/
   section_id: pulse
-- name: About
-  path: about/
-  section_id: about
 - name: Resources
   path: ./#
   section_id: resources
@@ -36,6 +33,9 @@
   - name: Quick Links
     path: /quicklinks
     section_id: quicklinks
+- name: About
+  path: about/
+  section_id: about
 - name: Contact
   path: contact/
   section_id: contact
