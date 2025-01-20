@@ -44,59 +44,6 @@ The Marketing and Customer Engagement Specialist will play a role in supporting 
 
 ---
 
-## Software Engineer - Underwater Communication Systems
-
-**Role Overview:**
-
-We are seeking a talented and motivated Software Engineer to join our team in developing and optimizing underwater communication networks. This role focuses on maintaining and improving [UnetStack](https://unetstack.net/), our open software framework for underwater networking for embedded platforms, developing efficient communication protocols and integrating cutting-edge embedded hardware to create a compelling product. If you have a passion for modern software engineering and pushing the boundaries of technology, we want to hear from you!
-
-**Key Responsibilities:**
-
-- **UnetStack Development & Maintenance:**
-  - Enhance and maintain the UnetStack framework and its agents for underwater communication networks.
-  - Develop optimized protocol agents to improve bandwidth efficiency and reliability.
-
-- **Embedded Systems Integration:**
-  - Interface with and adapt UnetStack to run on new embedded hardware platforms.
-  - Debug and optimize communication systems for compatibility with various hardware configurations.
-
-- **Sensor and Modem Driver Development:**
-  - Develop and integrate sensor drivers for UnetStack-compatible devices, such as acoustic and optical modems.
-  - Ensure robust data acquisition and real-time communication in underwater environments.
-
-- **Simulation and Testing:**
-  - Utilize the Unet simulator for protocol development and performance testing.
-  - Conduct simulations in both real-time and discrete-event modes to validate network configurations.
-
-- **Collaboration & Documentation:**
-  - Work closely with researchers and hardware engineers to meet project objectives.
-  - Maintain clear, structured documentation for protocols, driver implementations, and hardware integrations.
-
-
-**Required Qualifications:**
-- Bachelor’s or Master’s degree in Computer Science, Software Engineering, or equivalent experience.
-- Strong software engineering skills with a focus on higher-level programming languages such as **Java**, **Groovy**, **Python**, or **Julia**.
-- Experience in designing, implementing, and maintaining complex software systems.
-- Solid understanding of modern development practices, including version control, testing frameworks, and continuous integration.
-- Familiarity with distributed software architecture for modular, extensible systems.
-
-**Preferred Qualifications:**
-- Experience with UnetStack or other frameworks for communication networks.
-- Knowledge of acoustic, optical, or RF communication technologies is a plus.
-- Hands-on experience with simulation tools, particularly the Unet simulator.
-- Experience with embedded Linux systems and low-level software development.
-
-**What We Offer:**
-- The opportunity to work on cutting-edge technology in underwater communication.
-- A collaborative, innovative and fun work environment.
-- Professional growth opportunities, including working with leading industry experts.
-
-**How to Apply:**
-- [Apply at MyCareersFuture](https://www.mycareersfuture.gov.sg/job/information-technology/software-engineer-underwater-communication-systems-subnero-34d43021949b796678bc1977386f7d4c)
-- Send your resume and a cover letter detailing your experience with relevant technologies to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
-
----
-
 ##  Systems Software Engineer
 
 **Role Overview:**
