@@ -65,17 +65,13 @@ The **Community** edition is available for download on the [UnetStack website](h
 > NOTE: **Community** edition is not meant to access a device that has UnetStack **OEM** (e.g. Subnero modems) pre-installed on it, for a commercial use-case, as the **Community** edition is only available for educational and other non-commercial purposes. You may, however, use any of the [open-source Gateway and UnetSocket libraries](https://github.com/org-arl/unet-contrib){:target="_blank"} to connect to a UnetStack **OEM** device.
 
 #### 2. OEM Edition
-The **OEM** edition is the version of UnetStack installed in the Subnero modems. You can use the various [UnetStack APIs](https://unetstack.net/handbook/unet-handbook_part_iii_building_unet_applications.html){:target="_blank"} and [open source Gateway and UnetSocket libraries](https://github.com/org-arl/unet-contrib){:target="_blank"} from any other device or computer to access the modems, without needing a separate license. 
+The **OEM** edition is the version of UnetStack installed in the Subnero modems or an appropriate hardware. You can use the various [UnetStack APIs](https://unetstack.net/handbook/unet-handbook_part_iii_building_unet_applications.html){:target="_blank"} and [open source Gateway and UnetSocket libraries](https://github.com/org-arl/unet-contrib){:target="_blank"} from any other device or computer to access the modems, without needing a separate license. 
 
-In addition, if you are interested in getting UnetStack installed on your OEM device, you can [contact us](https://subnero.com/contact/).
+In addition, if you are interested in getting UnetStack for your OEM device, you can [contact us](https://subnero.com/contact/).
 ​
 #### 3. Commercial Edition
-The **Commercial** edition of UnetStack is similar to the **Community** edition except you may use it in commercial applications. In addition to the features included in the community edition, it contains premium agents with enhanced performance for your commercial deployments. If you want to run UnetStack in your commercial application, please [contact us](https://subnero.com/contact/) for more details about licensing the UnetStack **Commercial** edition.
+The **Commercial** edition of UnetStack is similar to the **Community** edition except you may use it in commercial applications. If you want to run UnetStack in your commercial application, please [contact us](https://subnero.com/contact/) for more details about licensing the UnetStack **Commercial** edition.
 ​
-​
-#### Developer tools
-The **Developer tools** of UnetStack is similar to the **community** edition but with a license to use it commercially. You can use this edition of UnetStack to simulate and develop software for that OEM device, as well as to run UnetStack on your workstations to connect to and control the OEM device for development and testing of any applications involving the OEM device.
-
 
 <h2>Brochures</h2>
 <div class="brochure-container">
