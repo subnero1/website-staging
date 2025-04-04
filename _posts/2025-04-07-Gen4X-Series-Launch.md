@@ -14,7 +14,7 @@ The Gen4X series is available in various OEM configurations to support custom in
 
 For more information, or to request a demo or quotation, please contact sales@subnero.com or visit www.subnero.com.
 
-⸻
+----
 
 **About Subnero**
 Subnero is a Singapore-based company specializing in underwater wireless communication and networking solutions. Through its line of advanced acoustic modems and software-defined networking technologies, Subnero helps customers around the world build intelligent, scalable, and reliable subsea systems.
