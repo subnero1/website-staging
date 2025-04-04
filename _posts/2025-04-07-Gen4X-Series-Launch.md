@@ -2,7 +2,7 @@
 
 **Subnero Launches Gen4X Series: Next-Generation Underwater Acoustic Smart Modems**
 
-Singapore – [7 April 2025] – Subnero, a leader in underwater wireless communication technologies, is proud to announce the launch of its Gen4X series acoustic smart modems. Designed to push the boundaries of underwater connectivity, the Gen4X modems bring enhanced performance, flexibility, and integration capabilities to a wide range of subsea applications.
+Singapore – [7 April 2025] – Subnero, a leader in underwater wireless communication technologies, is proud to announce the launch of its [Gen4X series acoustic smart modems](https://subnero.com/brochures/Gen4X-Release.pdf). Designed to push the boundaries of underwater connectivity, the Gen4X modems bring enhanced performance, flexibility, and integration capabilities to a wide range of subsea applications.
 
 Building on Subnero’s legacy of innovation, the Gen4X series features a compact form factor and is engineered for ease of integration into diverse platforms—from subsea IoT systems and marine robots to diver communication networks. With exciting capabilities like acoustic wakeup, hardware-in-the-loop simulation support, Gen4X is built to meet the demands of modern underwater missions.
 
