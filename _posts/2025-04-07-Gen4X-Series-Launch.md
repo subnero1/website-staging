@@ -4,7 +4,7 @@ title: New Product Launch - Gen4X Underwater Acoustic Smart Modems
 banner: images/banner-Gen4x.png
 date:  2025-04-07
 categories: wnc news
-thumbnail: images/pulse-thumbnail-Gen4X.jpg
+thumbnail: images/pulse-thumbnail-Gen4X.png
 ---
 
 ## FOR IMMEDIATE RELEASE
