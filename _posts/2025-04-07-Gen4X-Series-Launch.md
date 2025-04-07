@@ -1,3 +1,12 @@
+---
+layout: post
+title: Subnero Launches Gen4X Series: Next-Generation Underwater Acoustic Smart Modems
+banner: images/banner-Gen4x.png
+date:  2025-04-07
+categories: wnc news
+thumbnail: images/pulse-thumbnail-Gen4X.jpg
+---
+
 ## FOR IMMEDIATE RELEASE
 
 **Subnero Launches Gen4X Series: Next-Generation Underwater Acoustic Smart Modems**
