@@ -23,6 +23,9 @@ The Gen4X series is available in various OEM configurations to support custom in
 
 For more information, or to request a demo or quotation, please contact sales@subnero.com or visit www.subnero.com.
 
+References
+- [Subnero unveils new generation of underwater acoustic smart modems](https://www.hydro-international.com/content/news/subnero-unveils-new-generation-of-underwater-acoustic-smart-modems)
+
 ----
 
 ### About Subnero
