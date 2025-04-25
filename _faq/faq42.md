@@ -12,4 +12,4 @@ Subnero modems support arbitrary waveform transmission and recording:
 - **Detections**: Set `bbmon.enable=true` to record all detections (`RxBasebandSignalNtf`) from the baseband agent into a file named `signals-<timestamp>.txt`.  
 - **Transmission**: Use the `bbtx` or `pbtx` commands to transmit baseband or passband signals.  
 
-Refer to the [Unet Handbook](https://unetstack.net/handbook/unet-handbook_baseband_service.html) or help text for detailed guidance on these commands.
+Refer to the [Unet Handbook](https://unetstack.net/handbook/unet-handbook_baseband_service.html) or relevant help topics for detailed guidance on these commands.

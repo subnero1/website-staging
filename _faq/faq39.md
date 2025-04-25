@@ -1,7 +1,7 @@
 ---
 layout: default
-title: What is the storage/buffer capacity of your modems?
-search_content: What is the storage/buffer capacity of your modems?
+title: What is the storage capacity of your modems?
+search_content: What is the storage capacity of your modems?
 faq_section: other-features
 ---
 

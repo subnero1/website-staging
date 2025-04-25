@@ -12,4 +12,4 @@ The required battery capacity depends on several factors related to the deployme
 
 To help estimate battery requirements, Subnero provides an online battery calculator tailored for SWIS applications, available [here](https://subnero.com/battery-calculator).
 
-This tool serves as a guideline for calculations. For precise assessments based on your deployment needs, contact us at sales@subnero.com.
+For assessments based on your deployment needs, contact us at sales@subnero.com.

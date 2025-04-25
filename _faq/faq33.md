@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Can we do ranging and localization using Subnero modems?
-search_content: Can we do ranging and localization using Subnero modems?
+title: Can I do ranging and localization using Subnero modems?
+search_content: Can I do ranging and localization using Subnero modems?
 faq_section: other-features
 ---
 

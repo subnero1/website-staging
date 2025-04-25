@@ -1,7 +1,7 @@
 ---
 layout: default
-title: How can I use UnetStack to develop custom network layers, such as a physical layer?
-search_content: How can I use UnetStack to develop custom network layers, such as a physical layer?
+title: How can I use UnetStack to develop a custom physical layer?
+search_content: How can I use UnetStack to develop a custom physical layer?
 faq_section: unetstack
 ---
 
