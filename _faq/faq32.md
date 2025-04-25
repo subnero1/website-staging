@@ -9,3 +9,5 @@ Subnero modems support three wake-up modes:
 1. Scheduled wake-up: Modems can wake up at pre-configured schedules.
 2. External wake-up interrupt: A 3.3V external signal (~100 ms) can trigger the modem to wake up.
 3. Power cycle: Disconnecting and reconnecting the power supply wakes up the modem.
+4. Acoustic wake-up (on selected models only): Receiving a specific acoustic signal can wake up the modem.
+
