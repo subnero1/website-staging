@@ -1,0 +1,25 @@
+- name: WNC
+  link: WNC
+  submenu:
+  - name: General
+    link: wnc-general
+  - name: Products
+    link: products
+  - name: Performance
+    link: performance
+  - name: UnetStack
+    link: unetstack
+  - name: Integration
+    link: integration
+  - name: Battery and Power
+    link: battery-and-power
+  - name: Other features
+    link: other-features
+  - name: Accessories & Upgrades
+    link: accessories-upgrades
+  - name: Device Settings
+    link: device-settings
+- name: SWIS
+  link: swis
+- name: Commercial
+  link: commercial
