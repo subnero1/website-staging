@@ -121,16 +121,12 @@ let searchStyle = document.getElementById('search-style')
 let urlParams = new URLSearchParams(window.location.search)
 let searchEl = document.getElementById('search')
 let searchParamValue = urlParams.get('search')
-// let faqSection = document.querySelectorAll('.faq-section');
 let faqListing = document.querySelectorAll('.faq-listing');
 
 if (urlParams.get('search')) {
   searchEl.value = searchParamValue
   displayResults(searchParamValue)
-} else {
-  clearURLparams()
 }
-
 searchEl.addEventListener('input', function() {
 
   if (!this.value) {
@@ -193,10 +189,8 @@ function showMessageOnFilterNone() {
   }
 }
 
-
 //toggle switch
 let toggleSwitch = document.querySelector('#toggle-switch');
-// let faqContent = document.querySelector('.faq-content');
 let toggleCheckbox = document.querySelectorAll('.toggle-checkbox');
 toggleSwitch.addEventListener('change', function() {
   
@@ -210,6 +204,36 @@ toggleSwitch.addEventListener('change', function() {
     })
   }
 })
+document.addEventListener('DOMContentLoaded', function() {
+  const hash = window.location.hash;
+  if (hash) {
+    const targetElement = document.querySelector(hash);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const checkbox = targetElement.querySelector('.toggle-checkbox');
+      if (checkbox && !checkbox.checked) {
+        checkbox.checked = true;
+      }
+      targetElement.classList.add('faq-highlight');
+      setTimeout(() => {
+        targetElement.classList.remove('faq-highlight');
+      }, 3000);
+    }
+  }
 
+  window.addEventListener('hashchange', function() {
+    const newHash = window.location.hash;
+    if (newHash) {
+      const newTargetElement = document.querySelector(newHash);
+      if (newTargetElement) {
+        newTargetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        newTargetElement.classList.add('faq-highlight');
+        setTimeout(() => {
+          newTargetElement.classList.remove('faq-highlight');
+        }, 3000);
+      }
+    }
+  });
+});
 </script>
 </div>
