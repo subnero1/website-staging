@@ -3925,6 +3925,9 @@ p.small-title {
 }
 
 /*faq*/
+.faq-highlight {
+  background-color: #fffbe6;
+}
 .section-faq {
   position: relative;
   padding: 2rem 1rem;
@@ -3985,7 +3988,8 @@ p.small-title {
 }
 .faq-item {
   position: relative;
-  scroll-margin-top: 150px;
+  scroll-margin-top: 170px;
+  transition: background-color 0.6s;
 }
 .toggle-checkbox {
   position: absolute;
