@@ -270,9 +270,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  csv
   github-pages
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.6.9
+   2.1.4
