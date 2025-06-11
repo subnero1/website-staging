@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Hardware-in-the-Loop Simulation Support for Subnero Modems
-banner: images/banner-Gen4x.png
+banner: images/banner-vao.jpg
 date:  2025-06-12
 categories: wnc news
-thumbnail: images/pulse-thumbnail-Gen4X.png
+thumbnail: images/pulse-thumbnail-vao.jpg
 ---
 
 We’re excited to announce hardware-in-the-loop (HIL) simulation support across our entire range of acoustic smart modems powered by UnetStack. This new capability is being launched at the OCEANS 2025 Conference in Brest, where we’ll also host live demonstrations at our booth.
