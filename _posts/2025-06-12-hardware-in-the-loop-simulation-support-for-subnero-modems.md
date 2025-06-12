@@ -11,7 +11,7 @@ We’re excited to announce hardware-in-the-loop (HIL) simulation support across
 
 This capability allows any Subnero modem running UnetStack v5 to be configured to interface with a local simulation environment—enabling early-stage testing and iteration before investing in costly and time-consuming at-sea deployments.
 
-At the core of this simulation framework is the open-source [Virtual Acoustic Ocean (VAO)](https://github.com/org-arl/VirtualAcousticOcean.jl), which acts as the acoustic channel simulator, along with the [UASPv2 protocol](https://github.com/org-arl/VirtualAcousticOcean.jl/blob/main/docs/uasp2-protocol.md) for seamless communication integration. The platform supports industry-standard channel models such as Bellhop, Kraken, and Pekiris RAT, and allows users to integrate their own channel models for even greater fidelity and customization.
+At the core of this simulation framework is the open-source [Virtual Acoustic Ocean (VAO)](https://github.com/org-arl/VirtualAcousticOcean.jl), which acts as the acoustic channel simulator, along with the [UASPv2 protocol](https://github.com/org-arl/VirtualAcousticOcean.jl/blob/main/docs/uasp2-protocol.md) for seamless communication integration. The platform supports industry-standard channel models and allows users to integrate their own channel models for even greater fidelity and customization.
 
 Highlights of the new simulation support include:
 * Supports all Subnero modems running UnetStack v5
