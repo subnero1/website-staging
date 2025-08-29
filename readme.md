@@ -10,10 +10,9 @@
 
 ## Development
 
-1. build static pages: `jekyll build`
-- start local
-server: `jekyll serve --config _dev_config.yml --watch`
-
+- install Jekyll: https://jekyllrb.com/docs/installation/macos/
+- build static pages: `jekyll build`
+- start local server: `jekyll serve --config _dev_config.yml --watch`
 - if there's error on `invalid byte sequence in US-ASCII
 error: invalid byte sequence in US-ASCII`, run the following in the command line:
 
