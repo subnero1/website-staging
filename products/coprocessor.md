@@ -67,7 +67,7 @@ excerpt: Co-processor for Subnero underwater acoustic smart modems.
             <a href="{{site.baseurl}}/products/wnc-m25mse4">Silver Edition OEM Configuration Modem</a>
           </div>
           <div class="brochure-container">
-            <a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Channel Configuration Modem</a>
+            <a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Receiver Configuration Modem</a>
           </div>
         </div>
       </div>

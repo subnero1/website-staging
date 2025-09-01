@@ -67,7 +67,7 @@ excerpt: Additional hull options for Subnero underwater acoustic smart modems.
           <tr>
             <td>Aluminum</td>
             <td>300 m</td>
-            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a><br><a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Channel Configuration Modem</a></td>
+            <td><a href="{{site.baseurl}}/products/wnc-m25mss4">Silver Edition Standalone Configuration</a><br><a href="{{site.baseurl}}/products/wnc-m25mss4+xch">Silver Edition Multi-Receiver Configuration Modem</a></td>
           </tr>
           <tr>
             <td>Stainless Steel</td>
