@@ -35,8 +35,10 @@ section_id: home
             <li class="has-dropdown {{ active_class }}" >
               <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
               {% if item.submenu %}
-              <ul class="submenu">
+              <ul class="submenu {{ item.section_id }}">
+                {% if item.section_id == "products" %}
                 <li><a href="{{ site.baseurl}}/{{ item.path }}">All</a></li>
+                {% endif %}
               {% for entry in item.submenu %}
                 <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
               {% endfor %}
@@ -58,7 +60,7 @@ section_id: home
     <div class="fullscreen">
       <img id="fullscreen-video">
       <script>
-        var numImages = 13;
+        var numImages = 12;
         if (window.location.hash &&  parseInt(window.location.hash.substring(1))){
           var id =  parseInt(window.location.hash.substring(1));
         }

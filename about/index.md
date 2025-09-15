@@ -72,6 +72,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     <div class='about-button-container'>
         <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
         <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
+        <a href='{{site.baseurl}}/faq'><button class='button-outline'>Frequently Asked Questions</button></a>
     </div>
 </div>
 <div class='about-heading'>
