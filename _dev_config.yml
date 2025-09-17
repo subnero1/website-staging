@@ -11,5 +11,5 @@ default_image: images/pulse-thumbnail-default.jpg
 markdown: kramdown
 encoding: UTF-8
 highlighter: rouge
-exclude: ["README.md", "**/README.md"]
+exclude: ["readme.md", "**/readme.md", "README.md", "**/README.md"]
 

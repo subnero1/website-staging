@@ -13,7 +13,7 @@ collections:
 markdown: kramdown
 encoding:    UTF-8
 highlighter: rouge
-exclude: ["README.md", "**/README.md"]
+exclude: ["readme.md", "**/readme.md", "README.md", "**/README.md"]
 
 # Google Analytics
 google_analytics: UA—130948711-1
