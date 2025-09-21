@@ -7,4 +7,5 @@ faq_section: performance
 
 Yes, use a `LinkSchemeReq` via the tuner agent:
 
-`tuner << new LinkSchemeReq(to: <address>, schemecode: "<code>", powerLevel: <level>)`
+```groovy
+tuner << new LinkSchemeReq(to: <address>, schemecode: "<code>", powerLevel: <level>)
