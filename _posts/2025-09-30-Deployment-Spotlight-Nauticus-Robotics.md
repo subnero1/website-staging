@@ -8,6 +8,7 @@ thumbnail: images/pulse-thumbnail-spotlight1.jpg
 ---
 
 **Singapore, October 1, 2025.** [Subnero Pte Ltd.](https://subnero.com/), a leader in underwater wireless communication solutions, today announced the release of a deployment spotlight showcasing the successful deep-water testing of its acoustic smart modems in collaboration with [Nauticus Robotics, Inc. (NASDAQ: KITT)](https://nauticusrobotics.com/).
+
 The tests, conducted in the Gulf of Mexico, benchmarked Subnero’s deep-rated modem performance during vertical communication trials down to 2300 meters. Mounted on Nauticus’ flagship subsea robot Aquanaut, the modems maintained continuous communication with a topside unit deployed from a mothership. Results demonstrated robust performance across the full depth range, and the benefits of advanced Subnero software features.
 
 “These results reaffirm our mission to deliver underwater communication solutions that work everywhere — from challenging tropical shallows to the deepest offshore fields,” said Manu Ignatius, CEO of Subnero. “Collaborations like this with Nauticus Robotics are critical in proving real-world performance and enabling the future of autonomous subsea operations.”
