@@ -17,6 +17,6 @@ John Gibson, President and CEO of Nauticus Robotics, stated, “Aquanaut represe
 
 The deployment spotlight underlines how Subnero’s technology supports a new class of subsea operations, unlocking greater efficiency and safety through autonomous systems.
 
-The full text, “Deep-Water Testing of Subnero Modems in the Gulf of Mexico,” is available here: [Insert Link].
+The full text, “Deep-Water Testing of Subnero Modems in the Gulf of Mexico,” is available [here]({{site.baseurl}}/brochures/deployment-spotlight1.pdf).
 
 Nauticus has also issued its own press release, available here: [Insert Link].
