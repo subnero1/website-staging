@@ -13,7 +13,7 @@ The tests, conducted in the Gulf of Mexico, benchmarked Subnero’s deep-rated m
 
 “These results reaffirm our mission to deliver underwater communication solutions that work everywhere — from challenging tropical shallows to the deepest offshore fields,” said Manu Ignatius, CEO of Subnero. “Collaborations like this with Nauticus Robotics are critical in proving real-world performance and enabling the future of autonomous subsea operations.”
 
-John Gibson, President and CEO of Nauticus Robotics, stated, “Aquanaut represents the future of subsea robotics, and Subnero’s modems are a critical enabler of our vision. These tests proved that reliable underwater communication can be achieved at ultra deep-water operational depths, giving us the conﬁdence to expand autonomous operations globally.”
+John Gibson, President and CEO of Nauticus Robotics, stated, “Aquanaut represents the future of subsea robotics, and Subnero’s modems are a critical enabler of our vision. These tests proved that reliable underwater communication can be achieved at ultra deep-water operational depths, giving us the confidence to expand autonomous operations globally.”
 
 The deployment spotlight underlines how Subnero’s technology supports a new class of subsea operations, unlocking greater efficiency and safety through autonomous systems.
 
