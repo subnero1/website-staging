@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is the multichannel configuration and what are its advantages?
-search_content: What is the multichannel configuration and what are its advantages?
+title: What is the multireceiver configuration and what are its advantages?
+search_content: What is the multireceiver configuration and what are its advantages?
 faq_section: products
 ---
 
-The multichannel configuration features multiple receiving channels for enhanced communication performance and supports additional functionalities like positioning and passive acoustic monitoring.
+The multireceiver configuration features multiple receiving channels for enhanced communication performance and supports additional functionalities like positioning and passive acoustic monitoring.
 
 **Relevant Links**
 - [Brochure](https://subnero.com/brochures/Subnero-MR-Modems.pdf)
