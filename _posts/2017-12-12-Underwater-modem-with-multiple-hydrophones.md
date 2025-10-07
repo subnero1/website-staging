@@ -27,4 +27,4 @@ bbmsg = receive(RxBasebandSignalNtf, 2000)
 signal = bbmsg.signal
 ```
 
-Since the recording is requested on the secondary data acquisition system containing multiple channels, the recorded data stored in `signal` is interleaved.
+Since the recording is requested on the secondary data acquisition system containing multiple receivers, the recorded data stored in `signal` is interleaved.

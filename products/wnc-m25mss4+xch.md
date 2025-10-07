@@ -3,7 +3,7 @@ layout: page
 title: WNC-M25MSS4+xCh
 banner : images/banner-multichannel-mf.jpg
 thumbnail : images/thumbnail-wnc-m25mss4+xch.png
-excerpt: Subnero's underwater acoustic smart modems with multiple channels for high-speed data acquisition.
+excerpt: Subnero's underwater acoustic smart modems with multiple receivers for high-speed data acquisition.
 categories: wnc
 section_id: products
 ---
