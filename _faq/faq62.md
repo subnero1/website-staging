@@ -9,3 +9,4 @@ Yes, use a `LinkSchemeReq` via the tuner agent:
 
 ```groovy
 tuner << new LinkSchemeReq(to: <address>, schemecode: "<code>", powerLevel: <level>)
+```
