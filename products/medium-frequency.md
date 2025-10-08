@@ -46,7 +46,7 @@ order: 2
                     <!-- <h2 class="new-tag"> NEW </h2> -->
                     <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
-                        <h2>Multi-Channel Configuration <br>WNC-M25MSS4+xCh</h2>
+                        <h2>Multi-Receiver Configuration <br>WNC-M25MSS4+xCh</h2>
                     </div>
                 </a>
             </div>

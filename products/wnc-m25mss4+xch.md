@@ -3,14 +3,14 @@ layout: page
 title: WNC-M25MSS4+xCh
 banner : images/banner-multichannel-mf.jpg
 thumbnail : images/thumbnail-wnc-m25mss4+xch.png
-excerpt: Subnero's underwater acoustic smart modems with multiple channels for high-speed data acquisition.
+excerpt: Subnero's underwater acoustic smart modems with multiple receivers for high-speed data acquisition.
 categories: wnc
 section_id: products
 ---
 
-## Multi-channel Configuration Modem
+## Multi-Receiver Configuration Modem
 
-Subnero's multi-channel smart modems utilize advanced spatial diversity combining techniques to extract data from multiple receiving channels, enabling exceptional communication performance even in the most challenging conditions. Beyond this, these modems possess the unique capability to record synchronized raw signals from multiple hydrophones, allowing for a diverse range of innovative applications such as localization and passive acoustic monitoring.
+Subnero's multi-receiver smart modems utilize advanced spatial diversity combining techniques to extract data from multiple receiving channels, enabling exceptional communication performance even in the most challenging conditions. Beyond this, these modems possess the unique capability to record synchronized raw signals from multiple hydrophones, allowing for a diverse range of innovative applications such as localization and passive acoustic monitoring.
 
 ## Key Features
 
@@ -31,8 +31,8 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mss4+xch.png"/>
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">Multi-channel Configuration</h3>
-          <p>With multiple synchronous channels, a multi-channel modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>
+    <h3 style="text-transform: none;" id="surface">Multi-receiver Configuration</h3>
+          <p>With multiple synchronous channels, a multi-receiver modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>
     </div>
   </div>
 </div>
@@ -76,8 +76,8 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
-      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero Multi-Channel Configuration Modems</a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">Subnero Multi-receiver Configuration Modems</a>
     </div>
     <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
@@ -92,7 +92,7 @@ Subnero's multi-channel smart modems utilize advanced spatial diversity combinin
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
+      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-receiver Modems</a>
     </div>
 </div>
 </div>

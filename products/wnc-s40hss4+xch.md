@@ -3,14 +3,14 @@ layout: page
 title: WNC-S40HSS4+xCh
 banner : images/banner-multichannel-hf.jpg
 thumbnail : images/thumbnail-wnc-s40hss4+xch.png
-excerpt: Subnero's underwater acoustic smart modems with multiple channels for high-speed data acquisition.
+excerpt: Subnero's underwater acoustic smart modems with multiple receivers for high-speed data acquisition.
 categories: wnc
 section_id: products
 ---
 
-## Multi-channel Configuration Modem
+## Multi-receiver Configuration Modem
 
-Engineered with cutting-edge spatial diversity combining techniques to optimize data extraction across multiple receiving channels, Subnero's multi-channel configuration smart modems redefine underwater communication performance, delivering unparalleled reliability in the most demanding environments. Moreover, their distinctive feature allows for the synchronized recording of raw signals from multiple hydrophones, empowering users with a versatile toolkit for innovative applications, including localization and passive acoustic monitoring.
+Engineered with cutting-edge spatial diversity combining techniques to optimize data extraction across multiple receiving channels, Subnero's multi-receiver configuration smart modems redefine underwater communication performance, delivering unparalleled reliability in the most demanding environments. Moreover, their distinctive feature allows for the synchronized recording of raw signals from multiple hydrophones, empowering users with a versatile toolkit for innovative applications, including localization and passive acoustic monitoring.
 
 <div class='pulse-img-div'>
     <img src="{{site.baseurl}}/images/mc-performance.png" class='pulse-img'>
@@ -41,8 +41,8 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hss4+xch.png"/>
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">Multi-channel Configuration</h3>
-          <p>Utilizing several synchronized channels, a multi-channel modem adeptly manages and optimizes data transmission within its operating environment, guaranteeing optimal communication performance. This setup enhances both the speed and reliability of data transfer and provides a better user experience.</p>
+    <h3 style="text-transform: none;" id="surface">Multi-receiver Configuration</h3>
+          <p>Utilizing several synchronized channels, a multi-receiver modem adeptly manages and optimizes data transmission within its operating environment, guaranteeing optimal communication performance. This setup enhances both the speed and reliability of data transfer and provides a better user experience.</p>
     </div>
   </div>
 </div>
@@ -85,8 +85,8 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
-      <a href="{{site.baseurl}}/brochures/Subnero-MC-Modems.pdf" target="_blank">Subnero Multi-Channel Configuration Modems</a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">Subnero Multi-Receiver Configuration Modems</a>
     </div>
     <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
@@ -101,7 +101,7 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
   <label class='lbl-toggle' for='useful-links'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-channel Modems</a>
+      <a href="{{site.baseurl}}/wnc/news/2021/05/12/Subnero-Multi-channel-Modems.html" target="_blank">Introducing Subnero Multi-receiver Modems</a>
     </div>
 </div>
 </div>

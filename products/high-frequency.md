@@ -49,7 +49,7 @@ order: 2
                 <a href="{{site.baseurl}}{{page.url}}">
                     <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
-                        <h2>Multi-Channel Configuration <br>WNC-S40HSS4+xCh</h2>
+                        <h2>Multi-Receiver Configuration <br>WNC-S40HSS4+xCh</h2>
                     </div>
                 </a>
             </div>
