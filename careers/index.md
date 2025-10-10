@@ -10,40 +10,100 @@ At Subnero, we believe that quality is key since our reputation drives our succe
 
 > NOTE: We will not be able to entertain enquiries over phone.
 
-## Technology Evangelist and Customer Engagement Specialist
+## Technical Marketing & Evangelism Executive
 
 **Role Overview:**
 
-We’re looking for a tech-savvy marketing and communications specialist who can bridge the gap between our engineering-driven products and the audiences we serve. This is an exciting opportunity to work at the intersection of technology, branding, content creation, and customer engagement.
+We are looking for a Technical Marketing & Evangelism Executive who can bridge the gap between technology and communication — someone who understands our products and can craft compelling stories around how they solve real-world challenges underwater.
 
-As a Technology Evangelist and Customer Engagement Specialist, you’ll play a central role in shaping Subnero’s public voice and digital presence. You will work closely with the leadership and product teams to communicate our value, revamp our website and materials, and create engaging content that resonates with our customers and partners.
+As a Technical Marketing & Evangelism Executive, you’ll play a central role in shaping Subnero’s public voice and digital presence. You will work closely with the leadership and product teams to communicate our value, revamp our website and materials, and create engaging content that resonates with our customers and partners.
 
-**Key Responsibilities:**
+**Key Responsibilities**
+- Develop a deep understanding of Subnero’s technologies, products, and user applications.
+- Craft technical and marketing content (blogs, newsletters, case studies, social media posts, videos, product pages, etc.) that clearly communicate value to diverse audiences.
+- Engage directly with customers and partners to understand their use cases, pain points, and success stories.
+- Plan, coordinate, and execute marketing campaigns across multiple channels to build awareness and engagement.
+- Organize and manage marketing and technical events such as Subnero Open Days, product launches, webinars, and conference exhibitions.
+- Support and manage the marketing roadmap and activity calendar, ensuring timely execution of deliverables.
+- Collaborate with internal teams and external partners to align messaging, visuals, and event logistics.
+- Create or assist in the design of graphics, visual assets, and short videos using tools such as Figma, Photoshop, Illustrator, or Premiere Pro.
+- Manage multiple projects and stakeholders concurrently while ensuring deadlines are met and deliverables maintain high quality.
 
-- Understand Subnero’s brand positioning and craft clear, compelling messages tailored for our target audiences.
-- Plan and implement a holistic marketing strategy for the company, including campaign ideas and content calendars.
-- Revamp the Subnero website, improving both content and structure to better reflect current products and messaging.
-- Develop and execute content for whitepapers, from drafts to final polished versions.
-- Update and redesign marketing collaterals for new product lines, including brochures, datasheets, and presentations.
-- Collaborate with customers to develop and publish insightful case studies.
-- Create short videos showcasing customer stories, use cases, and product features.
-- Support and coordinate product launch videos in collaboration with internal and external stakeholders.
-- Manage regular updates across social media and the Subnero Pulse page.
-- Engage in conversations to understand customer needs and how they utilize Subnero’s products.
-- Facilitate customer support discussions by connecting them with the appropriate Subnero teams.
-
-**Qualifications:**
-- A strong interest in technology and the ability to understand and explain technical concepts.
-- Background in engineering, computer science, or a related technical field is a strong plus.
-- Experience in digital marketing, content creation, or technical writing.
-- Skills or experience in basic web development (e.g., HTML/CSS, JavaScript) and familiarity with website content management systems.
-- Familiarity with marketing automation tools is a plus.
-- Excellent communication and writing skills, with strong attention to detail.
-- Comfortable speaking with customers and internal stakeholders to gather insights and stories.
-- Bonus: Experience in video editing, graphic design, or marketing analytics.
+**Requirements**
+- Bachelor’s degree in Engineering (Computer, Electrical, or related fields).
+- Strong interest in technology, communication systems, and ocean innovation.
+- Excellent written and verbal communication skills in English.
+- Structured, disciplined, and detail-oriented, with strong organizational skills to manage logistics, schedules, and event execution.
+- Ability to multitask effectively across projects and coordinate with multiple stakeholders.
+- Attention to detail is a must.
+- Proactive and extroverted personality — comfortable engaging with customers, partners, and the community.
+- Experience or strong interest in technical content creation — writing, visual design, or multimedia.
+- Familiarity with creative tools such as Figma, Photoshop, Illustrator, or video editing software is a plus.
+- Prior experience in marketing, technical writing, or event management is preferred, but fresh graduates are welcome to apply.
 
 **How to Apply:**
-- [Apply at MyCareersFuture](https://www.mycareersfuture.gov.sg/job/marketing/technology-evangelist-subnero-017f5eb77c1032a9d3ae8355ac2ede00)
+- [Apply at MyCareersFuture](https://www.mycareersfuture.gov.sg/job/944e75e31e5c3c794e5d9622cd03595c)
 - Send your resume and a cover letter detailing your relevant experience to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
 
 ---
+
+## Systems Software Engineer
+
+Do you love building systems from the ground up — tinkering with operating systems, drivers, and protocols, and making hardware and software really talk to each other? At Subnero, we design and build the technology that enables communication underwater — one of the most challenging networking environments you’ll ever encounter.
+
+At the heart of this is **UnetStack**, our open software framework for underwater networking. As a systems software engineer, you’ll make sure UnetStack runs efficiently on embedded Linux platforms, integrates cleanly with diverse hardware, and performs reliably in the field.
+
+We’re looking for someone who’s excited about **embedded Linux, drivers, networking protocols, and programming in C, Python, Rust, and Java** — and who wants to join a small, deeply technical team building real-world systems that bridge hardware, operating systems, and communications.
+
+👉 **Fresh graduates are welcome**: if you’ve explored Linux on a Raspberry Pi, tinkered with embedded systems, we’d love to hear from you.
+
+**As a systems software engineer at Subnero, you will:**
+
+* Customize and optimize **embedded Linux distributions** to support UnetStack and related software.
+* Configure and debug Linux at the system level (**bootloaders, device trees, systemd services, networking**).
+* Enhance and support **UnetStack (Java-based)** protocol agents on embedded platforms.
+* Write and maintain **C and Rust** code for low-level system components that UnetStack depends on.
+* Use **Python** for testing, automation, and deployment scripting.
+* Integrate a variety of communication hardware — **sensors, modems** — into UnetStack.
+* Improve and maintain **build systems** (Makefiles, cross-compilation toolchains) and automation scripts (Github Actions).
+* Profile and optimize system performance so that UnetStack can operate efficiently in **resource-constrained environments**.
+* Validate functionality and performance in the field with real hardware.
+* Collaborate closely with hardware engineers, application developers, and researchers to shape the system end-to-end.
+
+**You will thrive in this role if you:**
+
+* Are comfortable digging into **operating system internals** (Linux configuration, cross-compilation, **systemd service management**).
+* Enjoy writing code in **C and Rust** for system-level programming, and **Python** for testing and automation.
+* Are comfortable working with networking concepts, like **subnetting, routing, DHCP, and DNS**.
+* Appreciate the craft of **hardware/software integration** and enjoy debugging tricky low-level problems.
+* Believe in documenting your work — for colleagues today and your future self tomorrow.
+* Value **clear communication, curiosity, and persistence** as much as technical skill.
+* Enjoy working in field settings, testing systems in real-world conditions.
+
+**Before applying, you might want to:**
+
+* Explore **[UnetStack](https://unetstack.net/)** to see the systems you’ll be supporting.
+* Try the **[Unet simulator](https://subnero.com/products/unetsim.html)** and **[VirtualAcousticOcean](https://github.com/org-arl/VirtualAcousticOcean.jl)** to understand underwater networking challenges.
+* Experiment with **Raspberry Pi** or similar boards: set up Linux, configure device trees, and run a program as a **[systemd service](https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html)**.
+* Practice coding in **C, Python, and Rust**, and get comfortable navigating a Java-based application ecosystem.
+* Read about embedded Linux workflows like **[Yocto](https://www.yoctoproject.org/)**, **[Buildroot](https://buildroot.org/)**, and cross-compilation.
+* Think about how you’d optimize a system running on limited resources in unpredictable environments.
+
+**This role could be a great fit if you are:**
+
+* A seasoned engineer with experience in **embedded Linux, drivers, systemd services, and low-level programming**.
+* A **recent graduate** who has tinkered with **Linux internals, Raspberry Pi projects, or embedded systems** — and has coded in **C, Python, Rust, or Java**.
+* Someone who likes working close to the metal and doesn’t mind rolling up their sleeves to debug gnarly system issues — especially when the end result is making UnetStack run better.
+
+**Life at Subnero**
+
+We are a small, highly technical, and collaborative team working on cutting-edge underwater networking technology. Our values show up in daily life:
+
+* **Rigor** in the way we design, build, and test systems.
+* **Curiosity** in the way we constantly learn new things and explore new ideas.
+* **Responsibility** in owning problems end-to-end and helping each other.
+* **Transparency** in how we communicate and share ideas.
+
+**How to Apply:**
+- [Apply at MyCareersFuture](https://www.mycareersfuture.gov.sg/job/e7c3374a0a0ef012adee18acb7dadd66)
+- Send your resume and a cover letter detailing your relevant experience to `hr (at) subnero (dot) com`. Please include links to your portfolio or relevant projects, if applicable.
