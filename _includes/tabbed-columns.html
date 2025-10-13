@@ -9,7 +9,7 @@
     {% if include.type == "features" %}
         <div class='type-container row row-width bg-grey'>
     {% elsif include.type == 'products' %}
-        <div class='type-container sticky'>
+        <div class='type-container sticky-'>
     {% endif %}
     {% for item in include.content %}
         <label class='type-item' for="{{ item.input_id }}">{{ item.name }}</label>

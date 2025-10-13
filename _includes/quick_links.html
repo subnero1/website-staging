@@ -1,0 +1,22 @@
+<div class="card-wrapper">
+  {% assign categories = site.data.gen4x_products %}
+  {% for category in categories %}
+    {% assign key = category[0] %}
+    {% assign value = category[1] %}
+    <div class="product-card">
+      <h2>{{ value.title }}</h2>
+      <p>{{ value.details }}</p>
+      <div class="text-right"><a class="inline-btn" href="{{ site.baseurl }}/products/gen4x/index.html?category={{ key }}">View &#8594;</a></div>
+    </div>
+  {% endfor %}
+    <div class="product-card">
+      <h2>All Gen4X</h2>
+      <p>View our lastest generation - Gen 4X - product series.</p>
+      <div class="text-right"><a class="inline-btn" href="{{ site.baseurl }}/products/gen4x">View &#8594;</a></div>
+    </div>
+    <div class="product-card">
+      <h2>All Gen4</h2>
+      <p>View our previous generation products.</p>
+      <div class="text-right"><a class="inline-btn" href="{{ site.baseurl }}/products/modem.html">View &#8594;</a></div>
+    </div>
+  </div>

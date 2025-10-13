@@ -1,0 +1,105 @@
+S40H:
+  title: S40H Series
+  type: HIGH-SPEED SMART MODEMS
+  details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  products:
+    - name: WNC-S40HSS4X
+      type: Standalone Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-S40HSS4X.png
+      link: /products/gen4x/wnc-s40hss4x.html
+    - name: WNC-S40HSO4X
+      type: OEM Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-S40HSO4X.png
+      link: /products/gen4x/wnc-s40hso4x.html
+    - name: WNC-S40HSS4+xCh
+      type: Multi-Receiver Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-S40HSS4+xCh.png
+      link: /products/gen4x/wnc-s40hss4+xch.html
+
+L12L:
+  title: L12L Series
+  type: LONG-RANGE SMART MODEMS
+  details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  products:
+    - name: WNC-L12LSS4X  
+      type: Standalone Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-L12LSS4X.png
+      link: /products/gen4x/wnc-l12lss4x.html
+      is_new: true
+    - name: WNC-L12LHSO4X
+      type: OEM Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-L12LHSO4X.png
+      link: /products/gen4x/wnc-l12lhso4x.html
+      is_new: true
+
+M25M:
+  title: M25M Series
+  type: ACOUSTIC SMART MODEMS
+  details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  products:
+    - name: WNC-M25MSS4X
+      type: Standalone Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-M25MSS4X.png
+      link: /products/gen4x/wnc-m25mss4x.html
+    - name: WNC-M25MSO4X
+      type: OEM Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-M25MSO4X.png
+      link: /products/gen4x/wnc-m25mso4x.html
+    - name: WNC-M25MSS4X-Rx
+      type: Multi-Channel Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-M25MSS4X-Rx.png
+      link: /products/gen4x/wnc-m25mss4x-rx.html
+    - name: S1000-N
+      type: Standalone Configuration
+      edition: Research
+      image: /images/gen4x/preview-S1000-N.png
+      link: /products/gen4x/wnc-s1000-n.html
+    - name: WNC-M25MPS3
+      type: Standalone Configuration
+      edition: Platinum
+      image: /images/gen4x/preview-WNC-M25MPS3.png
+      link: /products/gen4x/wnc-m25mps3.html
+    - name: WNC-M25MPE3
+      type: Embedded Configuration
+      edition: Platinum
+      image: /images/gen4x/preview-WNC-M25MPE3.png
+      link: /products/gen4x/wnc-m25mpe3.html
+
+Accessories:
+  title: Accessories and Upgrades
+  type: Electrical and Mechanical
+  details: Hardware accessories to enhance capacity and features.
+  products:
+    - name: Co-processor
+      type: Electrical
+      edition: Electrical
+      image: /images/gen4x/preview-coprocessor.png
+      link: /products/gen4x/co-processors.html
+    - name: Sensors
+      type: Electrical
+      edition: Electrical
+      image: /images/gen4x/preview-sensors.png
+      link: /products/gen4x/sensors.html
+    - name: Storage
+      type: Electrical
+      edition: Electrical
+      image: /images/gen4x/preview-storage.png
+      link: /products/gen4x/storage.html
+    - name: Hull Options
+      type: Mechanical
+      edition: Mechanical
+      image: /images/gen4x/preview-hull.png
+      link: /products/gen4x/hull-options.html
+    - name: Cables
+      type: Mechanical
+      edition: Mechanical
+      image: /images/gen4x/preview-cables.png
+      link: /products/gen4x/cables.html

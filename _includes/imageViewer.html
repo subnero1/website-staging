@@ -1,0 +1,17 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var mainImg = document.getElementById('main-img');
+  var thumbs = document.querySelectorAll('.product-images .thumbs img');
+  thumbs.forEach(function(thumb) {
+    thumb.addEventListener('click', function() {
+      // Remove 'thumb-' prefix from the thumbnail src to get main image src
+      var thumbSrc = this.src;
+      var mainSrc = thumbSrc.replace(/thumb-/, '');
+      mainImg.src = mainSrc;
+      // Highlight selected thumbnail
+      thumbs.forEach(function(t) { t.classList.remove('selected-thumb'); });
+      this.classList.add('selected-thumb');
+    });
+  });
+});
+</script>
