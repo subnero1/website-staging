@@ -36,6 +36,13 @@
 - name: About
   path: about/
   section_id: about
-- name: Contact
-  path: contact/
-  section_id: contact
+  submenu:
+  - name: Who we are
+    path: /about
+    section_id: about
+  - name: Careers
+    path: /careers
+    section_id: careers
+  - name: Contact
+    path: /contact
+    section_id: contact
