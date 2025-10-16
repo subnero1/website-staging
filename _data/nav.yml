@@ -37,7 +37,7 @@
   path: about/
   section_id: about
   submenu:
-  - name: Who we are
+  - name: Company
     path: /about
     section_id: about
   - name: Careers

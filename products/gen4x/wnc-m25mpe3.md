@@ -10,19 +10,10 @@ layout: default
       <div class="large-7 columns">
         <div class="card-tag">Gen4x</div>
         <h1>WNC-M25MPE3</h1>
-        <h2>STANDALONE CONFIGURATION MODEM</h2>
+        <h2>Embedded Configuration Modem</h2>
         <small>Platinum Edition</small>
-        <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
-        <h3>Applications</h3>
-        <ul>
-          <li>High-speed data transfer for underwater IoT sensors</li>
-          <li>On-demand image transfer</li>
-          <li>Large sensor payload data transfer for marine robotics</li>
-          <li>Underwater networks</li>
-        </ul>
-        <div class="request-quote">
-          <a href="#">Request a quote</a>
-        </div>
+        <p>Delivering performance under the toughest environmental conditions, Subnero’s platinum edition smart modems are designed to meet rigorous quality standards mandated by sectors such as defense, oil & gas and subsea engineering.</p>
+        {%- include formRequestQuote.html -%}
       </div>
     </div>
   </section>
@@ -31,14 +22,14 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Up to 33 kbps data rate*.</li>
-          <li>Up to 1 km communication range (horizontal & vertical) in tropical waters.</li>
+          <li>Up to 15 kbps data rate*.</li>
+          <li>Up to 5 km communication range (horizontal & vertical) in tropical waters.</li>
           <li>Ranging functionality with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
           <li>Support for coherent and incoherent communication schemes.</li>
           <li>Support for arbitrary signal transmission as well as recording (passband, baseband).</li>
-          <li>Support for user defined communication schemes using UnetStack.</li>
-          <li>Support for multiple receiving channels for a variety of applications.</li>
+          <li>Support for user defined communication schemes using <a href="{{site.baseurl}}/products/unet.html">UnetStack</a>.</li>
+          <li>Certified for various MIL standards.</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
@@ -48,32 +39,21 @@ layout: default
     </div>
   </section>
   <section class="call-to-action category-container">
-    <div class="cta">
-      <p>Looking for a reliable underwater communication solution?</p>
-      <a href="#">Contact us</a>
-    </div>
+    {%- include formCTA.html -%}
   </section>
   <section class="technical category-container">
     <div class="category-row">
       <div class="large-4 columns">
         <div class="highlight-card">
-          <h3>STANDALONE CONFIGURATION</h3>
+          <h3>Embedded Configuration</h3>
           <p>The standalone configuration (SC) features a pressure housing tailored to accommodate various deployment depths and operate on external power sources, whether underwater with batteries or from the water's surface with a power supply. Engineered for unparalleled versatility and dependability across diverse deployment scenarios, this configuration ensures robust data transmission, even in the most demanding environments, guaranteeing seamless and uninterrupted operations.</p>
         </div>
         <h3>Brochures</h3>
         <div class=brochures>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem6.jpg">
-            <span>Subnero S40H Underwater Modems</span>
+          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/modem3.jpg">
+            <span>Subnero M25M Underwater Modems</span>
           </a>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/wnc.jpg">
-            <span>Generation 4 Wireless Networked Communications (WNC), Product Series Brief</span>
-          </a>
-        </div>
-        <h3>Useful Links</h3>
-        <div class="useful-links">
-          <a href="{{site.baseurl}}/products/wnc.html">WNC Product Series</a>
         </div>
       </div>
       <div class="large-8 columns">
@@ -96,8 +76,12 @@ layout: default
               <td>LDPC, BCH, Convolution code</td>
             </tr>
             <tr>
+              <td>JANUS support</td>
+              <td>Yes, subject to operating frequency band</td>
+            </tr>
+            <tr>
               <td>Bandwidth</td>
-              <td>25 kHz (25 - 50 kHz)</td>
+              <td>12 kHz (20 - 32 kHz)</td>
             </tr>
           </tbody>
         </table>
@@ -112,7 +96,7 @@ layout: default
           <tbody>
             <tr>
               <td>Framework</td>
-              <td>UnetStack</td>
+              <td><a href="{{site.baseurl}}/products/unet.html">UnetStack</a></td>
             </tr>
             <tr>
               <td>User Interface</td>
@@ -141,17 +125,14 @@ layout: default
               <td>Power consumption</td>
               <td>
                 < 4 W (receive mode, nominal) <br />
-                < 45 W (transmit mode, avg.) <br />
-                < 1 mW (deep sleep mode)
+                < 60 W (transmit mode, avg.) <br />
+                < 80 W (transmit mode, max.) <br />
+                < 1.5 W (sleep mode)
               </td>
             </tr>
             <tr>
               <td>External interface</td>
-              <td>Ethernet (10/100 Mbps)*</td>
-            </tr>
-            <tr>
-              <td>On-board storage</td>
-              <td>32 GB<sup>*</sup></td>
+              <td>Ethernet (10/100 Mbps), RS232 (115200 bps)</td>
             </tr>
           </tbody>
         </table>
@@ -170,15 +151,36 @@ layout: default
             </tr>
             <tr>
               <td>Operating depth</td>
-              <td>300 m*</td>
+              <td>
+                Hull: 300 m <br />
+                Transducer: 2000 m
+              </td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>⌀ 127 ✕ 316 mm</td>
+              <td>
+                SC: ⌀ 127 ✕ 400 mm
+                EC: 90 ✕ 90 ✕ 180 mm
+              </td>
             </tr>
             <tr>
               <td>Operating temperature</td>
-              <td>0 to 40 °C</td>
+              <td>
+                SC: 0 to 50 °C
+                EC: 0 to 70 °C (Electronics), 0 to 50 °C (Transducer)
+              </td>
+            </tr>
+            <tr>
+              <td>Supported MIL standards</td>
+              <td>MIL-STD-810G, MIL-STD-810E, MIL-STD-461E</td>
+            </tr>
+            <tr>
+              <td>Workmanship</td>
+              <td>
+                - IPC class 2A
+                - Conformal coating
+                - Environmental Stress Screening (ESS)
+              </td>
             </tr>
           </tbody>
         </table>

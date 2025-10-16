@@ -9,19 +9,10 @@ layout: default
       </div>
       <div class="large-7 columns">
         <h1>S1000-N</h1>
-        <h2>STANDALONE CONFIGURATION MODEM</h2>
+        <h2>Research Edition Modem</h2>
         <small>Research Edition</small>
-        <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
-        <h3>Applications</h3>
-        <ul>
-          <li>High-speed data transfer for underwater IoT sensors</li>
-          <li>On-demand image transfer</li>
-          <li>Large sensor payload data transfer for marine robotics</li>
-          <li>Underwater networks</li>
-        </ul>
-        <div class="request-quote">
-          <a href="#">Request a quote</a>
-        </div>
+        <p>Our research edition modems are designed to bridge the gap between developing applications using a simulator and high-end commercial deployments. Due to its low cost, these smart modems provide an easier entry to the world of underwater communications to any underwater technology enthusiasts.</p>
+        {%- include formRequestQuote.html -%}
       </div>
     </div>
   </section>
@@ -30,16 +21,15 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Up to 33 kbps data rate*.</li>
-          <li>Up to 1 km communication range (horizontal & vertical) in tropical waters.</li>
-          <li>Ranging functionality with 0.1 m precision.</li>
-          <li>Doppler resilience of ±4 knots or better.</li>
-          <li>Support for coherent and incoherent communication schemes.</li>
-          <li>Support for arbitrary signal transmission as well as recording (passband, baseband).</li>
-          <li>Support for user defined communication schemes using UnetStack.</li>
-          <li>Support for multiple receiving channels for a variety of applications.</li>
+          <li>The power of Popoto S-series modems</li>
+          <li>Advanced UnetStack networking</li>
+          <li>80 bps with Frequency Hopping FSK</li>
+          <li>10240, 5120, 2560, 1280, 640 bps with PSK</li>
+          <li>1-3 km depending on channel conditions and selected modulation scheme</li>
+          <li>APIs in multiple computer languages</li>
+          <li>Multihop relay and routing</li>
+          <li>Low power operations</li>
         </ul>
-        <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
         <img src="{{site.baseurl}}/images/gen4x/S1000-N-02.png" />
@@ -47,32 +37,21 @@ layout: default
     </div>
   </section>
   <section class="call-to-action category-container">
-    <div class="cta">
-      <p>Looking for a reliable underwater communication solution?</p>
-      <a href="#">Contact us</a>
-    </div>
+    {%- include formCTA.html -%}
   </section>
   <section class="technical category-container">
     <div class="category-row">
       <div class="large-4 columns">
         <div class="highlight-card">
           <h3>STANDALONE CONFIGURATION</h3>
-          <p>The standalone configuration (SC) features a pressure housing tailored to accommodate various deployment depths and operate on external power sources, whether underwater with batteries or from the water's surface with a power supply. Engineered for unparalleled versatility and dependability across diverse deployment scenarios, this configuration ensures robust data transmission, even in the most demanding environments, guaranteeing seamless and uninterrupted operations.</p>
+          <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an internal or external power source, like a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
         </div>
         <h3>Brochures</h3>
         <div class=brochures>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem6.jpg">
-            <span>Subnero S40H Underwater Modems</span>
+          <a class="download-file" href="{{site.baseurl}}/brochures/S1000-N.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/s1000n.jpg">
+            <span>S1000-N Underwater Modems</span>
           </a>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/wnc.jpg">
-            <span>Generation 4 Wireless Networked Communications (WNC), Product Series Brief</span>
-          </a>
-        </div>
-        <h3>Useful Links</h3>
-        <div class="useful-links">
-          <a href="{{site.baseurl}}/products/wnc.html">WNC Product Series</a>
         </div>
       </div>
       <div class="large-8 columns">
@@ -87,16 +66,102 @@ layout: default
           </thead>
           <tbody>
             <tr>
-              <td>Modulation (software defined)</td>
-              <td>PSK-OFDM, FH-BFSK</td>
+              <td>Data rate</td>
+              <td>80 bps with Frequency Hopping FSK <br />10240, 5120, 2560, 1280, 640 bps with PSK</td>
             </tr>
             <tr>
-              <td>FEC (Forward Error Correction)</td>
-              <td>LDPC, BCH, Convolution code</td>
+              <td>Range</td>
+              <td>1-3 km*</td>
             </tr>
             <tr>
-              <td>Bandwidth</td>
-              <td>25 kHz (25 - 50 kHz)</td>
+              <td>Frequency band</td>
+              <td>20-30 KHz</td>
+            </tr>
+            <tr>
+              <td>Storage</td>
+              <td>128 GB on included uSD (Expandable)</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <caption>Power</caption>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Operating voltage</td>
+              <td>12 - 40V</td>
+            </tr>
+            <tr>
+              <td>Power consumption</td>
+              <td>
+                GPIO Enabled Sleep: &lt; 10uW <br />
+                Acoustic Wake-Up Deep Sleep: &lt; 45 mW <br />
+                Acoustic Wake-Up Sleep: 150 mW <br />
+                Active Receive: 1.5 W
+              </td>
+            </tr>
+            <tr>
+              <td>Transmit power</td>
+              <td>20 W</td>
+            </tr>
+            <tr>
+              <td>Battery</td>
+              <td>22.2V 2500mAh Li-Ion</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <caption>Interface</caption>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data connections</td>
+              <td>Ethernet, RS-422, RS-232</td>
+            </tr>
+            <tr>
+              <td>External interface connections</td>
+              <td>SPI Bus, I2C Bus, GPIO, Analog</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <caption>Hardware</caption>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dimensions</td>
+              <td>Aluminum<sup>*</sup></td>
+            </tr>
+            <tr>
+              <td>Operating depth</td>
+              <td>300 m*</td>
+            </tr>
+            <tr>
+              <td>Dimensions</td>
+              <td>376mm x 49mm x 49mm</td>
+            </tr>
+            <tr>
+              <td>Weight</td>
+              <td>dry: 1275g (Nmodel), In Sea Water: 505g</td>
+            </tr>
+            <tr>
+              <td>Depth rating</td>
+              <td>1000 m</td>
             </tr>
           </tbody>
         </table>
@@ -110,77 +175,39 @@ layout: default
           </thead>
           <tbody>
             <tr>
-              <td>Framework</td>
-              <td>UnetStack</td>
+              <td>Software framework</td>
+              <td><a href="{{site.baseurl}}/products/unet.html">UnetStack</a></td>
             </tr>
             <tr>
-              <td>User Interface</td>
-              <td>Interactive web UI</td>
+              <td>Software interface</td>
+              <td>Java, Groovy, Python, C, Javascript, Julia, web UI, JSON/TCP</td>
             </tr>
             <tr>
-              <td>Software Interfaces</td>
-              <td>Java, Groovy, Python, C, JavaScript, Julia</td>
+              <td>Waveform player</td>
+              <td>Transmission and reception, passband and baseband</td>
             </tr>
           </tbody>
         </table>
-        <table>
-          <caption>Electrical</caption>
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Power supply</td>
-              <td>22 - 28 VDC (24 VDC recommended)</td>
-            </tr>
-            <tr>
-              <td>Power consumption</td>
-              <td>
-                < 4 W (receive mode, nominal) <br />
-                < 45 W (transmit mode, avg.) <br />
-                < 1 mW (deep sleep mode)
-              </td>
-            </tr>
-            <tr>
-              <td>External interface</td>
-              <td>Ethernet (10/100 Mbps)*</td>
-            </tr>
-            <tr>
-              <td>On-board storage</td>
-              <td>32 GB<sup>*</sup></td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <caption>Mechanical</caption>
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Hull material</td>
-              <td>Aluminum<sup>*</sup></td>
-            </tr>
-            <tr>
-              <td>Operating depth</td>
-              <td>300 m*</td>
-            </tr>
-            <tr>
-              <td>Dimensions</td>
-              <td>⌀ 127 ✕ 316 mm</td>
-            </tr>
-            <tr>
-              <td>Operating temperature</td>
-              <td>0 to 40 °C</td>
-            </tr>
-          </tbody>
-        </table>
+        <p>* depending on channel conditions and selected modulation scheme</p>
+        <div class="product-faq">
+          <h3>Frequently Asked Question</h3>
+          <p class="question">Q: What is the S1000-N acoustic smart modem?</p>
+          <p class="answer">A: The S1000-N is a new underwater acoustic modem that combines the power of the S1000 series modems from Popoto Modem and UnetStack from Subnero. The modems will have a fully functioning network stack out of the box, and offer a data rate of up to 10240 bps over a range of 3+ km.</p>
+          <p class="question">Q: What is the advantage of combining the power of Popoto's S-series modems with the network stack of UnetStack?</p>
+          <p class="answer">A: By combining these two technologies, the S1000-N offers a truly advanced underwater acoustic smart modem that is both compact and affordable. The modems are ideal for use in a wide range of underwater applications that need flexibility and affordability.</p>
+          <p class="question">Q: What are the key features of the S1000-N modems?</p>
+          <p class="answer">A: The S1000-N modems offer a data rate of up to 10240 bps over a range of 3+ km, multihop routing, low power operations, and arbitrary waveform transmission and reception.</p>
+          <p class="question">Q: What is multi-hop routing?</p>
+          <p class="answer">A: Multihop routing allows the S1000-N modems to communicate over longer distances than traditional acoustic smart modems. This is achieved by using a series of intermediate nodes to relay data between the source and destination.</p>
+          <p class="question">Q: What application domains are the S1000-N modems ideal for?</p>
+          <p class="answer">A: The S1000-N modems are ideal for use in scientific research applications. They offer a reliable means of communicating underwater, and their low power consumption makes them ideal for use in applications where power is at a premium, all of this with affordable pricing.</p>
+          <p class="question">Q: How can I learn more about the S1000-N acoustic smart modem?</p>
+          <p class="answer">A: For more information on the S1000-N acoustic smart modem, customers can contact either Subnero or Popoto Modem directly. Both companies will be happy to answer any questions you may have about the S1000-N smart modems and their features. To learn more about UnetStack, you can visit <a href="https://unetstack.net/" target="_blank">www.unetstack.net.</a></p>
+          <p class="question">Q: When will the S1000-N modems be available?</p>
+          <p class="answer">A: The S1000-N Modems will be available from Q2 2023. Customers can contact either Subnero (sales@subnero.com) or Popoto Modem (info@popotomodem.com) for more information on availability and pricing. The S1000-N is available at a starting price of US $6,750.</p>
+          <p class="question">Q: Where can I buy the S1000-N acoustic smart modem?</p>
+          <p class="answer">A: Customers can contact either Subnero sales@subnero.com or Popoto Modem info@popotomodem.com for purchasing inquiries.</p>
+        </div>
       </div>
     </div>
   </section>

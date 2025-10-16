@@ -1,0 +1,38 @@
+<div class="cta">
+  <p>Looking for a reliable underwater communication solution?</p>
+  <button class="cta-button" id="openCTA">Contact us</button>
+</div>
+<!-- Modal -->
+<dialog id="CTAModal" class="modal-dialog">
+  <div class="modal-content">
+    <header><button class="modal-close" type="button" id="closeCTA" title="close">&times;</button></header>
+    <div class="main">
+      <script src='https://subnero.myfreshworks.com/crm/sales/web_forms/2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5/form.js' crossorigin='anonymous' id='fs_2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5'></script>
+    </div>
+    <div class="footer"></div>
+  </div>
+</dialog>
+
+<script>
+const CTAModal = document.getElementById('CTAModal');
+const openCTA = document.getElementById('openCTA');
+const closeCTA = document.getElementById('closeCTA');
+
+// Open the modal
+openCTA.addEventListener('click', () => {
+    CTAModal.showModal();
+});
+
+// Close the modal
+closeCTA.addEventListener('click', () => {
+    CTAModal.close();
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && CTAModal.open) {
+        CTAModal.close();
+    }
+});
+
+</script>
+

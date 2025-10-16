@@ -3,20 +3,38 @@
   {% for category in categories %}
     {% assign key = category[0] %}
     {% assign value = category[1] %}
-    <div class="product-card">
+    <a class="product-card" href="{{ site.baseurl }}/products/gen4x/index.html?category={{ key }}">
+      <div class="card-tag">Gen 4X</div>
       <h2>{{ value.title }}</h2>
+      {% if include.show_details %}
+      <div class="cover-img">
+        <img src="{{ site.baseurl }}{{value.image}}" alt="{{value.title}}">
+      </div>
+      {% endif %}
       <p>{{ value.details }}</p>
-      <div class="text-right"><a class="inline-btn" href="{{ site.baseurl }}/products/gen4x/index.html?category={{ key }}">View &#8594;</a></div>
-    </div>
+      <div class="text-right">View &#8594;</div>
+    </a>
   {% endfor %}
-    <div class="product-card">
+    <a class="product-card" href="{{ site.baseurl }}/products/gen4x">
+      <div class="card-tag">Gen 4X</div>
       <h2>All Gen4X</h2>
+      {% if include.show_details %}
+      <div class="cover-img">
+        <img src="{{ site.baseurl }}/images/gen4x/cover-gen4x.png" alt="All Gen4x">
+      </div>
+      {% endif %}
       <p>View our lastest generation - Gen 4X - product series.</p>
-      <div class="text-right"><a class="inline-btn" href="{{ site.baseurl }}/products/gen4x">View &#8594;</a></div>
-    </div>
-    <div class="product-card">
+      <div class="text-right">View &#8594;</div>
+    </a>
+    <a class="product-card" href="{{ site.baseurl }}/products/modem.html">
+      <div class="card-tag gen4">Gen 4</div>
       <h2>All Gen4</h2>
+      {% if include.show_details %}
+      <div class="cover-img">
+        <img src="{{ site.baseurl }}/images/gen4x/cover-gen4.png" alt="All Gen4">
+      </div>
+      {% endif %}
       <p>View our previous generation products.</p>
-      <div class="text-right"><a class="inline-btn" href="{{ site.baseurl }}/products/modem.html">View &#8594;</a></div>
-    </div>
+      <div class="text-right">View &#8594;</div>
+    </a>
   </div>

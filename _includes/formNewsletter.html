@@ -1,1 +1,33 @@
-<script src='https://subnero.myfreshworks.com/crm/sales/web_forms/01af119847118009677d0dfd081247c08e8ab9f3f4507d309bd48821213d3d4e/form.js' crossorigin='anonymous' id='fs_01af119847118009677d0dfd081247c08e8ab9f3f4507d309bd48821213d3d4e'></script>
+<button class="form-button newsletter" id="openNewsletter">Subscribe to newsletter</button>
+<!-- Modal -->
+<dialog id="newsletterModal" class="modal-dialog">
+  <div class="modal-content">
+    <header><button class="modal-close" type="button" id="closeNewsletter" title="close">&times;</button></header>
+    <div class="main">
+      <script src='https://subnero.myfreshworks.com/crm/sales/web_forms/01af119847118009677d0dfd081247c08e8ab9f3f4507d309bd48821213d3d4e/form.js' crossorigin='anonymous' id='fs_01af119847118009677d0dfd081247c08e8ab9f3f4507d309bd48821213d3d4e'></script>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const newsletterModal = document.getElementById('newsletterModal');
+const openNewsletter = document.getElementById('openNewsletter');
+const closeNewsletter = document.getElementById('closeNewsletter');
+
+// Open the modal
+openNewsletter.addEventListener('click', () => {
+  event.preventDefault();
+    newsletterModal.showModal();
+});
+
+// Close the modal
+closeNewsletter.addEventListener('click', () => {
+    newsletterModal.close();
+});
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && newsletterModal.open) {
+        newsletterModal.close();
+    }
+});
+
+</script>

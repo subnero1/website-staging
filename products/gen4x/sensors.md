@@ -28,9 +28,7 @@ layout: default
           <li>Large sensor payload data transfer for marine robotics</li>
           <li>Underwater networks</li>
         </ul>
-        <div class="request-quote">
-          <a href="#">Request a quote</a>
-        </div>
+        {%- include formRequestQuote.html -%}
       </div>
     </div>
   </section>
@@ -56,10 +54,7 @@ layout: default
     </div>
   </section>
   <section class="call-to-action category-container">
-    <div class="cta">
-      <p>Looking for a reliable underwater communication solution?</p>
-      <a href="#">Contact us</a>
-    </div>
+    {%- include formCTA.html -%}
   </section>
   <section class="technical category-container">
     <div class="category-row">

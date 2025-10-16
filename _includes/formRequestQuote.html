@@ -1,1 +1,36 @@
-<script src='https://subnero.myfreshworks.com/crm/sales/web_forms/9f8ebaa44a02b71974c23cae0fa86599223a7b96626d9d8aca8c9727d672ad01/form.js' crossorigin='anonymous' id='fs_9f8ebaa44a02b71974c23cae0fa86599223a7b96626d9d8aca8c9727d672ad01'></script>
+<div class="request-quote">
+  <button class="form-button" id="openQuote">Request a quote</button>
+</div>
+<!-- Modal -->
+<dialog id="quoteModal" class="modal-dialog">
+  <div class="modal-content">
+    <header><button class="modal-close" type="button" id="closeQuote" title="close">&times;</button></header>
+    <div class="main">
+      <script src='https://subnero.myfreshworks.com/crm/sales/web_forms/9f8ebaa44a02b71974c23cae0fa86599223a7b96626d9d8aca8c9727d672ad01/form.js' crossorigin='anonymous' id='fs_9f8ebaa44a02b71974c23cae0fa86599223a7b96626d9d8aca8c9727d672ad01'></script>
+    </div>
+    <div class="footer"></div>
+  </div>
+</dialog>
+
+<script>
+const quoteModal = document.getElementById('quoteModal');
+const openQuote = document.getElementById('openQuote');
+const closeQuote = document.getElementById('closeQuote');
+
+// Open the modal
+openQuote.addEventListener('click', () => {
+    quoteModal.showModal();
+});
+
+// Close the modal
+closeQuote.addEventListener('click', () => {
+    quoteModal.close();
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && quoteModal.open) {
+        quoteModal.close();
+    }
+});
+
+</script>

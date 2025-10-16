@@ -25,7 +25,7 @@ banner: images/banner-products.jpg
         <div class="card-wrapper detailed" data-edition="{{ edition }}">
           {% for product in value.products %}
             {% if product.edition == edition %}
-              <div class="product-card">
+              <a class="product-card" href="{{ product.link }}">
               {% unless key == "Accessories" %}
                 <div class="card-tag {{ edition | downcase }}">{{ edition }} Edition</div>
               {% endunless %}
@@ -35,12 +35,10 @@ banner: images/banner-products.jpg
                 <div class="card-title type">{{ product.type }}</div>
                 <div class="card-title name">{{ product.name }}</div>
                 <div class="product-img">
-                  <a href="{{ product.link }}" title="{{ product.name }}"><img src="{{site.baseurl}}{{ product.image }}"></a>
+                  <img src="{{site.baseurl}}{{ product.image }}">
                 </div>
-                <div class="details-link">
-                  <a class="inline-btn" href="{{ product.link }}" title="{{ product.name }}">View Details &#8594;</a>
-                </div>
-              </div>
+                <div class="details-link">View Details &#8594;</div>
+              </a>
             {% endif %}
           {% endfor %}
         </div>

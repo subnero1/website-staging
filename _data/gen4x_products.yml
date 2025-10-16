@@ -2,6 +2,7 @@ S40H:
   title: S40H Series
   type: HIGH-SPEED SMART MODEMS
   details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  image: /images/gen4x/cover-s40h.png
   products:
     - name: WNC-S40HSS4X
       type: Standalone Configuration
@@ -23,6 +24,7 @@ L12L:
   title: L12L Series
   type: LONG-RANGE SMART MODEMS
   details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  image: /images/gen4x/cover-l12l.png
   products:
     - name: WNC-L12LSS4X  
       type: Standalone Configuration
@@ -41,6 +43,7 @@ M25M:
   title: M25M Series
   type: ACOUSTIC SMART MODEMS
   details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  image: /images/gen4x/cover-m25m.png
   products:
     - name: WNC-M25MSS4X
       type: Standalone Configuration
@@ -74,9 +77,10 @@ M25M:
       link: /products/gen4x/wnc-m25mpe3.html
 
 Accessories:
-  title: Accessories and Upgrades
+  title: Accessories
   type: Electrical and Mechanical
   details: Hardware accessories to enhance capacity and features.
+  image: /images/gen4x/cover-accessories.png
   products:
     - name: Co-processor
       type: Electrical
