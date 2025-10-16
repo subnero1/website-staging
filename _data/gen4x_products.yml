@@ -14,11 +14,6 @@ S40H:
       edition: Silver
       image: /images/gen4x/preview-WNC-S40HSO4X.png
       link: /products/gen4x/wnc-s40hso4x.html
-    - name: WNC-S40HSS4+xCh
-      type: Multi-Receiver Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-S40HSS4+xCh.png
-      link: /products/gen4x/wnc-s40hss4+xch.html
 
 L12L:
   title: L12L Series
@@ -26,17 +21,17 @@ L12L:
   details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
   image: /images/gen4x/cover-l12l.png
   products:
-    - name: WNC-L12LSS4X  
+    - name: WNC-L12LSS4X
       type: Standalone Configuration
       edition: Silver
       image: /images/gen4x/preview-WNC-L12LSS4X.png
       link: /products/gen4x/wnc-l12lss4x.html
       is_new: true
-    - name: WNC-L12LHSO4X
+    - name: WNC-L12LSO4X
       type: OEM Configuration
       edition: Silver
       image: /images/gen4x/preview-WNC-L12LHSO4X.png
-      link: /products/gen4x/wnc-l12lhso4x.html
+      link: /products/gen4x/wnc-l12lso4x.html
       is_new: true
 
 M25M:
@@ -55,11 +50,11 @@ M25M:
       edition: Silver
       image: /images/gen4x/preview-WNC-M25MSO4X.png
       link: /products/gen4x/wnc-m25mso4x.html
-    - name: WNC-M25MSS4X-Rx
-      type: Multi-Channel Configuration
+    - name: WNC-M25MSS4X-2
+      type: Multi-Receiver Configuration
       edition: Silver
       image: /images/gen4x/preview-WNC-M25MSS4X-Rx.png
-      link: /products/gen4x/wnc-m25mss4x-rx.html
+      link: /products/gen4x/wnc-m25mss4x-2.html
     - name: S1000-N
       type: Standalone Configuration
       edition: Research
@@ -77,33 +72,27 @@ M25M:
       link: /products/gen4x/wnc-m25mpe3.html
 
 Accessories:
-  title: Accessories
-  type: Electrical and Mechanical
+  title: Accessories & Optional Upgrades
   details: Hardware accessories to enhance capacity and features.
   image: /images/gen4x/cover-accessories.png
   products:
     - name: Co-processor
-      type: Electrical
       edition: Electrical
       image: /images/gen4x/preview-coprocessor.png
       link: /products/gen4x/co-processors.html
     - name: Sensors
-      type: Electrical
       edition: Electrical
       image: /images/gen4x/preview-sensors.png
       link: /products/gen4x/sensors.html
     - name: Storage
-      type: Electrical
       edition: Electrical
       image: /images/gen4x/preview-storage.png
       link: /products/gen4x/storage.html
     - name: Hull Options
-      type: Mechanical
       edition: Mechanical
       image: /images/gen4x/preview-hull.png
       link: /products/gen4x/hull-options.html
     - name: Cables
-      type: Mechanical
       edition: Mechanical
       image: /images/gen4x/preview-cables.png
       link: /products/gen4x/cables.html

@@ -9,7 +9,7 @@ layout: default
       </div>
       <div class="large-7 columns">
         <div class="card-tag">Gen4x</div>
-        <h1>WNC-M25MSS4X-Rx</h1>
+        <h1>WNC-M25MSS4X-2</h1>
         <h2>STANDALONE CONFIGURATION MODEM</h2>
         <small>Silver Edition</small>
         <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
