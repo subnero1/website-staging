@@ -1,6 +1,25 @@
+L12L:
+  title: L12L Series (9 - 16 kHz band)
+  type: LONG-RANGE ACOUSTIC SMART MODEMS
+  details: Long-range, acoustic communication for persistent subsea monitoring and control.
+  image: /images/gen4x/cover-l12l.png
+  products:
+    - name: WNC-L12LSS4X
+      type: Standalone Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-L12LSS4X.png
+      link: /products/gen4x/wnc-l12lss4x.html
+      is_new: true
+    - name: WNC-L12LSO4X
+      type: OEM Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-L12LHSO4X.png
+      link: /products/gen4x/wnc-l12lso4x.html
+      is_new: true
+
 M25M:
-  title: M25M Series
-  type: ACOUSTIC SMART MODEMS
+  title: M25M Series (20 - 32 kHz band)
+  type: VERSATILE ACOUSTIC SMART MODEMS
   details: Versatile connectivity balancing data rate, range, and robustness for diverse set of applications.
   image: /images/gen4x/cover-m25m.png
   products:
@@ -36,7 +55,7 @@ M25M:
       link: /products/gen4x/wnc-m25mpe3.html
 
 S40H:
-  title: S40H Series
+  title: S40H Series (25 - 55 kHz band)
   type: HIGH-SPEED ACOUSTIC SMART MODEMS
   details: High-speed connectivity for data-intensive underwater applications.
   image: /images/gen4x/cover-s40h.png
@@ -51,25 +70,6 @@ S40H:
       edition: Silver
       image: /images/gen4x/preview-WNC-S40HSO4X.png
       link: /products/gen4x/wnc-s40hso4x.html
-
-L12L:
-  title: L12L Series
-  type: LONG-RANGE ACOUSTIC SMART MODEMS
-  details: Long-range, acoustic communication for persistent subsea monitoring and control.
-  image: /images/gen4x/cover-l12l.png
-  products:
-    - name: WNC-L12LSS4X
-      type: Standalone Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-L12LSS4X.png
-      link: /products/gen4x/wnc-l12lss4x.html
-      is_new: true
-    - name: WNC-L12LSO4X
-      type: OEM Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-L12LHSO4X.png
-      link: /products/gen4x/wnc-l12lso4x.html
-      is_new: true
 
 Accessories:
   title: Accessories & Optional Upgrades
