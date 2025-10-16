@@ -1,43 +1,7 @@
-S40H:
-  title: S40H Series
-  type: HIGH-SPEED SMART MODEMS
-  details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
-  image: /images/gen4x/cover-s40h.png
-  products:
-    - name: WNC-S40HSS4X
-      type: Standalone Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-S40HSS4X.png
-      link: /products/gen4x/wnc-s40hss4x.html
-    - name: WNC-S40HSO4X
-      type: OEM Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-S40HSO4X.png
-      link: /products/gen4x/wnc-s40hso4x.html
-
-L12L:
-  title: L12L Series
-  type: LONG-RANGE SMART MODEMS
-  details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
-  image: /images/gen4x/cover-l12l.png
-  products:
-    - name: WNC-L12LSS4X
-      type: Standalone Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-L12LSS4X.png
-      link: /products/gen4x/wnc-l12lss4x.html
-      is_new: true
-    - name: WNC-L12LSO4X
-      type: OEM Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-L12LHSO4X.png
-      link: /products/gen4x/wnc-l12lso4x.html
-      is_new: true
-
 M25M:
   title: M25M Series
   type: ACOUSTIC SMART MODEMS
-  details: Dolor sit amet consectetur adipisicing elit enim, a praesentium esse deleniti.
+  details: Versatile connectivity balancing data rate, range, and robustness for diverse set of applications.
   image: /images/gen4x/cover-m25m.png
   products:
     - name: WNC-M25MSS4X
@@ -70,6 +34,42 @@ M25M:
       edition: Platinum
       image: /images/gen4x/preview-WNC-M25MPE3.png
       link: /products/gen4x/wnc-m25mpe3.html
+
+S40H:
+  title: S40H Series
+  type: HIGH-SPEED ACOUSTIC SMART MODEMS
+  details: High-speed connectivity for data-intensive underwater applications.
+  image: /images/gen4x/cover-s40h.png
+  products:
+    - name: WNC-S40HSS4X
+      type: Standalone Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-S40HSS4X.png
+      link: /products/gen4x/wnc-s40hss4x.html
+    - name: WNC-S40HSO4X
+      type: OEM Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-S40HSO4X.png
+      link: /products/gen4x/wnc-s40hso4x.html
+
+L12L:
+  title: L12L Series
+  type: LONG-RANGE ACOUSTIC SMART MODEMS
+  details: Long-range, acoustic communication for persistent subsea monitoring and control.
+  image: /images/gen4x/cover-l12l.png
+  products:
+    - name: WNC-L12LSS4X
+      type: Standalone Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-L12LSS4X.png
+      link: /products/gen4x/wnc-l12lss4x.html
+      is_new: true
+    - name: WNC-L12LSO4X
+      type: OEM Configuration
+      edition: Silver
+      image: /images/gen4x/preview-WNC-L12LHSO4X.png
+      link: /products/gen4x/wnc-l12lso4x.html
+      is_new: true
 
 Accessories:
   title: Accessories & Optional Upgrades

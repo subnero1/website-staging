@@ -24,11 +24,12 @@ section_id: products
     <h2 class='centered-text'>Powered by UnetStack4, the Software-Defined Network Stack for Underwater Applications.</h2>
   </div>
   <div class='large-4 columns flex-col'>
-    <p>Subnero's fourth-generation Wireless Networked Communication (<span class='swan-highlight'>WNC</span>) series of underwater acoustic smart modems is designed to provide <span class='orange'>best-in-class communication performance</span>, <span class='orange'>advanced networking and localization capabilities</span>, and <span class='orange'>developer tools</span>. This simplifies the development and deployment of scalable underwater wireless networks. Equipped with our new and improved software, <a href="https://unetstack.net/" target="_blank">UnetStack4</a>, our generation 4 modems are designed to take your underwater communication to the next level.</p>
+    <p>The Gen4X series of Subnero's acoustic smart modems redefines undersea communications. Built on a foundation of enhanced performance, compact form factor, and rich feature set, Gen4X series equips your systems with smarter, more efficient acoustic links — whether for scientific research, industrial, or defense uses.</p>
     <div>
-      <a href="{{site.baseurl}}/products/modem.html" class='centered-text hOXnHC'><button class="button-outline">VIEW PRODUCTS</button></a>
+      <a href="{{site.baseurl}}/products/gen4x/" class='centered-text hOXnHC'><button class="button-outline">VIEW PRODUCTS</button></a>
     </div>
     <div>
+    <!-- TODO -->
       <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">PURCHASE ENQUIRY</button></a>
     </div>
   </div>
