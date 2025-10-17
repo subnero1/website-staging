@@ -33,6 +33,9 @@
   - name: Quick Links
     path: /quicklinks
     section_id: quicklinks
+  - name: User Stories
+    path: /user-Stories
+    section_id: userstories
 - name: About
   path: about/
   section_id: about
