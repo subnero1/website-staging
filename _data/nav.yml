@@ -2,15 +2,15 @@
   path: products/
   section_id: products
   submenu:
-  - name: S40H Series
-    path: /products/gen4x/index.html?category=S40H
-    section_id: s40h
-  - name: L12L series
+  - name: LF Band
     path: /products/gen4x/index.html?category=L12L
     section_id: l12l
-  - name: M25M series
+  - name: MF Band
     path: /products/gen4x/index.html?category=M25M
     section_id: m25m
+  - name: HF Band
+    path: /products/gen4x/index.html?category=S40H
+    section_id: s40h
   - name: UnetStack
     path: /products/unet
     section_id: unetstack
