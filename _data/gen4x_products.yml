@@ -4,18 +4,12 @@ L12L:
   details: Long-range, acoustic communication for persistent subsea monitoring and control.
   image: /images/gen4x/cover-l12l.png
   products:
-    - name: WNC-L12LSS4X
-      type: Standalone Configuration
+    - name: Reliable and customizable for commercial use.
       edition: Silver
       image: /images/gen4x/preview-WNC-L12LSS4X.png
-      link: /products/gen4x/wnc-l12lss4x.html
+      link: /products/gen4x/l12lsilver.html
       is_new: true
-    - name: WNC-L12LSO4X
-      type: OEM Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-L12LHSO4X.png
-      link: /products/gen4x/wnc-l12lso4x.html
-      is_new: true
+
 
 M25M:
   title: M25M Series (20 - 32 kHz band)
@@ -23,36 +17,18 @@ M25M:
   details: Versatile connectivity balancing data rate, range, and robustness for diverse set of applications.
   image: /images/gen4x/cover-m25m.png
   products:
-    - name: WNC-M25MSS4X
-      type: Standalone Configuration
+    - name: Reliable and customizable for commercial use.
       edition: Silver
       image: /images/gen4x/preview-WNC-M25MSS4X.png
-      link: /products/gen4x/wnc-m25mss4x.html
-    - name: WNC-M25MSO4X
-      type: OEM Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-M25MSO4X.png
-      link: /products/gen4x/wnc-m25mso4x.html
-    - name: WNC-M25MSS4X-2
-      type: Multi-Receiver Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-M25MSS4X-Rx.png
-      link: /products/gen4x/wnc-m25mss4x-2.html
-    - name: S1000-N
-      type: Standalone Configuration
+      link: /products/gen4x/m25msilver.html
+    - name: Affordable and flexible for research and testing.
       edition: Research
       image: /images/gen4x/preview-S1000-N.png
-      link: /products/gen4x/wnc-s1000-n.html
-    - name: WNC-M25MPS3
-      type: Standalone Configuration
+      link: /products/gen4x/m25mresearch.html
+    - name: Rugged and high-performance for demanding missions.
       edition: Platinum
       image: /images/gen4x/preview-WNC-M25MPS3.png
-      link: /products/gen4x/wnc-m25mps3.html
-    - name: WNC-M25MPE3
-      type: Embedded Configuration
-      edition: Platinum
-      image: /images/gen4x/preview-WNC-M25MPE3.png
-      link: /products/gen4x/wnc-m25mpe3.html
+      link: /products/gen4x/m25mplatinum.html
 
 S40H:
   title: S40H Series (25 - 55 kHz band)
@@ -60,16 +36,10 @@ S40H:
   details: High-speed connectivity for data-intensive underwater applications.
   image: /images/gen4x/cover-s40h.png
   products:
-    - name: WNC-S40HSS4X
-      type: Standalone Configuration
+    - name: Reliable and customizable for commercial use.
       edition: Silver
       image: /images/gen4x/preview-WNC-S40HSS4X.png
-      link: /products/gen4x/wnc-s40hss4x.html
-    - name: WNC-S40HSO4X
-      type: OEM Configuration
-      edition: Silver
-      image: /images/gen4x/preview-WNC-S40HSO4X.png
-      link: /products/gen4x/wnc-s40hso4x.html
+      link: /products/gen4x/s40hsilver.html
 
 Accessories:
   title: Accessories & Optional Upgrades
