@@ -6857,6 +6857,10 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   font-weight: 500;
   font-size: 2rem;
 }
+.quick-links .product-card  h2 {
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
 .product-details h3 {
   color: #FC8230;
   font-size: 1.6rem;
