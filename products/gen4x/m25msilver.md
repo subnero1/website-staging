@@ -8,10 +8,11 @@ layout: default
         <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png" />
       </div>
       <div class="large-7 columns">
-        <div class="card-tag">Gen4x</div>
-        <h1>WNC-M25MSS4X</h1>
-        <h2>STANDALONE CONFIGURATION MODEM</h2>
-        <small>Silver Edition</small>
+        <div class="card-tags">
+          <div class="card-tag">Gen4x</div>
+          <div class="card-tag">MF Band</div>
+        </div>
+        <h1>Silver Edition</h1>
         <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
         <h3>Applications</h3>
         <ul>
@@ -47,6 +48,64 @@ layout: default
   </section>
   <section class="call-to-action category-container">
     {%- include formCTA.html -%}
+  </section>
+  <section class="configs">
+    <header>
+      <h2>Flexible Configurations</h2>
+      <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+    </header>
+    <div class="card-wrapper">
+      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x">
+        <h2>WNC-M25MSS4X</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X.png">
+        </div>
+        <h3>Standalone Configuration</h3>
+        <p>Self-contained modem powered by an external battery or supply.</p>
+      </a>
+      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mso4x">
+        <h2>WNC-M25MSO4X</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSO4X.png">
+        </div>
+        <h3>Open <br />Configuration</h3>
+        <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>
+      </a>
+      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x-rx">
+        <h2>WNC-M25MSS4X-Rx</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X-Rx.png">
+        </div>
+        <h3>Open <br />Configuration</h3>
+        <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>
+      </a>
+    </div>
+    <!-- Modal -->
+    <dialog id="configModal" class="modal-dialog">
+      <div class="modal-content">
+        <header>
+          <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
+        </header>
+        <div class="main">
+          <!-- content - WNC-M25MSS4X -->
+          <div class="main modal-content-item" data-product="wnc-m25mss4x">
+            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+          </div>
+          <!-- content - WNC-M25MSO4X -->
+          <div class="main modal-content-item" data-product="wnc-m25mso4x">
+            <p>Detailed description for the Open Configuration, including specs, features, and integration notes.</p>
+            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+          </div>
+          <!-- content - WNC-M25MSS4X-Rx -->
+          <div class="main modal-content-item" data-product="wnc-m25mss4x-rx">
+            <p>Detailed description for the Open Configuration, including specs, features, and integration notes.</p>
+            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+          </div>
+        </div>
+        <div class="footer"></div>
+      </div>
+    </dialog>
   </section>
   <section class="technical category-container">
     <div class="category-row">
@@ -187,3 +246,4 @@ layout: default
     </div>
   </div>
 </div>
+{% include ProductDetailsDialog.html %}

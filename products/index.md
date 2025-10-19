@@ -8,40 +8,68 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   <!-- hero section -->
 </div>
 
-<div>
-  {% assign product_pages = site.pages | where:"categories","underwatermodem" %}
-  {% for page in product_pages %}
-  <div class='category-container bg-white'>
-    <div class='category-row'>
-        <!-- <div class='large-3 columns category-img'>
-          <img alt="" class='round-border-10' src="{{site.baseurl}}/{{page.thumbnail}}"/>
-        </div> -->
-        <div class='large-12 columns'>
-          <div class='category-content wnc-products'>
-            <h1>Wireless Networked Communications (WNC)</h1>
-            <h3>Software-defined, powerful, and feature-rich acoustic smart modems for underwater IoT, marine robotics, and subsea communications. <a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a></h3>
-            {% include quick_links.html show_details=true %}
-          </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-  {% assign product_pages = site.pages | where:"categories","unet" %}
-  {% for page in product_pages %}
-  <hr style="max-width:90rem;" />
-  <div class='category-container'>
-    <div class='category-row'>
-      <div class='large-3 columns category-img'>
-        <a href='{{site.baseurl}}/products/unet'><img alt="" class='round-border-10' src="{{site.baseurl}}/{{page.thumbnail}}"/></a>
-      </div>   
-      <div class='large-9 columns'> 
-        <div class='category-content'>
-          <h1>Underwater Network Stack & Simulator</h1>
-          <h3>An agent-based software stack and simulator for underwater wireless networks and protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Read More &#8594;</a></h3>
-          <h3>Explore our whitepaper to learn how our underwater network solutions enhance the effectiveness of underwater communication. <a class="inline-btn" href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf">Read More &#8594;</a></h3>
+<section class="products-page" style="padding:6rem 0">
+  <div class="row">
+      <div class="large-12 columns">
+        <div class="category-content">
+          <h1>Wireless Networked Communications (WNC)</h1>
+          <h3>Software defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</h3>
         </div>
       </div>
+  </div>
+  <div class="row" style="margin-top:0;">
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>The Wireless Networked Communication (WNC) series is Subnero’s fourth-generation underwater acoustic smart modem designed for high-performance underwater communication. Powered by UnetStack4, it enables scalable underwater networks with features like multi-hop routing, localization, remote control, and plug-and-play sensor integration across acoustic, optical, or satellite media.</p>
+        <h4>Industries / Use Cases</h4>
+        <ul>
+          <li>Defense</li>
+          <li>Offshore & Subsea</li>
+          <li>Scientific Research</li>
+          <li>Marine Robotics / Underwater Networks</li>
+        </ul>
+        <p><a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a></p>
+      </div>
+    </div>
+    <div class="large-6 columns ">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>  
+  </div>
+</section>
+<hr style="max-width:90rem;" />
+
+<section class="products-page wnc" style="padding:6rem 0">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="category-content ">
+        <h1>Explore the Acoustic Smart Modems</h1>
+        <h3>The WNC series is available in HF, MF, and LF bands, offering high-speed short-range links, versatile mid-range connectivity, and long-range low-power communication for diverse underwater applications.</h3>
+        {% include quick_links.html show_details=true %}
+      </div>
     </div>
   </div>
-  {% endfor %}
-</div>
+</section>
+
+<hr style="max-width:90rem;" />
+
+<section class="products-page unetstack" style="padding:6rem 0">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="category-content">
+        <h1>Underwater Network Stack & Simulator</h1>
+        <h3>Underwater networks face unique challenges like low bandwidth, high delay, and packet loss, requiring specialized, cross-layer optimized protocols for efficient communication.</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:0;">
+    <div class="large-4 columns ">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/boxart-unet.png" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>   
+    <div class="large-8 columns"> 
+      <div class="category-content">
+        <p>An agent-based software stack and simulator for underwater wireless networks and protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Read More &#8594;</a></p>
+        <p>Explore our whitepaper to learn how our underwater network solutions enhance the effectiveness of underwater communication. <a class="inline-btn" href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf">Read More &#8594;</a></p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,42 @@
+<script>
+    // Modal functionality: Open on product card click, show relevant content, close on button
+    (function() {
+      const modal = document.getElementById('configModal');
+      const closeBtn = document.getElementById('closeModal');
+
+      document.querySelectorAll('.product-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          // e.preventDefault();
+          const productId = card.dataset.product;
+          if (!productId) return; 
+
+          modal.querySelectorAll('.modal-content-item').forEach(item => {
+            item.style.display = 'none';
+          });
+
+          const content = modal.querySelector(`[data-product="${productId}"]`);
+          if (content) {
+            content.style.display = 'block';
+          }
+
+          modal.showModal();
+        });
+      });
+
+      closeBtn.addEventListener('click', () => {
+        modal.close();
+      });
+
+      modal.addEventListener('close', () => {
+        modal.querySelectorAll('.modal-content-item').forEach(item => {
+          item.style.display = 'none';
+        });
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.close();
+        }
+      });
+    })();
+  </script>

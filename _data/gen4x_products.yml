@@ -1,5 +1,7 @@
 L12L:
-  title: L12L Series (9 - 16 kHz band)
+  tag: LF Band
+  title: L12L Series
+  band: 9 - 16 kHz band
   type: LONG-RANGE ACOUSTIC SMART MODEMS
   details: Long-range, acoustic communication for persistent subsea monitoring and control.
   image: /images/gen4x/cover-l12l.png
@@ -10,9 +12,10 @@ L12L:
       link: /products/gen4x/l12lsilver.html
       is_new: true
 
-
 M25M:
-  title: M25M Series (20 - 32 kHz band)
+  tag: MF Band
+  title: M25M Series
+  band: 20 - 32 kHz band
   type: VERSATILE ACOUSTIC SMART MODEMS
   details: Versatile connectivity balancing data rate, range, and robustness for diverse set of applications.
   image: /images/gen4x/cover-m25m.png
@@ -29,9 +32,15 @@ M25M:
       edition: Platinum
       image: /images/gen4x/preview-WNC-M25MPS3.png
       link: /products/gen4x/m25mplatinum.html
+    - name: Powerful and rugged modems for compute-intensive underwater applications.
+      edition: Gold
+      image: /images/gen4x/preview-gold.png
+      link: 
 
 S40H:
-  title: S40H Series (25 - 55 kHz band)
+  tag: HF Band
+  title: S40H Series
+  band: 25 - 55 kHz band
   type: HIGH-SPEED ACOUSTIC SMART MODEMS
   details: High-speed connectivity for data-intensive underwater applications.
   image: /images/gen4x/cover-s40h.png
@@ -42,6 +51,7 @@ S40H:
       link: /products/gen4x/s40hsilver.html
 
 Accessories:
+  tag: Gen4X
   title: Accessories & Optional Upgrades
   details: Hardware accessories to enhance capacity and features.
   image: /images/gen4x/cover-accessories.png
