@@ -7151,7 +7151,7 @@ button.newsletter:hover{
 }
 /* Modal */
 .modal-dialog {
-  position: relative;
+  /* position: relative; */
   width: 90%;
   max-width: 600px;
   /* height: 100%; */
