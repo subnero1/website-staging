@@ -7,7 +7,11 @@ github_username:  subnero1
 default_image: images/pulse-thumbnail-default.jpg
 
 collections:
-  - faq
+  faq:
+    output: false
+  gen4x:
+    output: true
+    permalink: /products/gen4x/:title/
 
 # Build settings
 markdown: kramdown

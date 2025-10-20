@@ -6262,6 +6262,9 @@ div.tab-columns input:nth-child(5):checked ~ .tab-panels div.tab-panel:nth-child
 .category-row.hidden {
   display: none;
 }
+.gen4x-listing .category-row + .category-row{
+  margin-top: 6rem;
+}
 .category-img{
   margin-bottom: 2em;
   text-align: center;
@@ -6684,18 +6687,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   background-position: center center;
 }
 .card-wrapper {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 12px;
-  padding: 16px 0; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding: 2rem 0;
 }
-/* .wnc .card-wrapper {
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-} */
 .product-card  {
   flex-basis: 30%;
   min-width: 320px;
@@ -6716,9 +6713,6 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .quick-links .product-card p {
   flex: 1;
   color: #007A8C;
-}
-.quick-links .card-wrapper {
-  margin-top: 1rem;
 }
 .product-card:hover {
   box-shadow: 0px 8px 13px 2px rgba(0,0,0,0.2);

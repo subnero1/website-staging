@@ -4,7 +4,7 @@
       const modal = document.getElementById('configModal');
       const closeBtn = document.getElementById('closeModal');
 
-      document.querySelectorAll('.product-card').forEach(card => {
+      document.querySelectorAll('.product-card:not(.multi)').forEach(card => {
         card.addEventListener('click', (e) => {
           // e.preventDefault();
           const productId = card.dataset.product;

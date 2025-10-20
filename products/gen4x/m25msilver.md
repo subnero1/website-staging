@@ -71,7 +71,7 @@ layout: default
         <h3>Open <br />Configuration</h3>
         <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>
       </a>
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x-rx">
+      <a class="product-card multi" href="{{site.baseurl}}/products/gen4x/multi-receiver.html" target="_blank" data-product="wnc-m25mss4x-rx">
         <h2>WNC-M25MSS4X-Rx</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X-Rx.png">

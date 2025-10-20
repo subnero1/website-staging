@@ -3,13 +3,13 @@
   section_id: products
   submenu:
   - name: LF Band
-    path: /products/gen4x/index.html?category=L12L
+    path: /products/gen4x/L12L
     section_id: l12l
   - name: MF Band
-    path: /products/gen4x/index.html?category=M25M
+    path: /products/gen4x/M25M
     section_id: m25m
   - name: HF Band
-    path: /products/gen4x/index.html?category=S40H
+    path: /products/gen4x/S40H
     section_id: s40h
   - name: UnetStack
     path: /products/unet
