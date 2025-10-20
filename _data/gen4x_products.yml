@@ -3,7 +3,8 @@ L12L:
   title: L12L Series
   band: 9 - 16 kHz band
   type: LONG-RANGE ACOUSTIC SMART MODEMS
-  details: Long-range, acoustic communication for persistent subsea monitoring and control.
+  details: Long-range, acoustic communication for persistent presence.
+  description: The LF band provides long-range acoustic communication, ideal for persistent monitoring, subsea networks, and vehicle tracking in challenging environments.
   image: /images/gen4x/cover-l12l.png
   products:
     - name: Reliable and customizable for commercial use.
@@ -17,7 +18,8 @@ M25M:
   title: M25M Series
   band: 20 - 32 kHz band
   type: VERSATILE ACOUSTIC SMART MODEMS
-  details: Versatile connectivity balancing data rate, range, and robustness for diverse set of applications.
+  details: Versatile connectivity for diverse set of applications.
+  description: The MF band balances data rate and range, offering robust and flexible connectivity for general-purpose oceanographic, industrial, and research applications.
   image: /images/gen4x/cover-m25m.png
   products:
     - name: Reliable and customizable for commercial use.
@@ -43,6 +45,7 @@ S40H:
   band: 25 - 55 kHz band
   type: HIGH-SPEED ACOUSTIC SMART MODEMS
   details: High-speed connectivity for data-intensive underwater applications.
+  description: The HF band delivers high-speed, short-range acoustic links ideal for transferring large datasets, images, and real-time sensor information in underwater IoT and robotic systems.
   image: /images/gen4x/cover-s40h.png
   products:
     - name: Reliable and customizable for commercial use.
@@ -53,7 +56,8 @@ S40H:
 Accessories:
   tag: Gen4X
   title: Accessories & Optional Upgrades
-  details: Hardware accessories to enhance capacity and features.
+  details: Expand functionality with modular accessories and upgrades.
+  description: A comprehensive range of accessories — including co-processors, sensors, storage, hull options, and cables — to enhance performance and integration flexibility.
   image: /images/gen4x/cover-accessories.png
   products:
     - name: Co-processor

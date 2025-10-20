@@ -14,7 +14,7 @@
   - name: UnetStack
     path: /products/unet
     section_id: unetstack
-- name: Solutions
+- name: Systems
   path: solutions/
   section_id: solutions
 - name: Pulse

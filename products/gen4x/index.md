@@ -19,7 +19,7 @@ banner: images/banner-products.jpg
         {% endunless %}
         </h1>
         <h2>{{ value.type }}</h2>
-        <p>{{ value.details }}</p>
+        <p>{{ value.description }}</p>
       </header>
       <div class="card-wrapper detailed">
         {% for product in value.products %}

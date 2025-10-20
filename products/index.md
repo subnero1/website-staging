@@ -13,14 +13,14 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
       <div class="large-12 columns">
         <div class="category-content">
           <h1>Wireless Networked Communications (WNC)</h1>
-          <h3>Software defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</h3>
+          <h3>Software-defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</h3>
         </div>
       </div>
   </div>
   <div class="row" style="margin-top:0;">
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>The Wireless Networked Communication (WNC) series is Subnero’s fourth-generation underwater acoustic smart modem designed for high-performance underwater communication. Powered by UnetStack4, it enables scalable underwater networks with features like multi-hop routing, localization, remote control, and plug-and-play sensor integration across acoustic, optical, or satellite media.</p>
+        <p>Subnero’s Wireless Networked Communications (WNC) series represents a new generation of software-defined underwater acoustic modems that enable seamless subsea connectivity. Built on UnetStack’s open networking framework, WNC modems combine high data performance, reliability, and flexibility for applications ranging from ocean research to offshore operations and defense systems. Designed for scalability and integration, these smart modems form the backbone of modern underwater networks.</p>
         <h4>Industries / Use Cases</h4>
         <ul>
           <li>Defense</li>
@@ -42,8 +42,9 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   <div class="row">
     <div class="large-12 columns">
       <div class="category-content ">
-        <h1>Explore the Acoustic Smart Modems</h1>
-        <h3>The WNC series is available in HF, MF, and LF bands, offering high-speed short-range links, versatile mid-range connectivity, and long-range low-power communication for diverse underwater applications.</h3>
+        <h1>WNC Series of Acoustic Smart Modems</h1>
+        <h3>A versatile lineup of underwater acoustic modems, each series crafted to deliver the balance of range, speed, and robustness. (TODO) Read more...</h3>
+        <!-- TODO Modal: The WNC series includes a comprehensive range of underwater acoustic smart modems, optimized for diverse communication needs. Available in LF, MF, and HF bands, each series balances range, speed, and robustness to meet the demands of different applications, and is complemented by a suite of accessories and upgrades for both new and existing networks. -->
         {% include quick_links.html show_details=true %}
       </div>
     </div>
@@ -56,8 +57,8 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   <div class="row">
     <div class="large-12 columns">
       <div class="category-content">
-        <h1>Underwater Network Stack & Simulator</h1>
-        <h3>Underwater networks face unique challenges like low bandwidth, high delay, and packet loss, requiring specialized, cross-layer optimized protocols for efficient communication.</h3>
+        <h1>UnetStack, UnetCube and Unet Simulator</h1>
+        <h3>A complete software-defined platform that lets you design, simulate, and deploy underwater networks.</h3>
       </div>
     </div>
   </div>
@@ -67,7 +68,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     </div>   
     <div class="large-8 columns"> 
       <div class="category-content">
-        <p>An agent-based software stack and simulator for underwater wireless networks and protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Read More &#8594;</a></p>
+        <p>The UnetStack framework provides a software-defined foundation for underwater networks — enabling rapid development, simulation and deployment of acoustic communication protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Read More &#8594;</a></p>
         <p>Explore our whitepaper to learn how our underwater network solutions enhance the effectiveness of underwater communication. <a class="inline-btn" href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf">Read More &#8594;</a></p>
       </div>
     </div>
