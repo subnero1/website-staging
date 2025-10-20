@@ -46,6 +46,9 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
   </div>
   <div class="row" style="margin-top:0;">
+    <div class="large-6 columns ">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/lp2.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>
     <div class="large-6 columns"> 
       <div class="category-content">
         <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
@@ -61,8 +64,5 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
         <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Read More &#8594;</a></p>
       </div>
     </div>
-    <div class="large-6 columns ">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/lp2.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
   </div>
 </section>
