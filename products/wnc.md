@@ -30,7 +30,7 @@ section_id: products
     </div>
     <div>
     <!-- TODO -->
-      <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">PURCHASE ENQUIRY</button></a>
+      {%- include formRequestQuote.html -%}
     </div>
   </div>
   <div class='large-8 columns'>
@@ -62,7 +62,7 @@ section_id: products
             </div>
             <div class='content-2'>
               <ul>
-                <li>Offering unprecedented flexibility and cross-layer integration using <a href="https://unetstack.net/" target="_blank">UnetStack4</a>.</li>
+                <li>Offering unprecedented flexibility and cross-layer integration using <a href="https://unetstack.net/" target="_blank">UnetStack</a>.</li>
                 <li>Support for multiple computer language APIs and web-based dashboards.</li>
                 <li>Data analysis, scientific programming & machine learning ready.</li>
               </ul>
@@ -93,7 +93,7 @@ section_id: products
       <div class='section-sub-heading'>
         <h2>Defense</h2>
       </div>
-      <p class='auto-margin'>The platinum edition modems are an ideal solution for defense customers, as they offer best-in-class communication performance in harsh environments, are MIL-qualified, reduce complexity by using a single hardware platform for multiple functions, and support advanced features such as extended range and in-field reconfigurability with communication profiles and adaptive link tuning.</p>
+      <p class='auto-margin'>The platinum edition modems are an ideal solution for defense customers, as they offer best-in-class communication performance in harsh environments, are MIL-standard qualified, reduce complexity by using a single hardware platform for multiple functions, and support advanced features such as extended range and in-field reconfigurability with communication profiles and adaptive link tuning.</p>
     </div>
     <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
       <img src='{{site.baseurl}}/images/thumbnail-offshore.png' width="300" height="300" class='round-border-50'>
@@ -109,7 +109,7 @@ section_id: products
       <div class='section-sub-heading'>
         <h2>Scientific Research</h2>
       </div>
-      <p class='auto-margin'>For scientific research customers, the Subnero WNC series of products offer customizable platform and media agnostic network stack, support for multiple computer languages, versatile hardware with an onboard GPU, full-fledged simulator, arbitrary waveform transmission and reception with the option to deploy your own physical layer, with the added bonus of a free community edition of UnetStack for non-commercial use.</p>
+      <p class='auto-margin'>For scientific research customers, the Subnero WNC series of products offer customizable platform and media agnostic network stack, support for multiple computer languages, versatile hardware with optional coprocessors, full-fledged network and channel model simulator, arbitrary waveform transmission and reception, with the added bonus of a community edition of UnetStack which is free for non-commercial use.</p>
     </div>
   </div>
   <div class='row-padding-bottom'></div>
@@ -127,28 +127,28 @@ section_id: products
   <div class='swan-position'>
     <div class="swan-overlay"></div>
     <div class='row accordion-row swan-position'>
-      <h1 class='section-heading bg-white heading-padding'>Editions, Configurations and Bands</h1>
+      <h1 class='section-heading bg-white heading-padding'>Frequency Bands, Editions and Configurations</h1>
     </div>
     <div class='container row row-width row-padding-bottom'>
       <div class='large-4 columns'>
         <div class='flex-col bg-white card-content card-spacing'>
+          <h2>Bands</h2>
+          <p>Available in different frequency bands for various applications.</p>
+          <img src='{{site.baseurl}}/images/wnc-bands.png'>
+        </div>
+      </div>
+      <div class='large-4 columns'>
+        <div class='flex-col bg-white card-content card-spacing'>
           <h2>Editions</h2>
-          <p>Available three editions: the platinum, silver and research editions.</p>
+          <p>Available in various editions: platinum, silver, research.</p>
           <img src='{{site.baseurl}}/images/wnc-edition.png'>
         </div>
       </div>
       <div class='large-4 columns'>
         <div class='flex-col bg-white card-content card-spacing'>
           <h2>Configurations</h2>
-          <p>Available in various configurations for multiple deployment scenarios.</p>
+          <p>Available in various configurations for specific deployment scenarios.</p>
           <img src='{{site.baseurl}}/images/wnc-configuration.png'>
-        </div>
-      </div>
-      <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content card-spacing'>
-          <h2>Bands</h2>
-          <p>Available in different frequency bands for various applications.</p>
-          <img src='{{site.baseurl}}/images/wnc-bands.png'>
         </div>
       </div>
     </div>

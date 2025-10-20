@@ -9,7 +9,7 @@
       description: UnetStack exposes a single interface to manage all your communication interfaces, and devices, both above and below water.
     - name: Multiple data types
       icon: database
-      description: Content-aware prioritization, processing and routing for telemetry, C2, mission, and payload data types.
+      description: Content-aware processing, prioritization and routing for telemetry, C2, mission, and payload data types.
     - name: End-end connectivity
       icon: globe
       description: Media agnostic end-end connectivity for a variety of links such as UDP/IP, optical, satellite links, and multiple acoustic frequency bands.
@@ -17,17 +17,17 @@
   id: wnc-tab-two
   input_id: underwater-sensors
   thumbnail: images/swis-WNC.jpg
-  introduction: Ease of use, integration ready and support for multiple sensors are some of the advantages of <a target="_blank" href='/solutions/swis' class='orange'>Subnero Wireless Integrated Suite (SWIS)</a> packaged solution.
+  introduction: Ease of use, integration ready and support for multiple sensors are some of the advantages of <a target="_blank" href='/solutions/swis' class='orange'>Subnero Wireless Integrated Suite (SWIS)</a>.
   sections:
     - name: Easy Plug and Play
       icon: plug
-      description: Plug and Play support for popular sensor models (e.g. ADCPs) and brands. Simple plug and play.
+      description: Plug and play support for popular sensors (e.g. ADCPs) and brands.
     - name: Intuitive
       icon: thumbs-up
-      description: All relevant information such as device information, smart previews and file list in one place.
+      description: All relevant information such as device status, smart previews and file list in one place.
     - name: Content-Aware Processing (CAP) engine
       icon: brain
-      description: CAP engine supports summary generation for a user-selectable date range and compression ratio.
+      description: CAP engine supports summary generation for a user-selectable date range.
 # - name: Divers
 #   id: wnc-tab-three
 #   input_id: SwanNode
