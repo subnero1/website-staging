@@ -10,16 +10,18 @@ layout: default
       <div class="large-7 columns">
         <div class="card-tags">
           <div class="card-tag">Gen4x</div>
+          <div class="card-tag">Silver Edition</div>
           <div class="card-tag">MF Band</div>
         </div>
-        <h1>Silver Edition</h1>
-        <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
+        <h1>M25M Series</h1>
+        <h2>20 - 32 kHz Band</h2>
+        <p>The Silver Edition M25M modem is the dependable workhorse of the Gen4X series, designed for versatility across a wide range of underwater communication applications. Balancing data rate, range, and robustness, it provides a reliable foundation for subsea networks, marine robotics, and sensor platforms. With a software-defined architecture built on UnetStack, it enables easy customization of protocols and algorithms to suit mission-specific requirements.</p>
         <h3>Applications</h3>
         <ul>
-          <li>High-speed data transfer for underwater IoT sensors</li>
-          <li>On-demand image transfer</li>
-          <li>Large sensor payload data transfer for marine robotics</li>
-          <li>Underwater networks</li>
+          <li>High-performance, all-rounder modem for oceanographic and commercial deployments</li>
+          <li>Subsea sensor networks for offshore monitoring</li>
+          <li>Marine robot integration for telemetry and control</li>
+          <li>General-purpose underwater research and testing</li>
         </ul>
         {%- include formRequestQuote.html -%}
       </div>
@@ -30,14 +32,14 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Up to 33 kbps data rate*.</li>
-          <li>Up to 1 km communication range (horizontal & vertical) in tropical waters.</li>
-          <li>Ranging functionality with 0.1 m precision.</li>
+          <li>Data rates up to 15 kbps* over 5 km in littoral waters.</li>
+          <li>Built-in acoustic ranging with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
           <li>Support for coherent and incoherent communication schemes.</li>
-          <li>Support for arbitrary signal transmission as well as recording (passband, baseband).</li>
-          <li>Support for user defined communication schemes using UnetStack.</li>
+          <li>Arbitrary signal transmission as well as recording (passband, baseband).</li>
+          <li>User-defined communication schemes using UnetStack.</li>
           <li>Support for multiple receiving channels for a variety of applications.</li>
+          <li>Compact and rugged form factor suited for versatile integration</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
@@ -52,7 +54,7 @@ layout: default
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+      <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-receiver systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x">
@@ -72,7 +74,7 @@ layout: default
         <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>
       </a>
       <a class="product-card multi" href="{{site.baseurl}}/products/gen4x/multi-receiver.html" target="_blank" data-product="wnc-m25mss4x-rx">
-        <h2>WNC-M25MSS4X-Rx</h2>
+        <h2>WNC-M25MSS4X-2</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X-Rx.png">
         </div>
