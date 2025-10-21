@@ -10,16 +10,17 @@ layout: default
       <div class="large-7 columns">
         <div class="card-tags">
           <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag silver">Silver Edition</div>
           <div class="card-tag lf">LF Band</div>
         </div>
-        <h1>Silver Edition</h1>
-        <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
+        <h1>L12L Series</h1>
+        <p>Designed for long-range operations, Subnero’s Silver Edition L12L modem delivers robust acoustic communication for extended subsea deployments. Built for reliability and flexibility, it offers seamless integration into diverse underwater systems, supporting mission-critical data exchange even in challenging environments.</p>
         <h3>Applications</h3>
         <ul>
-          <li>High-speed data transfer for underwater IoT sensors</li>
-          <li>On-demand image transfer</li>
-          <li>Large sensor payload data transfer for marine robotics</li>
-          <li>Underwater networks</li>
+          <li>Long-range operations in shallow or coastal waters</li>
+          <li>Long-term seabed or sensor node deployments</li>
+          <li>Communication and tracking of AUVs and subsea vehicles</li>
+          <li>Coastal area monitoring networks</li>
         </ul>
         {%- include formRequestQuote.html -%}
       </div>
@@ -30,14 +31,14 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Up to 33 kbps data rate*.</li>
-          <li>Up to 1 km communication range (horizontal & vertical) in tropical waters.</li>
-          <li>Ranging functionality with 0.1 m precision.</li>
+          <li>Communication range exceeding 10 km in littoral waters<sup>*</sup>.</li>
+          <li>Up to 8 kbps data rate at shorter ranges.</li>
+          <li>Supports NATO JANUS standard.</li>
+          <li>Ultra-low power deep sleep mode (< 1 mW) for extended deployments.</li>
+          <li>Acoustic ranging functionality.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
-          <li>Support for coherent and incoherent communication schemes.</li>
-          <li>Support for arbitrary signal transmission as well as recording (passband, baseband).</li>
-          <li>Support for user defined communication schemes using UnetStack.</li>
-          <li>Support for multiple receiving channels for a variety of applications.</li>
+          <li>Supports arbitrary waveform transmission and recording.</li>
+          <li>Fully programmable using UnetStack for user-defined protocols.</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
@@ -52,7 +53,7 @@ layout: default
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+      <p>Available in standalone, and open configurations to suit a range of deployment needs—from self-contained setups to integrated systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lss4x">
@@ -64,7 +65,7 @@ layout: default
         <p>Self-contained modem powered by an external battery or supply.</p>
       </a>
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lhso4x">
-        <h2>WNC-L12LHSO4X</h2>
+        <h2>WNC-L12LSO4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/preview-WNC-L12LHSO4X.png">
         </div>
@@ -81,13 +82,13 @@ layout: default
         <div class="main">
           <!-- content - WNC-L12LSS4X -->
           <div class="main modal-content-item" data-product="wnc-l12lss4x">
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+            <h2>Standalone Configuration (SC)</h2>
+            <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
           </div>
           <!-- content - WNC-L12LHSO4X -->
           <div class="main modal-content-item" data-product="wnc-l12lhso4x">
-            <p>Detailed description for the Open Configuration, including specs, features, and integration notes.</p>
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+            <h2>Open Configuration (OC)</h2>
+            <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -97,14 +98,10 @@ layout: default
   <section class="technical category-container">
     <div class="category-row">
       <div class="large-4 columns">
-        <div class="highlight-card">
-          <h3>STANDALONE CONFIGURATION</h3>
-          <p>The standalone configuration (SC) features a pressure housing tailored to accommodate various deployment depths and operate on external power sources, whether underwater with batteries or from the water's surface with a power supply. Engineered for unparalleled versatility and dependability across diverse deployment scenarios, this configuration ensures robust data transmission, even in the most demanding environments, guaranteeing seamless and uninterrupted operations.</p>
-        </div>
         <h3>Brochures</h3>
         <div class=brochures>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem6.jpg">
+          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/modem7.jpg">
             <span>Subnero S40H Underwater Modems</span>
           </a>
           <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
@@ -137,8 +134,12 @@ layout: default
               <td>LDPC, BCH, Convolution code</td>
             </tr>
             <tr>
+              <td>JANUS support</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
               <td>Bandwidth</td>
-              <td>25 kHz (25 - 50 kHz)</td>
+              <td>7 kHz (9 - 16 kHz)</td>
             </tr>
           </tbody>
         </table>
@@ -161,7 +162,7 @@ layout: default
             </tr>
             <tr>
               <td>Software Interfaces</td>
-              <td>Java, Groovy, Python, C, JavaScript, Julia</td>
+              <td>Java, Groovy, Python, C, Javascript, Julia, JSON/TCP</td>
             </tr>
           </tbody>
         </table>
@@ -175,24 +176,33 @@ layout: default
           </thead>
           <tbody>
             <tr>
-              <td>Power supply</td>
-              <td>22 - 28 VDC (24 VDC recommended)</td>
+              <td>Power source</td>
+              <td>18 - 30 VDC (24 VDC recommended)</td>
             </tr>
             <tr>
               <td>Power consumption</td>
               <td>
                 < 4 W (receive mode, nominal) <br />
                 < 45 W (transmit mode, avg.) <br />
+                < 150 mW (sleep mode) <br />
                 < 1 mW (deep sleep mode)
               </td>
             </tr>
             <tr>
+              <td>Wake up modes</td>
+              <td>
+                Acoustic wakeup, External electrical interrupt, Scheduled wakeup
+              </td>
+            </tr>
+            <tr>
               <td>External interface</td>
-              <td>Ethernet (10/100 Mbps)*</td>
+              <td>
+              Ethernet (10/100 Mbps), RS232<sup>*</sup>
+              </td>
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>32 GB<sup>*</sup></td>
+              <td>256 GB, 1 TB</td>
             </tr>
           </tbody>
         </table>
@@ -207,22 +217,27 @@ layout: default
           <tbody>
             <tr>
               <td>Hull material</td>
-              <td>Aluminum<sup>*</sup></td>
+              <td>Aluminum, Stainless steel</td>
             </tr>
             <tr>
-              <td>Operating depth</td>
-              <td>300 m*</td>
+              <td>Depth rating</td>
+              <td>300m, 2000m</td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>⌀ 127 ✕ 316 mm</td>
+              <td>SC: ø 127 x 316 mm, OC: ø 100 x 132 mm</td>
+            </tr>
+            <tr>
+              <td>Weight (in air / water)</td>
+              <td>SC: 5.0 / 1.5 kg, OC: 0.8 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>
-              <td>0 to 40 °C</td>
+              <td>SC: 0 to 40 °C, OC: 0 to 70 °C (electronics) 0 to 40 °C (transducer)</td>
             </tr>
           </tbody>
         </table>
+        * Different cable required for RS232 connection.
       </div>
     </div>
   </section>
