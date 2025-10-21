@@ -43,7 +43,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   <div class="row">
     <div class="large-12 columns">
       <div class="category-content ">
-        <h1>WNC Series of Acoustic Smart Modems</h1>
+        <h1>Acoustic Smart Modems</h1>
         <h3>A versatile lineup of underwater acoustic modems, each series crafted to deliver the balance of range, speed, and robustness. (TODO) Read more...</h3>
         <!-- TODO Modal: The WNC series includes a comprehensive range of underwater acoustic smart modems, optimized for diverse communication needs. Available in LF, MF, and HF bands, each series balances range, speed, and robustness to meet the demands of different applications, and is complemented by a suite of accessories and upgrades for both new and existing networks. -->
         {% include quick_links.html show_details=true %}
@@ -71,6 +71,40 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
       <div class="category-content">
         <p>The UnetStack framework provides a software-defined foundation for underwater networks — enabling rapid development, simulation and deployment of acoustic communication protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Read More &#8594;</a></p>
         <p>Explore our whitepaper to learn how our underwater network solutions enhance the effectiveness of underwater communication. <a class="inline-btn" href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf">Read More &#8594;</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr style="max-width:90rem;" />
+
+<section class="products-page unetstack" style="padding:6rem 0">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="category-content">
+        <h1>Subnero Wireless Integrated Suite (SWIS)</h1>
+        <h3>ADCP Edition</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top:0;">
+    <div class="large-6 columns ">
+      <!-- <img alt="Unetstack" src="{{site.baseurl}}/images/boxart-unet.png" style="width:100%; height:auto; border-radius: 12px"/> -->
+      <img alt="Subnero Underwater Network (SUN)" src="{{site.baseurl}}/images/lp2.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>   
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
+        <h4>Features</h4>
+        <ul>
+          <li>Data Summarization</li>
+          <li>Fault Detection</li>
+          <li>Smart Scheduling</li>
+          <li>Remote Control</li>
+          <li>Fault Tolerance</li>
+          <li>Smart Profiles</li>
+        </ul>
+        <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Read More &#8594;</a></p>
       </div>
     </div>
   </div>
