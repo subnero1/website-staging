@@ -27,7 +27,7 @@ directions:
       <p>+65 9819 9552 </p>
       <p>info@subnero.com (General enquiries) <br>sales@subnero.com (Sales enquiries)</p>
       <hr>
-       {%- include formContactUs.html -%}
+       <div style="display:flex; align-items:center; gap:14px"><div>Have a query?</div>  {%- include formContactUs.html -%} </div>
     </div>
   </div>
   <div class="col-address">

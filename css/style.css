@@ -6694,9 +6694,58 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 /* Product page */
 .page-hero {
-  height: 280px;
+  position: relative;
+  height: 80vh;
   background-size: cover;
   background-position: center center;
+}
+.page-hero::before {
+  position: absolute;
+  content: '';
+  inset: 0;
+  background-color: rgba(0, 82, 140, 0.408);
+  z-index: 1;
+}
+.row.flex-row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  z-index: 2;
+}
+.flex-row h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px  1px rgba(0, 0, 0, 0.2);
+}
+.flex-row p {
+  color: #39fdff;
+  font-size: 2rem;
+}
+.flex-row .inline-btn {
+  color: #fff;
+}
+.flex-row .inline-btn:hover {
+  color: #39fdff;
+}
+.hero-listing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 16px 0 0;
+}
+.hero-listing div {
+  display: flex;
+  justify-content: center;
+  padding: 2px 12px;
+  color: #fff;
+  background-color: rgba(57, 252, 255, 0.173);
+  border-radius: 10px;
 }
 .card-wrapper {
   display: flex;

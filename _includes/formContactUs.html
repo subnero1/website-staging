@@ -1,5 +1,11 @@
 <div class="contact-query">
-  Have a query? <button class="form-button" id="openContact">Write to us</button>
+  <button class="form-button" id="openContact">
+    {% if include.is_contact %}
+      <span>Contact us</span>
+    {% else %}
+      <span>Write to us</span>
+    {% endif %}
+  </button>
 </div>
 <!-- Modal -->
 <dialog id="contactModal" class="modal-dialog">

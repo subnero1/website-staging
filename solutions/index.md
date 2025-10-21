@@ -5,9 +5,15 @@ banner : images/banner-solutions.jpg
 excerpt: Subnero's solutions for marine robots and underwater sensors.
 ---
 
-<div class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <!-- hero section -->
-</div>
+<section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class="row flex-row">
+    <div class="text-center">
+        <h1>Solutions for yor needs</h1>
+        <p>Software-defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</p>
+        {%- include formContactUs.html is_contact=true -%}
+      </div>
+  </div>
+</section>
 
 <section class="products-page" style="padding:6rem 0">
   <div class="row">

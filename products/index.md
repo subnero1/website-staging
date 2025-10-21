@@ -1,43 +1,26 @@
 ---
 layout: default
 title: Products - Subnero
-banner : images/banner-products.jpg
+banner : images/hero-products.webp
 excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking.
 ---
-<div class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <!-- hero section -->
-</div>
-
-<section class="products-page" style="padding:6rem 0">
-  <div class="row">
-      <div class="large-12 columns">
-        <div class="category-content">
-          <h1>Wireless Networked Communications (WNC)</h1>
-          <h3>Software-defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</h3>
+<section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class="row flex-row">
+    <div class="text-center">
+        <h1>Wireless Networked Communications (WNC)</h1>
+        <p>Software-defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</p>
+        <p><a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a></p>
+        <div class="hero-listing">
+          <div>Marine &amp; Subsea</div>
+          <div>Offshore Energy</div>
+          <div>Scientific Research</div>
+          <div>Defense</div>
+          <div>Marine Robotics</div>
+          <div>Underwater IoT</div>
         </div>
       </div>
   </div>
-  <div class="row" style="margin-top:0;">
-    <div class="large-6 columns"> 
-      <div class="category-content">
-        <p>Subnero’s WNC series brings software-defined underwater modems that deliver high performance, reliability, and seamless connectivity across research, industrial, and defense applications.</p>
-        <h4>Customer Segments / Use Cases</h4>
-        <ul>
-          <li>Marine & Subsea</li>
-          <li>Offshore Energy</li>
-          <li>Scientific Research</li>
-          <li>Defense</li>
-          <li>Marine Robotics / Underwater IoT</li>
-        </ul>
-        <p><a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a></p>
-      </div>
-    </div>
-    <div class="large-6 columns ">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
-  </div>
 </section>
-<hr style="max-width:90rem;" />
 
 <section class="products-page wnc" style="padding:6rem 0">
   <div class="row">
