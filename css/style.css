@@ -6710,7 +6710,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   position: relative;
   display: flex;
   flex-direction: column;
-  max-width: 60rem;
+  max-width: 62rem;
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -6718,21 +6718,24 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   z-index: 2;
 }
 .flex-row h1 {
-  color: #fff;
+  color: #FC8230;
+  text-transform:none;
   font-size: 3rem;
-  text-shadow: 2px 2px  1px rgba(0, 0, 0, 0.2);
+  line-height: 1.3;
+  /* text-shadow: 2px 2px  1px rgba(0, 0, 0, 0.2); */
 }
 .flex-row p {
-  color: #39fdff;
-  font-size: 2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4;
 }
 .flex-row .inline-btn {
-  color: #fff;
+  color: #FC8230;
 }
 .flex-row .inline-btn:hover {
-  color: #39fdff;
+  color: #fff;
 }
-.hero-listing {
+/* .hero-listing {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -6746,7 +6749,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   color: #fff;
   background-color: rgba(57, 252, 255, 0.173);
   border-radius: 10px;
-}
+} */
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;

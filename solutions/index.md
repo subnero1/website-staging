@@ -8,8 +8,8 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 <section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="text-center">
-        <h1>Solutions for yor needs</h1>
-        <p>Software-defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</p>
+        <h1>Configure for Your Mission</h1>
+        <p>From underwater communication to networked navigation and real-time monitoring, Subnero offers a complete ecosystem of software and hardware technologies built to adapt to your application. Designed for scalability and performance, our solutions empower researchers, industry, and defense users alike. Talk to us to learn how we can supercharge your next deployment.</p>
         {%- include formContactUs.html is_contact=true -%}
       </div>
   </div>
