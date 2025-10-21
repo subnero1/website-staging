@@ -44,8 +44,18 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <div class="large-12 columns">
       <div class="category-content ">
         <h1>Acoustic Smart Modems</h1>
-        <h3>A versatile lineup of underwater acoustic modems, each series crafted to deliver the balance of range, speed, and robustness. (TODO) Read more...</h3>
-        <!-- TODO Modal: The WNC series includes a comprehensive range of underwater acoustic smart modems, optimized for diverse communication needs. Available in LF, MF, and HF bands, each series balances range, speed, and robustness to meet the demands of different applications, and is complemented by a suite of accessories and upgrades for both new and existing networks. -->
+        <h3>A versatile lineup of underwater acoustic modems, each series crafted to deliver the balance of range, speed, and robustness. <a class="inline-btn" href="javascript:void(0)" data-open-modal="modalDialog">Read More &#8594;</a></h3>
+        <!-- Modal dialog -->
+        <dialog id="modalDialog" class="modal-dialog">
+          <div class="modal-content">
+            <header><button class="modal-close" type="button" title="close" data-close-modal="modalDialog">&times;</button></header>
+            <div class="main">
+              <h3 class="text-left">WNC Series</h3>
+              <p>The WNC series includes a comprehensive range of underwater acoustic smart modems, optimized for diverse communication needs. Available in LF, MF, and HF bands, each series balances range, speed, and robustness to meet the demands of different applications, and is complemented by a suite of accessories and upgrades for both new and existing networks.</p>
+            </div>
+            <div class="footer"></div>
+          </div>
+        </dialog>
         {% include quick_links.html show_details=true %}
       </div>
     </div>
@@ -109,3 +119,4 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     </div>
   </div>
 </section>
+{% include dialogActions.html %}
