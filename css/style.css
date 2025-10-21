@@ -792,7 +792,7 @@ ul.shortcode-list i {
 }
 
 /*Button styles */
-.button {
+/* .button {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
@@ -813,7 +813,7 @@ ul.shortcode-list i {
 .button.boxed:hover {
   color: #333;
   background: #fff;
-}
+} */
 
 /*Top bar */
 .top-bar {
@@ -4480,6 +4480,12 @@ input[type="range"]::-webkit-slider-thumb {
     font-size:1.2rem;
     color:#222;
   }
+  .card-row {
+    flex-direction: column;
+  }
+  .feature-card header h3 {
+    font-size: 1.4rem !important;
+  }
 
 }
 
@@ -4664,6 +4670,12 @@ input[type="range"]::-webkit-slider-thumb {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+  }
+  .feature-row {
+    grid-template-columns: 1fr !important;
+  }
+  .card-row {
+    flex-direction: row;
   }
 }
 
@@ -7138,11 +7150,6 @@ button.newsletter{
 button.newsletter:hover{
   color: #FC8230;
 }
-@media only screen and (max-width: 960px) {
-  .contacts {
-    grid-template-columns: 1fr;
-  }
-}
 /* Modal */
 .modal-dialog {
   /* position: relative; */
@@ -7196,6 +7203,16 @@ button.newsletter:hover{
 .form-button {
   border-radius: 4px;
   margin: 4px 0;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+.wnc-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wnc-btns .request-quote {
+  margin-top: 0;
 }
 .contact-query {
   padding: 16px 0;
@@ -7227,6 +7244,147 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .modal-dialog input[type='checkbox']{
   display: initial;
+}
+/* User sotry */
+.user-story-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  background-color: #EFF6FF;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.user-story-card:hover {
+  box-shadow: 0 4px 15px 0 #8cb4ec;
+}
+.user-story-card .user-logo {
+  flex: none;
+  width: 240px;
+}
+.user-story-card img {
+  width: 100%;
+  object-fit: contain;
+}
+.user-story-card h2 {
+  font-size: 2rem;
+  color: #007A8C;
+  margin: 0;
+  /* text-transform: none;
+  letter-spacing: normal; */
+}
+.user-story-card p {
+    color: #000;
+    margin-bottom: 4px;
+}
+.user-story-card .read-link {
+  margin: 0;
+  color: #FC8230;
+}
+
+/* features */
+.product-features {
+  padding: 5rem 1rem;
+  background-size: cover;
+}
+.product-features .feature-h2 {
+  color: #000;
+  margin-bottom: 2rem;
+}
+.feature-row {
+  width: 100%;
+  max-width: 84rem;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.feature-card {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+.feature-card header {
+  padding: 1.4rem 1.4rem 1rem;
+  background-color: #F7F9FF;
+}
+.feature-card header p {
+  margin: 0;
+  color: #000;
+  line-height: 1.4;
+}
+.feature-card header h3 {
+  font-size: 2rem;
+  margin: 0 0 6px;
+  color: #FC8230;
+}
+.feature-content {
+  padding: 1.4rem 1.4rem 2rem;
+}
+.card-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.card-row + .card-row {
+  margin-top: 2rem;
+
+}
+.card-row .img-col {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 82px;
+  height: 68px;
+  font-size: .9rem;
+  text-align: center;
+  color: #fff;
+  background-color: #FC8230;
+  border-radius: 4px;
+}
+.card-row .img-col svg {
+  width: 40px;
+  height: auto;
+}
+.card-row .img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.editions .card-row .img-col {
+  background-color: oklch(71.5% 0.143 215.221);
+}
+.configuration .card-row .img-col {
+  background-color: #fff;
+}
+.card-row .h-text {
+  font-size: 1.6rem;
+}
+.card-row .content h4 {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: normal;
+  color: #007A8C;
+}
+.card-row .content p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  color: #000;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+  .contacts {
+    grid-template-columns: 1fr;
+  }
+  .user-story-card {
+    flex-direction: column;
+  }
 }
 @media print {
   @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }

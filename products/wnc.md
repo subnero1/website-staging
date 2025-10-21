@@ -25,12 +25,11 @@ section_id: products
   </div>
   <div class='large-4 columns flex-col'>
     <p>The Gen4X series of Subnero's acoustic smart modems redefines undersea communications. Built on a foundation of enhanced performance, compact form factor, and rich feature set, Gen4X series equips your systems with smarter, more efficient acoustic links — whether for scientific research, industrial, or defense uses.</p>
-    <div>
-      <a href="{{site.baseurl}}/products/gen4x/" class='centered-text hOXnHC'><button class="button-outline">VIEW PRODUCTS</button></a>
+    <div class="wnc-btns">
+      <a href="{{site.baseurl}}/products/gen4x/" class='button form-button hOXnHC'>View Products</a>
+      {%- include formRequestQuote.html -%}
     </div>
     <div>
-    <!-- TODO -->
-      {%- include formRequestQuote.html -%}
     </div>
   </div>
   <div class='large-8 columns'>
@@ -123,37 +122,119 @@ section_id: products
 </div>
 
 <!-- Editions and Configurations  -->
-<div style='background-image: url({{site.baseurl}}/images/wnc-bg02.jpg);'>
-  <div class='swan-position'>
-    <div class="swan-overlay"></div>
-    <div class='row accordion-row swan-position'>
-      <h1 class='section-heading bg-white heading-padding'>Frequency Bands, Editions and Configurations</h1>
-    </div>
-    <div class='container row row-width row-padding-bottom'>
-      <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content card-spacing'>
-          <h2>Bands</h2>
+  <section class="product-features" style="background-image: url({{site.baseurl}}/images/wnc-bg02.jpg);">
+    <h2 class="feature-h2 text-center">Frequency Bands, Editions and Configurations</h2>
+    <div class="feature-row">
+      <div class="feature-card bands">
+        <header>
+          <h3>Bands</h3>
           <p>Available in different frequency bands for various applications.</p>
-          <img src='{{site.baseurl}}/images/wnc-bands.png'>
+        </header>
+        <div class="feature-content">
+          <div class="card-row">
+            <div class="img-col">
+              <span class="h-text">L12L</span>
+              <span>Series</span>
+            </div>
+            <div class="content">
+              <h4>For long range communications</h4>
+              <p>Low Frequency Smart Modems</p>
+            </div>
+          </div>
+          <div class="card-row">
+            <div class="img-col">
+              <span class="h-text">M25M</span>
+              <span>Series</span>
+            </div>
+            <div class="content">
+              <h4>For the best overall performance</h4>
+              <p>Medium Frequency Smart Modems</p>
+            </div>
+          </div>
+          <div class="card-row">
+            <div class="img-col">
+              <span class="h-text">S40H</span>
+              <span>Series</span>
+            </div>
+            <div class="content">
+              <h4>For high bandwidth data transfer</h4>
+              <p>Hight Frequency Smart Modems</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content card-spacing'>
-          <h2>Editions</h2>
+      <div class="feature-card editions">
+        <header>
+          <h3>Editions</h3>
           <p>Available in various editions: platinum, silver, research.</p>
-          <img src='{{site.baseurl}}/images/wnc-edition.png'>
+        </header>
+        <div class="feature-content">
+          <div class="card-row">
+            <div class="img-col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><path fill="currentColor" d="M19 11a7.5 7.5 0 0 1-3.5 5.94L10 20l-5.5-3.06A7.5 7.5 0 0 1 1 11V3c3.38 0 6.5-1.12 9-3c2.5 1.89 5.62 3 9 3zm-9 1.08l2.92 2.04l-1.03-3.41l2.84-2.15l-3.56-.08L10 5.12L8.83 8.48l-3.56.08L8.1 10.7l-1.03 3.4L10 12.09z"/></svg>
+            </div>
+            <div class="content">
+              <h4>Platinum Edition</h4>
+              <p>Delivering the best performance under harsh conditions.</p>
+            </div>
+          </div>
+          <div class="card-row">
+            <div class="img-col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20v-2h14v2zm0-3.5L3.725 8.475q-.05 0-.113.013T3.5 8.5q-.625 0-1.062-.438T2 7t.438-1.062T3.5 5.5t1.063.438T5 7q0 .175-.038.325t-.087.275L8 9l3.125-4.275q-.275-.2-.45-.525t-.175-.7q0-.625.438-1.063T12 2t1.063.438T13.5 3.5q0 .375-.175.7t-.45.525L16 9l3.125-1.4q-.05-.125-.088-.275T19 7q0-.625.438-1.063T20.5 5.5t1.063.438T22 7t-.437 1.063T20.5 8.5q-.05 0-.112-.012t-.113-.013L19 16.5z"/></svg>
+            </div>
+            <div class="content">
+              <h4>Silver Edition</h4>
+              <p>Delivering the best performance under harsh conditions.</p>
+            </div>
+          </div>
+          <div class="card-row">
+            <div class="img-col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M9 17q-.425 0-.712-.288T8 16t.288-.712T9 15h1q.425 0 .713.288T11 16t-.288.713T10 17zm-1 5q-2.075 0-3.537-1.463T3 17V8q-.825 0-1.412-.587T1 6V4q0-.825.588-1.412T3 2h10q.825 0 1.413.588T15 4v2q0 .825-.587 1.413T13 8v3q0 .825-.587 1.413T11 13H9q-.425 0-.712-.288T8 12t.288-.712T9 11h2V8H5v9q0 1.25.875 2.125T8 20q.45 0 .863-.125t.762-.35q.325-.2.7-.1t.575.45q.225.35.125.762t-.45.638q-.575.35-1.212.538T8 22m8.5-3q1.05 0 1.775-.725T19 16.5t-.725-1.775T16.5 14t-1.775.725T14 16.5t.725 1.775T16.5 19m0 2q-1.875 0-3.187-1.312T12 16.5t1.313-3.187T16.5 12t3.188 1.313T21 16.5q0 .65-.175 1.25T20.3 18.9l2 2q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-2-2q-.55.35-1.15.525T16.5 21"/></svg>
+            </div>
+            <div class="content">
+              <h4>Research Edition</h4>
+              <p>Ideal for confined water deployments.</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class='large-4 columns'>
-        <div class='flex-col bg-white card-content card-spacing'>
-          <h2>Configurations</h2>
+      <div class="feature-card configuration">
+        <header>
+          <h3>Configurations</h3>
           <p>Available in various configurations for specific deployment scenarios.</p>
-          <img src='{{site.baseurl}}/images/wnc-configuration.png'>
+        </header>
+        <div class="feature-content">
+          <div class="card-row">
+            <div class="img-col">
+              <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-standalone.png" />
+            </div>
+            <div class="content">
+              <h4>Standalone</h4>
+              <p>For deployment at depth with pressure housing.</p>
+            </div>
+          </div>
+          <div class="card-row">
+            <div class="img-col">
+              <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-oem.png" />
+            </div>
+            <div class="content">
+              <h4>OEM</h4>
+              <p>Designed for integration with larger platforms. Eg. AUVs'.</p>
+            </div>
+          </div>
+          <div class="card-row">
+            <div class="img-col">
+              <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-multi-channel.png" />
+            </div>
+            <div class="content">
+              <h4>Multi-channel</h4>
+              <p>Improved performance with additional receiving channels.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 <!-- Brochures -->
 {%- include radio-select.html -%}
 <div class='bg-grey'>

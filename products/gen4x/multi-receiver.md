@@ -39,8 +39,17 @@ layout: default
   </section>
   <section class="technical category-container">
     <div class="category-row">
-      <div class="columns small-8 large-centered">
-        <h3 class="text-center">Technical Specification</h3>
+      <div class="large-4 columns">
+        <h3>Brochures</h3>
+        <div class=brochures>
+          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/modem4.jpg">
+            <span>Subnero M25M Series Underwater Modems</span>
+          </a>
+        </div>
+      </div>
+      <div class="large-8 columns">
+        <h3>Technical Specification</h3>
         <table>
           <thead>
             <tr>
