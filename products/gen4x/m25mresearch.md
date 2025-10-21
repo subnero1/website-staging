@@ -8,9 +8,10 @@ layout: default
         <img src="{{site.baseurl}}/images/gen4x/S1000-N-01.png" />
       </div>
       <div class="large-7 columns">
+          <div class="card-tag platinum">Research Edition</div>
+          <div class="card-tag mf">MF Band</div>
         <h1>S1000-N</h1>
-        <h2>Research Edition Modem</h2>
-        <small>Research Edition</small>
+        <h2>20-30 KHz</h2>
         <p>Our research edition modems are designed to bridge the gap between developing applications using a simulator and high-end commercial deployments. Due to its low cost, these smart modems provide an easier entry to the world of underwater communications to any underwater technology enthusiasts.</p>
         {%- include formRequestQuote.html -%}
       </div>

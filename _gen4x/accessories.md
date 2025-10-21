@@ -15,7 +15,7 @@ order: 4
   <div class="row" style="margin-top:0;">
     <div class="large-12 columns"> 
       <div class="category-content text-center">
-        <h3 style="font-weight:400;">These accessories and optional upgrades are additional processing module for Subnero underwater modems. While Subnero modems provide flexibility to extend various aspects of the device by the user, there are at times when a customer may want to deploy their applications and algorithms to run with close proximity to the modem hardware.</h3>
+        <h3 style="font-weight:400;">Enhance your Subnero modem’s capabilities with a range of accessories and optional upgrades designed for seamless integration and extended functionality. From electrical modules such as co-processors, sensors, and storage units to mechanical options like hull configurations, mounting kits, and specialized cables, these add-ons help tailor each system to specific deployment needs and environments.</h3>
       </div>
     </div>  
   </div>
@@ -23,13 +23,12 @@ order: 4
 
 <section style="padding:1rem;">
   <div class="row text-center">
-    <h3 style="color:#E6782F;">Avaialble accessories and optional upgrades:</h3>
   </div>
   <div class="row">
     <div class="card-wrapper">
     {% for product in site.data.gen4x_products.accessories.products %}
       <a class="product-card" href="{{site.baseurl}}{{product.link }}">
-        <div class="card-tag {{ product.edition | downcase }}">{{product.edition}} Edition</div>
+        <div class="card-tag {{ product.edition | downcase }}">{{product.edition}} Edition </div>
         <div class="card-title type"></div>
         <div class="card-title name">{{ product.name }}</div>
         <div class="product-img">

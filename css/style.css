@@ -6829,36 +6829,36 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   padding: 2px 12px;
   margin-right: auto;
   color: #fff;
-  background-color: #F68428;
+  background-color: #f628d4;
   border-radius: 20px;
 }
 
 .card-tag.gen4x {
-  background-color: #F68428;
+  background-color: #36baa2;
 }
 .card-tag.legacy {
-  background-color: #90A2B9;
+  background-color: #9ca7b6;
 }
 .card-tag.lf {
-  background-color: #7d9deb;
+  background-color: #a35be7;
 }
 .card-tag.mf {
-  background-color: #5bb4e7;
+  background-color: #e75b70;
 }
 .card-tag.hf {
-  background-color: #bfa3fe;
+  background-color: #70813b;
 }
 .card-tag.silver {
-  background-color: #45cfc0;
+  background-color: #ff7b00;
 }
 .card-tag.platinum {
-  background-color: #a2d358;
+  background-color: #0f9700;
 }
 .card-tag.research {
-  background-color: #d4a0ff;
+  background-color: #0181e2;
 }
 .card-tag.gold {
-  background-color: #FFB900;
+  background-color: #ffbb00;
 }
 .product-card h2 {
   font-size: 1.32rem;

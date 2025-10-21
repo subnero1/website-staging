@@ -10,16 +10,18 @@ layout: default
       <div class="large-7 columns">
         <div class="card-tags">
           <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag silver">Silver Edition</div>
           <div class="card-tag hf">HF Band</div>
         </div>
-        <h1>Silver Edition</h1>
-        <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
+        <h1>S40H Series</h1>
+        <h2>25 - 50 kHz Band</h2>
+        <p>The Silver Edition S40H modem represents a breakthrough in high-speed underwater acoustic communication. Designed for high-throughput data transfer, it enables applications that were once impractical in the subsea domain — such as wireless camera image transmission, rapid sensor data exchange, and real-time connectivity for marine robotics over short ranges. The S40H serves as the stepping stone toward true high-speed underwater networks, bringing the performance and flexibility of modern digital communication to the ocean environment.</p>
         <h3>Applications</h3>
         <ul>
-          <li>High-speed data transfer for underwater IoT sensors</li>
-          <li>On-demand image transfer</li>
-          <li>Large sensor payload data transfer for marine robotics</li>
-          <li>Underwater networks</li>
+          <li>Wireless image transfer for inspection and monitoring systems</li>
+          <li>High-speed data offload from subsea instruments, AUVs, or sensor arrays</li>
+          <li>Real-time connectivity for marine and subsea robots</li>
+          <li>Short-range underwater IoT and testbed networks for research and development</li>
         </ul>
         {%- include formRequestQuote.html -%}
       </div>
@@ -30,19 +32,17 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Up to 33 kbps data rate*.</li>
-          <li>Up to 1 km communication range (horizontal & vertical) in tropical waters.</li>
-          <li>Ranging functionality with 0.1 m precision.</li>
-          <li>Doppler resilience of ±4 knots or better.</li>
-          <li>Support for coherent and incoherent communication schemes.</li>
-          <li>Support for arbitrary signal transmission as well as recording (passband, baseband).</li>
-          <li>Support for user defined communication schemes using UnetStack.</li>
-          <li>Support for multiple receiving channels for a variety of applications.</li>
+          <li>High-speed data rates up to 33 kbps<sup>*</sup> in shallow tropical waters.</li>
+          <li>Communication range up to 1 km (horizontal and vertical).</li>
+          <li>Built-in ranging with 0.1 m precision for accurate positioning.</li>
+          <li>Doppler resilience of ±4 knots ensuring stable performance in motion.</li>
+          <li>Compact and lightweight design for seamless platform integration.</li>
+          <li>Fully software-defined architecture using UnetStack.</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/WNC-S40HSS4X-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-02.png" />
       </div>
     </div>
   </section>
@@ -52,7 +52,7 @@ layout: default
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+      <p>Available in standalone and open configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card" href="javascript:void(0)" data-product="wnc-s40hss4x">
@@ -61,23 +61,15 @@ layout: default
           <img src="{{site.baseurl}}/images/gen4x/preview-WNC-S40HSS4X.png">
         </div>
         <h3>Standalone Configuration</h3>
-        <p>Self-contained modem powered by an external battery or supply.</p>
+        <p>Self-contained modem powered by an external battery or power supply.</p>
       </a>
       <a class="product-card" href="javascript:void(0)" data-product="wnc-s40hso4x">
         <h2>WNC-S40HSO4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/preview-WNC-S40HSO4X.png">
         </div>
-        <h3>Open <br />Configuration</h3>
-        <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>
-      </a>
-      <a class="product-card multi" href="{{site.baseurl}}/products/gen4x/multi-receiver.html" target="_blank" data-product="wnc-m25mss4x-rx">
-        <h2>WNC-M25MSS4X-Rx</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X-Rx.png">
-        </div>
-        <h3>Multi-Receiver Configuration</h3>
-        <p>Multi-channel setup for enhanced speed, reliability, and signal clarity.</p>
+        <h3>Open<br />Configuration</h3>
+        <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
       </a>
     </div>
     <!-- Modal -->
@@ -88,19 +80,14 @@ layout: default
         </header>
         <div class="main">
           <!-- content - WNC-S40HSS4X -->
-          <div class="main modal-content-item" data-product="wnc-s40hss4x">
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+          <div class="main modal-content-item" data-product="wnc-m25mss4x">
+            <h2>Standalone Configuration (SC)</h2>
+            <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
           </div>
           <!-- content - WNC-S40HSO4X -->
-          <div class="main modal-content-item" data-product="wnc-s40hso4x">
-            <p>Detailed description for the Open Configuration, including specs, features, and integration notes.</p>
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
-          </div>
-          <!-- content - WNC-WNC-M25MSS4X-Rx -->
-          <div class="main modal-content-item" data-product="wnc-m25mss4x-rx">
-            <p>Detailed description for the Open Configuration, including specs, features, and integration notes.</p>
-            <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-channel systems.</p>
+          <div class="main modal-content-item" data-product="wnc-m25mso4x">
+            <h2>Open Configuration (OC)</h2>
+            <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -110,19 +97,15 @@ layout: default
   <section class="technical category-container">
     <div class="category-row">
       <div class="large-4 columns">
-        <div class="highlight-card">
-          <h3>STANDALONE CONFIGURATION</h3>
-          <p>The standalone configuration (SC) features a pressure housing tailored to accommodate various deployment depths and operate on external power sources, whether underwater with batteries or from the water's surface with a power supply. Engineered for unparalleled versatility and dependability across diverse deployment scenarios, this configuration ensures robust data transmission, even in the most demanding environments, guaranteeing seamless and uninterrupted operations.</p>
-        </div>
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">
             <img src="{{site.baseurl}}/brochures/modem6.jpg">
-            <span>Subnero S40H Underwater Modems</span>
+            <span>Subnero S40H Series Underwater Modems</span>
           </a>
           <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
             <img src="{{site.baseurl}}/brochures/wnc.jpg">
-            <span>Generation 4 Wireless Networked Communications (WNC), Product Series Brief</span>
+            <span>Gen4X Wireless Networked Communications (WNC), Product Series Brief</span>
           </a>
         </div>
         <h3>Useful Links</h3>
@@ -131,7 +114,7 @@ layout: default
         </div>
       </div>
       <div class="large-8 columns">
-        <h3>Technical Specification</h3>
+        <h3>Technical Specifications</h3>
         <table>
           <caption>Communication</caption>
           <thead>
@@ -148,6 +131,10 @@ layout: default
             <tr>
               <td>FEC (Forward Error Correction)</td>
               <td>LDPC, BCH, Convolution code</td>
+            </tr>
+            <tr>
+              <td>JANUS support</td>
+              <td>Yes, subject to operating frequency band</td>
             </tr>
             <tr>
               <td>Bandwidth</td>
@@ -174,7 +161,7 @@ layout: default
             </tr>
             <tr>
               <td>Software Interfaces</td>
-              <td>Java, Groovy, Python, C, JavaScript, Julia</td>
+              <td>Java, Groovy, Python, C, Javascript, Julia, JSON/TCP</td>
             </tr>
           </tbody>
         </table>
@@ -188,24 +175,33 @@ layout: default
           </thead>
           <tbody>
             <tr>
-              <td>Power supply</td>
-              <td>22 - 28 VDC (24 VDC recommended)</td>
+              <td>Power source</td>
+              <td>18 - 30 VDC (24 VDC recommended)</td>
             </tr>
             <tr>
               <td>Power consumption</td>
               <td>
                 < 4 W (receive mode, nominal) <br />
                 < 45 W (transmit mode, avg.) <br />
+                < 150 mW (sleep mode) <br />
                 < 1 mW (deep sleep mode)
               </td>
             </tr>
             <tr>
+              <td>Wake up modes</td>
+              <td>
+                Acoustic wakeup, External electrical interrupt, Scheduled wakeup
+              </td>
+            </tr>
+            <tr>
               <td>External interface</td>
-              <td>Ethernet (10/100 Mbps)*</td>
+              <td>
+              Ethernet (10/100 Mbps), RS232<sup>*</sup>
+              </td>
             </tr>
             <tr>
               <td>On-board storage</td>
-              <td>32 GB<sup>*</sup></td>
+              <td>256 GB, 1 TB</td>
             </tr>
           </tbody>
         </table>
@@ -220,23 +216,27 @@ layout: default
           <tbody>
             <tr>
               <td>Hull material</td>
-              <td>Aluminum<sup>*</sup></td>
+              <td>Aluminum</td>
             </tr>
             <tr>
-              <td>Operating depth</td>
-              <td>300 m*</td>
+              <td>Depth rating</td>
+              <td>300m</td>
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>⌀ 127 ✕ 316 mm</td>
+              <td>SC/MR: ø 127 x 316 mm, OC: ø 100 x 132 mm</td>
+            </tr>
+            <tr>
+              <td>Weight (in air / water)</td>
+              <td>SC: 5.0 / 1.5 kg, OC: 0.8 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>
-              <td>0 to 40 °C</td>
+              <td>SC: 0 to 40 °C, OC: 0 to 70 °C (electronics) 0 to 40 °C (transducer)</td>
             </tr>
           </tbody>
         </table>
-        <p class="upgrade-info">* Upgrades available. <a href="{{site.baseurl}}/products/gen4x/accessories">Read more.</a></p>
+        * Different cable required for RS232 connection.
       </div>
     </div>
   </section>

@@ -14,7 +14,8 @@ layout: default
           <div class="card-tag lf">LF Band</div>
         </div>
         <h1>L12L Series</h1>
-        <p>Designed for long-range operations, Subnero’s Silver Edition L12L modem delivers robust acoustic communication for extended subsea deployments. Built for reliability and flexibility, it offers seamless integration into diverse underwater systems, supporting mission-critical data exchange even in challenging environments.</p>
+        <p>Designed for reliable long-range communication in shallow waters, Subnero’s Silver Edition L12L modem addresses one of the toughest challenges in underwater acoustics — maintaining robust links over extended distances in complex environments.</p>
+        <p>Built on decades of research and innovation, the L12L series enables dependable data transfer beyond 10 km, unlocking new possibilities for remote monitoring, tracking, telemetry, and control of subsea assets. Engineered for endurance and stability, it supports mission-critical operations across defense, research, and commercial deployments, where long-range connectivity is essential.</p>
         <h3>Applications</h3>
         <ul>
           <li>Long-range operations in shallow or coastal waters</li>

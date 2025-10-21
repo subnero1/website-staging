@@ -34,15 +34,11 @@ M25M:
       edition: Platinum
       image: /images/gen4x/preview-WNC-M25MPS3.png
       link: /products/gen4x/m25mplatinum.html
-    - name: Powerful and rugged modems for compute-intensive underwater applications.
-      edition: Gold
-      image: /images/gen4x/preview-gold.png
-      link: 
 
 S40H:
   tag: HF Band
   title: S40H Series
-  band: 25 - 55 kHz band
+  band: 25 - 50 kHz band
   type: HIGH-SPEED ACOUSTIC SMART MODEMS
   details: High-speed connectivity for data-intensive underwater applications.
   description: The HF band delivers high-speed, short-range acoustic links ideal for transferring large datasets, images, and real-time sensor information in underwater IoT and robotic systems.
@@ -61,22 +57,22 @@ accessories:
   image: /images/gen4x/cover-accessories.png
   products:
     - name: Co-processor
-      edition: Electrical
+      edition: Silver
+      gen: Gen4X
       image: /images/gen4x/preview-coprocessor.png
       link: /products/gen4x/co-processors.html
-    - name: Sensors
-      edition: Electrical
-      image: /images/gen4x/preview-sensors.png
-      link: /products/gen4x/sensors.html
     - name: Storage
-      edition: Electrical
+      edition: Silver
+      gen: Gen4X
       image: /images/gen4x/preview-storage.png
       link: /products/gen4x/storage.html
     - name: Hull Options
-      edition: Mechanical
+      edition: Silver
+      gen: Gen4X
       image: /images/gen4x/preview-hull.png
       link: /products/gen4x/hull-options.html
     - name: Cables
-      edition: Mechanical
+      edition: Silver
+      gen: Gen4X
       image: /images/gen4x/preview-cables.png
       link: /products/gen4x/cables.html

@@ -5,7 +5,15 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png" />
+        <div class="product-images">
+          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+          <div class="thumbs">
+            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+            <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+            <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+            <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+          </div>
+        </div>
       </div>
       <div class="large-7 columns">
         <div class="card-tags">

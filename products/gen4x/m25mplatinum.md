@@ -8,10 +8,11 @@ layout: default
         <img src="{{site.baseurl}}/images/gen4x/WNC-M25MPS3-01.png" />
       </div>
       <div class="large-7 columns">
-        <div class="card-tag">Gen4x</div>
-        <h1>WNC-M25MPS3</h1>
-        <h2>Standalone Configuration Modem</h2>
-        <small>Platinum Edition</small>
+        <div class="card-tag legacy">Legacy</div>
+          <div class="card-tag platinum">Platinum Edition</div>
+          <div class="card-tag mf">MF Band</div>
+        <h1>M25M Series</h1>
+        <h2>20 - 32 kHz Band</h2>
         <p>Delivering performance under the toughest environmental conditions, Subnero’s platinum edition modems are designed to meet rigorous quality standards mandated by sectors such as defense, oil & gas and subsea engineering.</p>
         {%- include formRequestQuote.html -%}
       </div>
@@ -22,8 +23,8 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Up to 15 kbps data rate*.</li>
-          <li>Up to 5 km communication range (horizontal & vertical) in tropical waters.</li>
+          <li>Up to 15 kbps<sup>*</sup> data rate.</li>
+          <li>More than 4 km communication range (horizontal & vertical) in tropical waters.</li>
           <li>Ranging functionality with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
           <li>Support for coherent and incoherent communication schemes.</li>

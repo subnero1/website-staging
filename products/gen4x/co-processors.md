@@ -16,7 +16,8 @@ layout: default
         </div>
       </div>
       <div class="large-7 columns">
-        <div class="card-tag">Gen4x</div>
+          <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag silver">Silver Edition</div>
         <h1>co-processors</h1>
         <h2>STANDALONE CONFIGURATION MODEM</h2>
         <small>Silver Edition</small>
