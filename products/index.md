@@ -6,9 +6,8 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 ---
 <section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
-    <div class="text-center">
+    <div class="hero-text">
         <h1>Wireless Networked Communications (WNC)</h1>
-        <p>Software-defined underwater acoustic smart modems for communication, networking, navigation and monitoring.</p>
         <p>The WNC series combines Subnero’s software-defined acoustic modems, UnetStack network stack, and Wireless Integrated Suite (SWIS) into a unified ecosystem for underwater communication, networking, navigation, and monitoring. Built for scalability and performance, it enables reliable subsea connectivity across scientific, industrial, and defense applications.</p>
         <p><a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a></p>
         <!-- <div class="hero-listing">

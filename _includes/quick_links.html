@@ -4,7 +4,7 @@
   {% assign key = category[0] %}
   {% assign value = category[1] %}
   <a class="product-card" href="{{ site.baseurl }}/products/gen4x/{{ key }}">
-    <div class="card-tag">{{ value.tag }}</div>
+    <div class="card-tag {{ value.tag | downcase }}">{{ value.tag }}</div>
     <h2>{{ value.title }}</h2>
     <p class="band">{{ value.band }}</p>
     {% if include.show_details %}
@@ -17,7 +17,7 @@
   </a>
   {% endfor %}
   <a class="product-card" href="{{ site.baseurl }}/products/modem.html">
-    <div class="card-tag gen4">Legacy</div>
+    <div class="card-tag legacy">Legacy</div>
     <h2>Gen4 WNC Series</h2>
     {% if include.show_details %}
     <div class="cover-img">

@@ -9,9 +9,9 @@ layout: default
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
-          <div class="card-tag">Gen4x</div>
-          <div class="card-tag">Silver Edition</div>
-          <div class="card-tag">MF Band</div>
+          <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag silver">Silver Edition</div>
+          <div class="card-tag mf">MF Band</div>
         </div>
         <h1>M25M Series</h1>
         <h2>20 - 32 kHz Band</h2>

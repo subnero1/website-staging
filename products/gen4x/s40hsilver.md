@@ -9,8 +9,8 @@ layout: default
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
-          <div class="card-tag">Gen4x</div>
-          <div class="card-tag">HF Band</div>
+          <div class="card-tag gen4x">Gen4x</div>
+          <div class="card-tag hf">HF Band</div>
         </div>
         <h1>Silver Edition</h1>
         <p>Designed as a versatile workhorse, Subnero’s silver edition smart modem offers unparalleled flexibility, featuring customizable options and extensibility across various levels. From network protocols to physical layer algorithms, users can effortlessly implement and test modifications, ensuring seamless integration into diverse underwater communication ecosystems.</p>
