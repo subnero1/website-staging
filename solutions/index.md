@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Solutions
-banner : images/banner-solutions.jpg
+banner : images/solutions.jpg
 excerpt: Subnero's solutions for marine robots and underwater sensors.
 ---
 
