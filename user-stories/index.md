@@ -20,9 +20,8 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
           <img src="{{site.baseurl}}/images/story-st.jpg" alt="ST Engineering">
         </div>
         <div class="details">
-          <h2>ST Engineering</h2>
-          <p class="lead">Underwater Cellular Network Deployment in Singapore.</p>
-          <p>One of the first commercial deployments of underwater networks designed for resource sharing between multiple users from defense, commercial, and research domains, much like the Internet.</p>
+          <h2>Connecting the Ocean: Deployment of an Underwater Cellular Network in Singapore</h2>
+          <p>An underwater network deployed in Singapore’s tropical waters demonstrated seamless communication, handovers, and real-time AUV tracking. This user story highlights how Subnero and ST Engineering UIS are shaping the future of subsea connectivity.</p>
           <p class="read-link">Read &#8594;</p>
         </div>
       </a>
@@ -31,9 +30,8 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
           <img src="{{site.baseurl}}/images/story-nauticus.jpg" alt="Nauticus">
         </div>
         <div class="details">
-          <h2>Nauticus Robotics</h2>
-          <p class="lead">Deep-Water Testing of Subnero Modems in the Gulf of Mexico.</p>
-          <p>The primary goal was to validate reliable communications between a mothership-deployed topside modem and a subsea modem mounted on the Aquanaut robot during deep-water operations.</p>
+          <h2>Deep-Water Testing of Subnero Modems in the Gulf of Mexico</h2>
+          <p>Subnero’s deep-rated modems maintained reliable communication down to 2.5 km in Gulf of Mexico trials, achieving over 80% packet success. This user story shows how Subnero technology enables robust connectivity in ultra-deep subsea environments.</p>
           <p class="read-link">Read &#8594;</p>
         </div>
       </a>
