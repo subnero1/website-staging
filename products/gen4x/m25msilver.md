@@ -6,12 +6,12 @@ layout: default
     <div class="category-row">
       <div class="large-5 columns">
         <div class="product-images">
-          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/m25m-silver-01.jpg">
           <div class="thumbs">
-            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
-            <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
-            <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
-            <img src="{{site.baseurl}}/images/gen4x/WNC-M25MSS4X-01.png">
+            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-01.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-02.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-03.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-04.jpg">
           </div>
         </div>
       </div>
@@ -271,3 +271,4 @@ layout: default
   </div>
 </div>
 {% include ProductDetailsDialog.html %}
+{%- include imageViewer.html -%}
