@@ -7335,11 +7335,12 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .user-story-card .user-logo {
   flex: none;
-  width: 240px;
+  width: 340px;
 }
 .user-story-card img {
   width: 100%;
   object-fit: contain;
+  border-radius: 8px;
 }
 .user-story-card h2 {
   font-size: 2rem;
@@ -7349,8 +7350,15 @@ body:has(dialog[open]) { overflow: hidden; }
   letter-spacing: normal; */
 }
 .user-story-card p {
-    color: #000;
-    margin-bottom: 4px;
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 4px;
+  /* line-height: 1.5; */
+}
+.user-story-card p.lead {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 .user-story-card .read-link {
   margin: 0;
