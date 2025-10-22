@@ -15,26 +15,19 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
   </div>
   <div class="row" style="padding:2rem 0;">
     <div class="columns large-11 large-centered">
-      <a href="#" class="user-story-card">
+      {% assign stories_sorted = site.userstories | sort: 'date' | reverse %}
+      {% for item in stories_sorted %}
+      <a href="{{ item.url }}" class="user-story-card">
         <div class="user-logo">
-          <img src="{{site.baseurl}}/images/story-st.jpg" alt="ST Engineering">
+          <img src="{{site.baseurl}}{{item.preview_image}}" alt="{{ item.title }}">
         </div>
         <div class="details">
-          <h2>Connecting the Ocean: Deployment of an Underwater Cellular Network in Singapore</h2>
-          <p>An underwater network deployed in Singapore’s tropical waters demonstrated seamless communication, handovers, and real-time AUV tracking. This user story highlights how Subnero and ST Engineering UIS are shaping the future of subsea connectivity.</p>
+          <h2>{{ item.sub_title }}</h2>
+          <p>{{ item.excerpt }}</p>
           <p class="read-link">Read &#8594;</p>
         </div>
       </a>
-      <a href="#" class="user-story-card">
-        <div class="user-logo">
-          <img src="{{site.baseurl}}/images/story-nauticus.jpg" alt="Nauticus">
-        </div>
-        <div class="details">
-          <h2>Deep-Water Testing of Subnero Modems in the Gulf of Mexico</h2>
-          <p>Subnero’s deep-rated modems maintained reliable communication down to 2.5 km in Gulf of Mexico trials, achieving over 80% packet success. This user story shows how Subnero technology enables robust connectivity in ultra-deep subsea environments.</p>
-          <p class="read-link">Read &#8594;</p>
-        </div>
-      </a>
+      {% endfor %}      
     </div>
   </div>
 </section>

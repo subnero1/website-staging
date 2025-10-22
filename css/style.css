@@ -7343,11 +7343,11 @@ body:has(dialog[open]) { overflow: hidden; }
   border-radius: 8px;
 }
 .user-story-card h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #007A8C;
-  margin: 0;
-  /* text-transform: none;
-  letter-spacing: normal; */
+  margin: 0 0 4px;
+  text-transform: none;
+  letter-spacing: normal;
 }
 .user-story-card p {
   font-size: 1.2rem;
@@ -7458,8 +7458,128 @@ body:has(dialog[open]) { overflow: hidden; }
   margin: 0;
   color: #000;
 }
-
-
+/* user stories */
+.user-stories {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.sec-hero {
+  position: relative;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.sec-hero::before {
+  position: absolute;
+  content: '';
+  inset: 0;
+  background-color: rgba(0, 82, 140, 0.62);
+  z-index: 0;
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.hero-content h4 {
+  color: #fff;
+}
+.hero-content h1 {
+  color: #FC8230;
+}
+.hero-content .lead {
+  color: #fff;
+}
+.story-section {
+  padding: 2rem;
+}
+.story-section p {
+  color: #000;
+}
+.story-section h2 {
+  margin-top: 2.4rem;
+  color: #FC8230;
+}
+.story-section .list-normal {
+  max-width: 740px;
+  padding-left: 20px;
+}
+.story-section .list-normal li {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  color: #007A8C;
+}
+.story-section img {
+  border-radius: 14px;
+}
+.story-section figure {
+  margin: 0;
+}
+.story-section figcaption {
+  padding-top: 6px;
+  text-align: center;
+  color: #007A8C;
+}
+.list-styled {
+  /* padding: 2rem; */
+  background-color: #fff;
+}
+.list-styled > div {
+  padding: 2rem;
+  background-color: #1C5D91;
+  margin: 1rem;
+  border-radius: 8px;
+}
+.list-styled h4 {
+  font-size: 1.4rem;
+  color: #FC8230;
+  margin: 0;
+}
+.list-styled p {
+  margin: 0;
+  color: #fff;
+}
+.bquote {
+  margin: 3rem 2rem;
+  padding: 2rem;
+  background-color: #eaf1ff;
+  border-left-width: 5px;
+  border-left-color: #FC8230;
+}
+.bquote p {
+  color: #000;
+}
+.bquote .author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.bquote .photo {
+  flex: none;
+  width: 100px;
+  height: 100px;
+}
+.bquote img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.bquote .author p {
+  font-size: 1.4rem;
+  color: #007A8C;
+  margin: 0;
+}
+.bquote small {
+  font-size: 1rem;
+  color: #000;
+  margin: 0;
+}
 
 @media only screen and (max-width: 960px) {
   .contacts {
