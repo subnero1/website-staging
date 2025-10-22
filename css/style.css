@@ -6900,7 +6900,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   text-align: right;
 }
 .product-img {
-  flex: 1;
+  border-radius: 14px;
 }
 .product-img img {
   display: block;
