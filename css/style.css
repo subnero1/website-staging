@@ -7488,10 +7488,13 @@ body:has(dialog[open]) { overflow: hidden; }
   z-index: 1;
 }
 .hero-content h4 {
-  color: #fff;
+  color: #FC8230;
 }
 .hero-content h1 {
-  color: #FC8230;
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: none;
+  max-width: 600px;
 }
 .hero-content .lead {
   color: #fff;

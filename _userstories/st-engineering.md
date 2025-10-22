@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ST Engineering
-sub_title: Connecting the Ocean&col; Deployment of an Underwater Cellular Network in Singapore
+sub_title: Connecting the Ocean&colon; Deployment of an Underwater Cellular Network in Singapore
 excerpt: An underwater network deployed in Singapore’s tropical waters demonstrated seamless communication, handovers, and real-time AUV tracking. This user story highlights how Subnero and ST Engineering UIS are shaping the future of subsea connectivity.
 preview_image: /images/story-st.jpg
 date: 2025-10-21
@@ -11,8 +11,7 @@ date: 2025-10-21
   <section class="sec-hero" style="background-image: url({{site.baseurl}}/images/hero-solutions.jpg);" >
     <div class="hero-content">
       <h4>User Story</h4>
-      <h1>ST Engineering</h1>
-      <p class="lead">Underwater Cellular Network Deployment <br />in Singapore</p>
+      <h1>{{ page.sub_title }}</h1>
     </div>
   </section>
   <section class="story-section">

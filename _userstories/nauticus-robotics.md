@@ -11,8 +11,7 @@ date: 2025-10-20
   <section class="sec-hero" style="background-image: url({{site.baseurl}}/images/nauticus.jpg);" >
     <div class="hero-content">
       <h4>User Story</h4>
-      <h1>Nauticus Robotics</h1>
-      <p class="lead">Deep-Water Testing of Subnero Modems <br />in the Gulf of Mexico.</p>
+      <h1>{{ page.sub_title }}</h1>
     </div>
   </section>
   <section class="story-section">
