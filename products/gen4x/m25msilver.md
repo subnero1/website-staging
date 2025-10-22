@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">
@@ -11,9 +12,9 @@ layout: default
           <div class="card-tag platinum">Research Edition</div>
           <div class="card-tag mf">MF Band</div>
         <h1>S1000-N</h1>
-        <h2>20-30 KHz</h2>
-        <p>Our research edition modems are designed to bridge the gap between developing applications using a simulator and high-end commercial deployments. Due to its low cost, these smart modems provide an easier entry to the world of underwater communications to any underwater technology enthusiasts.</p>
-        {%- include formRequestQuote.html -%}
+        <h2>20 - 30 KHz</h2>
+        <p>The Research Edition modem offers an affordable and compact platform for researchers, developers, and educators exploring underwater communication and networking. Powered by UnetStack, it bridges the gap between simulation and field experimentation — enabling users to design, test, and deploy underwater networks with real-world results.</p>
+        {%- include formContactUs.html is_contact=true -%}
       </div>
     </div>
   </section>
@@ -22,14 +23,14 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>The power of Popoto S-series modems</li>
-          <li>Advanced UnetStack networking</li>
-          <li>80 bps with Frequency Hopping FSK</li>
-          <li>10240, 5120, 2560, 1280, 640 bps with PSK</li>
-          <li>1-3 km depending on channel conditions and selected modulation scheme</li>
-          <li>APIs in multiple computer languages</li>
-          <li>Multihop relay and routing</li>
-          <li>Low power operations</li>
+          <li>The power of Popoto S-series modems.</li>
+          <li>Advanced UnetStack networking.</li>
+          <li>80 bps with Frequency Hopping FSK.</li>
+          <li>10240, 5120, 2560, 1280, 640 bps with PSK.</li>
+          <li>1-3 km depending on channel conditions and selected modulation scheme.</li>
+          <li>APIs in multiple computer languages.</li>
+          <li>Multihop relay and routing.</li>
+          <li>Low power operations.</li>
         </ul>
       </div>
       <div class="large-5 columns">
@@ -45,7 +46,7 @@ layout: default
       <div class="large-4 columns">
         <div class="highlight-card">
           <h3>STANDALONE CONFIGURATION</h3>
-          <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an internal or external power source, like a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
+          <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
         </div>
         <h3>Brochures</h3>
         <div class=brochures>
@@ -72,15 +73,15 @@ layout: default
             </tr>
             <tr>
               <td>Range</td>
-              <td>1-3 km*</td>
+              <td>1-3 km<sup>*</sup></td>
             </tr>
             <tr>
               <td>Frequency band</td>
-              <td>20-30 KHz</td>
+              <td>20 - 30 KHz</td>
             </tr>
             <tr>
               <td>Storage</td>
-              <td>128 GB on included uSD (Expandable)</td>
+              <td>128 GB on included µSD (Expandable)</td>
             </tr>
           </tbody>
         </table>
@@ -95,12 +96,12 @@ layout: default
           <tbody>
             <tr>
               <td>Operating voltage</td>
-              <td>12 - 40V</td>
+              <td>12 - 40 VDC</td>
             </tr>
             <tr>
               <td>Power consumption</td>
               <td>
-                GPIO Enabled Sleep: &lt; 10uW <br />
+                GPIO Enabled Sleep: &lt; 10µW <br />
                 Acoustic Wake-Up Deep Sleep: &lt; 45 mW <br />
                 Acoustic Wake-Up Sleep: 150 mW <br />
                 Active Receive: 1.5 W
@@ -146,19 +147,11 @@ layout: default
           <tbody>
             <tr>
               <td>Dimensions</td>
-              <td>Aluminum<sup>*</sup></td>
-            </tr>
-            <tr>
-              <td>Operating depth</td>
-              <td>300 m*</td>
-            </tr>
-            <tr>
-              <td>Dimensions</td>
-              <td>376mm x 49mm x 49mm</td>
+              <td>376 mm x 49 mm x 49 mm</td>
             </tr>
             <tr>
               <td>Weight</td>
-              <td>dry: 1275g (Nmodel), In Sea Water: 505g</td>
+              <td>Dry: 1275g (Nmodel), In Sea Water: 505g</td>
             </tr>
             <tr>
               <td>Depth rating</td>
@@ -189,7 +182,7 @@ layout: default
             </tr>
           </tbody>
         </table>
-        <p>* depending on channel conditions and selected modulation scheme</p>
+        * Depending on channel conditions and selected modulation scheme
         <div class="product-faq">
           <h3>Frequently Asked Question</h3>
           <p class="question">Q: What is the S1000-N acoustic smart modem?</p>
@@ -205,7 +198,7 @@ layout: default
           <p class="question">Q: How can I learn more about the S1000-N acoustic smart modem?</p>
           <p class="answer">A: For more information on the S1000-N acoustic smart modem, customers can contact either Subnero or Popoto Modem directly. Both companies will be happy to answer any questions you may have about the S1000-N smart modems and their features. To learn more about UnetStack, you can visit <a href="https://unetstack.net/" target="_blank">www.unetstack.net.</a></p>
           <p class="question">Q: When will the S1000-N modems be available?</p>
-          <p class="answer">A: The S1000-N Modems will be available from Q2 2023. Customers can contact either Subnero (sales@subnero.com) or Popoto Modem (info@popotomodem.com) for more information on availability and pricing. The S1000-N is available at a starting price of US $6,750.</p>
+          <p class="answer">A: The S1000-N Modems are available now. Customers can contact either Subnero (sales@subnero.com) or Popoto Modem (info@popotomodem.com) for more information on availability and pricing. The S1000-N is available at a starting price of US $6,750.</p>
           <p class="question">Q: Where can I buy the S1000-N acoustic smart modem?</p>
           <p class="answer">A: Customers can contact either Subnero sales@subnero.com or Popoto Modem info@popotomodem.com for purchasing inquiries.</p>
         </div>

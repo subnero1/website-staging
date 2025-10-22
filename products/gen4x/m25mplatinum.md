@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
+
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/WNC-M25MPS3-01.png" />
+        <div class="product-images">
+          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/WNC-M25MPS3-01.png">
+          <div class="thumbs">
+            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-01.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-02.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-03.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-04.jpg">
+          </div>
+        </div>
       </div>
       <div class="large-7 columns">
         <div class="card-tag legacy">Legacy</div>
@@ -24,13 +33,12 @@ layout: default
         <h3>Key Features</h3>
         <ul>
           <li>Up to 15 kbps<sup>*</sup> data rate.</li>
-          <li>More than 4 km communication range (horizontal & vertical) in tropical waters.</li>
+          <li>More than 4 km communication range in tropical waters.</li>
+          <li>Certified to MIL-STD-810G, 461E, and related environmental standards.</li>
           <li>Ranging functionality with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
           <li>Support for coherent and incoherent communication schemes.</li>
-          <li>Support for arbitrary signal transmission as well as recording (passband, baseband).</li>
-          <li>Support for user defined communication schemes using <a href="{{site.baseurl}}/products/unet.html">UnetStack</a>.</li>
-          <li>Certified for various MIL standards.</li>
+          <li>Support for arbitrary signal transmission and recording (passband, baseband).</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
@@ -42,13 +50,56 @@ layout: default
   <section class="call-to-action category-container">
     {%- include formCTA.html -%}
   </section>
+
+  <section class="configs">
+    <header>
+      <h2>Flexible Configurations</h2>
+      <p>Available in standalone, and embedded configurations to suit a range of deployment needs—from self-contained setups to integrated systems.</p>
+    </header>
+    <div class="card-wrapper">
+      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mps3">
+        <h2>WNC-M25MPS3</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MPS3.png">
+        </div>
+        <h3>Standalone Configuration</h3>
+        <p>Self-contained modem powered by an external battery or power supply.</p>
+      </a>
+      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mpe3">
+        <h2>WNC-M25MPE3</h2>
+        <div class="product-img">
+          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MPE3.png">
+        </div>
+        <h3>Embedded<br />Configuration</h3>
+        <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
+      </a>
+    </div>
+    <!-- Modal -->
+    <dialog id="configModal" class="modal-dialog">
+      <div class="modal-content">
+        <header>
+          <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
+        </header>
+        <div class="main">
+          <!-- content - WNC-M25MPS3 -->
+          <div class="main modal-content-item" data-product="wnc-m25mps3">
+            <h2>Standalone Configuration (SC)</h2>
+            <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
+          </div>
+          <!-- content - WNC-M25MPE3 -->
+          <div class="main modal-content-item" data-product="wnc-m25mpe3">
+            <h2>Embedded Configuration (OC)</h2>
+            <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
+          </div>
+        </div>
+        <div class="footer"></div>
+      </div>
+    </dialog>
+  </section>
+
   <section class="technical category-container">
     <div class="category-row">
       <div class="large-4 columns">
-        <div class="highlight-card">
-          <h3>STANDALONE CONFIGURATION</h3>
-          <p>A modem in the standalone configuration (SC) operates on external power source such as a battery (for underwater deployments) or a power supply (for deployments from the water surface).</p>
-        </div>
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank">
@@ -148,13 +199,12 @@ layout: default
           <tbody>
             <tr>
               <td>Hull material</td>
-              <td>Aluminum<sup>*</sup></td>
+              <td>Aluminum</td>
             </tr>
             <tr>
               <td>Operating depth</td>
               <td>
-                Hull: 300 m <br />
-                Transducer: 2000 m
+                300 m
               </td>
             </tr>
             <tr>
@@ -178,9 +228,9 @@ layout: default
             <tr>
               <td>Workmanship</td>
               <td>
-                - IPC class 2A
-                - Conformal coating
-                - Environmental Stress Screening (ESS)
+                - IPC class 2A<br />
+                - Conformal coating<br />
+                - Environmental Stress Screening (ESS)<br />
               </td>
             </tr>
           </tbody>
