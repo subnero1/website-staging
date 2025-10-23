@@ -37,7 +37,7 @@ section_id: home
               {% if item.submenu %}
               <ul class="submenu {{ item.section_id }}">
                 {% if item.section_id == "products" %}
-                <li><a href="{{ site.baseurl}}/{{ item.path }}">All</a></li>
+                <li><a href="{{ site.baseurl}}/{{ item.path }}">All Products</a></li>
                 {% endif %}
               {% for entry in item.submenu %}
                 <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
