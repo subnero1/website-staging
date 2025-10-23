@@ -2,18 +2,15 @@
   path: products/
   section_id: products
   submenu:
-  - name: LF Band
-    path: /products/gen4x/L12L
-    section_id: l12l
-  - name: MF Band
-    path: /products/gen4x/M25M
+  - name: Smart Modems
+    path: /products/#smart-modems
     section_id: m25m
-  - name: HF Band
-    path: /products/gen4x/S40H
-    section_id: s40h
   - name: UnetStack
-    path: /products/unet
+    path: /products/#unetstack
     section_id: unetstack
+  - name: SWIS - ADCP Edition
+    path: /products/#swis
+    section_id: swis  
 - name: Solutions
   path: solutions/
   section_id: solutions

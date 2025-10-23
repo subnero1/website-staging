@@ -1062,7 +1062,7 @@ ul.info i:hover {
   position: absolute;
   top: 70px;
   right: 0;
-  width: 200px;
+  min-width: 200px;
   padding: 1.4rem;
   min-height: 100px;
   white-space: nowrap;
@@ -1097,12 +1097,12 @@ ul.info i:hover {
   background-color: #fff;
 }
 
-.top-bar-section ul.submenu.products li:nth-last-child(2), 
+/* .top-bar-section ul.submenu.products li:nth-last-child(2), 
 .top-bar-section ul.submenu.products li:first-child {
   border-bottom: 1px solid rgba(200,200,200,0.5);
   margin-bottom: 2px;
   padding-bottom: 8px;
-}
+} */
 
 /*Contact page */
 .contact-details h4 {

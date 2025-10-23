@@ -6,6 +6,7 @@ L12L:
   details: Long-range, acoustic communication for persistent presence.
   description: The LF band provides long-range acoustic communication, ideal for persistent monitoring, subsea networks, and vehicle tracking in challenging environments.
   image: /images/gen4x/cover-l12l.png
+  current_link: /products/gen4x/l12lsilver.html
   products:
     - name: Reliable and customizable for commercial use.
       edition: Silver
@@ -21,6 +22,7 @@ M25M:
   details: Versatile connectivity for diverse set of applications.
   description: The MF band balances data rate and range, offering robust and flexible connectivity for general-purpose oceanographic, industrial, and research applications.
   image: /images/gen4x/cover-m25m.png
+  current_link: /products/gen4x/M25M
   products:
     - name: Reliable and customizable for commercial use.
       edition: Silver
@@ -43,6 +45,7 @@ S40H:
   details: High-speed connectivity for data-intensive underwater applications.
   description: The HF band delivers high-speed, short-range acoustic links ideal for transferring large datasets, images, and real-time sensor information in underwater IoT and robotic systems.
   image: /images/gen4x/cover-s40h.png
+  current_link: /products/gen4x/s40hsilver.html
   products:
     - name: Reliable and customizable for commercial use.
       edition: Silver
@@ -55,6 +58,7 @@ accessories:
   details: Expand functionality with modular accessories and upgrades.
   description: A comprehensive range of accessories — including co-processors, sensors, storage, hull options, and cables — to enhance performance and integration flexibility.
   image: /images/gen4x/cover-accessories.png
+  current_link: /products/gen4x/accessories
   products:
     - name: Co-processor
       edition: Silver

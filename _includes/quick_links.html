@@ -3,7 +3,7 @@
   {% for category in categories %}
   {% assign key = category[0] %}
   {% assign value = category[1] %}
-  <a class="product-card" href="{{ site.baseurl }}/products/gen4x/{{ key }}">
+  <a class="product-card" href="{{ site.baseurl }}{{value.current_link}}">
     <div class="card-tag {{ value.tag | downcase }}">{{ value.tag }}</div>
     <h2>{{ value.title }}</h2>
     <p class="band">{{ value.band }}</p>

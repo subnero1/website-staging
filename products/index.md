@@ -22,7 +22,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   </div>
 </section>
 
-<section class="products-page wnc" style="padding:6rem 0">
+<section id="smart-modems" class="products-page wnc" style="padding:6rem 0">
   <div class="row">
     <div class="large-12 columns">
       <div class="category-content ">
@@ -47,7 +47,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 
 <hr style="max-width:90rem;" />
 
-<section class="products-page unetstack" style="padding:6rem 0">
+<section id="unetstack" class="products-page unetstack" style="padding:6rem 0">
   <div class="row">
     <div class="large-12 columns">
       <div class="category-content">
@@ -71,7 +71,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 
 <hr style="max-width:90rem;" />
 
-<section class="products-page unetstack" style="padding:6rem 0">
+<section id="swis" class="products-page swis" style="padding:6rem 0">
   <div class="row">
     <div class="large-12 columns">
       <div class="category-content">
