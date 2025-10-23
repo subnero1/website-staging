@@ -7,10 +7,10 @@ layout: default
     <div class="category-row">
       <div class="large-5 columns">
         <div class="product-images">
-          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/WNC-M25MPS3-01.png">
+          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/WNC-M25MPS3-02.png">
           <div class="thumbs">
-            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-01.jpg">
-            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-02.jpg">
+            <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-01.jpg">
+            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-02.jpg">
             <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-03.jpg">
             <img src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-04.jpg">
           </div>

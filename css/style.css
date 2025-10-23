@@ -681,6 +681,9 @@ hr {
 .full.no-padding {
   padding: 0;
 }
+.no-padding {
+  padding: 0 !important;
+}
 
 .parallax {
   background-attachment: fixed;
@@ -6869,6 +6872,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 .product-card .cover-img {
   flex: 1;
+  margin: 4px 0;
 }
 .product-card .inline-btn {
   font-size: 0.94rem;
@@ -7160,7 +7164,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .upgrade-info {
   font-size: 1rem;
 }
-.product-images {
+/* .product-images {
   margin-bottom: 3rem;
 }
 .product-images .thumbs {
@@ -7177,7 +7181,64 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .product-images .selected-thumb {
   border: 2px solid #FC8230;
   opacity: 0.8;
+} */
+.product-images {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 3rem;
 }
+
+.product-images .main-slider {
+  position: relative;
+  aspect-ratio: 1;
+  width: 100%;
+  /* height: 400px; */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.product-images .slider-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 400%; */
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.product-images .main-img {
+  /* width: 25%;  */
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.product-images .thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.product-images .thumbs img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #f4f4f4;
+  border-radius: 4px;
+  transition: border-color 0.2s ease;
+}
+
+.product-images .thumbs img:hover {
+  border-color: #FC8230;
+}
+
+.product-images .thumbs .selected-thumb {
+  border-color: #FC8230;
+}
+
 .product-faq {
   padding: 2rem 0;
 }

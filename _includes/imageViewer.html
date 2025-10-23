@@ -1,17 +1,60 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var mainImg = document.getElementById('main-img');
-  var thumbs = document.querySelectorAll('.product-images .thumbs img');
+  const sliderTrack = document.querySelector('.slider-track');
+  const mainImgs = document.querySelectorAll('.main-img');
+  const thumbs = document.querySelectorAll('.thumbs img');
+  let currentIndex = 0;
+  let timer;
+  let restartTimer;
+  const autoSlideDelay = 3000; // milliseconds between slides (3 seconds)
+  const totalImages = thumbs.length;
+
+  // Dynamically set widths based on totalImages (assumes equal number of mainImgs and thumbs)
+  if (mainImgs.length !== totalImages) {
+    console.warn('Mismatch between main images and thumbnails. Please ensure they match.');
+  }
+  const percentPerImage = 100 / totalImages;
+  sliderTrack.style.width = `${totalImages * 100}%`;
+  mainImgs.forEach(img => {
+    img.style.width = `${percentPerImage}%`;
+  });
+
+  function slideToIndex(index) {
+    // Use transform for hardware-accelerated smooth sliding
+    const translateX = - (index * percentPerImage);
+    sliderTrack.style.transform = `translateX(${translateX}%)`;
+    
+    // Update thumbnail highlight
+    thumbs.forEach(function(t) { t.classList.remove('selected-thumb'); });
+    thumbs[index].classList.add('selected-thumb');
+  }
+
+  function startAutoSlide() {
+    timer = setInterval(function() {
+      currentIndex = (currentIndex + 1) % totalImages;
+      slideToIndex(currentIndex);
+    }, autoSlideDelay);
+  }
+
+  // Set up thumbnail click handlers
   thumbs.forEach(function(thumb) {
     thumb.addEventListener('click', function() {
-      // Remove 'thumb-' prefix from the thumbnail src to get main image src
-      var thumbSrc = this.src;
-      var mainSrc = thumbSrc.replace(/thumb-/, '');
-      mainImg.src = mainSrc;
-      // Highlight selected thumbnail
-      thumbs.forEach(function(t) { t.classList.remove('selected-thumb'); });
-      this.classList.add('selected-thumb');
+      // Clear any running auto-slide interval
+      clearInterval(timer);
+      // Clear any pending restart timeout
+      clearTimeout(restartTimer);
+      
+      currentIndex = parseInt(this.dataset.index);
+      slideToIndex(currentIndex);
+      
+      // Schedule restart of auto-slide after the delay
+      restartTimer = setTimeout(function() {
+        startAutoSlide();
+      }, autoSlideDelay);
     });
   });
+
+  // Start auto-slide immediately
+  startAutoSlide();
 });
 </script>
