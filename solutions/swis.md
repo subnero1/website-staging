@@ -8,6 +8,7 @@ categories: swis
 section_id: solutions
 tabs: swancomponents
 ---
+
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='swan-overlay'></div>
   <div class='large-12 columns'>
@@ -22,13 +23,13 @@ tabs: swancomponents
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns flex-col row-padding-bottom'>
-    <h2 class='centered-text'>On-demand wireless data transfer for ADCP data</h2>
+    <h2 class='centered-text'>Wireless Connectivity for ADCPs</h2>
   </div>
   <div class='large-4 columns flex-col'>
-    <p>Subnero Wireless Integrated Suite (<span class='swan-highlight'>SWIS</span>), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
-    <p>Take a look at how <span class='swan-highlight'>SWIS</span> revolutionizes the deployment of ADCPs.</p>
+    <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
+    <p>Take a look at how SWIS revolutionizes the deployment of ADCPs.</p>
     <div>
-      <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">PURCHASE ENQUIRY</button></a> <a href="https://zc.vg/pkUls" target="_blank" class='centered-text hOXnHC'><button class="button-outline">SIGNUP FOR A DEMO</button></a>
+      {%- include formRequestQuote.html -%}
     </div>
   </div>
   <div class='large-8 columns'>
@@ -43,14 +44,14 @@ tabs: swancomponents
     <div class='large-5 columns'>
       <div class='accordion-container'>
         <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1'>Wireless data transfer</label>
-          <label class="accordion-label" id='accordion-label-2' >Seamless user experience</label>
-          <label class="accordion-label" id='accordion-label-3' >Overall cost savings</label>
+          <label class="accordion-label hover-active" id='accordion-label-1'>Wireless Data Transfer</label>
+          <label class="accordion-label" id='accordion-label-2' >Seamless User Experience</label>
+          <label class="accordion-label" id='accordion-label-3' >Overall Cost Savings</label>
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
-                <li>Subnero <a target="_blank" href='{{site.baseurl}}/products/modem'>WNC</a> devices providing high performance acoustic links.</li>
-                <li>Near real-time data availability with smart previews.</li>
+                <li>Subnero <a target="_blank" href='{{site.baseurl}}/products/wnc'>WNC</a> series products offering high performance acoustic links.</li>
+                <li>On-demand and on-scheduler data availability.</li>
               </ul>
             </div>
             <div class='content-2'>
@@ -184,9 +185,9 @@ tabs: swancomponents
     <div class='large-4 columns flex-col row-width row-padding-bottom'>
       <div class='section-sub-heading'>
         <i class='fa fa-lg fa-wifi'></i>
-        <h2>Smart Profiles</h2>
+        <h2>Performant Links</h2>
       </div>
-      <p class='auto-margin'>Best wireless communication performance in a given environment using communication profiles.</p>
+      <p class='auto-margin'>Adaptive communication ensuring optimal wireless performance in dynamic underwater conditions.</p>
     </div>
   </div>
   <div class='row-padding-bottom'></div>
