@@ -1,47 +1,69 @@
-<div class='contain-to-grid sticky'>
-  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
-    <ul class='title-area'>
-      <li class='name'>
-        <h1>
-          <a href='{{site.baseurl}}/'>
-            <img class="subnero-logo" alt="Subnero" src="{{site.baseurl}}/images/subnero_logo_small.png" />
-          </a>
-        </h1>
-      </li>
-      <li class='toggle-topbar menu-icon'>
-        <a href='#'>Menu</a>
-      </li>
-    </ul>
-    <section class='top-bar-section'>
-      <ul class="right">
-        {% for item in site.data.nav %}
-          {% if item.section_id == page.section_id %}
-            {% assign active_class = "active" %}
-          {% else %}
-            {% assign active_class = "" %}
-          {% endif %}
-
-          {% if item.submenu %}
-          <li class="has-dropdown {{ active_class }}" >
-            <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-            {% if item.submenu %}
-            <ul class="submenu {{ item.section_id }}">
-              {% if item.section_id == "products" %}
-              <li><a href="{{ site.baseurl}}/{{ item.path }}">All Products</a></li>
-              {% endif %}
-            {% for entry in item.submenu %}
-              <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
-            {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
-          {% else %}
-          <li class="{{active_class}}">
-            <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-          </li>
+<section id="header" class="page-header">
+  <nav class="nav-container">
+    <h1 class="logo">
+      <a href='{{site.baseurl}}/'>
+        <img class="subnero-logo" alt="Subnero" src="{{site.baseurl}}/images/subnero-logo.svg" />
+      </a>
+    </h1>
+    <ul class="nav-links" id="nav-links">
+      {% for item in site.data.nav %}
+        {% if item.section_id == page.section_id %}
+          {% assign active_class = "active" %}
+        {% else %}
+          {% assign active_class = "" %}
         {% endif %}
+
+        {% if item.submenu %}
+        <li class="has-dropdown {{ active_class }}" >
+          <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+          {% if item.submenu %}
+          <ul class="submenu {{ item.section_id }}">
+            {% if item.section_id == "products" %}
+            <li><a href="{{ site.baseurl}}/{{ item.path }}">All Products</a></li>
+            {% endif %}
+          {% for entry in item.submenu %}
+            <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
           {% endfor %}
-      </ul>
-    </section>
+          </ul>
+          {% endif %}
+        </li>
+        {% else %}
+        <li class="{{active_class}}">
+          <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+        </li>
+      {% endif %}
+        {% endfor %}
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </nav>
-</div>
+</section>
+<script>
+  // Shrink on scroll
+  window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+      } else {
+          header.classList.remove('scrolled');
+      }
+  });
+
+  // Mobile menu toggle
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+  });
+
+  // Close mobile menu on link click
+  navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+      });
+  });
+</script>

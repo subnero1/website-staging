@@ -80,12 +80,12 @@ layout: default
         </header>
         <div class="main">
           <!-- content - WNC-S40HSS4X -->
-          <div class="main modal-content-item" data-product="wnc-m25mss4x">
+          <div class="main modal-content-item" data-product="wnc-s40hss4x">
             <h2>Standalone Configuration (SC)</h2>
             <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
           </div>
           <!-- content - WNC-S40HSO4X -->
-          <div class="main modal-content-item" data-product="wnc-m25mso4x">
+          <div class="main modal-content-item" data-product="wnc-s40hso4x">
             <h2>Open Configuration (OC)</h2>
             <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
           </div>
