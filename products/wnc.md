@@ -7,12 +7,13 @@ excerpt: Subnero Wireless Networked Communications series of products comprising
 categories: wnc
 section_id: products
 ---
+
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='swan-overlay'></div>
   <div class='large-12 columns'>
     <div class='banner-heading'>
       <h1 class='banner-text'>
-        Subnero <span class='orange'>W</span>ireless <span class='orange'>N</span>etworked <span class='orange'>C</span>ommunications (WNC)
+        <span class='orange'>W</span>ireless <span class='orange'>N</span>etworked <span class='orange'>C</span>ommunications (WNC)
       </h1>
       <h2 class='banner-sub-heading'>Product Series</h2>
     </div>
@@ -21,10 +22,10 @@ section_id: products
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns flex-col row-padding-bottom'>
-    <h2 class='centered-text'>Powered by UnetStack4, the Software-Defined Network Stack for Underwater Applications.</h2>
+    <h2 class='centered-text'>Powered by UnetStack, the Software-Defined Network Stack for Underwater Applications.</h2>
   </div>
   <div class='large-4 columns flex-col'>
-    <p>The Gen4X series of Subnero's acoustic smart modems redefines undersea communications. Built on a foundation of enhanced performance, compact form factor, and rich feature set, Gen4X series equips your systems with smarter, more efficient acoustic links — whether for scientific research, industrial, or defense uses.</p>
+    <p>The Gen4X series of Subnero's acoustic smart modems redefines undersea communications. Built on a foundation of enhanced performance, compact form factor, and rich feature set, the Gen4X series equips your deployments with smarter, more efficient acoustic links — whether for scientific research, offshore energy, marine & subsea, or defense applications.</p>
     <div class="wnc-btns">
       <a href="{{site.baseurl}}/products/gen4x/" class='button form-button hOXnHC'>View Products</a>
       {%- include formRequestQuote.html -%}
@@ -48,29 +49,29 @@ section_id: products
     <div class='large-5 columns'>
       <div class='accordion-container'>
         <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1'>Best in-class performance</label>
-          <label class="accordion-label" id='accordion-label-2' >Software-Defined Design</label>
+          <label class="accordion-label hover-active" id='accordion-label-1'>Exceptional Underwater Performance</label>
+          <label class="accordion-label" id='accordion-label-2' >Built for Real-World Applications</label>
           <label class="accordion-label" id='accordion-label-3' >Advanced Networking Features</label>
           <div class="accordion-content">
             <div class='content-1'>
               <ul>
                 <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S40H series).</li>
                 <li>More than <span class='orange'>10 km</span> range in challenging conditions (L12L series).</li>
-                <li>Robust performance with communication profiles and link tuning.</li>
+                <li>Optimized link reliability through adaptive communication profiles and tuning.</li>
               </ul>
             </div>
             <div class='content-2'>
               <ul>
-                <li>Offering unprecedented flexibility and cross-layer integration using <a href="https://unetstack.net/" target="_blank">UnetStack</a>.</li>
-                <li>Support for multiple computer language APIs and web-based dashboards.</li>
-                <li>Data analysis, scientific programming & machine learning ready.</li>
+                <li>Configurable for applications such as AUV/USV communication, data harvesting, and asset monitoring.</li>
+                <li>Supports diverse mission needs — from short-term tests to long-term autonomous deployments.</li>
+                <li>Seamlessly integrates with existing systems through standard interfaces and APIs.</li>
               </ul>
             </div>
             <div class='content-3'>
               <ul>
-                <li>Fully functional network stack out-of-the-box.</li>
-                <li>Multi-hop links, routing protocols and remote control.</li>
-                <li>Support for mesh and centralized networks (e.g. cellular like).</li>
+                <li>Fully functional network stack with support for multi-hop and mesh architectures.</li>
+                <li>Built-in routing, scheduling, and remote management capabilities.</li>
+                <li>Compatible with centralized and distributed underwater network topologies.</li>
               </ul>
             </div>
           </div>
@@ -116,7 +117,7 @@ section_id: products
 <!-- Applications -->
 <div class='bg-grey'>
   <div class='row'>
-    <h1 class='section-heading'>Applications</h1>
+    <h1 class='section-heading'>Powering the Connected Ocean</h1>
   </div>
   {% include tabbed-columns.html content=site.data.wnc-tabs type="features" %}
 </div>
@@ -128,7 +129,7 @@ section_id: products
       <div class="feature-card bands">
         <header>
           <h3>Bands</h3>
-          <p>Available in different frequency bands for various applications.</p>
+          <p>Available in multiple frequency bands to suit different underwater communication needs.</p>
         </header>
         <div class="feature-content">
           <div class="card-row">
@@ -137,8 +138,7 @@ section_id: products
               <span>Series</span>
             </div>
             <div class="content">
-              <h4>For long range communications</h4>
-              <p>Low Frequency Smart Modems</p>
+              <p>Optimized for long-range communication in challenging shallow-water environments.</p>
             </div>
           </div>
           <div class="card-row">
@@ -147,8 +147,7 @@ section_id: products
               <span>Series</span>
             </div>
             <div class="content">
-              <h4>For the best overall performance</h4>
-              <p>Medium Frequency Smart Modems</p>
+              <p>The best all-round option, balancing range, data rate, and reliability across diverse missions.</p>
             </div>
           </div>
           <div class="card-row">
@@ -157,8 +156,7 @@ section_id: products
               <span>Series</span>
             </div>
             <div class="content">
-              <h4>For high bandwidth data transfer</h4>
-              <p>Hight Frequency Smart Modems</p>
+              <p>Designed for high-bandwidth data transfer, such as image, and large payload communication.</p>
             </div>
           </div>
         </div>
@@ -166,7 +164,7 @@ section_id: products
       <div class="feature-card editions">
         <header>
           <h3>Editions</h3>
-          <p>Available in various editions: platinum, silver, research.</p>
+          <p>Available in different editions tailored for specific use cases and operational requirements.</p>
         </header>
         <div class="feature-content">
           <div class="card-row">
@@ -175,7 +173,7 @@ section_id: products
             </div>
             <div class="content">
               <h4>Platinum Edition</h4>
-              <p>Delivering the best performance under harsh conditions.</p>
+              <p>Rugged and MIL-qualified, built for the toughest environments and mission-critical operations.</p>
             </div>
           </div>
           <div class="card-row">
@@ -184,7 +182,7 @@ section_id: products
             </div>
             <div class="content">
               <h4>Silver Edition</h4>
-              <p>Delivering the best performance under harsh conditions.</p>
+              <p>High-performance and reliable, ideal for commercial and scientific deployments.</p>
             </div>
           </div>
           <div class="card-row">
@@ -193,7 +191,7 @@ section_id: products
             </div>
             <div class="content">
               <h4>Research Edition</h4>
-              <p>Ideal for confined water deployments.</p>
+              <p>Cost-effective and flexible, ideal for confined water testing and experimentation.</p>
             </div>
           </div>
         </div>
@@ -201,7 +199,7 @@ section_id: products
       <div class="feature-card configuration">
         <header>
           <h3>Configurations</h3>
-          <p>Available in various configurations for specific deployment scenarios.</p>
+          <p>Offered in multiple configurations to match deployment scenarios and integration needs.</p>
         </header>
         <div class="feature-content">
           <div class="card-row">
@@ -210,7 +208,7 @@ section_id: products
             </div>
             <div class="content">
               <h4>Standalone</h4>
-              <p>For deployment at depth with pressure housing.</p>
+              <p>Pressure-rated housing for independent deployment at depth.</p>
             </div>
           </div>
           <div class="card-row">
@@ -218,8 +216,8 @@ section_id: products
               <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-oem.png" />
             </div>
             <div class="content">
-              <h4>OEM</h4>
-              <p>Designed for integration with larger platforms. Eg. AUVs'.</p>
+              <h4>Open</h4>
+              <p>Designed for integration with larger platforms such as AUVs, ROVs, and sensor systems.</p>
             </div>
           </div>
           <div class="card-row">
@@ -227,8 +225,8 @@ section_id: products
               <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-multi-channel.png" />
             </div>
             <div class="content">
-              <h4>Multi-channel</h4>
-              <p>Improved performance with additional receiving channels.</p>
+              <h4>Multi-receiver</h4>
+              <p>Delivers enhanced accuracy and performance using multiple synchronized receivers.</p>
             </div>
           </div>
         </div>
