@@ -117,7 +117,7 @@ layout: default
       </div>
       <div class="large-8 columns">
         <h3>Technical Specification</h3>
-        <table>
+        <table class="specification-table">
           <caption>Communication</caption>
           <thead>
             <tr>
@@ -144,7 +144,7 @@ layout: default
             </tr>
           </tbody>
         </table>
-        <table>
+        <table class="specification-table">
           <caption>Software</caption>
           <thead>
             <tr>
@@ -167,7 +167,7 @@ layout: default
             </tr>
           </tbody>
         </table>
-        <table>
+        <table class="specification-table">
           <caption>Electrical</caption>
           <thead>
             <tr>
@@ -207,7 +207,7 @@ layout: default
             </tr>
           </tbody>
         </table>
-        <table>
+        <table class="specification-table">
           <caption>Mechanical</caption>
           <thead>
             <tr>

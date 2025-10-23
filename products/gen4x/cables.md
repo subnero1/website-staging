@@ -22,7 +22,7 @@ layout: default
         <h1>Subsea Cables</h1>
         <p>A range of cable types and lengths are available to support diverse deployment requirements. Standard cables provide power and Ethernet connectivity, while optional versions add interfaces such as RS232, External Interrupt or PPS, sensor power control directly from the modem and ADCPs. Contact us to discuss custom cable options tailored to your deployment needs.</p>
         <h3>Specifications</h3>
-        <table>
+        <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>

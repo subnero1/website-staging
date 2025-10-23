@@ -50,7 +50,7 @@ layout: default
       </div>
       <div class="large-8 columns">
         <h3>Technical Specification</h3>
-        <table>
+        <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>

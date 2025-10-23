@@ -22,7 +22,7 @@ layout: default
         <h1>Hull Options</h1>
         <p>All Gen4X modems support multiple hull material and depth-rating options to suit a wide range of subsea applications, providing flexibility for deployments across shallow, mid, and deep-water environments.</p>
         <h3>Specifications</h3>
-        <table>
+        <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>

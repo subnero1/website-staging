@@ -14,7 +14,7 @@ layout: default
         <h1>Storage</h1>
         <p>All Gen4X modems are expandable to 1 TB storage for data-intensive deployments. This makes them ideal for applications that demand extensive data logging, such as passive acoustic monitoring, marine mammal research, or multi-receiver acoustic data collection for post-processing and analysis.</p>
         <h3>Specifications</h3>
-        <table>
+        <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>

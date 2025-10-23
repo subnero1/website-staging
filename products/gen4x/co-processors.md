@@ -22,7 +22,7 @@ layout: default
         <h1>Co-processor</h1>
         <p>The Co-Processor option adds a powerful embedded computing platform directly alongside the Subnero modem, enabling users to deploy their own applications and algorithms with minimal latency. Designed for close hardware integration, it allows advanced processing, data management, and custom software execution within the modem — without the need for additional subsea computers or loggers.</p>
         <h3>Specifications</h3>
-        <table>
+        <table class="specification-table">
           <thead>
             <tr>
               <th>Feature</th>
