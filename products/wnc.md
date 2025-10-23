@@ -35,9 +35,6 @@ section_id: products
   </div>
   <div class='large-8 columns'>
   <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/Gen4WNC-video-thumbnail.jpg"/>
-    <!-- <div class="flex-video swan-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/a6HHxP9pEzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div> -->
   </div>
 </div>
 <div class='bg-grey'>
@@ -81,7 +78,7 @@ section_id: products
   </div>
 </div>
 {%- include hover-display.html -%}
-<!-- Industries -->
+
 <div class='bg-white'>
   <div class='row row-padding-bottom'>
     <h1 class='section-heading'>Industries</h1>
@@ -114,7 +111,9 @@ section_id: products
   </div>
   <div class='row-padding-bottom'></div>
 </div>
-<!-- Applications -->
+
+{%- include formCTA.html -%}
+
 <div class='bg-grey'>
   <div class='row'>
     <h1 class='section-heading'>Powering the Connected Ocean</h1>
@@ -122,7 +121,6 @@ section_id: products
   {% include tabbed-columns.html content=site.data.wnc-tabs type="features" %}
 </div>
 
-<!-- Editions and Configurations  -->
   <section class="product-features" style="background-image: url({{site.baseurl}}/images/wnc-bg02.jpg);">
     <h2 class="feature-h2 text-center">Frequency Bands, Editions and Configurations</h2>
     <div class="feature-row">
@@ -233,7 +231,7 @@ section_id: products
       </div>
     </div>
   </section>
-<!-- Brochures -->
+
 {%- include radio-select.html -%}
 <div class='bg-grey'>
   <div class='row row-padding-bottom'>

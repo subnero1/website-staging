@@ -83,12 +83,9 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
         <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
         <h4>Features</h4>
         <ul>
-          <li>Data Summarization</li>
-          <li>Fault Detection</li>
-          <li>Smart Scheduling</li>
-          <li>Remote Control</li>
-          <li>Fault Tolerance</li>
-          <li>Smart Profiles</li>
+          <li>Wireless Data Transfer</li>
+          <li>Seamless User Experience</li>
+          <li>Cost Efficiency</li>
         </ul>
         <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Read More &#8594;</a></p>
       </div>
