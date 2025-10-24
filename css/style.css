@@ -6189,9 +6189,11 @@ body:has(dialog[open]) { overflow: hidden; }
   border-left-color: #FC8230;
 }
 .bquote p {
+  color: #000;
+}
+.bquote p.quote {
   position: relative;
   text-indent: 24px;
-  color: #000;
 }
 .bquote sup {
   font-size: 4rem;

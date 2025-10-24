@@ -76,7 +76,7 @@ date: 2025-10-20
     </ul>
     <h2>Perspectives</h2>
     <blockquote class="bquote">
-      <p><sup>&ldquo;</sup> The Aquanaut represents the future of subsea robotics, and Subnero’s modems are a critical enabler of our vision. These tests proved that reliable underwater communication can be achieved at ultra deep-water operational depths, giving us the confidence to expand autonomous operations globally.</p>
+      <p class="quote"><sup>&ldquo;</sup> The Aquanaut represents the future of subsea robotics, and Subnero’s modems are a critical enabler of our vision. These tests proved that reliable underwater communication can be achieved at ultra deep-water operational depths, giving us the confidence to expand autonomous operations globally.</p>
       <div class="author">
         <div class="photo"><img src="{{site.baseurl}}/images/john-gibson.jpg" alt="John Gibson" /></div>
         <div class="name">
@@ -86,7 +86,7 @@ date: 2025-10-20
       </div>
     </blockquote>
     <blockquote class="bquote">
-      <p><sup>&ldquo;</sup> We are proud to see Subnero modems perform beyond expectations in deep-water Gulf of Mexico tests. This demonstrates our mission to provide underwater communication solutions that work everywhere — from shallow tropical waters to deep offshore fields.</p>
+      <p class="quote"><sup>&ldquo;</sup> We are proud to see Subnero modems perform beyond expectations in deep-water Gulf of Mexico tests. This demonstrates our mission to provide underwater communication solutions that work everywhere — from shallow tropical waters to deep offshore fields.</p>
       <div class="author">
         <div class="photo"><img src="{{site.baseurl}}/images/manu-ignatius.jpg" alt="Manu Ignatius" /></div>
         <div class="name">
