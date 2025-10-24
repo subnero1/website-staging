@@ -6157,14 +6157,13 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .story-section figure {
   margin: 0;
+  text-align: center;
 }
 .story-section figcaption {
   padding-top: 6px;
-  text-align: center;
   color: #007A8C;
 }
 .list-styled {
-  /* padding: 2rem; */
   background-color: #fff;
 }
 .list-styled > div {
@@ -6240,6 +6239,10 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .clear-float {
   clear: both;
+}
+.float-img {
+  float: right;
+  margin-left: 3rem;
 }
 @media (min-width: 1593px){
   .media.product{
@@ -6913,7 +6916,8 @@ body:has(dialog[open]) { overflow: hidden; }
   .help-content {
     padding: 1rem;
   }
-  .download-pdf {
+  .download-pdf,
+  .float-img {
     float: none;
     margin: 0 auto 1.4rem;
   }

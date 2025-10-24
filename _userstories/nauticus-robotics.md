@@ -63,6 +63,11 @@ date: 2025-10-20
       </div>
     </div>
     <h2>Conclusion</h2>
+    <figure class="float-img">
+      <img
+        src="{{site.baseurl}}/images/user-story-modems.jpg" alt="Subnero Modems" />
+      <figcaption>Subnero Modems</figcaption>
+    </figure>
     <p>The Gulf of Mexico tests show that Subnero modems:</p>
     <ul class="list-normal">
       <li>Deliver consistent performance in deep-water conditions in addition to proven shallow water performance.</li>
