@@ -16,15 +16,25 @@ date: 2025-10-20
   </section>
   <section class="story-section">
     <h2>Overview</h2>
-    <p>Subnero modems are designed to excel in the challenging conditions of tropical shallow waters, where dynamic environments and high noise levels often limit performance. However, thanks to their <b>adaptable architecture and advanced algorithms,</b> Subnero modems deliver equally strong results across diverse environments worldwide.</p>
-    <p>This article highlights deep-water tests in the Gulf of Mexico conducted by <a href="https://nauticusrobotics.com/" target="blank" title="Nauticus Robotics">Nauticus Robotics</a>, a close collaborator and customer of Subnero, to evaluate modem performance during missions at <b>depths of more than 2000 meters</b> in vertical channels.</p>
-    <h2>Objectives</h2>
+    <div class="download-pdf">
+      <img src="{{site.baseurl}}/images/deployment-spotlight-cover.jpg" />
+      <div class="pdf-link"><a href="{{site.baseurl}}/brochures/deployment-spotlight1.pdf" target="_blank" alt="Deployment spotlight"><i class="icon-download"></i> Download PDF</a></div>
+    </div>
+    <p>Subnero modems are designed to excel in the challenging conditions of tropical shallow waters, where dynamic environments and high noise levels often limit performance. However, thanks to their adaptable architecture and advanced algorithms, Subnero modems deliver equally strong results across diverse environments worldwide.</p>
+    <p>This article highlights deep-water tests in the Gulf of Mexico conducted by Nauticus Robotics, a close collaborator and customer of Subnero, to evaluate modem performance during missions at depths of more than 2000 meters in vertical channels.</p>
+    <h2 class="clear-float">Objectives</h2>
     <p>The primary goal was to validate reliable communications between a mothership-deployed topside modem and a subsea modem mounted on the Aquanaut robot during deep-water operations.</p>
     <ul class="list-normal">
       <li>The test measured communication performance at ranges of more than 2000 m in a vertical channel.</li>
       <li>Subnero’s deep-rated acoustic modems were selected for their robust design and advanced software capabilities.</li>
       <li>To establish consistency, tests were performed first with an ROV (where both nodes were accessible) and then replicated with the Aquanaut over two separate days.</li>
     </ul>
+    <figure>
+      <img
+        src="{{site.baseurl}}/images/nauticus-aquanaut.jpg" alt="Aquanaut robot" />
+      <figcaption>Aquanaut robot</figcaption>
+    </figure>
+    <img  />
     <h2>Test Procedure</h2>
     <ol class="list-normal">
       <li>The topside modem was lowered from the mothership into the water column.</li>
@@ -61,7 +71,7 @@ date: 2025-10-20
     </ul>
     <h2>Perspectives</h2>
     <blockquote class="bquote">
-      <p>The Aquanaut represents the future of subsea robotics, and Subnero’s modems are a critical enabler of our vision. These tests proved that reliable underwater communication can be achieved at ultra deep-water operational depths, giving us the confidence to expand autonomous operations globally.</p>
+      <p><sup>&ldquo;</sup> The Aquanaut represents the future of subsea robotics, and Subnero’s modems are a critical enabler of our vision. These tests proved that reliable underwater communication can be achieved at ultra deep-water operational depths, giving us the confidence to expand autonomous operations globally.</p>
       <div class="author">
         <div class="photo"><img src="{{site.baseurl}}/images/john-gibson.jpg" alt="John Gibson" /></div>
         <div class="name">
@@ -71,7 +81,7 @@ date: 2025-10-20
       </div>
     </blockquote>
     <blockquote class="bquote">
-      <p>We are proud to see Subnero modems perform beyond expectations in deep-water Gulf of Mexico tests. This demonstrates our mission to provide underwater communication solutions that work everywhere — from shallow tropical waters to deep offshore fields.</p>
+      <p><sup>&ldquo;</sup> We are proud to see Subnero modems perform beyond expectations in deep-water Gulf of Mexico tests. This demonstrates our mission to provide underwater communication solutions that work everywhere — from shallow tropical waters to deep offshore fields.</p>
       <div class="author">
         <div class="photo"><img src="{{site.baseurl}}/images/manu-ignatius.jpg" alt="Manu Ignatius" /></div>
         <div class="name">
