@@ -5,7 +5,7 @@ L12L:
   type: LONG-RANGE ACOUSTIC SMART MODEMS
   details: Long-range, acoustic communication for persistent presence.
   description: The LF band provides long-range acoustic communication, ideal for persistent monitoring, subsea networks, and vehicle tracking in challenging environments.
-  image: /images/gen4x/cover-l12l.png
+  image: /images/gen4x/LF-preview.png
   current_link: /products/gen4x/l12lsilver.html
   products:
     - name: Reliable and customizable for commercial use.
@@ -21,20 +21,20 @@ M25M:
   type: VERSATILE ACOUSTIC SMART MODEMS
   details: Versatile connectivity for diverse set of applications.
   description: The MF band balances data rate and range, offering robust and flexible connectivity for general-purpose oceanographic, industrial, and research applications.
-  image: /images/gen4x/cover-m25m.png
+  image: /images/gen4x/MF-preview.png
   current_link: /products/gen4x/M25M
   products:
     - name: Reliable and customizable for commercial use.
       edition: Silver
-      image: /images/gen4x/preview-WNC-M25MSS4X.png
+      image: /images/gen4x/M25M-silver-preview.png
       link: /products/gen4x/m25msilver.html
     - name: Affordable and flexible for research and testing.
       edition: Research
-      image: /images/gen4x/preview-S1000-N.png
+      image: /images/gen4x/S1000-N-preview.png
       link: /products/gen4x/m25mresearch.html
     - name: Rugged and high-performance for demanding missions.
       edition: Platinum
-      image: /images/gen4x/preview-WNC-M25MPS3.png
+      image: /images/gen4x/M25M-platinum-preview.png
       link: /products/gen4x/m25mplatinum.html
 
 S40H:
@@ -44,7 +44,7 @@ S40H:
   type: HIGH-SPEED ACOUSTIC SMART MODEMS
   details: High-speed connectivity for data-intensive underwater applications.
   description: The HF band delivers high-speed, short-range acoustic links ideal for transferring large datasets, images, and real-time sensor information in underwater IoT and robotic systems.
-  image: /images/gen4x/cover-s40h.png
+  image: /images/gen4x/HF-preview.png
   current_link: /products/gen4x/s40hsilver.html
   products:
     - name: Reliable and customizable for commercial use.
@@ -57,26 +57,26 @@ accessories:
   title: Accessories & Optional Upgrades
   details: Expand functionality with modular accessories and upgrades.
   description: A comprehensive range of accessories — including co-processors, sensors, storage, hull options, and cables — to enhance performance and integration flexibility.
-  image: /images/gen4x/cover-accessories.png
+  image: /images/gen4x/gen4x-preview.png
   current_link: /products/gen4x/accessories
   products:
     - name: Co-processor
       edition: Silver
       gen: Gen4X
-      image: /images/gen4x/preview-coprocessor.png
+      image: /images/gen4x/coprocessor-preview.png
       link: /products/gen4x/co-processors.html
     - name: Storage
       edition: Silver
       gen: Gen4X
-      image: /images/gen4x/preview-storage.png
+      image: /images/gen4x/storage-preview.png
       link: /products/gen4x/storage.html
     - name: Hull Options
       edition: Silver
       gen: Gen4X
-      image: /images/gen4x/preview-hull.png
+      image: /images/gen4x/hull-preview.png
       link: /products/gen4x/hull-options.html
     - name: Cables
       edition: Silver
       gen: Gen4X
-      image: /images/gen4x/preview-cables.png
+      image: /images/gen4x/cable-preview.png
       link: /products/gen4x/cables.html

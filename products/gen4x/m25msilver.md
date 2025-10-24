@@ -10,17 +10,17 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/m25m-silver-01.jpg" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/m25m-silver-02.jpg" alt="Product Image 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/m25m-silver-03.jpg" alt="Product Image 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/m25m-silver-04.jpg" alt="Product Image 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-01.png" alt="Product Image 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-02.png" alt="Product Image 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-03.png" alt="Product Image 3">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-04.png" alt="Product Image 4">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-01.jpg" alt="Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-02.jpg" alt="Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-03.jpg" alt="Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/thumb-m25m-silver-04.jpg" alt="Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-01.png" alt="Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-02.png" alt="Thumbnail 2">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-03.png" alt="Thumbnail 3">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-04.png" alt="Thumbnail 4">
           </div>
         </div>
         <!-- ./slider -->
@@ -62,7 +62,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/key-img.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-03.png" />
       </div>
     </div>
   </section>
@@ -78,7 +78,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x">
         <h2>WNC-M25MSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25MSS4X-preview.png">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
@@ -86,7 +86,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mso4x">
         <h2>WNC-M25MSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSO4X.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25MSO4X-preview.png">
         </div>
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
@@ -94,7 +94,7 @@ layout: default
       <a class="product-card multi" href="{{site.baseurl}}/products/gen4x/multi-receiver.html" target="_blank" data-product="wnc-m25mss4x-rx">
         <h2>WNC-M25MSS4X-2</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-M25MSS4X-Rx.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25MSS4X-Rx-preview.png">
         </div>
         <h3>Multi-receiver<br />Configuration</h3>
         <p>Designed to enhance performance through multiple synchronized receivers.</p>

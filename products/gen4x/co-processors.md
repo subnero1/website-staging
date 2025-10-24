@@ -17,10 +17,10 @@ layout: default
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/thumb-coprocessor-01.png" alt="Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/thumb-coprocessor-02.png" alt="Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/thumb-coprocessor-03.png" alt="Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/thumb-coprocessor-04.png" alt="Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/coprocessor-thumb-01.png" alt="Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/coprocessor-thumb-02.png" alt="Thumbnail 2">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/coprocessor-thumb-03.png" alt="Thumbnail 3">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/coprocessor-thumb-04.png" alt="Thumbnail 4">
           </div>
         </div>
         <!-- ./slider -->

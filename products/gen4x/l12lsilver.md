@@ -5,7 +5,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/WNC-L12LHSO4X-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-01.png" />
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
@@ -44,7 +44,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/WNC-L12LHSO4X-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-02.png" />
       </div>
     </div>
   </section>
@@ -60,15 +60,15 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lss4x">
         <h2>WNC-L12LSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-L12LSS4X.png">
+          <img src="{{site.baseurl}}/images/gen4x/L12LSS4X-preview.png">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or supply.</p>
       </a>
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lhso4x">
-        <h2>WNC-L12LSO4X</h2>
+        <h2>WNC-L12LHSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/preview-WNC-L12LHSO4X.png">
+          <img src="{{site.baseurl}}/images/gen4x/L12LHSO4X-preview.png">
         </div>
         <h3>Open <br />Configuration</h3>
         <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>

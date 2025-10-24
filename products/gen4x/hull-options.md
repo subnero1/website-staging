@@ -6,15 +6,24 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
+        <!-- slider -->
         <div class="product-images">
-          <img id="main-img" class="product-img" src="{{site.baseurl}}/images/gen4x/hull-01.png">
+          <div class="main-slider">
+            <div class="slider-track">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/hull-01.png" alt="Product Image 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/hull-02.png" alt="Product Image 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/hull-03.png" alt="Product Image 3">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/hull-04.png" alt="Product Image 4">
+            </div>
+          </div>
           <div class="thumbs">
-            <img class="selected-thumb" src="{{site.baseurl}}/images/gen4x/thumb-hull-01.png">
-            <img src="{{site.baseurl}}/images/gen4x/thumb-hull-02.png">
-            <img src="{{site.baseurl}}/images/gen4x/thumb-hull-03.png">
-            <img src="{{site.baseurl}}/images/gen4x/thumb-hull-04.png">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/hull-thumb-01.png" alt="Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/hull-thumb-02.png" alt="Thumbnail 2">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/hull-thumb-03.png" alt="Thumbnail 3">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/hull-thumb-04.png" alt="Thumbnail 4">
           </div>
         </div>
+        <!-- ./slider -->
       </div>
       <div class="large-7 columns">
         <div class="card-tag gen4x">Gen4x</div>
