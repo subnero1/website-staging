@@ -112,7 +112,9 @@ section_id: products
   <div class='row-padding-bottom'></div>
 </div>
 
-{%- include formCTA.html -%}
+  <section class="call-to-action category-container">
+    {%- include formCTA.html -%}
+  </section>
 
 <div class='bg-grey'>
   <div class='row'>
@@ -132,28 +134,28 @@ section_id: products
         <div class="feature-content">
           <div class="card-row">
             <div class="img-col">
-              <span class="h-text">L12L</span>
-              <span>Series</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 9.938v4.124m3.7-7.217v10.31m3.7-13.918v17.526m3.7-13.631v9.736m3.7-7.302v4.868m3.7-3.465v2.062"/></svg>
             </div>
             <div class="content">
+              <h5>L12L Series</h5>
               <p>Optimized for long-range communication in challenging shallow-water environments.</p>
             </div>
           </div>
           <div class="card-row">
             <div class="img-col">
-              <span class="h-text">M25M</span>
-              <span>Series</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 9.938v4.124m3.7-7.217v10.31m3.7-13.918v17.526m3.7-13.631v9.736m3.7-7.302v4.868m3.7-3.465v2.062"/></svg>
             </div>
             <div class="content">
+              <h5>M25M Series</h5>
               <p>The best all-round option, balancing range, data rate, and reliability across diverse missions.</p>
             </div>
           </div>
           <div class="card-row">
             <div class="img-col">
-              <span class="h-text">S40H</span>
-              <span>Series</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 9.938v4.124m3.7-7.217v10.31m3.7-13.918v17.526m3.7-13.631v9.736m3.7-7.302v4.868m3.7-3.465v2.062"/></svg>
             </div>
             <div class="content">
+              <h5>S40H Series</h5>
               <p>Designed for high-bandwidth data transfer, such as image, and large payload communication.</p>
             </div>
           </div>
@@ -170,7 +172,7 @@ section_id: products
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><path fill="currentColor" d="M19 11a7.5 7.5 0 0 1-3.5 5.94L10 20l-5.5-3.06A7.5 7.5 0 0 1 1 11V3c3.38 0 6.5-1.12 9-3c2.5 1.89 5.62 3 9 3zm-9 1.08l2.92 2.04l-1.03-3.41l2.84-2.15l-3.56-.08L10 5.12L8.83 8.48l-3.56.08L8.1 10.7l-1.03 3.4L10 12.09z"/></svg>
             </div>
             <div class="content">
-              <h4>Platinum Edition</h4>
+              <h5>Platinum Edition</h5>
               <p>Rugged and MIL-qualified, built for the toughest environments and mission-critical operations.</p>
             </div>
           </div>
@@ -179,7 +181,7 @@ section_id: products
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20v-2h14v2zm0-3.5L3.725 8.475q-.05 0-.113.013T3.5 8.5q-.625 0-1.062-.438T2 7t.438-1.062T3.5 5.5t1.063.438T5 7q0 .175-.038.325t-.087.275L8 9l3.125-4.275q-.275-.2-.45-.525t-.175-.7q0-.625.438-1.063T12 2t1.063.438T13.5 3.5q0 .375-.175.7t-.45.525L16 9l3.125-1.4q-.05-.125-.088-.275T19 7q0-.625.438-1.063T20.5 5.5t1.063.438T22 7t-.437 1.063T20.5 8.5q-.05 0-.112-.012t-.113-.013L19 16.5z"/></svg>
             </div>
             <div class="content">
-              <h4>Silver Edition</h4>
+              <h5>Silver Edition</h5>
               <p>High-performance and reliable, ideal for commercial and scientific deployments.</p>
             </div>
           </div>
@@ -188,7 +190,7 @@ section_id: products
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M9 17q-.425 0-.712-.288T8 16t.288-.712T9 15h1q.425 0 .713.288T11 16t-.288.713T10 17zm-1 5q-2.075 0-3.537-1.463T3 17V8q-.825 0-1.412-.587T1 6V4q0-.825.588-1.412T3 2h10q.825 0 1.413.588T15 4v2q0 .825-.587 1.413T13 8v3q0 .825-.587 1.413T11 13H9q-.425 0-.712-.288T8 12t.288-.712T9 11h2V8H5v9q0 1.25.875 2.125T8 20q.45 0 .863-.125t.762-.35q.325-.2.7-.1t.575.45q.225.35.125.762t-.45.638q-.575.35-1.212.538T8 22m8.5-3q1.05 0 1.775-.725T19 16.5t-.725-1.775T16.5 14t-1.775.725T14 16.5t.725 1.775T16.5 19m0 2q-1.875 0-3.187-1.312T12 16.5t1.313-3.187T16.5 12t3.188 1.313T21 16.5q0 .65-.175 1.25T20.3 18.9l2 2q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-2-2q-.55.35-1.15.525T16.5 21"/></svg>
             </div>
             <div class="content">
-              <h4>Research Edition</h4>
+              <h5>Research Edition</h5>
               <p>Cost-effective and flexible, ideal for confined water testing and experimentation.</p>
             </div>
           </div>
@@ -205,7 +207,7 @@ section_id: products
               <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-standalone.png" />
             </div>
             <div class="content">
-              <h4>Standalone</h4>
+              <h5>Standalone</h5>
               <p>Pressure-rated housing for independent deployment at depth.</p>
             </div>
           </div>
@@ -214,7 +216,7 @@ section_id: products
               <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-oem.png" />
             </div>
             <div class="content">
-              <h4>Open</h4>
+              <h5>Open</h5>
               <p>Designed for integration with larger platforms such as AUVs, ROVs, and sensor systems.</p>
             </div>
           </div>
@@ -223,7 +225,7 @@ section_id: products
               <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-multi-channel.png" />
             </div>
             <div class="content">
-              <h4>Multi-receiver</h4>
+              <h5>Multi-receiver</h5>
               <p>Delivers enhanced accuracy and performance using multiple synchronized receivers.</p>
             </div>
           </div>

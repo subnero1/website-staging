@@ -6001,16 +6001,18 @@ body:has(dialog[open]) { overflow: hidden; }
 
 /* features */
 .product-features {
-  padding: 5rem 1rem;
+  padding: 0px 0 3rem;
   background-size: cover;
 }
 .product-features .feature-h2 {
-  color: #000;
-  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  color: #fff;
+  margin-bottom: 3rem;
+  background-color: rgb(9 76 84 / 44%);
 }
 .feature-row {
   width: 100%;
-  max-width: 84rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 1rem;
   display: grid;
@@ -6023,29 +6025,42 @@ body:has(dialog[open]) { overflow: hidden; }
   overflow: hidden;
 }
 .feature-card header {
-  padding: 1.4rem 1.4rem 1rem;
+  padding: 1.4rem 1.8rem 1rem;
   background-color: #F7F9FF;
+}
+.feature-card.bands header {
+  background-color: #5468C1;
+}
+.feature-card.editions header {
+  background-color: #009fb3;
+}
+.feature-card.configuration header {
+  background-color: #d9a130;
 }
 .feature-card header p {
   margin: 0;
-  color: #000;
-  line-height: 1.4;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.3;
 }
 .feature-card header h3 {
-  font-size: 2rem;
-  margin: 0 0 6px;
-  color: #FC8230;
+  font-size: 1.8rem;
+  line-height: 1;
+  margin: 0 0 4px;
+  text-transform: none;
+  color: #fff;
 }
 .feature-content {
-  padding: 1.4rem 1.4rem 2rem;
+  padding: 1.4rem 1.8rem;
 }
 .card-row {
   display: flex;
   align-items: flex-start;
   gap: 10px;
+  padding: 1.3rem 0;
 }
 .card-row + .card-row {
-  margin-top: 2rem;
+  border-top: 1px solid #e2e2e2;
 
 }
 .card-row .img-col {
@@ -6053,26 +6068,20 @@ body:has(dialog[open]) { overflow: hidden; }
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  width: 82px;
-  height: 68px;
-  font-size: .9rem;
-  text-align: center;
-  color: #fff;
-  background-color: #FC8230;
-  border-radius: 4px;
+  width: 50px;
 }
 .card-row .img-col svg {
-  width: 40px;
+  width: 32px;
   height: auto;
+  color: #FC8230;
 }
 .card-row .img-col img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.editions .card-row .img-col {
-  background-color: oklch(71.5% 0.143 215.221);
+.configuration .card-row .img-col {
+  align-self: center;
 }
 .configuration .card-row .img-col {
   background-color: #fff;
@@ -6086,9 +6095,27 @@ body:has(dialog[open]) { overflow: hidden; }
   letter-spacing: normal;
   color: #007A8C;
 }
+.card-row .content h5 {
+  color: #3c56c7;
+  margin: 0 0 8px;
+  text-transform: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+}
+.bands .card-row .content h5 {
+  color: #3c56c7;
+}
+.editions .card-row .content h5 {
+  color: #009fb3;
+}
+.configuration .card-row .content h5 {
+  color: #ce8800;
+}
 .card-row .content p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.2;
   margin: 0;
   color: #000;
 }
