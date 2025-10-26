@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "TAG: news"
+title: "TAG: research"
 banner : images/banner-pulse.jpg
-tag: news
+tag: research
 ---

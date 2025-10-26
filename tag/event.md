@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "TAG: sensors"
+title: "TAG: event"
 banner : images/banner-pulse.jpg
-tag: sensors
+tag: event
 ---

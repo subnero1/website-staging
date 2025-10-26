@@ -1,7 +1,7 @@
 ---
 layout: post
-category: news
 title: 10 overlooked Asia tech stories from 2014
+categories: press
 external_url: https://www.techinasia.com/10-overlooked-asia-tech-stories-2014/
 source : https://www.techinasia.com/
 thumbnail: images/pulse-thumbnail-book.jpg

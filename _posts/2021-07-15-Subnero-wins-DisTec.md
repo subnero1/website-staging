@@ -3,7 +3,7 @@ layout: post
 title: Subnero wins DisTec Undersea Challenge
 banner : images/banner-pulse-standard.jpg
 date:  2021-07-15
-categories: news wnc
+categories: event press
 thumbnail: images/pulse-thumbnail-distec.jpeg
 ---
 

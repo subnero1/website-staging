@@ -3,7 +3,7 @@ layout: post
 title: Subnero Launches the Fourth Generation Wireless Networked Communication (WNC) Series of Underwater Acoustic Modems
 banner : images/banner-pulse-standard.jpg
 date:  2023-03-27
-categories: wnc
+categories: product-launch press
 thumbnail: images/pulse-thumbnail-gen4.png
 ---
 

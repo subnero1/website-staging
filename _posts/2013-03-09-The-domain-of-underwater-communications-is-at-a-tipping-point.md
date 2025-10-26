@@ -3,9 +3,7 @@ layout: post
 title: Underwater networking technology featured in The Economist
 banner : images/banner-pulse-articles3.jpg
 date:  2013-03-09
-categories:
-- wnc
-- media
+categories: press
 thumbnail: images/pulse-thumbnail-economist.png
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Making Waves Overseas
 banner : images/banner-careers.jpg
 date:  2023-08-02
-categories: wnc
+categories: corporate partnership
 thumbnail: images/pulse-thumbnail-overseas.jpg
 ---
 

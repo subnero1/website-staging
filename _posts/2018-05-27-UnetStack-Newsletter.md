@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - May 2018
 banner : images/banner-pulse-articles3.jpg
 date:  2018-05-27
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
 

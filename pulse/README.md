@@ -23,7 +23,7 @@ thumbnail: images/pulse-thumbnail-smartsea.jpg
 
     - There should be no spaces before the dashes and there should be one space after the colon.
     - The `title` and `date` are shown below the image for each post in the pulse page.
-    - The `categories` section is to link the relevant tags to the post. Currently, we have `media`, `news`, `newsletter`, `sauvc`, `sensors`, `wnc` and `wqm`. If there are multiple categories, the values should be separated with space such as `news wnc`.
+    - The `categories` section is to link the relevant tags to the post. Currently, we have `case-study`, `corporate`, `event`, `feature`, `partnership`, `press`, `product-launch`, `research`, swis` and `unetstack`. If there are multiple categories, the values should be separated with space such as `news wnc`.
     - The `thumbnail` is the image of the post in the https://subnero.com/pulse/. The thumbnail image has of dimension 250 x 250 px and to be added in the `images` folder and named as `pulse-thumbnail-<name of the image>.jpg`
     - The 'banner' is the image of the post in the top of the page in the pulse post. The banner image should be added in the  `images` folder and named as `banner-pulse-<name of the image>.jpg`.
     - It would be good to have images in the post. The image needs to be added in the `images` folder and named as `pulse-<name of the image>.jpg`. The image can be added in the post as shown below.

@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - September 2018
 banner : images/banner-pulse-articles4.jpg
 date:  2018-09-28
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/boxart-unet.jpg
 ---
 

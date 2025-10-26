@@ -3,7 +3,7 @@ layout: post
 title: Subnero and Nauticus Robotics Collaborate for Underwater Communication Technology Testing
 banner : images/banner-pulse-standard.jpg
 date:  2022-11-05
-categories: wnc
+categories: partnership case-study
 thumbnail: images/pulse-thumbnail-nauticus-visit.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: New business partner for Subnero in Portugal
 banner : images/banner-pulse-standard.jpg
 date:  2021-10-19
-categories: news wnc
+categories: partnership
 thumbnail: images/pulse-vortice.jpg
 ---
 

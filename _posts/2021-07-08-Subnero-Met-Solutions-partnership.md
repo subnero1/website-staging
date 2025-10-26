@@ -3,7 +3,7 @@ layout: post
 title: New business partner for Subnero in Republic of Korea
 banner : images/banner-pulse-standard.jpg
 date:  2021-07-08
-categories: news wnc
+categories: partnership
 thumbnail: images/pulse-met.jpg
 ---
 

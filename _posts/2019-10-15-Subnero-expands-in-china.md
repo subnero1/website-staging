@@ -3,7 +3,7 @@ layout: post
 title: Subnero expands in China
 banner : images/banner-pulse-standard.jpg
 date:  2019-10-15
-categories: wnc
+categories: partnership
 thumbnail: images/pulse-smartsea.jpg
 ---
 

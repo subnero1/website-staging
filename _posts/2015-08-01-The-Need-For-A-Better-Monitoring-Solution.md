@@ -3,9 +3,7 @@ layout: post
 title: The need for a better monitoring solution
 banner : images/banner-pulse-swan.jpg
 date:  2015-08-01
-categories:
-- wqm
-- media
+categories: press
 thumbnail: images/boxart-swan.jpg
 ---
 

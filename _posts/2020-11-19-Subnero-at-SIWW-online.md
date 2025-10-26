@@ -3,7 +3,7 @@ layout: post
 title: Subnero attends SIWW online
 banner : images/banner-pulse-standard.jpg
 date:  2020-11-19
-categories: swan
+categories: event
 thumbnail: images/pulse-thumbnail-siww-online.png
 ---
 

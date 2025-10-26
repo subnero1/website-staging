@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - October 2013
 banner : images/banner-pulse-unet.jpg
 date:  2013-10-26
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/boxart-unet.jpg
 ---
 

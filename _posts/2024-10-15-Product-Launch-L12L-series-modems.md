@@ -3,7 +3,7 @@ layout: post
 title: New Product Launch - Subnero Long Range Acoustic Smart Modems
 banner: images/banner-pulse-lf.jpg
 date:  2024-10-5
-categories: wnc news
+categories: product-launch press
 thumbnail: images/pulse-thumbnail-lf.jpg
 ---
 

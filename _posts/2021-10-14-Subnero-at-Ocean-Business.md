@@ -3,7 +3,7 @@ layout: post
 title: Subnero at Ocean Business 2021
 banner : images/banner-pulse-standard.jpg
 date:  2021-10-14
-categories: wnc news
+categories: event
 thumbnail: images/pulse-thumbnail-ocean-business-2021.jpg
 ---
 

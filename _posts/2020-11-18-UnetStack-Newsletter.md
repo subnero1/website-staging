@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - November 2020
 banner : images/banner-about.jpg
 date:  2020-11-18
-categories:
-- newsletter
-- media
+categories: unetstack, press
 thumbnail: images/boxart-unet.jpg
 ---
 ## Unetstack v3.2 release & latest blogs

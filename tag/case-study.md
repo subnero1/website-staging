@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "TAG: newsletter"
+title: "TAG: case-study"
 banner : images/banner-pulse.jpg
-tag: newsletter
+tag: case-study
 ---

@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - April 2020
 banner : images/banner-about.jpg
 date:  2020-04-08
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/boxart-unet.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Subnero at iOceans 2019, Sanya
 banner : images/banner-pulse-standard.jpg
 date:  2019-10-29
-categories: wnc
+categories: event partnership
 thumbnail: images/pulse-thumbnail-smartsea-team.jpg
 ---
 

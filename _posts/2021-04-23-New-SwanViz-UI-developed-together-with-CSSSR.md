@@ -3,7 +3,7 @@ layout: post
 title: New SwanViz UI developed together with CSSSR
 banner : images/banner-pulse-standard.jpg
 date:  2021-04-23
-categories: swan
+categories: feature
 thumbnail: images/pulse-thumbnail-swan-ASEAN-post.jpg
 ---
 

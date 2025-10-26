@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - June 2019
 banner : images/banner-pulse-articles4.jpg
 date:  2019-06-11
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/boxart-unet.jpg
 ---
 

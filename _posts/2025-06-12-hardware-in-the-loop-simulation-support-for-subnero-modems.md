@@ -3,7 +3,7 @@ layout: post
 title: Hardware-in-the-Loop Simulation Support for Subnero Modems
 banner: images/banner-vao.jpg
 date:  2025-06-12
-categories: wnc news
+categories: feature product-launch press
 thumbnail: images/pulse-thumbnail-vao.jpg
 ---
 

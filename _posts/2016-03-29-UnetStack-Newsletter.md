@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - March 2016
 banner : images/banner-pulse-articles2.jpg
 date:  2016-03-29
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue2.jpg
 ---
 

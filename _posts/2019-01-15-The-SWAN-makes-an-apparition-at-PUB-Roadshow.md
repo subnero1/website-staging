@@ -3,7 +3,7 @@ layout: post
 title: SWAN at PUB roadshow
 banner : images/banner-pulse-standard.jpg
 date:  2019-01-15
-categories: wqm
+categories: event
 thumbnail: images/pulse-thumbnail-swan-roadshow.jpg
 ---
 
