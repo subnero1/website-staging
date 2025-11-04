@@ -47,7 +47,7 @@ layout: default
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-gallery-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-storage-feature.png" />
       </div>
     </div>
   </section>

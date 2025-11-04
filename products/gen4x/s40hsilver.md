@@ -5,7 +5,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-hero-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" />
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
@@ -42,7 +42,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-feature.png" />
       </div>
     </div>
   </section>

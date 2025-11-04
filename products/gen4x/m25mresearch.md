@@ -6,7 +6,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-research-hero-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-research-gallery-01.png" />
       </div>
       <div class="large-7 columns">
           <div class="card-tag platinum">Research Edition</div>
@@ -14,7 +14,7 @@ layout: default
         <h1>S1000-N</h1>
         <h2>20 - 30 KHz</h2>
         <p>The Research Edition modem offers an affordable and compact platform for researchers, developers, and educators exploring underwater communication and networking. Powered by UnetStack, it bridges the gap between simulation and field experimentation — enabling users to design, test, and deploy underwater networks with real-world results.</p>
-        {%- include formContactUs.html is_contact=true -%}
+        {%- include formContactUs.html -%}
       </div>
     </div>
   </section>
@@ -34,7 +34,7 @@ layout: default
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-research-gallery-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-research-feature.png" />
       </div>
     </div>
   </section>

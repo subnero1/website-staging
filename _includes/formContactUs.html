@@ -1,16 +1,10 @@
 <div class="contact-query">
-  <button class="form-button" id="openContact">
-    {% if include.is_contact %}
-      <span>Contact us</span>
-    {% else %}
-      <span>Write to us</span>
-    {% endif %}
-  </button>
+  <button class="form-button" id="openContact{{ include.suffix | default: '' }}">Contact us</button>
 </div>
 <!-- Modal -->
-<dialog id="contactModal" class="modal-dialog">
+<dialog id="contactModal{{ include.suffix | default: '' }}" class="modal-dialog">
   <div class="modal-content">
-    <header><button class="modal-close" type="button" id="closeContact" title="close">&times;</button></header>
+    <header><button class="modal-close" type="button" id="closeContact{{ include.suffix | default: '' }}" title="close">&times;</button></header>
     <div class="main">
       <script defer src='https://subnero.myfreshworks.com/crm/sales/web_forms/2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5/form.js' crossorigin='anonymous' id='fs_2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5'></script>
     </div>
@@ -19,25 +13,26 @@
 </dialog>
 
 <script>
-const contactModal = document.getElementById('contactModal');
-const openContact = document.getElementById('openContact');
-const closeContact = document.getElementById('closeContact');
+(function() {
+  let suffix = '{{ include.suffix | default: "" }}';
+  const contactModal = document.getElementById('contactModal' + suffix);
+  const openContact = document.getElementById('openContact' + suffix);
+  const closeContact = document.getElementById('closeContact' + suffix);
 
-// Open the modal
-openContact.addEventListener('click', () => {
+  // Open the modal
+  openContact.addEventListener('click', () => {
     contactModal.showModal();
-});
+  });
 
-// Close the modal
-closeContact.addEventListener('click', () => {
+  // Close the modal
+  closeContact.addEventListener('click', () => {
     contactModal.close();
-});
+  });
 
-document.addEventListener('keydown', (event) => {
+  document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && contactModal.open) {
         contactModal.close();
     }
-});
-
+  });
+})();
 </script>
-

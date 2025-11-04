@@ -10,8 +10,8 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-hero-01.png" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="Product Image 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="Product Image 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-02.png" alt="Product Image 2">
             </div>
           </div>
           <div class="thumbs">
@@ -48,7 +48,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-feature.png" />
       </div>
     </div>
   </section>
