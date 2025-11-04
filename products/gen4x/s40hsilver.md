@@ -5,7 +5,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-hero-01.png" />
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
@@ -42,7 +42,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" />
       </div>
     </div>
   </section>
@@ -58,7 +58,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-s40hss4x">
         <h2>WNC-S40HSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/S40HSS4X-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/S40H-silver-sc-preview.png">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
@@ -66,7 +66,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-s40hso4x">
         <h2>WNC-S40HSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/S40HSO4X-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/S40H-silver-oc-preview.png">
         </div>
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>

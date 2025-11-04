@@ -10,8 +10,8 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-01.png" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-02.png" alt="Product Image 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-hero-01.png" alt="Product Image 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="Product Image 2">
             </div>
           </div>
           <div class="thumbs">
@@ -48,7 +48,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" />
       </div>
     </div>
   </section>
@@ -65,7 +65,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mps3">
         <h2>WNC-M25MPS3</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25MPS3-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-sc-preview.png">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
@@ -73,7 +73,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mpe3">
         <h2>WNC-M25MPE3</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25MPE3-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-ec-preview.png">
         </div>
         <h3>Embedded<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>

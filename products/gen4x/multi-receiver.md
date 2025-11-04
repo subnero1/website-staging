@@ -5,7 +5,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25MSS4X-Rx-preview.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-preview.png" />
       </div>
       <div class="large-7 columns">
         <h1>Multi-receiver Configuration</h1>
@@ -33,7 +33,7 @@ layout: default
         <p>Providing high precision three dimensional positioning and tracking underwater.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25MSS4X-preview.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" />
       </div>
     </div>
   </section>

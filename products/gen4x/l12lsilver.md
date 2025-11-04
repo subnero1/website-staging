@@ -1,11 +1,25 @@
 ---
 layout: default
 ---
+
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-01.png" />
+        <!-- slider -->
+        <div class="product-images">
+          <div class="main-slider">
+            <div class="slider-track">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-hero-01.png" alt="Product Image 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" alt="Product Image 2">
+            </div>
+          </div>
+          <div class="thumbs">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/L12L-silver-hero-01.png" alt="Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" alt="Thumbnail 2">
+          </div>
+        </div>
+        <!-- ./slider -->
       </div>
       <div class="large-7 columns">
         <div class="card-tags">
@@ -44,7 +58,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" />
       </div>
     </div>
   </section>
@@ -60,7 +74,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lss4x">
         <h2>WNC-L12LSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/L12LSS4X-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/L12L-silver-sc-preview.png">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or supply.</p>
@@ -68,7 +82,7 @@ layout: default
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lhso4x">
         <h2>WNC-L12LHSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/L12LHSO4X-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/L12L-silver-oc-preview.png">
         </div>
         <h3>Open <br />Configuration</h3>
         <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>

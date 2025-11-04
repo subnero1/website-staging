@@ -6,7 +6,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S1000-N-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-research-hero-01.png" />
       </div>
       <div class="large-7 columns">
           <div class="card-tag platinum">Research Edition</div>
@@ -34,7 +34,7 @@ layout: default
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S1000-N-02.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-research-gallery-01.png" />
       </div>
     </div>
   </section>
