@@ -1,11 +1,29 @@
 ---
 layout: default
 ---
+
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" />
+        <!-- slider -->
+        <div class="product-images">
+          <div class="main-slider">
+            <div class="slider-track">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" alt="Product Image 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-02.png" alt="Product Image 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-03.png" alt="Product Image 3">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-04.png" alt="Product Image 4">
+            </div>
+          </div>
+          <div class="thumbs">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-01.png" alt="Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-02.png" alt="Thumbnail 2">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="Thumbnail 3">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="Thumbnail 4">
+          </div>
+        </div>
+        <!-- ./slider -->
       </div>
       <div class="large-7 columns">
         <div class="card-tags">

@@ -1,0 +1,97 @@
+# Gen4x Image Rename Mapping
+# Format: OLD_NAME -> NEW_NAME
+
+# Series Cover Images (Band previews)
+HF-preview.png -> gen4x-band-hf-cover.png
+MF-preview.png -> gen4x-band-mf-cover.png
+LF-preview.png -> gen4x-band-lf-cover.png
+
+# Overview Images
+gen4x-preview.png -> gen4x-overview-hero.png
+legacy-preview.png -> gen4x-legacy-cover.png
+
+# L12L Series (LF Band) - Silver Edition
+L12L-silver-01.png -> L12L-silver-hero-01.png
+L12L-silver-02.png -> L12L-silver-gallery-01.png
+
+# L12L Configuration Images
+L12LSS4X-preview.png -> L12L-silver-sc-preview.png
+L12LHSO4X-preview.png -> L12L-silver-oc-preview.png
+
+# M25M Series - Silver Edition
+M25M-silver-01.png -> M25M-silver-hero-01.png
+M25M-silver-02.png -> M25M-silver-gallery-01.png
+M25M-silver-03.png -> M25M-silver-gallery-02.png
+M25M-silver-04.png -> M25M-silver-gallery-03.png
+M25M-silver-preview.png -> M25M-silver-preview.png
+M25M-silver-thumb-01.png -> M25M-silver-thumb-01.png
+M25M-silver-thumb-02.png -> M25M-silver-thumb-02.png
+M25M-silver-thumb-03.png -> M25M-silver-thumb-03.png
+M25M-silver-thumb-04.png -> M25M-silver-thumb-04.png
+
+# M25M Silver Configuration Images
+M25MSS4X-preview.png -> M25M-silver-sc-preview.png
+M25MSO4X-preview.png -> M25M-silver-oc-preview.png
+M25MSS4X-Rx-preview.png -> M25M-silver-mr-preview.png
+
+# M25M Series - Platinum Edition
+M25M-platinum-01.png -> M25M-platinum-hero-01.png
+M25M-platinum-02.png -> M25M-platinum-gallery-01.png
+M25M-platinum-preview.png -> M25M-platinum-preview.png
+M25M-platinum-thumb-01.png -> M25M-platinum-thumb-01.png
+M25M-platinum-thumb-02.png -> M25M-platinum-thumb-02.png
+
+# M25M Platinum Configuration Images
+M25MPS3-preview.png -> M25M-platinum-sc-preview.png
+M25MPE3-preview.png -> M25M-platinum-ec-preview.png
+
+# M25M Series - Research Edition
+S1000-N-01.png -> M25M-research-hero-01.png
+S1000-N-02.png -> M25M-research-gallery-01.png
+S1000-N-preview.png -> M25M-research-sc-preview.png
+
+# S40H Series - Silver Edition
+S40H-silver-01.png -> S40H-silver-hero-01.png
+S40H-silver-02.png -> S40H-silver-gallery-01.png
+
+# S40H Silver Configuration Images
+S40HSS4X-preview.png -> S40H-silver-sc-preview.png
+S40HSO4X-preview.png -> S40H-silver-oc-preview.png
+
+# Accessories - Co-processor
+coprocessor-01.png -> accessories-coprocessor-gallery-01.png
+coprocessor-02.png -> accessories-coprocessor-gallery-02.png
+coprocessor-03.png -> accessories-coprocessor-gallery-03.png
+coprocessor-04.png -> accessories-coprocessor-gallery-04.png
+coprocessor-preview.png -> accessories-coprocessor-preview.png
+coprocessor-thumb-01.png -> accessories-coprocessor-thumb-01.png
+coprocessor-thumb-02.png -> accessories-coprocessor-thumb-02.png
+coprocessor-thumb-03.png -> accessories-coprocessor-thumb-03.png
+coprocessor-thumb-04.png -> accessories-coprocessor-thumb-04.png
+
+# Accessories - Storage
+storage-01.png -> accessories-storage-gallery-01.png
+storage-02.png -> accessories-storage-gallery-02.png
+storage-preview.png -> accessories-storage-preview.png
+
+# Accessories - Hull Options
+hull-01.png -> accessories-hull-gallery-01.png
+hull-02.png -> accessories-hull-gallery-02.png
+hull-03.png -> accessories-hull-gallery-03.png
+hull-04.png -> accessories-hull-gallery-04.png
+hull-preview.png -> accessories-hull-preview.png
+hull-thumb-01.png -> accessories-hull-thumb-01.png
+hull-thumb-02.png -> accessories-hull-thumb-02.png
+hull-thumb-03.png -> accessories-hull-thumb-03.png
+hull-thumb-04.png -> accessories-hull-thumb-04.png
+
+# Accessories - Cables
+cable-01.png -> accessories-cables-gallery-01.png
+cable-02.png -> accessories-cables-gallery-02.png
+cable-03.png -> accessories-cables-gallery-03.png
+cable-04.png -> accessories-cables-gallery-04.png
+cable-preview.png -> accessories-cables-preview.png
+cable-thumb-01.png -> accessories-cables-thumb-01.png
+cable-thumb-02.png -> accessories-cables-thumb-02.png
+cable-thumb-03.png -> accessories-cables-thumb-03.png
+cable-thumb-04.png -> accessories-cables-thumb-04.png
