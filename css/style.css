@@ -5623,6 +5623,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 .call-to-action.category-container {
   background-color: #FFEFE4;
+  padding: 3rem;
 }
 .cta {
   width: 100%;
@@ -6956,6 +6957,16 @@ body:has(dialog[open]) { overflow: hidden; }
   .flex-row h1 {
     font-size: 2.2rem;
   }
+  .call-to-action.category-container {
+    padding: 1rem;
+  }
+  .cta {
+    flex-direction: column;
+  }
+  .cta p {
+    text-align: center;
+  }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px){
