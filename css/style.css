@@ -4869,7 +4869,7 @@ div.tab-columns input:nth-child(5):checked ~ .tab-panels div.tab-panel:nth-child
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding: 3em 0;
+  /* padding: 3em 0; */
 }
 
 .category-row{
@@ -5444,7 +5444,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .card-tag.hf {
   background-color: #70813b;
 }
-.card-tag.silver {
+.card-tag.silver {₹
   background-color: #ff7b00;
 }
 .card-tag.platinum {
@@ -5523,9 +5523,9 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 /* product-details */
 .product-details {
 }
-.product-details .category-container{
+/* .product-details .category-container{
   padding: 2rem;
-}
+} */
 .product-details h1 {
   color: #FC8230;
   margin: 1rem 0 .4rem;
@@ -6949,6 +6949,12 @@ body:has(dialog[open]) { overflow: hidden; }
   .float-img {
     float: none;
     margin: 0 auto 1.4rem;
+  }
+  .intro p {
+    font-size: 1.2rem;
+  }
+  .flex-row h1 {
+    font-size: 2.2rem;
   }
 }
 

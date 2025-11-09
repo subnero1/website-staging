@@ -19,8 +19,8 @@ layout: default
           <div class="thumbs">
             <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-01.png" alt="Thumbnail 1">
             <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-02.png" alt="Thumbnail 2">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="Thumbnail 3">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="Thumbnail 4">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="Thumbnail 3">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="Thumbnail 4">
           </div>
         </div>
         <!-- ./slider -->
@@ -266,3 +266,4 @@ layout: default
   </div>
 </div>
 {% include ProductDetailsDialog.html %}
+{%- include imageViewer.html -%}
