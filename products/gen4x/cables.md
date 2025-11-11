@@ -29,7 +29,7 @@ layout: default
         <div class="card-tag gen4x">Gen4x</div>
         <div class="card-tag silver">Silver Edition</div>
         <h1>Subsea Cables</h1>
-        <p>A range of cable types and lengths are available to support diverse deployment requirements. Standard cables provide power and Ethernet connectivity, while optional versions add interfaces such as RS232, External Interrupt or PPS, sensor power control directly from the modem and ADCPs. Contact us to discuss custom cable options tailored to your deployment needs.</p>
+        <p>A range of cable types and lengths are available to support diverse deployment requirements. Standard cables provide power and Ethernet connectivity, while optional versions add interfaces such as RS232, external interrupt or PPS, sensor power control directly from the modem. Contact us to discuss custom cable options tailored to your deployment needs.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>
@@ -51,8 +51,8 @@ layout: default
             </tr>
             <tr>
               <td>Additional Cables</td>
-              <td>Subsea battery cables<br />
-              ADCP Integration Cables</td>
+              <td>Subsea battery cables<br/>
+              ADCP integration cables</td>
             </tr>
             <tr>
               <td>Length</td>

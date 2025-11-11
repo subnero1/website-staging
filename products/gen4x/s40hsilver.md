@@ -33,12 +33,12 @@ layout: default
         </div>
         <h1>S40H Series</h1>
         <h2>25 - 50 kHz Band</h2>
-        <p>The Silver Edition S40H modem represents a breakthrough in high-speed underwater acoustic communication. Designed for high-throughput data transfer, it enables applications that were once impractical in the subsea domain — such as wireless camera image transmission, rapid sensor data exchange, and real-time connectivity for marine robotics over short ranges. The S40H serves as the stepping stone toward true high-speed underwater networks, bringing the performance and flexibility of modern digital communication to the ocean environment.</p>
+        <p>The Silver Edition S40H series modem represents a breakthrough in high-speed underwater acoustic communication. Designed for high-throughput data transfer, it enables applications that were once impractical in the subsea domain — such as wireless camera image transmission, rapid sensor data exchange, and real-time connectivity for marine robotics over short ranges. The S40H series serves as a stepping stone toward true high-speed underwater networks, bringing the performance and flexibility of modern digital communication to the ocean environment.</p>
         <h3>Applications</h3>
         <ul>
           <li>Wireless image transfer for inspection and monitoring systems</li>
           <li>High-speed data offload from subsea instruments, AUVs, or sensor arrays</li>
-          <li>Real-time connectivity for marine and subsea robots</li>
+          <li>Near real-time connectivity for marine and subsea robots</li>
           <li>Short-range underwater IoT and testbed networks for research and development</li>
         </ul>
         {%- include formRequestQuote.html -%}

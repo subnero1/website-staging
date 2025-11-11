@@ -29,7 +29,7 @@ layout: default
         <div class="card-tag gen4x">Gen4x</div>
         <div class="card-tag silver">Silver Edition</div>
         <h1>Hull Options</h1>
-        <p>All Gen4X modems support multiple hull material and depth-rating options to suit a wide range of subsea applications, providing flexibility for deployments across shallow, mid, and deep-water environments.</p>
+        <p>All Subnero modems support multiple hull material and depth-rating options to suit a wide range of subsea applications, providing flexibility for deployments across shallow, mid, and deep-water environments.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>
@@ -45,7 +45,7 @@ layout: default
             </tr>
             <tr>
               <td>Depth Ratings</td>
-              <td>300 m, 2000 m, 4000 m, or custom requirements</td>
+              <td>300 m, 2000 m, 4000 m, or custom depth rating</td>
             </tr>
           </tbody>
         </table>

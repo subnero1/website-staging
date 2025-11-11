@@ -32,11 +32,11 @@ layout: default
           <div class="card-tag lf">LF Band</div>
         </div>
         <h1>L12L Series</h1>
-        <p>Designed for reliable long-range communication in shallow waters, Subnero’s Silver Edition L12L modem addresses one of the toughest challenges in underwater acoustics — maintaining robust links over extended distances in complex environments.</p>
+        <p>Designed for reliable long-range communication in shallow waters, Subnero’s Silver Edition L12L series modem addresses one of the toughest challenges in underwater acoustics — maintaining robust links over extended distances in complex environments.</p>
         <p>Built on decades of research and innovation, the L12L series enables dependable data transfer beyond 10 km, unlocking new possibilities for remote monitoring, tracking, telemetry, and control of subsea assets. Engineered for endurance and stability, it supports mission-critical operations across defense, research, and commercial deployments, where long-range connectivity is essential.</p>
         <h3>Applications</h3>
         <ul>
-          <li>Long-range operations in shallow or coastal waters</li>
+          <li>Long-range operations in shallow, mid-range and deep waters</li>
           <li>Long-term seabed or sensor node deployments</li>
           <li>Communication and tracking of AUVs and subsea vehicles</li>
           <li>Coastal area monitoring networks</li>
@@ -84,7 +84,7 @@ layout: default
         <p>Self-contained modem powered by an external battery or supply.</p>
       </a>
       <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lhso4x">
-        <h2>WNC-L12LHSO4X</h2>
+        <h2>WNC-L12LSO4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/L12L-silver-oc-preview.png">
         </div>
