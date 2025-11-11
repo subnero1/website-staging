@@ -94,7 +94,7 @@ layout: default
           <!-- content - WNC-M25MPE3 -->
           <div class="main modal-content-item" data-product="wnc-m25mpe3">
             <h2>Embedded Configuration (OC)</h2>
-            <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
+            <p>The embedded configuration (EC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
           </div>
         </div>
         <div class="footer"></div>
