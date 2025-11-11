@@ -33,7 +33,7 @@ layout: default
         </div>
         <h1>M25M Series</h1>
         <h2>20 - 32 kHz Band</h2>
-        <p>The Silver Edition M25M modem is the dependable workhorse of the Gen4X series, designed for versatility across a wide range of underwater communication applications. Balancing data rate, range, and robustness, it provides a reliable foundation for subsea networks, marine robotics, and sensor platforms. With a software-defined architecture built on UnetStack, it enables easy customization of protocols and algorithms to suit mission-specific requirements.</p>
+        <p>The Silver Edition M25M series modem is the dependable workhorse of the Gen4X series, designed for versatility across a wide range of underwater communication applications. Balancing data rate, range, and robustness, it provides a reliable foundation for subsea networks, marine robotics, and sensor platforms. With a software-defined architecture built on UnetStack, it enables easy customization of protocols and algorithms to suit mission-specific requirements.</p>
         <h3>Applications</h3>
         <ul>
           <li>High-performance, all-rounder modem for oceanographic and commercial deployments</li>
@@ -50,14 +50,14 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Data rates up to 15 kbps* over 4 km in littoral waters.</li>
+          <li>Data rates up to 15 kbps* in shallow tropical conditions.</li>
+          <li>More than 4 km communication range in littoral waters.</li>
           <li>Built-in acoustic ranging with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
           <li>Support for coherent and incoherent communication schemes.</li>
           <li>Arbitrary signal transmission as well as recording (passband, baseband).</li>
           <li>User-defined communication schemes using UnetStack.</li>
-          <li>Support for multiple receiving channels for a variety of applications.</li>
-          <li>Compact and rugged form factor suited for versatile integration</li>
+          <li>Compact and rugged form factor suited for versatile integration.</li>
         </ul>
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
