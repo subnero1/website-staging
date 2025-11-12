@@ -1,13 +1,30 @@
 ---
 layout: default
 ---
+
 <div class="product-details">
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-01.png" />
+        <div class="product-images">
+            <div class="main-slider">
+              <div class="slider-track">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-01.png" alt="Product Image 1">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-02.png" alt="Product Image 2">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-03.png" alt="Product Image 3">
+              </div>
+            </div>
+            <div class="thumbs">
+              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-01.png" alt="Thumbnail 1">
+              <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-02.png" alt="Thumbnail 2">
+              <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-03.png" alt="Thumbnail 3">
+            </div>
+          </div>
       </div>
       <div class="large-7 columns">
+        <div class="card-tags">
+          <div class="card-tag silver">Silver Edition</div>
+        </div>
         <h1>Multi-receiver Configuration</h1>
         <p>Software-defined acoustic smart modems with multiple receiving hydrophones</p>
         <p>Subnero’s multi-receiver configuration of smart modems, provide enhanced performance to the end user by leveraging the additional receiving hydrophones and spatial diversity combining techniques.</p>
@@ -43,8 +60,8 @@ layout: default
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem4.jpg">
-            <span>Subnero M25M Series Underwater Modems</span>
+            <img src="{{site.baseurl}}/brochures/modem5.jpg">
+            <span>Subnero Multi-Receiver Configuration Modems</span>
           </a>
         </div>
       </div>
@@ -68,7 +85,7 @@ layout: default
             </tr>
             <tr>
               <td>Additional sensors (optional)</td>
-              <td>GPS, Compass</td>
+              <td>GPS</td>
             </tr>
             <tr>
               <td>Waveform streaming</td>

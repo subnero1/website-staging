@@ -121,11 +121,11 @@ layout: default
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">
             <img src="{{site.baseurl}}/brochures/modem7.jpg">
-            <span>Subnero S40H Underwater Modems</span>
+            <span>Subnero L12L Series Underwater Modems</span>
           </a>
           <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
             <img src="{{site.baseurl}}/brochures/wnc.jpg">
-            <span>Generation 4 Wireless Networked Communications (WNC), Product Series Brief</span>
+            <span>Wireless Networked Communications (WNC) Product Series Brief</span>
           </a>
         </div>
         <h3>Useful Links</h3>
