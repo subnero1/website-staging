@@ -4,7 +4,7 @@ title: UnetStack Newsletter - April 2021
 banner : images/banner-about.jpg
 date:  2021-04-26
 categories: unetstack press
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 ## Unetstack v3.3 release
 

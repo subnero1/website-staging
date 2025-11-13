@@ -4,10 +4,10 @@ title: Node modem is taking the plunge
 banner : images/banner-pulse-standard.jpg
 date:  2020-03-30
 categories: case-study
-thumbnail: images/pulse-thumbnail-node-modem.jpeg
+thumbnail: images/pulse-thumbnail-node-modem.jpg
 ---
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/pulse-thumbnail-node-modem.jpeg" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/pulse-thumbnail-node-modem.jpg" class='pulse-img'>
 </div>
 
 Our [Silver edition](https://subnero.com/products/silver.html#title) (Node Configuration) modem is taking the plunge in the Mediterranean Sea.

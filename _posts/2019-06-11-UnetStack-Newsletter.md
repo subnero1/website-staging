@@ -4,7 +4,7 @@ title: UnetStack Newsletter - June 2019
 banner : images/banner-pulse-articles4.jpg
 date:  2019-06-11
 categories: unetstack press
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 
 ### Meet us at OCEANS' 19

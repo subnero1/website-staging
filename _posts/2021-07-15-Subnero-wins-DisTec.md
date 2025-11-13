@@ -4,7 +4,7 @@ title: Subnero wins DisTec Undersea Challenge
 banner : images/banner-pulse-standard.jpg
 date:  2021-07-15
 categories: event press
-thumbnail: images/pulse-thumbnail-distec.jpeg
+thumbnail: images/pulse-thumbnail-distec.jpg
 ---
 
 We are delighted to announce that we won the [DisTec Undersea Challenge](https://www.udt-global.com/about-the-challenge){:target="_blank"}.

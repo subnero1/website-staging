@@ -4,7 +4,7 @@ title: UnetStack Newsletter - September 2018
 banner : images/banner-pulse-articles4.jpg
 date:  2018-09-28
 categories: unetstack press
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 
 We are delighted to share the following news updates with you:

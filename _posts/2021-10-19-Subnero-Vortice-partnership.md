@@ -4,7 +4,7 @@ title: New business partner for Subnero in Portugal
 banner : images/banner-pulse-standard.jpg
 date:  2021-10-19
 categories: partnership
-thumbnail: images/pulse-vortice.jpg
+thumbnail: images/pulse-thumbnail-vortice.jpg
 ---
 
 In our quest for expansion throughout Europe, Subnero has appointed [Vortice](https://vortice-lda.pt/){:target="_blank"} as its new business partner in Portugal.

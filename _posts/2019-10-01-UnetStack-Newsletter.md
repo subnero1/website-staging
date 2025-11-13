@@ -4,7 +4,7 @@ title: UnetStack Newsletter - October 2019
 banner : images/banner-pulse-articles4.jpg
 date:  2019-10-01
 categories: unetstack press
-thumbnail: images/boxart-unet.jpg
+thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 
 We are now pleased to announce the release of [UnetStack3](https://unetstack.net/){:target="_blank"}.

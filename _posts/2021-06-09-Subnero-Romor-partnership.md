@@ -4,7 +4,7 @@ title: New business partner for Subnero in Canada
 banner : images/banner-pulse-standard.jpg
 date:  2021-06-09
 categories: partnership
-thumbnail: images/pulse-romor.jpg
+thumbnail: images/pulse-thumbnail-romor.jpg
 ---
 
 Subnero, the leading global provider of underwater wireless communication technology is further expanding its operations, having signed a partnership with [ROMOR Ocean Solutions](https://romor.ca/){:target="_blank"} to support Canadian business growth.
