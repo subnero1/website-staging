@@ -27,6 +27,7 @@ layout: default
         </div>
         <h1>Multi-receiver Configuration</h1>
         <p>Subnero’s multi-receiver configuration enhances communication reliability and performance by combining signals from multiple hydrophones. This approach leverages spatial diversity to improve robustness, extend range, and enable advanced capabilities such as 3D positioning and high-fidelity acoustic sensing. It also provides a strong platform for researchers, offering access to raw multi-channel data for developing and testing custom navigation and tracking algorithms for AUVs.</p>
+        <p>Learn how multi-receiver modems enable robust links and novel research use cases <a href="{{site.baseurl}}/feature/2025/11/13/Improving-Underwater-Communication-with-Multi-Receiver-Modems.html">here</a>.</p>
         <h3>Applications</h3>
         <ul>
           <li>Underwater positioning and tracking research</li>
