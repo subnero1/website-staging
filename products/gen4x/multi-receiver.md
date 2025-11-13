@@ -26,14 +26,13 @@ layout: default
           <div class="card-tag silver">Silver Edition</div>
         </div>
         <h1>Multi-receiver Configuration</h1>
-        <p>Software-defined acoustic smart modems with multiple receiving hydrophones</p>
-        <p>Subnero’s multi-receiver configuration of smart modems, provide enhanced performance to the end user by leveraging the additional receiving hydrophones and spatial diversity combining techniques.</p>
+        <p>Subnero’s multi-receiver configuration enhances communication reliability and performance by combining signals from multiple hydrophones. This approach leverages spatial diversity to improve robustness, extend range, and enable advanced capabilities such as 3D positioning and high-fidelity acoustic sensing. It also provides a strong platform for researchers, offering access to raw multi-channel data for developing and testing custom navigation and tracking algorithms for AUVs.</p>
         <h3>Applications</h3>
         <ul>
+          <li>Underwater positioning and tracking research</li>
+          <li>High-performance subsea communications</li>
           <li>Rapid environmental assessment</li>
-          <li>Underwater IoT</li>
-          <li>Underwater positioning and tracking</li>
-          <li>High-performance accoustic smart modems</li>
+          <li>Underwater IoT networks</li>
         </ul>
       </div>
     </div>
@@ -43,11 +42,14 @@ layout: default
       <div class="large-7 columns">
         <h3>Features</h3>
         <h4>Enhanced communication performance</h4>
-        <p>Utilizing spatial diversity combining techniques to provide unparalleled communication performance even in the most challenging conditions.</p>
-        <h4>One device, multiple application</h4>
-        <p>Fulfilling multiple roles such as high-performance subsea wireless communication device, positioning and navigational aid or a versatile acoustic recorder.</p>
+        <p>Uses spatial diversity combining to maintain strong and reliable links in challenging acoustic environments.</p>
+        <h4>Research-ready signal access</h4>
+        <p>Provides access to raw, multi-channel acoustic data streams, offering an ideal platform for researchers developing custom communication (SIMO), navigation, tracking, and signal-processing algorithms for AUVs.</p>
+        <!-- TODO: Add a link to Roee's user story once ready -->
+        <h4>Flexible device roles</h4>
+        <p>Supports use as a high-performance communication modem, a positioning aid, or a versatile acoustic recorder.</p>
         <h4>3D positioning and tracking</h4>
-        <p>Providing high precision three dimensional positioning and tracking underwater.</p>
+        <p>Enables three-dimensional localization and tracking using multi-hydrophone signal processing.</p>
       </div>
       <div class="large-5 columns">
         <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-feature.png" />
