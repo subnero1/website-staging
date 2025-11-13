@@ -118,3 +118,4 @@ layout: default
     </div>
   </section>
 </div>
+{%- include imageViewer.html -%}
