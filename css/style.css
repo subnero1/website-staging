@@ -7322,9 +7322,6 @@ body:has(dialog[open]) { overflow: hidden; }
 
 @media print {
   @page { margin: 0.8cm 1.6cm 1.4cm 1.6cm ; }
-  .contain-to-grid.sticky {
-    position: relative;
-  }
   .toggle-topbar, .top-bar-section, .print-btn, .hero, .faq-categories, .faq-actions,
   #footer .footer-row, .toggle-label::after {
     display: none;
@@ -7332,7 +7329,7 @@ body:has(dialog[open]) { overflow: hidden; }
   a[href]:after {
     display: none;
     visibility: hidden;
- }
+  }
  .subnero-logo {
   position: absolute;
   top: 20px;

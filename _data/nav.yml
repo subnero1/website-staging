@@ -18,8 +18,8 @@
   path: pulse/
   section_id: pulse
 - name: Resources
-  path: ./#
-  section_id: resources
+  path: support/
+  section_id: support
   submenu:
   - name: Support
     path: /support
