@@ -30,6 +30,7 @@ layout: default
         <div class="card-tag silver">Silver Edition</div>
         <h1>Co-processor</h1>
         <p>The Co-Processor option adds a powerful embedded computing platform directly within the Subnero modem, enabling users to deploy their own applications and algorithms with minimal effort. Designed for close hardware integration, it allows advanced processing, data management, and custom software execution within the modem — without the need for additional casing or mounting.</p>
+        <p>For more background on how this capability is used in practice, you can read our blog post on the co-processor and its applications <a href="{{site.baseurl}}/product-launch/feature/2018/11/17/Underwater-modem-with-a-coprocessor.html">here</a>.</p>
         <h3>Specifications</h3>
         <table class="specification-table">
           <thead>

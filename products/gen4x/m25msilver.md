@@ -120,7 +120,7 @@ layout: default
           <!-- content - WNC-M25MSS4X-Rx -->
           <div class="main modal-content-item" data-product="wnc-m25mss4x-rx">
             <h2>Multi-receiver Configuration (OC)</h2>
-            <p>The multi-receiver configuration (MR) employs several synchronized acoustic channels to process and optimize data transmission in complex underwater environments. By leveraging spatial diversity and advanced signal processing, it delivers enhanced speed, reliability, and link stability even under challenging acoustic conditions. This configuration is ideal for applications requiring high-precision localization, multi-path mitigation, or wide-area coverage, such as subsea tracking arrays, underwater navigation systems, network gateways, and research testbeds where superior communication accuracy and performance are essential.</p>
+            <p>The multi-receiver configuration (MR) employs several synchronized acoustic channels to process and optimize data transmission in complex underwater environments. By leveraging spatial diversity and advanced signal processing, it delivers enhanced speed, reliability, and link stability even under challenging acoustic conditions.</p>
           </div>
         </div>
         <div class="footer"></div>
