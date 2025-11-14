@@ -265,5 +265,5 @@ layout: default
     </div>
   </div>
 </div>
-{% include ProductDetailsDialog.html %}
+{% include productDetailsDialog.html %}
 {%- include imageViewer.html -%}
