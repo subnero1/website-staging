@@ -6270,9 +6270,9 @@ body:has(dialog[open]) { overflow: hidden; }
 .clear-float {
   clear: both;
 }
-.float-img {
+figure.float-img {
   float: right;
-  margin-left: 3rem;
+  margin-left: 1.6rem;
 }
 @media (min-width: 1593px){
   .media.product{
@@ -6947,7 +6947,7 @@ body:has(dialog[open]) { overflow: hidden; }
     padding: 1rem;
   }
   .download-pdf,
-  .float-img {
+  figure.float-img {
     float: none;
     margin: 0 auto 1.4rem;
   }

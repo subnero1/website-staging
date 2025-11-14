@@ -22,7 +22,7 @@ M25M:
   details: Versatile connectivity for diverse set of applications.
   description: The MF band balances data rate and range, offering robust and flexible connectivity for general-purpose oceanographic, industrial, and research applications.
   image: /images/gen4x/gen4x-band-mf-cover.png
-  current_link: /products/gen4x/M25M
+  current_link: /products/gen4x/m25m
   products:
     - name: Reliable and customizable for commercial use.
       edition: Silver

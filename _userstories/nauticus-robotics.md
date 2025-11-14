@@ -18,7 +18,7 @@ date: 2025-10-20
     <h2>Overview</h2>
     <div class="download-pdf">
       <img src="{{site.baseurl}}/images/deployment-spotlight-cover.jpg" />
-      <div class="pdf-link"><a href="{{site.baseurl}}/brochures/deployment-spotlight1.pdf" target="_blank" alt="Deployment spotlight"><i class="icon-download"></i> Download PDF</a></div>
+      <div class="pdf-link"><a href="{{site.baseurl}}/brochures/deployment-spotlight.pdf" target="_blank" alt="Deployment spotlight"><i class="icon-download"></i> Download PDF</a></div>
     </div>
     <p>Subnero modems are designed to excel in the challenging conditions of tropical shallow waters, where dynamic environments and high noise levels often limit performance. However, thanks to their adaptable architecture and advanced algorithms, Subnero modems deliver equally strong results across diverse environments worldwide.</p>
     <p>This article highlights deep-water tests in the Gulf of Mexico conducted by Nauticus Robotics, a close collaborator and customer of Subnero, to evaluate modem performance during missions at depths of more than 2000 meters in vertical channels.</p>
