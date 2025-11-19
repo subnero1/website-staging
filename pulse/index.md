@@ -58,7 +58,7 @@ title_color : "#E6782F"
       <h5 style="text-transform: none;">From <a target="_blank" href="{{post.source}}">{{post.source}}</a> </h5>
       {% else %}
       <p>{{post.excerpt}}</p>
-      <a class="button small" href="{{site.baseurl}}{{post.url}}">Read more</a>
+      <a class="button small" href="{{site.baseurl}}{{post.url}}">Learn More</a>
       {% endif %} -->
     </div>
   </div>

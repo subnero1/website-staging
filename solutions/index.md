@@ -35,7 +35,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
           <li>Offers scalable, multi-node communication networks.</li>
           <li>Proven through field-tested deployments worldwide.</li>
         </ul>
-        <!-- <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Read More &#8594;</a></p> -->
+        <!-- <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Learn More &#8594;</a></p> -->
         {%- include formContactUs.html suffix="_bottom" -%}
       </div>
     </div>

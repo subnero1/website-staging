@@ -10,7 +10,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <div class="hero-text">
         <h1>Wireless Networked Communications (WNC)</h1>
         <p>The WNC product series combines Subnero’s software-defined acoustic smart modems, UnetStack network stack, and Subnero Wireless Integrated Suite (SWIS) into a unified ecosystem for underwater communication, networking, navigation, and monitoring. Built for scalability and performance, it enables reliable subsea connectivity across scientific research, offshore energy, marine & subsea, and defense applications.</p>
-        <p><a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a></p>
+        <p><a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Learn More &#8594;</a></p>
       </div>
   </div>
 </section>
@@ -55,8 +55,8 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     </div>   
     <div class="large-8 columns"> 
       <div class="category-content">
-        <p>The UnetStack framework provides a software-defined foundation for underwater networks — enabling rapid development, simulation and deployment of acoustic communication protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Read More &#8594;</a></p>
-        <p>Explore our whitepaper to learn how our underwater network solutions enhance the effectiveness of underwater communication. <a class="inline-btn" href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf">Read More &#8594;</a></p>
+        <p>The UnetStack framework provides a software-defined foundation for underwater networks — enabling rapid development, simulation and deployment of acoustic communication protocols. <a class="inline-btn" href="{{site.baseurl}}/products/unet">Learn More &#8594;</a></p>
+        <p>Explore our whitepaper to learn how our underwater network solutions enhance the effectiveness of underwater communication. <a class="inline-btn" href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf">Learn More &#8594;</a></p>
       </div>
     </div>
   </div>
@@ -87,7 +87,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
           <li>Seamless User Experience</li>
           <li>Cost Efficiency</li>
         </ul>
-        <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Read More &#8594;</a></p>
+        <p><a class="inline-btn" href="{{site.baseurl}}/solutions/swis">Learn More &#8594;</a></p>
       </div>
     </div>
   </div>

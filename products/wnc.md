@@ -34,7 +34,7 @@ section_id: products
     </div>
   </div>
   <div class='large-8 columns'>
-  <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/Gen4WNC-video-thumbnail.jpg"/>
+  <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg"/>
   </div>
 </div>
 <div class='bg-grey'>
