@@ -244,11 +244,11 @@ layout: default
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>SC: ø 127 x 316 mm, OC: ø 100 x 132 mm</td>
+              <td>SC: ø 100 x 313 mm, OC: ø 88 x 137 mm</td>
             </tr>
             <tr>
               <td>Weight (in air / water)</td>
-              <td>SC: 5.0 / 1.5 kg, OC: 0.8 kg / NA</td>
+              <td>SC: 3.8 / 1.5 kg, OC: 0.65 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

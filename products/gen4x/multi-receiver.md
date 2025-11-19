@@ -88,7 +88,7 @@ layout: default
             </tr>
             <tr>
               <td>Additional sensors (optional)</td>
-              <td>GPS</td>
+              <td>AHRS</td>
             </tr>
             <tr>
               <td>Waveform streaming</td>
@@ -100,16 +100,19 @@ layout: default
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>⌀ 127 ✕ 416 mm</td>
+              <td>
+                ⌀ 100 ✕ 303 mm (excluding hydrophone) <br />
+                ⌀ 100 ✕ 462 mm (including hydrophone) 
+                </td>
             </tr>
             <tr>
               <td>Weight (in air / water)</td>
-              <td>8.0 / 3.0 kg</td>
+              <td>2.2 / 0.9 kg</td>
             </tr>
             <tr>
               <td>Power consumption</td>
               <td>
-                &lt; 7 W (receive mode, nominal) <br />
+                &lt; 4 W (receive mode, nominal) <br />
                 &lt; 45 W (transmit mode, average)
               </td>
             </tr>
