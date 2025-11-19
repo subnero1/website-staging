@@ -7,11 +7,13 @@ categories: product-launch feature
 thumbnail: images/pulse-thumbnail-modems.jpg
 ---
 
-In the world of underwater communications, Subnero’s acoustic modems have long been known for their robust performance. However, with the rapid advancement of research and underwater technologies, there is a growing need for more computational power at the edge, especially for complex algorithms and processing. This is where Subnero’s coprocessor option comes into play.
+In the world of underwater communications, Subnero’s acoustic modems have long been known for their robust performance. Out of the box, they already allow users to run their own logic directly on the device, extending standard communication features into a flexible platform for building novel subsea applications. Using Java-based UnetStack agents and Groovy scripts, users can implement custom behaviours, automate tasks, and develop intelligent underwater workflows—all without any additional hardware.
+
+As underwater operations become more demanding, however, many emerging applications require more processing power than what built-in scripting alone can support. This is where Subnero’s optional coprocessor becomes valuable: a dedicated embedded computer designed for users who need greater computational capability, access to broader software ecosystems, or specialised processing such as machine learning.
 
 ### When Do You Need a Coprocessor?
 
-For many underwater applications, users often find themselves needing to run algorithms or processes directly within the modem, without the need for constant communication with topside systems. This is particularly useful in scenarios where real-time processing is essential, or where acoustic bandwidth is limited.
+While many applications can be handled directly within the modem using built-in scripting, some users find themselves needing more compute, more flexibility, or the ability to use external toolchains and languages. This becomes especially important when applications demand real-time processing, advanced data handling, or when acoustic bandwidth is limited and it becomes more efficient to process data at the edge.
 
 #### 1. **Acoustic Research with Custom Waveforms**
 
@@ -27,7 +29,13 @@ In some applications, the need for efficient data transfer is paramount, but sen
 
 ### How Does Subnero Achieve This?
 
-Subnero’s coprocessor is a powerful computing unit housed within the same pressure-rated hull as the modem itself. This modular, integrated solution gives users the flexibility to run compute-intensive applications at the edge of the network—directly within the modem. The coprocessor allows for seamless integration and provides users with the ability to access it just like a regular Linux computer over a secure shell (ssh). Whether you are running machine learning models, physical layer algorithms, or data analytics, the coprocessor provides the computing power necessary for modern underwater applications.
+Subnero’s coprocessor is a powerful computing unit housed within the same pressure-rated hull as the modem, forming a compact and integrated platform. It runs a full Linux environment, giving users the freedom to:
+* develop in Python, C/C++, or any preferred language
+* install third-party tools, libraries, or frameworks
+* run GPU-accelerated workloads where supported
+* access the system via secure shell (SSH) just like a standard Linux machine
+
+Whether running machine learning models, advanced physical-layer algorithms, custom analytics pipelines, or specialised research tools, the coprocessor provides the computational headroom necessary for modern underwater applications.
 
 ![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.jpg){: .center-image  }
 
