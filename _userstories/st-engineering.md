@@ -1,10 +1,10 @@
 ---
 layout: default
 title: ST Engineering
-sub_title: ''
-excerpt: An underwater network deployed in Singapore’s tropical waters demonstrated seamless communication, handovers, and real-time AUV tracking. This user story highlights how Subnero and ST Engineering UIS are shaping the future of subsea connectivity.
+sub_title: A Connected Ocean – Underwater Cellular Network Demonstrates the Future of Subsea Communications
+excerpt: Underwater networks can now span multiple cells like their terrestrial counterparts, forming a seamless communication and monitoring fabric beneath the surface. This case study shows how the Singapore testbed proved this concept and laid the groundwork for future multi-user underwater networks.
 preview_image: /images/story-st.jpg
-date: 2025-10-21
+date: 2025-11-20
 ---
 
 <div class="user-stories">

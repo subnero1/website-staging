@@ -9,7 +9,7 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
       <div class="large-12 columns">
         <div class="category-content">
           <h1 style="text-transform:uppercase;">User Stories</h1>
-          <h3>Discover how our customers bring underwater connectivity to life</h3>
+          <h3>Discover how our customers bring the Internet of Oceans to life</h3>
         </div>
       </div>
   </div>
@@ -24,7 +24,7 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
         <div class="details">
           <h2>{{ item.sub_title }}</h2>
           <p>{{ item.excerpt }}</p>
-          <p class="read-link">Read &#8594;</p>
+          <p class="read-link">Learn More &#8594;</p>
         </div>
       </a>
       {% endfor %}      
