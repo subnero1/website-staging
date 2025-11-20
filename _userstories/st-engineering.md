@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ST Engineering
-sub_title: Underwater Cellular Network Deployment in Singapore
+sub_title: ''
 excerpt: An underwater network deployed in Singapore’s tropical waters demonstrated seamless communication, handovers, and real-time AUV tracking. This user story highlights how Subnero and ST Engineering UIS are shaping the future of subsea connectivity.
 preview_image: /images/story-st.jpg
 date: 2025-10-21
@@ -11,7 +11,7 @@ date: 2025-10-21
   <section class="sec-hero" style="background-image: url({{site.baseurl}}/images/hero-solutions.jpg);" >
     <div class="hero-content">
       <h4>User Story</h4>
-      <h1>{{ page.sub_title }}</h1>
+      <h1>A Connected Ocean: <br/>Underwater Cellular Network Demonstrates the Future of Subsea Communications</h1>
     </div>
   </section>
   <section class="story-section">
@@ -20,14 +20,20 @@ date: 2025-10-21
       <img src="{{site.baseurl}}/images/case-study-underwater-cellular-network-cover.jpg" />
       <div class="pdf-link"><a href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" target="_blank" alt="Case Study"><i class="icon-download"></i> Download PDF</a></div>
     </div>
-    <p>The need for reliable underwater communication is growing rapidly as the number of subsea assets increases. From autonomous underwater vehicles (AUVs) performing offshore inspections to divers conducting critical missions, continuous communication and tracking are essential for safety, efficiency, and mission success.</p>
-    <p>To address this, Subnero, in collaboration with ST Engineering Unmanned & Integrated Systems (ST UIS), carried out one of the first commercial deployments of underwater networks designed for resource sharing between multiple users from defense, commercial, and research domains, much like the Internet.</p>
-    <h2>Key Goals</h2>
+    <p>The need for seamless underwater communication is growing rapidly as the number of subsea assets increases. From autonomous underwater vehicles (AUVs) performing offshore inspections to divers conducting critical missions, continuous communication and tracking are essential for safety, efficiency, and mission success.</p>
+    <p>To address this, Subnero, in collaboration with ST Engineering Unmanned & Integrated Systems (ST UIS), have successfully deployed one of the world’s first underwater cellular networks in Singapore waters, demonstrating continuous coverage, seamless mobility, multi-user resource sharing, and real-time tracking of subsea assets. This deployment validates the architecture that will form the backbone of the Internet of the Oceans: the next frontier in global connectivity.</p>
+    <h2>Why Underwater Cellular Networks Matter?</h2>
     <ul class="list-normal">
-      <li>Demonstrate the feasibility of underwater cellular networking, adapting terrestrial cellular principles for subsea communication.</li>
-      <li>Enable continuous two-way communication and tracking of subsea assets such as AUVs across multiple coverage zones.</li>
-      <li>Validate multi-user network resource sharing, supporting defense, commercial, and research operations within a unified subsea network.</li>
+      <li>Supports multi-asset missions</li>
+      <li>Enhanced operations; less downtime</li>
+      <li>Enables autonomous subsea fleets</li>
+      <li>Enhances safety for divers and vessels</li>
+      <li>Unlocks persistent subsea IoT</li>
+      <li>Scales like terrestrial networks: add more cells → expand coverage</li>
     </ul>
+    <div class="highlight-text">
+      <p>“Oceans cover 70% of the planet but remain 99% disconnected. Subnero’s mission is to change that &mdash; by building the Internet of the Oceans.”</p>
+    </div>
     <h2>Network Architecture</h2>
     <p>The network test bed was established using navigational buoys equipped with Subnero’s acoustic smart modems, forming subsea base stations. These buoys created overlapping coverage areas, much like cellular towers on land.</p>
     <ul class="list-normal">
@@ -60,7 +66,7 @@ date: 2025-10-21
       </div>
       <div>
         <h4>Scalability</h4>
-        <p>The trial confirmed that by deploying additional base stations, the network could be scaled to cover much larger areas, opening new opportunities for subsea operations.</p>
+        <p>The trial confirmed that by deploying additional base stations, the network could be scaled to cover much larger areas, opening new opportunities for subsea operations toward building the Internet of the Oceans.</p>
       </div>
     </div>
     <h2>Conclusion</h2>
@@ -69,7 +75,7 @@ date: 2025-10-21
         src="{{site.baseurl}}/images/case-study-modems.jpg" alt="Subnero Modems" />
       <figcaption>Subnero Modems</figcaption>
     </figure>
-    <p>The Singapore deployment marks a major milestone in subsea communications, demonstrating one of the first commercial implementations of underwater cellular networking.</p>
+    <p>This deployment clearly shows that underwater networks are now a reality, and can now behave like terrestrial ones. This is the beginning of a connected ocean: where AUVs, sensors, divers, and robots share one unified communication fabric, extending from the surface to the depths.</p>
     <ul class="list-normal">
       <li>Demonstrated that cellular principles can be adapted underwater, enabling continuous communication and tracking of subsea assets.</li>
       <li>Showcased a joint innovation between Subnero and ST UIS, leveraging acoustic modem technology and network intelligence.</li>
