@@ -1,5 +1,5 @@
 - name: Products
-  path: ./#
+  path: products/
   section_id: products
   submenu:
   - name: Smart Modems
