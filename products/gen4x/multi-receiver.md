@@ -19,7 +19,7 @@ layout: default
               <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-01.png" alt="Thumbnail 1">
               <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-02.png" alt="Thumbnail 2">
               <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-03.png" alt="Thumbnail 3">
-              <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-04.png" alt="Thumbnail 4">
+              <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-04.png" alt="Thumbnail 4">
             </div>
           </div>
       </div>
@@ -84,8 +84,8 @@ layout: default
       <div class="large-4 columns">
         <h3>Brochures</h3>
         <div class=brochures>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem5.jpg">
+          <a class="download-file" href="{{site.baseurl}}/brochures/gen4x-MR-Modems.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/gen4x-MR-Modems.jpg">
             <span>Subnero Multi-Receiver Modems</span>
           </a>
         </div>
@@ -94,5 +94,14 @@ layout: default
       </div>
     </div>
   </section>
+  <section class="call-to-action category-container">
+    {%- include formCTA.html -%}
+  </section>
+  <div class="quick-links">
+    <div class="category-row">
+      <h3>Quick LInks</h3>
+      {% include quick_links.html %}
+    </div>
+  </div>
 </div>
 {%- include imageViewer.html -%}
