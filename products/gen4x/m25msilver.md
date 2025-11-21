@@ -136,10 +136,6 @@ layout: default
             <img src="{{site.baseurl}}/brochures/gen4x-M25M-modems.jpg">
             <span>Subnero M25M Series Underwater Modems</span>
           </a>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/wnc.jpg">
-            <span>Wireless Networked Communications (WNC) Product Series Brief</span>
-          </a>
         </div>
         <h3>Useful Links</h3>
         <div class="useful-links">

@@ -123,10 +123,6 @@ layout: default
             <img src="{{site.baseurl}}/brochures/gen4x-L12L-modems.jpg">
             <span>Subnero L12L Series Underwater Modems</span>
           </a>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/wnc.jpg">
-            <span>Wireless Networked Communications (WNC) Product Series Brief</span>
-          </a>
         </div>
         <h3>Useful Links</h3>
         <div class="useful-links">
