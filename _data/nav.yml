@@ -11,7 +11,7 @@
   - name: UnetStack
     path: /products/#unetstack
     section_id: unetstack
-  - name: SWIS
+  - name: SWIS Products
     path: /products/swis
     section_id: swis
   - name: ADCP Edition
