@@ -146,12 +146,11 @@ li.has-dropdown > a {
 .home-page .hamburger span {
   background-color: #fff;
 }
-.submenu a[href="/products/#smart-modems"],
-.submenu a[href="/products/#unetstack"],
-.submenu a[href="/products/swis/#adcp-edition"] {
+.submenu a[href$="#smart-modems"],
+.submenu a[href$="#unetstack"],
+.submenu a[href$="#adcp-edition"] {
   padding-left: 12px;
 }
-
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .nav-links {
