@@ -132,8 +132,8 @@ layout: default
       <div class="large-4 columns">
         <h3>Brochures</h3>
         <div class=brochures>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem4.jpg">
+          <a class="download-file" href="{{site.baseurl}}/brochures/gen4x-M25M-modems.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/gen4x-M25M-modems.jpg">
             <span>Subnero M25M Series Underwater Modems</span>
           </a>
           <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">

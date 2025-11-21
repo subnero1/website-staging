@@ -119,8 +119,8 @@ layout: default
       <div class="large-4 columns">
         <h3>Brochures</h3>
         <div class=brochures>
-          <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem7.jpg">
+          <a class="download-file" href="{{site.baseurl}}/brochures/gen4x-L12L-modems.pdf" target="_blank">
+            <img src="{{site.baseurl}}/brochures/gen4x-L12L-modems.jpg">
             <span>Subnero L12L Series Underwater Modems</span>
           </a>
           <a class="download-file" href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">
