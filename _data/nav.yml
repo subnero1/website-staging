@@ -2,6 +2,9 @@
   path: products/
   section_id: products
   submenu:
+  - name: WNC Products
+    path: /products
+    section_id: m25m
   - name: Smart Modems
     path: /products/#smart-modems
     section_id: m25m
@@ -10,7 +13,10 @@
     section_id: unetstack
   - name: SWIS
     path: /products/swis
-    section_id: swis  
+    section_id: swis
+  - name: ADCP Edition
+    path: /products/swis/#adcp-edition
+    section_id: swis
 - name: Solutions
   path: solutions/
   section_id: solutions
