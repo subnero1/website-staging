@@ -69,6 +69,11 @@ body:not(.home-page) {
 .home-page .nav-links a {
   color: #fff;
 }
+
+li.has-dropdown > a {
+  cursor: pointer;
+  pointer-events: none;
+}
 .nav-links a:hover {
   color: #FF8C00 !important;
 }

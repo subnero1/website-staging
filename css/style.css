@@ -5375,7 +5375,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin: 0;
 }
 .flex-row h1 + p {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .flex-row .inline-btn {
   color: #FC8230;

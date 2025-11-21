@@ -1,5 +1,5 @@
 - name: Products
-  path: products/
+  path: ./#
   section_id: products
   submenu:
   - name: Smart Modems
@@ -8,8 +8,8 @@
   - name: UnetStack
     path: /products/#unetstack
     section_id: unetstack
-  - name: SWIS - ADCP Edition
-    path: /products/#swis
+  - name: SWIS
+    path: /products/swis
     section_id: swis  
 - name: Solutions
   path: solutions/
