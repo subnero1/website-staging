@@ -60,6 +60,11 @@ accessories:
   image: /images/gen4x/gen4x-accessories-cover.png
   current_link: /products/gen4x/accessories
   products:
+    - name: Additional Receiving Channels
+      edition: Silver
+      gen: Gen4X
+      image: /images/gen4x/M25M-silver-mr-preview.png
+      link: /products/gen4x/multi-receiver.html
     - name: Co-processor
       edition: Silver
       gen: Gen4X

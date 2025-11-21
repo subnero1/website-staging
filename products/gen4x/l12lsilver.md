@@ -219,6 +219,10 @@ layout: default
               <td>On-board storage</td>
               <td>256 GB, 1 TB</td>
             </tr>
+            <tr>
+              <td>Receive channels</td>
+              <td>1, 2 (configurable at the time of purchase)</td>
+            </tr>
           </tbody>
         </table>
         <table class="specification-table">

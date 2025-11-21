@@ -238,7 +238,7 @@ layout: default
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>SC/MR: ø 100 x 294 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 294 mm, OC: ø 88 x 137 mm</td>
             </tr>
             <tr>
               <td>Weight (in air / water)</td>

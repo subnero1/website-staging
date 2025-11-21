@@ -72,7 +72,7 @@ layout: default
   <section class="configs">
     <header>
       <h2>Flexible Configurations</h2>
-      <p>Available in standalone, open, and multi-receiver configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance multi-receiver systems.</p>
+      <p>Available in standalone, and open configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance systems.</p>
     </header>
     <div class="card-wrapper">
       <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x">
@@ -91,14 +91,6 @@ layout: default
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
       </a>
-      <a class="product-card multi" href="{{site.baseurl}}/products/gen4x/multi-receiver.html" target="_blank" data-product="wnc-m25mss4x-rx">
-        <h2>WNC-M25MSS4X-2</h2>
-        <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-preview.png">
-        </div>
-        <h3>Multi-receiver<br />Configuration</h3>
-        <p>Designed to enhance performance through multiple synchronized receivers.</p>
-      </a>
     </div>
     <!-- Modal -->
     <dialog id="configModal" class="modal-dialog">
@@ -107,20 +99,13 @@ layout: default
           <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
         </header>
         <div class="main">
-          <!-- content - WNC-M25MSS4X -->
           <div class="main modal-content-item" data-product="wnc-m25mss4x">
             <h2>Standalone Configuration (SC)</h2>
             <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
           </div>
-          <!-- content - WNC-M25MSO4X -->
           <div class="main modal-content-item" data-product="wnc-m25mso4x">
             <h2>Open Configuration (OC)</h2>
             <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
-          </div>
-          <!-- content - WNC-M25MSS4X-Rx -->
-          <div class="main modal-content-item" data-product="wnc-m25mss4x-rx">
-            <h2>Multi-receiver Configuration (OC)</h2>
-            <p>The multi-receiver configuration (MR) employs several synchronized acoustic channels to process and optimize data transmission in complex underwater environments. By leveraging spatial diversity and advanced signal processing, it delivers enhanced speed, reliability, and link stability even under challenging acoustic conditions.</p>
           </div>
         </div>
         <div class="footer"></div>
@@ -190,7 +175,7 @@ layout: default
             </tr>
             <tr>
               <td>Software Interfaces</td>
-              <td>Java, Groovy, Python, C, Javascript, Julia, JSON/TCP</td>
+              <td>Java, Groovy, Python, C, JavaScript, Julia, JSON/TCP</td>
             </tr>
           </tbody>
         </table>
@@ -232,6 +217,10 @@ layout: default
               <td>On-board storage</td>
               <td>256 GB, 1 TB</td>
             </tr>
+            <tr>
+              <td>Receive channels</td>
+              <td>1, 2 (configurable at the time of purchase)</td>
+            </tr>
           </tbody>
         </table>
         <table class="specification-table">
@@ -253,11 +242,11 @@ layout: default
             </tr>
             <tr>
               <td>Dimensions</td>
-              <td>SC / MR: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
+              <td>SC: ø 100 x 303 mm, OC: ø 88 x 137 mm</td>
             </tr>
             <tr>
               <td>Weight (in air / water)</td>
-              <td>SC: 2.1 / 0.8 kg, OC: 0.65 kg / NA, MR: 2.2 / 0.9 kg</td>
+              <td>SC: 2.1 / 0.8 kg, OC: 0.65 kg / NA</td>
             </tr>
             <tr>
               <td>Operating temperature</td>

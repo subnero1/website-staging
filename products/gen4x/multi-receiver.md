@@ -25,16 +25,36 @@ layout: default
         <div class="card-tags">
           <div class="card-tag silver">Silver Edition</div>
         </div>
-        <h1>Multi-receiver Configuration</h1>
-        <p>Subnero’s multi-receiver configuration enhances communication reliability and performance by combining signals from multiple hydrophones. This approach leverages spatial diversity to improve robustness, extend range, and enable advanced capabilities such as 3D positioning and high-fidelity acoustic sensing. It also provides a strong platform for researchers, offering access to raw multi-channel data for developing and testing custom navigation and tracking algorithms for AUVs.</p>
+        <h1>Additional Receiving Channels</h1>
+        <p>Adding extra receiving channels enhances the modem’s capability by incorporating multiple hydrophones for improved signal processing. This upgrade enables spatial diversity combining, helping maintain reliable communication links in challenging environments while extending effective range. It also unlocks advanced functions such as localization and high-fidelity acoustic monitoring. For research users, the additional channels provide access to raw multi-channel data, making the modem a suitable platform for developing custom navigation and tracking algorithms for AUVs.</p>
         <p>Learn how multi-receiver modems enable robust links and novel research use cases <a href="{{site.baseurl}}/feature/2025/11/13/Improving-Underwater-Communication-with-Multi-Receiver-Modems.html">here</a>.</p>
-        <h3>Applications</h3>
-        <ul>
-          <li>Underwater positioning and tracking research</li>
-          <li>High-performance subsea communications</li>
-          <li>Rapid environmental assessment</li>
-          <li>Underwater IoT networks</li>
-        </ul>
+        <h3>Specifications</h3>
+        <table class="specification-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Receive channels</td>
+              <td>1, 2</td>
+            </tr>
+            <tr>
+              <td>Supported configurations</td>
+              <td>Standalone Configuration (SC), Open Configuration (OC)</td>
+            </tr>
+            <tr>
+              <td>Waveform streaming</td>
+              <td>Supported (all receivers)</td>
+            </tr>
+            <tr>
+              <td>Programmable gain</td>
+              <td>36 dB</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
@@ -44,11 +64,11 @@ layout: default
         <h3>Features</h3>
         <h4>Enhanced communication performance</h4>
         <p>Uses spatial diversity combining to maintain strong and reliable links in challenging acoustic environments.</p>
-        <h4>Research-ready signal access</h4>
+        <h4>Research-ready signal access for underwater communication and localization research</h4>
         <p>Provides access to raw, multi-channel acoustic data streams, offering an ideal platform for researchers developing custom communication (SIMO), navigation, tracking, and signal-processing algorithms for AUVs.</p>
         <!-- TODO: Add a link to Roee's user story once ready -->
-        <h4>Flexible device roles</h4>
-        <p>Supports use as a high-performance communication modem, a positioning aid, or a versatile acoustic recorder.</p>
+        <h4>Flexible device roles for advanced underwater IoT networks</h4>
+        <p>Supports use as a high-performance communication modem, a positioning aid, or a versatile acoustic recorder for rapid environmental assessment.</p>
         <h4>3D positioning and tracking</h4>
         <p>Enables three-dimensional localization and tracking using multi-hydrophone signal processing.</p>
       </div>
@@ -64,60 +84,11 @@ layout: default
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">
             <img src="{{site.baseurl}}/brochures/modem5.jpg">
-            <span>Subnero Multi-Receiver Configuration Modems</span>
+            <span>Subnero Multi-Receiver Modems</span>
           </a>
         </div>
       </div>
       <div class="large-8 columns">
-        <h3>Technical Specification</h3>
-        <table class="specification-table">
-          <thead>
-            <tr>
-              <th>Feature</th>
-              <th>Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Modem</td>
-              <td>Subnero WNC Series Smart Modems</td>
-            </tr>
-            <tr>
-              <td>Additional receiving hydrophones</td>
-              <td>Up to 4</td>
-            </tr>
-            <tr>
-              <td>Additional sensors (optional)</td>
-              <td>AHRS</td>
-            </tr>
-            <tr>
-              <td>Waveform streaming</td>
-              <td>Supported (all receivers)</td>
-            </tr>
-            <tr>
-              <td>Programmable gain</td>
-              <td>36 dB</td>
-            </tr>
-            <tr>
-              <td>Dimensions</td>
-              <td>
-                ⌀ 100 ✕ 303 mm (excluding hydrophone) <br />
-                ⌀ 100 ✕ 462 mm (including hydrophone) 
-                </td>
-            </tr>
-            <tr>
-              <td>Weight (in air / water)</td>
-              <td>2.2 / 0.9 kg</td>
-            </tr>
-            <tr>
-              <td>Power consumption</td>
-              <td>
-                &lt; 4 W (receive mode, nominal) <br />
-                &lt; 45 W (transmit mode, average)
-              </td>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
   </section>
