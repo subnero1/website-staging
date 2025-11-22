@@ -15,7 +15,7 @@
     path: /products/swis
     section_id: swis
   - name: ADCP Edition
-    path: /products/swis/#adcp-edition
+    path: /products/swis.html#adcp-edition
     section_id: swis
 - name: Solutions
   path: solutions/
