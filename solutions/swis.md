@@ -12,9 +12,9 @@ tabs: swancomponents
 <section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-        <h1>Subnero Wireless Integrated Suite (SWIS)</h1>
-        <p>Subnero Wireless Integrated Suite (SWIS) is a modular underwater IoT platform that brings together acoustic communication, sensor integration, and edge processing to optimise subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity. SWIS supports multiple variants and offers a consistent, user-friendly interface for applications ranging from survey operations to long-term ocean monitoring.</p>
-        {%- include formContactUs.html suffix="_top" -%}
+        <h1>Subnero Wireless Integrated Suite (SWIS) - ADCP Edition</h1>
+        <p>A seamless end-to-end platform for wireless ADCP data transfer, reducing deployment uncertainty and simplifying operations with an intuitive interface and Content-Aware Processing.</p>
+        {%- include formRequestQuote.html -%}
       </div>
   </div>
 </section>
@@ -26,9 +26,6 @@ tabs: swancomponents
   <div class='large-4 columns flex-col'>
     <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
     <p>Take a look at how SWIS revolutionizes the deployment of ADCPs.</p>
-    <div>
-      {%- include formRequestQuote.html -%}
-    </div>
   </div>
   <div class='large-8 columns'>
     <div class="flex-video swan-video">
