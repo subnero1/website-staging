@@ -9,17 +9,15 @@ section_id: solutions
 tabs: swancomponents
 ---
 
-<div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='swan-overlay'></div>
-  <div class='large-12 columns'>
-    <div class='banner-heading'>
-      <h1 class='banner-text'>
-        <span class='orange'>S</span>ubnero <span class='orange'>W</span>ireless <span class='orange'>I</span>ntegrated <span class='orange'>S</span>uite
-      </h1>
-      <h2 class='banner-sub-heading'>ADCP Edition</h2>
-    </div>
+<section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class="row flex-row">
+    <div class="hero-text">
+        <h1>Subnero Wireless Integrated Suite (SWIS)</h1>
+        <p>Subnero Wireless Integrated Suite (SWIS) is a modular underwater IoT platform that brings together acoustic communication, sensor integration, and edge processing to optimise subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity. SWIS supports multiple variants and offers a consistent, user-friendly interface for applications ranging from survey operations to long-term ocean monitoring.</p>
+        {%- include formContactUs.html suffix="_top" -%}
+      </div>
   </div>
-</div>
+</section>
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns flex-col row-padding-bottom'>
