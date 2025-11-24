@@ -1,15 +1,15 @@
 ---
 layout: default
 title:  Solutions
-banner : images/hero-solutions.jpg
-excerpt: Subnero's solutions for marine robots and underwater sensors.
+banner : images/hero-swis.jpg
+excerpt: A modular underwater operations platform that integrates communication, sensing, and automation for seamless subsea data collection.
 ---
 
 <section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
         <h1>Subnero Wireless Integrated Suite</h1>
-        <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
+        <p>Subnero Wireless Integrated Suite (SWIS) is a modular underwater IoT platform that brings together acoustic communication, sensor integration, and edge processing to optimise subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity. SWIS supports multiple variants and offers a consistent, user-friendly interface for applications ranging from survey operations to long-term ocean monitoring.</p>
         {%- include formContactUs.html suffix="_top" -%}
       </div>
   </div>
