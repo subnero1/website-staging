@@ -8,17 +8,15 @@ categories: wnc
 section_id: products
 ---
 
-<div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='swan-overlay'></div>
-  <div class='large-12 columns'>
-    <div class='banner-heading'>
-      <h1 class='banner-text'>
-        <span class='orange'>W</span>ireless <span class='orange'>N</span>etworked <span class='orange'>C</span>ommunications (WNC)
-      </h1>
-      <h2 class='banner-sub-heading'>Product Series</h2>
-    </div>
+<section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class="row flex-row">
+    <div class="hero-text">
+        <h1>Wireless Networked Communications (WNC)</h1>
+        <p>From underwater communication to networked navigation and real-time monitoring, Subnero offers a complete ecosystem of software and hardware technologies built to adapt to your application. Designed for scalability and performance, our solutions empower researchers, industry, and defense users alike. Talk to us to learn how we can supercharge your next deployment.</p>
+        {%- include formContactUs.html suffix="_top" -%}
+      </div>
   </div>
-</div>
+</section>
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns flex-col row-padding-bottom'>
