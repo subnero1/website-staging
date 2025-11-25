@@ -5,7 +5,7 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://subnero.com/</loc>
+    <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -16,7 +16,7 @@ layout: null
     {% if page.url contains '/gen4x/' and page.sitemap != false %}
       {% if page.url == '/products/gen4x/' %}
         <url>
-          <loc>{{ "https://subnero.com" | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
+          <loc>{{ site.url | append: page.url | replace: '//', '/' | replace: ':/', '://' }}</loc>
           <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.9</priority>
