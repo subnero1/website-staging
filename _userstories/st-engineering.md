@@ -93,14 +93,14 @@ date: 2025-11-20
       <li>Paves the way for a new era of subsea operations, where AUVs, divers, and subsea sensors can remain connected at all times—supporting industries from offshore energy to defense and scientific research.</li>
     </ul>
     <h4>Reference</h4>
-    <p> S. Etter, M. Ignatius, C. Pendharkar, E. Tan, M. Chitre, J. Ng, L. Teck, J. Poh, “Design, Development and Deployment of an Underwater Cellular Network,” OCEANS 2024 - Halifax, pp. 1–7. DOI: <a href="https://doi.org/10.1109/OCEANS55160.2024.10754077" target="blank" title="Technical Insight">10.1109/OCEANS55160.2024.10754077</a></p>
+    <p>S. Etter et al., "Design, Development and Deployment of an Underwater Cellular Network," OCEANS 2024 - Halifax, Halifax, NS, Canada, 2024.</p>
     <h2>Perspectives</h2>
     <blockquote class="bquote">
       <p class="quote"><sup>&ldquo;</sup> This collaboration has shown that cellular-style networks can bring real-world value to subsea operations. By validating the concept in Singapore’s demanding shallow-water conditions, we are opening the door to scalable solutions for defense, commercial, and research users alike.</p>
       <div class="author">
         <div class="photo"><img src="{{site.baseurl}}/images/jin-jie-jay-poh.jpg" alt="Jin Jie Jay Poh" /></div>
         <div class="name">
-          <p>Jin Jie Jay Poh</p>
+          <p>Jay Poh Jin Jie</p>
           <small>Vice President / Head Unmanned Systems Business Unit <br>ST Engineering</small>
         </div>
       </div>
