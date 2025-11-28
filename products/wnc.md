@@ -1,40 +1,60 @@
 ---
 layout: default
 title: Subnero Wireless Networked Communications
-banner : images/hero-wnc2.webp
+banner : images/hero-wnc.jpg
 thumbnail: images/boxart-modem.png
 excerpt: Subnero Wireless Networked Communications series of products comprising of software defined underwater acoustic smart modems
 categories: wnc
 section_id: products
 ---
 
-<section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+<section class="page-hero" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-        <h1>Wireless Networked Communications (WNC)</h1>
-        <p>From underwater communication to networked navigation and real-time monitoring, Subnero offers a complete ecosystem of software and hardware technologies built to adapt to your application. Designed for scalability and performance, our solutions empower researchers, industry, and defense users alike. Talk to us to learn how we can supercharge your next deployment.</p>
-        {%- include formContactUs.html suffix="_top" -%}
-      </div>
+      <h1>WNC Product Series <br />Underwater Acoustic Communication & Networking Solutions</h1>
+      <p>Smart modems, software tools, and modular configurations designed for reliable underwater communication, sensing, and networking.</p>
+      {%- include formContactUs.html suffix="_top" -%}
+    </div>
   </div>
 </section>
-<div class='four spacing'></div>
-<div class='row row-width row-padding-bottom'>
-  <div class='large-12 columns flex-col row-padding-bottom'>
-    <h2 class='centered-text'>Powered by UnetStack, the Software-Defined Network Stack for Underwater Applications.</h2>
+
+<section class="products-page wnc" style="padding:4rem 0">
+  <div class="row large category-content">
+    <h1 class="">What is WNC?</h1>
+    <h3>The Complete Platform for Underwater Connectivity</h3>
   </div>
-  <div class='large-4 columns flex-col'>
-    <p>The Gen4X series of Subnero's acoustic smart modems redefines undersea communications. Built on a foundation of enhanced performance, compact form factor, and rich feature set, the Gen4X series equips your deployments with smarter, more efficient acoustic links — whether for scientific research, offshore energy, marine & subsea, or defense applications.</p>
-    <div class="wnc-btns">
-      <a href="{{site.baseurl}}/products/gen4x/" class='button form-button hOXnHC'>View Products</a>
-      {%- include formRequestQuote.html -%}
+  <div class="row large">
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>The WNC Product Series brings together Subnero’s acoustic smart modems, the industry-leading UnetStack software ecosystem, and modular configurations to support a wide range of underwater communication needs.</p>
+        <p>Now featuring three distinct frequency bands (LF, MF, HF) and the new UnetStack ecosystem, Gen4X offers a unified workflow—from desktop simulation to deep-sea deployment. Whether you need full smart modem systems, standalone software, or component-level solutions like UnetCube, WNC is the platform for the future of subsea connectivity.</p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>  
+  </div>
+  <div class="row large quickview-cards">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24"><!-- Icon from Huge Icons by Hugeicons - undefined --><g fill="none" stroke="currentColor"><path stroke-width="1.5" d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12Z"/><path stroke-linejoin="round" stroke-width="1.5" d="M2.5 9h19"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 6h.009M11 6h.009"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8 13l1.227 1.057c.515.445.773.667.773.943s-.258.498-.773.943L8 17m4 0h4"/></g></svg>
+      <h4>Unmatched Performance</h4>
+      <p>From 33 kbps (HF) to 10 km Range (LF)</p>
     </div>
     <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24"><!-- Icon from Huge Icons by Hugeicons - undefined --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M4.268 4.328C5.954 3.028 8.573 2 12 2s6.046 1.027 7.732 2.328c.237.182.356.274.453.436c.082.136.14.342.143.5c.002.189-.06.357-.187.692c-.31.83-.466 1.244-.529 1.654c-.079.518-.08.645-.007 1.163c.058.412.375 1.287 1.007 3.037A6.4 6.4 0 0 1 21 14c0 3-2.5 5.375-5 6c-2.192.548-3.333 1.333-4 2c-.667-.667-1.808-1.452-4-2c-2.5-.625-5-3-5-6c0-.82.156-1.548.388-2.19c.633-1.75.949-2.625 1.007-3.037c.073-.518.072-.645-.007-1.163c-.063-.41-.218-.825-.53-1.654c-.125-.335-.188-.503-.185-.692a1.1 1.1 0 0 1 .142-.5c.097-.162.216-.254.453-.436"/><path d="m12.691 7.578l.704 1.42a.87.87 0 0 0 .568.423l1.276.213c.816.137 1.008.734.42 1.323l-.992 1a.88.88 0 0 0-.208.73l.284 1.238c.224.98-.292 1.359-1.152.847l-1.196-.714a.86.86 0 0 0-.792 0l-1.196.714c-.856.512-1.376.129-1.152-.847l.284-1.238a.88.88 0 0 0-.208-.73l-.991-1c-.584-.589-.396-1.186.42-1.323l1.275-.213a.87.87 0 0 0 .564-.424l.704-1.42c.384-.77 1.008-.77 1.388 0"/></g></svg>
+      <h4>Software-Defined</h4>
+      <p>Powered by the UnetStack Ecosystem</p>
+    </div>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24"><!-- Icon from Huge Icons by Hugeicons - undefined --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M8.73 21.499c1.293-2.223 4.252-2.485 5.937-.786c.377.38.566.57.733.592s1.215-.578 1.587-.792c.38-.217 1.432-.82 1.498-.979c.066-.157-.003-.427-.142-.965c-.503-1.957.718-4.017 2.668-4.548c.522-.142.783-.213.886-.349S22 12.341 22 11.904s0-1.633-.103-1.769s-.364-.207-.886-.349c-1.95-.531-3.172-2.59-2.67-4.548c.14-.538.208-.807.142-.965s-1.118-.761-1.497-.979c-.372-.213-1.42-.815-1.588-.792c-.167.023-.355.213-.732.592a3.775 3.775 0 0 1-5.333 0c-.377-.38-.566-.57-.733-.592s-1.215.579-1.587.792c-.38.218-1.432.821-1.498.979s.003.427.142.965c.503 1.957-.718 4.017-2.668 4.548c-.522.142-.783.213-.886.35C2 10.27 2 11.465 2 11.903s0 1.632.103 1.768s.364.207.886.35q.009 0 .018.004"/><path d="M2.489 18.183c1.08-1.08 4.752-4.714 5.112-5.134c.38-.444.072-1.044.256-2.903c.088-.9.282-1.573.836-2.075c.66-.624 1.2-.624 3.06-.666c1.62.042 1.812-.138 1.98.282c.12.3-.24.48-.672.96c-.96.96-1.524 1.44-1.578 1.74c-.39 1.319 1.146 2.098 1.986 1.258c.318-.317 1.788-1.799 1.932-1.919c.108-.096.366-.091.492.06c.108.106.12.12.108.6c-.011.444-.006 1.082-.005 1.74c.002.851-.043 1.799-.403 2.278c-.72 1.08-1.92 1.14-3 1.188c-1.02.06-1.86-.048-2.124.144c-.216.108-1.356 1.307-2.736 2.687l-2.46 2.459c-2.04 1.62-4.284-.9-2.784-2.7Z"/></g></svg>
+      <h4>Scalable</h4>
+      <p>From Simulation to Deployment</p>
     </div>
   </div>
-  <div class='large-8 columns'>
-  <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg"/>
-  </div>
-</div>
+</section>
+
+
+
 <div class='bg-grey'>
   <div class='accordion-row'>
   <div class='large-6 columns container accordion-img'>

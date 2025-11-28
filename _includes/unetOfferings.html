@@ -1,0 +1,105 @@
+<div class="tab-nav">
+  <button class="tab-button active" data-tab="0">Network Simulator</button>
+  <button class="tab-button" data-tab="1">HIL Platform</button>
+  <button class="tab-button" data-tab="2">UnetCube (OEM)</button>
+  <button class="tab-button" data-tab="3">Network Controller</button>
+</div>
+<div class="tab-content">
+  <div class="tab-pane active grid-pane" id="tab-0">
+    <div>
+      <!-- <small class="pane-tag">Design, Test, Validate</small> -->
+      <h4 class="text-2xl orange">Network Development Platform & Simulator</h4>
+      <p class="lead">For designing, prototyping and validating underwater network algorithms.</p>
+      <p>Unet Simulator is a network simulator that helps you simulate Unets with many nodes on a single computer. It can run in real-time simulation mode for interactive testing of agents and protocols, providing the same user experience as operating a real Unet. It also supports discrete-event simulation for large-scale or Monte Carlo performance evaluations.</p>
+    </div>
+    <div>
+      <h5 class="orange text-md">Target Audience</h5>
+      <p>For Users who want to design, test and validate subsea networking or MAC protocols.</p>
+      <h5 class="text-md orange">Features</h5>
+      <ul class="pane-ul">
+        <li>Multi-node, mobile network simulation</li>
+        <li>Rapid MAC, routing and cross-layer protocol prototyping</li>
+        <li>Seamless workflow: simulate → HIL → deploy</li>
+      </ul>
+      <a class="button radius m0" href="{{site.baseurl}}/unetstack/unet-simulator">Learn more →</a>
+    </div>
+  </div>
+  <div class="tab-pane grid-pane" id="tab-1">
+    <div>
+      <!-- <small class="pane-tag">Virtual Acoustic Ocean</small> -->
+      <h4 class="text-2xl orange">Hardware-in-the-Loop Underwater Communications Simulator</h4>
+      <p class="lead">Avoid costly trial-and-error deployments by understanding performance under realistic conditions.</p>
+      <p>Virtual Acoustic Ocean is a high-fidelity, open-source underwater simulation platform supporting hardware-in-the-loop simulation for UnetStack-enabled devices. It interfaces with industry-standard channel models such as Bellhop, Kraken, Pekris Ray and upcoming benchmark Watermark channel models. This setup enables users to test algorithms under realistic underwater conditions using real hardware devices, including Subnero modems and UnetCube.</p>
+    </div>
+    <div>
+      <h5 class="orange text-md">Target Audience</h5>
+      <p>Users who want to test the performance of their algorithms in realistic underwater conditions, or simulate communication performance before field trials.</p>
+      <h5 class="text-md orange">Features</h5>
+      <ul class="pane-ul">
+        <li>Realistic acoustic propagation simulation</li>
+        <li>Supports simulation-only, UnetCube-HIL and modem-HIL workflows</li>
+        <li>Full open-source interface protocol enabling users to build on</li>
+      </ul>
+      <a class="button radius m0" href="{{site.baseurl}}/unetstack/virtual-acoustic-ocean">Learn more →</a>
+    </div>
+  </div>
+  <div class="tab-pane grid-pane" id="tab-2">
+    <div>
+      <!-- <small class="pane-tag">Software-Defined Modem</small> -->
+      <h4 class="text-2xl orange">OEM Modem Development Platform (UnetCube)</h4>
+      <p class="lead">For OEMs building differentiated underwater modems or hybrid communication nodes.</p>
+      <p>UnetCube is an embedded platform that runs UnetStack natively, providing a software-defined modem engine. Users attach their own analog front-end and DAQ hardware to create differentiated modem products without rebuilding the entire communication stack.</p>
+    </div>
+    <div>
+      <h5 class="orange text-md">Target Audience</h5>
+      <p>Users who want to develop their own underwater modem.</p>
+      <h5 class="text-md orange">Features</h5>
+      <ul class="pane-ul">
+        <li>Runs UnetStack on embedded SBCs</li>
+        <li>Supports custom analog/DAQ integration</li>
+        <li>Unified workflow: simulate → HIL → deploy</li>
+      </ul>
+      <a class="button radius m0" href="{{site.baseurl}}/unetstack/unet-cube">Learn more →</a>
+    </div>
+  </div>
+  <div class="tab-pane grid-pane" id="tab-3">
+    <div>
+      <!-- <small class="pane-tag">Multi-link Management</small> -->
+      <h4 class="text-2xl orange">Multi-Link Network Controller</h4>
+      <p class="lead">For deploying scalable heterogeneous underwater networks.</p>
+      <p>A multi-link network controller that manages, prioritizes and routes data across different physical interfaces. Provides transparent end-to-end connectivity from seabed devices to topside systems and onward to cloud infrastructure.</p>
+    </div>
+    <div>
+      <h5 class="orange text-md">Target Audience</h5>
+      <p>Users deploying underwater networks for seamless connectivity across acoustic, optical and terrestrial links.</p>
+      <h5 class="text-md orange">Features</h5>
+      <ul class="pane-ul">
+        <li>Intelligent link selection and prioritization</li>
+        <li>Multi-modal routing (Acoustic/Optical/RF)</li>
+        <li>Seamless tracking and localization</li>
+      </ul>
+      <a class="button radius m0" href="{{site.baseurl}}/contact/">Contact us →</a>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabPanes = document.querySelectorAll('.tab-pane');
+
+  tabButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      const tabIndex = this.getAttribute('data-tab');
+      
+      // Remove active class from all buttons and panes
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      tabPanes.forEach(pane => pane.classList.remove('active'));
+      
+      // Add active class to clicked button and corresponding pane
+      this.classList.add('active');
+      document.getElementById('tab-' + tabIndex).classList.add('active');
+    });
+  });
+});
+</script>
