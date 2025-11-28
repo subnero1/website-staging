@@ -53,6 +53,10 @@ section_id: products
   </div>
 </section>
 
+<section class="call-to-action category-container">
+  {%- include formCTA.html -%}
+</section>
+
 <section class="products-page unet" style="padding:4rem 1rem 2rem;">
   <div class="row large category-content">
     <h1 class="">Acoustic Smart Modems</h1>
@@ -148,8 +152,7 @@ section_id: products
 </section>
 
 <!-- The UnetStack Ecosystem -->
-<!-- background-image: url({{site.baseurl}}/images/unetstack-abstract-01.jpg);  -->
-<section class="products-page unet" style="padding:4rem 1rem 2rem;">
+<section class="products-page unet" style="padding:4rem 1rem 2rem; background-color: rgb(196 231 255 / 20%);">
   <div class="row large category-content">
     <h1 class="">The UnetStack Ecosystem</h1>
     <h3>The UnetStack framework provides a unified development environment that scales from your laptop to your entire subsea fleet, enabling a "simulate first, deploy second" workflow that saves time and cost.</h3>
@@ -157,15 +160,24 @@ section_id: products
   <div class="row py2">
     <div class="feature-grid col3">
       <div class="ecosystem-card">
-        <h4 class="text-xl orange"><span>01.</span> Network Development Platform & Simulator (UnetSim)</h4>
+        <header>
+          <span>01.</span>
+          <h4 class="orange">Network Development Platform & Simulator (UnetSim)</h4>
+        </header>
         <p>Design protocols and network architectures using high-level APIs (Python, Java, Groovy, Julia, C). Simulate your network logic on a standard laptop in realistic channel conditions before you ever get wet.</p>
       </div>
       <div class="ecosystem-card">
-        <h4 class="text-xl orange"><span>02.</span> Hardware-in-the-Loop (HIL) Simulation</h4>
+        <header>
+          <span>02.</span>
+          <h4 class="orange">Hardware-in-the-Loop (HIL) Simulation</h4>
+        </header>
         <p>Bridge the gap between virtual and physical. Connect physical Gen4X modems to a virtual ocean environment to test large-scale networks and mission logic without the cost and risk of sea trials.</p>
       </div>
       <div class="ecosystem-card">
-        <h4 class="text-xl orange"><span>03.</span> OEM Modem Development Platform (UnetCube)</h4>
+        <header>
+          <span>03.</span>
+          <h4 class="orange">OEM Modem Development Platform (UnetCube)</h4>
+        </header>
         <p>For developers building their own custom hardware, UnetCube provides a compact, rapid-prototyping environment to integrate UnetStack into your own vehicles or sensors.</p>
       </div>
     </div>
@@ -173,27 +185,27 @@ section_id: products
 </section>
 
 <!-- Flexible Configurations for Any Platform -->
-<section class="products-page unet" style="padding:4rem 1rem 2rem;">
+<section class="products-page unet" style="padding:4rem 1rem 2rem; background-image: url({{site.baseurl}}/images/hero-wnc.jpg);">
   <div class="row large category-content">
     <h1 class="">Flexible Configurations for Any Platform</h1>
     <h3>The product series is available in different configurations such as Standalone (SC) and OEM (OC) to address diverse deployment scenarios. These are designed for seabed-mounted deployments (SC with pressure hull) and tight integration into marine robotics like AUVs/ROVs (OC).</h3>
   </div>
   <div class="row">
     <div class="feature-grid col2">
-      <div>
-        <h4>Standalone Configuration (SC)</h4>
+      <div class="configs">
+        <h4 class="text-xl orange">Standalone Configuration (SC)</h4>
         <p>Complete, pressure-rated units (up to 6000m) ready for seabed or suspended deployment.</p>
       </div>
-      <div>
-        <h4>OEM Configuration (OC)</h4>
+      <div class="configs">
+        <h4 class="text-xl orange">OEM Configuration (OC)</h4>
         <p>Compact, board-level integration for Marine Robotics (AUVs, ROVs) and custom subsea sensors.</p>
       </div>
-      <div>
-        <h4>Deck Configuration</h4>
+      <div class="configs">
+        <h4 class="text-xl orange">Deck Configuration</h4>
         <p>Topside units designed for easy deployment from vessels or buoys, featuring ruggedized casing and simplified connectivity.</p>
       </div>
-      <div>
-        <h4>Multi-Channel Configuration</h4>
+      <div class="configs">
+        <h4 class="text-xl orange">Multi-Channel Configuration</h4>
         <p>Leverage spatial diversity with additional hydrophones to improve reliability and reception in challenging acoustic environments.</p>
       </div>
     </div>

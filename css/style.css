@@ -5002,15 +5002,37 @@ figure.float-img {
   margin: 0;
 }
 .ecosystem-card {
-  position: relative;
-  padding: 1.4rem;
   border-radius: 6px;
-  background-color: #faebd7;
+  background-color: #d8efff;
+  overflow: hidden;
 }
-.ecosystem-card h4 span {
-  color: #30607e;
+.ecosystem-card header {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  padding: .8rem 1.4rem;
+  background-color: #578aaf;
 }
+.ecosystem-card h4 {
+  margin: 0;
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.ecosystem-card span {
+  font-size: 1.6rem;
 
+  color: #fff;
+}
+.ecosystem-card p{
+  margin: 0;
+  padding: 1.4rem;
+}
+.feature-grid .configs {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
