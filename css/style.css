@@ -5034,15 +5034,21 @@ figure.float-img {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 8px;
 }
-.edition-row {
+.edition-row, 
+.optional-accessories {
   padding: 1.4rem;
+}
+.row.optional-accessories {
+  border-radius: 8px;
+  max-width: 77rem;
 }
 .feature-edition {
   padding: 1.4rem;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 8px;
 }
-.edition-row h3 {
+.edition-row h3, 
+.optional-accessories h3 {
   margin-bottom: 1.6rem;
   font-size: 2rem;
   color: #E6782F;

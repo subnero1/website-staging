@@ -227,6 +227,12 @@ section_id: products
       </div>
     </div>
   </div>
+  <div class="row optional-accessories" style="background-color: #FFEFE4;">
+    <h3>Optional Accessories &amp; Upgrades</h3>
+    <div>
+      <p>Enhance your Subnero modem’s capabilities with a range of accessories and optional upgrades designed for seamless integration and extended functionality. From modules such as additional receiving channels, co-processors, and storage units to hull configurations and specialized cables, these add-ons help tailor each system to specific deployment needs and environments.</p>
+    </div>
+  </div>
 </section>
 
 <!-- Powering the Blue Economy -->
