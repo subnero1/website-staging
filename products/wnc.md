@@ -18,21 +18,10 @@ section_id: products
   </div>
 </section>
 
-<section class="products-page wnc" style="padding:4rem 0">
+<section class="products-page wnc" style="padding:4rem 1rem">
   <div class="row large category-content">
     <h1 class="">What is WNC?</h1>
     <h3>The Complete Platform for Underwater Connectivity</h3>
-  </div>
-  <div class="row large">
-    <div class="large-6 columns"> 
-      <div class="category-content">
-        <p>The WNC Product Series brings together Subnero’s acoustic smart modems, the industry-leading UnetStack software ecosystem, and modular configurations to support a wide range of underwater communication needs.</p>
-        <p>Now featuring three distinct frequency bands (LF, MF, HF) and the new UnetStack ecosystem, Gen4X offers a unified workflow—from desktop simulation to deep-sea deployment. Whether you need full smart modem systems, standalone software, or component-level solutions like UnetCube, WNC is the platform for the future of subsea connectivity.</p>
-      </div>
-    </div>
-    <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
   </div>
   <div class="row large quickview-cards">
     <div>
@@ -51,238 +40,109 @@ section_id: products
       <p>From Simulation to Deployment</p>
     </div>
   </div>
+  <div class="row large">
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>The WNC Product Series brings together Subnero’s acoustic smart modems, the industry-leading UnetStack software ecosystem, and modular configurations to support a wide range of underwater communication needs.</p>
+        <p>Now featuring three distinct frequency bands (LF, MF, HF) and the new UnetStack ecosystem, Gen4X offers a unified workflow—from desktop simulation to deep-sea deployment. Whether you need full smart modem systems, standalone software, or component-level solutions like UnetCube, WNC is the platform for the future of subsea connectivity.</p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>  
+  </div>
 </section>
 
-
-
-<div class='bg-grey'>
-  <div class='accordion-row'>
-  <div class='large-6 columns container accordion-img'>
-      <img src='{{site.baseurl}}/images/networkv4.jpg'>
+<section class="products-page unet" style="padding:4rem 1rem;">
+  <div class="row large category-content">
+    <h1 class="">Acoustic Smart Modems</h1>
+    <h3>Performance for Every Environment</h3>
+  </div>
+  <div class="row large">
+    <div class="comparison-table-wrap">
+      <table class="comparison-table">
+        <colgroup>
+          <col style="width:16%;">
+          <col style="width:28%;">
+          <col style="width:28%;">
+          <col style="width:28%;">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>L12L Series (Low Frequency)</th>
+            <th>M25M Series (Medium Frequency)</th>
+            <th>S40H Series (High Frequency)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&nbsp;</td>
+            <td><div class="comparison-img"><img src="{{site.baseurl}}/images/gen4x/L12L-silver-feature.png" alt="L12L Series Modem" /></div></td>
+            <td><div class="comparison-img"><img src="{{site.baseurl}}/images/gen4x/M25M-silver-feature.png" alt="M25M Series Modem" /></div></td>
+            <td><div class="comparison-img"><img src="{{site.baseurl}}/images/gen4x/S40H-silver-feature.png" alt="S40H Series Modem" /></div></td>
+          </tr>
+          <tr>
+            <td>Best for</td>
+            <td>Long-Range / Shallow, Deep Water</td>
+            <td>General Purpose</td>
+            <td>High Speed / Short Range</td>
+          </tr>
+          <tr>
+            <td>Frequency</td>
+            <td>9 - 16 kHz</td>
+            <td>20 - 32 kHz</td>
+            <td>25 - 50 kHz</td>
+          </tr>
+          <tr>
+            <td>Max Range</td>
+            <td>&gt; 10 km</td>
+            <td>&gt; 4 km</td>
+            <td>&#8764; 1 km</td>
+          </tr>
+          <tr>
+            <td>Max Speed</td>
+            <td>Up to 8 kbps</td>
+            <td>Up to 15 kbps</td>
+            <td>Up to 33 kbps</td>
+          </tr>
+          <tr>
+            <td>Bandwidth</td>
+            <td>7 kHz</td>
+            <td>12 kHz</td>
+            <td>25 kHz</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="text-sm">*All performance metrics are subject to channel conditions. Features like spatial diversity combining, adaptive link tuning, and arbitrary waveform transmission come standard across all Gen4X models.</p>
     </div>
-    <div class='large-1 columns'></div>
-    <div class='large-5 columns'>
-      <div class='accordion-container'>
-        <div class='accordion-tab'>
-          <label class="accordion-label hover-active" id='accordion-label-1'>Exceptional Underwater Performance</label>
-          <label class="accordion-label" id='accordion-label-2' >Built for Real-World Applications</label>
-          <label class="accordion-label" id='accordion-label-3' >Advanced Networking Features</label>
-          <div class="accordion-content">
-            <div class='content-1'>
-              <ul>
-                <li>Up to <span class='orange'>33 kbps</span> data rate in shallow waters (S40H series).</li>
-                <li>More than <span class='orange'>10 km</span> range in challenging conditions (L12L series).</li>
-                <li>Optimized link reliability through adaptive communication profiles and tuning.</li>
-              </ul>
-            </div>
-            <div class='content-2'>
-              <ul>
-                <li>Configurable for applications such as AUV/USV communication, data harvesting, and asset monitoring.</li>
-                <li>Supports diverse mission needs — from short-term tests to long-term autonomous deployments.</li>
-                <li>Seamlessly integrates with existing systems through standard interfaces and APIs.</li>
-              </ul>
-            </div>
-            <div class='content-3'>
-              <ul>
-                <li>Fully functional network stack with support for multi-hop and mesh architectures.</li>
-                <li>Built-in routing, scheduling, and remote management capabilities.</li>
-                <li>Compatible with centralized and distributed underwater network topologies.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+  </div>
+  <div class="row large feature-grid-row">
+    <div class="feature-grid col2">
+      <div>
+        <h4 class="text-xl orange">Software-Defined Design</h4>
+        <ul class="feature-list">
+          <li><i class="icon-check"></i> <span><b>Ease of integration</b> with unified interfaces.</span></li>
+          <li><i class="icon-check"></i> <span><b>Multi-language APIs:</b> Java, Groovy, Julia, Python, C, JavaScript.</span></li>
+          <li><i class="icon-check"></i> <span><b>Platform Independence:</b> OS/hardware agnostic.</span></li>
+          <li><i class="icon-check"></i> <span><b>External Sensor Support:</b> Seamless integration for GPS, AHRS, etc.</span></li>
+          <li><i class="icon-check"></i> <span><b>Edge Computing:</b> Optional co-processor for user applications and ML/AI workloads.</span></li>
+          <li><i class="icon-check"></i> <span><b>Multi-Role Capability:</b> Single WNC device can fill the role of multiple acoustic devices.</span></li>
+          <li><i class="icon-check"></i> <span><b>Interoperability:</b> Emulate other acoustic systems (e.g., transponders, pingers).</span></li>
+          <li><i class="icon-check"></i> <span><b>Coexistence:</b> Operate alongside other acoustic systems (e.g., USBL).</span></li>
+          <li><i class="icon-check"></i> <span><b>Future Proof:</b> Regular software updates.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-xl orange">Advanced Networking &amp; Localization</h4>
+        <ul class="feature-list">
+          <li><i class="icon-check"></i> <span><b>Multi-Node Operations:</b> Operate multiple communication nodes simultaneously.</span></li>
+          <li><i class="icon-check"></i> <span><b>Scalable Networks:</b> Support for multi-hop links and mesh networks.</span></li>
+          <li><i class="icon-check"></i> <span><b>Routing Protocols:</b> Built-in support for dynamic routing.</span></li>
+          <li><i class="icon-check"></i> <span><b>Extended Coverage:</b> Cellular-like network topologies.</span></li>
+          <li><i class="icon-check"></i> <span><b>Remote Control:</b> Ability to control devices remotely out-of-the-box.</span></li>
+        </ul>
       </div>
     </div>
   </div>
-</div>
-{%- include hover-display.html -%}
-
-<div class='bg-white'>
-  <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>Industries</h1>
-  </div>
-  <div class='container row row-width row-padding-bottom'>
-    <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
-      <img src='{{site.baseurl}}/images/thumbnail-defense.png' width="300" height="300" class='round-border-50'>
-      <br>
-      <div class='section-sub-heading'>
-        <h2>Defense</h2>
-      </div>
-      <p class='auto-margin'>The platinum edition modems are an ideal solution for defense customers, as they offer best-in-class communication performance in harsh environments, are MIL-standard qualified, reduce complexity by using a single hardware platform for multiple functions, and support advanced features such as extended range and in-field reconfigurability with communication profiles and adaptive link tuning.</p>
-    </div>
-    <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
-      <img src='{{site.baseurl}}/images/thumbnail-offshore.png' width="300" height="300" class='round-border-50'>
-      <br>
-      <div class='section-sub-heading'>
-        <h2>Offshore & Subsea</h2>
-      </div>
-      <p class='auto-margin'>The Subnero WNC series of devices are the go-to solution for subsea & offshore customers, offering support for a wide variety of sensors and software ecosystems, Content Aware Processing (CAP) engine, deep sleep state for long deployments, and a single hardware platform capable of replacing multiple legacy systems, thereby reducing operational costs and improving reliability and safety.</p>
-    </div>
-    <div class='large-4 columns flex-col row-width row-padding-bottom flex-col-center'>
-    <img src='{{site.baseurl}}/images/thumbnail-research.png' width="300" height="300" class='round-border-50'>
-    <br>
-      <div class='section-sub-heading'>
-        <h2>Scientific Research</h2>
-      </div>
-      <p class='auto-margin'>For scientific research customers, the Subnero WNC series of products offer customizable platform and media agnostic network stack, support for multiple computer languages, versatile hardware with optional coprocessors, full-fledged network and channel model simulator, arbitrary waveform transmission and reception, with the added bonus of a community edition of UnetStack which is free for non-commercial use.</p>
-    </div>
-  </div>
-  <div class='row-padding-bottom'></div>
-</div>
-
-  <section class="call-to-action category-container">
-    {%- include formCTA.html -%}
-  </section>
-
-<div class='bg-grey'>
-  <div class='row'>
-    <h1 class='section-heading'>Powering the Connected Ocean</h1>
-  </div>
-  {% include tabbed-columns.html content=site.data.wnc-tabs type="features" %}
-</div>
-
-  <section class="product-features" style="background-image: url({{site.baseurl}}/images/wnc-bg02.jpg);">
-    <h2 class="feature-h2 text-center">Frequency Bands, Editions and Configurations</h2>
-    <div class="feature-row">
-      <div class="feature-card bands">
-        <header>
-          <h3>Bands</h3>
-          <p>Available in multiple frequency bands to suit different underwater communication needs.</p>
-        </header>
-        <div class="feature-content">
-          <div class="card-row">
-            <div class="img-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 9.938v4.124m3.7-7.217v10.31m3.7-13.918v17.526m3.7-13.631v9.736m3.7-7.302v4.868m3.7-3.465v2.062"/></svg>
-            </div>
-            <div class="content">
-              <h5>L12L Series</h5>
-              <p>Optimized for long-range communication in challenging shallow-water environments.</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="img-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 9.938v4.124m3.7-7.217v10.31m3.7-13.918v17.526m3.7-13.631v9.736m3.7-7.302v4.868m3.7-3.465v2.062"/></svg>
-            </div>
-            <div class="content">
-              <h5>M25M Series</h5>
-              <p>The best all-round option, balancing range, data rate, and reliability across diverse missions.</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="img-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.75 9.938v4.124m3.7-7.217v10.31m3.7-13.918v17.526m3.7-13.631v9.736m3.7-7.302v4.868m3.7-3.465v2.062"/></svg>
-            </div>
-            <div class="content">
-              <h5>S40H Series</h5>
-              <p>Designed for high-bandwidth data transfer, such as image, and large payload communication.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="feature-card editions">
-        <header>
-          <h3>Editions</h3>
-          <p>Available in different editions tailored for specific use cases and operational requirements.</p>
-        </header>
-        <div class="feature-content">
-          <div class="card-row">
-            <div class="img-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><path fill="currentColor" d="M19 11a7.5 7.5 0 0 1-3.5 5.94L10 20l-5.5-3.06A7.5 7.5 0 0 1 1 11V3c3.38 0 6.5-1.12 9-3c2.5 1.89 5.62 3 9 3zm-9 1.08l2.92 2.04l-1.03-3.41l2.84-2.15l-3.56-.08L10 5.12L8.83 8.48l-3.56.08L8.1 10.7l-1.03 3.4L10 12.09z"/></svg>
-            </div>
-            <div class="content">
-              <h5>Platinum Edition</h5>
-              <p>Rugged and MIL-qualified, built for the toughest environments and mission-critical operations.</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="img-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20v-2h14v2zm0-3.5L3.725 8.475q-.05 0-.113.013T3.5 8.5q-.625 0-1.062-.438T2 7t.438-1.062T3.5 5.5t1.063.438T5 7q0 .175-.038.325t-.087.275L8 9l3.125-4.275q-.275-.2-.45-.525t-.175-.7q0-.625.438-1.063T12 2t1.063.438T13.5 3.5q0 .375-.175.7t-.45.525L16 9l3.125-1.4q-.05-.125-.088-.275T19 7q0-.625.438-1.063T20.5 5.5t1.063.438T22 7t-.437 1.063T20.5 8.5q-.05 0-.112-.012t-.113-.013L19 16.5z"/></svg>
-            </div>
-            <div class="content">
-              <h5>Silver Edition</h5>
-              <p>High-performance and reliable, ideal for commercial and scientific deployments.</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="img-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M9 17q-.425 0-.712-.288T8 16t.288-.712T9 15h1q.425 0 .713.288T11 16t-.288.713T10 17zm-1 5q-2.075 0-3.537-1.463T3 17V8q-.825 0-1.412-.587T1 6V4q0-.825.588-1.412T3 2h10q.825 0 1.413.588T15 4v2q0 .825-.587 1.413T13 8v3q0 .825-.587 1.413T11 13H9q-.425 0-.712-.288T8 12t.288-.712T9 11h2V8H5v9q0 1.25.875 2.125T8 20q.45 0 .863-.125t.762-.35q.325-.2.7-.1t.575.45q.225.35.125.762t-.45.638q-.575.35-1.212.538T8 22m8.5-3q1.05 0 1.775-.725T19 16.5t-.725-1.775T16.5 14t-1.775.725T14 16.5t.725 1.775T16.5 19m0 2q-1.875 0-3.187-1.312T12 16.5t1.313-3.187T16.5 12t3.188 1.313T21 16.5q0 .65-.175 1.25T20.3 18.9l2 2q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-2-2q-.55.35-1.15.525T16.5 21"/></svg>
-            </div>
-            <div class="content">
-              <h5>Research Edition</h5>
-              <p>Cost-effective and flexible, ideal for confined water testing and experimentation.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="feature-card configuration">
-        <header>
-          <h3>Configurations</h3>
-          <p>Offered in multiple configurations to match deployment scenarios and integration needs.</p>
-        </header>
-        <div class="feature-content">
-          <div class="card-row">
-            <div class="img-col">
-              <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-standalone.png" />
-            </div>
-            <div class="content">
-              <h5>Standalone</h5>
-              <p>Pressure-rated housing for independent deployment at depth.</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="img-col">
-              <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-oem.png" />
-            </div>
-            <div class="content">
-              <h5>Open</h5>
-              <p>Designed for integration with larger platforms such as AUVs, ROVs, and sensor systems.</p>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="img-col">
-              <img alt="Standalone modem" src="{{site.baseurl}}/images/feature-multi-channel.png" />
-            </div>
-            <div class="content">
-              <h5>Multi-receiver</h5>
-              <p>Delivers enhanced accuracy and performance using multiple synchronized receivers.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-{%- include radio-select.html -%}
-<div class='bg-grey'>
-  <div class='row row-padding-bottom'>
-  </div>
-  <div class='row row-width row-padding-bottom'>
-    <div class='large-12 columns flex-col'>
-      <h2>Brochures</h2>
-      <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
-        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">Generation 4 Wireless Networked Communications (WNC), Product Series Brief</a>
-      </div>
-      <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-        <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
-      </div>
-      <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
-        <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">Subnero S40H Underwater Modems</a>
-      </div>
-      <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem7.jpg"></a>
-        <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">Subnero L12L Underwater Modems</a>
-      </div>
-      <div class="brochure-container">
-					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc-whitepaper.jpg"></a>
-					<a href="{{site.baseurl}}/brochures/WNC-whitepaper.pdf" target="_blank">[Whitepaper] The Future of Underwater Wireless</a>
-			</div>
-      <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/unetstack-whitepaper.jpg"></a>
-				<a href="{{site.baseurl}}/brochures/unlocking-underwater-connectivity.pdf" target="_blank">[Whitepaper] Unlocking Underwater Connectivity</a>
-      </div>
-    </div>
-  </div>
-</div>
+</section>
