@@ -4803,6 +4803,9 @@ figure.float-img {
 .feature-grid.col3 {
   grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
 }
+.feature-grid.col4 {
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
 .row.offerings {
   background-color: #faebd7;
   padding: 3rem;
@@ -4904,11 +4907,11 @@ figure.float-img {
 }
 .comparison-table-wrap {
   width: 100%;
-  min-width: 800px;
   overflow-x: auto;
 }
 .comparison-table {
   width: 100%;
+  min-width: 800px;
   table-layout: fixed; 
   border-collapse: collapse;
   border: none;
@@ -4959,7 +4962,7 @@ figure.float-img {
   height: 100%;
   object-fit: contain;
 }
-.feature-grid > div {
+.feature-grid .feature-div {
   padding: 2rem;
   background-color: rgb(240, 248, 255);
   border-radius: 8px;
@@ -4981,7 +4984,41 @@ figure.float-img {
 .feature-list li b {
   color: #015B82;
 }
-
+.usecase-card {
+  min-width: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ecf3ff;
+}
+.usecase-card > div {
+  padding: 1rem;
+}
+.usecase-card h4 {
+  font-size: 1.4rem;
+  color: #FC8230;
+}
+.usecase-card p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.ecosystem-card {
+  position: relative;
+  padding: 1.4rem;
+  border-radius: 6px;
+  background-color: #faebd7;
+}
+.ecosystem-card header {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.ecosystem-card span {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-color: #b57d31;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;

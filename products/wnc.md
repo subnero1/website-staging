@@ -18,7 +18,7 @@ section_id: products
   </div>
 </section>
 
-<section class="products-page wnc" style="padding:4rem 1rem">
+<section class="products-page wnc" style="padding:4rem 1rem 2rem;">
   <div class="row large category-content">
     <h1 class="">What is WNC?</h1>
     <h3>The Complete Platform for Underwater Connectivity</h3>
@@ -53,7 +53,7 @@ section_id: products
   </div>
 </section>
 
-<section class="products-page unet" style="padding:4rem 1rem;">
+<section class="products-page unet" style="padding:4rem 1rem 2rem;">
   <div class="row large category-content">
     <h1 class="">Acoustic Smart Modems</h1>
     <h3>Performance for Every Environment</h3>
@@ -119,7 +119,7 @@ section_id: products
   </div>
   <div class="row large feature-grid-row">
     <div class="feature-grid col2">
-      <div>
+      <div class="feature-div">
         <h4 class="text-xl orange">Software-Defined Design</h4>
         <ul class="feature-list">
           <li><i class="icon-check"></i> <span><b>Ease of integration</b> with unified interfaces.</span></li>
@@ -133,7 +133,7 @@ section_id: products
           <li><i class="icon-check"></i> <span><b>Future Proof:</b> Regular software updates.</span></li>
         </ul>
       </div>
-      <div>
+      <div class="feature-div">
         <h4 class="text-xl orange">Advanced Networking &amp; Localization</h4>
         <ul class="feature-list">
           <li><i class="icon-check"></i> <span><b>Multi-Node Operations:</b> Operate multiple communication nodes simultaneously.</span></li>
@@ -146,3 +146,106 @@ section_id: products
     </div>
   </div>
 </section>
+
+<!-- The UnetStack Ecosystem -->
+<!-- background-image: url({{site.baseurl}}/images/unetstack-abstract-01.jpg);  -->
+<section class="products-page unet" style="padding:4rem 1rem 2rem;">
+  <div class="row large category-content">
+    <h1 class="">The UnetStack Ecosystem</h1>
+    <h3>The UnetStack framework provides a unified development environment that scales from your laptop to your entire subsea fleet, enabling a "simulate first, deploy second" workflow that saves time and cost.</h3>
+  </div>
+  <div class="row py2">
+    <div class="feature-grid col3">
+      <div class="ecosystem-card">
+        <header>
+          <span>01</span>
+          <h4 class="text-xl orange">Network Development Platform & Simulator (UnetSim)</h4>
+        </header>
+        <p>Design protocols and network architectures using high-level APIs (Python, Java, Groovy, Julia, C). Simulate your network logic on a standard laptop in realistic channel conditions before you ever get wet.</p>
+      </div>
+      <div class="ecosystem-card">
+        <header>
+          <span>01</span>
+          <h4 class="text-xl orange">Hardware-in-the-Loop (HIL) Simulation</h4>
+        </header>
+        <p>Bridge the gap between virtual and physical. Connect physical Gen4X modems to a virtual ocean environment to test large-scale networks and mission logic without the cost and risk of sea trials.</p>
+      </div>
+      <div class="ecosystem-card">
+        <header>
+          <span>01</span>
+          <h4 class="text-xl orange">OEM Modem Development Platform (UnetCube)</h4>
+        </header>
+        <p>For developers building their own custom hardware, UnetCube provides a compact, rapid-prototyping environment to integrate UnetStack into your own vehicles or sensors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Flexible Configurations for Any Platform -->
+<section class="products-page unet" style="padding:4rem 1rem 2rem;">
+  <div class="row large category-content">
+    <h1 class="">Flexible Configurations for Any Platform</h1>
+    <h3>The product series is available in different configurations such as Standalone (SC) and OEM (OC) to address diverse deployment scenarios. These are designed for seabed-mounted deployments (SC with pressure hull) and tight integration into marine robotics like AUVs/ROVs (OC).</h3>
+  </div>
+  <div class="row">
+    <div class="feature-grid col2">
+      <div>
+        <h4>Standalone Configuration (SC)</h4>
+        <p>Complete, pressure-rated units (up to 6000m) ready for seabed or suspended deployment.</p>
+      </div>
+      <div>
+        <h4>OEM Configuration (OC)</h4>
+        <p>Compact, board-level integration for Marine Robotics (AUVs, ROVs) and custom subsea sensors.</p>
+      </div>
+      <div>
+        <h4>Deck Configuration</h4>
+        <p>Topside units designed for easy deployment from vessels or buoys, featuring ruggedized casing and simplified connectivity.</p>
+      </div>
+      <div>
+        <h4>Multi-Channel Configuration</h4>
+        <p>Leverage spatial diversity with additional hydrophones to improve reliability and reception in challenging acoustic environments.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Powering the Blue Economy -->
+<section class="products-page unet" style="padding:4rem 1rem 4rem;">
+  <div class="row large category-content">
+    <h1>Powering the Blue Economy</h1>
+    <h3>The WNC Gen4X platform is designed for versatility, providing critical connectivity and networking for a wide range of subsea applications. Explore some of the common use cases below where our technology is making an impact.</h3>
+  </div>
+  <div class="row large">
+    <div class="feature-grid col4 usecase">
+      <div class="usecase-card">
+        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense" />
+        <div>
+          <h4>Defense</h4>
+          <p>Tactical diver communications and secure, low-probability-of-detection networks.</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Scientific Research" />
+        <div>
+          <h4>Scientific Research</h4>
+          <p>Environmental monitoring, climate data harvesting, and experimental protocol testing.</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Marine Robotics" />
+        <div>
+          <h4>Marine Robotics</h4>
+          <p>Command & Control (C2) for AUV swarms and tetherless ROV operations.</p>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Commercial" />
+        <div>
+          <h4>Commercial</h4>
+          <p>Subsea asset monitoring and underwater construction support.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
