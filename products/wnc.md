@@ -182,6 +182,23 @@ section_id: products
       </div>
     </div>
   </div>
+  <div class="row edition-row" style="background-color: #FFEFE4;">
+    <h3>Software Editions</h3>
+    <div class="feature-grid col3">
+      <div class="feature-edition">
+        <h4>Community Edition</h4>
+        <p>Free for education and research. Includes UnetSim.</p>
+      </div>
+      <div class="feature-edition">
+        <h4>Commercial Edition</h4>
+        <p>For commercial deployments requiring robust support and advanced agents.</p>
+      </div>
+      <div class="feature-edition">
+        <h4>OEM Edition</h4>
+        <p>Pre-installed on Subnero hardware for seamless integration.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Flexible Configurations for Any Platform -->
