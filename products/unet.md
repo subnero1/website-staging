@@ -153,42 +153,42 @@ section_id: products
   </div>
   <div class="row">
     <div class="feature-grid col3 py2">
-      <a class="docs-card" href="#">
+      <a class="docs-card" href="https://unetstack.net/javadoc/3.4/" target="_blank">
         <div class="icon-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M9 13h6q.425 0 .713-.288T16 12t-.288-.712T15 11H9q-.425 0-.712.288T8 12t.288.713T9 13m0 3h6q.425 0 .713-.288T16 15t-.288-.712T15 14H9q-.425 0-.712.288T8 15t.288.713T9 16m0 3h3q.425 0 .713-.288T13 18t-.288-.712T12 17H9q-.425 0-.712.288T8 18t.288.713T9 19m-3 3q-.825 0-1.412-.587T4 20V4q0-.825.588-1.412T6 2h7.175q.4 0 .763.15t.637.425l4.85 4.85q.275.275.425.638t.15.762V20q0 .825-.587 1.413T18 22zM18 9h-3.5q-.625 0-1.062-.437T13 7.5V4H6v16h12zM6 4v5zv16z"/></svg>
         </div>
         <h4>UnetStack 3.4.0 javadoc</h4>
         <p>UnetStack programmer's reference (archived: v3.0.2 javadoc, v3.1.0 javadoc, v3.2.0 javadoc, v3.3.0 javadoc)</p>
       </a>
-      <a class="docs-card" href="#">
+      <a class="docs-card" href="https://unetstack.net/handbook" target="_blank">
         <div class="icon-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M6 15.325q.35-.175.725-.25T7.5 15H8V4h-.5q-.625 0-1.062.438T6 5.5zM10 15h8V4h-8zm-4 .325V4zM7.5 22q-1.45 0-2.475-1.025T4 18.5v-13q0-1.45 1.025-2.475T7.5 2H18q.825 0 1.413.587T20 4v12.525q0 .2-.162.363t-.588.362q-.35.175-.55.5t-.2.75t.2.763t.55.487t.55.413t.2.562v.25q0 .425-.288.725T19 22zm0-2h9.325q-.15-.35-.237-.712T16.5 18.5q0-.4.075-.775t.25-.725H7.5q-.65 0-1.075.438T6 18.5q0 .65.425 1.075T7.5 20"/></svg>
         </div>
         <h4>Unet handbook</h4>
         <p>Learn to design, simulate and deploy underwater networks with UnetStack3</p>
       </a>
-      <a class="docs-card" href="#">
+      <a class="docs-card" href="https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw" target="_blank">
         <div class="icon-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE --><path fill="currentColor" d="M21 3H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5a2 2 0 0 0-2-2m0 14H3V5h18zm-5-6l-7 4V7z"/></svg>
         </div>
         <h4>Video tutorials</h4>
         <p>Prefer to watch rather than read?</p>
       </a>
-      <a class="docs-card" href="#">
+      <a class="docs-card" href="http://org-arl.github.io/fjage/javadoc/" target="_blank">
         <div class="icon-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M9.5 14H11v-3h4.5L14 9l1.5-2h-6zM5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg>
         </div>
         <h4>fjåge javadoc</h4>
         <p>fjåge programmer's reference</p>
       </a>
-      <a class="docs-card" href="#">
+      <a class="docs-card" href="https://fjage.readthedocs.io/en/latest/" target="_blank">
         <div class="icon-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zM5 5v14h14V5h-2v6.125q0 .3-.25.438t-.5-.013l-1.225-.75q-.25-.15-.525-.15t-.525.15l-1.225.75q-.25.15-.5.013t-.25-.438V5zm0 14V5z"/></svg>
         </div>
         <h4>fjåge developer's guide</h4>
         <p>UnetStack is based on the fjåge agent-based framework</p>
       </a>
-      <a class="docs-card" href="#">
+      <a class="docs-card" href="https://unetstack.net/#modal-languages" target="_blank">
         <div class="icon-wrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from TDesign Icons by TDesign - https://github.com/Tencent/tdesign-icons/blob/main/LICENSE --><path fill="none" stroke="currentColor" stroke-linecap="square" stroke-width="2" d="m15 5l-3-3l-3 3m10 10l3-3l-3-3M9 19l3 3l3-3M5 9l-3 3l3 3m6.998-3.002h.004v.004h-.004z"/></svg>
         </div>

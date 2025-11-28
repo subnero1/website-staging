@@ -4817,7 +4817,7 @@ figure.float-img {
   flex-direction: column;
   min-height: 100px;
   padding: 2rem;
-  background-color: #10395d;
+  background-color: #23435d;
   border-radius: 6px;
 }
 .editions-card p {
@@ -5759,6 +5759,11 @@ figure.float-img {
   .tab-nav button {
     flex: none;
     width: 300px;
+  }
+  .resource-wrap a {
+    max-width: 100%;
+    width: 100%;
+    min-width: auto;
   }
 }
 

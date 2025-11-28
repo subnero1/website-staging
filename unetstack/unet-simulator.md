@@ -16,7 +16,7 @@ section_id: products
   </div>
 </section>
 <div class="row large" style="padding:8px 1rem 0">
-  <a href="{{site.baseurl}}/products/unet">&#8592; Back</a>
+  <a href="javascript:history.back()">&#8592; Back</a>
 </div>
 
 <section class="unet" style="padding:4rem 0">
