@@ -5007,18 +5007,10 @@ figure.float-img {
   border-radius: 6px;
   background-color: #faebd7;
 }
-.ecosystem-card header {
-  display: flex;
-  align-items: flex-start;
-  gap: 6px;
+.ecosystem-card h4 span {
+  color: #30607e;
 }
-.ecosystem-card span {
-  flex: none;
-  width: 30px;
-  height: 30px;
-  color: #fff;
-  background-color: #b57d31;
-}
+
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;

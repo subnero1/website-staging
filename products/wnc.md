@@ -157,24 +157,15 @@ section_id: products
   <div class="row py2">
     <div class="feature-grid col3">
       <div class="ecosystem-card">
-        <header>
-          <span>01</span>
-          <h4 class="text-xl orange">Network Development Platform & Simulator (UnetSim)</h4>
-        </header>
+        <h4 class="text-xl orange"><span>01.</span> Network Development Platform & Simulator (UnetSim)</h4>
         <p>Design protocols and network architectures using high-level APIs (Python, Java, Groovy, Julia, C). Simulate your network logic on a standard laptop in realistic channel conditions before you ever get wet.</p>
       </div>
       <div class="ecosystem-card">
-        <header>
-          <span>01</span>
-          <h4 class="text-xl orange">Hardware-in-the-Loop (HIL) Simulation</h4>
-        </header>
+        <h4 class="text-xl orange"><span>02.</span> Hardware-in-the-Loop (HIL) Simulation</h4>
         <p>Bridge the gap between virtual and physical. Connect physical Gen4X modems to a virtual ocean environment to test large-scale networks and mission logic without the cost and risk of sea trials.</p>
       </div>
       <div class="ecosystem-card">
-        <header>
-          <span>01</span>
-          <h4 class="text-xl orange">OEM Modem Development Platform (UnetCube)</h4>
-        </header>
+        <h4 class="text-xl orange"><span>03.</span> OEM Modem Development Platform (UnetCube)</h4>
         <p>For developers building their own custom hardware, UnetCube provides a compact, rapid-prototyping environment to integrate UnetStack into your own vehicles or sensors.</p>
       </div>
     </div>
