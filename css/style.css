@@ -5058,6 +5058,31 @@ figure.float-img {
   font-size: 1.2rem;
   color: #015B82;
 }
+/* Quicklinks */
+.section-qlinks {
+  position: relative;
+  padding: 2rem 1rem;
+}
+.qlinks-row {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+  display: flex;
+  column-gap: 2rem;
+}
+.qlinks-nav {
+  position: relative;
+  flex: none;
+  padding: 0 2rem;
+}
+.qlinks-nav-wrapper {
+  position: sticky;
+  top: 120px;
+}
+.qlinks-content {
+  padding-left: 2rem;
+}
 
 @media (min-width: 1593px){
   .media.product{
