@@ -4201,11 +4201,10 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: flex;
   align-items: center;
   gap: 12px;
-  background-color: #F5F7FF;
-}
-.download-file{
+  padding-right: 8px;
   color: #000;
   font-size: 1.2rem;
+  background-color: #F5F7FF;
 }
 .useful-links {
   margin-bottom: 3rem;
@@ -5067,12 +5066,12 @@ figure.float-img {
   width: 100%;
   max-width: 80rem;
   margin: 0 auto;
-  padding-bottom: 6rem;
   display: flex;
   column-gap: 2rem;
 }
 .qlinks-nav {
   position: relative;
+  min-width: 200px;
   flex: none;
   padding: 0 2rem;
 }
@@ -5081,9 +5080,58 @@ figure.float-img {
   top: 120px;
 }
 .qlinks-content {
-  padding-left: 2rem;
+  flex: 1;
+  min-width: 0;
 }
-
+.qlinks-wrap {
+  margin-bottom: 4rem;
+}
+.qlinks-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 2rem;
+  padding-left: 1.4rem;
+}
+.qlinks-list {
+  padding-left: 1.4rem;
+}
+.qlinks-list a {
+  display: block;
+  font-size: 1.2rem;
+  color: #406380;
+}
+.qlinks-list a:hover {
+  color: #FC8230;
+}
+.qlinks-list a::before {
+  content: "\2756";
+  margin-right: 4px;
+  font-size: 20px;
+  color: #7e7e7e;
+}
+.qlinks-list a + a {
+  margin-top: 1rem;
+}
+.qlinks-title {
+  position: relative;
+  margin: 0;
+  padding: 12px 0 12px 1.4rem;
+  font-size: 1.6rem;
+  color: #FC8230;
+  text-transform: none;
+  cursor: default;
+}
+.qlink-anchor {
+  display: none;
+  position: absolute;
+  left: -2px;
+  top: 50%;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.qlinks-title:hover .qlink-anchor {
+  display: inline-block;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
@@ -5617,7 +5665,8 @@ figure.float-img {
   .top-bar-section .has-dropdown > a {
     pointer-events: none;
   }
-  .faq-categories {
+  .faq-categories,
+  .qlinks-nav {
     display: none;
   }
   .faq-content {
@@ -5646,6 +5695,13 @@ figure.float-img {
   }
   .story-section {
     padding: 1rem;
+  }
+  .qlinks-wrap {
+    margin-bottom: 2rem;
+  }
+  .qlinks-title,
+  .qlinks-cards {
+    padding-left: 0;
   }
 }
 
