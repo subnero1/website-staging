@@ -5071,7 +5071,7 @@ figure.float-img {
 }
 .qlinks-nav {
   position: relative;
-  min-width: 200px;
+  min-width: 220px;
   flex: none;
   padding: 0 2rem;
 }
@@ -5088,7 +5088,7 @@ figure.float-img {
 }
 .qlinks-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 2rem;
   padding-left: 1.4rem;
 }
