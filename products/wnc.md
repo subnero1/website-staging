@@ -23,6 +23,33 @@ section_id: products
     <h1 class="">What is WNC?</h1>
     <h3>The Complete Platform for Underwater Connectivity</h3>
   </div>
+  <div class="row large">
+    <div class="large-6 columns"> 
+      <div class="category-content">
+        <p>The WNC Product Series brings together Subnero’s acoustic smart modems, the industry-leading UnetStack software ecosystem, and modular configurations to support a wide range of underwater communication needs.</p>
+        <p>Now featuring three distinct frequency bands (LF, MF, HF) and the new UnetStack ecosystem, Gen4X offers a unified workflow—from desktop simulation to deep-sea deployment. Whether you need full smart modem systems, standalone software, or component-level solutions like UnetCube, WNC is the platform for the future of subsea connectivity.</p>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>  
+  </div>
+  <div style="background-color: #f4f4f4;">
+    <div class="row large py2">
+      <div class="feature-grid col2">
+        <div>
+          <h5 class="text-md orange">Acoustic Smart Modems</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi a earum eius esse quia, vel labore quasi magni expedita sequi aut nihil consequatur cumque corrupti rerum veritatis soluta nemo.</p>
+          <a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a>
+        </div>
+        <div>
+          <h5 class="text-md orange">UnetStack ecosystem</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi a earum eius esse quia, vel labore quasi magni expedita sequi aut nihil consequatur cumque corrupti rerum veritatis soluta nemo.</p>
+          <a class="inline-btn" href="{{site.baseurl}}/products/wnc.html">Read More &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="row large quickview-cards">
     <div>
       <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24"><!-- Icon from Huge Icons by Hugeicons - undefined --><g fill="none" stroke="currentColor"><path stroke-width="1.5" d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12Z"/><path stroke-linejoin="round" stroke-width="1.5" d="M2.5 9h19"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 6h.009M11 6h.009"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8 13l1.227 1.057c.515.445.773.667.773.943s-.258.498-.773.943L8 17m4 0h4"/></g></svg>
@@ -39,17 +66,6 @@ section_id: products
       <h4>Scalable</h4>
       <p>From Simulation to Deployment</p>
     </div>
-  </div>
-  <div class="row large">
-    <div class="large-6 columns"> 
-      <div class="category-content">
-        <p>The WNC Product Series brings together Subnero’s acoustic smart modems, the industry-leading UnetStack software ecosystem, and modular configurations to support a wide range of underwater communication needs.</p>
-        <p>Now featuring three distinct frequency bands (LF, MF, HF) and the new UnetStack ecosystem, Gen4X offers a unified workflow—from desktop simulation to deep-sea deployment. Whether you need full smart modem systems, standalone software, or component-level solutions like UnetCube, WNC is the platform for the future of subsea connectivity.</p>
-      </div>
-    </div>
-    <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
   </div>
 </section>
 
@@ -151,6 +167,32 @@ section_id: products
   </div>
 </section>
 
+<!-- Flexible Configurations for Any Platform -->
+<section class="products-page unet" style="padding:4rem 1rem 2rem; background-image: url({{site.baseurl}}/images/hero-wnc.jpg);">
+  <div class="row large category-content">
+    <h1 class="">Flexible Configurations for Any Platform</h1>
+    <h3>The product series is available in different configurations such as Standalone (SC) and OEM (OC) to address diverse deployment scenarios. These are designed for seabed-mounted deployments (SC with pressure hull) and tight integration into marine robotics like AUVs/ROVs (OC).</h3>
+  </div>
+  <div class="row">
+    <div class="feature-grid col2">
+      <div class="configs">
+        <h4 class="text-xl orange">Standalone Configuration (SC)</h4>
+        <p>Complete, pressure-rated units (up to 6000m) ready for seabed or suspended deployment.</p>
+      </div>
+      <div class="configs">
+        <h4 class="text-xl orange">OEM Configuration (OC)</h4>
+        <p>Compact, board-level integration for Marine Robotics (AUVs, ROVs) and custom subsea sensors.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row optional-accessories" style="background-color: #FFEFE4;">
+    <h3>Optional Accessories &amp; Upgrades</h3>
+    <div>
+      <p>Enhance your Subnero modem’s capabilities with a range of accessories and optional upgrades designed for seamless integration and extended functionality. From modules such as additional receiving channels, co-processors, and storage units to hull configurations and specialized cables, these add-ons help tailor each system to specific deployment needs and environments.</p>
+    </div>
+  </div>
+</section>
+
 <!-- The UnetStack Ecosystem -->
 <section class="products-page unet" style="padding:4rem 1rem 2rem; background-color: rgb(196 231 255 / 20%);">
   <div class="row large category-content">
@@ -197,40 +239,6 @@ section_id: products
         <h4>OEM Edition</h4>
         <p>Pre-installed on Subnero hardware for seamless integration.</p>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- Flexible Configurations for Any Platform -->
-<section class="products-page unet" style="padding:4rem 1rem 2rem; background-image: url({{site.baseurl}}/images/hero-wnc.jpg);">
-  <div class="row large category-content">
-    <h1 class="">Flexible Configurations for Any Platform</h1>
-    <h3>The product series is available in different configurations such as Standalone (SC) and OEM (OC) to address diverse deployment scenarios. These are designed for seabed-mounted deployments (SC with pressure hull) and tight integration into marine robotics like AUVs/ROVs (OC).</h3>
-  </div>
-  <div class="row">
-    <div class="feature-grid col2">
-      <div class="configs">
-        <h4 class="text-xl orange">Standalone Configuration (SC)</h4>
-        <p>Complete, pressure-rated units (up to 6000m) ready for seabed or suspended deployment.</p>
-      </div>
-      <div class="configs">
-        <h4 class="text-xl orange">OEM Configuration (OC)</h4>
-        <p>Compact, board-level integration for Marine Robotics (AUVs, ROVs) and custom subsea sensors.</p>
-      </div>
-      <div class="configs">
-        <h4 class="text-xl orange">Deck Configuration</h4>
-        <p>Topside units designed for easy deployment from vessels or buoys, featuring ruggedized casing and simplified connectivity.</p>
-      </div>
-      <div class="configs">
-        <h4 class="text-xl orange">Multi-Channel Configuration</h4>
-        <p>Leverage spatial diversity with additional hydrophones to improve reliability and reception in challenging acoustic environments.</p>
-      </div>
-    </div>
-  </div>
-  <div class="row optional-accessories" style="background-color: #FFEFE4;">
-    <h3>Optional Accessories &amp; Upgrades</h3>
-    <div>
-      <p>Enhance your Subnero modem’s capabilities with a range of accessories and optional upgrades designed for seamless integration and extended functionality. From modules such as additional receiving channels, co-processors, and storage units to hull configurations and specialized cables, these add-ons help tailor each system to specific deployment needs and environments.</p>
     </div>
   </div>
 </section>

@@ -2696,7 +2696,7 @@ input[type="range"]::-webkit-slider-thumb {
 .quickview-cards {
   display: flex;
   justify-content: center;
-  padding: 0 1rem 2.6rem;
+  padding: 4rem 1rem 1rem;
   gap: 16px;
 }
 .quickview-cards > div {
