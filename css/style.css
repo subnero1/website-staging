@@ -121,6 +121,7 @@ ul.shortcode-list i {
 .py2 {padding-top: 2rem; padding-bottom: 2rem;}
 .m0 {margin:0}
 .capitalize-none { text-transform: none;}
+.normal-spacing {letter-spacing: normal;}
 .text-white {color: #fff;}
 .text-blue {color: #7fbaff;}
 .text-500 {font-weight: 500;}
@@ -3881,7 +3882,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .g4x-section .sec-head {
@@ -5028,24 +5029,19 @@ figure.float-img {
 .comparison-table td {
   font-size: 1.2rem;
 }
-.comparison-table th:nth-child(1),
+/* .comparison-table th:nth-child(1),
 .comparison-table td:nth-child(1) {
-  background: #fbfbfc; /* feature column - light gray */
-  font-weight: 500;
-  color: #015B82;
 }
 .comparison-table th:nth-child(2),
 .comparison-table td:nth-child(2) {
-  background: #fff8f0; /* L12L - light warm */
+
 }
 .comparison-table th:nth-child(3),
 .comparison-table td:nth-child(3) {
-  background: #f0fbff; /* M25M - light blue */
 }
 .comparison-table th:nth-child(4),
 .comparison-table td:nth-child(4) {
-  background: #f7fff3; /* S40H - light green */
-}
+} */
 .comparison-img {
   aspect-ratio: 1 / .8;
   width: 100%;
