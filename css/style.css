@@ -3899,9 +3899,6 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   border: 1px solid #F8BB96;
   border-radius: 25px;
 }
-/* .pulsating-text {
-  animation: pulse 1s infinite alternate;
-} */
 .text-gradient {
   background-image: linear-gradient(90deg, #F2772F, #D64235);
   background-clip: text;
@@ -3913,7 +3910,76 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin: 0;
   color: #344154;
 }
-
+.hero-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  background-color: rgba(15, 33, 31, 0.58);
+}
+.links-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+}
+.link-card {
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1rem;
+}
+.link-card.hp,
+.link-card.hp:hover {
+  color: #E6782F;
+}
+.link-card.sd,
+.link-card.sd:hover {
+  color: #3885F0;
+}
+.link-card.fc,
+.link-card.fc:hover {
+  color: #9F61F0;
+}
+.link-card.ed,
+.link-card.ed:hover {
+  color: #4AC168;
+}
+.link-card + .link-card {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.link-card:hover {
+  background-color: rgba(15, 33, 31, 0.6);
+}
+.link-card-svg {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+}
+.link-card h3 {
+  font-size: 1rem;
+  text-transform: none;
+  margin: 0;
+  color: #fff;
+  letter-spacing: normal;
+}
+.link-card p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: rgb(162 192 234);
+}
+.wnc-products:hover .link-card h3 {
+  color: currentColor;
+}
+.wnc-products:hover .link-card-svg {
+  background-color: currentColor;
+}
+.wnc-products:hover .link-card svg {
+  color: #fff;
+}
 .g4x-section {
   padding: 4rem 1rem 2rem;
 }
@@ -5517,6 +5583,7 @@ a.usecase-card:hover {
 .qlinks-title:hover .qlink-anchor {
   display: inline-block;
 }
+
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
