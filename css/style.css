@@ -120,6 +120,9 @@ ul.shortcode-list i {
 .p2 {padding: 2rem;}
 .py2 {padding-top: 2rem; padding-bottom: 2rem;}
 .m0 {margin:0}
+.my2 {margin-top: 2rem; margin-bottom: 2rem;}
+.my3 {margin-top: 3rem; margin-bottom: 3rem;}
+.mt3 {margin-top: 3rem;}
 .capitalize-none { text-transform: none;}
 .normal-spacing {letter-spacing: normal;}
 .text-white {color: #fff;}
@@ -3878,6 +3881,9 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .g4x-section {
   padding: 2rem 1rem;
 }
+.g4x-section.ueco {
+  padding: 4rem 1rem;
+}
 .g4x-section-head {
   width: 100%;
   max-width: 800px;
@@ -5168,7 +5174,7 @@ figure.float-img {
   gap: 2rem;
   min-width: 200px;
 }
-.usecase-card:hover {
+a.usecase-card:hover {
   border-color: #FC8230;
 }
 .usecase-card img {
@@ -5177,6 +5183,18 @@ figure.float-img {
   max-width: 200px;
   height: auto;
   margin: 0 auto;
+}
+.usecase-card .img-wrapper {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 1.4rem;
+}
+.usecase-card .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: none;
+  border-radius: 4px;
 }
 .usecase-card > div {
   text-align: center;
@@ -5200,6 +5218,30 @@ figure.float-img {
   max-width: 240px;
   height: auto;
 }
+.blue-economy-features > div {
+  margin-top: 1.4rem;
+}
+.blue-economy-features h5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: rgb(15, 23, 43);
+  text-align: left;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.blue-economy-features h5 svg {
+  color: #FC8230;
+}
+.blue-economy-features p {
+  text-align: left;
+  margin: 0;
+  color: rgb(49, 65, 88);
+}
+
 .learn-link {
   font-size: 1.4rem;
   font-weight: 500;
@@ -5262,6 +5304,57 @@ figure.float-img {
 .edition-row h4 {
   font-size: 1.2rem;
   color: #015B82;
+}
+.header-2col {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 0;
+}
+.header-2col > div {
+  width: 50%;
+}
+.header-2col h2 {
+  font-weight: 600;
+  color: #fff;
+  text-transform: none;
+}
+.header-2col p {
+  color: rgb(202, 213, 226);
+}
+.card-unet-eco {
+  padding: 2rem;
+  background-color: rgb(29, 41, 61);
+  border-radius: 12px;
+  border: 1px solid #344154;
+}
+.card-unet-eco .card-svg {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  margin-bottom: 1.8rem;
+  background-color: rgb(49, 65, 88);
+  border-radius: 4px;
+}
+.card-unet-eco .card-svg svg {
+  color: #fff;
+}
+.card-unet-eco h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 1rem;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.card-unet-eco p {
+  font-size: 1.2rem;
+  color: rgb(144, 161, 185); 
+  margin: 0;
+}
+.card-spacer {
+  flex: none;
+  width: 2px;
+  background-color: rgb(49, 65, 88);
 }
 /* Quicklinks */
 .section-quicklinks {
