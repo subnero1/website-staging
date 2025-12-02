@@ -75,7 +75,7 @@ layout: default
       <p>Available in standalone, and open configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance systems.</p>
     </header>
     <div class="card-wrapper">
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mss4x">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x">
         <h2>WNC-M25MSS4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png">
@@ -83,7 +83,7 @@ layout: default
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
       </a>
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mso4x">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x">
         <h2>WNC-M25MSO4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png">

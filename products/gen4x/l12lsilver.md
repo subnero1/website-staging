@@ -75,7 +75,7 @@ layout: default
       <p>Available in standalone, and open configurations to suit a range of deployment needs—from self-contained setups to integrated systems.</p>
     </header>
     <div class="card-wrapper">
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lss4x">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-l12lss4x">
         <h2>WNC-L12LSS4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/L12L-silver-sc-preview.png">
@@ -83,7 +83,7 @@ layout: default
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or supply.</p>
       </a>
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-l12lhso4x">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-l12lhso4x">
         <h2>WNC-L12LSO4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/L12L-silver-oc-preview.png">

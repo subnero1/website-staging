@@ -73,7 +73,7 @@ layout: default
       <p>Available in standalone and open configurations to suit a range of deployment needs—from self-contained setups to integrated and high-performance systems.</p>
     </header>
     <div class="card-wrapper">
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-s40hss4x">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hss4x">
         <h2>WNC-S40HSS4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/S40H-silver-sc-preview.png">
@@ -81,7 +81,7 @@ layout: default
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
       </a>
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-s40hso4x">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hso4x">
         <h2>WNC-S40HSO4X</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/S40H-silver-oc-preview.png">

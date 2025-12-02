@@ -62,7 +62,7 @@ layout: default
       <p>Available in standalone, and embedded configurations to suit a range of deployment needs—from self-contained setups to integrated systems.</p>
     </header>
     <div class="card-wrapper">
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mps3">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mps3">
         <h2>WNC-M25MPS3</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-sc-preview.png">
@@ -70,7 +70,7 @@ layout: default
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
       </a>
-      <a class="product-card" href="javascript:void(0)" data-product="wnc-m25mpe3">
+      <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mpe3">
         <h2>WNC-M25MPE3</h2>
         <div class="product-img">
           <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-ec-preview.png">

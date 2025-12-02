@@ -8,25 +8,28 @@ categories: wnc
 section_id: products
 ---
 
-<section class="g4x-hero">
-  <div class="g4x-hero-wrap">
-    <h4 class="g4x-tag pulsating-text">Product Series</h4>
-    <h1>
-      <span class="text-gradient">W</span>ireless 
-      <span class="text-gradient">N</span>etworked 
-      <span class="text-gradient">C</span>ommunication
-    </h1>
-    <p>The complete platform for underwater connectivity.</p>
-    <div class="g4x-hero-btns">
-      <a href="#" class="button radius">Explore Acoustic Smart Modems</a>
-      <a href="#" class="button radius">Explore UnetStack</a>
+<section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+  <div class="row flex-row">
+    <div class="hero-text">
+      <h4 class="g4x-tag">Product Series</h4>
+      <h1>
+        <span class="text-gradient">W</span>ireless 
+        <span class="text-gradient">N</span>etworked 
+        <span class="text-gradient">C</span>ommunication
+      </h1>
+      <p>The complete platform for underwater connectivity.</p>
+      <div class="g4x-hero-btns">
+        <a href="#smart-modems" class="button warning">Explore Smart Modems</a>
+        <a href="#unetstack" class="button info">Explore UnetStack</a>
+      </div>
     </div>
   </div>
+  <!-- <a class="explore-link" href="#">&rarr;</a> -->
 </section>
 
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient">WNC Product Series Overview</h2>
+    <h2 class="sec-head text-gradient">Overview</h2>
     <p class="sec-subhead">Subnero's WNC Product Series brings together Subnero’s acoustic smart modems and the UnetStack software ecosystem to support a wide range of underwater communication needs.</p>
   </div>
   <div class="row py2">
@@ -45,9 +48,13 @@ section_id: products
   </div>
 </section>
 
-<section class="g4x-section">
+<section class="call-to-action category-container">
+  {%- include formCTA.html -%}
+</section>
+
+<section class="g4x-section" id="smart-modems">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg">Acoustic Smart Modems</h2>
+    <h2 class="sec-head lg text-gradient">Acoustic Smart Modems</h2>
     <p class="sec-subhead">Optimized performance for every environment.</p>
   </div>
   <div class="row large py2">
@@ -95,9 +102,9 @@ section_id: products
           </tr>
           <tr>
             <td>Best for</td>
-            <td>Long Range / Deep Water</td>
-            <td>General Purpose / Littoral</td>
-            <td>High Speed / Short Range</td>
+            <td>Long Range</td>
+            <td>General Purpose</td>
+            <td>High Speed</td>
           </tr>
           <tr>
             <td>Frequency</td>
@@ -125,7 +132,7 @@ section_id: products
   <div class="row large py2">
     <div class="feature-grid col2">
       <div class="wnc-card p2">
-        <h5 class="g4x-h5"><span class="text-icon">Perf</span> Exceptional Performance</h5>
+        <h5 class="g4x-h5 text-gradient"><span class="text-icon">Perf</span> Exceptional Performance</h5>
         <ul class="feature-list ep">
           <li><i class="icon-check"></i> <span><b>High Speed:</b> Up to 33 kbps data rate in shallow waters (S40H Series).</span></li>
           <li><i class="icon-check"></i> <span><b>Long Range:</b> More than 10 km range in challenging conditions (L12L Series).</span></li>
@@ -133,16 +140,15 @@ section_id: products
         </ul>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5"><span class="text-icon">R&D</span> Ideal R&D Platform</h5>
-        <ul class="feature-list rd">
-          <li><i class="icon-check"></i> <span><b>Custom Signals:</b> Transmit in-band signals & wave files.</span></li>
-          <li><i class="icon-check"></i> <span><b>Arbitrary Waveforms:</b> Stream/record passband & baseband.</span></li>
-          <li><i class="icon-check"></i> <span><b>Advanced Detection:</b> Custom preambles & matched filters.</span></li>
-          <li><i class="icon-check"></i> <span><b>Full Stack Access:</b> Replace any layer (incl. PHY) & use precision timing.</span></li>
+        <h5 class="g4x-h5 text-gradient"><span class="text-icon">App</span> Built for Real Applications</h5>
+        <ul class="feature-list ra">
+          <li><i class="icon-check"></i> <span><b>Versatile Use:</b> AUV/USV comms, survey ops, harvesting & monitoring.</span></li>
+          <li><i class="icon-check"></i> <span><b>Lifecycle Support:</b> From rapid prototyping to long-duration autonomous missions.</span></li>
+          <li><i class="icon-check"></i> <span><b>Easy Integration:</b> Standard APIs and electrical interfaces for existing equipment.</span></li>
         </ul>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5"><span class="text-icon">Net</span> Advanced Networking</h5>
+        <h5 class="g4x-h5 text-gradient"><span class="text-icon">Net</span> Advanced Networking</h5>
         <ul class="feature-list an">
           <li><i class="icon-check"></i> <span><b>Full Network Stack:</b> Support for multi-hop and mesh architectures.</span></li>
           <li><i class="icon-check"></i> <span><b>Built-in Management:</b> Routing, scheduling, link mgmt & remote config.</span></li>
@@ -150,11 +156,12 @@ section_id: products
         </ul>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5"><span class="text-icon">App</span> Built for Real Applications</h5>
-        <ul class="feature-list ra">
-          <li><i class="icon-check"></i> <span><b>Versatile Use:</b> AUV/USV comms, survey ops, harvesting & monitoring.</span></li>
-          <li><i class="icon-check"></i> <span><b>Lifecycle Support:</b> From rapid prototyping to long-duration autonomous missions.</span></li>
-          <li><i class="icon-check"></i> <span><b>Easy Integration:</b> Standard APIs and electrical interfaces for existing equipment.</span></li>
+        <h5 class="g4x-h5 text-gradient"><span class="text-icon">R&D</span> Ideal R&D Platform</h5>
+        <ul class="feature-list rd">
+          <li><i class="icon-check"></i> <span><b>Custom Signals:</b> Transmit in-band signals & wave files.</span></li>
+          <li><i class="icon-check"></i> <span><b>Arbitrary Waveforms:</b> Stream/record passband & baseband.</span></li>
+          <li><i class="icon-check"></i> <span><b>Advanced Detection:</b> Custom preambles & matched filters.</span></li>
+          <li><i class="icon-check"></i> <span><b>Full Stack Access:</b> Replace any layer (incl. PHY) & use precision timing.</span></li>
         </ul>
       </div>
     </div> 
@@ -164,7 +171,7 @@ section_id: products
 <!-- Editions & Configurations -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg">Editions & Configurations</h2>
+    <h2 class="sec-head lg text-gradient">Editions & Configurations</h2>
   </div>
   <div class="row large py2">
     <div class="feature-grid col3">
@@ -182,8 +189,8 @@ section_id: products
           <p>The reliable workhorse for commercial deployments.</p>
         </div>
       </a>
-      <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mresearch.html" title="Bronze Edition">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-preview.png" alt="Bronze Edition">
+      <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mbronze.html" title="Bronze Edition">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-preview.png" alt="Bronze Edition">
         <div>
           <h4>Bronze</h4>
           <p>The agile choice for field testing and controlled environments.</p>
@@ -197,15 +204,15 @@ section_id: products
   </div>
   <div class="row">
     <div class="feature-grid col2">
-      <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mplatinum.html" title="Standalone">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-preview.png" alt="Standalone">
+      <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x" title="Standalone">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Standalone">
         <div>
           <h4>Standalone</h4>
           <p>Pressure rated hull (6000m)</p>
         </div>
       </a>
-      <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25msilver.html" title="OEM">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-preview.png" alt="OEM">
+      <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x" title="OEM">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="OEM">
         <div>
           <h4>OEM</h4>
           <p>Board-level integration</p>
@@ -213,11 +220,30 @@ section_id: products
       </a>
     </div>
   </div>
+  <!-- Dialog for the above Standalone (SC) and OEM (OC) cards -->
+  <dialog id="configModal" class="modal-dialog">
+      <div class="modal-content">
+        <header>
+          <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
+        </header>
+        <div class="main">
+          <div class="main modal-content-item" data-product="wnc-m25mss4x">
+            <h2 class="text-xl orange text-center">Standalone Configuration (SC)</h2>
+            <p>The standalone configuration (SC) features a pressure-rated housing designed for operation at various depths, powered externally via batteries or through a surface power supply. This configuration is ideal for fixed or moored sensor nodes, seabed installations, coastal monitoring stations, or surface-deployed relay systems, where ease of deployment and reliability are critical.</p>
+          </div>
+          <div class="main modal-content-item" data-product="wnc-m25mso4x">
+            <h2 class="text-xl orange text-center">Open Configuration (OC)</h2>
+            <p>The open configuration (OC) streamlines integration and enhances adaptability, making it ideal for incorporation into subsea platforms such as marine robots, autonomous systems, and larger sensors. It supports seamless electrical and software integration for platforms. This configuration is well suited for AUV- or USV-based missions, and payload integration within custom subsea assemblies, providing flexibility without compromising performance.</p>
+          </div>
+        </div>
+        <div class="footer"></div>
+      </div>
+    </dialog>
 
   <!-- Accessories and upgrades -->
   <div class="row">
     <div class="feature-grid single-col">
-      <a class="usecase-card asr" href="{{site.baseurl}}/products/gen4x/m25mplatinum.html" title="Optional Accessories & Upgrades">
+      <a class="usecase-card asr" href="{{site.baseurl}}/products/gen4x/accessories/" title="Optional Accessories & Upgrades">
         <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Optional Accessories & Upgrades">
         <div>
           <h4 class="text-md">Optional Accessories & Upgrades</h4>
@@ -227,18 +253,21 @@ section_id: products
     </div>
   </div>
   <div class="row py2 my2 text-center">
-    <a class="learn-link" href="{{site.baseurl}}/contact">Learn more about editions and configurations &rarr;</a>
+    <a class="learn-link" href="{{site.baseurl}}/products/#smart-modems">Learn more about editions and configurations &rarr;</a>
   </div>
 
 </section>
 
 <!-- The UnetStack Ecosystem  -->
 
-<section class="g4x-section ueco" style="background-color:#0E1729">
+<section id="unetstack" class="g4x-section ueco" style="background-color:#0E1729">
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient">The UnetStack Ecosystem</h2>
+  </div>
   <div class="row large header-2col">
     <div>
-      <h2 class="">The UnetStack Ecosystem</h2>
-      <p>One Stack. Endless Possibilities.</p>
+      <h2 class="text-xl">One Stack. Endless Possibilities.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit et culpa tempora impedit accusamus deserunt.</p>
     </div>
     <span class="card-spacer"></span>
     <div>
@@ -271,7 +300,7 @@ section_id: products
     </div>
   </div>
   <div class="row py2 mt3 text-center">
-    <a class="learn-link" href="/contact">Learn More about UnetStack &rarr;</a>
+    <a class="learn-link" href="{{site.baseurl}}/products/unet">Learn More about UnetStack &rarr;</a>
   </div>
 </section>
 
@@ -279,7 +308,7 @@ section_id: products
 
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg">Powering the Blue Economy</h2>
+    <h2 class="sec-head lg text-gradient">Powering the Blue Economy</h2>
   </div>
   <div class="row large py2">
     <h5 class="g4x-sub-h5">Industries</h5>
@@ -310,7 +339,7 @@ section_id: products
 
   <div class="row large py2">
     <h5 class="g4x-sub-h5">Subsea Assets & Applications</h5>
-    <div class="feature-grid blue-economy col3">
+    <div class="feature-grid blue-economy col2">
       <div class="usecase-card">
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/wnc-mr02.jpg" alt="Marine Robotics">
@@ -394,9 +423,30 @@ section_id: products
           </div>
         </div>
       </div>
+      <div class="usecase-card">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/Network4.0.jpg" alt="Underwater Networks">
+        </div>
+        <h4>Underwater Networks</h4>
+        <p>Combine UnetStack with Subnero’s WNC portfolio, and you have a truly scalable, dynamically configurable, and extendable underwater communication and positioning network termed Subnero Underwater Network (SUN).</p>
+        <div class="blue-economy-features">
+          <div>
+            <h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M12 11v9"/><path d="M14 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.959 6C17.619 6.87 18 7.898 18 9s-.381 2.13-1.041 3M7.04 6C6.381 6.87 6 7.898 6 9s.381 2.13 1.041 3m13.275-8C21.38 5.43 22 7.15 22 9s-.62 3.57-1.684 5M3.684 4C2.62 5.43 2 7.15 2 9s.62 3.57 1.684 5"/></g></svg>
+              <span>Subnero Underwater Network (SUN)</span>
+            </h5>
+            <p>Seamless wireless connectivity and tracking underwater with transparent handover for mobile underwater assets (e.g. marine robots, divers).</p>
+          </div>
+          <div>
+            <h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <span>Internet of Underwater Things (IoUT)</span>
+            </h5>
+            <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<section class="call-to-action category-container">
-  {%- include formCTA.html -%}
-</section>
+{% include productDetailsDialog.html %}
