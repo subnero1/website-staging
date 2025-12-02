@@ -30,19 +30,19 @@ section_id: products
 <section class="g4x-section">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient">Overview</h2>
-    <p class="sec-subhead">Subnero's WNC Product Series brings together Subnero’s acoustic smart modems and the UnetStack software ecosystem to support a wide range of underwater communication needs.</p>
+    <p class="sec-subhead">Subnero's WNC Product Series brings together Subnero’s acoustic smart modems and the UnetStack software ecosystem to support a wide range of subsea communication needs.</p>
   </div>
   <div class="row py2">
     <div class="feature-grid col2">
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient">Acoustic Smart Modems</h5>
         <p class="text-black-01">High-performance underwater communication devices available in three frequency bands (LF, MF, HF) optimized for range, speed, and reliability.</p>
-        <a class="inline-btn text-md text-500" href="{{site.baseurl}}/products/wnc.html">Explore Modems &#8594;</a>
+        <a class="inline-btn text-md text-500" href="{{site.baseurl}}/products/#smart-modems">Explore Smart Modems &#8594;</a>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient">UnetStack Framework</h5>
+        <h5 class="g4x-h5 text-gradient">UnetStack Ecosystem</h5>
         <p class="text-black-01">A unified software-defined ecosystem for network simulation, protocol development, and full-scale deployment across your entire fleet.</p>
-        <a class="inline-btn text-md text-500" href="{{site.baseurl}}/products/wnc.html">Explore Ecosystem &#8594;</a>
+        <a class="inline-btn text-md text-500" href="{{site.baseurl}}/products/#unetstack">Explore UnetStack Ecosystem &#8594;</a>
       </div>
     </div> 
   </div>
@@ -107,26 +107,27 @@ section_id: products
             <td>High Speed</td>
           </tr>
           <tr>
-            <td>Frequency</td>
-            <td>9 - 16 kHz</td>
-            <td>20 - 32 kHz</td>
-            <td>25 - 50 kHz</td>
-          </tr>
-          <tr>
-            <td>Communication Range</td>
+            <td>Communication Range<sup>*</sup></td>
             <td><b>&gt; 10 km</b></td>
             <td>&gt; 4 km</td>
             <td>&gt; 1 km</td>
           </tr>
           <tr>
-            <td>Communication Speed</td>
+            <td>Communication Speed<sup>*</sup></td>
             <td>Up to 8 kbps</td>
             <td>Up to 15 kbps</td>
             <td><b>Up to 33 kbps</b></td>
           </tr>
+          <tr>
+            <td>Frequency</td>
+            <td>9 - 16 kHz</td>
+            <td>20 - 32 kHz</td>
+            <td>25 - 50 kHz</td>
+          </tr>
         </tbody>
       </table>
     </div>
+    * Depending on channel conditions and reliability requirements.
   </div>
 
   <div class="row large py2">
@@ -136,22 +137,22 @@ section_id: products
         <ul class="feature-list ep">
           <li><i class="icon-check"></i> <span><b>High Speed:</b> Up to 33 kbps data rate in shallow waters (S40H Series).</span></li>
           <li><i class="icon-check"></i> <span><b>Long Range:</b> More than 10 km range in challenging conditions (L12L Series).</span></li>
-          <li><i class="icon-check"></i> <span><b>Reliability:</b> Optimized through adaptive communication profiles and link tuning.</span></li>
+          <li><i class="icon-check"></i> <span><b>Reliability:</b> Optimized through communication profiles and link tuning.</span></li>
         </ul>
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient"><span class="text-icon">App</span> Built for Real Applications</h5>
         <ul class="feature-list ra">
-          <li><i class="icon-check"></i> <span><b>Versatile Use:</b> AUV/USV comms, survey ops, harvesting & monitoring.</span></li>
-          <li><i class="icon-check"></i> <span><b>Lifecycle Support:</b> From rapid prototyping to long-duration autonomous missions.</span></li>
-          <li><i class="icon-check"></i> <span><b>Easy Integration:</b> Standard APIs and electrical interfaces for existing equipment.</span></li>
+          <li><i class="icon-check"></i> <span><b>Versatile Use:</b> AUV/USV telemetry, survey operations, data harvesting & monitoring.</span></li>
+          <li><i class="icon-check"></i> <span><b>Lifecycle Support:</b> From rapid prototyping to long-duration deployments.</span></li>
+          <li><i class="icon-check"></i> <span><b>Easy Integration:</b> Flexible APIs and multiple electrical interfaces.</span></li>
         </ul>
       </div>
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient"><span class="text-icon">Net</span> Advanced Networking</h5>
         <ul class="feature-list an">
           <li><i class="icon-check"></i> <span><b>Full Network Stack:</b> Support for multi-hop and mesh architectures.</span></li>
-          <li><i class="icon-check"></i> <span><b>Built-in Management:</b> Routing, scheduling, link mgmt & remote config.</span></li>
+          <li><i class="icon-check"></i> <span><b>Built-in Management:</b> Routing, scheduling, link management & remote configuration.</span></li>
           <li><i class="icon-check"></i> <span><b>Flexible Topologies:</b> Supports both centralized & distributed networks.</span></li>
         </ul>
       </div>
@@ -159,9 +160,9 @@ section_id: products
         <h5 class="g4x-h5 text-gradient"><span class="text-icon">R&D</span> Ideal R&D Platform</h5>
         <ul class="feature-list rd">
           <li><i class="icon-check"></i> <span><b>Custom Signals:</b> Transmit in-band signals & wave files.</span></li>
-          <li><i class="icon-check"></i> <span><b>Arbitrary Waveforms:</b> Stream/record passband & baseband.</span></li>
-          <li><i class="icon-check"></i> <span><b>Advanced Detection:</b> Custom preambles & matched filters.</span></li>
-          <li><i class="icon-check"></i> <span><b>Full Stack Access:</b> Replace any layer (incl. PHY) & use precision timing.</span></li>
+          <li><i class="icon-check"></i> <span><b>Arbitrary Waveforms:</b> Stream/record passband & baseband waveforms.</span></li>
+          <li><i class="icon-check"></i> <span><b>Advanced Detection:</b> Support for user-defined preambles for custom detection.</span></li>
+          <li><i class="icon-check"></i> <span><b>Full Stack Access:</b> Support for user-defined communication algorithms and protocols.</span></li>
         </ul>
       </div>
     </div> 
@@ -178,44 +179,44 @@ section_id: products
       <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mplatinum.html" title="Platinum Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-preview.png" alt="Platinum Edition">
         <div>
-          <h4>Platinum</h4>
-          <p>The ultimate performance for defense and deep-water missions.</p>
+          <h4>Platinum Edition</h4>
+          <p>The ultimate performance for defense missions.</p>
         </div>
       </a>
       <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25msilver.html" title="Silver Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-silver-preview.png" alt="Silver Edition">
         <div>
-          <h4>Silver</h4>
-          <p>The reliable workhorse for commercial deployments.</p>
+          <h4>Silver Edition</h4>
+          <p>The reliable workhorse for offshore, marine & subsea deployments.</p>
         </div>
       </a>
       <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mbronze.html" title="Bronze Edition">
         <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-preview.png" alt="Bronze Edition">
         <div>
-          <h4>Bronze</h4>
-          <p>The agile choice for field testing and controlled environments.</p>
+          <h4>Bronze Edition</h4>
+          <p>The ideal starting point for entry-level enthusiasts and educators.</p>
         </div>
       </a>
     </div>
   </div>
   <!-- Standalone -->
   <div class="g4x-section-head py2">
-    <p class="sec-subhead">Available in Standalone (SC) for seabed use and OEM (OC) for vehicle integration.</p>
+    <p class="sec-subhead">Available in Standalone (SC) for seabed use and Open (OC) for vehicle integration.</p>
   </div>
   <div class="row">
     <div class="feature-grid col2">
       <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x" title="Standalone">
         <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Standalone">
         <div>
-          <h4>Standalone</h4>
-          <p>Pressure rated hull (6000m)</p>
+          <h4>Standalone Configuration</h4>
+          <p>The ready-to-use option for simple deployments.</p>
         </div>
       </a>
       <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x" title="OEM">
         <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="OEM">
         <div>
-          <h4>OEM</h4>
-          <p>Board-level integration</p>
+          <h4>Open Configuration</h4>
+          <p>The flexible choice for custom integrations.</p>
         </div>
       </a>
     </div>
@@ -247,15 +248,11 @@ section_id: products
         <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Optional Accessories & Upgrades">
         <div>
           <h4 class="text-md">Optional Accessories & Upgrades</h4>
-          <p>Enhance your Subnero modem’s capabilities with a range of accessories designed for seamless integration. From modules such as additional receiving channels, co-processors, and storage units to hull configurations and specialized cables, these add-ons help tailor each system to your specific deployment needs.</p>
+          <p>Enhance your Subnero modem’s capabilities with a range of accessories designed for seamless integration. From options such as additional receiving channels, co-processors, and expanded storage to hull configurations and specialized cables, these add-ons help tailor each system to your specific deployment needs.</p>
         </div>
       </a>
     </div>
   </div>
-  <div class="row py2 my2 text-center">
-    <a class="learn-link" href="{{site.baseurl}}/products/#smart-modems">Learn more about editions and configurations &rarr;</a>
-  </div>
-
 </section>
 
 <!-- The UnetStack Ecosystem  -->

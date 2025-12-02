@@ -50,7 +50,7 @@ layout: default
       <div class="large-7 columns">
         <h3>Key Features</h3>
         <ul>
-          <li>Data rates up to 15 kbps* in shallow tropical conditions.</li>
+          <li>Data rates up to 15 kbps<sup>*</sup> in shallow tropical conditions.</li>
           <li>More than 4 km communication range in littoral waters.</li>
           <li>Built-in acoustic ranging with 0.1 m precision.</li>
           <li>Doppler resilience of ±4 knots or better.</li>
