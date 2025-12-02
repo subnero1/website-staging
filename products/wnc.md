@@ -265,11 +265,11 @@ section_id: products
   <div class="row large header-2col">
     <div>
       <h2 class="text-xl">One Stack. Endless Possibilities.</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit et culpa tempora impedit accusamus deserunt.</p>
+      <p>A unified ecosystem that lets you simulate, build and deploy underwater communication systems.</p>
     </div>
     <span class="card-spacer"></span>
     <div>
-      <p>The Gen4X series is built on the UnetStack 5 framework. Write code on your laptop, test it in the simulator, validate it with Hardware-in-the-Loop, and deploy it to the ocean floor without changing a single line.</p>
+      <p>The UnetStack ecosystem unifies simulation, hardware-in-the-loop testing, OEM development tools and full-stack networking into one framework, making it easy to design, test and deploy underwater communication solutions.</p>
     </div>
   </div>
   <div class="row large">
@@ -285,15 +285,15 @@ section_id: products
         <div class="card-svg">
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
         </div>
-        <h4>HIL Simulation</h4>
-        <p>Hardware-in-the-Loop. Connect physical modems to virtual oceans to test mission logic safely.</p>
+        <h4>Virtual Acoustic Ocean</h4>
+        <p>Hardware-in-the-Loop Simulation Platform. Connect physical modems to high-fidelity acoustic channel models to test mission logic safely.</p>
       </div>
       <div class="card-unet-eco">
         <div class="card-svg">
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
         </div>
         <h4>UnetCube</h4>
-        <p>OEM Development Platform. Rapid prototyping environment to integrate UnetStack into custom sensors.</p>
+        <p>OEM Development Platform. Rapid prototyping environment to integrate UnetStack into your own modem.</p>
       </div>
     </div>
   </div>
