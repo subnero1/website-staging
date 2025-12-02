@@ -261,7 +261,8 @@ section_id: products
 <!-- The UnetStack Ecosystem  -->
 
 <section id="unetstack" class="g4x-section ueco" style="background-color:#0E1729">
-  <div class="g4x-section-head">
+  <div class="g4x-section-head logo">
+    <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
     <h2 class="sec-head lg text-gradient">The UnetStack Ecosystem</h2>
   </div>
   <div class="row large header-2col">

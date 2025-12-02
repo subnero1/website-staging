@@ -3927,6 +3927,27 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   padding-bottom: 2rem;
   text-align: center;
 }
+.g4x-section-head.logo {
+  width: 100%;
+  max-width: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  gap: 8px;
+}
+.g4x-section-head.logo img {
+  display: block;
+  width: 50px;
+  height: auto;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.g4x-section-head.logo .sec-head {
+  margin: 0;
+}
 .g4x-section .sec-head {
   display: inline-block;
   font-size: 2.6rem;
