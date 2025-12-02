@@ -6,14 +6,14 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-research-gallery-01.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-gallery-01.png" />
       </div>
       <div class="large-7 columns">
-          <div class="card-tag platinum">Research Edition</div>
+          <div class="card-tag bronze">Bronze Edition</div>
           <div class="card-tag mf">MF Band</div>
         <h1>S1000-N</h1>
         <h2>20 - 30 KHz</h2>
-        <p>The Research Edition modem offers an affordable and compact platform for researchers, developers, and educators exploring underwater communication and networking. Powered by UnetStack, it bridges the gap between simulation and field experimentation — enabling users to design, test, and deploy underwater networks with real-world results.</p>
+        <p>The Bronze Edition modem (S1000-N) offers an affordable and compact platform for enthusiasts and educators exploring underwater communication and networking. Powered by UnetStack, it bridges the gap between simulation and real-world deployment, enabling entry-level users to design, test, and operate underwater networks with practical, meaningful results.</p>
         {%- include formContactUs.html -%}
       </div>
     </div>
@@ -34,7 +34,7 @@ layout: default
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-research-feature.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-feature.png" />
       </div>
     </div>
   </section>

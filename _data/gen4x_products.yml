@@ -24,18 +24,18 @@ M25M:
   image: /images/gen4x/gen4x-band-mf-cover.png
   current_link: /products/gen4x/m25m
   products:
+    - name: Rugged and high-performance for demanding missions.
+      edition: Platinum
+      image: /images/gen4x/M25M-platinum-preview.png
+      link: /products/gen4x/m25mplatinum.html
     - name: Reliable and customizable for commercial use.
       edition: Silver
       image: /images/gen4x/M25M-silver-preview.png
       link: /products/gen4x/m25msilver.html
     - name: Affordable and flexible for research and testing.
-      edition: Research
-      image: /images/gen4x/M25M-research-sc-preview.png
-      link: /products/gen4x/m25mresearch.html
-    - name: Rugged and high-performance for demanding missions.
-      edition: Platinum
-      image: /images/gen4x/M25M-platinum-preview.png
-      link: /products/gen4x/m25mplatinum.html
+      edition: Bronze
+      image: /images/gen4x/M25M-bronze-preview.png
+      link: /products/gen4x/m25mbronze.html
 
 S40H:
   tag: HF Band

@@ -4018,33 +4018,33 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   padding: 2px 12px;
   margin-right: auto;
   color: #fff;
-  background-color: #f628d4;
+  background-color: #9c3af1;
   border-radius: 20px;
 }
 
 .card-tag.gen4x {
-  background-color: #36baa2;
+  background-color: #0181e2;
 }
 .card-tag.legacy {
   background-color: #9ca7b6;
 }
 .card-tag.lf {
-  background-color: #a35be7;
+  background-color: #3300ff;
 }
 .card-tag.mf {
-  background-color: #e75b70;
+  background-color: #a71c2f;
 }
 .card-tag.hf {
-  background-color: #70813b;
+  background-color: #0f9700;
 }
 .card-tag.silver {
   background-color: #ff7b00;
 }
 .card-tag.platinum {
-  background-color: #0f9700;
+  background-color: #70813b;
 }
-.card-tag.research {
-  background-color: #0181e2;
+.card-tag.bronze {
+  background-color: #5e3c01;
 }
 .card-tag.gold {
   background-color: #ffbb00;
