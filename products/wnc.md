@@ -173,6 +173,7 @@ section_id: products
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient">Editions & Configurations</h2>
+    <p class="sec-subhead">Flexible hardware options tailored to different missions, users, and deployment needs.</p>
   </div>
   <div class="row large py2">
     <div class="feature-grid col3">
@@ -307,6 +308,7 @@ section_id: products
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient">Powering the Blue Economy</h2>
+    <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
   </div>
   <div class="row large py2">
     <h5 class="g4x-sub-h5">Industries</h5>
@@ -316,21 +318,21 @@ section_id: products
           <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
         </div>
         <h4>Defense</h4>
-        <p>Tactical diver communications, secure LPD networks, and MIL-standard certified operations in harsh environments.</p>
+        <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defence operations.</p>
+      </div>
+      <div class="usecase-card">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Commercial">
+        </div>
+        <h4>Offshore, Marine & Subsea</h4>
+        <p>Trusted by leading offshore operators and survey companies worldwide, WNC product series offer robust communication performance and proven worldwide support across demanding offshore and subsea environments.</p>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
           <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Scientific Research">
         </div>
         <h4>Scientific Research</h4>
-        <p>Environmental monitoring, climate data harvesting, and experimental protocol testing with arbitrary waveform capabilities.</p>
-      </div>
-      <div class="usecase-card">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Commercial">
-        </div>
-        <h4>Commercial</h4>
-        <p>Subsea asset monitoring, offshore construction support, and cost-effective legacy system replacement.</p>
+        <p>WNC provides a flexible research platform with a customizable network stack, multi-language support, full simulation tools, and arbitrary waveform capabilities ideal for underwater communication and localisation R&D.</p>
       </div>
     </div>
   </div>
@@ -340,61 +342,91 @@ section_id: products
     <div class="feature-grid blue-economy col2">
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/wnc-mr02.jpg" alt="Marine Robotics">
+          <img src="{{site.baseurl}}/images/wnc-mr03.jpg" alt="Marine Robotics">
         </div>
         <h4>Marine Robotics</h4>
-        <p>Offload the complexities of managing multiple communication interfaces, data types (e.g. telemetry, C2, payload), and attributes in your underwater vehicle to UnetStack.</p>
+        <p>UnetStack simplifies communication and data handling for underwater vehicles by unifying interfaces, managing diverse data types, and ensuring seamless connectivity across multiple links.</p>
         <div class="blue-economy-features">
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="M3 21h18V8H3zM21 3H3v5h18z"/><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M3 8h18M3 8v13h18V8M3 8V3h18v5"/><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M7.004 12v.004H7V12zm4 0v.004H11V12zm4 0v.004H15V12z"/></g></svg>
-              <span>Single interface</span>
+              <span>Unified interface</span>
             </h5>
-            <p>UnetStack exposes a single interface to manage all your communication interfaces, and devices, both above and below water.</p>
+            <!-- <p>UnetStack exposes a single interface to manage all your communication interfaces, and devices, both above and below water.</p> -->
           </div>
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path stroke-linecap="round" d="M5 24h38"/><path d="M28 4h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2ZM16 32H8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Zm24 0h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z"/><path stroke-linecap="round" d="M24 24v-8m12 16v-8m-24 8v-8"/></g></svg>
-              <span>Multiple data types</span>
+              <span>Smart data handling</span>
             </h5>
-            <p>Content-aware prioritization, processing and routing for telemetry, C2, mission, and payload data types.</p>
+            <!-- <p>Content-aware prioritization, processing and routing for telemetry, C2, mission, and payload data types.</p> -->
           </div>
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16"><g fill="none"><g clip-path="url(#SVGFd4lJeyK)"><path fill="currentColor" fill-rule="evenodd" d="M4.706 3.39a1 1 0 1 1 .108-.064a1 1 0 0 0-.108.064m.108 1.546Q4.542 5 4.25 5a2.5 2.5 0 1 1 1.856-.825l.849 1.484a3.5 3.5 0 0 1 3.191.576l2.222-1.851a1.75 1.75 0 1 1 1.101 1.035l-2.362 1.968c.251.483.393 1.031.393 1.613c0 .557-.13 1.083-.361 1.55l.958.767a2.25 2.25 0 1 1-.959 1.154l-.937-.75a3.5 3.5 0 0 1-5.62-1.971H3.33a1.75 1.75 0 1 1 0-1.5h1.25a3.5 3.5 0 0 1 1.072-1.846zM10 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0m3.25 5a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5" clip-rule="evenodd"/></g><defs><clipPath id="SVGFd4lJeyK"><path fill="currentColor" d="M0 0h16v16H0z"/></clipPath></defs></g></svg>
-              <span>End-end connectivity</span>
+              <span>End-to-end connectivity</span>
             </h5>
-            <p>Media agnostic end-end connectivity for a variety of links such as UDP/IP, optical, satellite links, and multiple acoustic frequency bands.</p>
+            <!-- <p>Media agnostic end-end connectivity for a variety of links such as UDP/IP, optical, satellite links, and multiple acoustic frequency bands.</p> -->
           </div>
         </div>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/swis-WNC.jpg" alt="Underwater Sensors">
+          <img src="{{site.baseurl}}/images/swis-WNC01.jpg" alt="Underwater Sensors">
         </div>
-        <h4>Underwater Sensors</h4>
-        <p>Ease of use, integration ready and support for multiple sensors are some of the advantages of Subnero Wireless Integrated Suite (SWIS) packaged solution.</p>
+        <h4>Underwater IoT</h4>
+        <p>SWIS delivers an integration-ready platform designed for easy deployment of underwater sensors, offering simplified setup, broad compatibility, and efficient data management.</p>
         <div class="blue-economy-features">
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">=<g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M14 8v3m-4 0V8"/><path d="M8.003 12.027C7.958 11.473 8.426 11 9.02 11h5.96c.594 0 1.062.473 1.017 1.027l-.123 1.513a6.1 6.1 0 0 1-1.12 3.046l-.4.563a2.08 2.08 0 0 1-1.698.851h-1.312a2.08 2.08 0 0 1-1.698-.851l-.4-.563a6.1 6.1 0 0 1-1.12-3.046z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16 21.21c3.532-1.546 6-5.078 6-9.188C22 6.487 17.523 2 12 2S2 6.487 2 12.022c0 5.198 3.947 9.471 9.001 9.974c.55.054.999-.4.999-.953v-3.007"/></g></svg>
-              <span>Easy Plug and Play</span>
+              <span>Plug-and-play sensor support</span>
             </h5>
-            <p>Plug and Play support for popular sensor models (e.g. ADCPs) and brands. Simple plug and play.</p>
+            <!-- <p>Plug and Play support for popular sensor models (e.g. ADCPs) and brands. Simple plug and play.</p> -->
           </div>
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 18v-.107c0-.795-.496-1.488-1.117-1.984a5 5 0 1 1 6.235 0c-.622.497-1.118 1.189-1.118 1.984V18m-4 0v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2m-4 0h4m6-6h1M4 12H3m9-8V3m5.657 3.343l.707-.707m-12.02.707l-.708-.707M12 15v-2"/></svg>
-              <span>Intuitive</span>
+              <span>Intuitive user experience</span>
             </h5>
-            <p>All relevant information such as device information, smart previews and file list in one place.</p>
+            <!-- <p>All relevant information such as device information, smart previews and file list in one place.</p> -->
           </div>
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 14 14"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="1"/><path d="M5 3V.5M9 3V.5M3 9H.5M3 5H.5M9 11v2.5M5 11v2.5M11 5h2.5M11 9h2.5m-5-1.5h-2"/></g></svg>
-              <span>Content-Aware Processing (CAP) engine</span>
+              <span>Content-Aware Processing (CAP)</span>
             </h5>
-            <p>CAP engine supports summary generation for a user-selectable date range and compression ratio.</p>
+            <!-- <p>CAP engine supports summary generation for a user-selectable date range and compression ratio.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="usecase-card">
+        <div class="img-wrapper">
+          <img src="{{site.baseurl}}/images/divers.jpg" alt="Underwater Networks">
+        </div>
+        <h4>Diver Communication and Localization</h4>
+        <p>Subnero’s WNC product series enables reliable communication, and positioning capabilities for commercial, scientific, and defence diving operations, ensuring safer and more coordinated underwater missions.</p>
+        <div class="blue-economy-features">
+          <div>
+            <h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M12 11v9"/><path d="M14 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.959 6C17.619 6.87 18 7.898 18 9s-.381 2.13-1.041 3M7.04 6C6.381 6.87 6 7.898 6 9s.381 2.13 1.041 3m13.275-8C21.38 5.43 22 7.15 22 9s-.62 3.57-1.684 5M3.684 4C2.62 5.43 2 7.15 2 9s.62 3.57 1.684 5"/></g></svg>
+              <span>Robust communication</span>
+            </h5>
+            <!-- <p>Seamless wireless connectivity and tracking underwater with transparent handover for mobile underwater assets (e.g. marine robots, divers).</p> -->
+          </div>
+          <div>
+            <h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <span>Real-time tracking</span>
+            </h5>
+            <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
+          </div>
+          <div>
+            <h5>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <span>Scalable and modular design</span>
+            </h5>
+            <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
           </div>
         </div>
       </div>
@@ -403,44 +435,28 @@ section_id: products
           <img src="{{site.baseurl}}/images/Network4.0.jpg" alt="Underwater Networks">
         </div>
         <h4>Underwater Networks</h4>
-        <p>Combine UnetStack with Subnero’s WNC portfolio, and you have a truly scalable, dynamically configurable, and extendable underwater communication and positioning network termed Subnero Underwater Network (SUN).</p>
+        <p>The WNC product series integrates Subnero’s smart modems and UnetStack software to form the Subnero Underwater Network (SUN) — a scalable, flexible, and extensible platform for underwater communication and positioning.</p>
         <div class="blue-economy-features">
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M12 11v9"/><path d="M14 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.959 6C17.619 6.87 18 7.898 18 9s-.381 2.13-1.041 3M7.04 6C6.381 6.87 6 7.898 6 9s.381 2.13 1.041 3m13.275-8C21.38 5.43 22 7.15 22 9s-.62 3.57-1.684 5M3.684 4C2.62 5.43 2 7.15 2 9s.62 3.57 1.684 5"/></g></svg>
-              <span>Subnero Underwater Network (SUN)</span>
+              <span>Seamless mobile connectivity</span>
             </h5>
-            <p>Seamless wireless connectivity and tracking underwater with transparent handover for mobile underwater assets (e.g. marine robots, divers).</p>
+            <!-- <p>Seamless wireless connectivity and tracking underwater with transparent handover for mobile underwater assets (e.g. marine robots, divers).</p> -->
           </div>
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
-              <span>Internet of Underwater Things (IoUT)</span>
+              <span>Heterogeneous Internet of Underwater Things (IoUT)</span>
             </h5>
-            <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p>
-          </div>
-        </div>
-      </div>
-      <div class="usecase-card">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/Network4.0.jpg" alt="Underwater Networks">
-        </div>
-        <h4>Underwater Networks</h4>
-        <p>Combine UnetStack with Subnero’s WNC portfolio, and you have a truly scalable, dynamically configurable, and extendable underwater communication and positioning network termed Subnero Underwater Network (SUN).</p>
-        <div class="blue-economy-features">
-          <div>
-            <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M12 11v9"/><path d="M14 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.959 6C17.619 6.87 18 7.898 18 9s-.381 2.13-1.041 3M7.04 6C6.381 6.87 6 7.898 6 9s.381 2.13 1.041 3m13.275-8C21.38 5.43 22 7.15 22 9s-.62 3.57-1.684 5M3.684 4C2.62 5.43 2 7.15 2 9s.62 3.57 1.684 5"/></g></svg>
-              <span>Subnero Underwater Network (SUN)</span>
-            </h5>
-            <p>Seamless wireless connectivity and tracking underwater with transparent handover for mobile underwater assets (e.g. marine robots, divers).</p>
+            <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
           </div>
           <div>
             <h5>
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
-              <span>Internet of Underwater Things (IoUT)</span>
+              <span>Scalable network architecture</span>
             </h5>
-            <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p>
+            <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
           </div>
         </div>
       </div>
