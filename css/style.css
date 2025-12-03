@@ -124,12 +124,15 @@ ul.shortcode-list i {
 .m0 {margin:0}
 .my2 {margin-top: 2rem; margin-bottom: 2rem;}
 .my3 {margin-top: 3rem; margin-bottom: 3rem;}
+.mt1 {margin-top: 1rem;}
+.mt2 {margin-top: 2rem;}
 .mt3 {margin-top: 3rem;}
 .capitalize-none { text-transform: none;}
 .normal-spacing {letter-spacing: normal;}
 .text-500 {font-weight: 500;}
 .text-600 {font-weight: 600;}
 .text-800 {font-weight: 800;}
+.inline-block {display: inline-block;}
 
 /*smart appear */
 .fadein {
@@ -3910,6 +3913,17 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin: 0;
   color: #344154;
 }
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.2rem;
+}
+.logo-title img {
+  flex: none;
+  width: 80px;
+  height: auto;
+}
 .hero-links {
   position: absolute;
   bottom: 0;
@@ -5634,7 +5648,22 @@ a.usecase-card:hover {
 .qlinks-title:hover .qlink-anchor {
   display: inline-block;
 }
-
+.tags-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tags-list li {
+  padding: 4px 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 1px solid #E2E8F0;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
