@@ -3833,7 +3833,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .page-hero.gen4x h1 {
   font-size: 62px;
   font-weight: 800;
-  line-height: 74px;
+  line-height: 70px;
   text-transform: none;
   color: #fff;
 }
@@ -3903,9 +3903,17 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   border-radius: 25px;
 }
 .text-gradient {
-  background-image: linear-gradient(90deg, #F2772F, #D64235);
   background-clip: text;
   color: transparent;
+}
+.g-orange {
+  background-image: linear-gradient(90deg, #F2772F, #D64235);
+}
+.g-blue {
+  background-image: linear-gradient(90deg, #62A7F5, #77E5F7);
+}
+.g-orange-btn {
+  background-image: linear-gradient(45deg, #F2772F, #D64235);
 }
 .g4x-hero-wrap p {
   font-size: 20px;
@@ -3988,13 +3996,13 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin: 0;
   color: rgb(162 192 234);
 }
-.wnc-products:hover .link-card h3 {
+.hero-links:hover .link-card h3 {
   color: currentColor;
 }
-.wnc-products:hover .link-card-svg {
+.hero-links:hover .link-card-svg {
   background-color: currentColor;
 }
-.wnc-products:hover .link-card svg {
+.hero-links:hover .link-card svg {
   color: #fff;
 }
 .g4x-section {
@@ -4011,6 +4019,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   text-align: center;
 }
 .g4x-section-head.logo {
+  position: relative;
   width: 100%;
   max-width: none;
   display: flex;
@@ -4034,13 +4043,13 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .g4x-section .sec-head {
   display: inline-block;
   font-size: 2.6rem;
-  font-weight: 600;
+  font-weight: 800;
   margin: 0 0 0.6rem;
   letter-spacing: normal;
   text-transform: none;
 }
 .g4x-section .sec-head.lg {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
 }
 .g4x-section .sec-subhead {
   margin: 0;
@@ -4065,20 +4074,41 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 .explore-link {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 1rem;
   top: 50%;
   right: 10%;
-  color: #2e497e;
-  font-size: 2rem;
   z-index: 10;
-  border: 1px solid #fff;
-  background-color: rgba(255, 247, 247, 0.419);
-  border-radius: 100px;
-  animation: pulse 0.6s infinite alternate;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+}
+.explore-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  /* background: rgba(255, 255, 255, 0.6); */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  transform: scale(0);
+  opacity: 1;
+  animation: ripple 1s linear infinite;
+}
+.explore-link span {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+.explore-link:hover span {
+  display: inline-block;
+  color: #fff;
 }
 .wnc-card {
   padding: 2rem;
@@ -5539,9 +5569,10 @@ a.usecase-card:hover {
 }
 .unet-product .col-title {
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 800;
   margin: 1.4rem 0 2rem;
+  text-transform: none;
 }
 .unet-product .uproduct {
   border-radius: 8px;
@@ -5664,6 +5695,18 @@ a.usecase-card:hover {
   border-radius: 25px;
   border: 1px solid #E2E8F0;
 }
+.bg-gradient-img {
+  position: relative;
+  background-position: center bottom;
+  background-size: cover;
+}
+.bg-gradient-img::before {
+  position: absolute;
+  content: '';
+  inset: 0;
+  background: linear-gradient(45deg, rgb(14 23 41 / 38%), rgb(14 23 41 / 86%), rgb(0 0 0));
+  z-index: 0;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
@@ -5752,6 +5795,17 @@ a.usecase-card:hover {
     transform: translateX(0);
   }
 }
+@keyframes ripple {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(10); /* 20px * 10 = 200px */
+        opacity: 0;
+    }
+}
+
 
 @media (min-width: 1281px) and (max-width: 1592px){
   .media.product{

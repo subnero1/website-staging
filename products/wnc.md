@@ -13,14 +13,14 @@ section_id: products
     <div class="hero-text">
       <h4 class="g4x-tag">Product Series</h4>
       <h1>
-        <span class="text-gradient">W</span>ireless 
-        <span class="text-gradient">N</span>etworked 
-        <span class="text-gradient">C</span>ommunication
+        <span class="text-gradient g-orange">W</span>ireless 
+        <span class="text-gradient g-orange">N</span>etworked 
+        <span class="text-gradient g-orange">C</span>ommunication
       </h1>
       <p>The complete platform for underwater connectivity.</p>
       <div class="g4x-hero-btns">
-        <a href="#smart-modems" class="button warning">Explore Smart Modems</a>
-        <a href="#unetstack" class="button info">Explore UnetStack</a>
+        <a href="#smart-modems" class="button g-orange">Explore Smart Modems</a>
+        <a href="#unetstack" class="button g-orange">Explore UnetStack</a>
       </div>
     </div>
   </div>
@@ -29,18 +29,18 @@ section_id: products
 
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient">Overview</h2>
+    <h2 class="sec-head text-gradient g-orange">Overview</h2>
     <p class="sec-subhead">Subnero's WNC Product Series brings together Subnero’s acoustic smart modems and the UnetStack software ecosystem to support a wide range of subsea communication needs.</p>
   </div>
   <div class="row py2">
     <div class="feature-grid col2">
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient">Acoustic Smart Modems</h5>
+        <h5 class="g4x-h5 text-gradient g-orange">Acoustic Smart Modems</h5>
         <p class="text-black-01">High-performance underwater communication devices available in three frequency bands (LF, MF, HF) optimized for range, speed, and reliability.</p>
         <a class="inline-btn text-md text-500" href="{{site.baseurl}}/products/#smart-modems">Explore Smart Modems &#8594;</a>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient">UnetStack Ecosystem</h5>
+        <h5 class="g4x-h5 text-gradient g-orange">UnetStack Ecosystem</h5>
         <p class="text-black-01">A unified software-defined ecosystem for network simulation, protocol development, and full-scale deployment across your entire fleet.</p>
         <a class="inline-btn text-md text-500" href="{{site.baseurl}}/products/#unetstack">Explore UnetStack Ecosystem &#8594;</a>
       </div>
@@ -54,7 +54,7 @@ section_id: products
 
 <section class="g4x-section" id="smart-modems">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient">Acoustic Smart Modems</h2>
+    <h2 class="sec-head lg text-gradient g-orange">Acoustic Smart Modems</h2>
     <p class="sec-subhead">Optimized performance for every environment.</p>
   </div>
   <div class="row large py2">
@@ -133,7 +133,7 @@ section_id: products
   <div class="row large py2">
     <div class="feature-grid col2">
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient"><span class="text-icon">Perf</span> Exceptional Performance</h5>
+        <h5 class="g4x-h5 text-gradient g-orange"><span class="text-icon">Perf</span> Exceptional Performance</h5>
         <ul class="feature-list ep">
           <li><i class="icon-check"></i> <span><b>High Speed:</b> Up to 33 kbps data rate in shallow waters (S40H Series).</span></li>
           <li><i class="icon-check"></i> <span><b>Long Range:</b> More than 10 km range in challenging conditions (L12L Series).</span></li>
@@ -141,7 +141,7 @@ section_id: products
         </ul>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient"><span class="text-icon">App</span> Built for Real Applications</h5>
+        <h5 class="g4x-h5 text-gradient g-orange"><span class="text-icon">App</span> Built for Real Applications</h5>
         <ul class="feature-list ra">
           <li><i class="icon-check"></i> <span><b>Versatile Use:</b> AUV/USV telemetry, survey operations, data harvesting & monitoring.</span></li>
           <li><i class="icon-check"></i> <span><b>Lifecycle Support:</b> From rapid prototyping to long-duration deployments.</span></li>
@@ -149,7 +149,7 @@ section_id: products
         </ul>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient"><span class="text-icon">Net</span> Advanced Networking</h5>
+        <h5 class="g4x-h5 text-gradient g-orange"><span class="text-icon">Net</span> Advanced Networking</h5>
         <ul class="feature-list an">
           <li><i class="icon-check"></i> <span><b>Full Network Stack:</b> Support for multi-hop and mesh architectures.</span></li>
           <li><i class="icon-check"></i> <span><b>Built-in Management:</b> Routing, scheduling, link management & remote configuration.</span></li>
@@ -157,7 +157,7 @@ section_id: products
         </ul>
       </div>
       <div class="wnc-card p2">
-        <h5 class="g4x-h5 text-gradient"><span class="text-icon">R&D</span> Ideal R&D Platform</h5>
+        <h5 class="g4x-h5 text-gradient g-orange"><span class="text-icon">R&D</span> Ideal R&D Platform</h5>
         <ul class="feature-list rd">
           <li><i class="icon-check"></i> <span><b>Custom Signals:</b> Transmit in-band signals & wave files.</span></li>
           <li><i class="icon-check"></i> <span><b>Arbitrary Waveforms:</b> Stream/record passband & baseband waveforms.</span></li>
@@ -172,7 +172,7 @@ section_id: products
 <!-- Editions & Configurations -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient">Editions & Configurations</h2>
+    <h2 class="sec-head lg text-gradient g-orange">Editions & Configurations</h2>
     <p class="sec-subhead">Flexible hardware options tailored to different missions, users, and deployment needs.</p>
   </div>
   <div class="row large py2">
@@ -261,7 +261,7 @@ section_id: products
 <section id="unetstack" class="g4x-section ueco" style="background-color:#0E1729">
   <div class="g4x-section-head logo">
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
-    <h2 class="sec-head lg text-gradient">The UnetStack Ecosystem</h2>
+    <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
   <div class="row large header-2col">
     <div>
@@ -307,7 +307,7 @@ section_id: products
 
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient">Powering the Blue Economy</h2>
+    <h2 class="sec-head lg text-gradient g-orange">Powering the Blue Economy</h2>
     <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
   </div>
   <div class="row large py2">

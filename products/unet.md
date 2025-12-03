@@ -28,7 +28,7 @@ section_id: products
 <section class="g4x-section unet">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h2 class="text-3xl text-600 capitalize-none text-gradient inline-block">UnetStack Overview</h2>
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block">UnetStack Overview</h2>
       <p>UnetStack is an extensible software framework designed to support underwater and hybrid communication networks. Its agent-based architecture provides full control across physical, MAC, network, transport and application layers, enabling users to build, test and deploy custom underwater communication and networking solutions.</p>
       <ul class="feature-list ra">
         <li><i class="icon-check"></i> <span class="text-lg">Supports standalone underwater networks & hybrid systems (Acoustic, Optical, RF, Wired).</span></li>
@@ -55,7 +55,7 @@ section_id: products
 <!-- Development Ecosystem -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient">Development Ecosystem</h2>
+    <h2 class="sec-head lg text-gradient g-orange">Development Ecosystem</h2>
     <p class="sec-subhead">From desktop simulation to hardware deployment, UnetStack provides the tools for every stage of the lifecycle.</p>
   </div>
   <div class="row py2">
@@ -112,7 +112,7 @@ section_id: products
 <!-- Editions -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient">Editions</h2>
+    <h2 class="sec-head lg text-gradient g-orange">Editions</h2>
     <p class="sec-subhead">UnetStack is built on a powerful foundation that combines the open-source, agent-based messaging fabric fjåge with the Unet framework to enable flexible and scalable underwater communication systems.</p>
   </div>
   <div class="row py2">
@@ -170,7 +170,7 @@ section_id: products
 <section class="g4x-section unet">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h2 class="text-3xl text-600 capitalize-none text-gradient inline-block">Components of unetstack</h2>
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block">Components of unetstack</h2>
       <p>UnetStack is an extensible software framework designed to support underwater and hybrid communication networks. Its agent-based architecture provides full control across physical, MAC, network, transport and application layers, enabling users to build, test and deploy custom underwater communication and networking solutions.</p>
       <ul class="feature-list ra">
         <li><i class="icon-check"></i> <span class="text-lg">Supports standalone underwater networks & hybrid systems (Acoustic, Optical, RF, Wired).</span></li>

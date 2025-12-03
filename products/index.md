@@ -5,19 +5,20 @@ banner : images/hero-products.jpg
 excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking.
 ---
 
-<section class="page-hero gen4x wnc-products" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+<section class="page-hero gen4x wnc-products" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">WNC product series</h4>
-      <h1 class="text-gradient">Intelligent Subsea Connectivity</h1>
+      <h1>Intelligent <span class="text-gradient g-blue">Subsea</span> Connectivity</h1>
       <p>Enabling the Blue Economy with a complete suite of software-defined modems, intelligent network stacks, and integrated underwater systems.</p>
       <div class="g4x-hero-btns">
-        <a href="#smart-modems" class="button warning">Explore Smart Modems</a>
-        <a href="#unetstack" class="button info">Explore UnetStack</a>
+        <a href="#smart-modems" class="button g-orange-btn">Explore Smart Modems</a>
+        <a href="#unetstack" class="button g-orange-btn">Explore UnetStack</a>
       </div>
     </div>
   </div>
-  <a class="explore-link" href="{{site.baseurl}}/products/wnc.html">&rarr;</a>
+  <a href="{{site.baseurl}}/products/wnc.html" class="explore-link"><span>Explore</span></a>
+  
   <div class="hero-links">
     <div class="row large">
       <div class="links-wrapper">
@@ -32,7 +33,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
         </a>
         <a href="{{site.baseurl}}/products/wnc.html" class="link-card sd">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 16c2 1.5 4 1.5 6 0s4-1.5 6 0s4 1.5 6 0 M6 3a3 3 0 110 6a3 3 0 010-6 M12 3a3 3 0 110 6a3 3 0 010-6 M18 3a3 3 0 110 6a3 3 0 010-6 M6 9v3 M12 9v3 M18 9v3"></path></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18a.5.5 0 0 1 .4.8l-2.1 2.8a1 1 0 0 1-.8.4h-13a1 1 0 0 1-.8-.4l-2.1-2.8A.5.5 0 0 1 3 18m4.161-4H13V6.702zM15 2.425V15a1 1 0 0 1-1 1H4.04a.5.5 0 0 1-.39-.812L14.11 2.113a.5.5 0 0 1 .89.312"/></svg>
           </div>
           <div>
             <h3>Built for Real Applications</h3>
@@ -64,7 +65,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 
 <section id="smart-modems" class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient">Acoustic Smart Modems</h2>
+    <h2 class="sec-head text-gradient g-orange">Acoustic Smart Modems</h2>
     <p class="sec-subhead">A versatile lineup of underwater acoustic modems, each series crafted to deliver the balance of range, speed, and robustness.</p>
   </div>
   <div class="row">
@@ -74,16 +75,16 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   </div>
 </section>
 
-<section id="unetstack" class="g4x-section ueco" style="background-color:#0E1729">
+<section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-04.jpg);">
   <div class="g4x-section-head logo">
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
-    <h2 class="sec-head lg text-gradient">The UnetStack Ecosystem</h2>
+    <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
   <div class="row unet-product">
     <div class="columns large-6">
       <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
       <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>
-      <a class="uproduct button info" href="{{site.baseurl}}/products/unet.html">Explore UnetStack</a>
+      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet.html">Explore UnetStack</a>
     </div>
     <div class="columns large-6">
       <div class="feature-grid col2">
