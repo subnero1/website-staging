@@ -81,9 +81,8 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   </div>
   <div class="row unet-product">
     <div class="columns large-6">
-      <h5 class="text-sm text-blue">Software Platform</h5>
-      <h2 class="col-title">The OS for <br />Underwater Networks</h2>
-      <p class="col-p">UnetStack is not just software; it's a complete ecosystem. From simulating complex protocols on your laptop to deploying them on the seabed, our software-defined architecture unifies your entire workflow.</p>
+      <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
+      <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>
       <a class="uproduct button info" href="{{site.baseurl}}/products/unet.html">Explore UnetStack</a>
     </div>
     <div class="columns large-6">
@@ -93,23 +92,23 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
           </div>
           <div>
-            <h4>UnetStack Framework</h4>
-            <p>The agent-based network stack that powers our modems. Extendable, open, and media-agnostic.</p>
+            <h4>Software-Defined Networking</h4>
+            <p>A flexible, media-agnostic stack supporting acoustic, optical, and RF links under one unified framework.</p>
           </div>
         </a>
         <a class="card-unet-eco usim" href="{{site.baseurl}}/products/unet.html">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
           </div>
-          <h4>UnetSim</h4>
-          <p>Develop and test protocols on your laptop before getting wet.</p>
+          <h4>Simulation Tools</h4>
+          <p>Design, simulate, test, and deploy with UnetSim, HIL simulation, and UnetCube for full lifecycle development.</p>
         </a>
         <a class="card-unet-eco ucube" href="{{site.baseurl}}/products/unet.html">
           <div class="card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
           </div>
-          <h4>UnetCube</h4>
-          <p>OEM dev-kit for integrating UnetStack into custom vehicles.</p>
+          <h4>Build Your Own</h4>
+          <p>A customisable, extensible platform for creating your own underwater communication offerings.</p>
         </a>
       </div>
     </div>
