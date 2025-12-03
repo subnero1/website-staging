@@ -3448,7 +3448,7 @@ div.tab-columns input:nth-child(5):checked ~ .tab-panels div.tab-panel:nth-child
 }
 
 p, ul li, ol li{
-  color:#000;
+  color:#777;
 }
 
 ul{
@@ -5654,7 +5654,7 @@ a.usecase-card:hover {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 6px;
 }
 .tags-list li {
   padding: 4px 14px;
