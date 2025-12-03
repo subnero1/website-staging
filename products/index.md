@@ -8,9 +8,9 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 <section class="page-hero gen4x wnc-products" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Product Portfolio</h4>
+      <h4 class="g4x-tag">WNC product series</h4>
       <h1 class="text-gradient">Intelligent Subsea Connectivity</h1>
-      <p>Explore our comprehensive suite of software-defined modems, advanced network stacks, and integrated systems designed for the Blue Economy.</p>
+      <p>Enabling the Blue Economy with a complete suite of software-defined modems, intelligent network stacks, and integrated underwater systems.</p>
       <div class="g4x-hero-btns">
         <a href="#smart-modems" class="button warning">Explore Smart Modems</a>
         <a href="#unetstack" class="button info">Explore UnetStack</a>
@@ -26,35 +26,35 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
           </div>
           <div>
-            <h3>High Performance</h3>
-            <p>Explore Smart Modems</p>
+            <h3>Exceptional Performance</h3>
+            <p>Software-defined reliability</p>
           </div>
         </a>
         <a href="{{site.baseurl}}/products/wnc.html" class="link-card sd">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 16c2 1.5 4 1.5 6 0s4-1.5 6 0s4 1.5 6 0 M6 3a3 3 0 110 6a3 3 0 010-6 M12 3a3 3 0 110 6a3 3 0 010-6 M18 3a3 3 0 110 6a3 3 0 010-6 M6 9v3 M12 9v3 M18 9v3"></path></svg>
           </div>
           <div>
-            <h3>Software Defined</h3>
-            <p>Explore UnetStack</p>
+            <h3>Built for Real Applications</h3>
+            <p>Field-proven design</p>
           </div>
         </a>
         <a href="{{site.baseurl}}/products/wnc.html" class="link-card fc">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 12h20 M14 2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 M8 16H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 M20 16h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 M12 12V8 M16 16v-4 M8 16v-4"></path></svg>
           </div>
           <div>
-            <h3>Flexible Configs</h3>
-            <p>OEM & Standalone</p>
+            <h3>Advanced Networking</h3>
+            <p>Scalable subsea networks</p>
           </div>
         </a>
         <a href="{{site.baseurl}}/products/wnc.html" class="link-card ed">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
           </div>
           <div>
-            <h3>Editions</h3>
-            <p>Platinum to Bronze</p>
+            <h3>Ideal R&D Platform</h3>
+            <p>Research-ready system</p>
           </div>
         </a>
       </div>
