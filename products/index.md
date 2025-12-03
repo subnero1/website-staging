@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Products - Subnero
-banner : images/hero-products.webp
+banner : images/hero-products.jpg
 excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking.
 ---
 
@@ -64,7 +64,6 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 
 <section id="smart-modems" class="g4x-section">
   <div class="g4x-section-head">
-    <h5 class="m0 text-sm text-black-01">Hardware</h5>
     <h2 class="sec-head text-gradient">Acoustic Smart Modems</h2>
     <p class="sec-subhead">A versatile lineup of underwater acoustic modems, each series crafted to deliver the balance of range, speed, and robustness.</p>
   </div>
