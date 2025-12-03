@@ -349,14 +349,14 @@ section_id: products
         <div class="blue-economy-features">
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="M3 21h18V8H3zM21 3H3v5h18z"/><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M3 8h18M3 8v13h18V8M3 8V3h18v5"/><path stroke="currentColor" stroke-linecap="square" stroke-width="2" d="M7.004 12v.004H7V12zm4 0v.004H11V12zm4 0v.004H15V12z"/></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none"><path d="M3 21h18V8H3zM21 3H3v5h18z"/><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M3 8h18M3 8v13h18V8M3 8V3h18v5"/><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M7.004 12v.004H7V12zm4 0v.004H11V12zm4 0v.004H15V12z"/></g></svg>
               <span>Unified interface</span>
             </h5>
             <!-- <p>UnetStack exposes a single interface to manage all your communication interfaces, and devices, both above and below water.</p> -->
           </div>
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4"><path stroke-linecap="round" d="M5 24h38"/><path d="M28 4h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2ZM16 32H8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Zm24 0h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z"/><path stroke-linecap="round" d="M24 24v-8m12 16v-8m-24 8v-8"/></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="3"><path stroke-linecap="round" d="M5 24h38"/><path d="M28 4h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2ZM16 32H8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Zm24 0h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z"/><path stroke-linecap="round" d="M24 24v-8m12 16v-8m-24 8v-8"/></g></svg>
               <span>Smart data handling</span>
             </h5>
             <!-- <p>Content-aware prioritization, processing and routing for telemetry, C2, mission, and payload data types.</p> -->
@@ -409,21 +409,21 @@ section_id: products
         <div class="blue-economy-features">
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M12 11v9"/><path d="M14 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M16.959 6C17.619 6.87 18 7.898 18 9s-.381 2.13-1.041 3M7.04 6C6.381 6.87 6 7.898 6 9s.381 2.13 1.041 3m13.275-8C21.38 5.43 22 7.15 22 9s-.62 3.57-1.684 5M3.684 4C2.62 5.43 2 7.15 2 9s.62 3.57 1.684 5"/></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h.01M2 8.82a15 15 0 0 1 20 0M5 12.859a10 10 0 0 1 14 0m-10.5 3.57a5 5 0 0 1 7 0"/></svg>
               <span>Robust communication</span>
             </h5>
             <!-- <p>Seamless wireless connectivity and tracking underwater with transparent handover for mobile underwater assets (e.g. marine robots, divers).</p> -->
           </div>
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 10c0 4.418-8 12-8 12s-8-7.582-8-12a8 8 0 1 1 16 0Z"/><path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M12 11a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g></svg>
               <span>Real-time tracking</span>
             </h5>
             <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
           </div>
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 48 48"><!-- Icon from IconPark Outline by ByteDance - https://github.com/bytedance/IconPark/blob/master/LICENSE --><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M20 6H6v14h14zm0 22H6v14h14zM42 6H28v14h14zM28 28l14 14M28 28h14zm0 0v14z"/></svg>
               <span>Scalable and modular design</span>
             </h5>
             <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
@@ -446,14 +446,14 @@ section_id: products
           </div>
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><!-- Icon from Carbon by IBM - undefined --><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M21 21H11V11h10zm-8-2h6v-6h-6zm18-6h-2A10.01 10.01 0 0 0 19 3V1a12.013 12.013 0 0 1 12 12"/><path fill="currentColor" d="M26 13h-2a5.006 5.006 0 0 0-5-5V6a7.01 7.01 0 0 1 7 7"/></svg>
               <span>Heterogeneous Internet of Underwater Things (IoUT)</span>
             </h5>
             <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
           </div>
           <div>
             <h5>
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="currentColor" d="M30 19h-4v-4h-2v9H8V8h9V6h-4V2h-2v4H8a2 2 0 0 0-2 2v3H2v2h4v6H2v2h4v3a2 2 0 0 0 2 2h3v4h2v-4h6v4h2v-4h3a2.003 2.003 0 0 0 2-2v-3h4Z"/><path fill="currentColor" d="M26 2a4.004 4.004 0 0 0-4 4a3.96 3.96 0 0 0 .567 2.02L19.586 11H11v10h10v-8.586l2.98-2.98A3.96 3.96 0 0 0 26 10a4 4 0 0 0 0-8m-7 17h-6v-6h6Zm7-11a2 2 0 1 1 2-2a2 2 0 0 1-2 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><!-- Icon from Carbon by IBM - undefined --><path fill="currentColor" d="M26 14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2v4.1a5 5 0 0 0-3.9 3.9H14v-2a2 2 0 0 0-2-2h-2v-4.1a5 5 0 1 0-2 0V18H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2h4.1a5 5 0 1 0 5.9-5.9V14ZM6 9a3 3 0 1 1 3 3a3 3 0 0 1-3-3m6 17H6v-6h6Zm14-3a3 3 0 1 1-3-3a3 3 0 0 1 3 3M20 6h6v6h-6Z"/></svg>
               <span>Scalable network architecture</span>
             </h5>
             <!-- <p>True heterogenous underwater wireless network enabling Internet of Underwater Things (IOuT).</p> -->
