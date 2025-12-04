@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Frequently Asked Questions
-banner : images/banner-about.jpg
+banner : images/banner-faq.jpg
 excerpt: Frequently asked questions about Subnero's offerings
 ---
 
