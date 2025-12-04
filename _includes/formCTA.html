@@ -1,5 +1,5 @@
 <div class="cta">
-  <p>Looking for a reliable underwater communication solution?</p>
+  <p id="ctaMessage">Looking for a reliable underwater communication solution?</p>
   <button class="cta-button" id="openCTA">Contact us</button>
 </div>
 <!-- Modal -->
@@ -14,6 +14,27 @@
 </dialog>
 
 <script>
+const ctaMessages = [
+  "Looking for a reliable underwater communication solution?",
+  "Ready to upgrade your subsea communication capabilities?",
+  "Planning your next underwater communication system?",
+  "Looking to enhance your subsea connectivity?",
+  "Ready to invest in your next underwater communication solution?",
+  "Building your next-generation subsea communication setup?",
+  "Ready to transform your subsea communication capabilities?",
+  "Looking to future-proof your underwater communication systems?"
+];
+
+function getRandomMessage() {
+  return ctaMessages[Math.floor(Math.random() * ctaMessages.length)];
+}
+
+// Set random message on page load
+document.addEventListener('DOMContentLoaded', () => {
+  const ctaMessageEl = document.getElementById('ctaMessage');
+  ctaMessageEl.textContent = getRandomMessage();
+});
+
 const CTAModal = document.getElementById('CTAModal');
 const openCTA = document.getElementById('openCTA');
 const closeCTA = document.getElementById('closeCTA');
