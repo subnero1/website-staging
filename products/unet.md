@@ -55,7 +55,7 @@ section_id: products
 </section>
 
 <!-- Development Ecosystem -->
-<section class="g4x-section" style="background-color:#F8FAFC;">
+<section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Development Ecosystem</h2>
     <p class="sec-subhead">From desktop simulation to hardware deployment, UnetStack provides the tools for every stage of the lifecycle.</p>
