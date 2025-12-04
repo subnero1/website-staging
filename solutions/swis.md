@@ -25,7 +25,7 @@ tabs: swancomponents
   </div>
   <div class='large-4 columns flex-col'>
     <p>Subnero Wireless Integrated Suite (SWIS), ADCPs Edition provides a seamless end-to-end solution for the wireless transfer of data from Acoustic Doppler Current Profilers (ADCPs) to avoid uncertainties during long-term deployments. The intuitive web-based user interface and Content-Aware Processing (CAP) engine let the user effectively manage multiple deployments to drive down the overall costs.</p>
-    <p>Take a look at how SWIS revolutionizes the deployment of ADCPs.</p>
+    <p>Take a look at how SWIS - ADCP Edition revolutionizes the deployment of ADCPs.</p>
   </div>
   <div class='large-8 columns'>
     <div class="flex-video swan-video">
@@ -83,7 +83,7 @@ tabs: swancomponents
           <thead>
             <tr>
               <th></th>
-              <th>SWIS</th>
+              <th>SWIS - ADCP Edition</th>
               <th>Cables</th>
               <th>Divers</th>
             </tr>
@@ -139,7 +139,7 @@ tabs: swancomponents
 <!-- SWIS Features -->
 <div class='bg-grey'>
   <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>SWIS Features</h1>
+    <h1 class='section-heading'>SWIS - ADCP Edition Features</h1>
   </div>
   <div class='container row row-width row-padding-bottom'>
     <div class='large-4 columns flex-col row-width row-padding-bottom'>
@@ -213,14 +213,14 @@ tabs: swancomponents
 <!-- Components of SWIS -->
 <div class='bg-grey'>
   <div class='row'>
-    <h1 class='section-heading'>Components of SWIS</h1>
+    <h1 class='section-heading'>Components of SWIS - ADCP Edition</h1>
   </div>
   {% include tabbed-columns.html content=site.data.swis-tabs type="features" %}
 </div>
 <!-- How it works -->
 <div>
   <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>SWIS in Action</h1>
+    <h1 class='section-heading'>SWIS - ADCP Edition in Action</h1>
   </div>
   <div class='four-spacing'></div>
   <div class='row row-width row-padding-bottom'>

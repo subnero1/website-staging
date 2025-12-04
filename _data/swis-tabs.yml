@@ -12,7 +12,7 @@
     - name: Multiple deployments
       icon: anchor
       description: Download data from multiple seabed units using a single topside unit, making the data retrieval process faster and efficient.
-- name: SWIS UI
+- name: Seamless UI
   id: swis-tab-two
   input_id: SwanCloud
   panel_id: swan-panel-two
