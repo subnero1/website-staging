@@ -12,6 +12,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
       <h1>Intelligent <span class="text-gradient g-blue">Subsea</span> Connectivity</h1>
       <p>Enabling the Blue Economy with a complete suite of software-defined modems, intelligent network stacks, and integrated underwater systems.</p>
       <div class="g4x-hero-btns">
+        <a href="#wnc" class="button g-orange-btn">Explore WNC</a>
         <a href="#smart-modems" class="button g-orange-btn">Explore Smart Modems</a>
         <a href="#unetstack" class="button g-orange-btn">Explore UnetStack</a>
       </div>
@@ -63,12 +64,12 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   </div>
 </section>
 
-<section class="g4x-section">
+<section id="wnc" class="g4x-section">
   <div class="g4x-section-head">
   <h4 class="g4x-tag">Product Series</h4>
     <h2 class="sec-head text-gradient g-orange">Wireless Networked Communications</h2>
     <p class="sec-subhead">Subnero’s Wireless Networked Communications (WNC) Product Series consists of acoustic smart modems and the UnetStack software ecosystem, supporting a wide range of subsea communication needs.</p>
-    <a href="{{site.baseurl}}/products/wnc.html" class="button g-orange-btn read-btn">Explore WNC &rarr;</a>
+    <a href="{{site.baseurl}}/products/wnc.html" class="button g-orange-btn read-btn">Learn more about WNC &rarr;</a>
   </div>
 </section>
 
@@ -93,7 +94,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <div class="columns large-6">
       <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
       <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>
-      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet.html">Learn more &rarr;</a>
+      <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet.html">Learn more about UnetStack &rarr;</a>
     </div>
     <div class="columns large-6">
       <div class="feature-grid col2">

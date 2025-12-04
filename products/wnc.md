@@ -298,7 +298,7 @@ section_id: products
     </div>
   </div>
   <div class="unet-product row py2 mt3 text-center">
-  <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet">Learn More about UnetStack</a>
+  <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet">Learn more about UnetStack</a>
   </div>
 </section>
 
