@@ -10,7 +10,7 @@ excerpt: Frequently asked questions about Subnero's offerings
     <div class="hero-text">
       <h4 class="g4x-tag">Frequently Asked Questions</h4>
       <h1>Answers at Your Fingertips</h1>
-      <p>Clear, concise responses to the most common questions about our products and technologies.</p>
+      <p>Find fast, reliable answers to frequently asked questions, helping you better understand our products, technologies, and underwater communication solutions.</p>
     </div>
   </div>
 </section>
