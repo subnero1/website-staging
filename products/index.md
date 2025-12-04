@@ -8,7 +8,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
 <section class="page-hero gen4x wnc-products" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">WNC product series</h4>
+      <h4 class="g4x-tag">Wireless Networked Communication</h4>
       <h1>Intelligent <span class="text-gradient g-blue">Subsea</span> Connectivity</h1>
       <p>Enabling the Blue Economy with a complete suite of software-defined modems, intelligent network stacks, and integrated underwater systems.</p>
       <div class="g4x-hero-btns">
