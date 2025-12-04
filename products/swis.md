@@ -21,7 +21,7 @@ excerpt: A modular underwater operations platform that integrates communication,
       <div class="links-wrapper">
         <a href="{{site.baseurl}}/products/wnc.html#wnc-overview" class="link-card hp">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M2.725 10.725L.6 8.6q2.3-2.225 5.25-3.412T12 4t6.15 1.188T23.4 8.6l-2.125 2.125Q19.4 8.925 17 7.963T12 7t-5 .963t-4.275 2.762M6.95 14.95l-2.1-2.1q1.475-1.375 3.313-2.112T12 10t3.838.738t3.312 2.112l-2.1 2.1Q16 14 14.713 13.5T12 13t-2.713.5t-2.337 1.45M12 20q-.825 0-1.412-.587T10 18t.588-1.412T12 16t1.413.588T14 18t-.587 1.413T12 20"/></svg>
           </div>
           <div>
             <h3>Integrated Connectivity</h3>
@@ -39,7 +39,7 @@ excerpt: A modular underwater operations platform that integrates communication,
         </a>
         <a href="{{site.baseurl}}/products/wnc.html#wnc-performance" class="link-card fc">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 12h20 M14 2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 M8 16H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 M20 16h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 M12 12V8 M16 16v-4 M8 16v-4"></path></svg>
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
           </div>
           <div>
             <h3>Seamless User Experience</h3>
@@ -48,7 +48,7 @@ excerpt: A modular underwater operations platform that integrates communication,
         </a>
         <a href="{{site.baseurl}}/products/wnc.html#unetstack" class="link-card ed">
           <div class="link-card-svg">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M9.14 16.962a4.9 4.9 0 0 0 2.812.655c1.483-.104 3.116-1.112 2.997-2.807c-.092-1.313-.815-2.066-2.953-2.81s-2.857-1.497-2.95-2.81c-.118-1.695 1.515-2.703 2.998-2.807c.974-.068 1.97.16 2.813.655M12 5v14m10-7c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10s10-4.477 10-10"/></svg>
           </div>
           <div>
             <h3>Operational Cost Savings</h3>
