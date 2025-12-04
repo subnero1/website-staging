@@ -36,9 +36,9 @@
   - name: FAQ
     path: /faq
     section_id: faq
-  - name: Quick Links
-    path: /quicklinks
-    section_id: quicklinks
+  - name: Technical Resources 
+    path: /technical-resources
+    section_id: technical-resources
 - name: About
   path: about/
   section_id: about
