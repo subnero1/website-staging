@@ -5,24 +5,21 @@ banner : images/hero-solutions.jpg
 excerpt: Subnero's solutions for marine robots and underwater sensors.
 ---
 
-<section class='page-hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+<section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-        <h1>Configure for Your Mission</h1>
-        <p>From underwater communication to networked navigation and real-time monitoring, Subnero offers a complete ecosystem of software and hardware technologies built to adapt to your application. Designed for scalability and performance, our solutions empower researchers, industry, and defense users alike. Talk to us to learn how we can supercharge your next deployment.</p>
-        {%- include formContactUs.html suffix="_top" -%}
-      </div>
+      <h4 class="g4x-tag">Underwater Solutions</h4>
+      <h1>Configure <br/><span class="text-gradient g-blue">for Your Mission</span></h1>
+      <p>From underwater communication to networked navigation and real-time monitoring, Subnero offers a complete ecosystem of software and hardware technologies built to adapt to your application. Designed for scalability and performance, our solutions empower researchers, industry, and defense users alike. Talk to us to learn how we can supercharge your next deployment.</p>
+      {%- include formContactUs.html suffix="_top" -%}
+    </div>
   </div>
 </section>
 
-<section class="products-page" style="padding:6rem 0">
-  <div class="row">
-      <div class="large-12 columns">
-        <div class="category-content">
-          <h1>Subnero Underwater Network (SUN)</h1>
-          <h3>Scalable underwater connectivity through intelligent networked communications</h3>
-        </div>
-      </div>
+<section class="g4x-section">
+  <div class="g4x-section-head">
+    <h2 class="sec-head text-gradient g-orange">Subnero Underwater Network (SUN)</h2>
+    <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p>
   </div>
   <div class="row" style="margin-top:0;">
     <div class="large-6 columns"> 

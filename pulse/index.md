@@ -5,19 +5,19 @@ banner : images/banner-pulse.jpg
 title_color : "#E6782F"
 ---
 
-<div class ='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+  <div class="row flex-row">
+    <div class="hero-text">
+      <h4 class="g4x-tag">Underwater Communication</h4>
+      <h1>{{page.title}}</h1>
+      <p>A seamless end-to-end platform for wireless ADCP data transfer, reducing deployment uncertainty and simplifying operations with an intuitive interface and Content-Aware Processing.</p>
     </div>
   </div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
-</div>
+</section>
 
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
-    <h1 class="thin">{{page.title}}</h1>
+    <!-- <h1 class="thin">{{page.title}}</h1> -->
     <div class='large-12 columns' style='display:flex; flex-wrap:wrap'>
 {% for post in site.posts %}
   {% assign isnews = false %}

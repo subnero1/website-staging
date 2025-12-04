@@ -170,7 +170,7 @@ section_id: products
 </section>
 
 <!-- Components of unetstack -->
-<section class="g4x-section unet" style="background-color:#f8fafc">
+<section class="g4x-section unet" style="background-color:#e8f3ff">
   <div class="row large">
     <div class="large-6 columns"> 
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Components of unetstack</h2>

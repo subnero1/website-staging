@@ -37,7 +37,9 @@ a {
 a:hover {
   color: #999;
 }
-strong, b {
+strong, b, 
+table thead tr th, 
+table thead tr td {
   font-weight: 500;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -3863,6 +3865,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   background-color: rgba(15, 15, 15, 0.2);
   border: 1px solid #F8BB96;
   border-radius: 25px;
+}
+.g4x-section-head .g4x-tag {
+  margin: 0 0 12px;
+  background-color: transparent;
+  color: #ff7a29;
+  border-color: #ff7a29;
 }
 .g4x-hero-btns {
   display: flex;
