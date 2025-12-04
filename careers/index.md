@@ -1,6 +1,6 @@
 ---
 layout: gen4xPage
-title: Shape the Future of Underwater Technology
+title: Join Our Team
 banner: images/banner-careers.jpg
 subhead: Join us in developing next-generation solutions for ocean connectivity, sensing, and autonomy.
 pageWidth: sm
