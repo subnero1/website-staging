@@ -23,6 +23,9 @@
 - name: Pulse
   path: pulse/
   section_id: pulse
+- name: User Stories
+  path: user-stories
+  section_id: puluserstoriesse
 - name: Resources
   path: support/
   section_id: support
@@ -36,9 +39,6 @@
   - name: Quick Links
     path: /quicklinks
     section_id: quicklinks
-  - name: User Stories
-    path: /user-stories
-    section_id: userstories
 - name: About
   path: about/
   section_id: about

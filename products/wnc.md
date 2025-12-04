@@ -24,10 +24,9 @@ section_id: products
       </div>
     </div>
   </div>
-  <!-- <a class="explore-link" href="#">&rarr;</a> -->
 </section>
 
-<section class="g4x-section">
+<section class="g4x-section" id="wnc-overview">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Overview</h2>
     <p class="sec-subhead">Subnero's WNC Product Series brings together Subnero’s acoustic smart modems and the UnetStack software ecosystem to support a wide range of subsea communication needs.</p>
@@ -130,7 +129,7 @@ section_id: products
     * Depending on channel conditions and reliability requirements.
   </div>
 
-  <div class="row large py2">
+  <div class="row large py2" id="wnc-performance">
     <div class="feature-grid col2">
       <div class="wnc-card p2">
         <h5 class="g4x-h5 text-gradient g-orange"><span class="text-icon">Perf</span> Exceptional Performance</h5>
@@ -258,12 +257,12 @@ section_id: products
 
 <!-- The UnetStack Ecosystem  -->
 
-<section id="unetstack" class="g4x-section ueco" style="background-color:#0E1729">
+<section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-04.jpg);">
   <div class="g4x-section-head logo">
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
     <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
-  <div class="row large header-2col">
+  <div class="row large header-2col relative">
     <div>
       <h2 class="text-xl">One Stack. Endless Possibilities.</h2>
       <p>A unified ecosystem that lets you simulate, build and deploy underwater communication systems.</p>
@@ -273,7 +272,7 @@ section_id: products
       <p>The UnetStack ecosystem unifies simulation, hardware-in-the-loop testing, OEM development tools and full-stack networking into one framework, making it easy to design, test and deploy underwater communication solutions.</p>
     </div>
   </div>
-  <div class="row large">
+  <div class="row large relative">
     <div class="feature-grid col3">
       <div class="card-unet-eco">
         <div class="card-svg">
@@ -298,8 +297,8 @@ section_id: products
       </div>
     </div>
   </div>
-  <div class="row py2 mt3 text-center">
-    <a class="learn-link" href="{{site.baseurl}}/products/unet">Learn More about UnetStack &rarr;</a>
+  <div class="unet-product row py2 mt3 text-center">
+  <a class="uproduct button g-orange-btn" href="{{site.baseurl}}/products/unet">Learn More about UnetStack</a>
   </div>
 </section>
 
