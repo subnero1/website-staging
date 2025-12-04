@@ -19,7 +19,7 @@ excerpt: A modular underwater operations platform that integrates communication,
   <div class="hero-links">
     <div class="row large">
       <div class="links-wrapper">
-        <a href="{{site.baseurl}}/products/wnc.html#wnc-overview" class="link-card hp">
+        <div class="link-card hp">
           <div class="link-card-svg">
             <svg viewBox="0 0 24 24"><path fill="currentColor" d="M2.725 10.725L.6 8.6q2.3-2.225 5.25-3.412T12 4t6.15 1.188T23.4 8.6l-2.125 2.125Q19.4 8.925 17 7.963T12 7t-5 .963t-4.275 2.762M6.95 14.95l-2.1-2.1q1.475-1.375 3.313-2.112T12 10t3.838.738t3.312 2.112l-2.1 2.1Q16 14 14.713 13.5T12 13t-2.713.5t-2.337 1.45M12 20q-.825 0-1.412-.587T10 18t.588-1.412T12 16t1.413.588T14 18t-.587 1.413T12 20"/></svg>
           </div>
@@ -27,8 +27,8 @@ excerpt: A modular underwater operations platform that integrates communication,
             <h3>Integrated Connectivity</h3>
             <p>Seamless end-to-end links</p>
           </div>
-        </a>
-        <a href="{{site.baseurl}}/products/wnc.html#smart-modems" class="link-card sd">
+        </div>
+        <div class="link-card sd">
           <div class="link-card-svg">
             <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18a.5.5 0 0 1 .4.8l-2.1 2.8a1 1 0 0 1-.8.4h-13a1 1 0 0 1-.8-.4l-2.1-2.8A.5.5 0 0 1 3 18m4.161-4H13V6.702zM15 2.425V15a1 1 0 0 1-1 1H4.04a.5.5 0 0 1-.39-.812L14.11 2.113a.5.5 0 0 1 .89.312"/></svg>
           </div>
@@ -36,8 +36,8 @@ excerpt: A modular underwater operations platform that integrates communication,
             <h3>Rapid Deployment</h3>
             <p>Plug-and-play operational readiness</p>
           </div>
-        </a>
-        <a href="{{site.baseurl}}/products/wnc.html#wnc-performance" class="link-card fc">
+        </div>
+        <div class="link-card fc">
           <div class="link-card-svg">
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
           </div>
@@ -45,8 +45,8 @@ excerpt: A modular underwater operations platform that integrates communication,
             <h3>Seamless User Experience</h3>
             <p>Intuitive, easy-to-use interface</p>
           </div>
-        </a>
-        <a href="{{site.baseurl}}/products/wnc.html#unetstack" class="link-card ed">
+        </div>
+        <div class="link-card ed">
           <div class="link-card-svg">
             <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M9.14 16.962a4.9 4.9 0 0 0 2.812.655c1.483-.104 3.116-1.112 2.997-2.807c-.092-1.313-.815-2.066-2.953-2.81s-2.857-1.497-2.95-2.81c-.118-1.695 1.515-2.703 2.998-2.807c.974-.068 1.97.16 2.813.655M12 5v14m10-7c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10s10-4.477 10-10"/></svg>
           </div>
@@ -54,7 +54,7 @@ excerpt: A modular underwater operations platform that integrates communication,
             <h3>Operational Cost Savings</h3>
             <p>Reduces reliance on expensive infrastructure</p>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>
