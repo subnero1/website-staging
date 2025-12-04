@@ -15,13 +15,23 @@ excerpt: A modular underwater operations platform that integrates communication,
         <span class="text-gradient g-orange">I</span>ntegrated
         <span class="text-gradient g-orange">S</span>uite
       </h1>
-      <p>Subnero Wireless Integrated Suite (SWIS) is a modular underwater IoT platform that brings together acoustic communication, sensor integration, and edge processing to optimise subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity. SWIS supports multiple variants and offers a consistent, user-friendly interface for applications ranging from survey operations to long-term ocean monitoring.</p>
-      {%- include formContactUs.html suffix="_top" -%}
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ratione modi a earum eius esse quia, vel labore quasi magni.</p>
+      <div class="g4x-hero-btns">
+        <a href="#adcp-edition" class="button g-orange-btn">Explore ADCP Edition</a>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="adcp-edition" class="g4x-section">
+<section id="wnc" class="g4x-section">
+  <div class="g4x-section-head">
+    <h2 class="sec-head text-gradient g-orange">Overview</h2>
+    <p class="sec-subhead">Subnero Wireless Integrated Suite (SWIS) is a modular underwater IoT platform that brings together acoustic communication, sensor integration, and edge processing to optimise subsea data collection. Built on Subnero’s smart modems, it provides a seamless way to deploy sensors, harvest data autonomously, and manage underwater systems with reliable subsea connectivity. SWIS supports multiple variants and offers a consistent, user-friendly interface for applications ranging from survey operations to long-term ocean monitoring.</p>
+    <!-- <a href="{{site.baseurl}}/products/wnc.html" class="button g-orange-btn read-btn">Learn more about WNC &rarr;</a> -->
+  </div>
+</section>
+
+<section id="adcp-edition" class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">ADCP Edition</h2>
     <!-- <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p> -->

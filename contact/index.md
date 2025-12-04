@@ -2,6 +2,7 @@
 layout: gen4xPage
 title:  Contact Us
 banner: images/banner-contact.jpg
+subhead: Add subhead for hero section here or remove it
 address: |
     1003 Bukit Merah Central
     #04-05

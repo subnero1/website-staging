@@ -9,6 +9,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
   <div class="row flex-row">
     <div class="hero-text">
       <h1>{{page.title}}</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ratione modi a earum eius esse quia, vel labore quasi magni.</p>
     </div>
   </div>
 </section>
