@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gen4xPage
 title:  Support
 banner : images/banner-support.jpg
 ---

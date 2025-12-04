@@ -15,7 +15,7 @@ title_color : "#E6782F"
   </div>
 </section>
 
-<div class='full' style='background: #f5f5f5'>
+<div class='full'>
   <div class='row'>
     <!-- <h1 class="thin">{{page.title}}</h1> -->
     <div class='large-12 columns' style='display:flex; flex-wrap:wrap'>

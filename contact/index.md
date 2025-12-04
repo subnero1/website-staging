@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: gen4xPage
 title:  Contact Us
 banner: images/banner-contact.jpg
 address: |

@@ -5,21 +5,18 @@ banner : images/banner-about.jpg
 excerpt: Frequently asked questions about Subnero's offerings
 ---
 
-<div class ='full tall hero' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
+<section class="page-hero sm gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+  <div class="row flex-row">
+    <div class="hero-text">
+      <h1>{{page.title}}</h1>
     </div>
   </div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
-</div>
+</section>
 
-<div class="section-faq">
+<div class="section-faq py2">
 
   <style id="search-style"></style>
 
-  <h2 class="page-title">{{ page.title }}</h2>
   <div class="faq-row">
     <div class="faq-categories">
       <div class="field-wrapper">            

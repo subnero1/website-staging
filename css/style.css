@@ -1076,7 +1076,7 @@ form input.error, form textarea.error {
   display: inline-block;
   color: #fff;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
@@ -1307,7 +1307,7 @@ form input.error, form textarea.error {
   color: #fff;
   font-size: 5rem;
   line-height: 5rem;
-  font-weight: bold;
+  font-weight: 500;
   opacity: 0;
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
@@ -1743,7 +1743,7 @@ body {
 }
 .modPriceBox p.level {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
@@ -2139,7 +2139,7 @@ p.small-title {
 }
 .section-faq {
   position: relative;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem 2rem;
 }
 .faq-row {
   width: 100%;
@@ -3739,7 +3739,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 
 .accordion-label{
   padding: 0.7em;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
   color: #E6782F;
   border-radius: 5px;
@@ -3767,7 +3767,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .accordion-content ul li::before{
   content: "\2022";
   color: #777;
-  font-weight: bold;
+  font-weight: 500;
   display: inline-block;
   width: 0.5em;
   font-size:2em;

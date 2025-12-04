@@ -5,15 +5,13 @@ banner : images/banner-about.jpg
 excerpt: Subnero provides underwater wireless communication, navigation, monitoring and sensing, using underwater acoustic smart modems and unmanned surface vehicles for water quality monitoring.
 ---
 
-<div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
+<section class="page-hero sm gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+  <div class="row flex-row">
+    <div class="hero-text">
+      <h1>{{page.title}}</h1>
     </div>
   </div>
-  <div class='four spacing'></div>
-  <div class='three spacing'></div>
-</div>
+</section>
 
 <div class='about-container'>
     <div class='large-3 columns bg-grey column-margin'>
