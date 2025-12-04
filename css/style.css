@@ -5053,7 +5053,7 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .bquote .author p {
   font-size: 1.4rem;
-  color: #007A8C;
+  color: #fb822f;
   margin: 0;
 }
 .bquote small {
@@ -6635,6 +6635,10 @@ a.usecase-card:hover {
   }
   .page-hero {
     height: 100vh;
+  }
+  .page-hero.md,
+  .page-hero.sm {
+    height: 80vh;
   }
   .g4x-section-head.logo {
     flex-direction: column;
