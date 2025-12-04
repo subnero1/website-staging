@@ -3,6 +3,7 @@ layout: gen4xPage
 title: Join Our Team
 banner: images/banner-careers.jpg
 subhead: Join us in developing next-generation solutions for ocean connectivity, sensing, and autonomy.
+headerTag: Header Tag
 pageWidth: sm
 ---
 

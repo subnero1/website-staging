@@ -4772,7 +4772,8 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .user-story-card .user-logo {
   flex: none;
-  width: 340px;
+  width: 100%;
+  max-width: 340px;
 }
 .user-story-card img {
   width: 100%;

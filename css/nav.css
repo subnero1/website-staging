@@ -173,6 +173,7 @@ li.has-dropdown > a {
   .page-header.scrolled .nav-links {
     top: 50px;
     height: calc(100vh - 50px);
+    overflow-y: auto;
   }
   .nav-links.active {
     left: 0;
@@ -190,6 +191,12 @@ li.has-dropdown > a {
     box-shadow: none;
     background: #f8f9fa;
     margin-top: 5px;
+  }
+  .submenu {
+    visibility: visible;
+    opacity: 1;
+    position: static;
+    background-color: #f8f8f8;
   }
   .submenu li {
     margin: 0;

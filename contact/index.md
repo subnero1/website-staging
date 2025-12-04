@@ -3,6 +3,7 @@ layout: gen4xPage
 title:  Let’s Connect
 banner: images/banner-contact.jpg
 subhead: Reach out to our team for product enquiries, technical questions, or partnership opportunities.
+headerTag: Header Tag
 address: |
     1003 Bukit Merah Central
     #04-05
