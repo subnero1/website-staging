@@ -1,8 +1,8 @@
 ---
 layout: gen4xPage
-title:  Careers
+title: Shape the Future of Underwater Technology
 banner: images/banner-careers.jpg
-subhead: Add subhead for hero section here or remove it
+subhead: Join us in developing next-generation solutions for ocean connectivity, sensing, and autonomy.
 pageWidth: sm
 ---
 

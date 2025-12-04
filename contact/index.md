@@ -1,8 +1,8 @@
 ---
 layout: gen4xPage
-title:  Contact Us
+title:  Let’s Connect
 banner: images/banner-contact.jpg
-subhead: Add subhead for hero section here or remove it
+subhead: Reach out to our team for product enquiries, technical questions, or partnership opportunities.
 address: |
     1003 Bukit Merah Central
     #04-05

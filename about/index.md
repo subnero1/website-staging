@@ -8,8 +8,9 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
 <section class="page-hero sm gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h1>{{page.title}}</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ratione modi a earum eius esse quia, vel labore quasi magni.</p>
+      <h4 class="g4x-tag">About Us</h4>
+      <h1>Advancing Underwater Connectivity</h1>
+      <p>A team dedicated to building the technologies that power the Blue Economy and the future of subsea communication.</p>
     </div>
   </div>
 </section>
