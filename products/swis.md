@@ -52,7 +52,7 @@ excerpt: A modular underwater operations platform that integrates communication,
           </div>
           <div>
             <h3>Operational Cost Savings</h3>
-            <p>Reduces reliance on expensive infrastructure</p>
+            <p>Less reliance on costly infrastructure</p>
           </div>
         </div>
       </div>
