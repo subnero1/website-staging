@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Pulse
+title: Insights from Beneath the Surface
 banner : images/banner-pulse.jpg
 title_color : "#E6782F"
 ---
@@ -8,9 +8,9 @@ title_color : "#E6782F"
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Underwater Communication</h4>
-      <h1>{{page.title}}</h1>
-      <p>A seamless end-to-end platform for wireless ADCP data transfer, reducing deployment uncertainty and simplifying operations with an intuitive interface and Content-Aware Processing.</p>
+      <h4 class="g4x-tag">Pulse</h4>
+      <h1>Insights from <span class="text-gradient g-blue">Beneath the Surface</span></h1>
+      <p>Updates, stories, and announcements shaping Subnero’s journey in underwater communication.</p>
     </div>
   </div>
 </section>

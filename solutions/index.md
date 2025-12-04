@@ -8,7 +8,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Underwater Solutions</h4>
+      <h4 class="g4x-tag">Subsea Solutions</h4>
       <h1>Configure <br/><span class="text-gradient g-blue">for Your Mission</span></h1>
       <p>From underwater communication to networked navigation and real-time monitoring, Subnero offers a complete ecosystem of software and hardware technologies built to adapt to your application. Designed for scalability and performance, our solutions empower researchers, industry, and defense users alike. Talk to us to learn how we can supercharge your next deployment.</p>
       {%- include formContactUs.html suffix="_top" -%}

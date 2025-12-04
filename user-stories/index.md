@@ -8,7 +8,7 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
 <section class="page-hero md gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">User Storeis</h4>
+      <h4 class="g4x-tag">User Stories</h4>
       <h1>Exploring the Ocean <span class="text-gradient g-blue">Through Our Users</span></h1>
       <p>Discover how our customers bring the Internet of Oceans to life.</p>
     </div>
@@ -32,7 +32,7 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
         <div class="details">
           <h2>{{ item.sub_title }}</h2>
           <p>{{ item.excerpt }}</p>
-          <p class="read-link">Learn More &#8594;</p>
+          <p class="read-link">Read more &#8594;</p>
         </div>
       </a>
       {% endfor %}      

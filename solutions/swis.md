@@ -12,8 +12,8 @@ tabs: swancomponents
 <section class="page-hero gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Underwater Communication</h4>
-      <h1>Subnero Wireless Integrated Suite (SWIS) - ADCP Edition</h1>
+      <h4 class="g4x-tag">Product Series</h4>
+      <h1><span class="text-gradient g-orange">SWIS</span> - ADCP Edition</h1>
       <p>A seamless end-to-end platform for wireless ADCP data transfer, reducing deployment uncertainty and simplifying operations with an intuitive interface and Content-Aware Processing.</p>
       {%- include formRequestQuote.html -%}
     </div>

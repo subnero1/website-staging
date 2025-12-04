@@ -2,7 +2,7 @@
 layout: gen4xPage
 title:  Support
 banner : images/banner-support.jpg
-subhead: Add subhead for hero section here or remove it
+subhead: Technical assistance, documentation, and expert support for all Subnero products.
 ---
 
 ## Documentation

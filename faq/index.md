@@ -8,8 +8,9 @@ excerpt: Frequently asked questions about Subnero's offerings
 <section class="page-hero sm gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h1>{{page.title}}</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ratione modi a earum eius esse quia, vel labore quasi magni.</p>
+      <h4 class="g4x-tag">Frequently Asked Questions</h4>
+      <h1>Answers at Your Fingertips</h1>
+      <p>Clear, concise responses to the most common questions about our products and technologies.</p>
     </div>
   </div>
 </section>
