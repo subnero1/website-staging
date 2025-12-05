@@ -22,6 +22,48 @@ section_id: products
       </div>
     </div>
   </div>
+  <div class="hero-links">
+    <div class="row large">
+      <div class="links-wrapper">
+        <div class="link-card hp">
+          <div class="link-card-svg">
+            <svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5.7 3.948a2.423 2.423 0 0 1 4.3-1a2.423 2.423 0 0 1 4.3 1l.125.627l.406.081A2.7 2.7 0 0 1 17 7.302V7.5c0 .726-.31 1.38-.805 1.837a3.248 3.248 0 0 1-.77 6.088l-.037.185A2.973 2.973 0 0 1 10 16.678a2.973 2.973 0 0 1-5.388-1.068l-.037-.185a3.248 3.248 0 0 1-.77-6.088A2.5 2.5 0 0 1 3 7.5v-.198a2.7 2.7 0 0 1 2.169-2.646l.406-.08zm8.3 6.967v.585a1.5 1.5 0 0 1-1.5 1.5h-2v2.027a1.973 1.973 0 0 0 3.907.387l.103-.512a.5.5 0 0 1 .392-.392l.291-.059a2.248 2.248 0 0 0-.28-4.445a1.5 1.5 0 0 1-.913.909m-1 0a1.5 1.5 0 1 1 1.895-1.968A1.5 1.5 0 0 0 16 7.5v-.198c0-.81-.571-1.506-1.365-1.665l-.733-.147a.5.5 0 0 1-.392-.392l-.191-.954a1.423 1.423 0 0 0-2.819.28V12h2a.5.5 0 0 0 .5-.5zM9.5 6V4.423a1.423 1.423 0 0 0-2.819-.279l-.19.954a.5.5 0 0 1-.393.392l-.733.147A1.7 1.7 0 0 0 4 7.302V7.5A1.5 1.5 0 0 0 5.5 9h1A1.5 1.5 0 0 1 8 10.5v.585a1.5 1.5 0 1 1-1 0V10.5a.5.5 0 0 0-.5-.5H5.248a2.248 2.248 0 0 0-.441 4.451l.291.059a.5.5 0 0 1 .392.392l.103.512a1.973 1.973 0 0 0 3.907-.387V7h-.585a1.5 1.5 0 1 1 0-1zM8 6.5a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0M7.5 13a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1m6-3a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1"/></svg>
+          </div>
+          <div>
+            <h3>Software-Defined Intelligence</h3>
+            <p>Full-stack programmability</p>
+          </div>
+        </div>
+        <div class="link-card sd">
+          <div class="link-card-svg">
+            <svg width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.749 9.75a2.25 2.25 0 1 0 4.499 0a2.25 2.25 0 0 0-4.499 0m6 6a4.05 4.05 0 0 0-3.75-3a4.05 4.05 0 0 0-3.75 3m1.875-13.125a1.875 1.875 0 1 0 3.75 0a1.875 1.875 0 0 0-3.75 0M19.499 12a1.875 1.875 0 1 0 3.75 0a1.875 1.875 0 0 0-3.75 0m-9.375 9.375a1.875 1.875 0 1 0 3.75 0a1.875 1.875 0 0 0-3.75 0M.749 12a1.875 1.875 0 1 0 3.75 0a1.875 1.875 0 0 0-3.75 0M16.5 4.2a9.04 9.04 0 0 1 3.3 3.3m0 9a9.04 9.04 0 0 1-3.3 3.3m-9 0a9.04 9.04 0 0 1-3.3-3.3m0-9a9.04 9.04 0 0 1 3.3-3.3"/></svg>
+          </div>
+          <div>
+            <h3>Unified Development Workflow</h3>
+            <p>Simulate, test and deploy seamlessly</p>
+          </div>
+        </div>
+        <div class="link-card fc">
+          <div class="link-card-svg">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 12h20 M14 2h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 M8 16H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 M20 16h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2 M12 12V8 M16 16v-4 M8 16v-4"></path></svg>
+          </div>
+          <div>
+            <h3>Advanced Underwater Networking</h3>
+            <p>Cross-layer stack for scalable networks</p>
+          </div>
+        </div>
+        <div class="link-card ed">
+          <div class="link-card-svg">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          </div>
+          <div>
+            <h3>Purpose-Built for R&D</h3>
+            <p>Designed for rapid innovation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="g4x-section unet">
