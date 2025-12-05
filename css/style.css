@@ -4660,6 +4660,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 button.newsletter{
   background-color: transparent;
+  border-radius: 8px;
 }
 button.newsletter:hover{
   color: #FC8230;
