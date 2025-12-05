@@ -41,37 +41,37 @@ section_id: products
     <p class="sec-subhead">Bridge the gap between simulation and sea trials.</p>
   </div>
   <div class="row py2">
-    <div class="feature-grid col2">
-      <div class="docs-card">
+    <div class="feature-grid col2 capabilities">
+      <div class="docs-card uh">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          <svg viewBox="0 0 56 56"><path fill="currentColor" d="M6.215 31.387H16.62q1.583 0 1.898-1.407l3.516-16.148L28.2 50.84c.281 1.687 2.883 1.664 3.211 0l5.977-28.008l1.382 6.96c.211 1.08.82 1.595 1.922 1.595h9.094c.938 0 1.688-.727 1.688-1.64c0-.938-.727-1.665-1.688-1.665h-8.297l-2.695-11.93c-.352-1.617-2.766-1.617-3.164.07l-5.883 26.274l-6.14-37.336c-.258-1.64-2.673-1.687-3.048 0L15.59 28.082H6.215c-.938 0-1.688.75-1.688 1.664s.75 1.64 1.688 1.64"/></svg>
         </div>
         <div>
           <h5>Realistic Propagation</h5>
           <p>Uses Bellhop, Kraken, and Watermark benchmark models for physics-accurate testing.</p>
         </div>
       </div>
-      <div class="docs-card">
+      <div class="docs-card fj">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066-2.573c-.94-1.543.826-3.31 2.37-2.37c1 .608 2.296.07 2.572-1.065"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/></g></svg>
         </div>
         <div>
           <h5>Flexible Workflows</h5>
           <p>Supports simulation-only, UnetCube-HIL, and Modem-HIL configurations.</p>
         </div>
       </div>
-      <div class="docs-card">
+      <div class="docs-card vt">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></g></svg>
         </div>
         <div>
           <h5>Open Source</h5>
           <p>Fully open-source interface protocol enabling users to build custom channel models.</p>
         </div>
       </div>
-      <div class="docs-card">
+      <div class="docs-card uj">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="m3 12l9 5l9-5M3 16l9 5l9-5M3 8l9-5l9 5l-9 5z"/></svg>
         </div>
         <div>
           <h5>Cross-Layer Testing</h5>

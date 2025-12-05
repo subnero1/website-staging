@@ -5838,6 +5838,9 @@ a.usecase-card:hover {
   margin: 0;
   font-size: 1rem;
 }
+.capabilities .docs-card {
+  background-color: #fff;
+}
 .sec-apis {
   background-color: #e8f3ff;
   padding: 3rem 0;
