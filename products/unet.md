@@ -76,7 +76,7 @@ section_id: products
           <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
-        <a class="text-blue" href="{{site.baseurl}}/unetstack/unet-simulator">Explore &rarr;</a>
+        <a class="text-blue" href="{{site.baseurl}}/unetstack/unetsim">Explore &rarr;</a>
       </div>
       <div class="unet-card text-green">
         <div class="card-svg">
@@ -93,7 +93,7 @@ section_id: products
           <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
-        <a class="text-green" href="{{site.baseurl}}/unetstack/virtual-acoustic-ocean">Explore &rarr;</a>
+        <a class="text-green" href="{{site.baseurl}}/unetstack/hilsim">Explore &rarr;</a>
       </div>
         <div class="unet-card text-violet">
         <div class="card-svg">
@@ -110,7 +110,7 @@ section_id: products
             <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
             <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
           </div>
-          <a class="text-violet" href="{{site.baseurl}}/unetstack/unet-cube">Explore &rarr;</a>
+          <a class="text-violet" href="{{site.baseurl}}/unetstack/unetcube">Explore &rarr;</a>
         </div>
     </div>
   </div>

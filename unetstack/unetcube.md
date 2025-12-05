@@ -13,7 +13,9 @@ section_id: products
       <h4 class="g4x-tag">UnetCube (OEM)</h4>
       <h1>OEM <span class="text-gradient g-blue">Modem Development Platform</span></h1>
       <p>An embedded platform for building custom underwater modems and hybrid communication nodes.</p>
-      <a href="javascript:history.back()" class="button back-btn orange ">&#8592; Back</a>
+      <div class="g4x-hero-btns">
+        <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
+      </div>
     </div>
   </div>
 </section>

@@ -13,7 +13,9 @@ section_id: products
       <h4 class="g4x-tag">HIL Platform</h4>
       <h1>Hardware-in-the-Loop <span class="text-gradient g-blue">(HIL)</span></h1>
       <p>A high-fidelity underwater communication testing environment for realistic algorithm evaluation.</p>
-      <a href="javascript:history.back()" class="button back-btn orange ">&#8592; Back</a>
+      <div class="g4x-hero-btns">
+        <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
+      </div>
     </div>
   </div>
 </section>
