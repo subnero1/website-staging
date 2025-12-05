@@ -10,26 +10,27 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Network Simulator</h4>
-      <h1>Network <span class="text-gradient g-blue">Development Platform & Simulator</span></h1>
-      <p>A fast, flexible simulator for developing subsea networking and MAC protocols.</p>
-      <a href="javascript:history.back()" class="button back-btn orange ">&#8592; Back</a>
+      <h4 class="g4x-tag">Development Platform</h4>
+      <h1>Network Development <span class="text-gradient g-blue">Platform & Simulator</span></h1>
+      <p>A fast, flexible environment for developing subsea networking and MAC protocols without getting wet.</p>
+      <div class="g4x-hero-btns">
+        <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
+        <a href="#" class="button g-orange">Download Community Edition</a>
+      </div>
+      
     </div>
   </div>
 </section>
 
-<section class="unet" style="padding:4rem 0">
+<section class="g4x-section">
   <div class="row large">
     <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Unet Simulator</h3>
-      <p class="lead">UnetStack is an extensible software framework designed to support underwater and hybrid communication networks. Its agent-based architecture provides full control across physical, MAC, network, transport and application layers, enabling users to build, test and deploy custom underwater communication and networking solutions.</p>
-      <p>UnetStack supports both standalone underwater networks and systems that integrate acoustic, optical, RF or wired terrestrial links. It includes capabilities such as localization, device and sensor management, edge analytics and intelligent communication behaviours — all unified within a single programmable framework.</p>
-      <div>
-        <a href="#" class="button form-button">Download Community Edition</a>
-      </div>
+      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Complete Control Across Layers</h3>
+      <p>The Unet Simulator isn't just a toy—it's the exact same stack that runs on our modems. Its agent-based architecture provides full control across physical, MAC, network, transport, and application layers.</p>
+      <p>It enables users to build, test, and deploy custom underwater communication and networking solutions on their laptop, then deploy to the ocean with zero code changes.</p>
     </div>
     <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/st-network-architecture.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

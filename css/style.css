@@ -293,14 +293,8 @@ ul.info i:hover {
   background-color: #fff;
 }
 .button.back-btn.orange {
-  padding: 6px 12px;
   margin: 0;
   border-radius: 8px;
-  border: 1px solid #E6782F;
-  background-color: transparent;
-}
-.button.back-btn.orange:hover {
-  border-color: currentColor;
 }
 
 /*Contact page */
