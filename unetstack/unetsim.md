@@ -88,7 +88,7 @@ section_id: products
     <div class="large-6 columns"> 
       <h3 class="text-3xl text-white capitalize-none normal-spacing text-600">Who It's For</h3>
       <p class="text-slate-400">Whether you are teaching the basics of acoustics or designing the next generation of subsea internet, the simulator scales to your needs.</p>
-      <a class="text-md" href="{{site.baseurl}}/unetstack/user-stories">Read Case Studies &rarr;</a>
+      <a class="text-md" href="{{site.baseurl}}/user-stories">Read Case Studies &rarr;</a>
     </div>
     <div class="large-6 columns">
       <div class="who-grid">

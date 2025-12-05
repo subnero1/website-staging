@@ -16,9 +16,16 @@
   --blue: 37, 99, 235;
   --red: 220, 38, 38;
   --emerald: 5, 150, 105;
+  --violet: 159, 97, 240;
+  --purple: 228, 87, 151;
   --white: 255, 255, 255;
   --slate: 148, 163, 184;
 }
+/* 
+color: rgb(var(--orange));
+background-color: rgba(var(--white), 0.1);
+color-mix(in srgb, currentColor 25%, transparent);
+*/
 html {
   scroll-behavior: smooth;
 }
@@ -5789,14 +5796,17 @@ a.usecase-card:hover {
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-
+.docs-card.uj { color: rgb(var(--orange)); }
+.docs-card.uh { color: rgb(var(--blue)); }
+.docs-card.vt { color: rgb(var(--red)); }
+.docs-card.fj { color: rgb(var(--emerald)); }
 .docs-card {
   display: flex;
   align-items: flex-start;
   gap: 8px;
   padding: 1.6rem;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #E2E8F0;
 }
 .docs-card .card-svg {
   width: 50px;
@@ -5804,6 +5814,17 @@ a.usecase-card:hover {
   padding: 8px;
   flex: none;
   border-radius: 6px;
+  color: color-mix(in srgb, currentColor 100%, transparent);
+  background-color: color-mix(in srgb, currentColor 10%, transparent);
+}
+.docs-card:hover {
+  border: 1px solid color-mix(in srgb, currentColor 100%, transparent);
+}
+.docs-card:hover .card-svg {
+  background-color: color-mix(in srgb, currentColor 100%, transparent);
+}
+.docs-card:hover .card-svg svg {
+  color: #fff;
 }
 .docs-card h5 {
   font-size: 1.3rem;
@@ -5818,8 +5839,13 @@ a.usecase-card:hover {
   font-size: 1rem;
 }
 .sec-apis {
+  background-color: #e8f3ff;
+  padding: 3rem 0;
+}
+.sec-apis .row {
   background-color: #0E1729;
-  padding: 3rem 1rem;
+  padding: 4rem 3rem;
+  border-radius: 12px;
 }
 .apis {
   display: flex;
@@ -5870,14 +5896,26 @@ a.usecase-card:hover {
   padding: 2rem 1rem;
   text-align: center;
   border-radius: 6px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+  border: 1px solid color-mix(in srgb, currentColor 50%, transparent);
+  background-color: color-mix(in srgb, currentColor 8%, transparent);
+  transition: all 0.3s;
+}
+.resource-link:hover {
+  background-color: color-mix(in srgb, currentColor 24%, transparent);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .resource-link span {
   color: #000;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-top: 4px;
 }
+.resource-link.blog { color: rgb(var(--orange)); }
+.resource-link.contrib { color: rgb(var(--blue)); }
+.resource-link.support { color: rgb(var(--emerald)); }
+.resource-link.quicklinks { color: rgb(var(--violet)); }
+.resource-link.brochure { color: rgb(var(--purple)); }
+
 .button.read-btn {
   margin-top: 1rem;
   border-radius: 8px;
