@@ -70,7 +70,7 @@ section_id: products
   <div class="row large">
     <div class="large-6 columns"> 
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">UnetStack Overview</h2>
-      <p>UnetStack is an extensible software framework designed to support underwater and hybrid communication networks. Its agent-based architecture provides full control across physical, MAC, network, transport and application layers, enabling users to build, test and deploy custom underwater communication and networking solutions.</p>
+      <p>UnetStack is a suite of technologies that brings modern communication networks underwater. It provides an extensible software framework for building underwater and hybrid communication systems. Its agent-based architecture offers full control across physical, MAC, network, transport and application layers, enabling users to design, test and deploy custom networking solutions with ease.</p>
       <ul class="feature-list ra">
         <li><i class="icon-check"></i> <span class="text-lg">Supports standalone underwater networks & hybrid systems (Acoustic, Optical, RF, Wired).</span></li>
         <li><i class="icon-check"></i> <span class="text-lg">Includes localization, device & sensor management, and edge analytics.</span></li>
@@ -108,7 +108,7 @@ section_id: products
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"></path><path d="M12 17v4"></path><path d="M8 21h8"></path><rect x="2" y="3" width="20" height="14" rx="2"></rect></svg>
         </div>
         <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">Network Simulator</h4>
-        <p class="text-md m0 text-slate-400">Fast, flexible simulator for developing subsea protocols on a single computer.</p>
+        <p class="text-md m0 text-slate-400">Fast, flexible simulator for developing, simulating, testing and refining subsea protocols.</p>
         <ul class="custom-list">
           <li><span class="text-blue">&#9679;</span> Real-time & Discrete-event modes</li>
           <li><span class="text-blue">&#9679;</span> Seamless code migration to hardware</li>
