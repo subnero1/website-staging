@@ -371,7 +371,7 @@ section_id: products
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/swis-WNC01.jpg" alt="Underwater Sensors">
+          <img src="{{site.baseurl}}/images/swis-iot.jpg" alt="Underwater Sensors">
         </div>
         <h4>Underwater IoT</h4>
         <p>SWIS delivers an integration-ready platform designed for easy deployment of underwater sensors, offering simplified setup, broad compatibility, and efficient data management.</p>
