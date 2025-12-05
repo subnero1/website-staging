@@ -10,77 +10,162 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">HIL Platform</h4>
-      <h1>Hardware-in-the-Loop <span class="text-gradient g-blue">(HIL)</span></h1>
-      <p>A high-fidelity underwater communication testing environment for realistic algorithm evaluation.</p>
+      <h4 class="g4x-tag">Hardware-in-the-Loop</h4>
+      <h1>Virtual Acoustic <span class="text-gradient g-blue">Ocean Simulator</span></h1>
+      <p>A high-fidelity underwater communication testing environment for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
         <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
+        <a href="#" class="button g-orange">View on GitHub</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="unet" style="padding:4rem 0">
+<section class="g4x-section">
   <div class="row large">
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Virtual Acoustic Ocean + UnetStack</h3>
-      <p class="lead">Virtual Acoustic Ocean is a high-fidelity, open-source underwater simulation platform supporting hardware-in-the-loop (HIL) testing for UnetStack-enabled devices. It interfaces with industry-standard acoustic channel models such as Bellhop, Kraken, Pekris Ray and the upcoming benchmark Watermark channel models.</p>
-      <p>This setup enables users to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices, including Subnero modems and UnetCube.</p>
-      <div>
-        <a href="#" class="text-xl">Explore the open-source VAO repository on GitHub →</a>
+    <div class="large-6 columns"> 
+      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Real Physics, Virtual Ocean</h3>
+      <p>Virtual Acoustic Ocean (VAO) is an open-source platform that interfaces with industry-standard acoustic channel models such as Bellhop, Kraken, Pekris Ray, and Watermark.</p>
+      <p>This setup enables you to test PHY, MAC, and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
+    </div>
+    <div class="large-6 columns">
+      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    </div>  
+  </div>
+</section>
+
+<!-- key capabilities -->
+<section class="g4x-section" style="background-color:#e8f3ff;">
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Key Capabilities</h2>
+    <p class="sec-subhead">Bridge the gap between simulation and sea trials.</p>
+  </div>
+  <div class="row py2">
+    <div class="feature-grid col2">
+      <div class="docs-card">
+        <div class="card-svg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+        </div>
+        <div>
+          <h5>Realistic Propagation</h5>
+          <p>Uses Bellhop, Kraken, and Watermark benchmark models for physics-accurate testing.</p>
+        </div>
+      </div>
+      <div class="docs-card">
+        <div class="card-svg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+        </div>
+        <div>
+          <h5>Flexible Workflows</h5>
+          <p>Supports simulation-only, UnetCube-HIL, and Modem-HIL configurations.</p>
+        </div>
+      </div>
+      <div class="docs-card">
+        <div class="card-svg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+        </div>
+        <div>
+          <h5>Open Source</h5>
+          <p>Fully open-source interface protocol enabling users to build custom channel models.</p>
+        </div>
+      </div>
+      <div class="docs-card">
+        <div class="card-svg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+        </div>
+        <div>
+          <h5>Cross-Layer Testing</h5>
+          <p>Test PHY, MAC, and Network algorithms simultaneously on real hardware.</p>
+        </div>
       </div>
     </div>
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/st-network-architecture.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
   </div>
 </section>
 
-<section class="unet" style="padding:4rem 0; background-color: rgb(196 231 255 / 20%);">
-  <div class="row large">
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-vao-01.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Key Capabilities</h3>
-      <ul>
-        <li>Realistic acoustic propagation using Bellhop, Kraken, Pekris Ray and Watermark benchmark models</li>
-        <li>Supports simulation-only, UnetCube-HIL and modem-HIL workflows</li>
-        <li>Fully open-source interface protocol enabling users to build on</li>
-      </ul>
+<!-- Who It's For -->
+<section class="g4x-section">
+  <div class="row large who-section">
+    <div class="large-6 columns"> 
+      <h3 class="text-3xl text-white capitalize-none normal-spacing text-600">Who It's For</h3>
+      <p class="text-slate-400">Designed for those who need high assurance before deployment.</p>
     </div>
-  </div>
-</section>
-
-<section class="unet" style="padding:4rem 0">
-  <div class="row large">
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Who It's For</h3>
-      <ul>
-        <li>Commercial and Defense users who need to test communication performance before field trials</li>
-        <li>Researchers evaluating custom PHY, MAC or network algorithms</li>
-        <li>Labs and universities teaching underwater communication concepts</li>
-        <li>Developers building commercial solutions requiring realistic pre‑deployment testing</li>
-      </ul>
-    </div>
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-simulator-02.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    <div class="large-6 columns">
+      <div class="who-grid">
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>Commercial & Defense</h5>
+          </div>
+        </div>
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>Algorithm Researchers</h5>
+          </div>
+        </div>
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>University Labs</h5>
+          </div>
+        </div>
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>Commercial Developers</h5>
+          </div>
+        </div>
+      </div>      
     </div>  
   </div>
 </section>
 
-<section class="unet" style="padding:4rem 0; background-color: rgb(196 231 255 / 20%);">
-  <div class="row large">
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-simulator-03.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Workflow</h3>
-      <ol>
-        <li>Connect UnetCube or Subnero modems to the simulation environment</li>
-        <li>Run PHY/MAC/network algorithms through the high‑fidelity channel model</li>
-        <li>Measure performance and iterate rapidly before real deployments</li>
-      </ol>
+<!-- HIL Workflow -->
+<section class="g4x-section">
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">HIL Workflow</h2>
+    <p class="sec-subhead">Connect real hardware to a virtual ocean.</p>
+  </div>
+  <div class="row py2">
+    <div class="flow-container hs">
+      <div class="step">
+        <div class="step-circle">
+          <span class="step-number">01</span>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          </div>
+        </div>
+        <h3 class="step-title">Connect</h3>
+        <p class="step-desc">Attach UnetCube or Modems to PC.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">
+          <span class="step-number">02</span>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          </div>
+        </div>
+        <h3 class="step-title">Run</h3>
+        <p class="step-desc">Execute algorithms through channel models.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">
+          <span class="step-number">03</span>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          </div>
+        </div>
+        <h3 class="step-title">Measure</h3>
+        <p class="step-desc">Analyze performance metrics.</p>
+      </div>
     </div>
   </div>
 </section>

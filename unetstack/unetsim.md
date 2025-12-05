@@ -35,108 +35,138 @@ section_id: products
 </section>
 
 <!-- key capabilities -->
-<section class="g4x-section">
+<section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Key Capabilities</h2>
     <p class="sec-subhead">Everything you need to validate your protocols before hitting the water.</p>
   </div>
   <div class="row py2">
-    <div class="feature-grid col3">
-      <a class="docs-card uj" href="" target="_blank">
+    <div class="feature-grid col2">
+      <div class="docs-card">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
         </div>
         <div>
-          <h5>UnetStack Javadoc</h5>
-          <p>Programmer's reference & API docs.</p>
+          <h5>Large-Scale Simulation</h5>
+          <p>Simulate networks with many nodes, including mobile platforms and autonomous vehicles.</p>
         </div>
-      </a>
-      <a class="docs-card uh" href="https://unetstack.net/handbook" target="_blank">
+      </div>
+      <div class="docs-card">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"></path></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
         </div>
         <div>
-          <h5>Unet Handbook</h5>
-          <p>Learn to design, simulate & deploy.</p>
+          <h5>Real-Time Mode</h5>
+          <p>Run interactive simulations for debugging agents and protocols step-by-step.</p>
         </div>
-      </a>
-      <a class="docs-card vt" href="https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw" target="_blank">
+      </div>
+      <div class="docs-card">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
         </div>
         <div>
-          <h5>Video Tutorials</h5>
-          <p>Watch rather than read.</p>
+          <h5>Discrete-Event Mode</h5>
+          <p>Execute fast Monte Carlo evaluations to gather statistical performance data.</p>
         </div>
-      </a>
-      <a class="docs-card fj" href="http://org-arl.github.io/fjage/javadoc/" target="_blank">
+      </div>
+      <div class="docs-card">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
         </div>
         <div>
-          <h5>fjåge Javadoc</h5>
-          <p>Agent framework reference.</p>
+          <h5>Unified API</h5>
+          <p>Uses the exact same programming model (Groovy/Java/Python) as real UnetStack hardware.</p>
         </div>
-      </a>
-      <a class="docs-card fj" href="https://fjage.readthedocs.io/en/latest/" target="_blank">
-        <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="m16 18 6-6-6-6"></path><path d="m8 6-6 6 6 6"></path></svg>
-        </div>
-        <div>
-          <h5>fjåge Guide</h5>
-          <p>Developer's guide for agents.</p>
-        </div>
-      </a>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="unet" style="padding:4rem 0; background-color: rgb(196 231 255 / 20%);">
-  <div class="row large">
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-simulator-01.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Key Capabilities</h3>
-      <ul class="">
-        <li>Simulate networks with many nodes, including mobile platforms</li>
-        <li>Real-time simulation mode for interactive debugging of agents and protocols</li>
-        <li>Discrete-event simulation mode for fast Monte Carlo evaluations</li>
-        <li>Uses the same programming model as real UnetStack nodes</li>
-      </ul>
+<!-- Who It's For -->
+<section class="g4x-section">
+  <div class="row large who-section">
+    <div class="large-6 columns"> 
+      <h3 class="text-3xl text-white capitalize-none normal-spacing text-600">Who It's For</h3>
+      <p class="text-slate-400">Whether you are teaching the basics of acoustics or designing the next generation of subsea internet, the simulator scales to your needs.</p>
+      <a class="text-md" href="{{site.baseurl}}/unetstack/user-stories">Read Case Studies &rarr;</a>
     </div>
+    <div class="large-6 columns">
+      <div class="who-grid">
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>Protocol Researchers</h5>
+          </div>
+        </div>
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>Students & Educators</h5>
+          </div>
+        </div>
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>Software Developers</h5>
+          </div>
+        </div>
+        <div class="who-card">
+          <div class="card-svg">
+            <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
+          </div>
+          <div>
+            <h5>HIL Test Engineers</h5>
+          </div>
+        </div>
+      </div>      
+    </div>  
   </div>
 </section>
 
-<section class="unet" style="padding:4rem 0">
-  <div class="row large">
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Who It's For</h3>
-      <ul>
-        <li>Network protocol researchers designing new MAC or routing algorithms</li>
-        <li>Students or educators teaching underwater networking concepts</li>
-        <li>Developers wanting a software-only prototyping workflow</li>
-        <li>Users preparing for HIL testing or modem deployment</li>
-      </ul>
-    </div>
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-simulator-02.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
+<!-- Streamlined Workflow -->
+<section class="g4x-section">
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Streamlined Workflow</h2>
+    <p class="sec-subhead">From idea to ocean in three steps.</p>
   </div>
-</section>
-
-<section class="unet" style="padding:4rem 0; background-color: rgb(196 231 255 / 20%);">
-  <div class="row large">
-    <div class="large-7 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-simulator-03.jpg" style="width:100%; height:auto; border-radius: 12px"/>
-    </div>  
-    <div class="large-5 columns"> 
-      <h3 class="text-left orange text-3xl m0 capitalize-none">Workflow</h3>
-      <ol>
-        <li>Prototype protocols in Unet Simulator</li>
-        <li>Validate behaviour through real-time or Monte Carlo simulation</li>
-        <li>Copy the same code into HIL setups or UnetStack-powered modems</li>
-      </ol>
+  <div class="row py2">
+    <div class="flow-container sw">
+      <div class="step">
+        <div class="step-circle">
+          <span class="step-number">01</span>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          </div>
+        </div>
+        <h3 class="step-title">Prototype</h3>
+        <p class="step-desc">Develop your protocol agents in Groovy, Java, or Python directly in the simulator.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">
+          <span class="step-number">02</span>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          </div>
+        </div>
+        <h3 class="step-title">Validate</h3>
+        <p class="step-desc">Run Monte Carlo simulations to prove robustness and performance metrics.</p>
+      </div>
+      <div class="step">
+        <div class="step-circle">
+          <span class="step-number">03</span>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
+          </div>
+        </div>
+        <h3 class="step-title">Deploy</h3>
+        <p class="step-desc">Copy the exact same agent code to your modems. No cross-compilation needed.</p>
+      </div>
     </div>
   </div>
 </section>
