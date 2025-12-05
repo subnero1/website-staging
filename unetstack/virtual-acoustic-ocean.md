@@ -7,17 +7,16 @@ categories: unet
 section_id: products
 ---
 
-<section class="page-hero sm" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
-    <div class="hero-text ">
-      <h1>Hardware-in-the-Loop (HIL) Underwater Communications Simulator</h1>
+    <div class="hero-text">
+      <h4 class="g4x-tag">HIL Platform</h4>
+      <h1>Hardware-in-the-Loop <span class="text-gradient g-blue">(HIL)</span></h1>
       <p>A high-fidelity underwater communication testing environment for realistic algorithm evaluation.</p>
+      <a href="javascript:history.back()" class="button back-btn orange ">&#8592; Back</a>
     </div>
   </div>
 </section>
-<div class="row large" style="padding:8px 1rem 0">
-  <a href="javascript:history.back()">&#8592; Back</a>
-</div>
 
 <section class="unet" style="padding:4rem 0">
   <div class="row large">

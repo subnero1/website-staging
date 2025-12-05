@@ -7,17 +7,16 @@ categories: unet
 section_id: products
 ---
 
-<section class="page-hero sm" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
-    <div class="hero-text ">
-      <h1>OEM Modem Development Platform</h1>
+    <div class="hero-text">
+      <h4 class="g4x-tag">UnetCube (OEM)</h4>
+      <h1>OEM <span class="text-gradient g-blue">Modem Development Platform</span></h1>
       <p>An embedded platform for building custom underwater modems and hybrid communication nodes.</p>
+      <a href="javascript:history.back()" class="button back-btn orange ">&#8592; Back</a>
     </div>
   </div>
 </section>
-<div class="row large" style="padding:8px 1rem 0">
-  <a href="javascript:history.back()">&#8592; Back</a>
-</div>
 
 <section class="unet" style="padding:4rem 0">
   <div class="row large">

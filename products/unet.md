@@ -77,7 +77,7 @@ section_id: products
           <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
-        <a class="text-blue" href="#">Explore &rarr;</a>
+        <a class="text-blue" href="{{site.baseurl}}/unetstack/unet-simulator">Explore &rarr;</a>
       </div>
       <div class="unet-card text-green">
         <div class="card-svg">
@@ -94,7 +94,7 @@ section_id: products
           <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
-        <a class="text-green" href="#">Explore &rarr;</a>
+        <a class="text-green" href="{{site.baseurl}}/unetstack/virtual-acoustic-ocean">Explore &rarr;</a>
       </div>
         <div class="unet-card text-violet">
         <div class="card-svg">
@@ -111,7 +111,7 @@ section_id: products
             <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
             <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
           </div>
-          <a class="text-violet" href="#">Explore &rarr;</a>
+          <a class="text-violet" href="{{site.baseurl}}/unetstack/unet-cube">Explore &rarr;</a>
         </div>
     </div>
   </div>
@@ -224,7 +224,7 @@ section_id: products
           <p>Programmer's reference & API docs.</p>
         </div>
       </a>
-      <a class="docs-card uh" href="" target="_blank">
+      <a class="docs-card uh" href="https://unetstack.net/handbook" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"></path></svg>
         </div>
@@ -233,7 +233,7 @@ section_id: products
           <p>Learn to design, simulate & deploy.</p>
         </div>
       </a>
-      <a class="docs-card vt" href="" target="_blank">
+      <a class="docs-card vt" href="https://www.youtube.com/channel/UCnwSva23AuUCFPqgI0kPvdw" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg>
         </div>
@@ -242,7 +242,7 @@ section_id: products
           <p>Watch rather than read.</p>
         </div>
       </a>
-      <a class="docs-card fj" href="" target="_blank">
+      <a class="docs-card fj" href="http://org-arl.github.io/fjage/javadoc/" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg>
         </div>
@@ -251,7 +251,7 @@ section_id: products
           <p>Agent framework reference.</p>
         </div>
       </a>
-      <a class="docs-card fj" href="" target="_blank">
+      <a class="docs-card fj" href="https://fjage.readthedocs.io/en/latest/" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="m16 18 6-6-6-6"></path><path d="m8 6-6 6 6 6"></path></svg>
         </div>
@@ -298,31 +298,31 @@ section_id: products
   </div>
   <div class="row py2">
     <div class="resources">
-      <a href="#" class="resource-link blog">
+      <a href="https://blog.unetstack.net/" class="resource-link blog" target="_blank">
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"/><path d="m18 13l-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18M2.3 2.3l7.286 7.286"/><circle cx="11" cy="11" r="2"/></g></svg>
         </div>
         <span>Blog</span>
       </a>
-      <a href="#" class="resource-link contrib">
+      <a href="https://contrib.unetstack.net/" class="resource-link contrib" target="_blank">
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></g></svg>
         </div>
         <span>Contrib</span>
       </a>
-      <a href="#" class="resource-link support">
+      <a href="https://support.unetstack.net/" class="resource-link support" target="_blank">
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/><path d="m18 6l-3.525 3.525M6 18l3.525-3.525M6 6l3.525 3.525M18 18l-3.525-3.525m-4.95 0c-1.348-1.348-1.348-3.601 0-4.95m0 4.95c1.348 1.348 3.601 1.348 4.95 0m0 0c1.348-1.348 1.348-3.601 0-4.95m0 0c-1.348-1.348-3.601-1.348-4.95 0"/></g></svg>
         </div>
         <span>Support</span>
       </a>
-      <a href="#" class="resource-link quicklinks">
+      <a href="{{site.baseurl}}/technical-resources/" class="resource-link quicklinks">
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"><path stroke-linecap="round" d="M7 21a2 2 0 0 1-2-2V3h9l5 5v11a2 2 0 0 1-2 2z"/><path d="M13 3v6h6"/><path stroke-linecap="round" d="M9 13h6m-6 4h6"/></g></svg>
         </div>
         <span>Quicklinks</span>
       </a>
-      <a href="#" class="resource-link brochure">
+      <a href="{{site.baseurl}}/technical-resources/#unetstack" class="resource-link brochure">
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1zm4-11H5v9h3zm11 0h-9v9h9zm0-5H5v3h14z"/></svg>
         </div>
