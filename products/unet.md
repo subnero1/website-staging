@@ -17,9 +17,8 @@ section_id: products
       </div>
       <p>Design, simulate, and deploy communication networks across subsea and terrestrial domains using a flexible, agent-based architecture.</p>
       <div class="g4x-hero-btns">
-        <a href="#smart-modems" class="button g-orange">Community Edition</a>
-        <a href="#unetstack" class="button g-orange">Quote for UnetCube</a>
-        <a href="#unetstack" class="button g-orange">Commercial Licensing</a>
+        <a href="#offerings" class="button g-orange">Explore Offerings</a>
+        <a href="#editions" class="button g-orange">Explore Editions</a>
       </div>
     </div>
   </div>
@@ -55,7 +54,7 @@ section_id: products
 </section>
 
 <!-- Development Ecosystem -->
-<section class="g4x-section" style="background-color:#e8f3ff;">
+<section id="offerings" class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Development Ecosystem</h2>
     <p class="sec-subhead">From desktop simulation to hardware deployment, UnetStack provides the tools for every stage of the lifecycle.</p>
@@ -118,7 +117,7 @@ section_id: products
 </section>
 
 <!-- Editions -->
-<section class="g4x-section" style="background-color:#000;">
+<section id="editions" class="g4x-section" style="background-color:#000;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange">Editions</h2>
     <p class="text-lg text-white">UnetStack is available in three editions tailored to usage requirements.</p>
