@@ -14,8 +14,7 @@ section_id: products
       <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">C</span>ube</h1>
       <p>An embedded platform for building your own underwater modems and hybrid communication nodes.</p>
       <div class="g4x-hero-btns">
-        <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
-        <a href="#" class="button g-orange">Request a Quote</a>
+        {%- include formRequestQuote.html -%}
       </div>
     </div>
   </div>

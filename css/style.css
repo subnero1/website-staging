@@ -3905,6 +3905,9 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   box-shadow: 0px 8px 13px 2px rgba(0,0,0,0.2);
   top: -6px;
 }
+.g4x-hero-btns .request-quote {
+  margin: 0;
+}
 /* new hero */
 .g4x-hero {
   display: flex;
@@ -4734,6 +4737,26 @@ button.newsletter:hover{
   display: block;
   margin-bottom: 1rem;
   font-size: 1rem;
+}
+.unetstack-download p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.unetstack-download li {
+  font-size: 1.1rem;
+}
+.unetstack-download .pre-req {
+  padding: 1rem 0 2rem;
+}
+.unetstack-download .pre-req h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.unetstack-download .pre-req p {
+  margin: 0;
 }
 .unetstack-download .copyright {
   padding: 1rem 0;

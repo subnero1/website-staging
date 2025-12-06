@@ -14,7 +14,6 @@ section_id: products
       <h1><span class="text-gradient g-blue">V</span>irtual <span class="text-gradient g-blue">A</span>coustic <span class="text-gradient g-blue">O</span>cean</h1>
       <p>A high-fidelity underwater channel model simulator for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
-        <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
         <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-orange">View on GitHub</a>
       </div>
     </div>

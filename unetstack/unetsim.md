@@ -14,8 +14,7 @@ section_id: products
       <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">S</span>im</h1>
       <p>A fast, flexible environment for developing subsea networking and MAC protocols without getting wet.</p>
       <div class="g4x-hero-btns">
-        <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
-        <a href="#" class="button g-orange">Download Community Edition</a>
+        {%- include downloadUnetStack.html btnText="Download Community Edition" -%}
       </div>
     </div>
   </div>
