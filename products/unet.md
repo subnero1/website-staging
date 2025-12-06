@@ -362,12 +362,6 @@ section_id: products
         </div>
         <span>Support</span>
       </a>
-      <a href="{{site.baseurl}}/technical-resources/" class="resource-link quicklinks">
-        <div class="resource-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"><path stroke-linecap="round" d="M7 21a2 2 0 0 1-2-2V3h9l5 5v11a2 2 0 0 1-2 2z"/><path d="M13 3v6h6"/><path stroke-linecap="round" d="M9 13h6m-6 4h6"/></g></svg>
-        </div>
-        <span>Quicklinks</span>
-      </a>
       <a href="{{site.baseurl}}/technical-resources/#unetstack" class="resource-link brochure">
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1zm4-11H5v9h3zm11 0h-9v9h9zm0-5H5v3h14z"/></svg>
