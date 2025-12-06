@@ -11,7 +11,7 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Simulator</h4>
-      <h1><span class="text-gradient g-blue">V</span>irtual <span class="text-gradient g-blue">A</span>coustic <span class="text-gradient g-blue">O</span>cean Simulator</h1>
+      <h1><span class="text-gradient g-blue">V</span>irtual <span class="text-gradient g-blue">A</span>coustic <span class="text-gradient g-blue">O</span>cean</h1>
       <p>A high-fidelity underwater communication testing environment for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
         <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
