@@ -10,8 +10,8 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Development Platform</h4>
-      <h1>Network Development <span class="text-gradient g-blue">Platform & Simulator</span></h1>
+      <h4 class="g4x-tag">Simulator</h4>
+      <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">S</span>im</h1>
       <p>A fast, flexible environment for developing subsea networking and MAC protocols without getting wet.</p>
       <div class="g4x-hero-btns">
         <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
@@ -25,8 +25,8 @@ section_id: products
   <div class="row large">
     <div class="large-6 columns"> 
       <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Complete Control Across Layers</h3>
-      <p>The Unet Simulator isn't just a toy—it's the exact same stack that runs on our modems. Its agent-based architecture provides full control across physical, MAC, network, transport, and application layers.</p>
-      <p>It enables users to build, test, and deploy custom underwater communication and networking solutions on their laptop, then deploy to the ocean with zero code changes.</p>
+      <p>The Unet Simulator runs the same software stack used on our modems, providing full control across physical, MAC, network, transport and application layers.</p>
+      <p>It lets users design, test and validate underwater communication and networking solutions on a laptop, then deploy them at sea with zero code changes.</p>
     </div>
     <div class="large-6 columns">
       <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>

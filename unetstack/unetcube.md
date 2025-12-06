@@ -10,9 +10,9 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">OEM Development</h4>
-      <h1>UnetCube <span class="text-gradient g-blue">Modem Platform</span></h1>
-      <p>An embedded platform for building custom underwater modems and hybrid communication nodes.</p>
+      <h4 class="g4x-tag">OEM Development Platform</h4>
+      <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">C</span>ube</h1>
+      <p>An embedded platform for building your own underwater modems and hybrid communication nodes.</p>
       <div class="g4x-hero-btns">
         <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
         <a href="#" class="button g-orange">Request a Quote</a>
@@ -25,7 +25,7 @@ section_id: products
   <div class="row large">
     <div class="large-6 columns"> 
       <h3 class="orange text-3xl capitalize-none normal-spacing text-600">The "Digital Layer" of Your Modem</h3>
-      <p>UnetCube is a compact embedded computing platform running UnetStack natively. It allows developers to connect their own analog electronics and sensor interfaces while relying on UnetStack for communication intelligence.</p>
+      <p>UnetCube is a compact embedded computing platform running UnetStack natively on a single board computer. It allows developers to connect their own analog electronics and sensor interfaces while relying on UnetStack for communication intelligence.</p>
       <p>This dramatically reduces development time by eliminating the need to rewrite core PHY, MAC, or networking layers, giving you a powerful software-defined foundation.</p>
     </div>
     <div class="large-6 columns">

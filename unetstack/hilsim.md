@@ -10,12 +10,12 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Hardware-in-the-Loop</h4>
-      <h1>Virtual Acoustic <span class="text-gradient g-blue">Ocean Simulator</span></h1>
+      <h4 class="g4x-tag">Simulator</h4>
+      <h1><span class="text-gradient g-blue">V</span>irtual <span class="text-gradient g-blue">A</span>coustic <span class="text-gradient g-blue">O</span>cean Simulator</h1>
       <p>A high-fidelity underwater communication testing environment for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
         <a href="javascript:history.back()" class="button back-btn g-orange ">&#8592; Back</a>
-        <a href="#" class="button g-orange">View on GitHub</a>
+        <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-orange">View on GitHub</a>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ section_id: products
   <div class="row large">
     <div class="large-6 columns"> 
       <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Real Physics, Virtual Ocean</h3>
-      <p>Virtual Acoustic Ocean (VAO) is an open-source platform that interfaces with industry-standard acoustic channel models such as Bellhop, Kraken, Pekris Ray, and Watermark.</p>
+      <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator that interfaces with industry-standard models such as Bellhop, Kraken, Pekris Ray, and Watermark.</p>
       <p>This setup enables you to test PHY, MAC, and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
     <div class="large-6 columns">

@@ -133,7 +133,7 @@ section_id: products
         </ul> 
         <div class="mt-auto">
           <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
-          <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
+          <p class="text-white m0 text-md">QA Engineers & Researchers</p>
         </div>
         <a class="text-green" href="{{site.baseurl}}/unetstack/hilsim">Explore &rarr;</a>
       </div>
@@ -150,7 +150,7 @@ section_id: products
           </ul> 
           <div class="mt-auto">
             <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
-            <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
+            <p class="text-white m0 text-md">OEM & Hardware Engineers</p>
           </div>
           <a class="text-violet" href="{{site.baseurl}}/unetstack/unetcube">Explore &rarr;</a>
         </div>
@@ -171,10 +171,10 @@ section_id: products
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z"/></svg>
         </div>
         <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">Community Edition</h4>
-        <p class="text-md m0 text-slate-400">A free, non-commercial edition for academic use, prototyping and teaching.</p>
+        <p class="text-md m0 text-slate-400">A free edition for academic use and prototyping — not for commercial deployments.</p>
         <ul class="custom-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Unet Simulator (Community)</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Core UnetStack agents</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Basic UnetStack agents</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Documentation & Tutorials</li>
         </ul> 
         <a class="button action-btn g-orange" href="#">Download Now</a>
@@ -186,9 +186,8 @@ section_id: products
         <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">Commercial Edition</h4>
         <p class="text-md m0 text-slate-400">A licensed edition for operational deployments across defense, commercial and industrial domains.</p>
         <ul class="custom-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Full UnetStack Runtime</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Advanced Performance Agents</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Commercial-grade Networking</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Unet Simulator (Commercial)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> UnetStack Agents</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> LTS & Technical Support</li>
         </ul> 
         <a class="button action-btn g-orange" href="#">Contact Sales</a>
@@ -198,11 +197,12 @@ section_id: products
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 9h6v6H9zm-6 1h2m-2 4h2m5-11v2m4-2v2m7 5h-2m2 4h-2m-5 7v-2m-4 2v-2"/></g></svg>
         </div>
         <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">OEM Edition</h4>
+        <p class="text-md m0 text-slate-400">(UnetCube)</p>
         <p class="text-md m0 text-slate-400">An embedded development platform for hardware in the loop simulation or OEMs.</p>
         <ul class="custom-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Embedded SBC Runtime</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Custom Analog & DAQ Interfaces</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Embedded Single Board Computer (SBC)</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Hardware-in-the-Loop Support</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Open Source Interfaces</li>
         </ul> 
         <a class="button action-btn g-orange" href="#">Request Quote</a>
       </div>
@@ -221,21 +221,21 @@ section_id: products
           <div class="count cc">01</div>
           <div>
             <h5>Core Components</h5>
-            <p>Combines the fjåge messaging fabric, the core Unet framework, and specialized agents offering communication, networking, localization, and analytics features.</p>
+            <p>The foundation of UnetStack, built on fjåge messaging with Unet framework, core communication, networking, localization and analytics agents.</p>
           </div>
         </div>
         <div class="core-component">
           <div class="count ua">02</div>
           <div>
             <h5>UnetStack Agents</h5>
-            <p>Provides basic agents for core underwater networking needs and premium agents with enhanced capabilities. These can be mixed as needed for efficient communication.</p>
+            <p>A suite of enhanced agents that deliver advanced underwater communication and networking capabilities.</p>
           </div>
         </div>
         <div class="core-component">
           <div class="count ac">03</div>
           <div>
             <h5>Additional Components</h5>
-            <p>Includes the Unet Simulator, Unet audio for sound-card-based modem development, and versatile interfaces offering dashboards, shells, and scripting.</p>
+            <p>Tools and interfaces that extend UnetStack, including the Unet Simulator, HIL support, legacy audio modem features, dashboards, shells and scripting.</p>
           </div>
         </div>
       </div>
