@@ -119,7 +119,7 @@ section_id: products
           <h6>Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
-        <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Explore <span>&rarr;</span></a>
+        <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a>
       </div>
       <div class="unet-card hil text-green">
         <div class="card-svg">
@@ -137,7 +137,7 @@ section_id: products
           <h6>Target Audience</h6>
           <p class="text-white m0 text-md">QA Engineers & Researchers</p>
         </div>
-        <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Explore <span>&rarr;</span></a>
+        <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a>
       </div>
         <div class="unet-card oem text-violet">
         <div class="card-svg">
@@ -155,7 +155,7 @@ section_id: products
             <h6>Target Audience</h6>
             <p class="text-white m0 text-md">OEM & Hardware Engineers</p>
           </div>
-          <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Explore <span>&rarr;</span></a>
+          <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a>
         </div>
     </div>
   </div>
