@@ -107,7 +107,8 @@ section_id: products
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"></path><path d="M12 17v4"></path><path d="M8 21h8"></path><rect x="2" y="3" width="20" height="14" rx="2"></rect></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">Network Simulator</h4>
+        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetSim</h4>
+        <p class="text-md m0 text-white">Network Simulator</p>
         <p class="cardP">Fast, flexible simulator for developing, simulating, testing and refining subsea protocols.</p>
         <ul class="custom-list">
           <li><span class="text-blue">&#9679;</span> Real-time & Discrete-event modes</li>
@@ -124,7 +125,8 @@ section_id: products
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1"/></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">HIL Platform</h4>
+        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">Virtual Acoustic Ocean</h4>
+        <p class="text-md m0 text-white">Hardware-in-the-Loop Simulator</p>
         <p class="cardP">High-fidelity simulation connecting real modems to physics-accurate acoustic models.</p>
         <ul class="custom-list">
           <li><span class="text-green">&#9679;</span> Physics-accurate acoustic models</li>
@@ -141,7 +143,8 @@ section_id: products
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 9h6v6H9zm-6 1h2m-2 4h2m5-11v2m4-2v2m7 5h-2m2 4h-2m-5 7v-2m-4 2v-2"/></g></svg>
           </div>
-          <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetCube (OEM)</h4>
+          <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetCube</h4>
+          <p class="text-md m0 text-white">OEM Development Platform</p>
           <p class="cardP">Embedded computing platform running UnetStack natively for custom modems.</p>
           <ul class="custom-list">
             <li><span class="text-violet">&#9679;</span> Embedded SBC Runtime</li>
@@ -168,7 +171,7 @@ section_id: products
     <div class="feature-grid col3">
       <div class="unet-card text-blue">
         <div class="card-svg">
-          <svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z"/></svg>
+        <svg viewBox="0 0 16 16"><path fill="currentColor" d="M8 2a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3M5.5 3.5a2.5 2.5 0 1 1 5 0a2.5 2.5 0 0 1-5 0M4 8.5q.001-.274.056-.53l-1.944.52a1.5 1.5 0 0 0-1.06 1.838l.388 1.449a3 3 0 0 0 3.773 2.092a4 4 0 0 1-.683-.878a2 2 0 0 1-2.124-1.473l-.389-1.45a.5.5 0 0 1 .354-.612L4 9.02zm6.886 5.398l-.1-.028c.267-.26.498-.555.684-.879a2 2 0 0 0 2.124-1.473l.388-1.45a.5.5 0 0 0-.353-.612L12 9.02V8.5q-.001-.274-.056-.53l1.943.52a1.5 1.5 0 0 1 1.061 1.838l-.388 1.449a3 3 0 0 1-3.674 2.12M2 5a1 1 0 1 1 2 0a1 1 0 0 1-2 0m1-2a2 2 0 1 0 0 4a2 2 0 0 0 0-4m10 1a1 1 0 1 0 0 2a1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0a2 2 0 0 1-4 0M6.5 7A1.5 1.5 0 0 0 5 8.5V11a3 3 0 1 0 6 0V8.5A1.5 1.5 0 0 0 9.5 7zM6 8.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V11a2 2 0 1 1-4 0z"/></svg>
         </div>
         <h4 class="text-xl text-white m0 capitalize-none normal-spacing text-600 mt1">Community Edition</h4>
         <p class="text-md text-white m0">A free edition for academic use and prototyping — not for commercial deployments.</p>
@@ -354,7 +357,7 @@ section_id: products
         <div class="resource-icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></g></svg>
         </div>
-        <span>Contrib</span>
+        <span>Contributions</span>
       </a>
       <a href="https://support.unetstack.net/" class="resource-link support" target="_blank">
         <div class="resource-icon">
@@ -362,9 +365,15 @@ section_id: products
         </div>
         <span>Support</span>
       </a>
+      <a href="{{site.baseurl}}/technical-resources/#whitepaper" class="resource-link whitepaper">
+        <div class="resource-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M9 2H1v19h1c2.944 0 5.14.245 6.586.486c.723.12 1.26.24 1.609.328a11 11 0 0 1 .472.13l.017.005h.002l.152.051h2.324l.152-.05l.002-.001l.017-.006l.088-.026q.122-.037.384-.103c.35-.087.886-.207 1.61-.328C16.86 21.246 19.054 21 22 21h1V2h-8a4 4 0 0 0-3 1.354A4 4 0 0 0 9 2M3 19.01V4h6a2 2 0 0 1 2 2v13.958l-.32-.084c-.4-.1-.989-.23-1.766-.36c-1.379-.23-3.35-.457-5.914-.505M19 10h-4V8h4zm0 3h-4v-2h4z"/></svg>
+        </div>
+        <span>Whitepapers</span>
+      </a>
       <a href="{{site.baseurl}}/technical-resources/#unetstack" class="resource-link brochure">
         <div class="resource-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M4 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1zm4-11H5v9h3zm11 0h-9v9h9zm0-5H5v3h14z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
         </div>
         <span>Brochure</span>
       </a>

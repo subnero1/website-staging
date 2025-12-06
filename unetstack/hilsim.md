@@ -10,9 +10,9 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Simulator</h4>
+      <h4 class="g4x-tag">Hardware-in-the-Loop Simulator</h4>
       <h1><span class="text-gradient g-blue">V</span>irtual <span class="text-gradient g-blue">A</span>coustic <span class="text-gradient g-blue">O</span>cean</h1>
-      <p>A high-fidelity underwater channel model simulator for realistic algorithm evaluation using real hardware.</p>
+      <p>A high-fidelity underwater acoustic channel model simulator for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
         <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-orange">View on GitHub</a>
       </div>

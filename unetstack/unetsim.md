@@ -10,9 +10,9 @@ section_id: products
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Simulator</h4>
+      <h4 class="g4x-tag">Network Simulator</h4>
       <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">S</span>im</h1>
-      <p>A fast, flexible environment for developing subsea networking and MAC protocols without getting wet.</p>
+      <p>A fast, flexible simulation environment for developing subsea communication protocols without getting wet.</p>
       <div class="g4x-hero-btns">
         {%- include downloadUnetStack.html btnText="Download Community Edition" -%}
       </div>
