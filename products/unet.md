@@ -103,7 +103,7 @@ section_id: products
   </div>
   <div class="row py2">
     <div class="feature-grid col3">
-      <div class="unet-card text-blue">
+      <div class="unet-card sim text-blue">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"></path><path d="M12 17v4"></path><path d="M8 21h8"></path><rect x="2" y="3" width="20" height="14" rx="2"></rect></svg>
         </div>
@@ -115,12 +115,12 @@ section_id: products
           <li><span class="text-blue">&#9679;</span> Rapid prototyping workflow</li>
         </ul> 
         <div class="mt-auto">
-          <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
+          <h6 class="text-sm m0 normal-spacing capitalize-none text-slate-400">Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
         <a class="text-blue" href="{{site.baseurl}}/unetstack/unetsim">Explore &rarr;</a>
       </div>
-      <div class="unet-card text-green">
+      <div class="unet-card hil text-green">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1"/></svg>
         </div>
@@ -137,7 +137,7 @@ section_id: products
         </div>
         <a class="text-green" href="{{site.baseurl}}/unetstack/hilsim">Explore &rarr;</a>
       </div>
-        <div class="unet-card text-violet">
+        <div class="unet-card oem text-violet">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 9h6v6H9zm-6 1h2m-2 4h2m5-11v2m4-2v2m7 5h-2m2 4h-2m-5 7v-2m-4 2v-2"/></g></svg>
           </div>
