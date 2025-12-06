@@ -23,9 +23,9 @@ section_id: products
 <section class="g4x-section">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Real Physics, Virtual Ocean</h3>
-      <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator that interfaces with industry-standard models such as Bellhop, Kraken, Pekris Ray, and Watermark.</p>
-      <p>This setup enables you to test PHY, MAC, and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
+      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
+      <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator that works seamlessly with UnetStack and interfaces with industry-standard models such as Bellhop, Kraken, Pekris Ray and Watermark.</p>
+      <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
     <div class="large-6 columns">
       <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
@@ -65,7 +65,7 @@ section_id: products
         </div>
         <div>
           <h5>Open Source</h5>
-          <p>Fully open-source interface protocol enabling users to build custom channel models.</p>
+          <p>Fully open-source, enabling users to build, integrate and test their own algorithms and channel models.</p>
         </div>
       </div>
       <div class="docs-card uj">
@@ -95,7 +95,7 @@ section_id: products
             <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
           </div>
           <div>
-            <h5>Commercial & Defense</h5>
+            <h5>Offshore, Marine & Subsea</h5>
           </div>
         </div>
         <div class="who-card">
@@ -103,7 +103,7 @@ section_id: products
             <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
           </div>
           <div>
-            <h5>Algorithm Researchers</h5>
+            <h5>Defense Researchers</h5>
           </div>
         </div>
         <div class="who-card">
@@ -143,7 +143,7 @@ section_id: products
           </div>
         </div>
         <h3 class="step-title">Connect</h3>
-        <p class="step-desc">Attach UnetCube or Modems to PC.</p>
+        <p class="step-desc">Attach UnetCube or Modems to a computer running VAO.</p>
       </div>
       <div class="step">
         <div class="step-circle">
@@ -153,7 +153,7 @@ section_id: products
           </div>
         </div>
         <h3 class="step-title">Run</h3>
-        <p class="step-desc">Execute algorithms through channel models.</p>
+        <p class="step-desc">Use hardware normally — VAO applies the ocean conditions.</p>
       </div>
       <div class="step">
         <div class="step-circle">

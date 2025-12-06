@@ -23,7 +23,7 @@ section_id: products
 <section class="g4x-section">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Complete Control Across Layers</h3>
+      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Design Your Underwater Network</h3>
       <p>The Unet Simulator runs the same software stack used on our modems, providing full control across physical, MAC, network, transport and application layers.</p>
       <p>It lets users design, test and validate underwater communication and networking solutions on a laptop, then deploy them at sea with zero code changes.</p>
     </div>
@@ -86,8 +86,7 @@ section_id: products
   <div class="row large who-section">
     <div class="large-6 columns"> 
       <h3 class="text-3xl text-white capitalize-none normal-spacing text-600">Who It's For</h3>
-      <p class="text-slate-400">Whether you are teaching the basics of acoustics or designing the next generation of subsea internet, the simulator scales to your needs.</p>
-      <a class="text-md" href="{{site.baseurl}}/user-stories">Read Case Studies &rarr;</a>
+      <p class="text-slate-400">Whether you are teaching network protocols or designing the next generation of subsea internet, the simulator scales to your needs.</p>
     </div>
     <div class="large-6 columns">
       <div class="who-grid">
@@ -120,7 +119,7 @@ section_id: products
             <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 20c0-1.742-1.67-3.223-4-3.773M15 20c0-2.21-2.686-4-6-4s-6 1.79-6 4m12-7a4 4 0 0 0 0-8m-6 8a4 4 0 1 1 0-8a4 4 0 0 1 0 8"/></svg>
           </div>
           <div>
-            <h5>HIL Test Engineers</h5>
+            <h5>Test Engineers</h5>
           </div>
         </div>
       </div>      
@@ -144,7 +143,7 @@ section_id: products
           </div>
         </div>
         <h3 class="step-title">Prototype</h3>
-        <p class="step-desc">Develop your protocol agents in Groovy, Java, or Python directly in the simulator.</p>
+        <p class="step-desc">Develop your protocol agents in Java or Groovy directly in the simulator.</p>
       </div>
       <div class="step">
         <div class="step-circle">
@@ -154,7 +153,7 @@ section_id: products
           </div>
         </div>
         <h3 class="step-title">Validate</h3>
-        <p class="step-desc">Run Monte Carlo simulations to prove robustness and performance metrics.</p>
+        <p class="step-desc">Run real-time or discrete event simulations to prove robustness and performance metrics.</p>
       </div>
       <div class="step">
         <div class="step-circle">
@@ -164,7 +163,7 @@ section_id: products
           </div>
         </div>
         <h3 class="step-title">Deploy</h3>
-        <p class="step-desc">Copy the exact same agent code to your modems. No cross-compilation needed.</p>
+        <p class="step-desc">Copy the exact same code to your modems. No cross-compilation needed.</p>
       </div>
     </div>
   </div>
