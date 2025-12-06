@@ -1,0 +1,120 @@
+<div class="download-unetstack">
+  <button class="button action-btn g-orange" id="openDownload">{{ include.btnText | default: 'Download Now' }}</button>
+</div>
+<!-- Modal -->
+<dialog id="downloadModal" class="modal-dialog unetstack-download">
+  <div class="modal-content">
+    <header><button class="modal-close" type="button" id="closeDownload" title="close">&times;</button></header>
+    <div class="main">
+      <h2>Terms of Use</h2>
+      <div class="copyright">
+        <small>Copyright &copy; 2024, Acoustic Research Laboratory, National University of Singapore, and Subnero Pte Ltd.</small>
+        <small>All rights reserved.</small>
+    </div>
+      <p>The UnetStack community edition software may be freely used for academic teaching and research purposes only.</p>
+      <p>The software may NOT be used for any commercial activity, such as (but not limited to):</p>
+      <ul>
+        <li>Commercial deployment of underwater networks.</li>
+        <li>Commercial demonstrations.</li>
+        <li>Commercial research.</li>
+        <li>Consulting work performed by academic students, faculty or research staff.</li>
+        <li>Training of commercial company employees.</li>
+      </ul>
+      <p>This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright holder or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.</p>
+      <p>For commercial licensing, please contact: <em class="emailid">info@subnero.com</em></p>
+      <div class="footer">
+        <button class="button unet-download-btn" id="downloadTgz">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="m10 13.6l5.9-5.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-6.6 6.6q-.3.3-.7.3t-.7-.3l-2.6-2.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275z"/></svg>
+          <span>Accept (Download tgz)</span>
+        </button>
+        <button class="button unet-download-btn zip" id="downloadZip">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="m10 13.6l5.9-5.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-6.6 6.6q-.3.3-.7.3t-.7-.3l-2.6-2.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275z"/></svg>
+          <span>Accept (Download zip)</span>
+        </button>
+        <button class="button secondary unet-download-btn" id="downloadDecline">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 13.4l-2.9 2.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l2.9-2.9l-2.9-2.875q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l2.9 2.9l2.875-2.9q.275-.275.7-.275t.7.275q.3.3.3.713t-.3.687L13.375 12l2.9 2.9q.275.275.275.7t-.275.7q-.3.3-.712.3t-.688-.3z"/></svg>
+          <span>Decline</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const downloadModal = document.getElementById('downloadModal');
+const openDownload = document.getElementById('openDownload');
+const closeDownload = document.getElementById('closeDownload');
+const downloadDecline = document.getElementById('downloadDecline');
+const downloadTgz = document.getElementById('downloadTgz');
+const downloadZip = document.getElementById('downloadZip');
+
+function closeModal(modal) {
+  if (!modal) return;
+  try {
+    if (modal.open) modal.close();
+    else modal.close && modal.close(); // fallback
+  } catch (e) {
+    // ignore if dialog API not available
+  }
+}
+
+// Attempt to start a download; uses <a download> when possible, falls back to opening in a new tab.
+function startDownload(url) {
+  if (!url) return;
+
+  // Try create anchor with download attribute (may be ignored for cross-origin resources)
+  const a = document.createElement('a');
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  a.download = ''; // hint to browser to download
+
+  // Append, click, remove
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+
+  // Close the modal after initiating download
+  closeModal(downloadModal);
+}
+
+// Open the modal
+if (openDownload) {
+  openDownload.addEventListener('click', () => {
+    if (downloadModal && downloadModal.showModal) {
+      downloadModal.showModal();
+    }
+  });
+}
+
+// Close handlers (reuse generic function)
+if (closeDownload) {
+  closeDownload.addEventListener('click', () => closeModal(downloadModal));
+}
+
+if (downloadDecline) {
+  downloadDecline.addEventListener('click', () => closeModal(downloadModal));
+}
+
+// Download handlers
+if (downloadTgz) {
+  downloadTgz.addEventListener('click', function (e) {
+    e.preventDefault();
+    startDownload('https://unetstack.net/downloads/unet-community-3.4.4.tgz');
+  });
+}
+
+if (downloadZip) {
+  downloadZip.addEventListener('click', function (e) {
+    e.preventDefault();
+    startDownload('https://unetstack.net/downloads/unet-community-3.4.4.zip');
+  });
+}
+
+// Close on ESC
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && downloadModal && downloadModal.open) {
+    closeModal(downloadModal);
+  }
+});
+</script>

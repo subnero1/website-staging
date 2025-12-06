@@ -4722,6 +4722,50 @@ button.newsletter:hover{
 .modal-dialog .modal-close:hover {
   color: #FC8230;
 }
+.modal-dialog.unetstack-download {
+  max-width: 840px;
+  padding: 20px 4rem;
+}
+.modal-dialog.unetstack-download p, 
+.modal-dialog.unetstack-download li {
+  color: #000;
+}
+.unetstack-download small {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.unetstack-download .copyright {
+  padding: 1rem 0;
+}
+.unetstack-download .footer {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 0 3rem;
+}
+.unet-download-btn {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 0;
+  font-size: 1.1rem;
+  border: none;
+}
+.unet-download-btn.zip {
+  background-color: #015B82;
+}
+.unet-download-btn.zip:hover {
+  background-color: #014460;
+}
+.unet-download-btn svg {
+  width: 24px;
+  height: 24px;
+}
 .form-button {
   border-radius: 4px;
   margin: 4px 0;
@@ -4740,6 +4784,16 @@ button.newsletter:hover{
   padding: 16px 0;
   font-size: 1.2rem;
   color: #000;
+}
+.contact-sales {
+  margin: 1rem auto 0;
+}
+.contact-sales .contact-query {
+  padding: 0;
+}
+.contact-sales .request-quote {
+  padding: 0;
+  margin: 0;
 }
 /* body:has(.modal-dialog[open]) {
   overflow: hidden;
@@ -5719,6 +5773,11 @@ a.usecase-card:hover {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
 }
+.unet-card .cardP {
+  color: #a5b0ba;
+  margin: 0;
+  font-size: 1.1rem;
+}
 .custom-list {
   margin: 0;
   padding: 0;
@@ -5735,19 +5794,68 @@ a.usecase-card:hover {
 .custom-list li svg{
   width: 16px;
   height: 16px;
-  align-self: center;
+  margin-top: 4px;
+  /* align-self: center; */
 }
 .custom-list li .bull {
   flex: none;
 }
-.unet-card .action-btn {
+.unet-card .action-btn,
+.action-btn {
   margin: auto auto 0;
   border-radius: 8px;
   top: 0;
   transition: top 0.3s;
 }
-.unet-card .action-btn:hover {
+.unet-card .action-btn:hover,
+.action-btn:hover {
   top: -8px;
+}
+.dev-ecosystem .unet-card .card-svg {
+  color: currentColor;
+}
+.dev-ecosystem .unet-card .audience {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+.dev-ecosystem .unet-card .audience h6 {
+  font-size: .9rem;
+  margin-bottom: 8px;
+  color: #a5b0ba;
+  letter-spacing: normal;
+}
+.dev-ecosystem .unet-card .card-explore {
+  font-size: 1.1rem;
+}
+.dev-ecosystem .card-explore span {
+  position: relative;
+  font-size: 20px;
+  vertical-align: bottom;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.dev-ecosystem .card-explore:hover span {
+  transform: translateX(6px);
+}
+.unet-editions .unet-card {
+  background-image: linear-gradient(-180deg, #F37930 0%, #D53A2E 100%);
+}
+.unet-editions .card-svg {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.unet-editions .custom-list {
+  margin-top: auto;
+}
+.unet-editions .custom-list li svg {
+  color: #FCD8AF;
+}
+.unet-editions .action-btn {
+  color: #E36126;
+  background-color: #fff;
+  background-image: none;
+  border-color: #fff;
 }
 .core-component {
   display: flex;
@@ -6657,6 +6765,9 @@ a.usecase-card:hover {
   .hero-links {
     display: none;
   }
+  .modal-dialog.unetstack-download {
+  padding: 20px;
+}
 }
 
 @media only screen and (max-width: 767px) {

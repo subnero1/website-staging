@@ -96,7 +96,7 @@ section_id: products
 </section>
 
 <!-- Development Ecosystem -->
-<section id="offerings" class="g4x-section" style="background-color:#e8f3ff;">
+<section id="offerings" class="g4x-section dev-ecosystem" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange normal-spacing">Development Ecosystem</h2>
     <p class="sec-subhead">From desktop simulation to hardware deployment, UnetStack provides the tools for every stage of the lifecycle.</p>
@@ -107,62 +107,62 @@ section_id: products
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"></path><path d="M12 17v4"></path><path d="M8 21h8"></path><rect x="2" y="3" width="20" height="14" rx="2"></rect></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">Network Simulator</h4>
-        <p class="text-md m0 text-slate-400">Fast, flexible simulator for developing, simulating, testing and refining subsea protocols.</p>
+        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">Network Simulator</h4>
+        <p class="cardP">Fast, flexible simulator for developing, simulating, testing and refining subsea protocols.</p>
         <ul class="custom-list">
           <li><span class="text-blue">&#9679;</span> Real-time & Discrete-event modes</li>
           <li><span class="text-blue">&#9679;</span> Seamless code migration to hardware</li>
           <li><span class="text-blue">&#9679;</span> Rapid prototyping workflow</li>
         </ul> 
-        <div class="mt-auto">
-          <h6 class="text-sm m0 normal-spacing capitalize-none text-slate-400">Target Audience</h6>
+        <div class="audience">
+          <h6>Target Audience</h6>
           <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
         </div>
-        <a class="text-blue" href="{{site.baseurl}}/unetstack/unetsim">Explore &rarr;</a>
+        <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Explore <span>&rarr;</span></a>
       </div>
       <div class="unet-card hil text-green">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1"/></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">HIL Platform</h4>
-        <p class="text-md m0 text-slate-400">High-fidelity simulation connecting real modems to physics-accurate acoustic models.</p>
+        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">HIL Platform</h4>
+        <p class="cardP">High-fidelity simulation connecting real modems to physics-accurate acoustic models.</p>
         <ul class="custom-list">
           <li><span class="text-green">&#9679;</span> Physics-accurate acoustic models</li>
           <li><span class="text-green">&#9679;</span> Hardware-in-the-loop testing</li>
           <li><span class="text-green">&#9679;</span> Open-source interface</li>
         </ul> 
-        <div class="mt-auto">
-          <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
+        <div class="audience">
+          <h6>Target Audience</h6>
           <p class="text-white m0 text-md">QA Engineers & Researchers</p>
         </div>
-        <a class="text-green" href="{{site.baseurl}}/unetstack/hilsim">Explore &rarr;</a>
+        <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Explore <span>&rarr;</span></a>
       </div>
         <div class="unet-card oem text-violet">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 9h6v6H9zm-6 1h2m-2 4h2m5-11v2m4-2v2m7 5h-2m2 4h-2m-5 7v-2m-4 2v-2"/></g></svg>
           </div>
-          <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">UnetCube (OEM)</h4>
-          <p class="text-md m0 text-slate-400">Embedded computing platform running UnetStack natively for custom modems.</p>
+          <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetCube (OEM)</h4>
+          <p class="cardP">Embedded computing platform running UnetStack natively for custom modems.</p>
           <ul class="custom-list">
             <li><span class="text-violet">&#9679;</span> Embedded SBC Runtime</li>
             <li><span class="text-violet">&#9679;</span> Custom Analog/DAQ integration</li>
             <li><span class="text-violet">&#9679;</span> Unified simulation workflow</li>
           </ul> 
-          <div class="mt-auto">
-            <h6 class="text-sm m0 normal-spacing text-slate-400">Target Audience</h6>
+          <div class="audience">
+            <h6>Target Audience</h6>
             <p class="text-white m0 text-md">OEM & Hardware Engineers</p>
           </div>
-          <a class="text-violet" href="{{site.baseurl}}/unetstack/unetcube">Explore &rarr;</a>
+          <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Explore <span>&rarr;</span></a>
         </div>
     </div>
   </div>
 </section>
 
 <!-- Editions -->
-<section id="editions" class="g4x-section" style="background-color:#000;">
+<section id="editions" class="g4x-section unet-editions">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange">Editions</h2>
-    <p class="text-lg text-white">UnetStack is available in three editions tailored to usage requirements.</p>
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Editions</h2>
+    <p class="sec-subhead">UnetStack is available in three editions tailored to usage requirements.</p>
   </div>
   <div class="row py2">
     <div class="feature-grid col3">
@@ -170,41 +170,46 @@ section_id: products
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z"/></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">Community Edition</h4>
-        <p class="text-md m0 text-slate-400">A free edition for academic use and prototyping — not for commercial deployments.</p>
+        <h4 class="text-xl text-white m0 capitalize-none normal-spacing text-600 mt1">Community Edition</h4>
+        <p class="text-md text-white m0">A free edition for academic use and prototyping — not for commercial deployments.</p>
         <ul class="custom-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Unet Simulator (Community)</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Basic UnetStack agents</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Documentation & Tutorials</li>
         </ul> 
-        <a class="button action-btn g-orange" href="#">Download Now</a>
+        <div class="contact-sales">{%- include downloadUnetStack.html -%}</div>
       </div>
       <div class="unet-card text-green">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">Commercial Edition</h4>
-        <p class="text-md m0 text-slate-400">A licensed edition for operational deployments across defense, commercial and industrial domains.</p>
+        <h4 class="text-white m0 capitalize-none text-xl normal-spacing text-600 mt1">Commercial Edition</h4>
+        <p class="text-md text-white m0">A licensed edition for operational deployments across defense, commercial and industrial domains.</p>
         <ul class="custom-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Unet Simulator (Commercial)</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> UnetStack Agents</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> LTS & Technical Support</li>
         </ul> 
-        <a class="button action-btn g-orange" href="#">Contact Sales</a>
+        <div class="contact-sales">{%- include formContactUs.html btnText="Contact Sales" -%}</div>
       </div>
       <div class="unet-card text-violet">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 9h6v6H9zm-6 1h2m-2 4h2m5-11v2m4-2v2m7 5h-2m2 4h-2m-5 7v-2m-4 2v-2"/></g></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-lg normal-spacing text-600 mt1">OEM Edition</h4>
-        <p class="text-md m0 text-slate-400">(UnetCube)</p>
-        <p class="text-md m0 text-slate-400">An embedded development platform for hardware in the loop simulation or OEMs.</p>
+        <div>
+          <h4 class="text-white m0 capitalize-none text-xl normal-spacing text-600 mt1">OEM Edition</h4>
+          <p class="text-md m0 text-white">(UnetCube)</p>
+        </div>
+        <p class="text-md text-white m0">An embedded development platform for hardware in the loop simulation or OEMs.</p>
         <ul class="custom-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Embedded Single Board Computer (SBC)</li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+            <span>Embedded Single Board Computer (SBC)</span>
+          </li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Hardware-in-the-Loop Support</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Open Source Interfaces</li>
         </ul> 
-        <a class="button action-btn g-orange" href="#">Request Quote</a>
+        <div class="contact-sales">{%- include formRequestQuote.html -%}</div>
       </div>
     </div>
   </div>

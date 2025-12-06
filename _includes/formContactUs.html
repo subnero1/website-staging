@@ -1,5 +1,5 @@
 <div class="contact-query">
-  <button class="form-button" id="openContact{{ include.suffix | default: '' }}">Contact us</button>
+  <button class="button action-btn g-orange" id="openContact{{ include.suffix | default: '' }}">{{ include.btnText | default: 'Contact us' }}</button>
 </div>
 <!-- Modal -->
 <dialog id="contactModal{{ include.suffix | default: '' }}" class="modal-dialog">
