@@ -20,6 +20,7 @@
   --purple: 228, 87, 151;
   --white: 255, 255, 255;
   --slate: 148, 163, 184;
+  --acqua: 62, 186, 180;
 }
 /* 
 color: rgb(var(--orange));
@@ -5985,6 +5986,9 @@ a.usecase-card:hover {
 .docs-card.uh { color: rgb(var(--blue)); }
 .docs-card.vt { color: rgb(var(--red)); }
 .docs-card.fj { color: rgb(var(--emerald)); }
+.docs-card.pr { color: rgb(var(--violet));}
+.docs-card.aq { color: rgb(var(--acqua));}
+
 .docs-card {
   display: flex;
   align-items: flex-start;
@@ -6071,6 +6075,16 @@ a.usecase-card:hover {
   border-radius: 6px;
   border: 1px solid rgba(var(--slate), 0.3);
 }
+.releveant-resources .docs-card {
+  background-color: #F8FAFC;
+}
+.releveant-resources .title-tag {
+  margin: 0 0 4px;
+  font-size: .9rem;
+  font-weight: 600;
+  color: currentColor;
+  letter-spacing: normal;
+}
 
 .resources {
   display: flex;
@@ -6102,7 +6116,7 @@ a.usecase-card:hover {
 .resource-link.contrib { color: rgb(var(--blue)); }
 .resource-link.support { color: rgb(var(--emerald)); }
 .resource-link.quicklinks { color: rgb(var(--violet)); }
-.resource-link.brochure { color: rgb(var(--purple)); }
+.resource-link.brochure { color: rgb(var(--purple)); } */
 
 .button.read-btn {
   margin-top: 1rem;
