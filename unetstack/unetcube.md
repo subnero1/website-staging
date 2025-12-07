@@ -85,34 +85,34 @@ section_id: products
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-pruple">Use Cases</h2>
-    <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
+    <p class="sec-subhead">UnetCube provides a flexible embedded platform for desktop HIL simulations, building custom modems, or as a network controller for your subsea network.</p>
   </div>
   <div class="unetcube-usecase">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetcube1.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-pruple">Rapid Protocol Development</h3>
-        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
+        <h3 class="text-gradient g-pruple">UnetCube for HIL Simulation</h3>
+        <p>Use UnetCube to run hardware-in-the-loop simulations before procuring modems, reducing upfront costs while allowing you to scale effortlessly by transferring the same codebase to actual modems for sea deployment. Developers can run signal processing, MAC, or networking algorithms as if the devices were operating underwater, enabling controlled and repeatable testing long before field trials.</p>
       </div>
     </div>
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetcube2.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-pruple">Rapid Protocol Development</h3>
-        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
+        <h3 class="text-gradient g-pruple">Build Your Own Modem</h3>
+        <p>UnetCube lets you rely on UnetStack to handle signal processing, networking protocols, and other software functions, allowing you to focus fully on designing the hardware portions of your modem for any supported frequency band. Its open-source interface protocol enables you to build your own modem with minimal third-party support—and even replace parts of the stack—thanks to UnetStack’s open, extensible architecture.</p>
       </div>
     </div>
     <div class="usecase two-col">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetcube3.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-pruple">Rapid Protocol Development</h3>
-        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
+        <h3 class="text-gradient g-pruple">UnetCube as a Network Controller</h3>
+        <p>UnetCube can act as a network controller for mixed fleets of legacy or Subnero modems, enabling you to build and execute custom network protocols to control subsea assets. Similar to a core router in terrestrial networks, it provides a flexible platform for orchestrating communication across distributed underwater systems.</p>
       </div>
     </div>
   </div>

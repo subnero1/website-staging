@@ -85,16 +85,16 @@ section_id: products
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-orange">Use Cases</h2>
-    <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
+    <p class="sec-subhead">UnetSim allows you to rapidly design and validate networking and MAC-layer protocols in a fully controlled virtual environment.</p>
   </div>
   <div class="row usecase-wrap">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetsim.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-orange">Rapid Protocol Development</h3>
-        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
+        <h3 class="text-gradient g-orange">Simulating Network Behavior Using UnetSim</h3>
+        <p>UnetSim lets you run both discrete-event and real-time simulations to model multiple subsea nodes—static or mobile—so you can design, develop, and evaluate your network protocols before moving to hardware testing.</p>
       </div>
     </div>
   </div>

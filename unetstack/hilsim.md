@@ -85,16 +85,16 @@ section_id: products
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-acqua">Use Cases</h2>
-    <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
+    <p class="sec-subhead">Hardware-in-the-loop simulation lets you evaluate real algorithms and devices under realistic underwater channel conditions before going to sea.</p>
   </div>
   <div class="row usecase-wrap">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-hilsim.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-acqua">Rapid Protocol Development</h3>
-        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
+        <h3 class="text-gradient g-acqua">Hardware-in-the-Loop Setup With Modems and VAO</h3>
+        <p>The illustration shows two acoustic modems connected via Ethernet to a network switch, which links to a laptop running VAO. This setup allows real hardware to interact with simulated acoustic channels modeled by Bellhop, Kraken, or Pekris Ray. Developers can run signal processing, MAC, or networking algorithms as if the devices were deployed underwater, enabling controlled, repeatable testing before field trials.</p>
       </div>
     </div>
   </div>
