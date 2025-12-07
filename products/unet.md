@@ -76,16 +76,6 @@ section_id: products
         <li><i class="icon-check"></i> <span class="text-lg">Includes localization, device & sensor management, and edge analytics.</span></li>
         <li><i class="icon-check"></i> <span class="text-lg">Unified programmable framework for intelligent communication behaviours.</span></li>
       </ul>
-      <div class="wnc-card mt1">
-        <h6 class="text-md text-600"><i class="icon-users"></i> Target Users</h6>
-        <ul class="tags-list">
-          <li>Research Labs</li>
-          <li>Defense</li>
-          <li>Research</li>
-          <li>Commercial Offshore</li>
-          <li>Academia</li>
-        </ul>
-      </div>
     </div>
     <div class="large-6 columns">
       <figure class="col-figure">
@@ -116,8 +106,10 @@ section_id: products
           <li><span class="text-blue">&#9679;</span> Rapid prototyping workflow</li>
         </ul> 
         <div class="audience">
-          <h6>Target Audience</h6>
-          <p class="text-white m0 text-md">Protocol Researchers & Developers</p>
+          <h6>Ideal for</h6>
+          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> Education</p>
+          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> Protocol Development</p>
+          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> System Integration</p>
         </div>
         <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a>
       </div>
@@ -134,8 +126,10 @@ section_id: products
           <li><span class="text-green">&#9679;</span> Open-source interface</li>
         </ul> 
         <div class="audience">
-          <h6>Target Audience</h6>
-          <p class="text-white m0 text-md">QA Engineers & Researchers</p>
+          <h6>Ideal for</h6>
+          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> System Integration</p>
+          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> HIL Simulation</p>
+          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> Physical Layer Development</p>
         </div>
         <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a>
       </div>
@@ -152,8 +146,10 @@ section_id: products
             <li><span class="text-violet">&#9679;</span> Unified simulation workflow</li>
           </ul> 
           <div class="audience">
-            <h6>Target Audience</h6>
-            <p class="text-white m0 text-md">OEM & Hardware Engineers</p>
+            <h6>Ideal for</h6>
+            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Desktop HIL simulation</p>
+            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Customized modem development</p>
+            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Subsea Network Controller</p>
           </div>
           <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a>
         </div>
