@@ -11,7 +11,7 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Hardware-in-the-Loop Simulator</h4>
-      <h1><span class="text-gradient g-blue">V</span>irtual <span class="text-gradient g-blue">A</span>coustic <span class="text-gradient g-blue">O</span>cean</h1>
+      <h1><span class="text-gradient g-acqua">V</span>irtual <span class="text-gradient g-acqua">A</span>coustic <span class="text-gradient g-acqua">O</span>cean</h1>
       <p>A high-fidelity underwater acoustic channel model simulator for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
         <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-orange">View on GitHub</a>
@@ -36,7 +36,7 @@ section_id: products
 <!-- key capabilities -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Key Capabilities</h2>
+    <h2 class="sec-head lg text-gradient g-acqua normal-spacing">Key Capabilities</h2>
     <p class="sec-subhead">Bridge the gap between simulation and sea trials.</p>
   </div>
   <div class="row py2">
@@ -84,7 +84,7 @@ section_id: products
 <!-- Use Cases -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange">Use Cases</h2>
+    <h2 class="sec-head lg text-gradient g-acqua">Use Cases</h2>
     <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
   </div>
   <div class="row usecase-wrap">
@@ -93,7 +93,7 @@ section_id: products
         <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-orange">Rapid Protocol Development</h3>
+        <h3 class="text-gradient g-acqua">Rapid Protocol Development</h3>
         <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
       </div>
     </div>
@@ -103,7 +103,7 @@ section_id: products
 <!-- HIL Workflow -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">HIL Workflow</h2>
+    <h2 class="sec-head lg text-gradient g-acqua normal-spacing">HIL Workflow</h2>
     <p class="sec-subhead">Connect real hardware to a virtual ocean.</p>
   </div>
   <div class="row py2">
@@ -145,7 +145,7 @@ section_id: products
 <!-- Technical Resources -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Technical Resources</h2>
+    <h2 class="sec-head lg text-gradient g-acqua normal-spacing">Technical Resources</h2>
   </div>
   <div class="row py2">
     <div class="resources">

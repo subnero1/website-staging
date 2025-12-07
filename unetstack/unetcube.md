@@ -11,7 +11,7 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">OEM Development Platform</h4>
-      <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">C</span>ube</h1>
+      <h1><span class="text-gradient g-pruple">U</span>net<span class="text-gradient g-pruple">C</span>ube</h1>
       <p>An embedded platform for building your own underwater modems and hybrid communication nodes.</p>
       <div class="g4x-hero-btns">
         {%- include formRequestQuote.html -%}
@@ -36,7 +36,7 @@ section_id: products
 <!-- key capabilities -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Key Capabilities</h2>
+    <h2 class="sec-head lg text-gradient g-pruple normal-spacing">Key Capabilities</h2>
     <p class="sec-subhead">Focus on your hardware differentiation, let UnetCube handle the stack.</p>
   </div>
   <div class="row py2">
@@ -84,40 +84,44 @@ section_id: products
 <!-- Use Cases -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange">Use Cases</h2>
+    <h2 class="sec-head lg text-gradient g-pruple">Use Cases</h2>
     <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
   </div>
-  <div class="row large py2">
-    <h5 class="g4x-sub-h5">Industries</h5>
-    <div class="feature-grid blue-economy col3">
-      <div class="usecase-card">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
-        </div>
-        <h4>Defense</h4>
-        <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defence operations.</p>
+  <div class="unetcube-usecase">
+    <div class="usecase">
+      <div class="usecase-img">
+        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
       </div>
-      <div class="usecase-card">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Commercial">
-        </div>
-        <h4>Offshore, Marine & Subsea</h4>
-        <p>Trusted by leading offshore operators and survey companies worldwide, WNC product series offer robust communication performance and proven worldwide support across demanding offshore and subsea environments.</p>
+      <div class="usecase-content">
+        <h3 class="text-gradient g-pruple">Rapid Protocol Development</h3>
+        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
       </div>
-      <div class="usecase-card">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Scientific Research">
-        </div>
-        <h4>Scientific Research</h4>
-        <p>WNC provides a flexible research platform with a customizable network stack, multi-language support, full simulation tools, and arbitrary waveform capabilities ideal for underwater communication and localisation R&D.</p>
+    </div>
+    <div class="usecase">
+      <div class="usecase-img">
+        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+      </div>
+      <div class="usecase-content">
+        <h3 class="text-gradient g-pruple">Rapid Protocol Development</h3>
+        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
+      </div>
+    </div>
+    <div class="usecase two-col">
+      <div class="usecase-img">
+        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+      </div>
+      <div class="usecase-content">
+        <h3 class="text-gradient g-pruple">Rapid Protocol Development</h3>
+        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
       </div>
     </div>
   </div>
+</section>
 
 <!-- Development Workflow -->
-<section class="g4x-section">
+<section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Development Workflow</h2>
+    <h2 class="sec-head lg text-gradient g-pruple normal-spacing">Development Workflow</h2>
     <p class="sec-subhead">Accelerate your time to market.</p>
   </div>
   <div class="row py2">
@@ -159,7 +163,7 @@ section_id: products
 <!-- Technical Resources -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Technical Resources</h2>
+    <h2 class="sec-head lg text-gradient g-pruple normal-spacing">Technical Resources</h2>
   </div>
   <div class="row py2">
     <div class="resources">

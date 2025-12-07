@@ -3948,6 +3948,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .g-blue {
   background-image: linear-gradient(90deg, #62A7F5, #77E5F7);
 }
+.g-pruple {
+  background-image: linear-gradient(90deg, #868BF2, #9969F1);
+}
+.g-acqua {
+  background-image: linear-gradient(45deg, #44CCE0, #3EBAB4);
+}
 .g-orange-btn {
   background-image: linear-gradient(45deg, #F2772F, #D64235);
 }
@@ -5503,10 +5509,19 @@ a.usecase-card:hover {
   margin: 0;
   color: rgb(49, 65, 88);
 }
+.unetcube-usecase {
+  width: 100%;
+  max-width: 96rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 .usecase-wrap {
   padding: 1rem 0 4rem;
 }
 .usecase {
+  min-width: 100px;
   padding: 2.4rem;
   background-color: #fff;
   border-radius: 12px;
@@ -5525,7 +5540,7 @@ a.usecase-card:hover {
 .usecase .usecase-content {
   max-width: 680px;
   width: 100%;
-  margin: 2rem auto;
+  margin: 2rem auto 0;
   text-align: center;
 }
 .usecase h3 {
@@ -5539,6 +5554,10 @@ a.usecase-card:hover {
   font-size: 1.1rem;
   color: #485568;
 }
+.usecase.two-col {
+  grid-column: 1 / -1;
+}
+
 .learn-link {
   font-size: 1.4rem;
   font-weight: 500;
