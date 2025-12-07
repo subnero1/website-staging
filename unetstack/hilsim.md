@@ -87,18 +87,18 @@ section_id: products
     <h2 class="sec-head lg text-gradient g-orange">Use Cases</h2>
     <p class="sec-subhead">Enabling reliable underwater communication and seamless connectivity for ocean industries and subsea assets.</p>
   </div>
-  <div class="row large py2">
-    <h5 class="g4x-sub-h5">Industries</h5>
-    <div class="feature-grid blue-economy col1">
-      <div class="usecase-card">
-        <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
-        </div>
-        <h4>Defense</h4>
-        <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defence operations.</p>
+  <div class="row usecase-wrap">
+    <div class="usecase">
+      <div class="usecase-img">
+        <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+      </div>
+      <div class="usecase-content">
+        <h3 class="text-gradient g-orange">Rapid Protocol Development</h3>
+        <p>Researchers can develop custom MAC and Routing protocols using the UnetStack API in Groovy, Java, or Python. By running these protocols in the simulator, logic can be verified against discrete-event simulations of large networks before a single line of code is deployed to expensive hardware.</p>
       </div>
     </div>
   </div>
+</section>
 
 <!-- HIL Workflow -->
 <section class="g4x-section">

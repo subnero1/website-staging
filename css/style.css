@@ -5503,7 +5503,42 @@ a.usecase-card:hover {
   margin: 0;
   color: rgb(49, 65, 88);
 }
-
+.usecase-wrap {
+  padding: 1rem 0 4rem;
+}
+.usecase {
+  padding: 2.4rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.usecase .usecase-img {
+  height: 300px;
+}
+.usecase .usecase-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.usecase .usecase-content {
+  max-width: 680px;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+.usecase h3 {
+  font-size: 1.6rem;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+.usecase p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #485568;
+}
 .learn-link {
   font-size: 1.4rem;
   font-weight: 500;
