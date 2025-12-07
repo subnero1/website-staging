@@ -167,44 +167,24 @@ section_id: products
   </div>
   <div class="row py2">
     <div class="feature-grid col2 releveant-resources">
-      <a href="#" class="docs-card pr" target="_blank">
-        <div class="card-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M6 3v12"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></g></svg>
-        </div>
-        <div>
-          <h6 class="title-tag">Repo</h6>
-          <h5>Virtual Acoustic Ocean</h5>
-          <p>Open-source HIL simulator on GitHub.</p>
-        </div>
-      </a>
-      <a href="#" class="docs-card pr" target="_blank">
+      <a href="https://blog.unetstack.net/running-hardware-in-the-loop-simulations-using-unetstack-modems" class="docs-card pr" target="_blank">
         <div class="card-svg">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
         </div>
         <div>
-          <h6 class="title-tag">Paper</h6>
-          <h5>Hardware-in-the-loop testing</h5>
-          <p>Testing networks using UnetStack HIL.</p>
+          <h6 class="title-tag">Blog Article</h6>
+          <h5>Running Hardware-in-the-Loop Simulations Using UnetStack Modems</h5>
+          <p>A how-to guide explaining how to link modems running UnetStack with VAO for hardware-in-the-loop testing and pre-deployment validation.</p>
         </div>
       </a>
-      <a href="#" class="docs-card pr" target="_blank">
+      <a href="https://subnero.com/brochures/unlocking-underwater-connectivity.pdf" class="docs-card pr" target="_blank">
         <div class="card-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2H1v19h1c2.944 0 5.14.245 6.586.486c.723.12 1.26.24 1.609.328c.174.046.331.091.472.13l.152.051h2.324l.152-.05l.088-.026c.122-.037.384-.103.989-.231c.723-.12 1.26-.24 1.609-.328C16.86 21.246 19.054 21 22 21h1V2h-8a4 4 0 0 0-3 1.354A4 4 0 0 0 9 2zM3 19.01V4h6a2 2 0 0 1 2 2v13.958c-.4-.1-.989-.23-1.766-.36c-1.379-.23-3.35-.457-5.914-.505zM19 10h-4V8h4zm0 3h-4v-2h4z"/></svg>
         </div>
         <div>
-          <h6 class="title-tag">Paper</h6>
-          <h5>Adaptive Modulation Strategy</h5>
-          <p>Algorithm testing example using HIL.</p>
-        </div>
-      </a>
-      <a href="#" class="docs-card pr" target="_blank">
-        <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="m16 18 6-6-6-6"></path><path d="m8 6-6 6 6 6"></path></svg>
-        </div>
-        <div>
-          <h6 class="title-tag">Library</h6>
-          <h5>UnetSockets</h5>
-          <p>Interfacing external apps with HIL.</p>
+          <h6 class="title-tag">Whitepaper</h6>
+          <h5>Unlocking Underwater Connectivity</h5>
+          <p>A whitepaper introducing UnetStack and its ecosystem — from architecture and editions to deployment scenarios — offering insight into how Subnero’s technologies enable scalable underwater networking.</p>
         </div>
       </a>
     </div>

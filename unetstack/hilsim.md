@@ -149,44 +149,14 @@ section_id: products
   </div>
   <div class="row py2">
     <div class="feature-grid col2 releveant-resources">
-      <a href="#" class="docs-card aq" target="_blank">
+      <a href="https://blog.unetstack.net/running-hardware-in-the-loop-simulations-using-unetstack-modems" class="docs-card aq" target="_blank">
         <div class="card-svg">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
         </div>
         <div>
-          <h6 class="title-tag">Brochure</h6>
-          <h5>Subnero M25M Modems</h5>
-          <p>Reference implementation using UnetCube.</p>
-        </div>
-      </a>
-      <a href="#" class="docs-card aq" target="_blank">
-        <div class="card-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
-        </div>
-        <div>
-          <h6 class="title-tag">Paper</h6>
-          <h5>Smart Wireless Data Transfer</h5>
-          <p>Edge computing use case on UnetCube.</p>
-        </div>
-      </a>
-      <a href="#" class="docs-card aq" target="_blank">
-        <div class="card-svg">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="m16 18 6-6-6-6"></path><path d="m8 6-6 6 6 6"></path></svg>
-        </div>
-        <div>
-          <h6 class="title-tag">Docs</h6>
-          <h5>UnetStack Agent Guide</h5>
-          <p>Developing agents for embedded deployment.</p>
-        </div>
-      </a>
-      <a href="#" class="docs-card aq" target="_blank">
-        <div class="card-svg">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
-        </div>
-        <div>
-          <h6 class="title-tag">Brochure</h6>
-          <h5>Gen4X Series Release</h5>
-          <p>Latest hardware specifications.</p>
+          <h6 class="title-tag">Blog Article</h6>
+          <h5>Running Hardware-in-the-Loop Simulations Using UnetStack Modems</h5>
+          <p>A how-to guide explaining how to link modems running UnetStack with VAO for hardware-in-the-loop testing and pre-deployment validation.</p>
         </div>
       </a>
     </div>
