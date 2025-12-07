@@ -2,27 +2,33 @@
   path: products/
   section_id: products
   submenu:
-  - name: S40H Series
-    path: /products/modem.html?&section=S40Hseries
-    section_id: s40h
-  - name: L12L series
-    path: /products/modem.html?&section=L12Lseries
-    section_id: l12l
-  - name: M25M series
-    path: /products/modem.html?&section=M25Mseries
+  - name: WNC Products
+    path: /products
+    section_id: m25m
+  - name: Smart Modems
+    path: /products/#smart-modems
     section_id: m25m
   - name: UnetStack
-    path: /products/unet
+    path: /products/#unetstack
     section_id: unetstack
+  - name: SWIS Products
+    path: /products/swis
+    section_id: swis
+  - name: ADCP Edition
+    path: /products/swis.html#adcp-edition
+    section_id: swis
 - name: Solutions
   path: solutions/
   section_id: solutions
 - name: Pulse
   path: pulse/
   section_id: pulse
+- name: User Stories
+  path: user-stories
+  section_id: puluserstoriesse
 - name: Resources
-  path: ./#
-  section_id: resources
+  path: support/
+  section_id: support
   submenu:
   - name: Support
     path: /support
@@ -30,12 +36,19 @@
   - name: FAQ
     path: /faq
     section_id: faq
-  - name: Quick Links
-    path: /quicklinks
-    section_id: quicklinks
+  - name: Technical Resources 
+    path: /technical-resources
+    section_id: technical-resources
 - name: About
   path: about/
   section_id: about
-- name: Contact
-  path: contact/
-  section_id: contact
+  submenu:
+  - name: Company
+    path: /about
+    section_id: about
+  - name: Careers
+    path: /careers
+    section_id: careers
+  - name: Contact
+    path: /contact
+    section_id: contact

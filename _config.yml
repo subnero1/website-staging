@@ -1,13 +1,20 @@
 # Site settings
 title: Subnero
 description: The future of underwater wireless.
-url: "http://subnero1.github.io/"
+url: "https://subnero.com"
 twitter_username: subnero
 github_username:  subnero1
 default_image: images/pulse-thumbnail-default.jpg
 
 collections:
-  - faq
+  faq:
+    output: false
+  gen4x:
+    output: true
+    permalink: /products/gen4x/:title/
+  userstories: 
+    output: true
+    permalink: /user-stories/:title/
 
 # Build settings
 markdown: kramdown

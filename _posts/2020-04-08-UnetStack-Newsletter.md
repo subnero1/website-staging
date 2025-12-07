@@ -3,10 +3,8 @@ layout: post
 title: UnetStack Newsletter - April 2020
 banner : images/banner-about.jpg
 date:  2020-04-08
-categories:
-- newsletter
-- media
-thumbnail: images/boxart-unet.jpg
+categories: unetstack press
+thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 
 We are excited to release the next instalment of features and performance enhancements in the form of [UnetStack 3.1](https://unetstack.net/){:target="_blank"}.

@@ -3,7 +3,7 @@ layout: post
 title: Subnero Successfully Demonstrates Interoperability using SWiG Standard at WUWNET 2024
 banner: images/banner-pulse-swig-interop.jpg
 date:  2024-11-15
-categories: wnc news
+categories: event case-study press
 thumbnail: images/pulse-thumbnail-swig-interop.jpg
 ---
 

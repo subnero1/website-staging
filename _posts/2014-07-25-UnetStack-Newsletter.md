@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - July 2014
 banner : images/banner-pulse-articles1.jpg
 date:  2014-07-25
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
 

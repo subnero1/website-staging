@@ -1,0 +1,38 @@
+<div class="contact-query">
+  <button class="button action-btn g-orange" id="openContact{{ include.suffix | default: '' }}">{{ include.btnText | default: 'Contact us' }}</button>
+</div>
+<!-- Modal -->
+<dialog id="contactModal{{ include.suffix | default: '' }}" class="modal-dialog">
+  <div class="modal-content">
+    <header><button class="modal-close" type="button" id="closeContact{{ include.suffix | default: '' }}" title="close">&times;</button></header>
+    <div class="main">
+      <script defer src='https://subnero.myfreshworks.com/crm/sales/web_forms/2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5/form.js' crossorigin='anonymous' id='fs_2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5'></script>
+    </div>
+    <div class="footer"></div>
+  </div>
+</dialog>
+
+<script>
+(function() {
+  let suffix = '{{ include.suffix | default: "" }}';
+  const contactModal = document.getElementById('contactModal' + suffix);
+  const openContact = document.getElementById('openContact' + suffix);
+  const closeContact = document.getElementById('closeContact' + suffix);
+
+  // Open the modal
+  openContact.addEventListener('click', () => {
+    contactModal.showModal();
+  });
+
+  // Close the modal
+  closeContact.addEventListener('click', () => {
+    contactModal.close();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && contactModal.open) {
+        contactModal.close();
+    }
+  });
+})();
+</script>

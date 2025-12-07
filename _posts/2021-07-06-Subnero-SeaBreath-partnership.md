@@ -3,8 +3,8 @@ layout: post
 title: Subnero now present in Japan
 banner : images/banner-pulse-standard.jpg
 date:  2021-07-06
-categories: wnc
-thumbnail: images/pulse-seabreath.jpg
+categories: partnership
+thumbnail: images/pulse-thumbnail-seabreath.jpg
 ---
 
 

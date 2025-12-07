@@ -1,0 +1,223 @@
+body:not(.home-page) {
+  padding-top: 100px;
+}
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: height 0.3s ease;
+}
+.home-page .page-header {
+  background-color: transparent;
+  box-shadow: none;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100px; /* Initial height */
+  transition: height 0.3s ease;
+}
+.page-header.scrolled .nav-container {
+  height: 60px; /* Shrunk height */
+}
+.logo {
+  margin: 0;
+  padding: 6px 0;
+}
+.logo a {
+  display: block;
+  width: 100px;
+}
+.logo img{
+  display: block;
+  width: 100px;
+  height: auto;
+}
+.scrolled .logo a{
+  width: 60px;
+}
+.nav-links {
+  display: flex;
+  margin: 0;
+  column-gap: 30px;
+  font-size: 1.2rem;
+  list-style-type: none;
+  position: relative;
+  text-transform: capitalize;
+}
+.nav-links li {
+  position: relative;
+  /* margin-left: 30px; */
+}
+.nav-links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: block;
+  transition: color 0.3s;
+  text-align: left;
+}
+.home-page .nav-links a {
+  color: #fff;
+}
+
+li.has-dropdown > a {
+  cursor: pointer;
+  pointer-events: none;
+}
+.nav-links a:hover {
+  color: #FF8C00 !important;
+}
+/* Submenu Styles */
+.submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin: 0;
+  padding: 10px 14px;
+  list-style: none;
+  font-size: 1.12rem;
+  background: #fff;
+  min-width: 200px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+.nav-links li:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.submenu li {
+  margin: 0;
+}
+.submenu a {
+  text-transform: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.home-page .submenu a {
+  color: #000;
+}
+.submenu li:last-child a {
+  border: none;
+}
+.has-dropdown > a::after {
+  position: absolute;
+  left: 95%;
+  top: 50%;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 5px;
+  border-color: rgba(65, 65, 65, 0.4) transparent transparent transparent;
+  border-top-style: solid;
+  /* margin-top: -2.5px; */
+}
+.home-page .has-dropdown > a::after {
+  border-top-color: #fff;
+}
+/* Hamburger Menu for Mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+.home-page .hamburger span {
+  background-color: #fff;
+}
+.submenu a[href$="#smart-modems"],
+.submenu a[href$="#unetstack"],
+.submenu a[href$="#adcp-edition"] {
+  padding-left: 12px;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    transition: left 0.3s;
+    box-shadow: -5px 0 10px rgba(0,0,0,0.1);
+  }
+  .home-page .nav-links {
+    background-color: #333;
+  }
+  .page-header.scrolled .nav-links {
+    top: 50px;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .nav-links.active {
+    left: 0;
+  }
+  .nav-links li {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-links li:hover .submenu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    background: #f8f9fa;
+    margin-top: 5px;
+  }
+  .submenu {
+    visibility: visible;
+    opacity: 1;
+    position: static;
+    background-color: #f8f8f8;
+  }
+  .submenu li {
+    margin: 0;
+  }
+  .hamburger {
+    display: flex;
+  }
+  /* Animate hamburger to X */
+  .nav-links.active + .hamburger span:nth-child(1) {
+    transform: rotate(-45deg) translate(-6px, 7px);
+  }
+  .nav-links.active + .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-links.active + .hamburger span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+@media print {
+  .page-header {
+    position: relative;
+    transition: none
+  }
+}

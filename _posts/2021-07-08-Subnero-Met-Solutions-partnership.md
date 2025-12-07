@@ -3,8 +3,8 @@ layout: post
 title: New business partner for Subnero in Republic of Korea
 banner : images/banner-pulse-standard.jpg
 date:  2021-07-08
-categories: news wnc
-thumbnail: images/pulse-met.jpg
+categories: partnership
+thumbnail: images/pulse-thumbnail-met.jpg
 ---
 
 Subnero, provider of underwater wireless communication technology, headquartered in Singapore is further expanding its operations, having signed a partnership with [Met-Solutions](http://www.met-solutions.co.kr/){:target="_blank"} to support South Korean business growth.

@@ -3,7 +3,7 @@ layout: post
 title: Subnero at IEEE OES AUV 2020
 banner : images/banner-pulse-standard.jpg
 date:  2020-10-03
-categories: wnc news
+categories: event
 thumbnail: images/pulse-thumbnail-auv2020.jpg
 ---
 

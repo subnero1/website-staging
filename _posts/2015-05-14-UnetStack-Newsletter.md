@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - May 2015
 banner : images/banner-pulse-articles3.jpg
 date:  2015-05-14
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
 

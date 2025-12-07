@@ -3,10 +3,8 @@ layout: post
 title: The need for a better monitoring solution
 banner : images/banner-pulse-swan.jpg
 date:  2015-08-01
-categories:
-- wqm
-- media
-thumbnail: images/boxart-swan.jpg
+categories: press
+thumbnail: images/pulse-thumbnail-swan1.jpg
 ---
 
 With harmful algal blooms, eutrophication and emerging contaminants, monitoring of water bodies has become increasingly important. However water bodies cannot be modeled as isolated systems; many external factors such as urbanisation and other human activities affect them.

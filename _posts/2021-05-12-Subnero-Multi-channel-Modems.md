@@ -3,8 +3,8 @@ layout: post
 title: Introducing Subnero Multi-Receiver Modems
 banner : images/banner-multichannel-mf.jpg
 date:  2021-05-12
-categories: wnc news
-thumbnail: images/thumbnail-wnc-m25mss4+xch.png
+categories: product-launch feature
+thumbnail: images/pulse-thumbnail-mr.jpg
 ---
 
 <div class="flex-video video">

@@ -3,9 +3,7 @@ layout: post
 title: UnetStack Newsletter - September 2013
 banner : images/banner-pulse-articles2.jpg
 date:  2013-09-30
-categories:
-- newsletter
-- media
+categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
 

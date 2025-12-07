@@ -3,9 +3,7 @@ layout: post
 title: Connecting the ocean to the internet
 banner : images/banner-pulse-articles2.jpg
 date:  2016-12-20
-categories:
-- wnc
-- media
+categories: press faeture
 thumbnail: images/pulse-thumbnail-connecting.jpg
 ---
 

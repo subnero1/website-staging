@@ -7,54 +7,8 @@ section_id: home
 
 {% include head.html %}
 
-<body class="f-topbar-fixed">
-  <div class='transparent white fixed contain-to-grid'>
-    <nav class="top-bar" data-options="" data-topbar="" style="background: transparent;">
-      <ul class='title-area'>
-        <li class='name'>
-          <h1>
-            <a href='{{site.baseurl}}'>
-              <img alt="subnero logo" src="{{site.baseurl}}/images/subnero_logo.png" />
-            </a>
-          </h1>
-        </li>
-        <li class='toggle-topbar menu-icon'>
-          <a href='#'>Menu</a>
-        </li>
-      </ul>
-      <section class='top-bar-section'>
-        <ul class="right">
-          {% for item in site.data.nav %}
-            {% if item.section_id == page.section_id %}
-              {% assign active_class = "active" %}
-            {% else %}
-              {% assign active_class = "" %}
-            {% endif %}
-  
-            {% if item.submenu %}
-            <li class="has-dropdown {{ active_class }}" >
-              <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-              {% if item.submenu %}
-              <ul class="submenu {{ item.section_id }}">
-                {% if item.section_id == "products" %}
-                <li><a href="{{ site.baseurl}}/{{ item.path }}">All</a></li>
-                {% endif %}
-              {% for entry in item.submenu %}
-                <li><a href="{{ entry.path }}">{{ entry.name }}</a></li>
-              {% endfor %}
-              </ul>
-              {% endif %}
-            </li>
-            {% else %}
-            <li class="{{active_class}}">
-              <a href="{{ site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-            </li>
-          {% endif %}
-            {% endfor %}
-        </ul>
-      </section>
-    </nav>
-  </div>
+<body class="home-page">
+  {% include header.html %}
   <div id="main" role="main" class="top-shift">
     <div class="full no-padding">
     <div class="fullscreen">
@@ -72,7 +26,7 @@ section_id: home
       
       <div class="overlay"></div>
       <div class="layer">
-        <h1 class="thin" id="to-be-update">The future of <br> underwater wireless</h1>
+        <h1 class="thin" id="to-be-update">The future of <br> <span class="text-gradient g-orange">underwater wireless</span></h1>
       </div>
 
       <div class="announcements">

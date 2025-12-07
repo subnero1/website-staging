@@ -3,7 +3,7 @@ layout: post
 title: Unlocking Underwater Connectivity using UnetStack
 banner: images/banner-unetstack4.jpg
 date:  2024-02-06
-categories: unetstack
+categories: unetstack feature
 thumbnail: images/pulse-thumbnail-unetstack4.jpg
 ---
 

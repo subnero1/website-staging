@@ -1,7 +1,9 @@
 ---
-layout: page
-title:  Support
+layout: gen4xPage
+title: We’re Here to Help
 banner : images/banner-support.jpg
+subhead: Technical assistance, documentation, and expert support for all Subnero products.
+headerTag: Support
 ---
 
 ## Documentation

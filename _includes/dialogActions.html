@@ -1,0 +1,50 @@
+<script>
+// Generic functions to open/close modals by ID
+function openModal(modalId) {
+  const modal = document.getElementById(modalId);
+  if (modal) {
+    modal.showModal();
+  }
+}
+
+function closeModal(modalId) {
+  const modal = document.getElementById(modalId);
+  if (modal) {
+    modal.close();
+  }
+}
+
+// Attach event listeners once the DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+  // Handle open buttons (elements with data-open-modal)
+  const openButtons = document.querySelectorAll('[data-open-modal]');
+  openButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const modalId = this.getAttribute('data-open-modal');
+      openModal(modalId);
+    });
+  });
+
+  // Handle close buttons (elements with data-close-modal)
+  const closeButtons = document.querySelectorAll('[data-close-modal]');
+  closeButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const modalId = this.getAttribute('data-close-modal');
+      closeModal(modalId);
+    });
+  });
+
+  // Handle Escape key on each dialog (for closing)
+  const modals = document.querySelectorAll('dialog[id]');
+  modals.forEach(modal => {
+    modal.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeModal(this.id);
+      }
+    });
+  });
+
+  // Optional: Close on backdrop click (native dialog behavior, but enhance if needed)
+  // The native <dialog> already closes on backdrop click, but you can customize here if desired.
+});
+</script>

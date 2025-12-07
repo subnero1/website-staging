@@ -3,7 +3,7 @@ layout: post
 title: Shaping the Future of Subsea Connectivity with Cellular Networks
 banner: images/banner-unetstack.jpg
 date:  2024-11-30
-categories: wnc news
+categories: feature case-study
 thumbnail: images/pulse-thumbnail-network2.jpg
 ---
 

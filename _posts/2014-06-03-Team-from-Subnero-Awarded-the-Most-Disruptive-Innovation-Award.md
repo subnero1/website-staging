@@ -3,7 +3,7 @@ layout: post
 title: Team from Subnero awarded the most disruptive innovation award
 banner : images/banner-pulse-articles1.jpg
 date:  2014-06-03
-categories: wqm
+categories: press
 thumbnail: images/pulse-thumbnail-prize.jpg
 ---
 

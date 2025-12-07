@@ -85,7 +85,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 | Dimensions                             | ⌀ 100 ✕ 132 mm                            |
 | Operating temperature                  | 0 to 70 °C (Electronics), 0 to 40 °C (Transducer)|
 
-\* Upgrades available. [Read more]({{site.baseurl}}/products/modem.html?&section=Accessories).
+\* Upgrades available. [Learn More]({{site.baseurl}}/products/modem.html?&section=Accessories).
 
 
 </div>

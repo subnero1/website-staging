@@ -3,7 +3,7 @@ layout: post
 title: New Explainer Series - Unlocking the Potential of SWIS - ADCP Edition
 banner: images/banner-pulse-swis-explainer.jpg
 date:  2024-10-30
-categories: wnc
+categories: swis
 thumbnail: images/pulse-thumbnail-swis-explainer.jpg
 ---
 

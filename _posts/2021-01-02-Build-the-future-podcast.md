@@ -3,7 +3,7 @@ layout: post
 title: Podcast with Build The Future
 banner : images/banner-pulse-standard.jpg
 date:  2021-01-02
-categories: wnc news
+categories: press
 thumbnail: images/pulse-thumbnail-build-the-future.png
 ---
 

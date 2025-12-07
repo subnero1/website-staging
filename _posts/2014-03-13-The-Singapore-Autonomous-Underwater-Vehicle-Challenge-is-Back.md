@@ -3,7 +3,7 @@ layout: post
 title: The Singapore autonomous underwater vehicle challenge is back
 banner : images/banner-pulse-sauvc2014.jpg
 date:  2014-03-13
-categories: sauvc
+categories: event
 thumbnail: images/pulse-thumbnail-sauvc.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Subnero and Popoto Modem partner to launch the S1000-N
 banner : images/banner-pulse-product-launch.jpg
 date:  2023-04-18
-categories: wnc
+categories: partnership product-launch press
 thumbnail: images/pulse-thumbnail-s1000n.png
 ---
 

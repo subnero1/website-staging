@@ -3,8 +3,8 @@ layout: post
 title: Subnero Wireless Integrated Suite (SWIS) - ADCP edition
 banner: images/banner-SWIS.jpg
 date: 2022-11-15
-categories: swis wnc
-thumbnail: images/boxart-swis.jpg
+categories: swis product-launch press
+thumbnail: images/pulse-thumbnail-swis.jpg
 ---
 
 ![]({{site.baseurl}}/images/swis-cover.jpg){: .center-image  }

@@ -3,9 +3,8 @@ layout: post
 title: A Framework for Residual Energy Model in UnetStack Simulator for Underwater Sensor Networks
 banner : images/banner-unetstack.jpg
 date:  2020-12-16
-categories:
-- media
-thumbnail: images/boxart-unet.jpg
+categories: research unetstack
+thumbnail: images/pulse-thumbnail-unet.jpg
 ---
 ## A paper presented during the 5th International Conference on Computing, Communication and Security (ICCCS), on developing a residual energy model framework using UnetStack
 

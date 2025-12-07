@@ -16,7 +16,6 @@ order: 2
             {% if page.title contains "WNC-L12LSS4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <h2 class="new-tag"> NEW </h2>
                     <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>Standalone Configuration <br>WNC-L12LSS4</h2>
@@ -32,7 +31,6 @@ order: 2
             {% if page.title contains "WNC-L12LSO4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <h2 class="new-tag"> NEW </h2>
                     <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>OEM Configuration <br>WNC-L12LHSO4</h2>
