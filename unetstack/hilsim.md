@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hardware-in-the-Loop (HIL) Underwater Communications Simulator
+title: Virtual Acoustic Ocean | Hardware-in-the-Loop (HIL) Underwater Acoustic Simulator
 banner : images/unetstack-abstract-03.jpg
 thumbnail: images/boxart-unet.png
 categories: unet
@@ -28,7 +28,7 @@ section_id: products
       <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Unetstack" src="{{site.baseurl}}/images/flat-hilsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

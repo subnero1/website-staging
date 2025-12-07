@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UnetCube Modem Platform
+title: UnetCube | OEM Modem Development Platform
 banner : images/unetstack-abstract-04.jpg
 thumbnail: images/boxart-unet.png
 categories: unet
@@ -28,7 +28,7 @@ section_id: products
       <p>This dramatically reduces development time by eliminating the need to rewrite core PHY, MAC, or networking layers, giving you a powerful software-defined foundation.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Network Development Platform & Simulator
+title: UnetSim | Network Development Platform & Simulator
 banner : images/unetstack-abstract-02.jpg
 thumbnail: images/boxart-unet.png
 categories: unet
@@ -11,8 +11,8 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Network Simulator</h4>
-      <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">S</span>im</h1>
-      <p>A fast, flexible simulation environment for developing subsea communication protocols without getting wet.</p>
+      <h1><span class="text-gradient g-orange">U</span>net<span class="text-gradient g-orange">S</span>im</h1>
+      <p>A fast, flexible simulator for developing subsea communication protocols without getting wet.</p>
       <div class="g4x-hero-btns">
         {%- include downloadUnetStack.html btnText="Download Community Edition" -%}
       </div>
@@ -28,7 +28,7 @@ section_id: products
       <p>It lets users design, test and validate underwater communication and networking solutions on a laptop, then deploy them at sea with zero code changes.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/networkv4.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>
