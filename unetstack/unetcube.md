@@ -64,8 +64,8 @@ section_id: products
           <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="m3 12l9 5l9-5M3 16l9 5l9-5M3 8l9-5l9 5l-9 5z"/></svg>
         </div>
         <div>
-          <h5>Unified Workflow</h5>
-          <p>Seamless transition: Simulate -> HIL -> Deploy on UnetCube.</p>
+          <h5>Build your Modem</h5>
+          <p>Seamless transition: Simulate -> HIL -> Your Modem.</p>
         </div>
       </div>
       <div class="docs-card uj">

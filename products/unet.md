@@ -10,7 +10,7 @@ section_id: products
 <section class="page-hero gen4x" style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">The de facto framework for Underwater Networks</h4>
+      <h4 class="g4x-tag">A modern framework for software-defined underwater networks</h4>
       <div class="logo-title">
         <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
         <h1>Unet<span class="text-gradient g-orange">Stack</span></h1>
@@ -70,7 +70,7 @@ section_id: products
   <div class="row large">
     <div class="large-6 columns"> 
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">UnetStack Overview</h2>
-      <p>UnetStack is a suite of technologies that brings modern communication networks underwater. It provides an extensible software framework for building underwater and hybrid communication systems. Its agent-based architecture offers full control across physical, MAC, network, transport and application layers, enabling users to design, test and deploy custom networking solutions with ease.</p>
+      <p>UnetStack is a suite of technologies that brings modern communication networks underwater. At its core is an extensible, agent-based framework for building underwater and hybrid communication systems, providing full control from the physical layer up to applications. Surrounding this core is an ecosystem of simulators, hardware components such as Unet audio and UnetCube, and libraries and APIs in multiple programming languages, supporting the entire workflow from development to deployment.</p>
       <ul class="feature-list ra">
         <li><i class="icon-check"></i> <span class="text-lg">Supports standalone underwater networks & hybrid systems (Acoustic, Optical, RF, Wired).</span></li>
         <li><i class="icon-check"></i> <span class="text-lg">Includes localization, device & sensor management, and edge analytics.</span></li>
@@ -119,7 +119,7 @@ section_id: products
         </div>
         <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">Virtual Acoustic Ocean</h4>
         <p class="text-md m0 text-white">Hardware-in-the-Loop Simulator</p>
-        <p class="cardP">High-fidelity simulation connecting real modems to physics-accurate acoustic models.</p>
+        <p class="cardP">Acoustic simulator that is part of the UnetStack ecosystem, to connect modems to physics-accurate underwater channel models.</p>
         <ul class="custom-list">
           <li><span class="text-green">&#9679;</span> Physics-accurate acoustic models</li>
           <li><span class="text-green">&#9679;</span> Hardware-in-the-loop testing</li>
@@ -141,8 +141,8 @@ section_id: products
           <p class="text-md m0 text-white">OEM Development Platform</p>
           <p class="cardP">Embedded computing platform running UnetStack natively for custom modems.</p>
           <ul class="custom-list">
-            <li><span class="text-violet">&#9679;</span> Embedded SBC Runtime</li>
-            <li><span class="text-violet">&#9679;</span> Custom Analog/DAQ integration</li>
+            <li><span class="text-violet">&#9679;</span> Embedded Single Board Computer (SBC)</li>
+            <li><span class="text-violet">&#9679;</span> Custom analog/DAQ integration</li>
             <li><span class="text-violet">&#9679;</span> Unified simulation workflow</li>
           </ul> 
           <div class="audience">

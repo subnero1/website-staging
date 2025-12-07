@@ -24,7 +24,7 @@ section_id: products
   <div class="row large">
     <div class="large-6 columns"> 
       <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
-      <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator that works seamlessly with UnetStack and interfaces with industry-standard models such as Bellhop, Kraken, Pekris Ray and Watermark.</p>
+      <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator in the UnetStack ecosystem that works seamlessly with UnetStack and interfaces with industry-standard models such as Bellhop, Kraken, and many others.</p>
       <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
     <div class="large-6 columns">
@@ -47,7 +47,7 @@ section_id: products
         </div>
         <div>
           <h5>Realistic Propagation</h5>
-          <p>Uses Bellhop, Kraken, and Watermark benchmark models for physics-accurate testing.</p>
+          <p>Uses Bellhop, Kraken, PekerisRay models for physics-accurate testing.</p>
         </div>
       </div>
       <div class="docs-card fj">
@@ -94,7 +94,7 @@ section_id: products
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-acqua">Hardware-in-the-Loop Setup With Modems and VAO</h3>
-        <p>The illustration shows two acoustic modems connected via Ethernet to a network switch, which links to a laptop running VAO. This setup allows real hardware to interact with simulated acoustic channels modeled by Bellhop, Kraken, or Pekris Ray. Developers can run signal processing, MAC, or networking algorithms as if the devices were deployed underwater, enabling controlled, repeatable testing before field trials.</p>
+        <p>The illustration shows two acoustic modems connected via Ethernet to a network switch, which links to a laptop running VAO. This setup allows real hardware to interact with simulated acoustic channels modeled by Bellhop, Kraken, and many other models. Developers can run signal processing, MAC, or networking algorithms as if the devices were deployed underwater, enabling controlled, repeatable testing before field trials.</p>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@ section_id: products
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
           </div>
         </div>
-        <h3 class="step-title">Measure</h3>
+        <h3 class="step-title">Analyze</h3>
         <p class="step-desc">Analyze performance metrics.</p>
       </div>
     </div>
