@@ -218,35 +218,35 @@ section_id: products
 <section class="g4x-section unet" style="background-color:#e8f3ff">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Components of unetstack</h2>
-      <p class="text-black">UnetStack is built on a powerful foundation that combines the open-source, agent-based messaging fabric fjåge with the Unet framework to enable flexible and scalable underwater communication systems.</p>
+      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Components of the UnetStack Ecosystem</h2>
+      <p class="text-black">The UnetStack ecosystem is built around three core pillars: the UnetStack software framework, the suite of UnetStack agents, and a set of complementary ecosystem components. Together, they provide a complete foundation for developing, simulating, and deploying underwater and hybrid communication networks.</p>
       <div class="component-list">
         <div class="core-component">
           <div class="count cc">01</div>
           <div>
-            <h5>Core Components</h5>
-            <p>The foundation of UnetStack, built on fjåge messaging with Unet framework, core communication, networking, localization and analytics agents.</p>
+            <h5>Messaging Fabric, Framework, and Unet Simulator</h5>
+            <p>UnetStack is built on the fjåge messaging fabric, on top of which sits the Unet framework, which provides the core environment where all UnetStack agents operate. The ecosystem also includes UnetSim, a powerful network simulator supporting both discrete-event and real-time execution.</p>
           </div>
         </div>
         <div class="core-component">
           <div class="count ua">02</div>
           <div>
             <h5>UnetStack Agents</h5>
-            <p>A suite of enhanced agents that deliver advanced underwater communication and networking capabilities.</p>
+            <p>UnetStack offers a range of agents covering physical-layer processing, MAC and routing, localization, multimodal communication drivers, and analytics. These include both basic agents available in all editions and licensed agents designed for enhanced performance or OEM deployments.</p>
           </div>
         </div>
         <div class="core-component">
           <div class="count ac">03</div>
           <div>
-            <h5>Additional Components</h5>
-            <p>Tools and interfaces that extend UnetStack, including the Unet Simulator, HIL support, legacy audio modem features, dashboards, shells and scripting.</p>
+            <h5>Ecosystem Components</h5>
+            <p>Beyond the core framework, the ecosystem includes tools such as Virtual Acoustic Ocean (VAO) for high-fidelity acoustic simulation, Unet audio for sound-card-based modem development, UnetCube for embedded OEM deployments, and a broad set of APIs and libraries available in multiple programming languages.</p>
           </div>
         </div>
       </div>
     </div>
     <div class="large-6 columns">
       <figure class="col-figure">
-        <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-components-03.jpg" />
+        <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-components.jpg" />
       </figure>
     </div>  
   </div>
