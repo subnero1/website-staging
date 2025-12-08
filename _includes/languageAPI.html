@@ -1,7 +1,35 @@
-<div class="api-button">
-  <button id="openApiDetails">View Details &rarr;</button>
-  <!-- <button class="button action-btn g-orange" id="openDownload">{{ include.btnText | default: 'Download Now' }}</button> -->
+<div class="row">
+  <a class="apis" href="javascript:;" id="openApiDetails">
+    <div class="api-header">
+      <div class="api-svg">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4.707 5.293a1 1 0 0 0-1.414 1.414L8.586 12l-5.293 5.293a1 1 0 1 0 1.414 1.414l6-6a1 1 0 0 0 0-1.414zM12 17a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z"/></svg>
+      </div>
+      <div>
+        <h4 class="text-white m0 text-xl text-600 normal-spacing">Language APIs</h4>
+        <p>Native support for multiple languages</p>
+      </div>
+    </div>
+    <div>
+      <ul class="api-languages">
+        <li>Groovy</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Julia</li>
+        <li>C</li>
+      </ul>
+    </div>
+  </a>
 </div>
+
+
+
+
+
+<!-- <div class="api-button">
+  <button id="openApiDetails">View Details &rarr;</button>
+</div> -->
+
 <!-- Modal -->
 <dialog id="apiModal" class="modal-dialog unetstack-info">
   <div class="modal-content">
