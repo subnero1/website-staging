@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Software-defined framework for underwater communication networks
-banner : images/unetstack-abstract-03.jpg
+banner : images/unetstack-abstract-01.jpg
 thumbnail: images/boxart-unet.png
 categories: unet
 section_id: products

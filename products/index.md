@@ -85,7 +85,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   </div>
 </section>
 
-<section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-04.jpg);">
+<section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-01.jpg);">
   <div class="g4x-section-head logo">
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
     <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>

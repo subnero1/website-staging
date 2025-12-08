@@ -32,13 +32,13 @@ section_id: products
     <div class="large-7 columns">
       <div class="unetcube-images">
         <div>
-          <img alt="Unetstack" src="{{site.baseurl}}/images/usecase-unetcube1.jpg" />
+          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube1.jpg" />
         </div>
         <div>
-          <img alt="Unetstack" src="{{site.baseurl}}/images/usecase-unetcube2.jpg" />
+          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube2.jpg" />
         </div>
         <div class="cols-full">
-          <img alt="Unetstack" src="{{site.baseurl}}/images/usecase-unetcube3.jpg" />
+          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube3.jpg" />
         </div>
       </div>
     </div>  
