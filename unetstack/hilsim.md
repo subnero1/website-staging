@@ -14,7 +14,7 @@ section_id: products
       <h1><span class="text-gradient g-acqua">V</span>irtual <span class="text-gradient g-acqua">A</span>coustic <span class="text-gradient g-acqua">O</span>cean</h1>
       <p>A high-fidelity underwater acoustic channel model simulator for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
-        <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-orange">View on GitHub</a>
+        <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-acqua no-border">View on GitHub</a>
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@ section_id: products
 <section class="g4x-section">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
+      <h3 class="text-gradient g-acqua text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
       <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator in the UnetStack ecosystem that works seamlessly with UnetStack and interfaces with industry-standard models such as Bellhop, Kraken, and many others.</p>
       <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
@@ -47,7 +47,7 @@ section_id: products
         </div>
         <div>
           <h5>Realistic Propagation</h5>
-          <p>Uses Bellhop, Kraken, PekerisRay models for physics-accurate testing.</p>
+          <p>Uses Bellhop, Kraken, PekerisRay and many other models for physics-accurate testing.</p>
         </div>
       </div>
       <div class="docs-card fj">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Products - Subnero
+title: Explore Smart Modems, SWIS Offerings, and UnetStack for Reliable Underwater Connectivity
 banner : images/hero-products.jpg
 excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwater wireless communication and networking.
 ---
@@ -69,7 +69,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <h5 class="g4x-tag">Product Series</h5>
     <h2 class="sec-head text-gradient g-orange">Wireless Networked Communications</h2>
     <p class="sec-subhead">Subnero’s Wireless Networked Communications (WNC) product series consists of acoustic smart modems and the UnetStack software ecosystem, supporting a wide range of subsea communication needs.</p>
-    <a href="{{site.baseurl}}/products/wnc.html" class="button g-orange-btn read-btn">Learn more about WNC &rarr;</a>
+    <a href="{{site.baseurl}}/products/wnc.html" class="button g-orange-btn mt1 rounded-sm anim">Learn more about WNC &rarr;</a>
   </div>
 </section>
 
@@ -85,12 +85,12 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
   </div>
 </section>
 
-<section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-04.jpg);">
+<section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-01.jpg);">
   <div class="g4x-section-head logo">
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
     <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
-  <div class="row unet-product">
+  <div class="row large unet-product">
     <div class="columns large-6">
       <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
       <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>

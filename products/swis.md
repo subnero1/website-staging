@@ -88,7 +88,7 @@ excerpt: A modular underwater operations platform that integrates communication,
           <li>Seamless User Experience</li>
           <li>Cost Efficiency</li>
         </ul>
-        <p><a class="button g-orange-btn read-btn" href="{{site.baseurl}}/solutions/swis">Learn more about SWIS - ADCP Edition &#8594;</a></p>
+        <p><a class="button g-orange-btn mt1 rounded-sm anim" href="{{site.baseurl}}/solutions/swis">Learn more about SWIS - ADCP Edition &#8594;</a></p>
       </div>
     </div>
   </div>

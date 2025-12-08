@@ -11,9 +11,9 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Network Simulator</h4>
-      <h1><span class="text-gradient g-orange">U</span>net<span class="text-gradient g-orange">S</span>im</h1>
+      <h1><span class="text-gradient g-blue">U</span>net<span class="text-gradient g-blue">S</span>im</h1>
       <p>A fast, flexible simulator for developing subsea communication protocols without getting wet.</p>
-      <div class="g4x-hero-btns">
+      <div class="g4x-hero-btns usim">
         {%- include downloadUnetStack.html btnText="Download Community Edition" -%}
       </div>
     </div>
@@ -23,7 +23,7 @@ section_id: products
 <section class="g4x-section">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Design Your Underwater Network</h3>
+      <h3 class="text-gradient g-blue text-3xl capitalize-none normal-spacing text-600">Design Your Underwater Network</h3>
       <p>The Unet Simulator runs the same software stack used on our modems, providing full control across physical, MAC, network, transport and application layers.</p>
       <p>It lets users design, test and validate underwater communication and networking solutions on a laptop, then deploy them at sea with zero code changes.</p>
     </div>
@@ -36,7 +36,7 @@ section_id: products
 <!-- key capabilities -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Key Capabilities</h2>
+    <h2 class="sec-head lg text-gradient g-blue normal-spacing">Key Capabilities</h2>
     <p class="sec-subhead">Everything you need to validate your protocols before hitting the water.</p>
   </div>
   <div class="row py2">
@@ -84,7 +84,7 @@ section_id: products
 <!-- Use Cases -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange">Use Cases</h2>
+    <h2 class="sec-head lg text-gradient g-blue">Use Cases</h2>
     <p class="sec-subhead">UnetSim allows you to rapidly design and validate networking and MAC-layer protocols in a fully controlled virtual environment.</p>
   </div>
   <div class="row usecase-wrap">
@@ -93,7 +93,7 @@ section_id: products
         <img src="{{site.baseurl}}/images/usecase-unetsim.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-orange">Simulating Network Behavior Using UnetSim</h3>
+        <h3 class="text-gradient g-blue">Simulating Network Behavior Using UnetSim</h3>
         <p>UnetSim lets you run both discrete-event and real-time simulations to model multiple subsea nodes—static or mobile—so you can design, develop, and evaluate your network protocols before moving to hardware testing.</p>
       </div>
     </div>
@@ -103,7 +103,7 @@ section_id: products
 <!-- Streamlined Workflow -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Streamlined Workflow</h2>
+    <h2 class="sec-head lg text-gradient g-blue normal-spacing">Streamlined Workflow</h2>
     <p class="sec-subhead">From idea to ocean in three steps.</p>
   </div>
   <div class="row py2">
@@ -145,11 +145,11 @@ section_id: products
 <!-- Relevant Resources -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Relevant Resources</h2>
+    <h2 class="sec-head lg text-gradient g-blue normal-spacing">Relevant Resources</h2>
   </div>
   <div class="row py2">
     <div class="feature-grid col2 releveant-resources">
-      <a href="https://unetstack.net/handbook/unet-handbook_part_vi_simulating_underwater_networks.html" class="docs-card uj" target="_blank">
+      <a href="https://unetstack.net/handbook/unet-handbook_part_vi_simulating_underwater_networks.html" class="docs-card uh" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2H1v19h1c2.944 0 5.14.245 6.586.486c.723.12 1.26.24 1.609.328c.174.046.331.091.472.13l.152.051h2.324l.152-.05l.088-.026c.122-.037.384-.103.989-.231c.723-.12 1.26-.24 1.609-.328C16.86 21.246 19.054 21 22 21h1V2h-8a4 4 0 0 0-3 1.354A4 4 0 0 0 9 2zM3 19.01V4h6a2 2 0 0 1 2 2v13.958c-.4-.1-.989-.23-1.766-.36c-1.379-.23-3.35-.457-5.914-.505zM19 10h-4V8h4zm0 3h-4v-2h4z"/></svg>
         </div>
@@ -159,7 +159,7 @@ section_id: products
           <p>Describes how to simulate underwater networks, including discrete-event or real-time simulations, configurable modem and channel models, and scalable networks with many nodes — using UnetSim.</p>
         </div>
       </a>
-      <a href="https://blog.unetstack.net/motion-models" class="docs-card uj" target="_blank">
+      <a href="https://blog.unetstack.net/motion-models" class="docs-card uh" target="_blank">
         <div class="card-svg">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
         </div>

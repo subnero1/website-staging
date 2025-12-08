@@ -11,9 +11,9 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">OEM Development Platform</h4>
-      <h1><span class="text-gradient g-pruple">U</span>net<span class="text-gradient g-pruple">C</span>ube</h1>
+      <h1><span class="text-gradient g-violet">U</span>net<span class="text-gradient g-violet">C</span>ube</h1>
       <p>An embedded platform for building your own underwater modems and hybrid communication nodes.</p>
-      <div class="g4x-hero-btns">
+      <div class="g4x-hero-btns ucube">
         {%- include formRequestQuote.html -%}
       </div>
     </div>
@@ -22,13 +22,25 @@ section_id: products
 
 <section class="g4x-section">
   <div class="row large">
-    <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Build Your Own Underwater Modem</h3>
+    <div class="columns full-header">
+      <h3 class="text-gradient g-violet text-3xl capitalize-none normal-spacing text-600">Build Your Own Underwater Modem</h3>
+    </div>
+    <div class="large-5 columns"> 
       <p>UnetCube is a compact embedded computing platform running UnetStack OEM Edition natively on a single board computer. It allows developers to connect their own analog electronics while relying on UnetStack for signal processing and communication protocols.</p>
       <p>This dramatically reduces development time by eliminating the need to rewrite core PHY, MAC, or networking layers, giving you a powerful software-defined foundation.</p>
     </div>
-    <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+    <div class="large-7 columns">
+      <div class="unetcube-images">
+        <div>
+          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube1.jpg" />
+        </div>
+        <div>
+          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube2.jpg" />
+        </div>
+        <div class="cols-full">
+          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube3.jpg" />
+        </div>
+      </div>
     </div>  
   </div>
 </section>
@@ -36,7 +48,7 @@ section_id: products
 <!-- key capabilities -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-pruple normal-spacing">Key Capabilities</h2>
+    <h2 class="sec-head lg text-gradient g-violet normal-spacing">Key Capabilities</h2>
     <p class="sec-subhead">Focus on your hardware differentiation, let UnetCube handle the stack.</p>
   </div>
   <div class="row py2">
@@ -84,7 +96,7 @@ section_id: products
 <!-- Use Cases -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-pruple">Use Cases</h2>
+    <h2 class="sec-head lg text-gradient g-violet">Use Cases</h2>
     <p class="sec-subhead">UnetCube provides a flexible embedded platform for desktop HIL simulations, building custom modems, or as a network controller for your subsea network.</p>
   </div>
   <div class="unetcube-usecase">
@@ -93,7 +105,7 @@ section_id: products
         <img src="{{site.baseurl}}/images/usecase-unetcube1.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-pruple">UnetCube for HIL Simulation</h3>
+        <h3 class="text-gradient g-violet">UnetCube for HIL Simulation</h3>
         <p>Use UnetCube to run hardware-in-the-loop simulations before procuring modems, reducing upfront costs while allowing you to scale effortlessly by transferring the same codebase to actual modems for sea deployment. Developers can run signal processing, MAC, or networking algorithms as if the devices were operating underwater, enabling controlled and repeatable testing long before field trials.</p>
       </div>
     </div>
@@ -102,7 +114,7 @@ section_id: products
         <img src="{{site.baseurl}}/images/usecase-unetcube2.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-pruple">Build Your Own Modem</h3>
+        <h3 class="text-gradient g-violet">Build Your Own Modem</h3>
         <p>UnetCube lets you rely on UnetStack to handle signal processing, networking protocols, and other software functions, allowing you to focus fully on designing the hardware portions of your modem for any supported frequency band. Its open-source interface protocol enables you to build your own modem with minimal third-party support—and even replace parts of the stack—thanks to UnetStack’s open, extensible architecture.</p>
       </div>
     </div>
@@ -111,7 +123,7 @@ section_id: products
         <img src="{{site.baseurl}}/images/usecase-unetcube3.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-pruple">UnetCube as a Network Controller</h3>
+        <h3 class="text-gradient g-violet">UnetCube as a Network Controller</h3>
         <p>UnetCube can act as a network controller for mixed fleets of legacy or Subnero modems, enabling you to build and execute custom network protocols to control subsea assets. Similar to a core router in terrestrial networks, it provides a flexible platform for orchestrating communication across distributed underwater systems.</p>
       </div>
     </div>
@@ -121,7 +133,7 @@ section_id: products
 <!-- Development Workflow -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-pruple normal-spacing">Development Workflow</h2>
+    <h2 class="sec-head lg text-gradient g-violet normal-spacing">Development Workflow</h2>
     <p class="sec-subhead">Accelerate your time to market.</p>
   </div>
   <div class="row py2">
@@ -163,7 +175,7 @@ section_id: products
 <!-- Relevant Resources -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-pruple normal-spacing">Relevant Resources</h2>
+    <h2 class="sec-head lg text-gradient g-violet normal-spacing">Relevant Resources</h2>
   </div>
   <div class="row py2">
     <div class="feature-grid col2 releveant-resources">

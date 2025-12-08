@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Software-defined framework for underwater communication networks
-banner : images/unetstack-abstract-03.jpg
+banner : images/unetstack-abstract-01.jpg
 thumbnail: images/boxart-unet.png
 categories: unet
 section_id: products
@@ -97,8 +97,8 @@ section_id: products
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"></path><path d="M12 17v4"></path><path d="M8 21h8"></path><rect x="2" y="3" width="20" height="14" rx="2"></rect></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetSim</h4>
-        <p class="text-md m0 text-white">Network Simulator</p>
+        <h4 class="text-gradient g-blue-text m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetSim</h4>
+        <p class="text-md text-white m0">Network Simulator</p>
         <p class="cardP">Fast, flexible simulator for developing, simulating, testing and refining subsea protocols.</p>
         <ul class="custom-list">
           <li><span class="text-blue">&#9679;</span> Real-time & Discrete-event modes</li>
@@ -107,37 +107,43 @@ section_id: products
         </ul> 
         <div class="audience">
           <h6>Ideal for</h6>
-          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> Education</p>
-          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> Protocol Development</p>
-          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> System Integration</p>
+          <ul class="custom-list">
+            <li><span class="text-blue">&#9679;</span> Education</li>
+            <li><span class="text-blue">&#9679;</span> Protocol Development</li>
+            <li><span class="text-blue">&#9679;</span> System Integration</li>
+          </ul> 
         </div>
-        <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a>
+        <a class="button g-blue mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a>
+        <!-- <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a> -->
       </div>
-      <div class="unet-card hil text-green">
+      <div class="unet-card hil text-acqua">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 12c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1M2 18c.6.5 1.2 1 2.5 1c2.5 0 2.5-2 5-2c2.6 0 2.4 2 5 2c2.5 0 2.5-2 5-2c1.3 0 1.9.5 2.5 1"/></svg>
         </div>
-        <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">Virtual Acoustic Ocean</h4>
+        <h4 class="text-gradient g-acqua m0 capitalize-none text-xl normal-spacing text-600 mt1">Virtual Acoustic Ocean</h4>
         <p class="text-md m0 text-white">Hardware-in-the-Loop Simulator</p>
         <p class="cardP">Acoustic simulator that is part of the UnetStack ecosystem, to connect modems to physics-accurate underwater channel models.</p>
         <ul class="custom-list">
-          <li><span class="text-green">&#9679;</span> Physics-accurate acoustic models</li>
-          <li><span class="text-green">&#9679;</span> Hardware-in-the-loop testing</li>
-          <li><span class="text-green">&#9679;</span> Open-source interface</li>
+          <li><span class="text-acqua">&#9679;</span> Physics-accurate acoustic models</li>
+          <li><span class="text-acqua">&#9679;</span> Hardware-in-the-loop testing</li>
+          <li><span class="text-acqua">&#9679;</span> Open-source interface</li>
         </ul> 
         <div class="audience">
           <h6>Ideal for</h6>
-          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> System Integration</p>
-          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> HIL Simulation</p>
-          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> Physical Layer Development</p>
+          <ul class="custom-list">
+            <li><span class="text-acqua">&#9679;</span> System Integration</li>
+            <li><span class="text-acqua">&#9679;</span> HIL Simulation</li>
+            <li><span class="text-acqua">&#9679;</span> Physical Layer Development</li>
+          </ul> 
         </div>
-        <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a>
+        <a class="button g-acqua mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a>
+        <!-- <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a> -->
       </div>
         <div class="unet-card oem text-violet">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M9 9h6v6H9zm-6 1h2m-2 4h2m5-11v2m4-2v2m7 5h-2m2 4h-2m-5 7v-2m-4 2v-2"/></g></svg>
           </div>
-          <h4 class="text-orange m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetCube</h4>
+          <h4 class="text-gradient g-violet m0 capitalize-none text-xl normal-spacing text-600 mt1">UnetCube</h4>
           <p class="text-md m0 text-white">OEM Development Platform</p>
           <p class="cardP">Embedded computing platform running UnetStack natively for custom modems.</p>
           <ul class="custom-list">
@@ -147,11 +153,14 @@ section_id: products
           </ul> 
           <div class="audience">
             <h6>Ideal for</h6>
-            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Desktop HIL simulation</p>
-            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Customized modem development</p>
-            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Subsea Network Controller</p>
+            <ul class="custom-list">
+              <li><span class="text-violet">&#9679;</span> Desktop HIL simulation</li>
+              <li><span class="text-violet">&#9679;</span> Customized modem development</li>
+              <li><span class="text-violet">&#9679;</span> Subsea Network Controller</li>
+            </ul>
           </div>
-          <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a>
+          <a class="button g-violet mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a>
+          <!-- <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a> -->
         </div>
     </div>
   </div>
@@ -217,8 +226,10 @@ section_id: products
 <!-- Components of unetstack -->
 <section class="g4x-section unet" style="background-color:#e8f3ff">
   <div class="row large">
+    <div class="columns full-header">
+      <h3 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Components of the UnetStack Ecosystem</h3>
+    </div>
     <div class="large-6 columns"> 
-      <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Components of the UnetStack Ecosystem</h2>
       <p class="text-black">The UnetStack ecosystem is built around three core pillars: the UnetStack software framework, the suite of UnetStack agents, and a set of complementary ecosystem components. Together, they provide a complete foundation for developing, simulating, and deploying underwater and hybrid communication networks.</p>
       <div class="component-list">
         <div class="core-component">
@@ -311,29 +322,7 @@ section_id: products
 
 <!-- Language APIs -->
 <section class="sec-apis">
-  <div class="row">
-    <div class="apis" >
-      <div class="api-header">
-        <div class="api-svg">
-          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4.707 5.293a1 1 0 0 0-1.414 1.414L8.586 12l-5.293 5.293a1 1 0 1 0 1.414 1.414l6-6a1 1 0 0 0 0-1.414zM12 17a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z"/></svg>
-        </div>
-        <div>
-          <h4 class="text-white m0 text-xl text-600 normal-spacing">Language APIs</h4>
-          <p>Native support for multiple languages</p>
-        </div>
-      </div>
-      <div>
-        <ul class="api-languages">
-          <li>Groovy</li>
-          <li>Java</li>
-          <li>Python</li>
-          <li>JavaScript</li>
-          <li>Julia</li>
-          <li>C</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  {%- include languageAPI.html -%}
 </section>
 
 <!-- Technical Resources -->

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ST Engineering
+title: A Connected Ocean – Underwater Cellular Network Demonstrates the Future of Subsea Communications
 sub_title: A Connected Ocean – Underwater Cellular Network Demonstrates the Future of Subsea Communications
 excerpt: Underwater networks can now span multiple cells like their terrestrial counterparts, forming a seamless communication and monitoring fabric beneath the surface. This case study shows how the Singapore testbed proved this concept and laid the groundwork for future multi-user underwater networks.
 preview_image: /images/story-st.jpg

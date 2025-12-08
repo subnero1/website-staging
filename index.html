@@ -27,14 +27,22 @@ section_id: home
       <div class="overlay"></div>
       <div class="layer">
         <h1 class="thin" id="to-be-update">The future of <br> <span class="text-gradient g-orange">underwater wireless</span></h1>
+        <p>Powering reliable subsea communication and monitoring through smart modems, the UnetStack software ecosystem, and the SWIS product series.</p>
+        <div class="g4x-hero-btns">
+          <a href="{{site.baseurl}}/products/#smart-modems" class="button g-orange-btn">Smart Modems</a>
+          <a href="{{site.baseurl}}/products/#unetstack" class="button g-orange-btn">UnetStack</a>
+          <a href="{{site.baseurl}}/products/swis#adcp-edition" class="button g-orange-btn">SWIS - ADCP Edition</a>
+        </div>
       </div>
 
       <div class="announcements">
-        <h3 class="thin">What's new? </h3>
-        <div class="latest-news">
-          {% for post in site.posts limit:3 %}
-            <a href="{{site.url}}{{post.url}}">{{ post.title }}</a>
-          {% endfor %}
+        <div class="announcements-content">
+          <h3 class="thin">What's new? </h3>
+          <div class="latest-news">
+            {% for post in site.posts limit:3 %}
+              <a href="{{site.url}}{{post.url}}">{{ post.title }}</a>
+            {% endfor %}
+          </div>
         </div>
       </div>
       <script>

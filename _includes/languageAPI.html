@@ -1,0 +1,151 @@
+<div class="row">
+  <a class="apis" href="javascript:;" id="openApiDetails">
+    <div class="api-header">
+      <div class="api-svg">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4.707 5.293a1 1 0 0 0-1.414 1.414L8.586 12l-5.293 5.293a1 1 0 1 0 1.414 1.414l6-6a1 1 0 0 0 0-1.414zM12 17a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z"/></svg>
+      </div>
+      <div>
+        <h4 class="text-white m0 text-xl text-600 normal-spacing">Language APIs</h4>
+        <p>Native support for multiple languages</p>
+      </div>
+    </div>
+    <div>
+      <ul class="api-languages">
+        <li>Groovy</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Julia</li>
+        <li>C</li>
+      </ul>
+    </div>
+  </a>
+</div>
+
+
+
+
+
+<!-- <div class="api-button">
+  <button id="openApiDetails">View Details &rarr;</button>
+</div> -->
+
+<!-- Modal -->
+<dialog id="apiModal" class="modal-dialog unetstack-info">
+  <div class="modal-content">
+    <header><button class="modal-close" type="button" id="closeApiModal" title="close">&times;</button></header>
+    <div class="main">
+      <h2>Language API</h2>
+      <div class="language-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Language</th>
+              <th>Support for</th>
+              <th>Status</th>
+              <th>Download</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Java</td>
+              <td>
+                <a href="https://unetstack.net/handbook/unet-handbook_unetsocket_api.html" target="_blank">UnetSocket</a>, 
+                <a href="https://unetstack.net/javadoc/3.4/org/arl/unet/api/UnetSocket.html" target="_blank">API docs</a>, 
+                <a href="https://unetstack.net/handbook/unet-handbook_developing_your_own_agents.html" target="_blank">Agent development</a>
+              </td>
+              <td>Stable</td>
+              <td><a href="{{site.baseurl}}/products/unet/#editions">Download</a></td>
+            </tr>
+            <tr>
+              <td>Groovy</td>
+              <td>
+                <a href="https://unetstack.net/handbook/unet-handbook_unetsocket_api.html" target="_blank">UnetSocket</a>, 
+                <a href="https://unetstack.net/javadoc/3.4/org/arl/unet/api/UnetSocket.html" target="_blank">API docs</a>, 
+                <a href="https://unetstack.net/handbook/unet-handbook_developing_your_own_agents.html" target="_blank">Agent development</a>
+              </td>
+              <td>Stable</td>
+              <td><a href="{{site.baseurl}}/products/unet/#editions">Download</a></td>
+            </tr>
+            <tr>
+              <td>Python 3</td>
+              <td><a href="https://unetstack.net/handbook/unet-handbook_unetsocket_api.html" target="_blank">UnetSocket</a></td>
+              <td>Stable</td>
+              <td><a href="https://pypi.org/project/unetpy/" target="_blank">unetpy</a></td>
+            </tr>
+            <tr>
+              <td>Javascript</td>
+              <td>
+                <a href="https://github.com/org-arl/unetsockets/tree/master/js" target="_blank">UnetSocket</a>, 
+                <a href="https://fjage.readthedocs.io/en/latest/jsgw.html" target="_blank">Gateway</a>
+              </td>
+              <td>Stable</td>
+              <td>
+                <a href="https://github.com/org-arl/unetsockets/tree/master/js" target="_blank">unetsocket.js</a>, 
+                <a href="https://fjage.readthedocs.io/en/latest/jsgw.html" target="_blank">fjage.js</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Julia</td>
+              <td>
+                <a href="https://github.com/org-arl/UnetSockets.jl" target="_blank">UnetSocket</a>, 
+                <a href="https://github.com/org-arl/Fjage.jl" target="_blank">Gateway</a>
+              </td>
+              <td>Stable</td>
+              <td>
+                <a href="https://github.com/org-arl/UnetSockets.jl" target="_blank">UnetSockets.jl</a>, 
+                <a href="https://github.com/org-arl/Fjage.jl" target="_blank">Fjage.jl</a>
+              </td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>
+                <a href="https://github.com/org-arl/unetsockets/tree/master/c" target="_blank">UnetSocket</a>, 
+                <a href="https://fjage.readthedocs.io/en/latest/cgw.html" target="_blank">Gateway</a>
+              </td>
+              <td>Stable</td>
+              <td>
+                <a href="https://github.com/org-arl/unetsockets/tree/master/c" target="_blank">unet.c</a>, 
+                <a href="https://fjage.readthedocs.io/en/latest/cgw.html" target="_blank">fjage.c</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const apiModal = document.getElementById('apiModal');
+const openApiDetails = document.getElementById('openApiDetails');
+const closeApiModal = document.getElementById('closeApiModal');
+
+function closeModal(modal) {
+  if (!modal) return;
+  try {
+    if (modal.open) modal.close();
+    else modal.close && modal.close(); // fallback
+  } catch (e) {
+    // ignore if dialog API not available
+  }
+}
+
+if (openApiDetails) {
+  openApiDetails.addEventListener('click', () => {
+    if (apiModal && apiModal.showModal) {
+      apiModal.showModal();
+    }
+  });
+}
+
+if (closeApiModal) {
+  closeApiModal.addEventListener('click', () => closeModal(apiModal));
+}
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && apiModal && apiModal.open) {
+    closeModal(apiModal);
+  }
+});
+</script>
