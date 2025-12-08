@@ -90,7 +90,7 @@ excerpt: Subnero's underwater acoustic smart modems with UnetStack for underwate
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
     <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
-  <div class="row unet-product">
+  <div class="row large unet-product">
     <div class="columns large-6">
       <h2 class="col-title">Powering <br />Underwater Connectivity</h2>
       <p class="col-p">UnetStack is a suite of technologies that brings modern communication networks underwater, offering a programmable network stack, full simulation environment, and seamless integration with Subnero’s smart modems.</p>
