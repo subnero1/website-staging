@@ -1970,9 +1970,10 @@ body {
 }
 
 .fullscreen .overlay {
-  background-image: -webkit-linear-gradient(#000 0%, #000 60%, #000);
-  background-image: linear-gradient(#000 0%, #000 60%, #000);
-  opacity:0.5;
+  /* background-image: -webkit-linear-gradient(#000 0%, #000 60%, #000);
+  background-image: linear-gradient(#000 0%, #000 60%, #000); */
+  background: linear-gradient(to right, rgba(36, 25, 9, 0.8), rgba(255, 255, 255, 0.3));
+  /* opacity:0.5; */
   position:relative;
   z-index:0;
   width:100%;
@@ -1984,14 +1985,14 @@ body {
 .fullscreen .layer {
   position:absolute;
   z-index:4;
-  width:94%;
+  width:100%;
   max-width: 1280px;
   left:0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 p.small-title {
@@ -2009,18 +2010,25 @@ p.small-title {
   font-size: 72px;
   font-weight: 800;
   letter-spacing: 0;
-  line-height:1.1em;
+  line-height: 1.04;
   text-transform:none;
 }
 
-.fullscreen .layer h1::after {
+.fullscreen .layer p {
+  max-width: 960px;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* .fullscreen .layer h1::after {
   content:"";
   width:40px;
   height:4px;
   background:#E6782F;
   display:block;
   margin:20px 0 0;
-}
+} */
 
 .fullscreen .layer h1 strong {
   color:#E6782F;
@@ -2101,7 +2109,7 @@ p.small-title {
   left: 0;
   visibility: hidden;
   opacity: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   transition: all 0.6s;
 }
 .latest-news a:hover {
@@ -2116,14 +2124,21 @@ p.small-title {
 .fullscreen .announcements {
   position: absolute;
   bottom: 0;
-  height: 80px;
-  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.announcements .announcements-content {
+  width: 100%;
+  max-width: 1280px;
+  /* height: 100px; */
   display: flex;
   align-items: center;
   column-gap: 14px;
-  left: 0;
-  right: 0;
-  padding: 10px 5.4%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .fullscreen .announcements h1 {
@@ -2136,8 +2151,9 @@ p.small-title {
 
 .fullscreen .announcements h3 {
   color:#bbbbbb;
-  font-size:20px;
+  font-size: 1.4rem;
   text-transform:none;
+  letter-spacing: normal;
   margin: 0;
   flex: none;
 }
@@ -6954,8 +6970,8 @@ a.usecase-card:hover {
     color:#222;
   }
   .fullscreen .announcements {
-    flex-direction: column;
-    align-items: flex-start;
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
     height: 100px;
   }
   .latest-news a {
