@@ -340,9 +340,11 @@ section_id: products
           <li>Julia</li>
           <li>C</li>
         </ul>
+        {%- include languageAPI.html -%}
       </div>
     </div>
   </div>
+
 </section>
 
 <!-- Technical Resources -->

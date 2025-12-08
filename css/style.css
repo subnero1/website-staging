@@ -4724,7 +4724,7 @@ button.newsletter:hover{
 .modal-dialog header {
   flex: none;
   height: 14px;
-  position: relative;
+  /* position: relative; */
 }
 .modal-dialog .main {
   flex: 1;
@@ -4742,50 +4742,50 @@ button.newsletter:hover{
   padding: 0;
   margin: 0;
   position: absolute;
-  top: -10px;
-  right: -3px;
+  top: 6px;
+  right: 20px;
   z-index: 1;
 }
 .modal-dialog .modal-close:hover {
   color: #FC8230;
 }
-.modal-dialog.unetstack-download {
+.modal-dialog.unetstack-info {
   max-width: 840px;
   padding: 20px 4rem;
 }
-.modal-dialog.unetstack-download p, 
-.modal-dialog.unetstack-download li {
+.modal-dialog.unetstack-info p, 
+.modal-dialog.unetstack-info li {
   color: #000;
 }
-.unetstack-download small {
+.unetstack-info small {
   display: block;
   margin-bottom: 1rem;
   font-size: 1rem;
 }
-.unetstack-download p {
+.unetstack-info p {
   font-size: 1.1rem;
   margin-bottom: 12px;
   line-height: 1.5;
 }
-.unetstack-download li {
+.unetstack-info li {
   font-size: 1.1rem;
 }
-.unetstack-download .pre-req {
+.unetstack-info .pre-req {
   padding: 1rem 0 2rem;
 }
-.unetstack-download .pre-req h4 {
+.unetstack-info .pre-req h4 {
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: normal;
   text-transform: none;
 }
-.unetstack-download .pre-req p {
+.unetstack-info .pre-req p {
   margin: 0;
 }
-.unetstack-download .copyright {
+.unetstack-info .copyright {
   padding: 1rem 0;
 }
-.unetstack-download .footer {
+.unetstack-info .footer {
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -6273,7 +6273,34 @@ a.usecase-card:hover {
   height: 30px;
   color: #cd916e;
 }
+.language-table table{
+  width: 100%;
 
+}
+.language-table th{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+.language-table td{
+  font-size: 1.1rem;
+  color: #000;
+  padding: 14px 8px;
+}
+.api-button {
+  padding: 14px 0 0;
+  text-align: right;
+}
+.api-button button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #FC8230;
+}
+.api-button button:hover {
+  color: #FFAC74;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
@@ -6878,7 +6905,7 @@ a.usecase-card:hover {
   .hero-links {
     display: none;
   }
-  .modal-dialog.unetstack-download {
+  .modal-dialog.unetstack-info {
     padding: 20px;
   }
   .unetcube-usecase {
