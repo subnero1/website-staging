@@ -6054,7 +6054,7 @@ a.usecase-card:hover {
 }
 .sec-apis {
   background-color: #e8f3ff;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 .sec-apis .row {
   background-color: #0E1729;
@@ -6088,6 +6088,7 @@ a.usecase-card:hover {
   padding: 0;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .api-languages li {
@@ -6910,6 +6911,16 @@ a.usecase-card:hover {
   }
   .unetcube-usecase {
     grid-template-columns: 1fr;
+  }
+  .apis { 
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .api-button {
+    text-align: center;
+  }
+  .api-languages {
+    justify-content: center;
   }
 }
 
