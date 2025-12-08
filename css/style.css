@@ -2006,6 +2006,7 @@ p.small-title {
 }
 
 .fullscreen .layer h1 {
+  position: relative;
   color:#fff;
   font-size: 72px;
   font-weight: 800;
@@ -2021,14 +2022,14 @@ p.small-title {
   line-height: 1.4;
 }
 
-/* .fullscreen .layer h1::after {
+.fullscreen .layer h1::after {
   content:"";
   width:40px;
   height:4px;
   background:#E6782F;
   display:block;
   margin:20px 0 0;
-} */
+}
 
 .fullscreen .layer h1 strong {
   color:#E6782F;
@@ -2100,12 +2101,12 @@ p.small-title {
 }
 .latest-news {
   width: 100%;
-  height: 100%;
+  height: 50%;
   position: relative;
 }
 .latest-news a {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   visibility: hidden;
   opacity: 0;
@@ -2121,7 +2122,8 @@ p.small-title {
   top: 50%;
   transform: translateY(-50%);
 }
-.fullscreen .announcements {
+.announcements {
+  height: 80px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2130,10 +2132,10 @@ p.small-title {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.announcements .announcements-content {
+.announcements-content {
   width: 100%;
+  height: 100%;
   max-width: 1280px;
-  /* height: 100px; */
   display: flex;
   align-items: center;
   column-gap: 14px;
@@ -2141,7 +2143,7 @@ p.small-title {
   padding: 0 1rem;
 }
 
-.fullscreen .announcements h1 {
+.announcements h1 {
   color:#fff;
   font-size:5em;
   font-weight:500;
@@ -2149,7 +2151,7 @@ p.small-title {
   line-height:1.1em;
 }
 
-.fullscreen .announcements h3 {
+.announcements h3 {
   color:#bbbbbb;
   font-size: 1.4rem;
   text-transform:none;
@@ -6016,7 +6018,7 @@ a.usecase-card:hover {
 }
 .col-figure {
   border-radius: 12px;
-  margin-top: 3rem;
+  margin: 0 1rem;
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -6363,7 +6365,7 @@ a.usecase-card:hover {
     min-height: 50vh;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:5em;
   }
 
@@ -6477,7 +6479,7 @@ a.usecase-card:hover {
     min-height: 50vh;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:4em;
   }
 
@@ -6573,7 +6575,7 @@ a.usecase-card:hover {
     min-height: 60vh;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:3em;
   }
 
@@ -6669,7 +6671,7 @@ a.usecase-card:hover {
     flex-direction: column;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:3em;
   }
 
@@ -6771,7 +6773,7 @@ a.usecase-card:hover {
     font-size: 1.2em;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:3em;
   }
 
@@ -6862,7 +6864,7 @@ a.usecase-card:hover {
     font-size:1.2rem;
     color:#222;
   }
-  .fullscreen .announcements h3 {
+  .announcements h3 {
     font-size: 16px;
   }
   .latest-news a {
@@ -6969,10 +6971,14 @@ a.usecase-card:hover {
     font-size:1rem;
     color:#222;
   }
-  .fullscreen .announcements {
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
+  .announcements  {
+    /* flex-direction: column;
+    align-items: flex-start; */
     height: 100px;
+  }
+  .announcements-content {
+    flex-direction: column;
+    justify-content: center;
   }
   .latest-news a {
     top: 0;
@@ -7238,7 +7244,7 @@ a.usecase-card:hover {
     flex-direction: column;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:2em;
   }
 
@@ -7444,7 +7450,7 @@ a.usecase-card:hover {
     flex-direction: column;
   }
 
-  .fullscreen .announcements h1 {
+  .announcements h1 {
     font-size:2em;
   }
 

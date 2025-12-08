@@ -11,7 +11,7 @@ section_id: products
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Hardware-in-the-Loop Simulator</h4>
-      <h1><span class="text-gradient g-acqua">V</span>irtual <span class="text-gradient g-acqua">A</span>coustic <span class="text-gradient g-acqua">O</span>cean</h1>
+      <h1><span class="text-gradient g-green">V</span>irtual <span class="text-gradient g-green">A</span>coustic <span class="text-gradient g-green">O</span>cean</h1>
       <p>A high-fidelity underwater acoustic channel model simulator for realistic algorithm evaluation using real hardware.</p>
       <div class="g4x-hero-btns">
         <a href="https://github.com/org-arl/VirtualAcousticOcean.jl" target="blank" class="button g-orange">View on GitHub</a>
@@ -23,7 +23,7 @@ section_id: products
 <section class="g4x-section">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
+      <h3 class="text-gradient g-green text-3xl capitalize-none normal-spacing text-600">Simulate Real Ocean Conditions</h3>
       <p>Virtual Acoustic Ocean (VAO) is an open-source acoustic channel model simulator in the UnetStack ecosystem that works seamlessly with UnetStack and interfaces with industry-standard models such as Bellhop, Kraken, and many others.</p>
       <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
@@ -36,7 +36,7 @@ section_id: products
 <!-- key capabilities -->
 <section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-acqua normal-spacing">Key Capabilities</h2>
+    <h2 class="sec-head lg text-gradient g-green normal-spacing">Key Capabilities</h2>
     <p class="sec-subhead">Bridge the gap between simulation and sea trials.</p>
   </div>
   <div class="row py2">
@@ -84,7 +84,7 @@ section_id: products
 <!-- Use Cases -->
 <section class="g4x-section" style="background-color:#F8FAFC;">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-acqua">Use Cases</h2>
+    <h2 class="sec-head lg text-gradient g-green">Use Cases</h2>
     <p class="sec-subhead">Hardware-in-the-loop simulation lets you evaluate real algorithms and devices under realistic underwater channel conditions before going to sea.</p>
   </div>
   <div class="row usecase-wrap">
@@ -93,7 +93,7 @@ section_id: products
         <img src="{{site.baseurl}}/images/usecase-hilsim.jpg" alt="Defense">
       </div>
       <div class="usecase-content">
-        <h3 class="text-gradient g-acqua">Hardware-in-the-Loop Setup With Modems and VAO</h3>
+        <h3 class="text-gradient g-green">Hardware-in-the-Loop Setup With Modems and VAO</h3>
         <p>The illustration shows two acoustic modems connected via Ethernet to a network switch, which links to a laptop running VAO. This setup allows real hardware to interact with simulated acoustic channels modeled by Bellhop, Kraken, and many other models. Developers can run signal processing, MAC, or networking algorithms as if the devices were deployed underwater, enabling controlled, repeatable testing before field trials.</p>
       </div>
     </div>
@@ -103,7 +103,7 @@ section_id: products
 <!-- HIL Workflow -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-acqua normal-spacing">HIL Workflow</h2>
+    <h2 class="sec-head lg text-gradient g-green normal-spacing">HIL Workflow</h2>
     <p class="sec-subhead">Connect real hardware to a virtual ocean.</p>
   </div>
   <div class="row py2">
@@ -145,7 +145,7 @@ section_id: products
 <!-- Relevant Resources -->
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head lg text-gradient g-acqua normal-spacing">Relevant Resources</h2>
+    <h2 class="sec-head lg text-gradient g-green normal-spacing">Relevant Resources</h2>
   </div>
   <div class="row py2">
     <div class="feature-grid col2 releveant-resources">

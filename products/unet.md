@@ -226,8 +226,10 @@ section_id: products
 <!-- Components of unetstack -->
 <section class="g4x-section unet" style="background-color:#e8f3ff">
   <div class="row large">
-    <div class="large-6 columns"> 
+    <div class="columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Components of the UnetStack Ecosystem</h2>
+    </div>
+    <div class="large-6 columns"> 
       <p class="text-black">The UnetStack ecosystem is built around three core pillars: the UnetStack software framework, the suite of UnetStack agents, and a set of complementary ecosystem components. Together, they provide a complete foundation for developing, simulating, and deploying underwater and hybrid communication networks.</p>
       <div class="component-list">
         <div class="core-component">

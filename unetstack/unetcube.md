@@ -23,7 +23,7 @@ section_id: products
 <section class="g4x-section">
   <div class="row large">
     <div class="large-6 columns"> 
-      <h3 class="orange text-3xl capitalize-none normal-spacing text-600">Build Your Own Underwater Modem</h3>
+      <h3 class="text-gradient g-pruple text-3xl capitalize-none normal-spacing text-600">Build Your Own Underwater Modem</h3>
       <p>UnetCube is a compact embedded computing platform running UnetStack OEM Edition natively on a single board computer. It allows developers to connect their own analog electronics while relying on UnetStack for signal processing and communication protocols.</p>
       <p>This dramatically reduces development time by eliminating the need to rewrite core PHY, MAC, or networking layers, giving you a powerful software-defined foundation.</p>
     </div>
