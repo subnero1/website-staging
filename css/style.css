@@ -4005,6 +4005,9 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .g-orange-btn {
   background-image: linear-gradient(45deg, #F2772F, #D64235);
 }
+.g-blue-text {
+  background-image: linear-gradient(90deg, #83b7fe, #62A7F5)
+}
 .g4x-hero-wrap p {
   font-size: 20px;
   font-weight: 500;
