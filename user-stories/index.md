@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  User Stories
+title:  User Stories from the Ocean
 banner : images/hero-user-stories.jpg
 excerpt: Real stories from the deep — exploring how cutting-edge acoustic communication is powering the next generation of underwater networks.
 ---

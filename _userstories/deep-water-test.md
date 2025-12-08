@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nauticus Robotics
+title: Deep-Water Testing of Subnero Modems in the Gulf of Mexico
 sub_title: Deep-Water Testing of Subnero Modems in the Gulf of Mexico
 excerpt: Subnero’s deep-rated modems maintained reliable communication down to 2.5 km in Gulf of Mexico trials, achieving over 80% packet success. This user story shows how Subnero technology enables robust connectivity in ultra-deep subsea environments.
 preview_image: /images/story-nauticus.jpg
