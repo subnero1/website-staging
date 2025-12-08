@@ -47,7 +47,7 @@ section_id: products
         </div>
         <div>
           <h5>Realistic Propagation</h5>
-          <p>Uses Bellhop, Kraken, PekerisRay models for physics-accurate testing.</p>
+          <p>Uses Bellhop, Kraken, PekerisRay and many other models for physics-accurate testing.</p>
         </div>
       </div>
       <div class="docs-card fj">
