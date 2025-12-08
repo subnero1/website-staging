@@ -262,7 +262,7 @@ section_id: products
     <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
     <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
-  <div class="row large header-2col relative">
+  <div class="row large header-2col relative wnc-ueco">
     <div>
       <h2 class="text-xl">One Stack. Endless Possibilities.</h2>
       <p>A unified ecosystem that lets you simulate, build and deploy underwater communication systems.</p>

@@ -107,11 +107,14 @@ section_id: products
         </ul> 
         <div class="audience">
           <h6>Ideal for</h6>
-          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> Education</p>
-          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> Protocol Development</p>
-          <p class="text-white m0 text-md"><span class="text-blue">&#9679;</span> System Integration</p>
+          <ul class="custom-list">
+            <li><span class="text-blue">&#9679;</span> Education</li>
+            <li><span class="text-blue">&#9679;</span> Protocol Development</li>
+            <li><span class="text-blue">&#9679;</span> System Integration</li>
+          </ul> 
         </div>
-        <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a>
+        <a class="button g-blue mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a>
+        <!-- <a class="card-explore text-blue" href="{{site.baseurl}}/unetstack/unetsim">Learn More <span>&rarr;</span></a> -->
       </div>
       <div class="unet-card hil text-green">
         <div class="card-svg">
@@ -127,11 +130,14 @@ section_id: products
         </ul> 
         <div class="audience">
           <h6>Ideal for</h6>
-          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> System Integration</p>
-          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> HIL Simulation</p>
-          <p class="text-white m0 text-md"><span class="text-green">&#9679;</span> Physical Layer Development</p>
+          <ul class="custom-list">
+            <li><span class="text-green">&#9679;</span> System Integration</li>
+            <li><span class="text-green">&#9679;</span> HIL Simulation</li>
+            <li><span class="text-green">&#9679;</span> Physical Layer Development</li>
+          </ul> 
         </div>
-        <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a>
+        <a class="button g-acqua mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a>
+        <!-- <a class="card-explore text-green" href="{{site.baseurl}}/unetstack/hilsim">Learn More <span>&rarr;</span></a> -->
       </div>
         <div class="unet-card oem text-violet">
         <div class="card-svg">
@@ -147,11 +153,14 @@ section_id: products
           </ul> 
           <div class="audience">
             <h6>Ideal for</h6>
-            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Desktop HIL simulation</p>
-            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Customized modem development</p>
-            <p class="text-white m0 text-md"><span class="text-violet">&#9679;</span> Subsea Network Controller</p>
+            <ul class="custom-list">
+              <li><span class="text-violet">&#9679;</span> Desktop HIL simulation</li>
+              <li><span class="text-violet">&#9679;</span> Customized modem development</li>
+              <li><span class="text-violet">&#9679;</span> Subsea Network Controller</li>
+            </ul>
           </div>
-          <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a>
+          <a class="button g-pruple mt1 mb0 rounded-sm no-border anim" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a>
+          <!-- <a class="card-explore text-violet" href="{{site.baseurl}}/unetstack/unetcube">Learn More <span>&rarr;</span></a> -->
         </div>
     </div>
   </div>

@@ -149,6 +149,7 @@ ul.shortcode-list i {
 .py2 {padding-top: 2rem; padding-bottom: 2rem;}
 .mt-auto {margin-top: auto;}
 .m0 {margin:0}
+.mb0 {margin-bottom: 0;}
 .my2 {margin-top: 2rem; margin-bottom: 2rem;}
 .my3 {margin-top: 3rem; margin-bottom: 3rem;}
 .mt1 {margin-top: 1rem;}
@@ -159,6 +160,8 @@ ul.shortcode-list i {
 .text-500 {font-weight: 500;}
 .text-600 {font-weight: 600;}
 .text-800 {font-weight: 800;}
+.rounded-sm { border-radius: 8px;}
+.no-border {border:none}
 /*smart appear */
 .fadein {
   opacity: 0;
@@ -3909,6 +3912,13 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .g4x-hero-btns .request-quote {
   margin: 0;
 }
+.button.anim {
+  top: 0;
+  transition: all 0.3s;
+}
+.button.anim:hover {
+  top: -6px;
+}
 /* new hero */
 .g4x-hero {
   display: flex;
@@ -5529,13 +5539,16 @@ a.usecase-card:hover {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .usecase .usecase-img {
-  height: 300px;
+  /* height: 300px; */
+  height: auto;
+  display: block;
 }
+
 .usecase .usecase-img img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
 }
 .usecase .usecase-content {
@@ -6857,8 +6870,11 @@ a.usecase-card:hover {
     display: none;
   }
   .modal-dialog.unetstack-download {
-  padding: 20px;
-}
+    padding: 20px;
+  }
+  .unetcube-usecase {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -7015,8 +7031,46 @@ a.usecase-card:hover {
   .page-hero.sm {
     height: 80vh;
   }
+  .card-spacer {
+    display: none;
+  }
+  .col2 {
+    margin: 0;
+  }
   .g4x-section-head.logo {
     flex-direction: column;
+    padding-bottom: 0;
+  }
+  .g4x-section .sec-head {
+    font-size: 2.3rem;
+  }
+  .g4x-section .sec-subhead {
+    font-size: 1.2rem;
+  }
+  .usecase-card.asr {
+    flex-direction: column;
+  }
+  .feature-grid.single-col {
+    padding: 0;
+  }
+  .unet-product .feature-grid.col2 {
+    grid-template-columns: 1fr;
+  }
+  .header-2col.wnc-ueco {
+    flex-direction: column;
+    gap: 0;
+  }
+  .header-2col > div {
+    width: 100%;
+  }
+  .flow-container {
+    grid-template-columns: 1fr;
+  }
+  .flow-container {
+    grid-template-columns: 1fr;
+  }
+  .flow-container::before {
+    display: none;
   }
 }
 
@@ -7236,6 +7290,12 @@ a.usecase-card:hover {
     width: 100%;
     flex-basis: 100%;
   }
+  .page-hero.gen4x h1 {
+    font-size: 32px;
+  }
+  .docs-card {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -7356,6 +7416,9 @@ a.usecase-card:hover {
 
   .accordion-content ul{
     font-size:1rem;
+  }
+  .feature-grid {
+    grid-template-columns: 1fr !important;
   }
 
 }
