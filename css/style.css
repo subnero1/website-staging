@@ -13,7 +13,8 @@
 }
 :root {
   --orange: 234, 88, 12;
-  --blue: 37, 99, 235;
+  /* --blue: 37, 99, 235; */
+  --blue: 98, 167, 245;
   --red: 220, 38, 38;
   --emerald: 5, 150, 105;
   --violet: 159, 97, 240;
@@ -140,7 +141,7 @@ ul.shortcode-list i {
 .text-white {color: #fff;}
 .text-black {color: #000;}
 .text-black-01 {color: #344154;}
-.text-blue {color: #7fbaff;}
+.text-blue {color: #62A7F5;}
 .text-slate-400 {color:#94a3b8;}
 .p1 {padding: 1rem;}
 .p2 {padding: 2rem;}
@@ -3939,7 +3940,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   border: none;
 }
 .g4x-hero-btns.usim .button {
-  background: linear-gradient(90deg, #5f9bef, #1361b9);
+  background-image: linear-gradient(90deg, #77E5F7, #62A7F5);
   border: none;
 }
 .button.anim {
@@ -3987,7 +3988,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   background-image: linear-gradient(90deg, #F2772F, #D64235);
 }
 .g-blue {
-  background-image: linear-gradient(90deg, #5f9bef, #1361b9);
+  background-image: linear-gradient(90deg, #77E5F7, #62A7F5)
 }
 .g-violet {
   background-image: linear-gradient(90deg, #868BF2, #9969F1);
@@ -4050,7 +4051,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .link-card.sd,
 .card-unet-eco.uframe,
 .link-card.sd:hover {
-  color: #3885F0;
+  color: #62A7F5;
 }
 .text-violet,
 .link-card.fc,
@@ -5613,10 +5614,13 @@ a.usecase-card:hover {
 }
 .unetcube-images {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
 }
 .unetcube-images div {
   min-width: 100px;
+}
+.unetcube-images div.cols-full {
+  grid-column: 1 / -1;
 }
 .unetcube-images img {
   width: 100%;
@@ -6257,7 +6261,7 @@ a.usecase-card:hover {
   background-color: #1b4070;
 }
 .sw .step-icon {
-  background: linear-gradient(90deg, #5f9bef, #1361b9);
+  background-image: linear-gradient(90deg, #77E5F7, #62A7F5);
 }
 .hs .step-icon {
   background: linear-gradient(45deg, #44CCE0, #3EBAB4);
