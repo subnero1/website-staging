@@ -2,13 +2,12 @@
 layout: post
 title: Internet of the Oceans – A Connected Ocean Begins in Singapore with Underwater Cellular Network Launch
 banner: images/banner-connected-ocean.jpg
-date:  2025-11-30
+date:  2025-12-10
 categories: feature
 thumbnail: images/pulse-thumbnail-connected-ocean.jpg
 ---
 
-
-**Singapore, November 30, 2025** –  [Subnero Pte Ltd](https://subnero.com/) today announced a breakthrough milestone for global maritime technology. The company has successfully deployed and demonstrated an underwater cellular network in Singapore waters, delivered in partnership with [ST Engineering Unmanned & Integrated Systems (ST UIS)](https://www.stengg.com/en/defence/sea/unmanned-solutions/). It represents one of the world’s earliest commercial implementations of a subsea network designed to provide continuous coverage, seamless mobility and real time tracking for subsea assets. This work forms the foundation of what Subnero calls the Internet of the Oceans.
+**Singapore, December 10, 2025** –  [Subnero Pte Ltd](https://subnero.com/) today announced a breakthrough milestone for global maritime technology. The company has successfully deployed and demonstrated an underwater cellular network in Singapore waters, delivered in partnership with [ST Engineering Unmanned & Integrated Systems (ST UIS)](https://www.stengg.com/en/defence/sea/unmanned-solutions/). It represents one of the world’s earliest commercial implementations of a subsea network designed to provide continuous coverage, seamless mobility and real time tracking for subsea assets. This work forms the foundation of what Subnero calls the Internet of the Oceans.
 
 With the acceleration in offshore energy exploration and operations, in-water robotics, defence operations and ocean research, the need for a reliable, scalable and mobile underwater communication fabric is becoming critical. Traditional underwater acoustic systems have been limited to short distances or point-to-point links. This deployment shows that underwater networks can now behave like terrestrial cellular systems and support multiple mobile and stationary assets as they move through the mission area, enabling the next wave of scale in traditionally complex subsea operations.
 
