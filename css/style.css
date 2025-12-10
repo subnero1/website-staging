@@ -143,6 +143,7 @@ ul.shortcode-list i {
 .text-black-01 {color: #344154;}
 .text-blue {color: #62A7F5;}
 .text-slate-400 {color:#94a3b8;}
+.p0 {padding: 0;}
 .p1 {padding: 1rem;}
 .p2 {padding: 2rem;}
 .p1 {padding: 1rem;}
@@ -2175,7 +2176,7 @@ p.small-title {
 }
 .faq-row {
   width: 100%;
-  max-width: 1024px;
+  max-width: 90rem;
   margin: 0 auto;
   padding-bottom: 6rem;
   display: flex;
@@ -5814,7 +5815,7 @@ a.usecase-card:hover {
 }
 .qlinks-row {
   width: 100%;
-  max-width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   display: flex;
   column-gap: 4rem;
@@ -6074,7 +6075,8 @@ a.usecase-card:hover {
   border-radius: 8px;
   border: 1px solid #E2E8F0;
 }
-.docs-card .card-svg {
+.docs-card .card-svg,
+.com-support .card-svg {
   width: 50px;
   height: 50px;
   padding: 8px;
@@ -6083,13 +6085,16 @@ a.usecase-card:hover {
   color: color-mix(in srgb, currentColor 100%, transparent);
   background-color: color-mix(in srgb, currentColor 10%, transparent);
 }
-.docs-card:hover {
+.docs-card:hover,
+.com-support:hover {
   border: 1px solid color-mix(in srgb, currentColor 100%, transparent);
 }
-.docs-card:hover .card-svg {
+.docs-card:hover .card-svg,
+.com-support:hover .card-svg {
   background-color: color-mix(in srgb, currentColor 100%, transparent);
 }
-.docs-card:hover .card-svg svg {
+.docs-card:hover .card-svg svg,
+.com-support:hover .card-svg svg {
   color: #fff;
 }
 .docs-card h5 {
@@ -6357,6 +6362,50 @@ a.usecase-card:hover {
 }
 .api-button button:hover {
   color: #FFAC74;
+}
+/* support */
+.support .docs-card {
+  flex-direction: column;
+  background-color: #fff;
+}
+.support ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.support li {
+  margin: 4px 0;
+}
+.com-support {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.6rem;
+  margin-top: 2rem;
+  color: rgb(var(--emerald));
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+}
+.com-support h5 {
+  margin: 0 0 4px;
+  font-size: 1.4;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.support-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.support-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.com-support .contact-query .action-btn {
+  background-image: linear-gradient(45deg, #6bd786, #22a242);
+  border: none;
 }
 @media (min-width: 1593px){
   .media.product{
@@ -6977,6 +7026,12 @@ a.usecase-card:hover {
   }
   .api-languages {
     justify-content: center;
+  }
+  .com-support {
+    display: block;
+  }
+  .support-btn .contact-query {
+    padding: 0;
   }
 }
 

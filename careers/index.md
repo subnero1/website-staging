@@ -4,7 +4,6 @@ title: Join Our Team
 banner: images/banner-careers.jpg
 subhead: Join us in developing next-generation solutions for ocean connectivity, sensing, and autonomy.
 headerTag: Careers
-pageWidth: sm
 ---
 
 Subnero provides communications, networking, and robotics solutions to the sub-sea engineering, environment monitoring, and defense industries. We have a reputation for innovation and are currently looking to expand our team.
