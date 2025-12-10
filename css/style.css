@@ -6371,7 +6371,7 @@ a.usecase-card:hover {
   grid-template-columns: 1fr 1fr;
   padding: 1.6rem;
   margin-top: 2rem;
-  color: rgb(var(--emerald));
+  color: rgb(var(--blue));
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #E2E8F0;
@@ -6394,7 +6394,7 @@ a.usecase-card:hover {
   align-items: center;
 }
 .com-support .contact-query .action-btn {
-  background-image: linear-gradient(45deg, #6bd786, #22a242);
+  background-image: linear-gradient(90deg, #77E5F7, #62A7F5);
   border: none;
 }
 .about .docs-card {

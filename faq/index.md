@@ -5,7 +5,7 @@ banner : images/banner-faq.jpg
 excerpt: Frequently asked questions about Subnero's offerings
 ---
 
-<section class="page-hero sm gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Frequently Asked Questions</h4>
