@@ -3553,13 +3553,6 @@ ul{
 .icon.fa-quote-left{
   opacity: 0.7;
 }
-
-.about-testimonials{
-  display:flex;
-  justify-content: center;
-  flex-wrap:wrap;
-}
-
 .quick-links-container{
   display: flex;
   justify-content: space-between;
@@ -3587,13 +3580,11 @@ ul{
 .quick-link-icons{
   color:#E6782F;
 }
-
 .quick-link-socials{
   display: flex;
   justify-content: space-around;
   padding-bottom: 2rem;
 }
-
 /* SWAN page css */
 
 .full.tall.swan{
@@ -6407,6 +6398,50 @@ a.usecase-card:hover {
   background-image: linear-gradient(45deg, #6bd786, #22a242);
   border: none;
 }
+.about .docs-card {
+  flex-direction: column;
+  background-color: #fff;
+}
+.testimonial-card {
+
+}
+.testimonial-card .testimonial {
+  position: relative;
+  height: 100%;
+  padding: 3rem;
+  margin: 0;
+  border-radius: 12px;
+  background-color: #F7F9FB;
+  border: none;
+  border: 1px solid #e6e6e6;
+}
+.testimonial-card .quote {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: #F2772F;
+}
+.testimonial-card p {
+  color: #000;
+  font-size: 1.4rem;
+}
+.testimonial-card .author p {
+  margin: 0;
+  color: #F2772F;
+  font-weight: 500;
+}
+.testimonial-card .author small {
+  font-size: 1.2rem;
+}
+.journey p {
+  color: #000;
+}
+.g4x-section.technology {
+  background-image: linear-gradient(-45deg, #3C3037 0%, #0F182A 100%);
+}
+
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
@@ -7196,7 +7231,7 @@ a.usecase-card:hover {
   .card-spacer {
     display: none;
   }
-  .col2 {
+  .feature-grid.col2 {
     margin: 0;
   }
   .g4x-section-head.logo {
