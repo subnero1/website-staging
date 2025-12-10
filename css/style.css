@@ -4900,21 +4900,20 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 /* User sotry */
 .user-story-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: .7fr 1fr;
   gap: 2rem;
   align-items: flex-start;
   background-color: #EFF6FF;
   margin-bottom: 2rem;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
 }
 .user-story-card:hover {
   box-shadow: 0 4px 15px 0 #8cb4ec;
 }
 .user-story-card .user-logo {
-  flex: none;
-  width: 100%;
-  max-width: 340px;
+  min-width: 0;
 }
 .user-story-card img {
   width: 100%;
@@ -7020,7 +7019,12 @@ a.usecase-card:hover {
   .contacts {
     grid-template-columns: 1fr;
   }
+  .g4x-section.stories {
+    padding: 1rem;
+  }
   .user-story-card {
+    grid-template-columns: 1fr;
+    padding: 1.6rem;
     flex-direction: column;
   }
   .story-section {
