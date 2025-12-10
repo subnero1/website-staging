@@ -6440,7 +6440,9 @@ a.usecase-card:hover {
 .g4x-section.technology {
   background-image: linear-gradient(-45deg, #3C3037 0%, #0F182A 100%);
 }
-
+.technology p {
+  color: #fff;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
