@@ -101,7 +101,7 @@ section_id: products
 </section>
 
 <!-- HIL Workflow -->
-<section class="g4x-section">
+<section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-acqua normal-spacing">HIL Workflow</h2>
     <p class="sec-subhead">Connect real hardware to a virtual ocean.</p>
