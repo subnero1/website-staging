@@ -22,20 +22,20 @@ date: 2025-10-20
     <div class="columns full-header">
       <h2 class="sec-head text-gradient g-orange">Overview</h2>
     </div>
-    <div class="large-6 columns"> 
+    <div class="large-7 columns"> 
       <p>Subnero modems are designed to excel in the challenging conditions of tropical shallow waters, where dynamic environments and high noise levels often limit performance. However, thanks to their adaptable architecture and advanced algorithms, Subnero modems deliver equally strong results across diverse environments worldwide.</p>
       <p>This article highlights deep-water tests in the Gulf of Mexico conducted by Nauticus Robotics, a close collaborator and customer of Subnero, to evaluate modem performance during missions at depths of more than 2000 meters in vertical channels.</p>
     </div>
-    <div class="large-6 columns"> 
-      <div class="pdf-download">
+    <div class="large-5 columns"> 
+      <a class="pdf-download" href="{{site.baseurl}}/brochures/deployment-spotlight.pdf" target="_blank" alt="Deployment Spotlight" style="width:220px;">
         <div class="pdf-img">
           <img src="{{site.baseurl}}/images/deployment-spotlight-cover.jpg" />
         </div>
-        <a class="download-link" href="{{site.baseurl}}/brochures/deployment-spotlight.pdf" target="_blank" alt="Deployment Spotlight">
+        <p class="download-link">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z"/></svg>
           <span>Download PDF</span>
-        </a>
-      </div>
+        </p>
+      </a>
     </div>
   </div> 
 

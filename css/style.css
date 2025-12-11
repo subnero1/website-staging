@@ -5076,8 +5076,9 @@ body:has(dialog[open]) { overflow: hidden; }
   border-radius: 6px;
 }
 .pdf-download {
-  width: 100%;
-  max-width: 400px;
+  display: block;
+  width: 260px;
+  height: auto;
   margin: 0 auto;
 }
 .pdf-download img {
@@ -5088,11 +5089,15 @@ body:has(dialog[open]) { overflow: hidden; }
   border-radius: 6px;
 }
 .pdf-download .download-link {
+  color: #0181e2;
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 6px 0;
   font-size: 1.1rem;
+}
+.pdf-download:hover .download-link{
+  color: #02518d;
 }
 .pdf-download svg {
   width: 20px;
@@ -5185,7 +5190,12 @@ body:has(dialog[open]) { overflow: hidden; }
 .highlight-text p {
   margin: 0;
 }
-
+.reference-link {
+  color: #0181e2;
+}
+.reference-link:hover {
+  color: #02518d;
+}
 .feature-grid {
   display: grid;
   gap: 2rem;

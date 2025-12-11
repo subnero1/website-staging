@@ -22,23 +22,23 @@ date: 2025-11-20
     <div class="columns full-header">
       <h2 class="sec-head text-gradient g-orange">Overview</h2>
     </div>
-    <div class="large-7 columns"> 
+    <div class="large-8 columns"> 
       <p>The need for seamless underwater communication is growing rapidly as the number of subsea assets increases. From autonomous underwater vehicles (AUVs) performing offshore inspections to divers conducting critical missions, continuous communication and tracking are essential for safety, efficiency, and mission success.</p>
       <p>To address this, Subnero, in collaboration with ST Engineering Unmanned & Integrated Systems (ST UIS), have successfully deployed one of the world’s first underwater cellular networks in Singapore waters, demonstrating continuous coverage, seamless mobility, multi-user resource sharing, and real-time tracking of subsea assets. This deployment validates the architecture that will form the backbone of the Internet of the Oceans: the next frontier in global connectivity.</p>
        <div class="highlight-text">
         <p>“Oceans cover 70% of the planet but remain 99% disconnected. Subnero’s mission is to change that &mdash; by building the Internet of the Oceans.”</p>
       </div>
     </div>
-    <div class="large-5 columns"> 
-      <div class="pdf-download">
+    <div class="large-4 columns"> 
+      <a class="pdf-download" href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" target="_blank" alt="Case Study" >
         <div class="pdf-img">
           <img src="{{site.baseurl}}/images/case-study-underwater-cellular-network-cover.jpg" />
         </div>
-        <a class="download-link" href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" target="_blank" alt="Case Study">
+        <p class="download-link">
           <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 15.575q-.2 0-.375-.062T11.3 15.3l-3.6-3.6q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L11 12.15V5q0-.425.288-.712T12 4t.713.288T13 5v7.15l1.875-1.875q.3-.3.713-.288t.712.313q.275.3.288.7t-.288.7l-3.6 3.6q-.15.15-.325.213t-.375.062M6 20q-.825 0-1.412-.587T4 18v-2q0-.425.288-.712T5 15t.713.288T6 16v2h12v-2q0-.425.288-.712T19 15t.713.288T20 16v2q0 .825-.587 1.413T18 20z"/></svg>
           <span>Download PDF</span>
-        </a>
-      </div>
+        </p>
+      </a>
     </div>
   </div> 
 
@@ -133,7 +133,7 @@ date: 2025-11-20
       </ul>
       <div class="reference">
         <h5>Reference</h5>
-        <p>S. Etter et al., "Design, Development and Deployment of an Underwater Cellular Network," OCEANS 2024 - Halifax, Halifax, NS, Canada, 2024.</p>
+        <p><a class="reference-link" href="https://ieeexplore.ieee.org/document/10754077" target="_blank">S. Etter et al., "Design, Development and Deployment of an Underwater Cellular Network," OCEANS 2024 - Halifax, Halifax, NS, Canada, 2024.</a></p>
       </div>
     </div>
     <div class="large-5 columns"> 
