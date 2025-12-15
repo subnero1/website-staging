@@ -27,10 +27,10 @@ headerTag: Support
         <div>
           <h5>Documentation</h5>
           <ul>
-            <li><a href="https://unetstack.net/index.html#docs" target="_blank">Getting started guide</a></li>
-            <li><a href="https://unetstack.net/handbook/unet-handbook_preface.html" target="_blank">Unet Handbook</a></li>
-            <li><a href="https://unetstack.net/javadoc/3.0/" target="_blank">API Reference</a></li>
+            <li><a href="https://unetstack.net/index.html#docs" target="_blank">Getting started with UnetStack</a></li>
+            <li><a href="https://unetstack.net/handbook/unet-handbook_preface.html" target="_blank">Underwater Networks Handbook</a></li>
             <li><a href="https://github.com/org-arl/unetsockets" target="_blank">UnetSockets</a></li>
+            <li><a href="https://unetstack.net/javadoc/3.0/" target="_blank">UnetStack API reference</a></li>
           </ul>
         </div>
       </div>
@@ -45,6 +45,7 @@ headerTag: Support
             <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGVwN6dFu_Z7zva17lMj7LPG" target="_blank">Practical UWSN Series</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGX5QMJG-hjfa3q1oQKDdNPX" target="_blank">SWIS ADCP Edition</a></li>
             <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGXiZMe1mu1Z7B8zgFnfgHo5" target="_blank">Subnero WNC</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLnqY-RltGuGUQkXcqpMva7SSQm4GtHwON" target="_blank">Subnero Solutions</a></li>
           </ul>
         </div>
       </div>
@@ -55,8 +56,8 @@ headerTag: Support
         <div>
           <h5>Community</h5>
           <ul>
-            <li><a href="https://github.com/org-arl/unet-support/discussions" target="_blank">GitHub Discussions</a></li>
             <li><a href="https://github.com/org-arl/unet-contrib/" target="_blank">Unet User Contribs</a></li>
+            <li><a href="https://github.com/org-arl/unet-support/discussions" target="_blank">UnetStack discussions</a></li>
             <li><a href="https://blog.unetstack.net/" target="_blank">Blog</a></li>
           </ul>
         </div>
@@ -66,11 +67,13 @@ headerTag: Support
           <svg viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M.573 4.1a.999.999 0 0 0 0 1.808l1.43.675v3.92c0 .742.241 1.57.944 2.08c.886.64 2.5 1.42 5.06 1.42s4.17-.785 5.06-1.42c.703-.508.944-1.33.944-2.08v-3.92l1-.473v4.39a.5.5 0 0 0 1 0V5a1 1 0 0 0-.572-.904l-5.72-2.7a4 4 0 0 0-3.42 0l-5.72 2.7zm2.43 6.4V7.05l3.29 1.56a4 4 0 0 0 3.42 0l3.29-1.56v3.45c0 .556-.18 1.01-.53 1.26c-.724.523-2.13 1.24-4.47 1.24s-3.75-.712-4.47-1.24c-.349-.252-.529-.709-.529-1.26zm3.72-8.2a2.99 2.99 0 0 1 2.56 0l5.72 2.7l-5.72 2.7a2.99 2.99 0 0 1-2.56 0L1.003 5z" clip-rule="evenodd"/></svg>
         </div>
         <div>
-          <h5>Training</h5>
+          <h5>Useful Links</h5>
           <ul>
-            <li><a href="#" target="_blank">Online Sessions</a></li>
-            <li><a href="#" target="_blank">Onsite Training</a></li>
-            <li><a href="#" target="_blank">Advanced Workshops</a></li>
+            <li><a href="https://fjage.readthedocs.io/en/latest/" target="_blank">fjåge developer’s guide</a></li>
+            <li><a href="http://org-arl.github.io/fjage/javadoc" target="_blank">fjåge API reference</a></li>
+            <li><a href="https://github.com/org-arl/fjage" target="_blank">fjåge project</a></li>
+            <li><a href="{{site.baseurl}}/products/unet.html" >Unet project</a></li>
+            <li><a href="{{site.baseurl}}/products/unet.html#offerings">Unet Downloads</a></li>
           </ul>
         </div>
       </div>

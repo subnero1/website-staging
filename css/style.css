@@ -6389,7 +6389,8 @@ a.usecase-card:hover {
   padding: 0;
 }
 .support li {
-  margin: 4px 0;
+  margin: 8px 0;
+  line-height: 1.3;
 }
 .com-support {
   display: grid;
