@@ -15,55 +15,48 @@ title_color : "#E6782F"
   </div>
 </section>
 
-<div class='full'>
-  <div class='row'>
-    <!-- <h1 class="thin">{{page.title}}</h1> -->
-    <div class='large-12 columns' style='display:flex; flex-wrap:wrap'>
-{% for post in site.posts %}
-  {% assign isnews = false %}
-  {% assign isimage = false %}
-  {% if post.external_url != null %}
-    {% assign isnews = true %}
-  {% endif %}
-  {% if post.thumbnail != null %}
-    {% assign isimage = true %}
-  {% endif %}
-  <div class='large-4 columns' id='pulsepage'>
-  <div class='mod modBlogPost'>
-    <div class='images'>
-      {% for image in post.images %}
-        <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
-      {% endfor %}
-    </div>
-    <div class='content'>
-      <div class='image'>
-        <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
-        <img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
-        </a>
+<section class="g4x-section posts-list">
+  <div class="row large">
+    <div class="pulse-grid" id="pulsepage">
+      {% for post in site.posts %}
+      {% assign isnews = false %}
+      {% assign isimage = false %}
+      {% if post.external_url != null %}
+        {% assign isnews = true %}
+      {% endif %}
+      {% if post.thumbnail != null %}
+        {% assign isimage = true %}
+      {% endif %}
+      <div class="pulse-card">
+        <div class='images'>
+          {% for image in post.images %}
+          <div class='image'>
+            <img alt="" src="{{site.url}}/{{image}}" />
+          </div>
+          {% endfor %}
+        </div>
+        <div class='image'>
+          <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
+            <img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
+          </a>
+        </div>
+        <p class='info'>
+          <span>{{post.date | date: "%B %d, %Y" }}</span>
+        </p>
+        <h3>
+          <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a>
+        </h3>
+        <div class="tags">
+          {% for tag in post.categories %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <div class="pulse-tag" >
+              <svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.583 8.445h.01M10.86 19.71l-6.573-6.63a.993.993 0 0 1 0-1.4l7.329-7.394A.98.98 0 0 1 12.31 4l5.734.007A1.97 1.97 0 0 1 20 5.983v5.5a1 1 0 0 1-.316.727l-7.44 7.5a.974.974 0 0 1-1.384.001Z"/></svg>
+              <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+            </div>
+          {% endfor %}
+        </div>
       </div>
-      <p class='info'>
-        <span>{{post.date | date: "%B %d, %Y" }}</span>
-      </p>
-      <h3 style="text-transform: none;"><a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">{{post.title}}</a></h3>
-      
-      {% for tag in post.categories %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <span class="pulse-tags" >
-        <i class="fa fa-tag fa-fw"></i>
-        <a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
-        </span>
       {% endfor %}
-    
-      <!-- {% if isnews %}
-      <h5 style="text-transform: none;">From <a target="_blank" href="{{post.source}}">{{post.source}}</a> </h5>
-      {% else %}
-      <p>{{post.excerpt}}</p>
-      <a class="button small" href="{{site.baseurl}}{{post.url}}">Learn More</a>
-      {% endif %} -->
     </div>
   </div>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
+</section>

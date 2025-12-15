@@ -2166,6 +2166,81 @@ p.small-title {
   margin: 0;
 }
 
+
+.pulse-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+.pulse-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+  background-color: #f8fdff;
+  border-radius: 8px;
+  border: 1px solid #ddeeff;
+  transition: all 0.4s;
+}
+.pulse-card:hover {
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pulse-card .image {
+  flex: none;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+.pulse-card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.pulse-card .info {
+  font-size: 1.1rem;
+  color: #3b3b3b;
+  margin: 0;
+  padding: 4px;
+}
+.pulse-card h3 {
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 4px;
+}
+.pulse-card .tags {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pulse-card .pulse-tag {
+  display: flex;
+  align-items: center;
+}
+.pulse-card .pulse-tag svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  color: #b6b6b6;
+}
+.tag-head {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.tag-head span {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  color: #ff7b00;
+}
+.tag-head svg {
+  width: 30px;
+  height: 30px;
+  color: #b6b6b6;
+}
+
 /*faq*/
 .faq-highlight {
   background-color: #fffbe6;
@@ -3108,22 +3183,6 @@ img {
 }
 *, ::after, ::before {
     box-sizing: border-box;
-}
-#pulsepage .mod.modBlogPost .content{
-  background:#ffffff;box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.1);
-}
-
-#pulsepage .mod.modBlogPost .content.fixed-height{
-  height:400px;
-}
-
-#pulsepage .mod.modBlogPost .content .pulse-tags a{
-  color:#999;
-}
-
-#pulsepage .mod.modBlogPost .content span.pulse-tags:hover{
-  background:#E0E0E0;
-  border-radius:0.3em;
 }
 
 .pulse-img{
@@ -7354,9 +7413,9 @@ a.usecase-card:hover {
     font-size: 2rem;
   }
 
-  #pulsepage{
+  /* #pulsepage{
     width:30%;
-  }
+  } */
 
   .socials{
     width:100%;
