@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unlocking the Power of Edge Processing with Subnero’s Coprocessor
-banner : images/banner-pulse-custommodem.jpg
+banner : images/banner-pulse-coproc.jpg
 date:  2018-11-17
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-modems.jpg
@@ -37,7 +37,7 @@ Subnero’s coprocessor is a powerful computing unit housed within the same pres
 
 Whether running machine learning models, advanced physical-layer algorithms, custom analytics pipelines, or specialised research tools, the coprocessor provides the computational headroom necessary for modern underwater applications.
 
-![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.jpg){: .center-image  }
+![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.png){: .center-image  }
 
 ### Coprocessor for Machine Learning at the Edge
 
