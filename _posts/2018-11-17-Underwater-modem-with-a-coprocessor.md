@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unlocking the Power of Edge Processing with Subnero’s Coprocessor
-banner : images/banner-pulse-custommodem.jpg
+banner : images/banner-pulse-coproc.jpg
 date:  2018-11-17
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-modems.jpg
