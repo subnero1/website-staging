@@ -247,7 +247,7 @@ section_id: products
       <a class="usecase-card asr" href="{{site.baseurl}}/products/gen4x/accessories/" title="Optional Accessories & Upgrades">
         <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Optional Accessories & Upgrades">
         <div>
-          <h4 class="text-md">Optional Accessories & Upgrades</h4>
+          <h4 class="text-md">Components, Accessories & Optional Upgrades</h4>
           <p>Enhance your Subnero modem’s capabilities with a range of accessories designed for seamless integration. From options such as additional receiving channels, co-processors, and expanded storage to hull configurations and specialized cables, these add-ons help tailor each system to your specific deployment needs.</p>
         </div>
       </a>
