@@ -164,6 +164,7 @@ ul.shortcode-list i {
 .text-800 {font-weight: 800;}
 .rounded-sm { border-radius: 8px;}
 .no-border {border:none}
+.no-shadow {box-shadow: none !important;}
 /*smart appear */
 .fadein {
   opacity: 0;
@@ -4166,6 +4167,10 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .g4x-section.ueco {
   padding: 4rem 1rem;
 }
+.g4x-section.careers {
+  padding: 1rem 1rem 3rem;
+  margin-bottom: 2rem;
+}
 .g4x-section-head {
   width: 100%;
   max-width: 800px;
@@ -4792,10 +4797,8 @@ button.newsletter:hover{
 }
 /* Modal */
 .modal-dialog {
-  /* position: relative; */
   width: 90%;
   max-width: 600px;
-  /* height: 100%; */
   border: none;
   border-radius: 8px;
   padding: 20px;
@@ -4933,9 +4936,6 @@ button.newsletter:hover{
   padding: 0;
   margin: 0;
 }
-/* body:has(.modal-dialog[open]) {
-  overflow: hidden;
-} */
 body:has(dialog[open]) { overflow: hidden; }
 
 @keyframes fadeIn {
@@ -5248,6 +5248,11 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 .highlight-text p {
   margin: 0;
+}
+.highlight-note p {
+  margin: 0;
+  font-size: 14px;
+
 }
 .reference-link {
   color: #0181e2;
@@ -6091,7 +6096,7 @@ a.usecase-card:hover {
   border: 1px solid #E2E8F0;
 }
 .docs-card .card-svg,
-.com-support .card-svg {
+.full-column .card-svg {
   width: 50px;
   height: 50px;
   padding: 8px;
@@ -6101,15 +6106,15 @@ a.usecase-card:hover {
   background-color: color-mix(in srgb, currentColor 10%, transparent);
 }
 .docs-card:hover,
-.com-support:hover {
+.full-column:hover {
   border: 1px solid color-mix(in srgb, currentColor 100%, transparent);
 }
 .docs-card:hover .card-svg,
-.com-support:hover .card-svg {
+.full-column:hover .card-svg {
   background-color: color-mix(in srgb, currentColor 100%, transparent);
 }
 .docs-card:hover .card-svg svg,
-.com-support:hover .card-svg svg {
+.full-column:hover .card-svg svg {
   color: #fff;
 }
 .docs-card h5 {
@@ -6389,10 +6394,10 @@ a.usecase-card:hover {
   padding: 0;
 }
 .support li {
-  margin: 8px 0;
+  margin: 8px 0 0;
   line-height: 1.3;
 }
-.com-support {
+.full-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1.6rem;
@@ -6402,14 +6407,17 @@ a.usecase-card:hover {
   border-radius: 8px;
   border: 1px solid #E2E8F0;
 }
-.com-support h5 {
+.full-column.job-col {
+  grid-template-columns: 1fr 0.6fr;
+}
+.full-column h5 {
   margin: 0 0 4px;
   font-size: 1.4;
   font-weight: 600;
   letter-spacing: normal;
   text-transform: none;
 }
-.support-content {
+.column-content {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -6419,7 +6427,7 @@ a.usecase-card:hover {
   justify-content: flex-end;
   align-items: center;
 }
-.com-support .contact-query .action-btn {
+.full-column .contact-query .action-btn {
   background-image: linear-gradient(90deg, #77E5F7, #62A7F5);
   border: none;
 }
@@ -6476,21 +6484,23 @@ a.usecase-card:hover {
 }
 .tech-tabs {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-  background-color: #f5f5f5;
 }
 .tech-tabs button {
   margin: 0;
-  background-color: transparent;
+  padding: 12px 1.8rem;
   color: #000;
-  border: none;
-  border-bottom: 2px solid transparent;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  border-radius: 12px 12px 0 0;
+}
+.tech-tabs button + button {
+  margin-left: -1px;
 }
 .tech-tabs button:hover {
-  background-color: #e9e9e9;
-  border-bottom-color: #ffc8a3;
+  background-color: #f4f4f4;
 }
 .tech-tabs button.active {
   background-color: #eaf7ff;
@@ -6512,7 +6522,15 @@ a.usecase-card:hover {
 .tech-resources [id^="tab"].active {
   display: grid;
 }
-
+.careers .modal-dialog {
+  max-width: 840px;
+  padding: 3rem 4rem;
+}
+.careers .modal-dialog h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: normal;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
@@ -7138,7 +7156,7 @@ a.usecase-card:hover {
   .api-languages {
     justify-content: center;
   }
-  .com-support {
+  .full-column {
     display: block;
   }
   .support-btn .contact-query {
@@ -7348,6 +7366,21 @@ a.usecase-card:hover {
   }
   .flow-container::before {
     display: none;
+  }
+  .tech-tabs {
+    gap: 8px;
+  }
+  .tech-tabs button + button {
+    margin: 0;
+  }
+  .careers .modal-dialog {
+    padding: 2rem;
+  }
+  .careers .support-btn {
+    margin-top: 1rem;
+  }
+  .column-content {
+    flex-direction: column;
   }
 }
 

@@ -9,7 +9,7 @@ headerTag: Support
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Hardware-in-the-Loop Simulator</h4>
+      <h4 class="g4x-tag">Support</h4>
       <h1>We’re Here <span class="text-gradient g-blue">to Help</span></h1>
       <p>Technical assistance, documentation, and expert support for all Subnero products.</p>
     </div>
@@ -78,14 +78,14 @@ headerTag: Support
         </div>
       </div>
     </div>
-    <div class="com-support">
-      <div class="support-content">
+    <div class="full-column">
+      <div class="column-content">
         <div class="card-svg">
           <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0"/><path d="m18 6l-3.525 3.525M6 18l3.525-3.525M6 6l3.525 3.525M18 18l-3.525-3.525m-4.95 0c-1.348-1.348-1.348-3.601 0-4.95m0 4.95c1.348 1.348 3.601 1.348 4.95 0m0 0c1.348-1.348 1.348-3.601 0-4.95m0 0c-1.348-1.348-3.601-1.348-4.95 0"/></g></svg>
         </div>
         <div>
-          <h5 class="text-xl capitalize-none normal-spacing text-600" >Need Commercial Support?</h5>
-          <p class="">We provide multiple tiers of support, ranging from advanced technical assistance to high-priority direct messaging for operational deployments.</p>
+          <h5 class="text-xl capitalize-none normal-spacing text-600">Need Commercial Support?</h5>
+          <p class="m0">We provide multiple tiers of support, ranging from advanced technical assistance to high-priority direct messaging for operational deployments.</p>
         </div>
       </div>
       <div class="support-btn">

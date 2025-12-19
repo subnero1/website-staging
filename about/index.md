@@ -76,18 +76,17 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
 </section>
 
 <section class="g4x-section journey" style="background-color:#e8f3ff">
+  <div class="g4x-section-head">
+    <h2 class="sec-head lg text-gradient g-orange normal-spacing">Our Journey</h2>
+  </div>
   <div class="row large">
     <div class="large-6 columns">
-    <h3 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Our Journey</h3>
       <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of the National University of Singapore (NUS) when a team of researchers procured acoustic modems to get periodic status updates from underwater sensors used in their scientific research.</p>
       <p>They quickly realized that tropical shallow waters around Singapore presented some of the most challenging conditions for acoustic communications in the world and that no modems available back then provided reliable and robust wireless communications underwater. The team took it as a challenge to understand and overcome the difficulties in underwater acoustic communications.</p>
-      <p>A decade and multiple projects later, we have a variety of technologies and research platforms such as the Unet II smart modems, Water Quality Monitoring USVs, and UnetStack software framework that repeatedly demonstrates superior performance in any environment.</p>
-      <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that push the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogeneous underwater networks.</p>
     </div>
     <div class="large-6 columns">
-      <figure class="col-figure">
-        <!-- <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-components.jpg" /> -->
-      </figure>
+      <p>A decade and multiple projects later, we have a variety of technologies and research platforms such as the Unet II smart modems, Water Quality Monitoring USVs, and UnetStack software framework that repeatedly demonstrates superior performance in any environment.</p>
+      <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that push the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogeneous underwater networks.</p>
     </div>  
   </div>
 </section>
@@ -96,7 +95,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
   <div class="row large">
     <div class="large-6 columns">
         <figure class="col-figure">
-        <!-- <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-components.jpg" /> -->
+        <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" />
         </figure>
     </div>  
     <div class="large-6 columns">
@@ -115,11 +114,11 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
       <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing.</p>
       <p>We dabble with digital communication techniques for fun and play with unmanned surface vehicles for stress relief. We decorate our Christmas trees with colorful PCBs, have debates about which programming languages or design techniques are the best, and turn debugging sessions into hackathons.</p>
       <p>We are proud of what we do at Subnero. We end our weeks with Friday hacks, plan weekend dive trips, and are excited for Monday mornings.</p>
-      <a class="button g-orange-btn rounded-sm anim" href="#">Join Our Team</a>
+      <a class="button g-orange-btn rounded-sm anim" href="{{site.baseurl}}/careers/">Join Our Team</a>
     </div>
     <div class="large-6 columns">
-      <figure class="col-figure">
-        <!-- <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-components.jpg" /> -->
+      <figure class="col-figure no-shadow">
+        <img alt="Unetstack" src="{{site.baseurl}}/images/about-image-full.jpg" />
       </figure>
     </div>  
   </div>

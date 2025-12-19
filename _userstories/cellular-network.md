@@ -3,11 +3,11 @@ layout: default
 title: A Connected Ocean – Underwater Cellular Network Demonstrates the Future of Subsea Communications
 sub_title: A Connected Ocean – Underwater Cellular Network Demonstrates the Future of Subsea Communications
 excerpt: Underwater networks can now span multiple cells like their terrestrial counterparts, forming a seamless communication and monitoring fabric beneath the surface. This case study shows how the Singapore testbed proved this concept and laid the groundwork for future multi-user underwater networks.
-preview_image: /images/story-st.jpg
+banner: images/hero-solutions.jpg
 date: 2025-11-20
 ---
 
-<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/images/hero-solutions.jpg);">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Case Study</h4>

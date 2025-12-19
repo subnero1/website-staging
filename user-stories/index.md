@@ -21,7 +21,7 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
     {% for item in stories_sorted %}
     <a href="{{ item.url }}" class="user-story-card">
       <div class="user-logo">
-        <img src="{{site.baseurl}}{{item.preview_image}}" alt="{{ item.title }}">
+        <img src="{{site.baseurl}}/{{item.banner}}" alt="{{ item.title }}">
       </div>
       <div class="details">
         <h2>{{ item.sub_title }}</h2>
