@@ -5,7 +5,7 @@ banner: images/banner-about.jpg
 ---
 
 <div>
-	<img src="/images/people/shiraz.jpg" style="width:30%">
+	<img src="/images/people/shiraz.jpg" style="width:30%" alt="Shiraz Shahabudeen">
 </div>
 <div class="spacing"></div>
 <p>

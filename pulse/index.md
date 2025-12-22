@@ -31,13 +31,13 @@ title_color : "#E6782F"
         <div class='images'>
           {% for image in post.images %}
           <div class='image'>
-            <img alt="" src="{{site.url}}/{{image}}" />
+            <img alt="{{post.title}}" src="{{site.url}}/{{image}}" />
           </div>
           {% endfor %}
         </div>
         <div class='image'>
           <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
-            <img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
+            <img alt="{{post.title}}" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />
           </a>
         </div>
         <p class='info'>

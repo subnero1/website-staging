@@ -10,13 +10,13 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-02.png" alt="Product Image 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-01.png" alt="M25M Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-platinum-gallery-02.png" alt="M25M Series">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-01.png" alt="Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-02.png" alt="Thumbnail 2">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-01.png" alt="M25M Series">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-platinum-thumb-02.png" alt="M25M Series">
           </div>
         </div>
         <!-- ./slider -->
@@ -48,7 +48,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-feature.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-feature.png" alt="M25M Series" />
       </div>
     </div>
   </section>
@@ -65,7 +65,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mps3">
         <h2>WNC-M25MPS3</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-sc-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-sc-preview.png" alt="WNC-M25MPS3">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
@@ -73,7 +73,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mpe3">
         <h2>WNC-M25MPE3</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-ec-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-ec-preview.png" alt="WNC-M25MPS3">
         </div>
         <h3>Embedded<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
@@ -108,7 +108,7 @@ layout: default
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/Subnero-MF-Modems-gen3.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/modem3.jpg">
+            <img src="{{site.baseurl}}/brochures/modem3.jpg" alt="Subnero M25M Underwater Modems brochure">
             <span>Subnero M25M Underwater Modems</span>
           </a>
         </div>

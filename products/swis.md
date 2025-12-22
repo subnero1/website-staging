@@ -71,12 +71,10 @@ excerpt: A modular underwater operations platform that integrates communication,
 <section id="adcp-edition" class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">ADCP Edition</h2>
-    <!-- <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p> -->
   </div>
 
   <div class="row" style="margin-top:0;">
     <div class="large-6 columns ">
-      <!-- <img alt="Unetstack" src="{{site.baseurl}}/images/boxart-unet.png" style="width:100%; height:auto; border-radius: 12px"/> -->
       <img alt="Subnero Underwater Network (SUN)" src="{{site.baseurl}}/images/lp2.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>   
     <div class="large-6 columns"> 

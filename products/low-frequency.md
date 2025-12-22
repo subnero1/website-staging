@@ -16,7 +16,7 @@ order: 2
             {% if page.title contains "WNC-L12LSS4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <img alt="L12L Series Lang-range smart modems" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>Standalone Configuration <br>WNC-L12LSS4</h2>
                     </div>
@@ -31,7 +31,7 @@ order: 2
             {% if page.title contains "WNC-L12LSO4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <img alt="OEM Configuration - WNC-L12LHSO4" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>OEM Configuration <br>WNC-L12LHSO4</h2>
                     </div>

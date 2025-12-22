@@ -29,7 +29,7 @@ Subnero's multi-receiver smart modems utilize advanced spatial diversity combini
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mss4+xch.png"/>
+    <img class = "align-self-start mr-3" alt="Multi-receiver Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mss4+xch.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Multi-receiver Configuration</h3>
           <p>With multiple synchronous channels, a multi-receiver modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>
@@ -76,11 +76,11 @@ Subnero's multi-receiver smart modems utilize advanced spatial diversity combini
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem5.jpg" alt="Subnero Multi-receiver Configuration Modems"></a>
       <a href="{{site.baseurl}}/brochures/Subnero-MR-Modems.pdf" target="_blank">Subnero Multi-receiver Configuration Modems</a>
     </div>
     <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg" alt="Generation 4 WNC Product Series Brief"></a>
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">Generation 4 Wireless Networked Communications (WNC), Product Series Brief</a>
     </div>
   </div>

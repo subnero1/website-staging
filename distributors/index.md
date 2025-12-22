@@ -17,7 +17,7 @@ image: images/distributors-grey.jpg
 <div class='full'>
   <div class='row'>
     <h1 class="thin">{{page.title}}</h1>
-    <div><img alt="" src="{{site.baseurl}}/{{page.image}}" usemap="#distributor-map"/></div>
+    <div><img alt="Distributors" src="{{site.baseurl}}/{{page.image}}" usemap="#distributor-map"/></div>
     <map name="distributor-map">
     {% for member in site.data.distributors %}
     <area shape='circle' coords="{{ member.coords}}" href="{{member.web}}" target="_blank" alt="{{member.title}}"/>
@@ -36,7 +36,7 @@ image: images/distributors-grey.jpg
       <div class='distributor-cards'>
         <a href='{{member.web}}' target="_blank">
           <div class='distributor-img'>
-              <img alt="" src="{{site.baseurl}}/{{member.thumbnail}}" />
+              <img alt="Distributors" src="{{site.baseurl}}/{{member.thumbnail}}" />
           </div>
         </a>
         <div class='distributor-info'>

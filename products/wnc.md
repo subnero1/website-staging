@@ -206,14 +206,14 @@ section_id: products
   <div class="row">
     <div class="feature-grid col2">
       <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x" title="Standalone">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Standalone">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Standalone Configuration">
         <div>
           <h4>Standalone Configuration</h4>
           <p>The ready-to-use option for simple deployments.</p>
         </div>
       </a>
       <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x" title="OEM">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="OEM">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="Open Configuration">
         <div>
           <h4>Open Configuration</h4>
           <p>The flexible choice for custom integrations.</p>
@@ -245,7 +245,7 @@ section_id: products
   <div class="row">
     <div class="feature-grid single-col">
       <a class="usecase-card asr" href="{{site.baseurl}}/products/gen4x/accessories/" title="Optional Accessories & Upgrades">
-        <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Optional Accessories & Upgrades">
+        <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Components, Accessories & Optional Upgrades">
         <div>
           <h4 class="text-md">Components, Accessories & Optional Upgrades</h4>
           <p>Enhance your Subnero modem’s capabilities with a range of accessories designed for seamless integration. From options such as additional receiving channels, co-processors, and expanded storage to hull configurations and specialized cables, these add-ons help tailor each system to your specific deployment needs.</p>
@@ -259,7 +259,7 @@ section_id: products
 
 <section id="unetstack" class="g4x-section ueco bg-gradient-img" style="background-image: url({{site.baseurl}}/images/unetstack-abstract-01.jpg);">
   <div class="g4x-section-head logo">
-    <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
+    <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="The UnetStack Ecosystem" />
     <h2 class="sec-head lg text-gradient g-orange">The UnetStack Ecosystem</h2>
   </div>
   <div class="row large header-2col relative wnc-ueco">
@@ -314,21 +314,21 @@ section_id: products
     <div class="feature-grid blue-economy col3">
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Defense">
+          <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Powering the Blue Economy - Defense">
         </div>
         <h4>Defense</h4>
         <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defence operations.</p>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Commercial">
+          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Powering the Blue Economy - Commercial">
         </div>
         <h4>Offshore, Marine & Subsea</h4>
         <p>Trusted by leading offshore operators and survey companies worldwide, WNC product series offer robust communication performance and proven worldwide support across demanding offshore and subsea environments.</p>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Scientific Research">
+          <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Powering the Blue Economy - Scientific Research">
         </div>
         <h4>Scientific Research</h4>
         <p>WNC provides a flexible research platform with a customizable network stack, multi-language support, full simulation tools, and arbitrary waveform capabilities ideal for underwater communication and localisation R&D.</p>

@@ -36,7 +36,7 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-s40hso4.png"/>
+    <img class = "align-self-start mr-3" alt="OEM Configuration" src="{{site.baseurl}}/images/boxart-wnc-s40hso4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
         <p>The OEM configuration (OC) streamlines integration and enhances adaptability, rendering it an ideal choice for seamless integration into subsea platforms like AUVs, ROVs, and sensor systems. Furthermore, it offers a pressure hull option specifically designed for free-flooded platforms, ensuring comprehensive compatibility across diverse marine environments.</p>
@@ -97,11 +97,11 @@ Designed as a versatile workhorse, Subnero's silver edition smart modem offers u
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg" alt="Subnero S40H Underwater Modems brochure"></a>
       <a href="{{site.baseurl}}/brochures/Subnero-HF-Modems.pdf" target="_blank">Subnero S40H Underwater Modems</a>
     </div>
     <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg" alt="Generation 4 WNC Product Series Brief"></a>
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">Generation 4 Wireless Networked Communications (WNC), Product Series Brief</a>
     </div>
   </div>

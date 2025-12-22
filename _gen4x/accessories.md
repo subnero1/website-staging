@@ -27,12 +27,12 @@ order: 4
   <div class="row">
     <div class="card-wrapper">
     {% for product in site.data.gen4x_products.accessories.products %}
-      <a class="product-card" href="{{site.baseurl}}{{product.link }}">
+      <a class="product-card" href="{{ site.baseurl}}{{product.link }}">
         <div class="card-tag {{ product.edition | downcase }}">{{product.edition}} Edition </div>
         <div class="card-title type"></div>
         <div class="card-title name">{{ product.name }}</div>
         <div class="product-img">
-          <img src="{{site.baseurl}}{{product.image }}">
+          <img src="{{site.baseurl}}{{product.image }}" alt="{{ product.name }}">
         </div>
         <div class="details-link">View Details →</div>
       </a>

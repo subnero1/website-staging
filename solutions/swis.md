@@ -23,7 +23,6 @@ tabs: swancomponents
 <section id="adcp-edition" class="g4x-section">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Wireless Connectivity for ADCPs</h2>
-    <!-- <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p> -->
   </div>
 </section>
 
@@ -71,7 +70,7 @@ tabs: swancomponents
       </div>
     </div>
     <div class="large-6 columns container accordion-img">
-      <img src="{{site.baseurl}}/images/adcp-deploy.jpg">
+      <img src="{{site.baseurl}}/images/adcp-deploy.jpg" alt="Subnero Wireless Integrated Solution">
     </div>
   </div>
 </div>
@@ -203,13 +202,13 @@ tabs: swancomponents
       <div class="large-6 columns">
         <div class="flex-col bg-white card-content">
           <h2>Pre-deployment</h2>
-          <img src="{{site.baseurl}}/images/swis-deploy-01.png">
+          <img src="{{site.baseurl}}/images/swis-deploy-01.png" alt="Pre-deployment">
         </div>
       </div>
       <div class="large-6 columns">
         <div class="flex-col bg-white card-content">
           <h2>During Deployment</h2>
-          <img src="{{site.baseurl}}/images/swis-deploy-02.png">
+          <img src="{{site.baseurl}}/images/swis-deploy-02.png" alt="During Deployment">
         </div>
       </div>
     </div>
@@ -259,7 +258,7 @@ tabs: swancomponents
     <div class="large-12 columns flex-col">
       <h2>Brochures</h2>
       <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class="brochure-margin"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class="brochure-margin"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg" alt="SWIS ADCP Edition Brochure"></a>
         <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank">Subnero Wireless Integrated Suite (SWIS), ADCP Edition</a>
       </div>
     </div>

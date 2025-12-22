@@ -20,7 +20,7 @@ order: 3
 			{% for page in product_pages %}
 				{% if page.title contains "Coprocessor" %}
 		        <div class='mod modBlogPost bg-grey'>
-		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="Co-processors" src="{{site.baseurl}}/{{page.thumbnail}}"/>
 		          	<div class='content'>
 		            <h2>Co-processors</h2>
 		          </div></a>
@@ -33,7 +33,7 @@ order: 3
 			{% for page in product_pages %}
 				{% if page.title contains "Sensors" %}
 		        <div class='mod modBlogPost bg-grey'>
-		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="Sensors" src="{{site.baseurl}}/{{page.thumbnail}}"/>
 		          	<div class='content'>
 		            <h2>Sensors</h2>
 		          </div></a>
@@ -46,7 +46,7 @@ order: 3
 			{% for page in product_pages %}
 				{% if page.title contains "Storage" %}
 		        <div class='mod modBlogPost bg-grey'>
-		        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+		        	<a href="{{site.baseurl}}{{page.url}}#embedded"><img alt="Storage" src="{{site.baseurl}}/{{page.thumbnail}}"/>
 		          	<div class='content'>
 		            <h2>Storage</h2>
 		          </div></a>
@@ -65,7 +65,7 @@ order: 3
 			{% for page in product_pages %}
 				{% if page.title contains "Hulls" %}
 		        <div class='mod modBlogPost bg-grey'>
-		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="Hull Options" src="{{site.baseurl}}/{{page.thumbnail}}"/>
 		          	<div class='content'>
 		            <h2>Hull Options</h2>
 		          </div></a>
@@ -78,7 +78,7 @@ order: 3
 			{% for page in product_pages %}
 				{% if page.title contains "Cables" %}
 		        <div class='mod modBlogPost bg-grey'>
-		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+		        	<a href="{{site.baseurl}}{{page.url}}"><img alt="Cables" src="{{site.baseurl}}/{{page.thumbnail}}"/>
 		          	<div class='content'>
 		            <h2>Cables</h2>
 		          </div></a>

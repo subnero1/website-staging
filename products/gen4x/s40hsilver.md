@@ -10,17 +10,17 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-02.png" alt="Product Image 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-03.png" alt="Product Image 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-04.png" alt="Product Image 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-01.png" alt="S40H Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-02.png" alt="S40H Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-03.png" alt="S40H Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/S40H-silver-gallery-04.png" alt="S40H Series">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-01.png" alt="Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-02.png" alt="Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-01.png" alt="S40H Series">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-02.png" alt="S40H Series">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-03.png" alt="S40H Series">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/S40H-silver-thumb-04.png" alt="S40H Series">
           </div>
         </div>
         <!-- ./slider -->
@@ -60,7 +60,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-feature.png" />
+        <img src="{{site.baseurl}}/images/gen4x/S40H-silver-feature.png" alt="S40H Series" />
       </div>
     </div>
   </section>
@@ -76,7 +76,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hss4x">
         <h2>WNC-S40HSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/S40H-silver-sc-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/S40H-silver-sc-preview.png" alt="WNC-S40HSS4X">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
@@ -84,7 +84,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-s40hso4x">
         <h2>WNC-S40HSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/S40H-silver-oc-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/S40H-silver-oc-preview.png" alt="WNC-S40HSO4X">
         </div>
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
@@ -118,7 +118,7 @@ layout: default
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/gen4x-S40H-modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/gen4x-S40H-modems.jpg">
+            <img src="{{site.baseurl}}/brochures/gen4x-S40H-modems.jpg" alt="Subnero S40H Series Underwater Modem brochure">
             <span>Subnero S40H Series Underwater Modems</span>
           </a>
         </div>

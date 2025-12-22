@@ -30,7 +30,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mss4.png"/>
+    <img class = "align-self-start mr-3" alt="Standalone Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mss4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
         <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an external power source, which could be a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
@@ -91,11 +91,11 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg" alt="Subnero M25M Underwater Modems"></a>
       <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
     </div>
     <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg" alt="Generation 4 WNC Product Series Brief"></a>
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">Generation 4 Wireless Networked Communications (WNC), Product Series Brief</a>
     </div>
   </div>

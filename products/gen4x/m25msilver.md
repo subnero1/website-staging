@@ -10,17 +10,17 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-01.png" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="Product Image 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-03.png" alt="Product Image 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-04.png" alt="Product Image 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-01.png" alt="M25M Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-02.png" alt="M25M Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-03.png" alt="M25M Series">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-gallery-04.png" alt="M25M Series">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-01.png" alt="Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-02.png" alt="Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-03.png" alt="Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-04.png" alt="Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-01.png" alt="M25M Series">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-02.png" alt="M25M Series">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-03.png" alt="M25M Series">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-thumb-04.png" alt="M25M Series">
           </div>
         </div>
         <!-- ./slider -->
@@ -62,7 +62,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-feature.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-feature.png" alt="M25M Series" />
       </div>
     </div>
   </section>
@@ -78,7 +78,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x">
         <h2>WNC-M25MSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="WNC-M25MSS4X">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or power supply.</p>
@@ -86,7 +86,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x">
         <h2>WNC-M25MSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png">
+          <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="WNC-M25MSO4X">
         </div>
         <h3>Open<br />Configuration</h3>
         <p>Integration-ready electronics for AUVs, ROVs, and sensor platforms.</p>
@@ -118,7 +118,7 @@ layout: default
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/gen4x-M25M-modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/gen4x-M25M-modems.jpg">
+            <img src="{{site.baseurl}}/brochures/gen4x-M25M-modems.jpg" alt="Subnero M25M Series Underwater Modems brochure">
             <span>Subnero M25M Series Underwater Modems</span>
           </a>
         </div>

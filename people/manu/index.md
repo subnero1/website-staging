@@ -5,7 +5,7 @@ banner: images/banner-about.jpg
 ---
 
 <div>
-	<img src="/images/people/manu.jpg" style="width:30%">
+	<img src="/images/people/manu.jpg" style="width:30%" alt="Manu Ignatius">
 </div>
 <div class="spacing"></div>
 

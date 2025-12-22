@@ -32,13 +32,13 @@ section_id: products
     <div class="large-7 columns">
       <div class="unetcube-images">
         <div>
-          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube1.jpg" />
+          <img alt="Build Your Own Underwater Modem" src="{{site.baseurl}}/images/flat-unetcube1.jpg" />
         </div>
         <div>
-          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube2.jpg" />
+          <img alt="Build Your Own Underwater Modem" src="{{site.baseurl}}/images/flat-unetcube2.jpg" />
         </div>
         <div class="cols-full">
-          <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetcube3.jpg" />
+          <img alt="Build Your Own Underwater Modem" src="{{site.baseurl}}/images/flat-unetcube3.jpg" />
         </div>
       </div>
     </div>  
@@ -102,7 +102,7 @@ section_id: products
   <div class="unetcube-usecase">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/usecase-unetcube1.jpg" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetcube1.jpg" alt="UnetCube for HIL Simulation">
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-violet">UnetCube for HIL Simulation</h3>
@@ -111,7 +111,7 @@ section_id: products
     </div>
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/usecase-unetcube2.jpg" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetcube2.jpg" alt="Build Your Own Modem">
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-violet">Build Your Own Modem</h3>
@@ -120,7 +120,7 @@ section_id: products
     </div>
     <div class="usecase two-col">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/usecase-unetcube3.jpg" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetcube3.jpg" alt="UnetCube as a Network Controller">
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-violet">UnetCube as a Network Controller</h3>
