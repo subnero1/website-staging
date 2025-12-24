@@ -4958,7 +4958,7 @@ body:has(dialog[open]) { overflow: hidden; }
 /* User sotry */
 .user-story-card {
   display: grid;
-  grid-template-columns: .7fr 1fr;
+  grid-template-columns: 340px 1fr;
   gap: 2rem;
   align-items: flex-start;
   background-color: #EFF6FF;
