@@ -6,7 +6,7 @@ layout: default
   <section class="intro category-container">
     <div class="category-row">
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-gallery-01.png" alt="S1000-N Underwater Modems" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-gallery-01.png" alt="Subnero S1000-N Bronze Edition Underwater Modem Gallery View" />
       </div>
       <div class="large-7 columns">
           <div class="card-tag bronze">Bronze Edition</div>
@@ -34,7 +34,7 @@ layout: default
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-feature.png" alt="S1000-N Underwater Modems" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-feature.png" alt="Subnero S1000-N Bronze Edition Underwater Modem Feature Image" />
       </div>
     </div>
   </section>
@@ -51,7 +51,7 @@ layout: default
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/S1000-N.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/s1000n.jpg" alt="S1000-N Underwater Modems brochure">
+            <img src="{{site.baseurl}}/brochures/s1000n.jpg" alt="Subnero S1000-N Underwater Modems Brochure Thumbnail">
             <span>S1000-N Underwater Modems</span>
           </a>
         </div>

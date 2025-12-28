@@ -10,17 +10,17 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" alt="L12L Series modem">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-02.png" alt="L12L Series modem">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-03.png" alt="L12L Series modem">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-04.png" alt="L12L Series modem">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-01.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-02.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-03.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 3">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/L12L-silver-gallery-04.png" alt="Subnero L12L Series Silver Edition Modem Gallery View 4">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-01.png" alt="L12L Series modem">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-02.png" alt="L12L Series modem">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-03.png" alt="L12L Series modem">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-04.png" alt="L12L Series modem">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-01.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-02.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 2">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-03.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 3">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/L12L-silver-thumb-04.png" alt="Subnero L12L Series Silver Edition Modem Thumbnail 4">
           </div>
         </div>
         <!-- ./slider -->
@@ -62,7 +62,7 @@ layout: default
         <p class="note">* Depending on channel conditions and reliability requirements.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-feature.png" alt="L12L Series modem" />
+        <img src="{{site.baseurl}}/images/gen4x/L12L-silver-feature.png" alt="Subnero L12L Series Silver Edition Modem Feature Image" />
       </div>
     </div>
   </section>
@@ -78,7 +78,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-l12lss4x">
         <h2>WNC-L12LSS4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/L12L-silver-sc-preview.png" alt="WNC-L12LSS4X">
+          <img src="{{site.baseurl}}/images/gen4x/L12L-silver-sc-preview.png" alt="Subnero WNC-L12LSS4X Standalone Configuration Preview">
         </div>
         <h3>Standalone Configuration</h3>
         <p>Self-contained modem powered by an external battery or supply.</p>
@@ -86,7 +86,7 @@ layout: default
       <a class="product-card card-dialog" href="javascript:void(0)" data-product="wnc-l12lhso4x">
         <h2>WNC-L12LSO4X</h2>
         <div class="product-img">
-          <img src="{{site.baseurl}}/images/gen4x/L12L-silver-oc-preview.png" alt="WNC-L12LSO4X">
+          <img src="{{site.baseurl}}/images/gen4x/L12L-silver-oc-preview.png" alt="Subnero WNC-L12LSO4X Open Configuration Preview">
         </div>
         <h3>Open <br />Configuration</h3>
         <p>Integration-ready design for AUVs, ROVs, and sensor platforms.</p>
