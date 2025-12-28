@@ -32,13 +32,13 @@ section_id: products
     <div class="large-7 columns">
       <div class="unetcube-images">
         <div>
-          <img alt="Build Your Own Underwater Modem" src="{{site.baseurl}}/images/flat-unetcube1.jpg" />
+          <img alt="UnetCube for HIL Simulation" src="{{site.baseurl}}/images/flat-unetcube1.jpg" />
         </div>
         <div>
-          <img alt="Build Your Own Underwater Modem" src="{{site.baseurl}}/images/flat-unetcube2.jpg" />
+          <img alt="UnetCube for Modem Development" src="{{site.baseurl}}/images/flat-unetcube2.jpg" />
         </div>
         <div class="cols-full">
-          <img alt="Build Your Own Underwater Modem" src="{{site.baseurl}}/images/flat-unetcube3.jpg" />
+          <img alt="UnetCube as a Network Controller" src="{{site.baseurl}}/images/flat-unetcube3.jpg" />
         </div>
       </div>
     </div>  

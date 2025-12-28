@@ -17,7 +17,7 @@ order: 2
             {% if page.title contains "WNC-S40HSS4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <img alt="Standalone Configuration - WNC-S40HSS4" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <img alt="Subnero WNC-S40HSS4 Standalone High Frequency Modem" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>Standalone Configuration <br>WNC-S40HSS4</h2>
                     </div>
@@ -32,7 +32,7 @@ order: 2
             {% if page.title contains "WNC-S40HSO4" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <img alt="OEM Configuration - WNC-S40HSO4" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <img alt="Subnero WNC-S40HSO4 OEM High Frequency Modem" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>OEM Configuration <br>WNC-S40HSO4</h2>
                     </div>
@@ -47,7 +47,7 @@ order: 2
             {% if page.title contains "WNC-S40HSS4+xCh" %}
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
-                    <img alt="Multi-Receiver Configuration - WNC-S40HSS4+xCh" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <img alt="Subnero WNC-S40HSS4 Multi-Receiver High Frequency Modem" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                     <div class='content'>
                         <h2>Multi-Receiver Configuration <br>WNC-S40HSS4+xCh</h2>
                     </div>

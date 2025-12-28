@@ -28,7 +28,7 @@ section_id: products
       <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Simulate Real Ocean Conditions" src="{{site.baseurl}}/images/flat-hilsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Hardware-in-the-Loop Simulation Setup" src="{{site.baseurl}}/images/flat-hilsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

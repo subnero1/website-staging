@@ -29,7 +29,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="OEM Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mso4.png"/>
+    <img class = "align-self-start mr-3" alt="Subnero WNC-M25MSO4 OEM Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mso4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
         <p>The OEM configuration (OC) is tailored to facilitate seamless integration and adaptability, making it a top pick for incorporation into larger platforms, such as AUVs, ROVs, and sensors. Additionally, for free flooded platforms, it comes equipped with a pressure hull option.</p>

@@ -177,21 +177,21 @@ section_id: products
   <div class="row large py2">
     <div class="feature-grid col3">
       <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mplatinum.html" title="Platinum Edition">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-preview.png" alt="Platinum Edition">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-platinum-preview.png" alt="Subnero M25M Platinum Edition Underwater Modem">
         <div>
           <h4>Platinum Edition</h4>
           <p>The ultimate performance for defense missions.</p>
         </div>
       </a>
       <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25msilver.html" title="Silver Edition">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-preview.png" alt="Silver Edition">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-preview.png" alt="Subnero M25M Silver Edition Underwater Modem">
         <div>
           <h4>Silver Edition</h4>
           <p>The reliable workhorse for offshore, marine & subsea deployments.</p>
         </div>
       </a>
       <a class="usecase-card" href="{{site.baseurl}}/products/gen4x/m25mbronze.html" title="Bronze Edition">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-preview.png" alt="Bronze Edition">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-bronze-preview.png" alt="Subnero M25M Bronze Edition Underwater Modem">
         <div>
           <h4>Bronze Edition</h4>
           <p>The ideal starting point for entry-level enthusiasts and educators.</p>
@@ -206,14 +206,14 @@ section_id: products
   <div class="row">
     <div class="feature-grid col2">
       <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mss4x" title="Standalone">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Standalone Configuration">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-sc-preview.png" alt="Subnero Standalone Configuration Underwater Modem">
         <div>
           <h4>Standalone Configuration</h4>
           <p>The ready-to-use option for simple deployments.</p>
         </div>
       </a>
       <a class="usecase-card card-dialog" href="javascript:void(0)" data-product="wnc-m25mso4x" title="OEM">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="Open Configuration">
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-oc-preview.png" alt="Subnero Open Configuration Underwater Modem">
         <div>
           <h4>Open Configuration</h4>
           <p>The flexible choice for custom integrations.</p>
@@ -245,7 +245,7 @@ section_id: products
   <div class="row">
     <div class="feature-grid single-col">
       <a class="usecase-card asr" href="{{site.baseurl}}/products/gen4x/accessories/" title="Optional Accessories & Upgrades">
-        <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Components, Accessories & Optional Upgrades">
+        <img src="{{site.baseurl}}/images/gen4x/gen4x-accessories-cover.png" alt="Subnero Gen4x Modem Accessories and Upgrades">
         <div>
           <h4 class="text-md">Components, Accessories & Optional Upgrades</h4>
           <p>Enhance your Subnero modem’s capabilities with a range of accessories designed for seamless integration. From options such as additional receiving channels, co-processors, and expanded storage to hull configurations and specialized cables, these add-ons help tailor each system to your specific deployment needs.</p>
@@ -314,21 +314,21 @@ section_id: products
     <div class="feature-grid blue-economy col3">
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Powering the Blue Economy - Defense">
+          <img src="{{site.baseurl}}/images/thumbnail-defense.png" alt="Subnero Underwater Technology for Defense Applications">
         </div>
         <h4>Defense</h4>
         <p>WNC product series provide reliable underwater communication, adaptive performance, high-fidelity acoustic simulation, diver communication and tracking, and MIL-standard compliance for defence operations.</p>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Powering the Blue Economy - Commercial">
+          <img src="{{site.baseurl}}/images/thumbnail-offshore.png" alt="Subnero Underwater Technology for Offshore, Marine & Subsea Applications">
         </div>
         <h4>Offshore, Marine & Subsea</h4>
         <p>Trusted by leading offshore operators and survey companies worldwide, WNC product series offer robust communication performance and proven worldwide support across demanding offshore and subsea environments.</p>
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Powering the Blue Economy - Scientific Research">
+          <img src="{{site.baseurl}}/images/thumbnail-research.png" alt="Subnero Underwater Technology for Scientific Research">
         </div>
         <h4>Scientific Research</h4>
         <p>WNC provides a flexible research platform with a customizable network stack, multi-language support, full simulation tools, and arbitrary waveform capabilities ideal for underwater communication and localisation R&D.</p>
@@ -341,7 +341,7 @@ section_id: products
     <div class="feature-grid blue-economy col2">
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/wnc-mr03.jpg" alt="Marine Robotics">
+          <img src="{{site.baseurl}}/images/wnc-mr03.jpg" alt="Subnero Modems for Marine Robotics Integration">
         </div>
         <h4>Marine Robotics</h4>
         <p>UnetStack simplifies communication and data handling for underwater vehicles by unifying interfaces, managing diverse data types, and ensuring seamless connectivity across multiple links.</p>
@@ -371,7 +371,7 @@ section_id: products
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/swis-iot.jpg" alt="Underwater Sensors">
+          <img src="{{site.baseurl}}/images/swis-iot.jpg" alt="Subnero Modems for Underwater IoT Sensors">
         </div>
         <h4>Underwater IoT</h4>
         <p>SWIS delivers an integration-ready platform designed for easy deployment of underwater sensors, offering simplified setup, broad compatibility, and efficient data management.</p>
@@ -401,7 +401,7 @@ section_id: products
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/divers.jpg" alt="Underwater Networks">
+          <img src="{{site.baseurl}}/images/divers.jpg" alt="Subnero Modems for Divers">
         </div>
         <h4>Diver Communication and Localization</h4>
         <p>Subnero’s WNC product series enables reliable communication, and positioning capabilities for commercial, scientific, and defence diving operations, ensuring safer and more coordinated underwater missions.</p>
@@ -431,7 +431,7 @@ section_id: products
       </div>
       <div class="usecase-card">
         <div class="img-wrapper">
-          <img src="{{site.baseurl}}/images/Network4.0.jpg" alt="Underwater Networks">
+          <img src="{{site.baseurl}}/images/Network4.0.jpg" alt="Subnero Underwater Networks">
         </div>
         <h4>Underwater Networks</h4>
         <p>The WNC product series integrates Subnero’s smart modems and UnetStack software to form the Subnero Underwater Network (SUN) — a scalable, flexible, and extensible platform for underwater communication and positioning.</p>

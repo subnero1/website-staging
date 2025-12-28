@@ -26,10 +26,10 @@ excerpt: Co-processor for Subnero underwater acoustic smart modems.
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor01.jpg' alt="Additional processing module for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor02.jpg' alt="Additional processing module for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor03.jpg' alt="Additional processing module for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor04.jpg' alt="Additional processing module for Subnero underwater modems"></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor01.jpg' alt="Subnero Modem Co-processor Module - View 1"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor02.jpg' alt="Subnero Modem Co-processor Module - View 2"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor03.jpg' alt="Subnero Modem Co-processor Module - View 3"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-coprocessor04.jpg' alt="Subnero Modem Co-processor Module - View 4"></a></div>
               </div>
             </div>
         </div>

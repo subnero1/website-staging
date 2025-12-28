@@ -70,7 +70,7 @@ tabs: swancomponents
       </div>
     </div>
     <div class="large-6 columns container accordion-img">
-      <img src="{{site.baseurl}}/images/adcp-deploy.jpg" alt="Subnero Wireless Integrated Solution">
+      <img src="{{site.baseurl}}/images/adcp-deploy.jpg" alt="Subnero Wireless Integrated Solution (SWIS) Deployment">
     </div>
   </div>
 </div>
@@ -202,13 +202,13 @@ tabs: swancomponents
       <div class="large-6 columns">
         <div class="flex-col bg-white card-content">
           <h2>Pre-deployment</h2>
-          <img src="{{site.baseurl}}/images/swis-deploy-01.png" alt="Pre-deployment">
+          <img src="{{site.baseurl}}/images/swis-deploy-01.png" alt="SWIS Pre-deployment Configuration">
         </div>
       </div>
       <div class="large-6 columns">
         <div class="flex-col bg-white card-content">
           <h2>During Deployment</h2>
-          <img src="{{site.baseurl}}/images/swis-deploy-02.png" alt="During Deployment">
+          <img src="{{site.baseurl}}/images/swis-deploy-02.png" alt="SWIS During Deployment Operation">
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ Subnero's multi-receiver smart modems utilize advanced spatial diversity combini
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="Multi-receiver Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mss4+xch.png"/>
+    <img class = "align-self-start mr-3" alt="Subnero WNC-M25MSS4+XCH Multi-receiver Modem" src="{{site.baseurl}}/images/boxart-wnc-m25mss4+xch.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Multi-receiver Configuration</h3>
           <p>With multiple synchronous channels, a multi-receiver modem can effectively process and optimize data transfer in a given environment, ensuring the best possible communication performance. This configuration improves the speed and reliability of communication while reducing errors and interference.</p>

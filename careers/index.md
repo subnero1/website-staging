@@ -32,7 +32,7 @@ headerTag: Careers
     </div>
     <div class="large-6 columns ">
       <figure class="col-figure no-shadow">
-        <img alt="Subnero careers" src="{{site.baseurl}}/images/careers-01.jpg" />
+        <img alt="Subnero Modems on a Pier" src="{{site.baseurl}}/images/careers-01.jpg" />
       </figure>
     </div>
   </div>

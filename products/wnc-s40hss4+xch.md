@@ -13,7 +13,7 @@ section_id: products
 Engineered with cutting-edge spatial diversity combining techniques to optimize data extraction across multiple receiving channels, Subnero's multi-receiver configuration smart modems redefine underwater communication performance, delivering unparalleled reliability in the most demanding environments. Moreover, their distinctive feature allows for the synchronized recording of raw signals from multiple hydrophones, empowering users with a versatile toolkit for innovative applications, including localization and passive acoustic monitoring.
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/mc-performance.png" class='pulse-img' alt="Multi-receiver Configuration Modem">
+    <img src="{{site.baseurl}}/images/mc-performance.png" class='pulse-img' alt="Subnero Multi-receiver Modem Performance Graph">
 </div>
 
 ## Applications
@@ -39,7 +39,7 @@ Engineered with cutting-edge spatial diversity combining techniques to optimize 
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="Multi-receiver Configuration" src="{{site.baseurl}}/images/boxart-wnc-s40hss4+xch.png"/>
+    <img class = "align-self-start mr-3" alt="Subnero S40H series Multi-receiver Modem" src="{{site.baseurl}}/images/boxart-wnc-s40hss4+xch.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Multi-receiver Configuration</h3>
           <p>Utilizing several synchronized channels, a multi-receiver modem adeptly manages and optimizes data transmission within its operating environment, guaranteeing optimal communication performance. This setup enhances both the speed and reliability of data transfer and provides a better user experience.</p>

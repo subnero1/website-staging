@@ -22,14 +22,14 @@ excerpt: Additional hull options for Subnero underwater acoustic smart modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Hull Options">
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Options">
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Hull Options"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Hull Options"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Hull Options"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Hull Options"></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull01.jpg' alt="Subnero Modem Hull Option - Stainless Steel"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull02.jpg' alt="Subnero Modem Hull Option - Titanium"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull03.jpg' alt="Subnero Modem Hull Option - Aluminum"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-hull04.jpg' alt="Subnero Modem Hull Option - Aluminum"></a></div>
               </div>
             </div>
         </div>

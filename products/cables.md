@@ -26,10 +26,10 @@ excerpt: Cables for Subnero underwater acoustic smart modems.
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Additional cables for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Additional cables for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Additional cables for Subnero underwater modems"></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Additional cables for Subnero underwater modems"></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Subnero Underwater Modem Cable - Type 1"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables02.jpg' alt="Subnero Underwater Modem Cable - Type 2"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables03.jpg' alt="Subnero Underwater Modem Cable - Type 3"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-cables04.jpg' alt="Subnero Underwater Modem Cable - Type 4"></a></div>
               </div>
             </div>
         </div>

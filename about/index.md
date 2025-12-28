@@ -95,7 +95,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
   <div class="row large">
     <div class="large-6 columns">
         <figure class="col-figure">
-        <img alt="Unetstack" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" />
+        <img alt="Subnero Gen4X WNC Underwater Modems" src="{{site.baseurl}}/images/Gen4XWNC-group.jpg" />
         </figure>
     </div>  
     <div class="large-6 columns">
@@ -118,7 +118,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     </div>
     <div class="large-6 columns">
       <figure class="col-figure no-shadow">
-        <img alt="Unetstack" src="{{site.baseurl}}/images/about-image-full.jpg" />
+        <img alt="Subnero Team Photo" src="{{site.baseurl}}/images/about-image-full.jpg" />
       </figure>
     </div>  
   </div>

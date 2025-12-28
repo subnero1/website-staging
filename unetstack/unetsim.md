@@ -28,7 +28,7 @@ section_id: products
       <p>It lets users design, test and validate underwater communication and networking solutions on a laptop, then deploy them at sea with zero code changes.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Design Your Underwater Network" src="{{site.baseurl}}/images/flat-unetsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="UnetSim Network Simulator Interface" src="{{site.baseurl}}/images/flat-unetsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

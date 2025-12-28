@@ -37,7 +37,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
     </div>
     <div class="large-6 columns ">
-      <img alt="Subnero Wireless Integrated Suite (SWIS)" src="{{site.baseurl}}/images/Network4.0.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Subnero Underwater Network (SUN) Network Diagram" src="{{site.baseurl}}/images/Network4.0.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

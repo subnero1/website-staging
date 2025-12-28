@@ -12,7 +12,7 @@ section_id: products
     <div class="hero-text">
       <h4 class="g4x-tag">A modern framework for software-defined underwater networks</h4>
       <div class="logo-title">
-        <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack" />
+        <img src="{{site.baseurl}}/images/unetstack-logo.svg" alt="UnetStack Underwater Networking Stack Logo" />
         <h1>Unet<span class="text-gradient g-orange">Stack</span></h1>
       </div>
       <p>Design, simulate, and deploy communication networks across subsea and terrestrial domains using a flexible, agent-based architecture.</p>
@@ -79,7 +79,7 @@ section_id: products
     </div>
     <div class="large-6 columns">
       <figure class="col-figure">
-        <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-all.jpg" />
+        <img alt="UnetStack Software Ecosystem Overview" src="{{site.baseurl}}/images/unetstack-all.jpg" />
       </figure>
     </div>  
   </div>
@@ -257,7 +257,7 @@ section_id: products
     </div>
     <div class="large-6 columns">
       <figure class="col-figure">
-        <img alt="Unetstack" src="{{site.baseurl}}/images/unetstack-components.jpg" />
+        <img alt="UnetStack Software Components and Architecture" src="{{site.baseurl}}/images/unetstack-components.jpg" />
       </figure>
     </div>  
   </div>

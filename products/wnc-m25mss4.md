@@ -30,7 +30,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="Standalone Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mss4.png"/>
+    <img class = "align-self-start mr-3" alt="Subnero WNC-M25MSS4 Standalone Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mss4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
         <p>The standalone configuration (SC) is designed with a pressure housing to support different deployment depths and to function on an external power source, which could be a battery for underwater deployments or a power supply when deployed from the water surface. This configuration is optimized for maximum flexibility and reliability in a wide range of deployment scenarios, ensuring seamless and uninterrupted data transmission even in challenging environments.</p>
