@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subnero Wireless Networked Communications
+title: Subnero Wireless Networked Communications (WNC)
 banner : images/hero-wnc.jpg
 thumbnail: images/boxart-modem.png
 excerpt: Subnero Wireless Networked Communications series of products comprising of software defined underwater acoustic smart modems

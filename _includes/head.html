@@ -85,4 +85,8 @@
   {% if site.google_analytics %}
   {% include analytics.html %}
   {% endif %}
+
+  {% if page.layout == 'product' or page.section_id == 'products' %}
+  {% include product_schema.html %}
+  {% endif %}
 </head>

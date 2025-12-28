@@ -6,6 +6,6 @@ faq_section: battery-and-power
 ---
 
 Subnero modems support three operating modes:
-- Transmit Mode: between 2 - 40 W during transmission, fully adjustable.
+- Transmit Mode: between 2 - 45 W during transmission, fully adjustable.
 - Receive Mode: ~3-4 W while listening for incoming packets.
 - Deep Sleep Mode: <1 mW

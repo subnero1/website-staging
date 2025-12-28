@@ -232,3 +232,23 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in site.faq %}
+    {
+      "@type": "Question",
+      "name": {{ faq.title | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.content | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+

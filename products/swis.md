@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Solutions
+title:  Subnero Wireless Integrated Suite (SWIS)
 banner : images/hero-swis.jpg
 excerpt: A modular underwater operations platform that integrates communication, sensing, and automation for seamless subsea data collection.
 ---

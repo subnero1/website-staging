@@ -7,4 +7,4 @@ faq_section: wnc-general
 
 Subnero modems have been tested in diverse environments, including shallow coastal waters, deep seas, and noisy tropical regions, demonstrating reliable performance across varying conditions.
 
-For more information, including relevant publications and magazine articles from Subnero and our customers, visit [https://subnero.com/quicklinks/#publications](https://subnero.com/quicklinks/#publications).
+For more information, including relevant publications and magazine articles from Subnero and our customers, visit [https://subnero.com/technical-resources/#publications](https://subnero.com/technical-resources/#publications).

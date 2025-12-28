@@ -10,4 +10,4 @@ Yes, Subnero modems can interoperate with third-party devices that support stand
 For more details about interoperability, contact us at sales@subnero.com.
 
 **Relevant Links**
-- [Subnero Successfully Demonstrates Interoperability using SWiG Standard at WUWNET 2024](https://subnero.com/wnc/news/2024/11/15/Subnero-Successfully-Demonstrates-Interoperability-using-SWiG-Standard-at-WUWNET-2024.html)
+- [Subnero Successfully Demonstrates Interoperability using SWiG Standard at WUWNET 2024](https://subnero.com/event/case-study/press/2024/11/15/Subnero-Successfully-Demonstrates-Interoperability-using-SWiG-Standard-at-WUWNET-2024.html)
