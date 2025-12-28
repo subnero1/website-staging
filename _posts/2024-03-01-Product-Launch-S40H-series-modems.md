@@ -10,7 +10,7 @@ thumbnail: images/pulse-thumbnail-hf.jpg
 *Singapore, March 11, 2024* – Subnero Pte. Ltd., a leading provider of underwater communication solutions headquartered in Singapore, proudly announces the launch of its latest innovation, the [S40H series](/products/modem.html?&section=S40Hseries) of high-speed acoustic smart modems, marking a significant advancement in wireless networked communication ([WNC](/products/wnc.html)) technology.
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/pulse-hf-pr.jpg" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/pulse-hf-pr.jpg" class='pulse-img' alt="Subnero S40H series high-speed acoustic smart modems">
 </div>
 
 Designed to excel in challenging shallow water conditions, the S40H series introduces a groundbreaking blend of cutting-edge features:

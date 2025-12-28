@@ -19,4 +19,4 @@ We loved being part of the event.
 
 We look forward to attending the next one, hopefully in person.
 
-![](/images/pulse-auv2020.jpg){: .center-image  }
+![IEEE OES AUV 2020 symposium details](/images/pulse-auv2020.jpg){: .center-image  }

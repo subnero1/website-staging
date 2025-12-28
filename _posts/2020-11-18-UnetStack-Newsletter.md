@@ -34,4 +34,5 @@ Did you know that Unet audio is freely available from the same community edition
 
 Read all about in [section 15.4 of UnetStack handbook](https://unetstack.net/handbook/unet-handbook_physical_service.html#_transmitting_receiving_using_unet_audio){:target="_blank"}.
 
-![]({{site.baseurl}}/images/pulse-unetaudio01.jpg){: .center-image  }
+
+![Unet audio logo]({{site.baseurl}}/images/pulse-unetaudio01.jpg){: .center-image  }

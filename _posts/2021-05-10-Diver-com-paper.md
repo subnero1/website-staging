@@ -7,7 +7,7 @@ categories: research feature
 thumbnail: images/pulse-thumbnail-diver-comm-05-2021.jpg
 ---
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/pulse-thumbnail-diver-comm-05-2021.jpg" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/pulse-thumbnail-diver-comm-05-2021.jpg" class='pulse-img' alt="Diver Carrying a Prototype of Subnero's Diver Communication and Tracking System">
 </div>
 
 We are proud to share that our paper titled [_Diver Communication and Localization System using Underwater Acoustics_](https://ieeexplore.ieee.org/abstract/document/9389462){:target="_blank"} has been published in IEEE Xplore.

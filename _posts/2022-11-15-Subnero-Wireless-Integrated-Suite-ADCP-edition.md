@@ -7,7 +7,7 @@ categories: swis product-launch press
 thumbnail: images/pulse-thumbnail-swis.jpg
 ---
 
-![]({{site.baseurl}}/images/swis-cover.jpg){: .center-image  }
+![Subnero Wireless Integrated Suite (SWIS) ADCP edition cover image]({{site.baseurl}}/images/swis-cover.jpg){: .center-image  }
 
 Subnero, a Singapore-headquartered company is launching its latest development: Subnero Wireless Integrated Suite (SWIS) - ADCP edition.
 

@@ -11,4 +11,4 @@ The _open_resource_ magazine, a biannual magazine from [Suez](http://www.suez-en
 
 [The article](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"} interviews Dr. Mandar Chitre, one of the founders of Subnero, and talks about the applications of our underwater communication technology as well as some challenges in connecting the ocean to the internet.
 
-[![width]({{site.baseurl}}/images/pulse-open_resource.jpg){: .center-image }](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"}
+[![Open Resource magazine article featuring Subnero]({{site.baseurl}}/images/pulse-open_resource.jpg){: .center-image }](http://hosting.fluidbook.com/open-resource-magazine-03/#/36){:target="_blank"}

@@ -10,7 +10,7 @@ thumbnail: images/pulse-thumbnail-lf.jpg
 Subnero Launches the L12L Series: Advanced Long-Range Acoustic Smart Modems for Underwater Communication
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/pulse-lf-pr.jpg" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/pulse-lf-pr.jpg" class='pulse-img' alt="Subnero L12L series long-range acoustic smart modems">
 </div>
 
 

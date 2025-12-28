@@ -20,6 +20,6 @@ The Grand Final can be watched [here](https://www.udt-global.com/finalists){:tar
 
 We are now hoping that the travel restrictions, to and from Europe, will be soon lifted so that we can attend the [Undersea Defence Technology - UDT 2021 conference](https://www.udt-global.com/welcome) in Rostock, Germany, in December 2021.
 
-![]({{site.baseurl}}/images/pulse-distec-final-2021.jpeg){: .center-image  }
+![Subnero announced as winner of DisTec Undersea Challenge 2021]({{site.baseurl}}/images/pulse-distec-final-2021.jpeg){: .center-image  }
 
-![]({{site.baseurl}}/images/pulse-distec-finalists-2021.jpeg){: .center-image  }
+![DisTec Undersea Challenge 2021 Winner]({{site.baseurl}}/images/pulse-distec-finalists-2021.jpeg){: .center-image  }

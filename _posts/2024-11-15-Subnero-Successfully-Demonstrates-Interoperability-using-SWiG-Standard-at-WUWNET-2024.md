@@ -10,7 +10,7 @@ thumbnail: images/pulse-thumbnail-swig-interop.jpg
 Subnero recently participated in an interoperability test at the WUWNET 2024 conference in Šibenik, Croatia. The goal of the event was to demonstrate seamless communication between acoustic modems from various vendors using the Subsea Wireless Group's (SWiG) acoustic Level 1 standard specification. We were thrilled to successfully showcase interoperability alongside EvoLogics GmbH, WSENSE and NORCE (research modem) during an in-water demonstration in the Adriatic Sea.
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/swig-interop.png" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/swig-interop.png" class='pulse-img' alt="SWiG interoperability demonstration setup at WUWNET 2024, Croatia">
 </div>
 
 The test setup consisted of one transmitter and four receivers from various participating companies. The transmitting modem broadcasted positioning messages using the SWiG Level 1 standard, while the receivers from various vendors decoded and displayed the information. The shallow water depth and rocky bottom provided a challenging acoustic propagation environment, but it effectively demonstrated the functionality of the SWiG standard in real-world conditions. 

@@ -16,5 +16,5 @@ Do not miss this incredible opportunity to enhance your underwater monitoring de
 Together, let's lend a voice to the ocean and chart a course toward a future of innovation and exploration.
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/pulse-thumbnail-overseas.jpg" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/pulse-thumbnail-overseas.jpg" class='pulse-img' alt="SWIS-ADCP Edition ready to be deployed subsea during a demonstration in Japan">
 </div>

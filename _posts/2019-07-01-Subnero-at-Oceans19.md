@@ -22,7 +22,7 @@ Subnero attends this event once a year, every year. Once again we made new acqua
 We can’t wait for OCEANS 20 in Singapore! #Oceans20Singapore
 
 <div>
-    <img src="{{site.baseurl}}/images/pulse-oceans19-2.jpg" style="margin:5px 25px 5px 100px">
-    <img src="{{site.baseurl}}/images/pulse-oceans19-3.jpg" style="margin:5px">
+    <img src="{{site.baseurl}}/images/pulse-oceans19-2.jpg" style="margin:5px 25px 5px 100px" alt="Subnero presenting at OCEANS 19 Marseille">
+    <img src="{{site.baseurl}}/images/pulse-oceans19-3.jpg" style="margin:5px" alt="Subnero booth at OCEANS 19 Marseille">
 </div>
 <div class="spacing"></div>

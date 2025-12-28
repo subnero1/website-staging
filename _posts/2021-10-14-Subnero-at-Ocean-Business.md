@@ -17,4 +17,4 @@ We loved being part of the event.
 
 We look forward to attending the next in person exhibition [Oceanology International 2022](https://www.oceanologyinternational.com/london/en-gb.html){:target="_blank"}, in London, UK, in March 2022.
 
-![](/images/pulse-ocean-business-2021.jpg){: .center-image  }
+![Subnero team at Ocean Business 2021 exhibition in Southampton](/images/pulse-ocean-business-2021.jpg){: .center-image  }

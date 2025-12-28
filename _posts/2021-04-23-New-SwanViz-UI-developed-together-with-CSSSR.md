@@ -15,10 +15,10 @@ The SwanViz features a dashboard that showcases an overview of various SwanBots 
 
 <div style="display: flex;flex-wrap:wrap;">
     <div style="flex:50%;">
-    <img src="{{site.baseurl}}/images/pulse-swanviz-dashboard.jpg" style='margin: 2em 0 2em 0'>
+    <img src="{{site.baseurl}}/images/pulse-swanviz-dashboard.jpg" style='margin: 2em 0 2em 0' alt="SwanViz dashboard showing SwanBots overview">
     </div>
     <div style="flex:50%;">
-    <img src="{{site.baseurl}}/images/pulse-swanviz-data.jpg" style="margin: 2em 0 2em 2em">
+    <img src="{{site.baseurl}}/images/pulse-swanviz-data.jpg" style="margin: 2em 0 2em 2em" alt="SwanViz data visualization interface">
 </div>
 </div>
 <div class="spacing"></div>

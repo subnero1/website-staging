@@ -8,7 +8,7 @@ thumbnail: images/pulse-thumbnail-network2.jpg
 ---
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/Network4.0.jpg" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/Network4.0.jpg" class='pulse-img' alt="Subnero Underwater Networks">
 </div>
 
 

@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-s1000n.png
 
 Singapore-headquartered [Subnero](http://subnero.com){:target="_blank"} and US-based [Popoto modem](https://www.popotomodem.com/){:target="_blank"} have joined forces to create a powerful new underwater acoustic modem, the [S1000-N](https://subnero.com/products/s1000n.html){:target="_blank"}. This modem combines the best from both companies, bringing together the power of the Popoto’s S1000 series modems and Subnero’s underwater network stack (UnetStack) to enable you to build advanced underwater networks today!.
 
-![]({{site.baseurl}}/images/s1000n.png){: .center-image  }
+![S1000-N underwater acoustic modem by Subnero and Popoto Modem]({{site.baseurl}}/images/s1000n.png){: .center-image  }
 
 With the S1000-N, users can enjoy a data rate of up to 10240 bps over a range of 3+ km. Subnero's technology integration allows users to take full advantage of UnetStack, an underwater networking stack with features such as multi-hop routing, fragmentation & reassembly, contention-free communication, and much more, providing users with a more reliable and efficient way to send data underwater. With a fully functioning network stack out of the box, the S1000-N offers users a powerful and affordable solution for underwater communications.
 

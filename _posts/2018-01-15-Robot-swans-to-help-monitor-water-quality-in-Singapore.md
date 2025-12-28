@@ -7,5 +7,5 @@ thumbnail: images/pulse-thumbnail-swan3.jpg
 ---
 
 <div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/pulse-CNA-SWAN-news.png" class='pulse-img'>
+    <img src="{{site.baseurl}}/images/pulse-CNA-SWAN-news.png" class='pulse-img' alt="Channel NewsAsia report on Robot Swans monitoring water quality">
 </div>

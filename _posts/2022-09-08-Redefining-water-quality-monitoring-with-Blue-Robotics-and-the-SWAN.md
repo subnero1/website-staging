@@ -15,7 +15,7 @@ With the SWAN, issues in the water can be detected quickly, it also provides con
 ### Building an effective monitoring solution using Blue Robotics
 The autonomous SwanBots developed by Subnero utilize several components from [Blue Robotics](https://bluerobotics.com/){:target="_blank"} that are essential for the SwanBots to carry out their necessary operations. The Blue Robotics components fitted on the SwanBots include the T200 thrusters, basic electronic speed controllers, and tether cables used for underwater spooling.
 
-![]({{site.baseurl}}/images/pulse-Marina.jpg){: .center-image  }
+!![Subnero SWAN robot monitoring water quality at a marina]({{site.baseurl}}/images/pulse-Marina.jpg){: .center-image  }
 
 ### Covering new grounds with SWAN
 
@@ -27,12 +27,12 @@ The SwanBot's speed may be controlled using Blue Robotics' [basic electronic spe
 
 On the other hand, when the SwanBot is moving in calmer waters, its speed may be reduced to save the power and at the same time minimize disturbances to the water while monitoring is ongoing. T200 thrusters generally have a low power requirement as compared to others in the market, hence saving on the SwanBot's power and extending its runtime.
 
-![]({{site.baseurl}}/images/pulse-Florence54.jpg){: .center-image  }
+![Subnero SWAN robot deployed in water]({{site.baseurl}}/images/pulse-Florence54.jpg){: .center-image  }
 
 ### Reaching depths, positively
 
 Beyond the surface of the water, the SWAN is capable of monitoring the water quality at depth, to a maximum of 5 meters. This feature is beneficial for users who wish to get a better understanding of the behavior of a phenomenon in the water and the likely cause of it. The [Fathom ROV Tether](https://bluerobotics.com/store/cables-connectors/cables/fathom-rov-tether-by-the-meter/){:target="_blank"} from Blue Robotics is used to power the sensor on the SwanBot while supporting its weight as it reaches various depths for monitoring. The Blue Robotics tether is a lightweight and rugged solution, hence its selection.
 
-![]({{site.baseurl}}/images/pulse-spool.png){: .center-image  }
+![Blue Robotics Fathom ROV Tether spool on Subnero SWAN]({{site.baseurl}}/images/pulse-spool.png){: .center-image  }
 
 It has been great working with Blue Robotics components on the SWAN. Blue Robotics' products has played a necessary role in enabling the SWAN's key functionality of spatio-temporal monitoring in water bodies. Subnero is constantly looking forward to new and innovative products from Blue Robotics to bring on board our platform, to expand the SWAN's capabilities and take on new frontiers.
