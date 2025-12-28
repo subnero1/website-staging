@@ -7,14 +7,6 @@ categories: event
 thumbnail: images/pulse-thumbnail-ocean-business-2021.jpg
 ---
 
-Subnero attended its first in-person exhibition during Ocean Business 2021, in Southampton, UK, in the last 2 years.
-
-The event took place at the National Oceanography Centre from the 12th to the 14th of October 2021, after being postponed from the 13th to 15th of April, because of the pandemic.
-
-It was nice for the team to meet other conference attendees and talk about our technology in person.
-
-We loved being part of the event.
-
-We look forward to attending the next in person exhibition [Oceanology International 2022](https://www.oceanologyinternational.com/london/en-gb.html){:target="_blank"}, in London, UK, in March 2022.
+Subnero returned to in-person exhibitions at Ocean Business 2021 in Southampton, UK, marking our first physical event participation in nearly two years. The exhibition was held at the National Oceanography Centre from 12–14 October 2021, following a postponement from April due to the pandemic. It was a welcome opportunity for the team to reconnect with the community and discuss our technology face to face. We enjoyed being part of the event and looked forward to the next in-person exhibition at [Oceanology International 2022](https://www.oceanologyinternational.com/london/en-gb.html){:target="_blank"} in London in March 2022.
 
 ![Subnero team at Ocean Business 2021 exhibition in Southampton](/images/pulse-ocean-business-2021.jpg){: .center-image  }

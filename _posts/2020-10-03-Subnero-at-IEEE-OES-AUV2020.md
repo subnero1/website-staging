@@ -7,16 +7,6 @@ categories: event
 thumbnail: images/pulse-thumbnail-auv2020.jpg
 ---
 
-Subnero attended its first virtual exhibition during IEEE OES AUV2020 symposium.
-
-The event took place online from the 29th of September to the 2nd of October 2020. 
-
-It was originally planned to be hosted in St John's, NL, Canada. As a consequence of the pandemic, it happened virtually.
-
-Despite being remote, the networking sessions were very lively and the panel discussions were very interesting. 
-
-We loved being part of the event.
-
-We look forward to attending the next one, hopefully in person.
+Subnero participated in its first virtual exhibition during the IEEE OES AUV 2020 symposium, which was held online from 29 September to 2 October 2020. Originally planned to take place in St John’s, Canada, the event was moved to a virtual format due to the pandemic. Despite the remote setting, the networking sessions were lively and the panel discussions engaging. We enjoyed being part of the event and look forward to attending future editions, ideally in person.
 
 ![IEEE OES AUV 2020 symposium details](/images/pulse-auv2020.jpg){: .center-image  }

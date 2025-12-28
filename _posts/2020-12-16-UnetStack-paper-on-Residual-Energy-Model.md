@@ -6,7 +6,7 @@ date:  2020-12-16
 categories: research unetstack
 thumbnail: images/pulse-thumbnail-unet.jpg
 ---
-## A paper presented during the 5th International Conference on Computing, Communication and Security (ICCCS), on developing a residual energy model framework using UnetStack
+> A paper presented during the 5th International Conference on Computing, Communication and Security (ICCCS), on developing a residual energy model framework using UnetStack
 
 Authored by Dr. B. R. Chandavarkar, Akhilraj V. Gadagkar from National Institute of Technology Karnataka, India, the paper titled "__A Framework for Residual Energy Model in UnetStack Simulator for Underwater Sensor Networks_", looks at integrating residual energy model into [UnetStack](https://subnero.com/products/unet.html){:target="_blank"} to provide a way for researchers to incorporate energy considerations while designing and simulating underwater protocols.
 

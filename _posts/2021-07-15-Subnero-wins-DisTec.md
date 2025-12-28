@@ -15,10 +15,9 @@ Our team submitted a 5 minutes video about the [Subnero Underwater Network (SUN)
 
 After a presentation from all the finalists, we were announced as the winner of the competition. 
 
-The Grand Final can be watched [here](https://www.udt-global.com/finalists){:target="_blank"}.
+<!-- The Grand Final can be watched [here](https://www.udt-global.com/finalists){:target="_blank"}. -->
 
-
-We are now hoping that the travel restrictions, to and from Europe, will be soon lifted so that we can attend the [Undersea Defence Technology - UDT 2021 conference](https://www.udt-global.com/welcome) in Rostock, Germany, in December 2021.
+We are now hoping that the travel restrictions, to and from Europe, will be soon lifted so that we can attend the [Undersea Defence Technology - UDT 2021 conference](https://www.udt-global.com) in Rostock, Germany, in December 2021.
 
 ![Subnero announced as winner of DisTec Undersea Challenge 2021]({{site.baseurl}}/images/pulse-distec-final-2021.jpeg){: .center-image  }
 
