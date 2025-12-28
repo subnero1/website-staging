@@ -29,6 +29,31 @@
   {% include tag.html %}
   {% endif %}
 
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Subnero",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/images/subnero_logo.png",
+    "description": "{{ site.description }}",
+    "sameAs": [
+      "https://twitter.com/{{ site.twitter_username }}",
+      "https://github.com/{{ site.github_username }}",
+      "https://www.linkedin.com/company/subnero"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "{{ site.url }}/contact/"
+    }
+  }
+  </script>
+
   <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/fontello.css" | prepend: site.baseurl }}">
