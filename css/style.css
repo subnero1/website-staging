@@ -4793,7 +4793,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
-  gap: 1.6rem;
+  gap: 2.8rem;
 }
 .contact-details {
   display: flex;
