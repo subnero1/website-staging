@@ -6146,6 +6146,9 @@ a.usecase-card:hover {
 .tech-content {
   flex: 1;
   padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .news .tech-content {
   display: flex;
@@ -6887,27 +6890,18 @@ a.usecase-card:hover {
 .technology p {
   color: #fff;
 }
-
-/*
-.tech-resources {
-  min-height: 72vh;
-  padding: 0 1rem 4rem;
+.tech-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2rem;
 }
-.tech-resources .docs-card {
-  flex-direction: column;
+.tech-buttons a {
+  border-radius: 6px;
+  margin: 0;
 }
-.tech-resources .docs-card ul {
-  margin-bottom: 0;
-  margin-top: 8px;
-}
-.tech-resources .docs-card li {
-  margin: 6px 0;
-}
-.tech-resources [id^="tab"] {
-  display: grid;
-}
-*/
-
 /* careers */
 .careers .modal-dialog {
   max-width: 840px;

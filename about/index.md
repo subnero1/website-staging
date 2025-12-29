@@ -104,6 +104,11 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
       <p>Developing robust wireless communications, networking, and localization is crucial to exploring the world and expanding our knowledge about it, which is why we know less about our oceans than we do about the Moon or Mars.</p>
       <p>We intend to change that with our technology and offerings to give the oceans a voice.</p>
     </div>
+    <div class="columns tech-buttons">
+      <a class="button g-orange-btn anim" href="{{site.baseurl}}/products" title="Browse our products">Browse our products</a>
+      <a class="button g-orange-btn anim" href="{{site.baseurl}}/solutions" title="Explore our solutions">Explore our solutions</a>
+      <a class="button g-orange-btn anim" href="{{site.baseurl}}/faq" title="Frequently Asked Questions">Frequently Asked Questions</a>
+    </div>
   </div>
 </section>
 
