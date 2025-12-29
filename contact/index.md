@@ -34,13 +34,13 @@ directions:
 </section>
 
 <section class="g4x-section contact" style="background-color:#f8fafc;">
-  <div class="row large">
-    <div class="medium-6 columns py2">
+  <div class="contact-row">
+    <div class="contact-form">
       <div class="contact-wrap">
         <script defer src='https://subnero.myfreshworks.com/crm/sales/web_forms/2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5/form.js' crossorigin='anonymous' id='fs_2f4cffca4e110143eddfd3ddfa8c658971bdd6aa1bc3a9062de1e745d68465e5'></script>
       </div>
     </div>
-     <div class="medium-6 columns py2 contact-details">
+     <div class="contact-details">
       <div class="contact-address">
         <div class="address-col">
           <div class="address-svg">
@@ -78,11 +78,11 @@ directions:
 </section>
 
 
-<section class="g4x-section">
+<section class="g4x-section partner bg-gradient-img" style="background-image: url(/images/world-map-low-res.svg);">
   <div class="row large collaborate">
     <div class="medium-7 columns py2">
       <h3>Become a Partner</h3>
-      <p>Join our global network. We are looking for distributors with deep knowledge of marine technology to help us bring the underwater internet of things to new markets.</p>
+      <p class="lead">Join our global network. We are looking for distributors with deep knowledge of marine technology to help us bring the underwater internet of things to new markets.</p>
       <div class="partner-list">
         <div class="partner-list-item">
           <div class="partner-svg">
@@ -94,20 +94,20 @@ directions:
           <div class="partner-svg">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" class="lucide lucide-shield-check w-5 h-5"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
           </div>
-          <p>Global Reach</p>
+          <p>Reliable Tech</p>
         </div>
         <div class="partner-list-item">
           <div class="partner-svg">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trending-up" class="lucide lucide-trending-up w-5 h-5"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
           </div>
-          <p>Global Reach</p>
+          <p>Growth</p>
         </div>
       </div>
     </div>
      <div class="medium-5 columns py2">
       <div class="collaborate-link">
         <h5>Ready to collaborate?</h5>
-        <p>Select "Become a Distributor/Partner" in the contact form above or email us directly.</p>
+        <p>Please use the above contact form or email us directly.</p>
         <a href="mailto:sales@subnero.com?subject=Partnership Enquiry">Email Partner Team <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" class="lucide lucide-arrow-right w-4 h-4 ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
       </div>
     </div>

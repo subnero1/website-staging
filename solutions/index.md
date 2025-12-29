@@ -16,7 +16,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
   </div>
 </section>
 
-<section class="g4x-section">
+<section class="g4x-section" id="sun">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Subnero Underwater Network (SUN)</h2>
     <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p>
