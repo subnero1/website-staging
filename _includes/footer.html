@@ -1,52 +1,76 @@
-<div id='footer'>
-  <div class='footer-row'>
-    <div class="newsletter">
-      {%- include formNewsletter.html -%}
+<div id="footer">
+  <div class="footer-row">
+    <div class="footer-column company-desc">
+      <a href="{{site.baseurl}}/">
+        <img alt="Subnero" src="{{site.baseurl}}/images/subnero_logo_small.png" />
+      </a>
+      <p>Subnero provides a complete ecosystem of underwater communication and network solutions, enabling the underwater internet of things.</p>
+      <div class="newsletter">
+        {%- include formNewsletter.html -%}
+      </div>
     </div>
-    <div class='socials'>
+    <div class="footer-column">
+      <h5>Products</h5>
+      <ul>
+        <li><a href="{{ site.baseurl}}/products/#smart-modems">Smart Modems</a></li>
+        <li><a href="{{ site.baseurl}}/products/#unetstack">UnetStack</a></li>
+        <li><a href="{{ site.baseurl}}/products/swis">SWIS Series</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h5>Resources</h5>
+      <ul>
+        <li><a href="{{ site.baseurl}}/technical-resources">Technical Resources</a></li>
+        <li><a href="{{ site.baseurl}}/user-stories">User Stories</a></li>
+        <li><a href="{{ site.baseurl}}/support">Support</a></li>
+        <li><a href="{{ site.baseurl}}/faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-column company-contact">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:sales@subnero.com">sales@subnero.com</a></li>
+        <li>
+          <b>Singapore Office</b> <br>003 Bukit Merah Central, #04-05 <br>Singapore 159836
+        </li>
+      </ul>
+      <div class="socials">
       <ul>
           <li>
-            <a target='_blank' href='http://facebook.com/subnero/'>
-            <i class='fab fa-facebook-f'></i>
+            <a target="_blank" href="http://facebook.com/subnero/">
+            <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li>
-          <a target='_blank' href='http://twitter.com/subnero'>
-            <i class='fab fa-twitter'></i>
+          <a target="_blank" href="http://twitter.com/subnero">
+            <i class="fab fa-twitter"></i>
           </a>
           </li>
          <li>
-          <a target='_blank' href='http://github.com/subnero1'>
-            <i class='fab fa-github'></i>
+          <a target="_blank" href="http://github.com/subnero1">
+            <i class="fab fa-github"></i>
           </a>
         </li>
         <li>
-          <a target='_blank' href='https://www.linkedin.com/company/subnero/'>
-            <i class='fab fa-linkedin'></i>
+          <a target="_blank" href="https://www.linkedin.com/company/subnero/">
+            <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a target='_blank' href='https://www.instagram.com/subnero_comms/'>
-            <i class='fab fa-instagram'></i>
+          <a target="_blank" href="https://www.instagram.com/subnero_comms/">
+            <i class="fab fa-instagram"></i>
           </a>
         </li>
         <li>
-          <a target='_blank' href='https://www.youtube.com/subnero'>
-            <i class='fab fa-youtube'></i>
+          <a target="_blank" href="https://www.youtube.com/subnero">
+            <i class="fab fa-youtube"></i>
           </a>
         </li>
       </ul>
     </div>
+    </div>
   </div>
-  <div class="footer-logo">
-    <hr class="hr-line-left">
-    <a href='{{site.baseurl}}/'>
-        <img alt="Subnero" src="{{site.baseurl}}/images/subnero_logo_small.png" />
-    </a>
-    <hr class="hr-line-right">
-  </div>
-  <div class='spacing'></div>
-  <p id="company" style='text-align:center; margin-bottom: 0px;padding-bottom: 8px'>© Subnero Pte. Ltd. {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  <p id="company" style="text-align:center; margin-bottom: 0px;padding-bottom: 8px">© Subnero Pte. Ltd. {{ site.time | date: "%Y" }}. All rights reserved.</p>
 
 </div>
 <script src="{{ "/javascripts/jquery.countTo.js" | prepend: site.baseurl }}" type="text/javascript"></script>
