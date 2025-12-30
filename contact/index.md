@@ -78,8 +78,8 @@ directions:
 </section>
 
 
-<section class="g4x-section partner bg-gradient-img" style="background-image: url(/images/world-map-low-res.svg);">
-  <div class="row large collaborate">
+<section class="g4x-section partner">
+  <div class="row large collaborate bg-gradient-img" style="background-image: url(/images/world-map-low-res.svg);">
     <div class="medium-7 columns py2">
       <h3>Become a Partner</h3>
       <p class="lead">Join our global network. We are looking for distributors with deep knowledge of marine technology to help us bring the underwater internet of things to new markets.</p>
