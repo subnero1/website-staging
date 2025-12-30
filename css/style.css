@@ -5936,7 +5936,7 @@ a.usecase-card:hover {
   margin-bottom: 1rem;
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  z-index: 9999;
+  z-index: 2;
 }
 .tabs-list {
   display: flex;
@@ -6049,7 +6049,7 @@ a.usecase-card:hover {
 }
 .tech-content {
   flex: 1;
-  padding: 12px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6085,6 +6085,17 @@ a.usecase-card:hover {
   margin: 0 0 6px;
   font-size: 1rem;
   color: #6b7280;
+}
+.magazine .tech-img {
+  flex: none;
+  width: 120px;
+  height: 120px;
+}
+.magazine .tech-content {
+  justify-content: flex-start;
+}
+.magazine .tech-desc {
+  margin-top: 8px;
 }
 .tech-download {
   display: flex;
@@ -6630,7 +6641,7 @@ a.usecase-card:hover {
 }
 .full-column {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 0.6fr;
   padding: 1.6rem;
   margin-top: 2rem;
   color: rgb(var(--blue));
@@ -6639,11 +6650,14 @@ a.usecase-card:hover {
   border: 1px solid #E2E8F0;
 }
 .full-column.job-col {
-  grid-template-columns: 1fr 0.6fr;
+  
+}
+.support .full-column {
+  
 }
 .full-column h5 {
   margin: 0 0 4px;
-  font-size: 1.4;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: normal;
   text-transform: none;
@@ -6657,6 +6671,7 @@ a.usecase-card:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  max-width: 400px;
 }
 .full-column .contact-query .action-btn {
   background-image: linear-gradient(90deg, #77E5F7, #62A7F5);
@@ -7312,7 +7327,13 @@ a.usecase-card:hover {
     justify-content: center;
   }
   .full-column {
-    display: block;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .support-btn {
+    width: 100%;
+    max-width: none;
+    justify-content: center;
   }
   .support-btn .contact-query {
     padding: 0;
