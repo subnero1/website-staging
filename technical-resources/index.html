@@ -524,5 +524,31 @@ banner: images/banner-pulse.jpg
 			</a>
 		</div>
 	</div>
-	
 </section>
+
+<script>        
+// Sticky nav active state highlighting
+	window.addEventListener('scroll', () => {
+		const sections = ['datasheets', 'whitepapers', 'videos', 'publication', 'news'];
+		const navLinks = document.querySelectorAll('.tabs-list a');
+		
+		let current = '';
+				
+		sections.forEach(section => {
+			const element = document.getElementById(section);
+			if (element) {
+				const sectionTop = element.offsetTop;
+				if (scrollY >= sectionTop - 180) { // Offset for sticky nav height
+					current = section;
+				}
+			}
+		});
+
+		navLinks.forEach(link => {
+			link.classList.remove('active');
+			if (current && link.getAttribute('href').includes(current)) {
+					link.classList.add('active');
+			}
+		});
+	});
+	</script>

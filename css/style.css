@@ -5954,10 +5954,13 @@ a.usecase-card:hover {
   text-transform: uppercase;
   background-color: rgb(255, 247, 237);
   border-radius: 6px;
-  border: none;
 }
 .tabs-list a:hover {
   color: #a8330e;
+}
+.tabs-list a.active {
+  color: #a8330e;
+  background-color: rgb(255, 234, 207);
 }
 .tech-desc {
   display: flex;
