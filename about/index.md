@@ -115,7 +115,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
 <section class="g4x-section passonate">
   <div class="row large">
     <div class="large-6 columns">
-    <h3 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Passionate & Curious</h3>
+    <h3 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Our Team</h3>
       <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing.</p>
       <p>We dabble with digital communication techniques for fun and play with unmanned surface vehicles for stress relief. We decorate our Christmas trees with colorful PCBs, have debates about which programming languages or design techniques are the best, and turn debugging sessions into hackathons.</p>
       <p>We are proud of what we do at Subnero. We end our weeks with Friday hacks, plan weekend dive trips, and are excited for Monday mornings.</p>

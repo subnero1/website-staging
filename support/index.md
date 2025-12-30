@@ -56,9 +56,9 @@ headerTag: Support
         <div>
           <h5>Community</h5>
           <ul>
-            <li><a href="https://github.com/org-arl/unet-contrib/" target="_blank">Unet User Contribs</a></li>
-            <li><a href="https://github.com/org-arl/unet-support/discussions" target="_blank">UnetStack discussions</a></li>
-            <li><a href="https://blog.unetstack.net/" target="_blank">Blog</a></li>
+            <li><a href="https://github.com/org-arl/unet-contrib/" target="_blank">User Contributions</a></li>
+            <li><a href="https://github.com/org-arl/unet-support/discussions" target="_blank">UnetStack Support</a></li>
+            <li><a href="https://blog.unetstack.net/" target="_blank">Unet Blog</a></li>
           </ul>
         </div>
       </div>
@@ -69,10 +69,10 @@ headerTag: Support
         <div>
           <h5>Useful Links</h5>
           <ul>
+            <li><a href="https://github.com/org-arl/fjage" target="_blank">fjåge project</a></li>
             <li><a href="https://fjage.readthedocs.io/en/latest/" target="_blank">fjåge developer’s guide</a></li>
             <li><a href="http://org-arl.github.io/fjage/javadoc" target="_blank">fjåge API reference</a></li>
-            <li><a href="https://github.com/org-arl/fjage" target="_blank">fjåge project</a></li>
-            <li><a href="{{site.baseurl}}/products/unet.html" >Unet project</a></li>
+            <li><a href="{{site.baseurl}}/products/unet.html" >UnetStack</a></li>
             <li><a href="{{site.baseurl}}/products/unet.html#offerings">Unet Downloads</a></li>
           </ul>
         </div>

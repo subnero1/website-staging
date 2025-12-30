@@ -1,10 +1,10 @@
 <section id="header" class="page-header">
   <nav class="nav-container">
-    <h1 class="logo">
+    <div class="logo">
       <a href='{{site.baseurl}}/'>
         <img class="subnero-logo" alt="Subnero" src="{{site.baseurl}}/images/subnero-logo.svg" />
       </a>
-    </h1>
+    </div>
     <ul class="nav-links" id="nav-links">
       {% for item in site.data.nav %}
         {% if item.section_id == page.section_id %}
