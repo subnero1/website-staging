@@ -29,7 +29,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MSO4" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" alt="OEM Configuration - WNC-M25MSO4"/>
+                <a href="{{site.baseurl}}{{page.url}}"><img src="{{site.baseurl}}/{{page.thumbnail}}" alt="OEM Configuration - WNC-M25MSO4"/>
                 <div class='content'>
                 <h2>OEM Configuration <br>WNC-M25MSO4</h2>
               </div></a>

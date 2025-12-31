@@ -22,7 +22,7 @@ excerpt: Cables for Subnero underwater acoustic smart modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-cables01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-cables01.jpg' alt="Subnero Underwater Modem Cables">
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>

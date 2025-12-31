@@ -22,7 +22,7 @@ excerpt: Co-processor for Subnero underwater acoustic smart modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-coprocessor01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-coprocessor01.jpg' alt="Subnero Modem Co-processor Module">
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>

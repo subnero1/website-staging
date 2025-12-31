@@ -82,7 +82,7 @@ directions:
   <div class="row large collaborate bg-gradient-img" style="background-image: url(/images/world-map-low-res.svg);">
     <div class="medium-7 columns py2">
       <h3>Become a Partner</h3>
-      <p class="lead">Join our global network. We are looking for distributors with deep knowledge of marine technology to help us bring the underwater internet of things to new markets.</p>
+      <p class="lead">Join our global partner network. We are looking for distributors with strong marine technology expertise to bring Subnero’s underwater connectivity solutions to new markets.</p>
       <div class="partner-list">
         <div class="partner-list-item">
           <div class="partner-svg">
@@ -94,13 +94,13 @@ directions:
           <div class="partner-svg">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-check" class="lucide lucide-shield-check w-5 h-5"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
           </div>
-          <p>Reliable Tech</p>
+          <p>Proven Technology</p>
         </div>
         <div class="partner-list-item">
           <div class="partner-svg">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trending-up" class="lucide lucide-trending-up w-5 h-5"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
           </div>
-          <p>Growth</p>
+          <p>Scalable Solutions</p>
         </div>
       </div>
     </div>
