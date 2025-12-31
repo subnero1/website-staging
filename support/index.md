@@ -57,7 +57,7 @@ headerTag: Support
           <h5>Community</h5>
           <ul>
             <li><a href="https://github.com/org-arl/unet-contrib/" target="_blank">User Contributions</a></li>
-            <li><a href="https://github.com/org-arl/unet-support/discussions" target="_blank">UnetStack Support</a></li>
+            <li><a href="https://github.com/org-arl/unet-support/discussions" target="_blank">Support Forum</a></li>
             <li><a href="https://blog.unetstack.net/" target="_blank">Unet Blog</a></li>
           </ul>
         </div>
