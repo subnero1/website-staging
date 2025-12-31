@@ -11,7 +11,7 @@ headerTag: Careers
 		<div class="hero-text">
 			<h4 class="g4x-tag">Careers</h4>
 			<h1>Join <span class="text-gradient g-blue">Our Team</span></h1>
-			<p>Join us in developing next-generation solutions for ocean connectivity, sensing, and autonomy.</p>
+			<p>Join us in developing next-generation solutions for ocean connectivity, navigation, monitoring and sensing.</p>
 		</div>
 	</div>
 </section>
@@ -23,8 +23,7 @@ headerTag: Careers
   <div class="row large" style="margin-top:0;">
     <div class="large-6 columns"> 
       <div class="category-content">
-        <p>Subnero provides communications, networking, and robotics solutions to the sub-sea engineering, environment monitoring, and defense industries. We have a reputation for innovation and are currently looking to expand our team.</p>
-        <p>At Subnero, we believe that quality is key since our reputation drives our success. Quality comes naturally when everyone owns the task they undertake, does it with pride, and gives it their best. We also practice a culture of openness and continual improvement, giving and accepting timely feedback. We don't believe in being constrained by conventional thinking -- no idea is too crazy to discuss! We like people who think out of the box, innovate, and come up with solutions that push the boundaries of what is possible.</p>
+        <p>At Subnero, we believe that quality is key since our reputation drives our success. Quality comes naturally when everyone owns the task they undertake, does it with pride, and gives it their best. We also practice a culture of openness and continual improvement, giving and accepting timely feedback. We don't believe in being constrained by conventional thinking — no idea is too crazy to discuss! We like people who think out of the box, innovate, and come up with solutions that push the boundaries of what is possible.</p>
         <div class="highlight-note">
           <p>NOTE: We will not be able to entertain enquiries over phone.</p>
         </div>
