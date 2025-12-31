@@ -38,7 +38,7 @@ excerpt: Frequently asked questions about Subnero's offerings
       </div>  
     </div>
     <div class="faq-content">
-      <p class="intro-text">Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights.</p>
+      <p class="intro-text">Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings.</p>
       <p class="hlight">If you can't find what you're looking for, don't hesitate to reach out to info@subnero.com.</p>
       <div class="faq-actions">
 

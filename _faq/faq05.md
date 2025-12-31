@@ -2,7 +2,7 @@
 layout: default
 title: What models of Subnero modems are available, and how do they perform?
 search_content: What models of Subnero modems are available, and how do they perform?
-faq_section: products
+faq_section: smart-modems
 ---
 
 Subnero modems are categorized by frequency bands, each optimized for specific needs:

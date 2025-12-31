@@ -19,7 +19,7 @@ At the core of the Gen4X series is **UnetStack5**, the latest version of the pow
 
 “With Gen4X, we’re not just offering a hardware upgrade—we’re delivering a platform designed for the future of underwater systems,” said Manu Ignatius, CEO at Subnero. “Whether you’re deploying an AUV swarm, building subsea sensor networks, or supporting tactical operations, Gen4X is engineered to adapt and perform.”
 
-The Gen4X series is available in various OEM configurations to support custom integration needs. The Gen4X series is expected to begin shipping by summer 2025, with pre-orders and early access programs now available for select partners.
+The Gen4X series is available in various open configurations to support custom integration needs. The Gen4X series is expected to begin shipping by summer 2025, with pre-orders and early access programs now available for select partners.
 
 For more information, or to request a demo or quotation, please contact sales@subnero.com or visit www.subnero.com.
 
