@@ -108,7 +108,7 @@ directions:
       <div class="collaborate-link">
         <h5>Ready to collaborate?</h5>
         <p>Please use the above contact form or email us directly.</p>
-        <a href="mailto:sales@subnero.com?subject=Partnership Enquiry">Email Partner Team <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" class="lucide lucide-arrow-right w-4 h-4 ml-2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+        <a class="button g-orange-btn anim" href="mailto:sales@subnero.com?subject=Partnership Enquiry">Email Partner Team &rarr;</a>
       </div>
     </div>
   </div>

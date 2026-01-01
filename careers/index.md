@@ -18,7 +18,7 @@ headerTag: Careers
 
 <section class="g4x-section">
   <div class="g4x-section-head">
-    <h2 class="sec-head text-gradient g-blue">Overview</h2>
+    <h2 class="sec-head text-gradient g-orange">Overview</h2>
   </div>
   <div class="row large" style="margin-top:0;">
     <div class="large-6 columns"> 
@@ -51,7 +51,7 @@ headerTag: Careers
         </div>
       </div>
       <div class="support-btn">
-        <a class="card-dialog button anim m0 no-border rounded-sm g-blue" href="javascript:void(0)" data-product="job-01">View Details</a>
+        <a class="card-dialog button anim m0 no-border rounded-sm g-orange" href="javascript:void(0)" data-product="job-01">View Details</a>
       </div>
     </div>
     <!-- /end job post -->
