@@ -24,13 +24,13 @@ headerTag: People
 			</div>
 		</div>
 		<h1>Manu Ignatius</h1>
-		<p>CEO &amp; Co-Founder</p>
+		<p>Chief Executive Officer (CEO)</p>
 		<div class="member-socials">
 			<a href="mailto:manu@subnero.com">
 				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-4 h-4 mr-2"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
 				<span>Email</span>
 			</a>
-			<a href="https://linkedin.com" target="_blank">
+			<a href="https://linkedin.com/in/manuignatius" target="_blank">
 				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin w-4 h-4 mr-2 text-[#0077b5]"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
 				<span>LinkedIn</span>
 			</a>
@@ -65,26 +65,13 @@ headerTag: People
 					<div class="member-qualification">
 						<div class="qualification-row">
 							<div class="bullet"></div>
-							<h4>B.Tech. Electronics &amp; Comm.</h4>
+							<h4>B.Tech. Electronics &amp; Communications</h4>
 						</div>
 						<div class="qualification-row">
 							<div class="rect"></div>
 							<p>Mahatma Gandhi University, 2004</p>
 						</div>
 					</div>
-				</div>
-			</div>
-			<!-- Expertise Card -->
-			<div class="member-card">
-				<h3>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zap" class="lucide lucide-zap w-4 h-4 mr-2"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg>
-					<span>Areas of Expertise</span>
-				</h3>
-				<div class="expertise-tags">
-					<span>Embedded Systems</span>
-					<span>Underwater Comms</span>
-					<span>Robotics</span>
-					<span>Networking</span>
 				</div>
 			</div>
 			<!-- Quote Card -->
@@ -102,8 +89,7 @@ headerTag: People
 				</div>
 				<div class="member-details">
 					<p>Manu Ignatius is the CEO of Subnero, leading the development of cutting-edge underwater communication, navigation, monitoring, and sensing technologies. His passion lies in bridging the gap between academic research and deployable industrial solutions, ensuring that advanced concepts translate into robust products for the marine industry.</p>
-					<p>Before co-founding Subnero, Manu gained extensive experience working with several multinational companies in the fields of embedded systems and computer networks. This background brings a rigorous engineering perspective to marine robotics, where reliability is paramount.</p>
-					<p>He is an active member of the IEEE Oceanic Engineering Society and plays a pivotal role in supporting community events such as the OCEANS conferences and the Singapore AUV Challenge (SAUVC), mentoring the next generation of ocean engineers.</p>
+					<p>He is an active member of IEEE Oceanic Engineering Society and supports various events such as OCEANS conferences, The <a href="https://sauvc.org/" target="_blank">Singapore AUV Challenge (SAUVC)</a> among other community events. Before joining Subnero, he worked at several multinational companies in the field of embedded systems and computer networks.</p>
 				</div>
 			</section>
 			<!-- Publications Section (List Style) -->
