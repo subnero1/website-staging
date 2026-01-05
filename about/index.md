@@ -107,7 +107,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     <div class="columns tech-buttons">
       <a class="button g-orange-btn anim" href="{{site.baseurl}}/products" title="Browse our products">Browse our products</a>
       <a class="button g-orange-btn anim" href="{{site.baseurl}}/solutions" title="Explore our solutions">Explore our solutions</a>
-      <a class="button g-orange-btn anim" href="{{site.baseurl}}/faq" title="Frequently Asked Questions">Frequently Asked Questions</a>
+      <a class="button g-orange-btn anim" href="{{site.baseurl}}/user-stories" title="Read our stories">Read our stories</a>
     </div>
   </div>
 </section>

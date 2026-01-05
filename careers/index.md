@@ -10,7 +10,7 @@ headerTag: Careers
 	<div class="row flex-row">
 		<div class="hero-text">
 			<h4 class="g4x-tag">Careers</h4>
-			<h1>Join <span class="text-gradient g-blue">Our Team</span></h1>
+			<h1>Join <span class="text-gradient g-orange">Our Team</span></h1>
 			<p>Join us in developing next-generation solutions for ocean connectivity, navigation, monitoring and sensing.</p>
       <div class="g4x-hero-btns">
         <a href="#our-culture" class="button g-orange">Our Culture</a>
@@ -52,7 +52,7 @@ headerTag: Careers
   </div>
   <div class="row large py2 explore-jobs">
     <p>Explore the current openings below and apply if one of the roles aligns with your skills and interests.</p>
-    <a class="explore-svg" href="#">
+    <a class="explore-svg" href="#openings">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" class="lucide lucide-chevron-down w-6 h-6 mx-auto"><path d="m6 9 6 6 6-6"></path></svg>
     </a>
   </div>
@@ -100,30 +100,38 @@ headerTag: Careers
         <div class="job-points">
           <span class="time">Full-time</span>
           <span class="place">Singapore</span>
-          <span class="ref">Ref: TM-EV-2025</span>
         </div>
         <button class="modal-close" type="button" id="closeModal" title="close">&times;</button>
       </header>
       <div class="main">
         <div class="modal-content-item" data-product="job-01">
-          <p>We are looking for someone who can bridge the gap between technology and communication—someone who understands our products and can craft compelling stories around how they solve real-world challenges underwater.</p>
+          <p>We are looking for a Technical Marketing & Evangelism Executive who can bridge the gap between technology and communication — someone who understands our products and can craft compelling stories around how they solve real-world challenges underwater.</p>
           <h3>About the Role</h3>
-          <p>As a Technical Marketing Executive, you will work closely with our engineering and sales teams to translate complex technical features into clear, benefit-driven messaging. You will be the voice of Subnero at events and in digital channels.</p>
+          <p>As a Technical Marketing & Evangelism Executive, you’ll play a central role in shaping Subnero’s public voice and digital presence. You will work closely with the leadership and product teams to communicate our value, revamp our website and materials, and create engaging content that resonates with our customers and partners.</p>
           <h3>Key Responsibilities</h3>
           <ul>
-            <li>Craft technical and marketing content including blogs, case studies, whitepapers, and video scripts.</li>
-            <li>Engage directly with customers and partners to understand use cases and gather feedback.</li>
-            <li>Organize and manage events like Subnero Open Days, webinars, and trade show presences.</li>
-            <li>Create visual assets using tools like Figma, Photoshop, or Premiere Pro to support campaigns.</li>
-            <li>Manage social media channels and grow our developer community.</li>
+            <li>Develop a deep understanding of Subnero’s technologies, products, and user applications.</li>
+            <li>Craft technical and marketing content (blogs, newsletters, case studies, social media posts, videos, product pages, etc.) that clearly communicate value to diverse audiences.</li>
+            <li>Engage directly with customers and partners to understand their use cases, pain points, and success stories.</li>
+            <li>Plan, coordinate, and execute marketing campaigns across multiple channels to build awareness and engagement.</li>
+            <li>Organize and manage marketing and technical events such as Subnero Open Days, product launches, webinars, and conference exhibitions.</li>
+            <li>Support and manage the marketing roadmap and activity calendar, ensuring timely execution of deliverables.</li>
+            <li>Collaborate with internal teams and external partners to align messaging, visuals, and event logistics.</li>
+            <li>Create or assist in the design of graphics, visual assets, and short videos using tools such as Figma, Photoshop, Illustrator, or Premiere Pro.</li>
+            <li>Manage multiple projects and stakeholders concurrently while ensuring deadlines are met and deliverables maintain high quality.</li>
           </ul>
           <h3>Requirements</h3>
           <ul>
-            <li>Bachelor’s degree in Engineering (Computer, Electrical, or related) or Marketing with strong technical aptitude.</li>
+            <li>Bachelor’s degree in Engineering (Computer, Electrical, or related fields).</li>
             <li>Strong interest in technology, communication systems, and ocean innovation.</li>
             <li>Excellent written and verbal communication skills in English.</li>
-            <li>Experience with creative tools (Figma, Adobe Suite) is a plus.</li>
-            <li>Ability to travel occasionally for international events.</li>
+            <li>Structured, disciplined, and detail-oriented, with strong organizational skills to manage logistics, schedules, and event execution.</li>
+            <li>Ability to multitask effectively across projects and coordinate with multiple stakeholders.</li>
+            <li>Attention to detail is a must.</li>
+            <li>Proactive and extroverted personality — comfortable engaging with customers, partners, and the community.</li>
+            <li>Experience or strong interest in technical content creation — writing, visual design, or multimedia.</li>
+            <li>Familiarity with creative tools such as Figma, Photoshop, Illustrator, or video editing software is a plus.</li>
+            <li>Prior experience in marketing, technical writing, or event management is preferred, but fresh graduates are welcome to apply.</li>
           </ul>
         </div>          
       </div>
@@ -141,7 +149,7 @@ headerTag: Careers
   <div class="row large job-email-row">
     <div class="job-email-card">
       <h3>Don't see a perfect fit?</h3>
-      <p>If none of the listed positions are a direct match, but you believe you could be a strong addition to the Subnero team, we would still like to hear from you. Please reach out to us at <b>hr@subnero.com</b> with a brief introduction and your background.</p>
+      <p>If none of the listed positions are a direct match, but you believe you could be a strong addition to the Subnero team, we would still like to hear from you.</p>
       <a href="mailto:hr@subnero.com" class="button g-orange-btn anim">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-4 h-4 mr-2"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
         <span>Email HR</span>
