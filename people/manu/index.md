@@ -55,7 +55,7 @@ headerTag: People
 					<div class="member-qualification">
 						<div class="qualification-row">
 							<div class="bullet"></div>
-							<h4>M.Sc. Electrical &amp; Computer Engineering</h4>
+							<h4>M.Sc., Electrical Engineering</h4>
 						</div>
 						<div class="qualification-row">
 							<div class="rect"></div>
@@ -65,19 +65,14 @@ headerTag: People
 					<div class="member-qualification">
 						<div class="qualification-row">
 							<div class="bullet"></div>
-							<h4>B.Tech. Electronics &amp; Communications</h4>
+							<h4>B.Tech., Electronics &amp; Communications Engineering</h4>
 						</div>
 						<div class="qualification-row">
 							<div class="rect"></div>
-							<p>Mahatma Gandhi University, 2004</p>
+							<p>Mahatma Gandhi University (India), 2004</p>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- Quote Card -->
-			<div class="quote-card">
-				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="quote" class="lucide lucide-quote w-8 h-8 text-subnero-accent mb-4"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
-				<p>&quot;Building technology that works reliably underwater requires not just engineering skill, but a deep respect for the unforgiving nature of the ocean environment.&quot;</p>
 			</div>
 		</div>
 		<div class="large-8 columns member-detailed-info">
@@ -90,53 +85,6 @@ headerTag: People
 				<div class="member-details">
 					<p>Manu Ignatius is the CEO of Subnero, leading the development of cutting-edge underwater communication, navigation, monitoring, and sensing technologies. His passion lies in bridging the gap between academic research and deployable industrial solutions, ensuring that advanced concepts translate into robust products for the marine industry.</p>
 					<p>He is an active member of IEEE Oceanic Engineering Society and supports various events such as OCEANS conferences, The <a href="https://sauvc.org/" target="_blank">Singapore AUV Challenge (SAUVC)</a> among other community events. Before joining Subnero, he worked at several multinational companies in the field of embedded systems and computer networks.</p>
-				</div>
-			</section>
-			<!-- Publications Section (List Style) -->
-			<section>
-				<div class="member-title">
-					<h2>Selected Publications</h2>
-					<div class="line"></div>
-				</div>
-				<div class="publication-list">
-					<a href="https://ieeexplore.ieee.org/document/10754077" target="_blank">
-						<h4>Design, Development and Deployment of an Underwater Cellular Network</h4>
-						<div class="pub-info">
-							<span class="auth">S. Etter et al.</span>
-							<span class="circle"></span>
-							<span class="ref">OCEANS 2024 Halifax</span>
-						</div>
-					</a>
-					<a href="https://onepetro.org/OTCONF/proceedings-abstract/23OTC/1-23OTC/519319" target="_blank">
-						<h4>Smart Wireless Data Transfer Solution for Underwater Sensors</h4>
-						<div class="pub-info">
-							<span class="auth">Ignatius et al.</span>
-							<span class="circle"></span>
-							<span class="ref">OTC 2023</span>
-						</div>
-					</a>
-					<a href="https://ieeexplore.ieee.org/document/7579629" target="_blank">
-						<h4>A Software-Defined Underwater Acoustic Modem for the Masses</h4>
-						<div class="pub-info">
-							<span class="auth">M. Ignatius, M. Chitre </span>
-							<span class="circle"></span>
-							<span class="ref">IEEE Comms Magazine</span>
-						</div>
-					</a>
-					<a href="#" target="_blank">
-						<h4>Field demonstrations of a software-defined underwater acoustic modem</h4>
-						<div class="pub-info">
-							<span class="auth">M. Ignatius et al.</span>
-							<span class="circle"></span>
-							<span class="ref">OCEANS 2016 Shanghai</span>
-						</div>
-					</a>
-				</div>
-				<div class="google-profile">
-					<a href="#" target="_blank">
-						<span>View Google Scholar Profile</span>
-						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="external-link" class="lucide lucide-external-link w-3 h-3 ml-1"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
-					</a>
 				</div>
 			</section>
 		</div>
