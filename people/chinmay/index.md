@@ -19,9 +19,6 @@ headerTag: People
       <div class="photo">
         <img src="/images/people/chinmay.jpg" alt="Chinmay Pendharkar">
       </div>
-      <div class="verification-mark">
-        <svg fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-      </div>
     </div>
     <h1>Chinmay Pendharkar</h1>
     <p>Chief Technology Officer</p>
@@ -76,14 +73,13 @@ headerTag: People
       </div>
     </div>
     <div class="large-8 columns member-detailed-info">
-    <!-- About Section (Clean Narrative) -->
       <section>
         <div class="member-title">
           <h2>About Chinmay</h2>
           <div class="line"></div>
         </div>
         <div class="member-details">
-          <p>Chinmay Pendharkar is the Chief Technology Officer at Subnero, where he leads the continuous advancement of the company's technology and product capabilities. He brings over a decade of industry experience, ranging from embedded software development at Motorola Electronics to pioneering experimental audio technologies at an NUS spin-off.<p>
+          <p>Chinmay Pendharkar is the Chief Technology Officer at Subnero, where he leads the continuous advancement of the company's technology and product capabilities. He brings over a decade of industry experience, ranging from embedded software development at Motorola Electronics to pioneering experimental audio technologies at an NUS spin-off.</p>
         </div>
       </section>
     </div>

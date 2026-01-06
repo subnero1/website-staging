@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Deep-Water Testing of Modems with Nauticus Robotics in the Gulf of Mexico
 banner: images/banner-spotlight1.jpg
 date:  2025-09-30

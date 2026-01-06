@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Improving Underwater Communication with Subnero Multi-Receiver Modems
 banner: images/banner-multichannel-mf-gen4x.jpg
 date:  2025-11-13
