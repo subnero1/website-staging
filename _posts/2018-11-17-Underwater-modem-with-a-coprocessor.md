@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: Unlocking the Power of Edge Processing with Subnero’s Coprocessor
 banner : images/banner-pulse-coproc.jpg
 date:  2018-11-17
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-modems.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 In the world of underwater communications, Subnero’s acoustic modems have long been known for their robust performance. Out of the box, they already allow users to run their own logic directly on the device, extending standard communication features into a flexible platform for building novel subsea applications. Using Java-based UnetStack agents and Groovy scripts, users can implement custom behaviours, automate tasks, and develop intelligent underwater workflows—all without any additional hardware.
 
@@ -58,3 +60,22 @@ One of the most compelling applications of the coprocessor is its ability to run
 If you’re interested in adding edge processing to your underwater communication system, Subnero’s coprocessor is available as an optional accessory for our modems. With this accessory, you gain access to the full power of the modem's capabilities, including advanced processing, machine learning, and custom algorithm development, all within the robust and pressure-rated housing of Subnero’s acoustic modems.
 
 <a href="{{site.baseurl}}/products/gen4x/co-processors.html">Explore the Coprocessor Accessory Here.</a>
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+
+> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sed sapiente excepturi porro quidem dignissimos, obcaecati at aperiam voluptate? Nostrum vel at beatae voluptatibus explicabo odit minus inventore ullam eius.
+>
+> &mdash; *Source or author*
+
+##### Unordered List
+
+- List item one
+- Item two
+- thrid item
+
+<div class="sidebar-content">
+{% include postSidebar.html %}
+</div>
+</div>
