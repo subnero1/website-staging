@@ -21,7 +21,7 @@ The deployment spotlight underlines how Subnero’s technology supports a new cl
 
 The full text, “Deep-Water Testing of Subnero Modems in the Gulf of Mexico,” is available [here]({{site.baseurl}}/user-stories/deep-water-test/).
 
-Nauticus has also issued its own press release, available [here](https://ir.nauticusrobotics.com/news-events/press-releases/detail/92/nauticus-robotics-announces-ultra-deepwater-aquanaut-test).
+Nauticus has also issued its own press release, available [here](https://ir.nauticusrobotics.com/news-events/press-releases/detail/92/nauticus-robotics-announces-ultra-deepwater-aquanaut-test){:target="_blank"}.
 
 ## Related news articles
 - [Nauticus Robotics Announces Ultra-Deepwater Aquanaut Test Results Using Subnero Modems](https://oceannews.com/news/science-technology/nauticus-robotics-announces-ultra-deepwater-aquanaut-test-results-using-subnero-modems/)

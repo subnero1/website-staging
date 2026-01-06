@@ -39,8 +39,8 @@ Subnero’s coprocessor is a powerful computing unit housed within the same pres
 
 Whether running machine learning models, advanced physical-layer algorithms, custom analytics pipelines, or specialised research tools, the coprocessor provides the computational headroom necessary for modern underwater applications.
 
-![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.png)
-*Block diagram of the custom modem with co-processor.*
+![Block diagram of a modem with a co-processor]({{site.baseurl}}/images/block.png)
+*Subnero modem with a co-processor.*
 {: .post-image-wrap}
 
 ### Coprocessor for Machine Learning at the Edge
@@ -49,13 +49,14 @@ One of the most compelling applications of the coprocessor is its ability to run
 
 ### Why Use a Coprocessor?
 
-**1. Reducing Latency:** By performing edge processing, you can significantly reduce the time it takes to process and act on critical data, allowing for fast decision making in dynamic environments.
+* **1. Reducing Latency:** By performing edge processing, you can significantly reduce the time it takes to process and act on critical data, allowing for fast decision making in dynamic environments.
 
-**2. Conserving Bandwidth and Power:** Sending processed data instead of raw data reduces the need for high-bandwidth communication, optimizing both power usage and the use of limited acoustic bandwidth.
+* **2. Conserving Bandwidth and Power:** Sending processed data instead of raw data reduces the need for high-bandwidth communication, optimizing both power usage and the use of limited acoustic bandwidth.
 
-**3. Customization and Flexibility:** The coprocessor transforms Subnero’s modems into highly customizable systems. Whether you need to implement your own transmission algorithms or create a fully integrated underwater communication network, the coprocessor gives you the flexibility to innovate.
+* **3. Customization and Flexibility:** The coprocessor transforms Subnero’s modems into highly customizable systems. Whether you need to implement your own transmission algorithms or create a fully integrated underwater communication network, the coprocessor gives you the flexibility to innovate.
 
-**4. Scalability:** As your applications evolve, so too can the capabilities of your modem. The coprocessor can support a wide variety of applications, from simple data logging to complex real-time analytics, making it a versatile solution for many different use cases.
+* **4. Scalability:** As your applications evolve, so too can the capabilities of your modem. The coprocessor can support a wide variety of applications, from simple data logging to complex real-time analytics, making it a versatile solution for many different use cases.
+{: .vertical-cards.column4}
 
 ### Learn More About the Coprocessor
 
