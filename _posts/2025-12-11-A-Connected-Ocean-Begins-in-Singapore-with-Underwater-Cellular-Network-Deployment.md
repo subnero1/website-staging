@@ -35,7 +35,7 @@ The deployment represents a significant step toward a connected ocean. AUVs, div
 
 This type of network has never been deployed at commercial scale in Asia, and it positions Singapore as a global pioneer in connected-ocean infrastructure. Singapore becomes one of the first countries to operate an underwater communication system with cellular style behaviour. This positions the region as an innovation hub for the next wave of ocean technology and autonomous maritime systems.
 
-The full case study, titled [A Connected Ocean: Underwater Cellular Network Demonstrates the Future of Subsea Communications]({{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf), is available [here]({{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf).
+The full case study, titled [A Connected Ocean: Underwater Cellular Network Demonstrates the Future of Subsea Communications]({{site.baseurl}}/user-stories/cellular-network/), is available [here]({{site.baseurl}}/user-stories/cellular-network/).
 
 #### _About Subnero_
 
