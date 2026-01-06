@@ -33,8 +33,13 @@ Nauticus has also issued its own press release, available [here](https://ir.naut
 </div>
 
 <div class="post-sidebar" markdown="1">
-  <!-- Add sidebar content here -->
-  <div class="static-content">
-  {% include postSidebar.html %}
-  </div>
+
+<a href="{{site.baseurl}}/brochures/deployment-spotlight.pdf" title="Deployment Spotlight" target="_blank" class="post-image-link" >
+  ![Deployment Spotlight]({{site.baseurl}}/images/deployment-spotlight-cover.jpg)
+  *Download PDF*
+</a>
+
+<div class="static-content">
+{% include postSidebar.html %}
+</div>
 </div>

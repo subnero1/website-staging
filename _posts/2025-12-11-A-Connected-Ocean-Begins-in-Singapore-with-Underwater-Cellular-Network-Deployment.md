@@ -69,9 +69,9 @@ _ST Engineering is a global technology, defence, and engineering group providing
 - Connected maritime defence networks
 - Scalable research and monitoring systems
 
-<a href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" title="Download case study" target="_blank" class="post-image-link" >
-  ![Download case study]({{site.baseurl}}/images/case-study-underwater-cellular-network-cover.jpg)
-  *Download case study*
+<a href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" title="Case Study" target="_blank" class="post-image-link" >
+  ![Case Study]({{site.baseurl}}/images/case-study-underwater-cellular-network-cover.jpg)
+  *Download PDF*
 </a>
 
 <div class="static-content">
