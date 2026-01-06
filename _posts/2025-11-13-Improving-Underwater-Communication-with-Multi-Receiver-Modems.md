@@ -7,6 +7,7 @@ categories: feature
 thumbnail: images/pulse-thumbnail-mr-gen4x.png
 ---
 
+<div class="post-main" markdown="1">
 
 Underwater acoustic communication faces several physical limitations: restricted bandwidth, long propagation delays, severe multipath—especially in shallow waters—Doppler effects, and high ambient noise. Traditional modems with a single receiver rely heavily on sophisticated signal processing, but performance is ultimately constrained by the quality of the signal captured at that one location. If the receiving element happens to sit in a deep null or a locally noisy patch, recovery becomes difficult. Many underwater systems also require localization and tracking, which often rely on separate hardware such as USBL arrays or dedicated receivers, adding to overall operational complexity.
 
@@ -53,3 +54,11 @@ Multi-receiver modems can also act as capable passive acoustic monitoring system
 ### Learn More About Subnero’s Multi-Receiver Modems
 
 By adding the optional additional hydrophones, users can upgrade Subnero’s smart modems into multi-receiver modems. This provides all the capabilities described above within a robust, configurable platform suitable for both operational deployments and research-focused experimentation. Learn more about how to enable multi-receiver capability on your modems [here](https://subnero.com/products/gen4x/multi-receiver.html).
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <div class="sidebar-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

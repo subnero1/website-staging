@@ -7250,7 +7250,7 @@ a.usecase-card:hover {
 .pulse.page-hero.gen4x h1 {
   font-size: 48px;
 }
-.post-meta {
+.post-date {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -7258,16 +7258,31 @@ a.usecase-card:hover {
   font-size: 1.2rem;
   color: #fff;
 }
-.post-meta svg {
+.post-date svg {
   width: 18px;
   height: 18px;
   color: rgb(var(--orange));
 }
-.post-row {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 800px;
+.post-section {
   padding: 4rem 1rem;
+}
+.post-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr minmax(340px, 0.5fr);
+  gap: 4rem;
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+}
+.post-main {
+}
+.post-sidebar {
+  
+}
+.sidebar-content {
+  position: sticky;
+  top: 80px;
 }
 .post-row p {
   font-size: 1.26rem;
@@ -7319,11 +7334,71 @@ a.usecase-card:hover {
 .post-row blockquote {
   margin: 2rem 1rem;
   padding: 1.8rem 1.4rem .8rem;
+  border: 1px solid #ffd6c7;
   border-left: 6px solid rgb(var(--orange));
   background-color: rgba(var(--orange), 0.06);
   border-radius: 0 8px 8px 0;
 }
+.sidebar-row + .sidebar-row {
+  margin-top: 3rem;
+}
+.media-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} 
+.media-links svg {
+  width: 24px;
+  height: 24px;
+} 
+.post-sidebar h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 1.4rem;
+  color: #7e8693;
+}
+.post-sidebar .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.post-sidebar .tags a {
+  padding: 6px 12px;
+  font-size: 1rem;
+  color: #1a3b5c;
+  background-color: rgb(239, 246, 255);
+  border: 1px solid rgb(219, 234, 254);
+  border-radius: 8px;
+}
+.post-sidebar .tags a:hover {
+  color: rgb(var(--orange));
+}
+.post-row .post-sidebar  blockquote {
+  margin: 0 0 3rem;
+}
+.post-row .post-sidebar ul {
+  margin: 0 0 3rem 1rem ;
+}
+.post-row .post-sidebar ul li {
+  line-height: 1;
+}
+.post-row .post-sidebar  blockquote p {
+  font-size: 1.1rem;
+}
 
+.sidebar-content .fserv-container,
+.sidebar-content .fserv-container form {
+  padding: 0;
+}
+.sidebar-content .fserv-container button {
+  margin-bottom: 0;
+}
+.post-sidebar .fs-webform-container .fserv-field+div:not(.fserv-field) {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+}
 @media (min-width: 1593px){
   .media.product{
     background:#ffffff;
@@ -7788,6 +7863,16 @@ a.usecase-card:hover {
 
   .accordion-content ul{
     font-size:1rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .post-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .sidebar-content {
+    position: static;
+
   }
 }
 
