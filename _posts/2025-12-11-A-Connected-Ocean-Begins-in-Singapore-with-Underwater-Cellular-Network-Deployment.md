@@ -3,7 +3,7 @@ layout: pulse_post
 title: Internet of the Oceans – A Connected Ocean Begins in Singapore with Underwater Cellular Network Launch
 banner: images/banner-connected-ocean.jpg
 date:  2025-12-11
-categories: feature
+categories: case-study partnership
 thumbnail: images/pulse-thumbnail-connected-ocean.jpg
 ---
 
@@ -16,10 +16,6 @@ With the acceleration in offshore energy exploration and operations, in-water ro
 ### Bringing Terrestrial Cellular Network Principles to the Depths
 
 The deployment consisted of three buoy-mounted Subnero M25M-series smart modems that acted as subsea base stations. Each buoy created a ‘cell’ with planned overlap, similar to traditional terrestrial radio network planning. Autonomous Underwater Vehicles (AUVs) and underwater sensors equipped with Subnero M25M-series modems for communications were able to remain connected while moving between the cells. The network supported two-way communication, command and control messaging, telemetry exchange and real time localization and tracking – exhibiting terrestrial mobile network principles, applied underwater.
-
-> "Oceans cover 70 percent of the planet but remain almost entirely disconnected. Subnero’s mission is to change that by building the Internet of the Oceans" said Manu Ignatius, CEO of Subnero. “Singapore’s shallow, marine life-rich and traffic-intense waters presented unique challenges. The deployed network delivered seamless mobility and multi asset connectivity through this environment, giving us greater conviction that we are ready to transform how subsea missions will be conducted going forward."
-
-"This collaboration shows that cellular style networks bring real operational value to subsea missions," said Jin Jie Jay Poh, Vice President and Head of Unmanned Systems Business Unit, ST Engineering. "Validating this architecture in Singapore opens the door for scalable solutions across defence, commercial maritime, offshore energy and research sectors."
 
 ### Key Technical Outcomes
 
@@ -35,41 +31,42 @@ Across multiple trials, the network delivered three major results.
 
 The deployment represents a significant step toward a connected ocean. AUVs, divers, long duration sensors and marine robots can now operate within a shared, persistent and intelligent communication fabric.
 
-###### Potential applications include:
-* Autonomous subsea fleets
-* Persistent subsea IoT systems
-* Diver tracking and safety
-* Offshore inspection and maintenance
-* Connected maritime defence networks
-* Scalable research and monitoring systems
-
 ### A First Look at the Internet of the Oceans: Why It Matters
 
 This type of network has never been deployed at commercial scale in Asia, and it positions Singapore as a global pioneer in connected-ocean infrastructure. Singapore becomes one of the first countries to operate an underwater communication system with cellular style behaviour. This positions the region as an innovation hub for the next wave of ocean technology and autonomous maritime systems.
 
 The full case study, titled [A Connected Ocean: Underwater Cellular Network Demonstrates the Future of Subsea Communications]({{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf), is available [here]({{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf).
 
-#### About Subnero
+#### _About Subnero_
 
-Subnero develops underwater communication and networking technologies that aim to make underwater connectivity as seamless and scalable as connectivity on land. Through its acoustic smart modem platform and network intelligence systems, Subnero is advancing the Internet of the Oceans.
+_Subnero develops underwater communication and networking technologies that aim to make underwater connectivity as seamless and scalable as connectivity on land. Through its acoustic smart modem platform and network intelligence systems, Subnero is advancing the Internet of the Oceans._
 
-#### About ST Engineering Unmanned and Integrated Systems
+#### _About ST Engineering Unmanned and Integrated Systems_
 
-ST Engineering is a global technology, defence, and engineering group providing innovative solutions across aerospace, smart city, and digital systems domains. Through its Unmanned & Integrated Systems business, the company develops advanced communication and autonomous technologies that enhance connectivity and mission effectiveness in complex environments.
+_ST Engineering is a global technology, defence, and engineering group providing innovative solutions across aerospace, smart city, and digital systems domains. Through its Unmanned & Integrated Systems business, the company develops advanced communication and autonomous technologies that enhance connectivity and mission effectiveness in complex environments._
 
 </div>
 
 <div class="post-sidebar" markdown="1">
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sed sapiente excepturi porro quidem dignissimos, obcaecati at aperiam voluptate? Nostrum vel at beatae voluptatibus explicabo odit minus inventore ullam eius.
+> "Oceans cover 70 percent of the planet but remain almost entirely disconnected. Subnero’s mission is to change that by building the Internet of the Oceans. The deployed network delivered seamless mobility and multi asset connectivity through this environment, giving us greater conviction that we are ready to transform how subsea missions will be conducted going forward."
 >
-> &mdash; *Source or author*
+> &mdash; *Manu Ignatius*   
+> *CEO, Subnero*
 
-##### Unordered List
+> "This collaboration shows that cellular style networks bring real operational value to subsea missions. Validating this architecture in Singapore opens the door for scalable solutions across defence, commercial maritime, offshore energy and research sectors."
+>
+> &mdash; *Jin Jie Jay Poh*   
+> *Vice President and Head of Unmanned Systems Business Unit, ST Engineering*
 
-- List item one
-- Item two
-- thrid item
+##### Potential applications include:
+
+- Autonomous subsea fleets
+- Persistent subsea IoT systems
+- Diver tracking and safety
+- Offshore inspection and maintenance
+- Connected maritime defence networks
+- Scalable research and monitoring systems
 
 <div class="sidebar-content">
 {% include postSidebar.html %}
