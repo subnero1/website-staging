@@ -33,7 +33,8 @@ Nauticus has also issued its own press release, available [here](https://ir.naut
 </div>
 
 <div class="post-sidebar" markdown="1">
-  <div class="sidebar-content">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
   {% include postSidebar.html %}
   </div>
 </div>

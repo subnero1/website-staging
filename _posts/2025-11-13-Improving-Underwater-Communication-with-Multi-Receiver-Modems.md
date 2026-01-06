@@ -30,9 +30,10 @@ These gains translate directly into higher effective throughput, longer communic
 
 Multiple receivers unlock capabilities that are particularly valuable for research users:
 
-* **Acoustic communications research**: Users can test SIMO-based techniques, spatial combining, direction-of-arrival estimation, multipath mitigation strategies, or advanced PHY/MAC concepts. Subnero modems provide access to raw data streams from all receivers, making them flexible testbeds for developing and validating new communication algorithms.
+* **Acoustic communications research** Users can test SIMO-based techniques, spatial combining, direction-of-arrival estimation, multipath mitigation strategies, or advanced PHY/MAC concepts. Subnero modems provide access to raw data streams from all receivers, making them flexible testbeds for developing and validating new communication algorithms.
 
-* **Navigation and tracking research**: With hydrophones placed at different spatial locations, researchers can implement Time Difference of Arrival (TDOA), Phase Difference of Arrival (PDOA), or hybrid methods to estimate range, bearing, or full 3D position. This enables experiments in underwater localization using the same hardware platform.
+* **Navigation and tracking research** With hydrophones placed at different spatial locations, researchers can implement Time Difference of Arrival (TDOA), Phase Difference of Arrival (PDOA), or hybrid methods to estimate range, bearing, or full 3D position. This enables experiments in underwater localization using the same hardware platform.
+{: .horizontal-cards.column2}
 
 These features allow teams to use Subnero’s multi-receiver modems not only as communication devices but also as versatile platforms for scientific experimentation and algorithm development.
 
@@ -58,7 +59,8 @@ By adding the optional additional hydrophones, users can upgrade Subnero’s sma
 </div>
 
 <div class="post-sidebar" markdown="1">
-  <div class="sidebar-content">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
   {% include postSidebar.html %}
   </div>
 </div>

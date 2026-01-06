@@ -21,11 +21,12 @@ The deployment consisted of three buoy-mounted Subnero M25M-series smart modems 
 
 Across multiple trials, the network delivered three major results.
 
-1. **Continuous Communication:** Assets maintained uninterrupted links while transitioning between coverage zones. This mirrors how mobile devices switch between terrestrial towers.
+1. **Continuous Communication** Assets maintained uninterrupted links while transitioning between coverage zones. This mirrors how mobile devices switch between terrestrial towers.
 
-2. **Continuous Tracking and Situational Awareness:** Real time positional updates were available whenever assets were covered by multiple base stations, similar to multi-point localization techniques used in terrestrial networks. This allows safer and more coordinated underwater operations.
+2. **Continuous Tracking and Situational Awareness** Real time positional updates were available whenever assets were covered by multiple base stations, similar to multi-point localization techniques used in terrestrial networks. This allows safer and more coordinated underwater operations.
 
-3. **Scalable and Flexible Architecture:** The system demonstrated that adding more base stations naturally extends coverage and capacity. This enables large scale subsea communication grids across ports, naval bases, offshore installations and research zones.
+3. **Scalable and Flexible Architecture** The system demonstrated that adding more base stations naturally extends coverage and capacity. This enables large scale subsea communication grids across ports, naval bases, offshore installations and research zones.
+{: .vertical-cards}
 
 ### Unlocking New Possibilities for the Subsea Economy
 
@@ -68,7 +69,12 @@ _ST Engineering is a global technology, defence, and engineering group providing
 - Connected maritime defence networks
 - Scalable research and monitoring systems
 
-<div class="sidebar-content">
+<a href="{{site.baseurl}}/brochures/case-study-underwater-cellular-network.pdf" title="Download case study" target="_blank" class="post-image-link" >
+  ![Download case study]({{site.baseurl}}/images/case-study-underwater-cellular-network-cover.jpg)
+  *Download case study*
+</a>
+
+<div class="static-content">
 {% include postSidebar.html %}
 </div>
 </div>

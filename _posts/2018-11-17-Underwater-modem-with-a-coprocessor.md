@@ -39,7 +39,9 @@ Subnero’s coprocessor is a powerful computing unit housed within the same pres
 
 Whether running machine learning models, advanced physical-layer algorithms, custom analytics pipelines, or specialised research tools, the coprocessor provides the computational headroom necessary for modern underwater applications.
 
-![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.png){: .center-image  }
+![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.png)
+*Block diagram of the custom modem with co-processor.*
+{: .post-image-wrap}
 
 ### Coprocessor for Machine Learning at the Edge
 
@@ -64,18 +66,8 @@ If you’re interested in adding edge processing to your underwater communicatio
 </div>
 
 <div class="post-sidebar" markdown="1">
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sed sapiente excepturi porro quidem dignissimos, obcaecati at aperiam voluptate? Nostrum vel at beatae voluptatibus explicabo odit minus inventore ullam eius.
->
-> &mdash; *Source or author*
-
-##### Unordered List
-
-- List item one
-- Item two
-- thrid item
-
-<div class="sidebar-content">
+<!-- Add sidebar content here -->
+<div class="static-content">
 {% include postSidebar.html %}
 </div>
 </div>
