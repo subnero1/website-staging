@@ -32,9 +32,7 @@ tabs: swancomponents
     <p>Take a look at how SWIS - ADCP Edition revolutionizes the deployment of ADCPs.</p>
   </div>
   <div class="large-8 columns">
-    <div class="flex-video swan-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/a6HHxP9pEzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    {% include youtubeVideo.html url="https://www.youtube.com/embed/a6HHxP9pEzM" title="Subnero Wireless Integrated Suite" %}
   </div>
 </div>
 <div class="bg-grey">
@@ -229,9 +227,7 @@ tabs: swancomponents
   <div class="four-spacing"></div>
   <div class="row row-width row-padding-bottom">
     <div class="large-8 columns">
-      <div class="flex-video swan-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RCqQeVunGQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+      {% include youtubeVideo.html url="https://www.youtube.com/embed/RCqQeVunGQ4" title="SWIS - ADCP Edition in Action" %}
     </div>
     <div class="large-4 columns">
       <div class="flex-col row-padding-bottom">

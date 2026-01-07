@@ -70,3 +70,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis ip
 - List item one
 - Item two
 - thrid item
+
+
+## Embed youtube video
+
+{% include youtubeVideo.html url="https://www.youtube.com/embed/qFEYA1DlffI" title="UnetStack 3.1" %}

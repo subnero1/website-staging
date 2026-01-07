@@ -9,10 +9,7 @@ thumbnail: images/pulse-thumbnail-mr.jpg
 
 <div class="post-main" markdown="1">
 
-
-<div class="flex-video video">
-    <iframe src="https://www.youtube.com/embed/1OtxLh8z0zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtubeVideo.html url="https://www.youtube.com/embed/1OtxLh8z0zQ" title="Subnero Multi-Receiver Modems" %}
 
 As you know, [Subnero modems](https://subnero.com/products){:target="_blank"} running [UnetStack](https://subnero.com/products/unet){:target="_blank"} software framework, are at the forefront of the underwater wireless communication technology. In addition to providing unparalleled communication and networking performance, they also provide the user with the ability to [transmit and record arbitrary waveforms](https://unetstack.net/handbook/unet-handbook_baseband_service.html){:target="_blank"}. Being software defined, these devices provide the flexibility to you, the user, to develop or extend the capabilities using your own techniques. We, at Subnero are constantly working to bring you new features to help you realize __your__ vision of underwater communications and networking.
 

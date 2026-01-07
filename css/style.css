@@ -6124,10 +6124,6 @@ a.usecase-card:hover {
 .tech-cols a + a {
   margin-top: 2rem;
 }
-.tech-video {
-  border-radius: 8px;
-  overflow: hidden;
-}
 .tags-list {
   margin: 0;
   padding: 0;
@@ -7484,6 +7480,12 @@ a.usecase-card:hover {
 .post-info-card p {
   font-size: 1.12rem;
   color: #000;
+}
+.video-wrapper {
+  border-radius: 12px;
+}
+.post-row .video-wrapper {
+  margin-bottom: 2rem;
 }
 .static-content .fserv-container,
 .static-content .fserv-container form {

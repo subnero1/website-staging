@@ -1,0 +1,26 @@
+{% comment %} Usage: {% include youtubeVideo.html url="https://youtu.be/VIDEO_ID" title="My video title" %} {% endcomment %}
+
+{% assign video_url = include.url | default: "" %}
+{% assign video_title = include.title | default: "Video" %}
+
+{% if video_url == "" %}
+  <div class="video-wrapper">No video URL provided.</div>
+{% else %}
+  {% comment %} Check if URL is already in embed format {% endcomment %}
+  {% if video_url contains 'youtube.com/embed/' %}
+    {% assign embed_url = video_url %}
+  {% else %}
+    {% comment %} Normalize common YouTube URL formats to extract the ID/parameters {% endcomment %}
+    {% assign vid = video_url | replace: 'https://youtu.be/', '' | replace: 'http://youtu.be/', '' %}
+    {% assign vid = vid | replace: 'https://www.youtube.com/watch?v=', '' | replace: 'http://www.youtube.com/watch?v=', '' | replace: 'https://youtube.com/watch?v=', '' | replace: 'http://youtube.com/watch?v=', '' %}
+    {% assign parts = vid | split: '&' %}
+    {% assign vid = parts[0] %}
+    {% assign parts = vid | split: '?' %}
+    {% assign vid = parts[0] %}
+    {% assign embed_url = 'https://www.youtube.com/embed/' | append: vid %}
+  {% endif %}
+
+  <div class="video-wrapper" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+    <iframe src="{{ embed_url }}" title="{{ video_title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+{% endif %}

@@ -30,9 +30,8 @@ New features:
 Read all about the new features in the [What's new in UnetStack 3.1](https://blog.unetstack.net/whats-new-in-UnetStack3.1){:target="_blank"} blog article.
 
 Also check out the video for the new features in UnetStack 3.1.
-<div class="flex-video video">
-    <iframe src="https://www.youtube.com/embed/qFEYA1DlffI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+{% include youtubeVideo.html url="https://www.youtube.com/embed/qFEYA1DlffI" title="UnetStack 3.1" %}
 
 Can't wait to try it? Here is the [link](https://unetstack.net/downloads/){:target="_blank"} to download it.
 

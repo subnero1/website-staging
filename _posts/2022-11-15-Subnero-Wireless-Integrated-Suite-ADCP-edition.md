@@ -19,9 +19,7 @@ Acoustic Doppler Current Profilers or ADCPs are used to measure high-quality und
 
 When deploying ADCPs, users are generally presented with two choices to retrieve the data. Either retrieve the device after deployment and download the data or connect the bottom-mounted device to a buoy or a platform using a cable to download the data in real-time. Both these choices are expensive, logistically challenging, prone to data loss or equipment failure and may need additional permits which can increase the overall cost and complexity of the operation.
 
-<div class="flex-video video">
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/a6HHxP9pEzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtubeVideo.html url="https://www.youtube.com/embed/a6HHxP9pEzM" title="Subnero Wireless Integrated Suite" %}
 
 SWIS - ADCP edition provides seamless wireless connectivity to a seabed-mounted ADCP integrated with the Subnero Wireless Network Communication (WNC) series of products. 
 

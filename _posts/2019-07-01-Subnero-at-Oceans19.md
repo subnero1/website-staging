@@ -9,10 +9,7 @@ thumbnail: images/pulse-thumbnail-oceans19.jpg
 
 <div class="post-main" markdown="1">
 
-
-<div class="flex-video video">
-    <iframe src="https://www.youtube.com/embed/oDhKM-z8En8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtubeVideo.html url="https://www.youtube.com/embed/oDhKM-z8En8" title="Subnero at Oceans" %}
 
 OCEANS is a biennial event that brings together marine technologists, engineers, scientists, students, policymakers, and professionals from around the world. Over four days, participants explore key topics and emerging trends while building a global community that advances research, practice, and policy in the marine domain.
 
