@@ -4336,7 +4336,6 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   font-size: 1.4rem;
   color: #303030;
 }
-
 .card-tag {
   display: inline-flex;
   font-size: 1rem;
@@ -4346,7 +4345,6 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   background-color: #9c3af1;
   border-radius: 20px;
 }
-
 .card-tag.gen4x {
   background-color: #0181e2;
 }
@@ -4374,6 +4372,14 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .card-tag.gold {
   background-color: #ffbb00;
 }
+.card-tag.outline {
+  background-color: transparent !important;
+}
+.card-tag.silver.outline {
+  color: #ff7b00;
+  border: 1px solid #ff7b00;
+}
+
 .product-card h2 {
   font-size: 1.32rem;
   font-weight: 500;
@@ -5994,9 +6000,6 @@ a.usecase-card:hover {
 .tech-link .card-tag {
   font-size: 0.9rem;
   padding: 1px 10px;
-  color: #fff;
-  border: 1px solid #E6782F;
-  background-color: #E6782F;
 }
 .tech-col-grid .tech-link {
   flex-direction: column;
