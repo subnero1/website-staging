@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: pulse_post
 title: Subnero wins DisTec Undersea Challenge
 banner : images/banner-pulse-standard.jpg
 date:  2021-07-15
 categories: event press
 thumbnail: images/pulse-thumbnail-distec.jpg
 ---
+
+<div class="post-main" markdown="1">
+
 
 We are delighted to announce that we won the [DisTec Undersea Challenge](https://www.udt-global.com/about-the-challenge){:target="_blank"}.
 
@@ -17,8 +20,25 @@ After a presentation from all the finalists, we were announced as the winner of 
 
 <!-- The Grand Final can be watched [here](https://www.udt-global.com/finalists){:target="_blank"}. -->
 
-We are now hoping that the travel restrictions, to and from Europe, will be soon lifted so that we can attend the [Undersea Defence Technology - UDT 2021 conference](https://www.udt-global.com) in Rostock, Germany, in December 2021.
+We are now hoping that the travel restrictions, to and from Europe, will be soon lifted so that we can attend the [Undersea Defence Technology - UDT 2021 conference](https://www.udt-global.com){:target="_blank"} in Rostock, Germany, in December 2021.
 
-![Subnero announced as winner of DisTec Undersea Challenge 2021]({{site.baseurl}}/images/pulse-distec-final-2021.jpeg){: .center-image  }
 
-![DisTec Undersea Challenge 2021 Winner]({{site.baseurl}}/images/pulse-distec-finalists-2021.jpeg){: .center-image  }
+![Subnero announced as winner of DisTec Undersea Challenge 2021]({{site.baseurl}}/images/pulse-distec-final-2021.jpeg)
+*Subnero announced as winner of DisTec Undersea Challenge 2021*
+{: .post-image-wrap}
+
+
+
+![DisTec Undersea Challenge 2021 Winner]({{site.baseurl}}/images/pulse-distec-finalists-2021.jpeg)
+*DisTec Undersea Challenge 2021 Winner*
+{: .post-image-wrap}
+
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

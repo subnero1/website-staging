@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Subnero Wireless Integrated Suite (SWIS) - ADCP edition
 banner: images/banner-SWIS.jpg
 date: 2022-11-15
@@ -7,7 +7,11 @@ categories: swis product-launch press
 thumbnail: images/pulse-thumbnail-swis.jpg
 ---
 
-![Subnero Wireless Integrated Suite (SWIS) ADCP edition cover image]({{site.baseurl}}/images/swis-cover.jpg){: .center-image  }
+<div class="post-main" markdown="1">
+
+![Subnero Wireless Integrated Suite (SWIS) ADCP edition]({{site.baseurl}}/images/swis-cover.jpg)
+*Subnero Wireless Integrated Suite (SWIS) ADCP edition*
+{: .post-image-wrap}
 
 Subnero, a Singapore-headquartered company is launching its latest development: Subnero Wireless Integrated Suite (SWIS) - ADCP edition.
 
@@ -37,4 +41,13 @@ All of these not only makes your experience of deploying and managing multiple A
 
 After attending a local demonstration, Bob Coutts, Survey Business Development at Bintang Subsea noted “SWIS opens up new possibilities for the efficient and reliable acquisition of subsea sensor data.”
 
-Contact us at sales@subnero.com for more information, quotation or request for a demo.
+Contact us at [sales@subnero.com](mailto:sales@subnero.com){:target="_blank"} for more information, quotation or request for a demo.
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

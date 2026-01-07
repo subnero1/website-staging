@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - April 2020
 banner : images/banner-about.jpg
 date:  2020-04-08
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
 ---
+
+<div class="post-main" markdown="1">
+
 
 We are excited to release the next instalment of features and performance enhancements in the form of [UnetStack 3.1](https://unetstack.net/){:target="_blank"}.
 
@@ -32,3 +35,12 @@ Also check out the video for the new features in UnetStack 3.1.
 </div>
 
 Can't wait to try it? Here is the [link](https://unetstack.net/downloads/){:target="_blank"} to download it.
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

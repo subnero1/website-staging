@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Introducing Subnero Multi-Receiver Modems
 banner : images/banner-multichannel-mf.jpg
 date:  2021-05-12
@@ -7,17 +7,20 @@ categories: product-launch feature
 thumbnail: images/pulse-thumbnail-mr.jpg
 ---
 
+<div class="post-main" markdown="1">
+
+
 <div class="flex-video video">
     <iframe src="https://www.youtube.com/embed/1OtxLh8z0zQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-As you know, [Subnero modems](https://subnero.com/products) running [UnetStack](https://subnero.com/products/unet){:target="_blank"} software framework, are at the forefront of the underwater wireless communication technology. In addition to providing unparalleled communication and networking performance, they also provide the user with the ability to [transmit and record arbitrary waveforms](https://unetstack.net/handbook/unet-handbook_baseband_service.html){:target="_blank"}. Being software defined, these devices provide the flexibility to you, the user, to develop or extend the capabilities using your own techniques. We, at Subnero are constantly working to bring you new features to help you realize __your__ vision of underwater communications and networking.
+As you know, [Subnero modems](https://subnero.com/products){:target="_blank"} running [UnetStack](https://subnero.com/products/unet){:target="_blank"} software framework, are at the forefront of the underwater wireless communication technology. In addition to providing unparalleled communication and networking performance, they also provide the user with the ability to [transmit and record arbitrary waveforms](https://unetstack.net/handbook/unet-handbook_baseband_service.html){:target="_blank"}. Being software defined, these devices provide the flexibility to you, the user, to develop or extend the capabilities using your own techniques. We, at Subnero are constantly working to bring you new features to help you realize __your__ vision of underwater communications and networking.
 
 Now, imagine being able to use our modems to do things that were not possible previously, with a conventional acoustic modem. For example, let's say you have a communication link, that stops working beyond a certain range. You upgrade your modem and you can extend your communication range beyond what was previously possible.
 
 Or, say you want to monitor and record the underwater soundscape, but also send events of interest back to a control station in real-time, or allow control of the recording device from the surface. It would be nice to have a single device that can allow recording using multiple synchronized receiving channels, but also be able to communicate with that device directly, without the need to attach an external modem.
 
-What if you have a single device that can do all of these functions in real-time? Today we are very excited to launch a new class of underwater acoustic modems, called the [Subnero multi-receiver modems](https://subnero.com/products/gen4x/multi-receiver.html). The multi-receiver modems combine our silver edition M25M series modems, with a multi-receiver acoustic recorder, thereby providing an acoustic modem with multiple synchronous receiving channels, without a significant change of the form factor. Configurable with up to 4 additional synchronous receiving channels, each channel can have a sampling rate of 128 or 256 kilo samples per second.
+What if you have a single device that can do all of these functions in real-time? Today we are very excited to launch a new class of underwater acoustic modems, called the [Subnero multi-receiver modems](https://subnero.com/products/gen4x/multi-receiver.html){:target="_blank"}. The multi-receiver modems combine our silver edition M25M series modems, with a multi-receiver acoustic recorder, thereby providing an acoustic modem with multiple synchronous receiving channels, without a significant change of the form factor. Configurable with up to 4 additional synchronous receiving channels, each channel can have a sampling rate of 128 or 256 kilo samples per second.
 
 Out-of-the-box, you can use the multi-receiver modems as a normal modem or a standalone acoustic recorder or both at the same time. The data collected from the additional receiving channels can be saved to the modem's internal storage to be downloaded later. The recordings can be scheduled before deployment or triggered remotely using specific signals there by making the multi-receiver modems, ideal candidates for applications such as rapid environment assessment.
 
@@ -30,3 +33,12 @@ For power users, the full potential of the device can be harnessed through the c
 We hope you find our multi-receiver modems exciting.
 
 We love to hear from you. Let us know your thoughts and comments through sales@subnero.com.
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - May 2018
 banner : images/banner-pulse-articles3.jpg
 date:  2018-05-27
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 We are delighted to share the following updates with you:
 
@@ -37,3 +39,9 @@ We will be conducting a tutorial on Underwater Acoustic Networking on Monday the
 #### Meet us at OCEANS '18
 
 We will also be exhibiting at OCEANS '18, from May 28 to 31. Do drop by our booth, No. 33, if you are going to be at OCEANS' 18, Kobe, Japan.
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

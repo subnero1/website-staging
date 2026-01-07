@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - October 2019
 banner : images/banner-pulse-articles4.jpg
 date:  2019-10-01
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
 ---
+
+<div class="post-main" markdown="1">
+
 
 We are now pleased to announce the release of [UnetStack3](https://unetstack.net/){:target="_blank"}.
 
@@ -34,3 +37,11 @@ Alongside UnetStack3, we also released the [Unet handbook](https://unetstack.net
 Can't wait to try it! Here is the [link](https://unetstack.net/downloads/){:target="_blank"} to download it.
 
 We look forward to hearing any feedback that you may have.
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

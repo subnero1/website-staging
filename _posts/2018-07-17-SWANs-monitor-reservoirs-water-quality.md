@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Punchlines
 categories: press
 external_url: https://www.straitstimes.com/opinion/cartoons/punchlines-july-17-2018

@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - June 2019
 banner : images/banner-pulse-articles4.jpg
 date:  2019-06-11
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-unet.jpg
 ---
+
+<div class="post-main" markdown="1">
+
 
 ### Meet us at OCEANS' 19
 We will be exhibiting at [OCEANS' 19](http://www.oceans19mtsieeemarseille.org/){:target="_blank"}, June 17th - 20th in Marseille, France, booth 34. We look forward to seeing you there! 
@@ -36,3 +39,12 @@ We will be distributing, for the first time, our new brochures showing in detail
 You can have a sneak preview using the following links:
 -  [Underwater Modems](https://subnero.com/brochures/Subnero-MF-Modems.pdf){:target="_blank"}
 -  [UnetStack 3](https://subnero.com/brochures/UnetStack-Brochure.pdf){:target="_blank"}
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>
