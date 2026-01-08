@@ -17,9 +17,10 @@ In a new two-part series on the Unet Blog, we break down exactly how to move fro
 *The 5-level framework for moving from basic technology choices to fully adaptive, mission-critical underwater connectivity.*
 {: .post-image-wrap}
 
-* Part 1: The Foundations – We cover the essential "don'ts and do's" of acoustic systems, focusing on smart Technology Choices, rigorous Integration Hygiene (mechanical, electrical, and software), and effective Deployment Planning to avoid common environmental traps.
+* **Part 1: The Foundations** We cover the essential "don'ts and do's" of acoustic systems, focusing on smart Technology Choices, rigorous Integration Hygiene (mechanical, electrical, and software), and effective Deployment Planning to avoid common environmental traps.
 
-* Part 2: The Advanced Edge – We explore how to make your systems more aware through Adaptive Communication Links that adjust modulation in real-time and Adaptive Command & Control, where the vehicle proactively changes behavior to maintain connectivity.
+* **Part 2: The Advanced Edge** We explore how to make your systems more aware through Adaptive Communication Links that adjust modulation in real-time and Adaptive Command & Control, where the vehicle proactively changes behavior to maintain connectivity.
+{: .vertical-cards}
 
 Whether you are designing a new AUV or looking to improve the reliability of your current fleet, this series provides the technical insights needed to make acoustics work for you, not against you.
 
