@@ -9,7 +9,7 @@ thumbnail: images/pulse-thumbnail-connected-ocean.jpg
 
 <div class="post-main" markdown="1">
 
-**Singapore, December 11, 2025** – [Subnero Pte Ltd](https://subnero.com/) today announced a breakthrough milestone for global maritime technology. The company has successfully deployed and demonstrated an underwater cellular network in Singapore waters, delivered in partnership with [ST Engineering Unmanned & Integrated Systems (ST UIS)](https://www.stengg.com/en/defence/sea/unmanned-solutions/). It represents one of the world’s earliest commercial implementations of a subsea network designed to provide continuous coverage, seamless mobility and real time tracking for subsea assets. This work forms the foundation of what Subnero calls the Internet of the Oceans.
+**Singapore, December 11, 2025** – [Subnero Pte Ltd](https://subnero.com/){:target="_blank"}. today announced a breakthrough milestone for global maritime technology. The company has successfully deployed and demonstrated an underwater cellular network in Singapore waters, delivered in partnership with [ST Engineering Unmanned & Integrated Systems (ST UIS)](https://www.stengg.com/en/defence/sea/unmanned-solutions/){:target="_blank"}.. It represents one of the world’s earliest commercial implementations of a subsea network designed to provide continuous coverage, seamless mobility and real time tracking for subsea assets. This work forms the foundation of what Subnero calls the Internet of the Oceans.
 
 With the acceleration in offshore energy exploration and operations, in-water robotics, defence operations and ocean research, the need for a reliable, scalable and mobile underwater communication fabric is becoming critical. Traditional underwater acoustic systems have been limited to short distances or point-to-point links. This deployment shows that underwater networks can now behave like terrestrial cellular systems and support multiple mobile and stationary assets as they move through the mission area, enabling the next wave of scale in traditionally complex subsea operations.
 
@@ -36,7 +36,7 @@ The deployment represents a significant step toward a connected ocean. AUVs, div
 
 This type of network has never been deployed at commercial scale in Asia, and it positions Singapore as a global pioneer in connected-ocean infrastructure. Singapore becomes one of the first countries to operate an underwater communication system with cellular style behaviour. This positions the region as an innovation hub for the next wave of ocean technology and autonomous maritime systems.
 
-The full case study, titled [A Connected Ocean: Underwater Cellular Network Demonstrates the Future of Subsea Communications]({{site.baseurl}}/user-stories/cellular-network/), is available [here]({{site.baseurl}}/user-stories/cellular-network/).
+The full case study, titled [A Connected Ocean: Underwater Cellular Network Demonstrates the Future of Subsea Communications]({{site.baseurl}}/user-stories/cellular-network/){:target="_blank"}., is available [here]({{site.baseurl}}/user-stories/cellular-network/){:target="_blank"}..
 
 #### _About Subnero_
 
