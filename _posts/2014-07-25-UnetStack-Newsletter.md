@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - July 2014
 banner : images/banner-pulse-articles1.jpg
 date:  2014-07-25
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 UnetStack and simulator v1.2 released!
 
@@ -23,3 +25,9 @@ A modem implementation of UnetStack is available from [Subnero](http://www.subne
  
 ### Meet us at OCEANS’ 14.
 We will be exhibiting at OCEANS’ 14 this fall, Sept 14-19th 2014, at St. John’s, New Foundland.  We look forward to seeing you there!
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

@@ -111,6 +111,15 @@ if (downloadDecline) {
 if (downloadTgz) {
   downloadTgz.addEventListener('click', function (e) {
     e.preventDefault();
+    // GA4 Event Tracking
+    if (typeof gtag === 'function') {
+      gtag('event', 'file_download', {
+        'file_name': 'unet-community-3.4.4.tgz',
+        'file_extension': 'tgz',
+        'link_text': 'Download TGZ',
+        'link_url': 'https://unetstack.net/downloads/unet-community-3.4.4.tgz'
+      });
+    }
     startDownload('https://unetstack.net/downloads/unet-community-3.4.4.tgz');
   });
 }
@@ -118,6 +127,15 @@ if (downloadTgz) {
 if (downloadZip) {
   downloadZip.addEventListener('click', function (e) {
     e.preventDefault();
+    // GA4 Event Tracking
+    if (typeof gtag === 'function') {
+      gtag('event', 'file_download', {
+        'file_name': 'unet-community-3.4.4.zip',
+        'file_extension': 'zip',
+        'link_text': 'Download ZIP',
+        'link_url': 'https://unetstack.net/downloads/unet-community-3.4.4.zip'
+      });
+    }
     startDownload('https://unetstack.net/downloads/unet-community-3.4.4.zip');
   });
 }

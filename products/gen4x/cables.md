@@ -10,17 +10,17 @@ layout: default
         <div class="product-images">
           <div class="main-slider">
             <div class="slider-track">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-01.png" alt="Product Image 1">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-02.png" alt="Product Image 2">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-03.png" alt="Product Image 3">
-              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-04.png" alt="Product Image 4">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-01.png" alt="Subnero Subsea Cables Gallery View 1">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-02.png" alt="Subnero Subsea Cables Gallery View 2">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-03.png" alt="Subnero Subsea Cables Gallery View 3">
+              <img class="main-img" src="{{site.baseurl}}/images/gen4x/accessories-cables-gallery-04.png" alt="Subnero Subsea Cables Gallery View 4">
             </div>
           </div>
           <div class="thumbs">
-            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-01.png" alt="Thumbnail 1">
-            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-02.png" alt="Thumbnail 2">
-            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-03.png" alt="Thumbnail 3">
-            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-04.png" alt="Thumbnail 4">
+            <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-01.png" alt="Subnero Subsea Cables Thumbnail 1">
+            <img data-index="1" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-02.png" alt="Subnero Subsea Cables Thumbnail 2">
+            <img data-index="2" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-03.png" alt="Subnero Subsea Cables Thumbnail 3">
+            <img data-index="3" src="{{site.baseurl}}/images/gen4x/accessories-cables-thumb-04.png" alt="Subnero Subsea Cables Thumbnail 4">
           </div>
         </div>
         <!-- ./slider -->
@@ -75,7 +75,7 @@ layout: default
         </ul>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/accessories-cables-feature.png" />
+        <img src="{{site.baseurl}}/images/gen4x/accessories-cables-feature.png" alt="Subnero Subsea Cables Feature Image" />
       </div>
     </div>
   </section>

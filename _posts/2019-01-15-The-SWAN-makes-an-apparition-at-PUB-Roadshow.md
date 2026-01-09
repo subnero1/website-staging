@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: SWAN at PUB roadshow
 banner : images/banner-pulse-standard.jpg
 date:  2019-01-15
@@ -7,6 +7,12 @@ categories: event
 thumbnail: images/pulse-thumbnail-swan-roadshow.jpg
 ---
 
-The SWAN made an apparition at the PUB roadshow.
-Alongside another 3 startups, we pitched the SWAN to several groups of delegates from Australia, Malaysia and Hong Kong.
-The session finished with an open session of questions and answers to the all the companies present from all the delegates.
+<div class="post-main" markdown="1">
+
+The SWAN was showcased at the PUB Roadshow, where Subnero presented alongside three other startups. We introduced the SWAN to delegations from Australia, Malaysia, and Hong Kong, highlighting its capabilities and potential applications. The session concluded with an open question-and-answer segment, allowing delegates to engage directly with all participating companies.
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

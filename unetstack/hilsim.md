@@ -28,7 +28,7 @@ section_id: products
       <p>This setup enables you to test PHY, MAC and network-layer algorithms under realistic underwater conditions using real hardware devices—including Subnero modems and UnetCube—without leaving the lab.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/flat-hilsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Hardware-in-the-Loop Simulation Setup" src="{{site.baseurl}}/images/flat-hilsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>
@@ -90,7 +90,7 @@ section_id: products
   <div class="row usecase-wrap">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/usecase-hilsim.jpg" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-hilsim.jpg" alt="Hardware-in-the-Loop Setup With Modems and VAO">
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-acqua">Hardware-in-the-Loop Setup With Modems and VAO</h3>
@@ -101,7 +101,7 @@ section_id: products
 </section>
 
 <!-- HIL Workflow -->
-<section class="g4x-section">
+<section class="g4x-section" style="background-color:#e8f3ff;">
   <div class="g4x-section-head">
     <h2 class="sec-head lg text-gradient g-acqua normal-spacing">HIL Workflow</h2>
     <p class="sec-subhead">Connect real hardware to a virtual ocean.</p>

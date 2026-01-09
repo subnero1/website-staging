@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Gen4x Product Range
+title: Components, Accessories and Optional Upgrades
 category: accessories
 order: 4
 ---
@@ -15,7 +15,7 @@ order: 4
   <div class="row" style="margin-top:0;">
     <div class="large-12 columns"> 
       <div class="category-content text-center">
-        <h3 style="font-weight:400;">Enhance your Subnero modem’s capabilities with a range of accessories and optional upgrades designed for seamless integration and extended functionality. From modules such as additional receiving channels, co-processors, and storage units to hull configurations, and specialized cables, these add-ons help tailor each system to specific deployment needs and environments.</h3>
+        <h3 style="font-weight:400;">Enhance your Subnero product's capabilities with a range of accessories and optional upgrades designed for seamless integration and extended functionality. From modules such as additional receiving channels, co-processors, and storage units to hull configurations, and specialized cables, these add-ons help tailor each system to specific deployment needs and environments.</h3>
       </div>
     </div>  
   </div>
@@ -27,12 +27,12 @@ order: 4
   <div class="row">
     <div class="card-wrapper">
     {% for product in site.data.gen4x_products.accessories.products %}
-      <a class="product-card" href="{{site.baseurl}}{{product.link }}">
+      <a class="product-card" href="{{ site.baseurl}}{{product.link }}">
         <div class="card-tag {{ product.edition | downcase }}">{{product.edition}} Edition </div>
         <div class="card-title type"></div>
         <div class="card-title name">{{ product.name }}</div>
         <div class="product-img">
-          <img src="{{site.baseurl}}{{product.image }}">
+          <img src="{{site.baseurl}}{{product.image }}" alt="{{ product.name }}">
         </div>
         <div class="details-link">View Details →</div>
       </a>

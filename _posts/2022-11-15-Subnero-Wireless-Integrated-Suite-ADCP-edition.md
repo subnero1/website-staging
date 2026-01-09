@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Subnero Wireless Integrated Suite (SWIS) - ADCP edition
 banner: images/banner-SWIS.jpg
 date: 2022-11-15
@@ -7,7 +7,11 @@ categories: swis product-launch press
 thumbnail: images/pulse-thumbnail-swis.jpg
 ---
 
-![]({{site.baseurl}}/images/swis-cover.jpg){: .center-image  }
+<div class="post-main" markdown="1">
+
+![Subnero Wireless Integrated Suite (SWIS) ADCP edition]({{site.baseurl}}/images/swis-cover.jpg)
+*Subnero Wireless Integrated Suite (SWIS) ADCP edition*
+{: .post-image-wrap}
 
 Subnero, a Singapore-headquartered company is launching its latest development: Subnero Wireless Integrated Suite (SWIS) - ADCP edition.
 
@@ -15,9 +19,7 @@ Acoustic Doppler Current Profilers or ADCPs are used to measure high-quality und
 
 When deploying ADCPs, users are generally presented with two choices to retrieve the data. Either retrieve the device after deployment and download the data or connect the bottom-mounted device to a buoy or a platform using a cable to download the data in real-time. Both these choices are expensive, logistically challenging, prone to data loss or equipment failure and may need additional permits which can increase the overall cost and complexity of the operation.
 
-<div class="flex-video video">
-    <iframe width="800" height="450" src="https://www.youtube.com/embed/a6HHxP9pEzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtubeVideo.html url="https://www.youtube.com/embed/a6HHxP9pEzM" title="Subnero Wireless Integrated Suite" %}
 
 SWIS - ADCP edition provides seamless wireless connectivity to a seabed-mounted ADCP integrated with the Subnero Wireless Network Communication (WNC) series of products. 
 
@@ -37,4 +39,13 @@ All of these not only makes your experience of deploying and managing multiple A
 
 After attending a local demonstration, Bob Coutts, Survey Business Development at Bintang Subsea noted “SWIS opens up new possibilities for the efficient and reliable acquisition of subsea sensor data.”
 
-Contact us at sales@subnero.com for more information, quotation or request for a demo.
+Contact us at [sales@subnero.com](mailto:sales@subnero.com){:target="_blank"} for more information, quotation or request for a demo.
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

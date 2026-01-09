@@ -9,17 +9,17 @@ layout: default
         <div class="product-images">
             <div class="main-slider">
               <div class="slider-track">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-01.png" alt="Product Image 1">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-02.png" alt="Product Image 2">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-03.png" alt="Product Image 3">
-                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-04.png" alt="Product Image 4">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-01.png" alt="Subnero Multi-Receiver Modem Gallery View 1">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-02.png" alt="Subnero Multi-Receiver Modem Gallery View 2">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-03.png" alt="Subnero Multi-Receiver Modem Gallery View 3">
+                <img class="main-img" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-gallery-04.png" alt="Subnero Multi-Receiver Modem Gallery View 4">
               </div>
             </div>
             <div class="thumbs">
-              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-01.png" alt="Thumbnail 1">
-              <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-02.png" alt="Thumbnail 2">
-              <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-03.png" alt="Thumbnail 3">
-              <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-04.png" alt="Thumbnail 4">
+              <img class="selected-thumb" data-index="0" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-01.png" alt="Subnero Multi-Receiver Modem Thumbnail 1">
+              <img data-index="1" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-02.png" alt="Subnero Multi-Receiver Modem Thumbnail 2">
+              <img data-index="2" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-03.png" alt="Subnero Multi-Receiver Modem Thumbnail 3">
+              <img data-index="3" src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-thumb-04.png" alt="Subnero Multi-Receiver Modem Thumbnail 4">
             </div>
           </div>
       </div>
@@ -75,7 +75,7 @@ layout: default
         <p>Enables three-dimensional localization and tracking using multi-hydrophone signal processing.</p>
       </div>
       <div class="large-5 columns">
-        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-feature.png" />
+        <img src="{{site.baseurl}}/images/gen4x/M25M-silver-mr-feature.png" alt="Subnero Multi-Receiver Modem Feature Image" />
       </div>
     </div>
   </section>
@@ -85,7 +85,7 @@ layout: default
         <h3>Brochures</h3>
         <div class=brochures>
           <a class="download-file" href="{{site.baseurl}}/brochures/gen4x-MR-Modems.pdf" target="_blank">
-            <img src="{{site.baseurl}}/brochures/gen4x-MR-Modems.jpg">
+            <img src="{{site.baseurl}}/brochures/gen4x-MR-Modems.jpg" alt="Subnero Multi-Receiver Modems Brochure Thumbnail" >
             <span>Subnero Multi-Receiver Modems</span>
           </a>
         </div>

@@ -6,7 +6,6 @@ section_id: page
 <div class ='full tall' style='background-image: url({{site.baseurl}}/{% if page.banner %}{{page.banner}}{% else %}images/banner-pulse-articles1.jpg{% endif %});'>
   <div class='row'>
     <div class='large-12 columns'>
-      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
     </div>
   </div>
   <div class='four spacing'></div>
@@ -17,7 +16,7 @@ section_id: page
   <div class='row'>
     <div class='images'>
         {% for image in page.images %}
-        <div class='image'><img alt="" src="{{site.baseurl}}/{{image}}" /></div>
+        <div class='image'><img alt="{{page.title}}" src="{{site.baseurl}}/{{image}}" /></div>
         {% endfor %}
       </div>
       <div class='content'>

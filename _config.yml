@@ -23,4 +23,4 @@ highlighter: rouge
 exclude: ["readme.md", "**/readme.md", "README.md", "**/README.md"]
 
 # Google Analytics
-google_analytics: UA—130948711-1
+google_analytics: UA-130948711-1

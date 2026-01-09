@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: Underwater networking technology featured in The Economist
 banner : images/banner-pulse-articles3.jpg
 date:  2013-03-09
 categories: press
 thumbnail: images/pulse-thumbnail-economist.png
 ---
+
+<div class="post-main" markdown="1">
 
 The domain of underwater communications is at a tipping point, with the level of interest in underwater technology seeing substantial growth in recent years.
 
@@ -16,3 +18,9 @@ While nodes in water are by no means new, the ability to connect these aquatic d
 In its [Technology Quarterly issue (March 9th, 2013), the Economist magazine][1]{:target="_blank"} ran an article titled "Captain Nemo goes online", further acknowledging the growth in the underwater networking space. One of Subnero's founders, Dr. Mandar Chitre is cited in the article, acknowledged for technological innovation that allows underwater communication to occur over large distances in extremely challenging conditions.
 
 [1]: http://www.economist.com/news/technology-quarterly/21572920-networking-emerging-undersea-data-networks-are-connecting-submarines-aquatic
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

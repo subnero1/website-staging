@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Subnero at OCEANS'19, Marseille
 banner : images/banner-pulse-standard.jpg
 date:  2019-07-01
@@ -7,22 +7,31 @@ categories: event
 thumbnail: images/pulse-thumbnail-oceans19.jpg
 ---
 
-<div class="flex-video video">
-    <iframe src="https://www.youtube.com/embed/oDhKM-z8En8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="post-main" markdown="1">
+
+{% include youtubeVideo.html url="https://www.youtube.com/embed/oDhKM-z8En8" title="Subnero at Oceans" %}
+
+OCEANS is a biennial event that brings together marine technologists, engineers, scientists, students, policymakers, and professionals from around the world. Over four days, participants explore key topics and emerging trends while building a global community that advances research, practice, and policy in the marine domain.
+
+The conference is jointly organized by the [Marine Technology Society](https://www.mtsociety.org/){:target="_blank"} and the [IEEE Oceanic Engineering Society](http://ieeeoes.org/){:target="_blank"}, and typically attracts more than 2,000 attendees from industry, academia, and government.
+
+Subnero participates in OCEANS every year, using the event to engage with the community and stay connected with the latest industry developments. This year, we supported John Potter’s tutorial on JANUS and demonstrated JANUS capabilities using UnetStack3. Our booth saw strong engagement throughout the exhibition.
+
+We look forward to OCEANS 2020 in Singapore.
+
+![Subnero presenting at OCEANS 19 Marseille]({{site.baseurl}}/images/pulse-oceans19-2.jpg)
+*Subnero presenting at OCEANS 19 Marseille*
+{: .post-image-wrap}
+
+![Subnero booth at OCEANS 19 Marseille]({{site.baseurl}}/images/pulse-oceans19-3.jpg)
+*Subnero booth at OCEANS 19 Marseille*
+{: .post-image-wrap}
+
 </div>
 
-OCEANS is a bi-annual event for global marine technologists, engineers, scientists, students, government officials and lawyers.
-
-These industry thought leaders gather for four days to highlight relevant topics and current trends, while creating a community of learners and influencers who consistently advance research, practices, and policies for the marine field.
-
-The [Marine Technology Society](https://www.mtsociety.org/) and the [IEEE Oceanic Engineering Society](http://ieeeoes.org/) partner to present OCEANS. This prestigious conference and exhibition draws an audience of more than 2,000 attendees.
-
-Subnero attends this event once a year, every year. Once again we made new acquaintances and caught up on the latest news from the industry. We were privileged to help with Dr. John Potter’s tutorial on JANUS and to do a demonstration of JANUS using UnetStack3. We had lots of activity at our booth during the entire exhibition as well.
-
-We can’t wait for OCEANS 20 in Singapore! #Oceans20Singapore
-
-<div>
-    <img src="{{site.baseurl}}/images/pulse-oceans19-2.jpg" style="margin:5px 25px 5px 100px">
-    <img src="{{site.baseurl}}/images/pulse-oceans19-3.jpg" style="margin:5px">
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
 </div>
-<div class="spacing"></div>

@@ -1,0 +1,58 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ site.baseurl }}/" itemprop="item"><span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+    {% assign current_path = site.baseurl %}
+    {% assign position = 2 %}
+    
+    {% for crumb in crumbs offset: 1 %}
+      {% assign current_path = current_path | append: '/' | append: crumb %}
+      {% if forloop.last %}
+        <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name">{{ page.title }}</span>
+          <meta itemprop="position" content="{{ position }}" />
+        </li>
+      {% else %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="{{ current_path }}/" itemprop="item"><span itemprop="name">{{ crumb | replace: '-', ' ' | capitalize }}</span></a>
+          <meta itemprop="position" content="{{ position }}" />
+        </li>
+      {% endif %}
+      {% assign position = position | plus: 1 %}
+    {% endfor %}
+  </ol>
+</nav>
+
+<style>
+.breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  margin: 0 0.5rem;
+  color: #999;
+}
+.breadcrumbs a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+.breadcrumbs .current {
+  color: #666;
+}
+</style>

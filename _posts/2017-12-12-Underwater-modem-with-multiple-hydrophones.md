@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Underwater modem with a secondary data acquisition system
 banner : images/banner-pulse-custommodem.jpg
 date:  2017-12-12
@@ -7,7 +7,9 @@ categories: product-launch feature
 thumbnail: images/pulse-thumbnail-multichannel.jpg
 ---
 
-> This is a legacy product and is now replaced with the [multi-receiver modems](https://subnero.com/products/gen4x/multi-receiver.html). This product is not available for purchase anymore.
+<div class="post-main" markdown="1">
+
+> This is a legacy product and is now replaced with the [multi-receiver modems](https://subnero.com/products/gen4x/multi-receiver.html){:target="_blank"}.
 
 The Subnero underwater modems provide options for customization and extension at many levels. For a research application, a customer required 4 synchronized recordings of a received signal from carefully positioned hydrophones, everytime the signal was detected on the main hydrophone. In order to fulfill this requirement, we integrated 4 preamplifiers and a USB-1608G Series high-speed USB data acquisition system in our standard modem. A driver was developed (in C language) for the multi-receiver acquisition system. This driver published its data to UnetStack using standard baseband recording messages, so that the customer's software could request these messages.
 
@@ -28,3 +30,9 @@ signal = bbmsg.signal
 ```
 
 Since the recording is requested on the secondary data acquisition system containing multiple receivers, the recorded data stored in `signal` is interleaved.
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

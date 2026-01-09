@@ -1,52 +1,90 @@
 ---
-layout: page
-title: Shiraz Shahabudeen
-banner: images/banner-about.jpg
+layout: default
+title:  Shiraz Shahabudeen
+banner : images/banner-about.jpg
+headerTag: People
 ---
 
-<div>
-	<img src="/images/people/shiraz.jpg" style="width:30%">
-</div>
-<div class="spacing"></div>
-<p>
-Dr. Shiraz Shahabudeen has held various engineering roles including at Infocomm Development Authority of Singapore (IDA), NeST Software, India etc. He was a Research Fellow at ARL, National University of Singapore (NUS) where his research interests included underwater acoustic communications and autonomous underwater vehicles. Dr. Shahabudeen holds a B.Eng from NUS,  M.S in Telecommunication Engineering from Melbourne University (Australia) and a PhD from NUS in Underwater Communications.
-</p>
+<section class="page-hero sm gen4x people" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+	<div class="row flex-row">
+		<div class="hero-text">
+			<!-- hero -->
+		</div>
+	</div>
+</section>
 
+<section class="people-header" style="background-color: #f8fafc;">
+	<div class="row member-info">
+		<div class="member-picture">
+			<div class="photo">
+				<img src="/images/people/shiraz.jpg" alt="Shiraz Shahabudeen">
+			</div>
+		</div>
+		<h1>Shiraz Shahabudeen</h1>
+		<p>Research Scientist</p>
+		<div class="member-socials">
+			<a href="mailto:shiraz@subnero.com">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-4 h-4 mr-2"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+				<span>Email</span>
+			</a>
+		</div>
+	</div>
+</section>
 
-```
-[1] S. Shahabudeen, Time Domain Medium Access Control Protocols For Underwater Acoustic Networks. PhD thesis, National University of Singapore, 2012.
-
-[2] S. Shahabudeen, M. A. Chitre, and M. Motani, “Dynamic TDMA and MACA based protocols for distributed topology underwater acoustic networks,” in Underwater Acoustic Sensor Networks (Y. Xiao, ed.), ch. 8, pp. 197-224, Auerbach Publications, 2009.
-
-[3] S. Shahabudeen, M. Chitre, and M. Motani, “Adaptive multi-mode medium access control for underwater acoustic networks,” IEEE Journal of Oceanic Engineering, vol. 39, pp. 500-514, 2014.
-
-[4] S. Shahabudeen, M. Motani, and M. Chitre, “Analysis of a high performance MAC protocol for underwater acoustic networks,” IEEE Journal of Oceanic Engineering, vol. 39, no. 1, pp. 74-89, 2014.
-
-[5] M. Chitre, M. Motani, and S. Shahabudeen, “Throughput of networks with large propagation delays,” IEEE Journal of Oceanic Engineering, vol. 37, no. 4, pp. 645-658, 2012.
-
-[6] M. A. Chitre, S. Shahabudeen, and M. Stojanovic, “Underwater acoustic communications and networking: Recent advances and future challenges,” Marine Technology Society Journal, vol. 42, no. 1, pp. 103-116, 2008.
-
-[7] M. Chitre, S. Shahabudeen, L. Freitag, and M. Stojanovic, “Recent advances in underwater acoustic communications & networking,” inOCEANS'08, 2008. (Invited).
-
-[8] S. Shahabudeen, M. Chitre, and M. Motani, “MAC Protocols that Exploit Propagation Delay in Underwater Networks,” in IEEE OCEANS'11 Kona, September 2011.
-
-[9] M. Chitre, M. Motani, and S. Shahabudeen, “A scheduling algorithm for wireless networks with large propagation delays,” in IEEE OCEANS'10 Sydney, (Australia), May 2010.
-
-[10] S. Shahabudeen and M. Motani, “Modeling and performance analysis of MACA based protocols for adhoc underwater networks,” inWuwnet 2009, Berkeley, California, November 2009.
-
-[11] S. Shahabudeen, M. A. Chitre, M. Motani, and Y. S. Low, “Unified Simulation and Implementation Software Framework for Underwater MAC Protocol Development,” in IEEE/MTS OCEANS'09 Conference, Biloxi, US, October 2009.
-
-[12] S. Shahabudeen, M. A. Chitre, J. R. Potter, and M. Motani, “Multi-Mode Adaptive MAC Protocol Suite and Standardization Proposal for Heterogeneous Underwater Acoustic Networks,” in Underwater Acoustics Measurements 2009 Conference, Nafplion, Greece, June 2009.
-
-[13] Y. T. Tan, M. A. Chitre, P. Vadakkepat, and S. Shahabudeen, “Design and Development of Command and Control System for Autonomous Underwater Vehicles,” in DTA 2009, March 2009.
-
-[14] S. Shahabudeen, M. A. Chitre, and M. Motani, “A multi-channel MAC protocol for AUV networks,” in OCEANS 2007 - Europe, pp. 1-6, June 2007.
-
-[15] P. D. Deshpande, M. N. Sangekar, B. Kalyan, M. A. Chitre, S. Shahabudeen, V. Pallayil, and T. B. Koay, “Design and Development of AUVs for cooperative missions,” in Defence Technology Asia, Singapore, March 22 2007.
-
-[16] J. R. Potter, M. A. Chitre, and S. Shahabudeen, “Tropical shallow water acoustic communications for ad-hoc networking of coastal autonomous assets,” in Defence Technology Asia 2006, Shangri-La Hotel, Singapore, May 24-25 2006.
-
-[17] M. Chitre, L. Freitag, E. Sozer, S. Shahabudeen, M. Stojanovic, and J. Potter, “An Architecture for Underwater Networks,” inOCEANS 2006 - Asia Pacific, pp. 1-5, May 2006.
-
-[18] S. Shahabudeen and M. A. Chitre, “Design of networking protocols for shallow water peer-to-peer acoustic networks,” in OCEANS 2005 - Europe, vol. 1,2, pp. 628-633, June 2005. Oceans 2005 Europe International Conference, Brest, FRANCE, June 20-23, 2005.
-```
+<section class="page-section" style="background-color: #f8fafc;">
+	<div class="row large">
+		<div class="large-4 columns member-edu">
+			<!-- Education Card -->
+			<div class="member-card">
+				<h3>
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="graduation-cap" class="lucide lucide-graduation-cap w-4 h-4 mr-2"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+					<span>Education</span>
+				</h3>
+				<div>
+					<div class="member-qualification">
+						<div class="qualification-row">
+							<div class="bullet"></div>
+							<h4>Phd., Underwater Acoustic Networks</h4>
+						</div>
+						<div class="qualification-row">
+							<div class="rect"></div>
+							<p>National University of Singapore, 2011</p>
+						</div>
+					</div>
+					<div class="member-qualification">
+						<div class="qualification-row">
+							<div class="bullet"></div>
+							<h4>M.Sc. Telecommunication Engineering</h4>
+						</div>
+						<div class="qualification-row">
+							<div class="rect"></div>
+							<p>Melbourne University (Australia), 2003</p>
+						</div>
+					</div>
+					<div class="member-qualification">
+						<div class="qualification-row">
+							<div class="bullet"></div>
+							<h4>B.Eng. Electrical Engineering</h4>
+						</div>
+						<div class="qualification-row">
+							<div class="rect"></div>
+							<p>National University of Singapore, 1998</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="large-8 columns member-detailed-info">
+		<!-- About Section (Clean Narrative) -->
+			<section>
+				<div class="member-title">
+					<h2>About Shiraz</h2>
+					<div class="line"></div>
+				</div>
+				<div class="member-details">
+					<p>Dr. Shiraz Shahabudeen has held various engineering roles including at Infocomm Development Authority of Singapore (IDA), NeST Software, India etc. He was a Research Fellow at ARL, National University of Singapore (NUS) where his research interests included underwater acoustic communications and autonomous underwater vehicles.</p>
+				</div>
+			</section>
+		</div>
+	</div>
+</section>

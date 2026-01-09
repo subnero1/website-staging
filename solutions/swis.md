@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subnero Wireless Integrated Solution
+title: Subnero Wireless Integrated Solution (SWIS) - ADCP Edition
 banner : images/banner-SWIS.jpg
 thumbnail: images/boxart-swis.jpg
 excerpt: Subnero Wireless Integrated Suite, ADCP Edition
@@ -23,7 +23,6 @@ tabs: swancomponents
 <section id="adcp-edition" class="g4x-section">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Wireless Connectivity for ADCPs</h2>
-    <!-- <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p> -->
   </div>
 </section>
 
@@ -33,9 +32,7 @@ tabs: swancomponents
     <p>Take a look at how SWIS - ADCP Edition revolutionizes the deployment of ADCPs.</p>
   </div>
   <div class="large-8 columns">
-    <div class="flex-video swan-video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/a6HHxP9pEzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    {% include youtubeVideo.html url="https://www.youtube.com/embed/a6HHxP9pEzM" title="Subnero Wireless Integrated Suite" %}
   </div>
 </div>
 <div class="bg-grey">
@@ -71,7 +68,7 @@ tabs: swancomponents
       </div>
     </div>
     <div class="large-6 columns container accordion-img">
-      <img src="{{site.baseurl}}/images/adcp-deploy.jpg">
+      <img src="{{site.baseurl}}/images/adcp-deploy.jpg" alt="Subnero Wireless Integrated Solution (SWIS) Deployment">
     </div>
   </div>
 </div>
@@ -203,13 +200,13 @@ tabs: swancomponents
       <div class="large-6 columns">
         <div class="flex-col bg-white card-content">
           <h2>Pre-deployment</h2>
-          <img src="{{site.baseurl}}/images/swis-deploy-01.png">
+          <img src="{{site.baseurl}}/images/swis-deploy-01.png" alt="SWIS Pre-deployment Configuration">
         </div>
       </div>
       <div class="large-6 columns">
         <div class="flex-col bg-white card-content">
           <h2>During Deployment</h2>
-          <img src="{{site.baseurl}}/images/swis-deploy-02.png">
+          <img src="{{site.baseurl}}/images/swis-deploy-02.png" alt="SWIS During Deployment Operation">
         </div>
       </div>
     </div>
@@ -230,9 +227,7 @@ tabs: swancomponents
   <div class="four-spacing"></div>
   <div class="row row-width row-padding-bottom">
     <div class="large-8 columns">
-      <div class="flex-video swan-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RCqQeVunGQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+      {% include youtubeVideo.html url="https://www.youtube.com/embed/RCqQeVunGQ4" title="SWIS - ADCP Edition in Action" %}
     </div>
     <div class="large-4 columns">
       <div class="flex-col row-padding-bottom">
@@ -259,7 +254,7 @@ tabs: swancomponents
     <div class="large-12 columns flex-col">
       <h2>Brochures</h2>
       <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class="brochure-margin"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank" class="brochure-margin"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swis-adcp-thumbnail.jpg" alt="SWIS ADCP Edition Brochure"></a>
         <a href="{{site.baseurl}}/brochures/SWIS-ADCP-Edition.pdf" target="_blank">Subnero Wireless Integrated Suite (SWIS), ADCP Edition</a>
       </div>
     </div>

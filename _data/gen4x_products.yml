@@ -54,9 +54,9 @@ S40H:
 
 accessories:
   tag: Gen4X
-  title: Accessories & Optional Upgrades
-  details: Expand functionality with modular accessories and upgrades.
-  description: A comprehensive range of accessories — including additional receiving channels, co-processors, sensors, storage, hull options, and cables — to enhance performance and integration flexibility.
+  title: Components, Accessories & Optional Upgrades
+  details: Expand functionality with modular components, accessories and upgrades.
+  description: A comprehensive range of components, accessories — including additional receiving channels, co-processors, sensors, storage, hull options, and cables — to enhance performance and integration flexibility.
   image: /images/gen4x/gen4x-accessories-cover.png
   current_link: /products/gen4x/accessories
   products:

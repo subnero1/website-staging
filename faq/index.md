@@ -5,11 +5,11 @@ banner : images/banner-faq.jpg
 excerpt: Frequently asked questions about Subnero's offerings
 ---
 
-<section class="page-hero sm gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
+<section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
       <h4 class="g4x-tag">Frequently Asked Questions</h4>
-      <h1>Answers at Your Fingertips</h1>
+      <h1>Answers at <span class="text-gradient g-blue">Your Fingertips</span></h1>
       <p>Find fast, reliable answers to frequently asked questions, helping you better understand our products, technologies, and underwater communication solutions.</p>
     </div>
   </div>
@@ -22,7 +22,6 @@ excerpt: Frequently asked questions about Subnero's offerings
   <div class="faq-row">
     <div class="faq-categories">
       <div class="field-wrapper">            
-        
         <ul class="section-list">
           {% for faqcat in site.data.faq-categories %}
             <li><a href="#{{faqcat.link}}">{{ faqcat.name }}</a>
@@ -36,14 +35,11 @@ excerpt: Frequently asked questions about Subnero's offerings
             </li>
           {% endfor %}    
         </ul>
-
       </div>  
     </div>
-
     <div class="faq-content">
-      <p class="intro-text">Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings. Whether you're looking for general information, technical details, or assistance with specific tasks, this comprehensive resource is your go-to destination for clarity and insights.</p>
+      <p class="intro-text">Our Frequently Asked Questions (FAQ) page is designed to address a wide range of inquiries, ensuring you have a seamless experience while exploring our offerings.</p>
       <p class="hlight">If you can't find what you're looking for, don't hesitate to reach out to info@subnero.com.</p>
-
       <div class="faq-actions">
 
         <div class="search-field">
@@ -236,3 +232,23 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in site.faq %}
+    {
+      "@type": "Question",
+      "name": {{ faq.title | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.content | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+

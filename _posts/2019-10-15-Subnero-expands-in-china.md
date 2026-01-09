@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Subnero expands in China
 banner : images/banner-pulse-standard.jpg
 date:  2019-10-15
@@ -7,8 +7,20 @@ categories: partnership
 thumbnail: images/pulse-thumbnail-smartsea.jpg
 ---
 
-Subnero, the leading global provider of in-water wireless communication and monitoring systems is further expanding its Asian operations, having signed a partnership with [Wuxi Smartsea Technology Co. Ltd.](http://www.smartseatech.com/en/index.aspx){:target="_blank"} to support China business growth.
+<div class="post-main" markdown="1">
 
-Wuxi Smartsea Technology Co. Ltd., with offices in Wuxi & Shanghai, is a high-tech company with over 10 years of experience across oceanographic, hydrographic, net monitoring, hydrophones, and offshore engineering inspection equipment sales as well as technical services.
 
-Subnero & Wuxi Smartsea Technology will be attending iOceans conference in Sanya between the 25th and 27th of October, 2019. Visit us at iOceans to learn more about our industry-leading range of [underwater wireless communication nodes](https://subnero.com/products/modem.html), the [UnetStack](https://unetstack.net/){:target="_blank"} framework  and [Subnero Water Assessment Network](https://subnero.com/solutions/swan.html) (SWAN).
+Subnero is expanding its presence in Asia through a partnership with Wuxi Smartsea Technology Co. Ltd. to support business growth in China. This collaboration strengthens Subnero’s regional reach in in-water wireless communication and monitoring solutions.
+
+Based in Wuxi and Shanghai, Wuxi Smartsea Technology brings over a decade of experience across oceanographic and hydrographic systems, net monitoring, hydrophones, and offshore inspection equipment, along with associated technical services.
+
+Subnero and Wuxi Smartsea Technology jointly participated in the iOceans Conference held in Sanya from 25–27 October 2019. Visitors to the event were able to learn more about [Subnero’s underwater wireless communication nodes](https://subnero.com/products){:target="_blank"}, the [UnetStack software framework](https://subnero.com/products/unet){:target="_blank"}, and the Subnero Water Assessment Network (SWAN).
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

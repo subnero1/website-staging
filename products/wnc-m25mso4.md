@@ -29,7 +29,7 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mso4.png"/>
+    <img class = "align-self-start mr-3" alt="Subnero WNC-M25MSO4 OEM Configuration" src="{{site.baseurl}}/images/boxart-wnc-m25mso4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">OEM Configuration</h3>
         <p>The OEM configuration (OC) is tailored to facilitate seamless integration and adaptability, making it a top pick for incorporation into larger platforms, such as AUVs, ROVs, and sensors. Additionally, for free flooded platforms, it comes equipped with a pressure hull option.</p>
@@ -91,11 +91,11 @@ Subnero's silver edition underwater smart modem is the workhorse communication n
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
     <div class="brochure-container">
-      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
+      <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg" alt="Subnero M25M Underwater Modems"></a>
       <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
     </div>
     <div class="brochure-container">
-        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/wnc.jpg" alt="Generation 4 WNC Product Series Brief"></a>
         <a href="{{site.baseurl}}/brochures/Gen4-WNC.pdf" target="_blank">Generation 4 Wireless Networked Communications (WNC), Product Series Brief</a>
     </div>
   </div>

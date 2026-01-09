@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: Unlocking the Power of Edge Processing with Subnero’s Coprocessor
 banner : images/banner-pulse-coproc.jpg
 date:  2018-11-17
 categories: product-launch feature
 thumbnail: images/pulse-thumbnail-modems.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 In the world of underwater communications, Subnero’s acoustic modems have long been known for their robust performance. Out of the box, they already allow users to run their own logic directly on the device, extending standard communication features into a flexible platform for building novel subsea applications. Using Java-based UnetStack agents and Groovy scripts, users can implement custom behaviours, automate tasks, and develop intelligent underwater workflows—all without any additional hardware.
 
@@ -37,7 +39,9 @@ Subnero’s coprocessor is a powerful computing unit housed within the same pres
 
 Whether running machine learning models, advanced physical-layer algorithms, custom analytics pipelines, or specialised research tools, the coprocessor provides the computational headroom necessary for modern underwater applications.
 
-![Block diagram of the custom modem with co-processor]({{site.baseurl}}/images/block.png){: .center-image  }
+![Block diagram of a modem with a co-processor]({{site.baseurl}}/images/block.png)
+*Subnero modem with a co-processor*
+{: .post-image-wrap}
 
 ### Coprocessor for Machine Learning at the Edge
 
@@ -45,16 +49,26 @@ One of the most compelling applications of the coprocessor is its ability to run
 
 ### Why Use a Coprocessor?
 
-**1. Reducing Latency:** By performing edge processing, you can significantly reduce the time it takes to process and act on critical data, allowing for fast decision making in dynamic environments.
+* **1. Reducing Latency:** By performing edge processing, you can significantly reduce the time it takes to process and act on critical data, allowing for fast decision making in dynamic environments.
 
-**2. Conserving Bandwidth and Power:** Sending processed data instead of raw data reduces the need for high-bandwidth communication, optimizing both power usage and the use of limited acoustic bandwidth.
+* **2. Conserving Bandwidth and Power:** Sending processed data instead of raw data reduces the need for high-bandwidth communication, optimizing both power usage and the use of limited acoustic bandwidth.
 
-**3. Customization and Flexibility:** The coprocessor transforms Subnero’s modems into highly customizable systems. Whether you need to implement your own transmission algorithms or create a fully integrated underwater communication network, the coprocessor gives you the flexibility to innovate.
+* **3. Customization and Flexibility:** The coprocessor transforms Subnero’s modems into highly customizable systems. Whether you need to implement your own transmission algorithms or create a fully integrated underwater communication network, the coprocessor gives you the flexibility to innovate.
 
-**4. Scalability:** As your applications evolve, so too can the capabilities of your modem. The coprocessor can support a wide variety of applications, from simple data logging to complex real-time analytics, making it a versatile solution for many different use cases.
+* **4. Scalability:** As your applications evolve, so too can the capabilities of your modem. The coprocessor can support a wide variety of applications, from simple data logging to complex real-time analytics, making it a versatile solution for many different use cases.
+{: .vertical-cards.column4}
 
 ### Learn More About the Coprocessor
 
 If you’re interested in adding edge processing to your underwater communication system, Subnero’s coprocessor is available as an optional accessory for our modems. With this accessory, you gain access to the full power of the modem's capabilities, including advanced processing, machine learning, and custom algorithm development, all within the robust and pressure-rated housing of Subnero’s acoustic modems.
 
 <a href="{{site.baseurl}}/products/gen4x/co-processors.html">Explore the Coprocessor Accessory Here.</a>
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+<!-- Add sidebar content here -->
+<div class="static-content">
+{% include postSidebar.html %}
+</div>
+</div>

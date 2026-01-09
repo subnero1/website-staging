@@ -1,0 +1,27 @@
+---
+layout: default
+section_id: page
+---
+
+<section class="page-hero sm gen4x pulse" style='background-image: url({{site.baseurl}}/{% if page.banner %}{{page.banner}}{% else %}images/banner-pulse-articles1.jpg{% endif %});'>
+	<div class="row flex-row">
+		<div class="hero-text">
+			<h1>{{page.title}}</h1>
+			<div class="post-date">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar" class="lucide lucide-calendar w-4 h-4 text-subnero-accent"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+        <span>{{page.date | date: "%B %d, %Y" }}</span>
+      </div>
+		</div>
+	</div>
+</section>
+
+<section class="post-section">
+  <div class="post-row">
+    {% assign content = page.content | strip_newlines %}
+    {% if content != "" %}
+    {{ content }}
+    {% elsif page.external_url != null %}
+    <h3> Link : <a href="{{page.external_url}}">{{page.external_url}}</a></h3>
+    {% endif %}
+  </div>
+</section>

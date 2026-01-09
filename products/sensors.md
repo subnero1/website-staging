@@ -22,14 +22,14 @@ excerpt: Additional sensors for Subnero underwater acoustic smart modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-sensors01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-sensors01.jpg' alt="Additional sensors for Subnero underwater modems">
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors02.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors03.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors04.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors01.jpg' alt="Additional sensors for Subnero underwater modems"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors02.jpg' alt="Additional sensors for Subnero underwater modems"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors03.jpg' alt="Additional sensors for Subnero underwater modems"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-sensors04.jpg' alt="Additional sensors for Subnero underwater modems"></a></div>
               </div>
             </div>
         </div>

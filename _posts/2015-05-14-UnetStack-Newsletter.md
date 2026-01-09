@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - May 2015
 banner : images/banner-pulse-articles3.jpg
 date:  2015-05-14
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue3.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 Meet us at OCEANS' 15
 
@@ -21,3 +23,9 @@ Introducing the latest addition to Subnero's range of solutions, the aRecorder. 
 - Browser based UI
 - Ability to schedule varying-duration deployments
 - Availability of a variety of optional sensors
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

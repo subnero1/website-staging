@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Solutions
+title: Explore Smart Solutions for Reliable Underwater Connectivity
 banner : images/hero-solutions.jpg
 excerpt: Subnero's solutions for marine robots and underwater sensors.
 ---
@@ -16,7 +16,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
   </div>
 </section>
 
-<section class="g4x-section">
+<section class="g4x-section" id="sun">
   <div class="g4x-section-head">
     <h2 class="sec-head text-gradient g-orange">Subnero Underwater Network (SUN)</h2>
     <p class="sec-subhead">Scalable underwater connectivity through intelligent networked communications</p>
@@ -37,7 +37,7 @@ excerpt: Subnero's solutions for marine robots and underwater sensors.
       </div>
     </div>
     <div class="large-6 columns ">
-      <img alt="Subnero Wireless Integrated Suite (SWIS)" src="{{site.baseurl}}/images/Network4.0.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="Subnero Underwater Network (SUN) Network Diagram" src="{{site.baseurl}}/images/Network4.0.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>

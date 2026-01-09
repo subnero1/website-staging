@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Shaping the Future of Subsea Connectivity with Cellular Networks
 banner: images/banner-unetstack.jpg
 date:  2024-11-30
@@ -7,11 +7,21 @@ categories: feature case-study
 thumbnail: images/pulse-thumbnail-network2.jpg
 ---
 
-<div class='pulse-img-div'>
-    <img src="{{site.baseurl}}/images/Network4.0.jpg" class='pulse-img'>
-</div>
+<div class="post-main" markdown="1">
 
+Subnero (along with our collaborators [ST UIS](https://www.stengg.com/en/defence/sea/unmanned-solutions/){:target="_blank"}) recently published a paper titled Design, Development, and Deployment of an Underwater Cellular Network, presented at the OCEANS Halifax conference. This work represents a significant leap toward realizing Subnero’s vision of establishing underwater connectivity akin to terrestrial wireless networks. The [paper details](https://ieeexplore.ieee.org/abstract/document/10754077){:target="_blank"} the development of a subsea cellular network enabling seamless communication and localization for underwater assets such as autonomous vehicles and sensors. The network was tested near Singapore, leveraging [Subnero’s acoustic smart modems](https://subnero.com/products/wnc.html){:target="_blank"} for robust communication and localization. The deployment demonstrated capabilities for real-time data exchange and continuous asset tracking, marking a major milestone in subsea networking innovation. We are actively working to improve and expand this network, integrating new capabilities to drive further innovation and application readiness.
 
-Subnero (along with our collaborators [ST UIS](https://www.stengg.com/en/defence/sea/unmanned-solutions/) ) recently published a paper titled Design, Development, and Deployment of an Underwater Cellular Network, presented at the OCEANS Halifax conference. This work represents a significant leap toward realizing Subnero’s vision of establishing underwater connectivity akin to terrestrial wireless networks. The [paper details](https://ieeexplore.ieee.org/abstract/document/10754077) the development of a subsea cellular network enabling seamless communication and localization for underwater assets such as autonomous vehicles and sensors. The network was tested near Singapore, leveraging [Subnero’s acoustic smart modems](https://subnero.com/products/wnc.html) for robust communication and localization. The deployment demonstrated capabilities for real-time data exchange and continuous asset tracking, marking a major milestone in subsea networking innovation. We are actively working to improve and expand this network, integrating new capabilities to drive further innovation and application readiness.
+![Subnero Underwater Network]({{site.baseurl}}/images/Network4.0.jpg)
+*Subnero Underwater Network*
+{: .post-image-wrap}
 
 This publication also underscores Subnero’s evolution from a National University of Singapore spin-off to a global leader in underwater wireless technology. It highlights our commitment to extending the internet into the subsea realm by creating scalable, cost-effective, and safe heterogeneous networks. The Singapore testbed is a tangible step toward transforming our decade-old dream into reality, supporting applications in research, energy, marine industries, and defense. By achieving this milestone, Subnero is cementing its position as the de-facto standard for underwater communication and sensing networks, pushing the boundaries of subsea innovation.
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

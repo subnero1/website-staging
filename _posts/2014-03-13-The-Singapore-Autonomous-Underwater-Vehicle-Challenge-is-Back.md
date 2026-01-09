@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: The Singapore autonomous underwater vehicle challenge is back
 banner : images/banner-pulse-sauvc2014.jpg
 date:  2014-03-13
 categories: event
 thumbnail: images/pulse-thumbnail-sauvc.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 The Singapore autonomous underwater vehicle (SAUVC) challenge is back.
 
@@ -32,3 +34,9 @@ Sports and Recreation Centre,
 20 Nanyang Green, Singapore 637715.
 
 Check out the [SAUVC website](https://sauvc.org/){:target="_blank"} for more details.
+
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

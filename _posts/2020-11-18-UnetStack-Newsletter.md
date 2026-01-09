@@ -1,11 +1,14 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - November 2020
 banner : images/banner-about.jpg
 date:  2020-11-18
 categories: unetstack, press
 thumbnail: images/pulse-thumbnail-unet.jpg
 ---
+
+<div class="post-main" markdown="1">
+
 ## Unetstack v3.2 release & latest blogs
 
 The latest version of UnetStack3 is now ready to download.
@@ -34,4 +37,11 @@ Did you know that Unet audio is freely available from the same community edition
 
 Read all about in [section 15.4 of UnetStack handbook](https://unetstack.net/handbook/unet-handbook_physical_service.html#_transmitting_receiving_using_unet_audio){:target="_blank"}.
 
-![]({{site.baseurl}}/images/pulse-unetaudio01.jpg){: .center-image  }
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

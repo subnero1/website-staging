@@ -16,7 +16,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MSS4" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                <a href="{{site.baseurl}}{{page.url}}"><img alt="M25M Series acoustic smart modems" src="{{site.baseurl}}/{{page.thumbnail}}"/>
                 <div class='content'>
                 <h2>Standalone Configuration <br>WNC-M25MSS4</h2>
               </div></a>
@@ -29,7 +29,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MSO4" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                <a href="{{site.baseurl}}{{page.url}}"><img src="{{site.baseurl}}/{{page.thumbnail}}" alt="OEM Configuration - WNC-M25MSO4"/>
                 <div class='content'>
                 <h2>OEM Configuration <br>WNC-M25MSO4</h2>
               </div></a>
@@ -44,7 +44,7 @@ order: 2
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
                     <!-- <h2 class="new-tag"> NEW </h2> -->
-                    <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+                    <img alt="Multi-Receiver Configuration - WNC-M25MSS4+xCh" src="{{site.baseurl}}/{{page.thumbnail}}" />
                     <div class='content'>
                         <h2>Multi-Receiver Configuration <br>WNC-M25MSS4+xCh</h2>
                     </div>

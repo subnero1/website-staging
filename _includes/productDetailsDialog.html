@@ -3,6 +3,7 @@
     (function() {
       const modal = document.getElementById('configModal');
       const closeBtn = document.getElementById('closeModal');
+      const footerCloseBtn = document.getElementById('footerCloseModal');
 
       document.querySelectorAll('.card-dialog:not(.multi)').forEach(card => {
         card.addEventListener('click', (e) => {
@@ -26,6 +27,12 @@
       closeBtn.addEventListener('click', () => {
         modal.close();
       });
+
+      if (footerCloseBtn) {
+        footerCloseBtn.addEventListener('click', () => {
+          modal.close();
+        });
+      }
 
       modal.addEventListener('close', () => {
         modal.querySelectorAll('.modal-content-item').forEach(item => {

@@ -3,8 +3,8 @@
   submenu:
   - name: General
     link: wnc-general
-  - name: Products
-    link: products
+  - name: Smart Modems
+    link: smart-modems
   - name: Performance
     link: performance
   - name: UnetStack

@@ -10,7 +10,6 @@ excerpt: Additional storage for Subnero underwater acoustic smart modems.
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
-      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
     </div>
   </div>
   <div class='four spacing'></div>
@@ -22,12 +21,12 @@ excerpt: Additional storage for Subnero underwater acoustic smart modems.
       <div class='accessories'>
         <div class='accessories-img'>
             <div class='mod modBlogPost big'>
-              <img id='main-img' src='{{site.baseurl}}/images/accessories-storage01.jpg'>
+              <img id='main-img' src='{{site.baseurl}}/images/accessories-storage01.jpg' alt="Additional storage for Subnero underwater modems">
             </div>
             <div class='modGallery'>
               <div class='media modTeamMember shortcode-list'>
-                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-storage01.jpg'></a></div>
-                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-storage02.jpg'></a></div>
+                <div class="member current-li"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-storage01.jpg' alt="Additional storage for Subnero underwater modems"></a></div>
+                <div class="member"><a class='image-nav'><img src='{{site.baseurl}}/images/accessories-storage02.jpg' alt="Additional storage for Subnero underwater modems"></a></div>
               </div>
             </div>
         </div>

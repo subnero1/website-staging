@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 title: Improving Underwater Communication with Subnero Multi-Receiver Modems
 banner: images/banner-multichannel-mf-gen4x.jpg
 date:  2025-11-13
@@ -7,6 +7,7 @@ categories: feature
 thumbnail: images/pulse-thumbnail-mr-gen4x.png
 ---
 
+<div class="post-main" markdown="1">
 
 Underwater acoustic communication faces several physical limitations: restricted bandwidth, long propagation delays, severe multipath—especially in shallow waters—Doppler effects, and high ambient noise. Traditional modems with a single receiver rely heavily on sophisticated signal processing, but performance is ultimately constrained by the quality of the signal captured at that one location. If the receiving element happens to sit in a deep null or a locally noisy patch, recovery becomes difficult. Many underwater systems also require localization and tracking, which often rely on separate hardware such as USBL arrays or dedicated receivers, adding to overall operational complexity.
 
@@ -29,9 +30,10 @@ These gains translate directly into higher effective throughput, longer communic
 
 Multiple receivers unlock capabilities that are particularly valuable for research users:
 
-* **Acoustic communications research**: Users can test SIMO-based techniques, spatial combining, direction-of-arrival estimation, multipath mitigation strategies, or advanced PHY/MAC concepts. Subnero modems provide access to raw data streams from all receivers, making them flexible testbeds for developing and validating new communication algorithms.
+* **Acoustic communications research** Users can test SIMO-based techniques, spatial combining, direction-of-arrival estimation, multipath mitigation strategies, or advanced PHY/MAC concepts. Subnero modems provide access to raw data streams from all receivers, making them flexible testbeds for developing and validating new communication algorithms.
 
-* **Navigation and tracking research**: With hydrophones placed at different spatial locations, researchers can implement Time Difference of Arrival (TDOA), Phase Difference of Arrival (PDOA), or hybrid methods to estimate range, bearing, or full 3D position. This enables experiments in underwater localization using the same hardware platform.
+* **Navigation and tracking research** With hydrophones placed at different spatial locations, researchers can implement Time Difference of Arrival (TDOA), Phase Difference of Arrival (PDOA), or hybrid methods to estimate range, bearing, or full 3D position. This enables experiments in underwater localization using the same hardware platform.
+{: .horizontal-cards.column2}
 
 These features allow teams to use Subnero’s multi-receiver modems not only as communication devices but also as versatile platforms for scientific experimentation and algorithm development.
 
@@ -53,3 +55,12 @@ Multi-receiver modems can also act as capable passive acoustic monitoring system
 ### Learn More About Subnero’s Multi-Receiver Modems
 
 By adding the optional additional hydrophones, users can upgrade Subnero’s smart modems into multi-receiver modems. This provides all the capabilities described above within a robust, configurable platform suitable for both operational deployments and research-focused experimentation. Learn more about how to enable multi-receiver capability on your modems [here](https://subnero.com/products/gen4x/multi-receiver.html).
+
+</div>
+
+<div class="post-sidebar" markdown="1">
+  <!-- Add sidebar content here -->
+  <div class="static-content">
+  {% include postSidebar.html %}
+  </div>
+</div>

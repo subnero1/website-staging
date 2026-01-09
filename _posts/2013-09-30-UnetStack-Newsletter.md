@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - September 2013
 banner : images/banner-pulse-articles2.jpg
 date:  2013-09-30
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue1.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 Unetstack v1.1 is now available for download.
 
@@ -28,3 +30,8 @@ Sea trials and deployment experience have repeatedly proven outstanding performa
  
 Subnero is a Singapore-based company focused on enhancing underwater communications. Subnero's mission is to develop flexible, software-defined communication nodes for a variety of industries and applications. We are working with innovators worldwide to facilitate advances in underwater networking.The Unetstack and Unet-2 platforms, on which Subnero’s Nemo modem is based, were conceptualized at the Acoustics Research Laboratory (ARL) at the National University of Singapore.
 
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>

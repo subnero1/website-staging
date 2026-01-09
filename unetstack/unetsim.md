@@ -28,7 +28,7 @@ section_id: products
       <p>It lets users design, test and validate underwater communication and networking solutions on a laptop, then deploy them at sea with zero code changes.</p>
     </div>
     <div class="large-6 columns">
-      <img alt="Unetstack" src="{{site.baseurl}}/images/flat-unetsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
+      <img alt="UnetSim Network Simulator Interface" src="{{site.baseurl}}/images/flat-unetsim.jpg" style="width:100%; height:auto; border-radius: 12px"/>
     </div>  
   </div>
 </section>
@@ -90,7 +90,7 @@ section_id: products
   <div class="row usecase-wrap">
     <div class="usecase">
       <div class="usecase-img">
-        <img src="{{site.baseurl}}/images/usecase-unetsim.jpg" alt="Defense">
+        <img src="{{site.baseurl}}/images/usecase-unetsim.jpg" alt="Simulating Network Behavior Using UnetSim">
       </div>
       <div class="usecase-content">
         <h3 class="text-gradient g-blue">Simulating Network Behavior Using UnetSim</h3>

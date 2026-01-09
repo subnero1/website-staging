@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pulse_post
 categories: press
 title: Subnero features in Uncrewed Systems Technology magazine
 external_url: https://www.ust-media.com/ust-magazine/UST048/64

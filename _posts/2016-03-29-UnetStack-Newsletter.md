@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: pulse_post
 title: UnetStack Newsletter - March 2016
 banner : images/banner-pulse-articles2.jpg
 date:  2016-03-29
 categories: unetstack press
 thumbnail: images/pulse-thumbnail-blue2.jpg
 ---
+
+<div class="post-main" markdown="1">
 
 We have 3 quick updates: 
 
@@ -34,3 +36,8 @@ We will be conducting a tutorial on Underwater Acoustic Networking on Sunday the
 
 We will also be exhibiting at OCEANS ’16, from April 10th to 13th. Do drop by our booth, No. 49, if you are going to be at OCEANS'16.
 
+</div>
+
+<div class="post-sidebar">
+{% include postSidebar.html %}
+</div>
