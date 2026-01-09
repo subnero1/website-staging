@@ -4,13 +4,14 @@ title: Deep-Water Testing of Subnero Modems in the Gulf of Mexico
 sub_title: Deep-Water Testing of Subnero Modems in the Gulf of Mexico
 excerpt: Subnero’s deep-rated modems maintained reliable communication down to 2.5 km in Gulf of Mexico trials, achieving over 80% packet success. This user story shows how Subnero technology enables robust connectivity in ultra-deep subsea environments.
 banner: images/nauticus.jpg
+tag: Deployment Spotlight
 date: 2025-10-20
 ---
 
 <section class="page-hero md gen4x" style="background-image: url({{site.baseurl}}/{{page.banner}});">
   <div class="row flex-row">
     <div class="hero-text">
-      <h4 class="g4x-tag">Deployment Spotlight</h4>
+      <h4 class="g4x-tag">{{ page.tag }}</h4>
       <h1><span class="text-gradient g-blue">Deep-Water Testing of Subnero Modems in the Gulf of Mexico</span></h1>
     </div>
   </div>

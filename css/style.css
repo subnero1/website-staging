@@ -4379,7 +4379,10 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   color: #ff7b00;
   border: 1px solid #ff7b00;
 }
-
+.card-tag.gen4x.outline {
+  color: #0181e2;
+  border: 1px solid #0181e2;
+}
 .product-card h2 {
   font-size: 1.32rem;
   font-weight: 500;
@@ -5140,6 +5143,9 @@ body:has(dialog[open]) { overflow: hidden; }
 .user-story-card .read-link {
   margin: 0;
   color: #FC8230;
+}
+.user-story-card .card-tag {
+  margin-bottom: 6px;
 }
 
 /* features */

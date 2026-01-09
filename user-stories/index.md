@@ -24,6 +24,7 @@ excerpt: Real stories from the deep — exploring how cutting-edge acoustic comm
         <img src="{{site.baseurl}}/{{item.banner}}" alt="{{ item.title }}">
       </div>
       <div class="details">
+        <span class="card-tag gen4x outline ">{{ item.tag }}</span>
         <h2>{{ item.sub_title }}</h2>
         <p>{{ item.excerpt }}</p>
         <p class="read-link">Read more &#8594;</p>
