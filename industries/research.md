@@ -203,10 +203,12 @@ breadcrumb: Research
     </div>
     <div class="large-6 columns">
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">Proven in the Lab and the Field</h2>
-      <p>The <a href="https://sites.google.com/edu.haifa.ac.il/anl">Underwater Acoustic and Navigation Lab (ANL)</a> used Subnero modems to implement three advanced sensing applications, turning the modem into a programmable underwater laboratory.</p>
+      <p>The <a href="https://sites.google.com/edu.haifa.ac.il/anl" target="_blank" rel="noopener">Underwater Acoustic and Navigation Lab (ANL)</a> used Subnero modems to implement three advanced sensing applications, turning the modem into a programmable underwater laboratory.</p>
       <p><a href="{{site.baseurl}}/user-stories/flexible-software-defined-modems/">Read the programmable research modem story.</a></p>
       <p>The same software-defined platform underpinned one of the world's first underwater cellular network testbeds.</p>
       <p><a href="{{site.baseurl}}/user-stories/cellular-network/">Read the underwater cellular network testbed story.</a></p>
+      <p>The <a href="https://arl.nus.edu.sg/" target="_blank" rel="noopener">Acoustic Research Laboratory (ARL)</a> at NUS integrated a Subnero modem into an OceanScan MST LAUV itself, with no changes on either side, and open sourced the bridge.</p>
+      <p><a href="{{site.baseurl}}/user-stories/drop-in-integration-lauv/">Read the drop-in integration case study.</a></p>
     </div>
   </div>
 </section>

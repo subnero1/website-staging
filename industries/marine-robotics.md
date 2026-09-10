@@ -271,6 +271,8 @@ breadcrumb: Marine Robotics
       <p><a href="{{site.baseurl}}/case-study/partnership/2025/09/30/Deployment-Spotlight-Nauticus-Robotics.html" target="_blank" rel="noopener">Read the deep-water testing deployment spotlight.</a></p>
       <p>At the University of Alabama's muNet Laboratory, a Subnero smart modem turned a commercial AUV into a programmable, acoustically controlled platform.</p>
       <p><a href="{{site.baseurl}}/user-stories/smart-modems-smarter-auvs/" target="_blank" rel="noopener">Read the smart modems, smarter AUVs case study.</a></p>
+      <p>At the Acoustic Research Laboratory, National University of Singapore, a Subnero modem dropped into an OceanScan MST LAUV with no changes to the modem, the vehicle, or the software on either side.</p>
+      <p><a href="{{site.baseurl}}/user-stories/drop-in-integration-lauv/" target="_blank" rel="noopener">Read the drop-in integration case study.</a></p>
     </div>
   </div>
 </section>
