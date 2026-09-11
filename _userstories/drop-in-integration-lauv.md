@@ -6,7 +6,7 @@ excerpt: How ARL at NUS integrated a Subnero smart modem into a vehicle running 
 banner: images/case-study-banner-lauv.jpg
 thumbnail: images/case-study-thumbnail-lauv.jpg
 tag: Case Study
-date: 2026-09-20
+date: 2026-09-10
 ---
 
 <style>
