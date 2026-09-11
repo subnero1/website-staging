@@ -2,7 +2,7 @@
 layout: pulse_post
 title: Drop-In Integration - New Case Study on How the LAUV Became Subnero Ready
 banner: images/case-study-banner-lauv.jpg
-date:  2026-09-20
+date:  2026-09-10
 categories: case-study partnership
 thumbnail: images/case-study-thumbnail-lauv.jpg
 description: A new case study shows how the Acoustic Research Laboratory at NUS integrated a Subnero smart modem into an OceanScan MST LAUV running Dune, with no changes to the modem, the vehicle, or the software on either side.
