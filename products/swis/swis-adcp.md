@@ -49,7 +49,7 @@ breadcrumb: SWIS - ADCP Edition
             <div class="content-1">
               <ul>
                 <li>Subnero <a target="_blank" href="{{site.baseurl}}/products/wnc">WNC</a> series products offering high performance acoustic links.</li>
-                <li>On-demand and on-scheduler data availability.</li>
+                <li>Manual and automatic data availability.</li>
               </ul>
             </div>
             <div class="content-2">

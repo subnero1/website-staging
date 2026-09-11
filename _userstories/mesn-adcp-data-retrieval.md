@@ -2,7 +2,7 @@
 layout: default
 title: From Seabed to Shore
 sub_title: From Seabed to Shore
-excerpt: Subnero deployed SWIS – ADCP Edition at the MESN-UBN buoy off Pulau Ubin, demonstrating end-to-end wireless ADCP data retrieval from the seabed to the researcher's office. This case study shows how a four month deployment in challenging Singapore waters validated on-demand and on-schedule data delivery with no divers and no cables.
+excerpt: Subnero deployed SWIS – ADCP Edition at the MESN-UBN buoy off Pulau Ubin, demonstrating end-to-end wireless ADCP data retrieval from the seabed to the researcher's office. This case study shows how a four month deployment in challenging Singapore waters validated manual and automatic data delivery with no divers and no cables.
 banner: images/case-study-banner-mesn.jpg
 thumbnail: images/case-study-thumbnail-mesn.jpg
 tag: Case Study
@@ -100,7 +100,7 @@ date: 2026-07-04
       <h2 class="sec-head text-gradient g-orange">How it worked in practice?</h2>
     </div>
     <div class="columns">
-      <p>The deployment exercised the two ways researchers want to reach their data. In on-demand mode, a user opens a browser, connects to the topside modem and then to the seabed modem from there, sees the seabed device&rsquo;s status and file list, and pulls down what they need, from the office, at any hour, without a vessel. In autonomous on-schedule mode, the modems wake on a set schedule, transfer data from the lander to the topside modem, and sleep again to save power, building up data on the surface so that users can access the topside modem remotely at any time to download it. The same deployment supported both at once.</p>
+      <p>The deployment exercised the two ways researchers want to reach their data. In manual mode, a user opens a browser, connects to the topside modem and then to the seabed modem from there, sees the seabed device&rsquo;s status and file list, and pulls down what they need, from the office, at any hour, without a vessel. In automatic mode, the modems wake on a set schedule, transfer data from the lander to the topside modem, and sleep again to save power, building up data on the surface so that users can access the topside modem remotely at any time to download it. The same deployment supported both at once.</p>
       <p>Access was deliberately simple. Through the SWIS interface a file came down in about two clicks, with nothing to install and no specialist training, which is what makes the system usable by researchers rather than only by the engineers who built it.</p>
       <p>The deployment also exercised something less common: control of the seabed setup after it was deployed. Working from shore, the team changed the lander&rsquo;s configuration in the water, adjusting data collection frequency and switching modes, without recovering or revisiting the lander. This was validated as an experimental capability. Both modes worked.</p>
       <figure>
@@ -149,7 +149,7 @@ date: 2026-07-04
     </div>
     <div class="large-6 columns">
       <ul class="case-study-list">
-        <li>Both on-demand and on-schedule retrieval in one deployment.</li>
+        <li>Both manual and automatic retrieval in one deployment.</li>
         <li>Simple operation, with downloads in about two clicks and no specialist training.</li>
         <li>Resilience to high noise, with an independent modem battery and redundant copies.</li>
       </ul>
