@@ -73,7 +73,7 @@ breadcrumb: UnetStack
   <div class="row large">
     <div class="large-6 columns"> 
       <h2 class="text-3xl text-600 capitalize-none text-gradient g-orange inline-block normal-spacing">UnetStack Overview</h2>
-      <p>UnetStack is a suite of technologies that brings modern communication networks underwater. At its core is an extensible, agent-based framework for building underwater and hybrid communication systems, providing full control from the physical layer up to applications. Surrounding this core is an ecosystem of simulators, hardware components such as Unet audio and UnetCube, and libraries and APIs in multiple programming languages, supporting the entire workflow from development to deployment.</p>
+      <p>UnetStack is a suite of technologies that brings modern communication networks underwater. At its core is an extensible, agent-based framework for building underwater and hybrid communication systems, providing full control from the physical layer up to applications. Surrounding this core is an ecosystem of simulators, hardware components such as UnetCube, and libraries and APIs in multiple programming languages, supporting the entire workflow from development to deployment.</p>
       <ul class="feature-list ra">
         <li><i class="icon-check"></i> <span class="text-lg">Supports standalone underwater networks & hybrid systems (Acoustic, Optical, RF, Wired).</span></li>
         <li><i class="icon-check"></i> <span class="text-lg">Includes localization, device & sensor management, and edge analytics.</span></li>
@@ -206,16 +206,15 @@ breadcrumb: UnetStack
         </div>
         <div>
           <h4 class="text-white m0 capitalize-none text-xl normal-spacing text-600 mt1">OEM Edition</h4>
-          <p class="text-md m0 text-white">(UnetCube)</p>
         </div>
-        <p class="text-md text-white m0">An embedded development platform for hardware in the loop simulation or OEMs.</p>
+        <p class="text-md text-white m0">The full stack on real hardware. Ships inside Subnero smart modems, UnetCube, and UnetCloud.</p>
         <ul class="custom-list">
           <li>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
-            <span>Embedded Single Board Computer (SBC)</span>
+            <span>Full baseband service & device-specific agents</span>
           </li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Hardware-in-the-Loop Support</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Open Source Interfaces</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-orange-200 mt-0.5 shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg> Licensed agents available</li>
         </ul> 
         <div class="contact-sales">{%- include formRequestQuote.html -%}</div>
       </div>
@@ -250,7 +249,7 @@ breadcrumb: UnetStack
           <div class="count ac">03</div>
           <div>
             <h5>Ecosystem Components</h5>
-            <p>Beyond the core framework, the ecosystem includes tools such as Virtual Acoustic Ocean (VAO) for high-fidelity acoustic simulation, Unet audio for sound-card-based modem development, UnetCube for embedded OEM deployments, and a broad set of APIs and libraries available in multiple programming languages.</p>
+            <p>Beyond the core framework, the ecosystem includes tools such as Virtual Acoustic Ocean (VAO) for high-fidelity acoustic simulation, UnetCube for embedded OEM deployments, UnetCloud for cloud-hosted modem-grade nodes, and a broad set of APIs and libraries available in multiple programming languages.</p>
           </div>
         </div>
       </div>
@@ -271,7 +270,7 @@ breadcrumb: UnetStack
   </div>
   <div class="row py2">
     <div class="feature-grid col3">
-      <a class="docs-card uj" href="https://unetstack.net/javadoc/3.4/" target="_blank">
+      <a class="docs-card uj" href="https://org-arl.github.io/unet/api/overview-summary.html" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12.5 8 15l2 2.5"></path><path d="m14 12.5 2 2.5-2 2.5"></path></svg>
         </div>
@@ -280,7 +279,7 @@ breadcrumb: UnetStack
           <p>Programmer's reference & API docs.</p>
         </div>
       </a>
-      <a class="docs-card uh" href="https://unetstack.net/handbook" target="_blank">
+      <a class="docs-card uh" href="https://org-arl.github.io/unet/handbook/" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"></path></svg>
         </div>

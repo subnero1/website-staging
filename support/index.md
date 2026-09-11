@@ -28,9 +28,9 @@ headerTag: Support
           <h5>Documentation</h5>
           <ul>
             <li><a href="https://unetstack.net/index.html#docs" target="_blank">Getting started with UnetStack</a></li>
-            <li><a href="https://unetstack.net/handbook/unet-handbook_preface.html" target="_blank">Underwater Networks Handbook</a></li>
+            <li><a href="https://org-arl.github.io/unet/handbook/" target="_blank">Underwater Networks Handbook</a></li>
             <li><a href="https://github.com/org-arl/unetsockets" target="_blank">UnetSockets</a></li>
-            <li><a href="https://unetstack.net/javadoc/3.0/" target="_blank">UnetStack API reference</a></li>
+            <li><a href="https://org-arl.github.io/unet/api/overview-summary.html" target="_blank">UnetStack API reference</a></li>
           </ul>
         </div>
       </div>

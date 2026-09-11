@@ -118,7 +118,7 @@ sitemap: false
         <ul>
           <li>Build underwater testbeds and run multi-node experiments at realistic scale.</li>
           <li>Study cellular style and mesh topologies, routing, handover, and resource sharing.</li>
-          <li>Get a <a href="https://unetstack.net/handbook/unet-handbook_setting_up_small_networks" target="_blank">network running</a> now instead of building the stack from scratch.</li>
+          <li>Get a <a href="https://org-arl.github.io/unet/handbook/202_small.html" target="_blank">network running</a> now instead of building the stack from scratch.</li>
         </ul>
         <p>Built on the <a href="{{site.baseurl}}/solutions/underwater-network">Subnero Underwater Network</a> and <a href="{{site.baseurl}}/products/wnc/unetstack/">UnetStack</a>.</p>
       </div>

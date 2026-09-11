@@ -151,7 +151,7 @@ breadcrumb: UnetSim
   </div>
   <div class="row py2">
     <div class="feature-grid col2 releveant-resources">
-      <a href="https://unetstack.net/handbook/unet-handbook_part_vi_simulating_underwater_networks.html" class="docs-card uh" target="_blank">
+      <a href="https://org-arl.github.io/unet/handbook/402_sim.html" class="docs-card uh" target="_blank">
         <div class="card-svg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2H1v19h1c2.944 0 5.14.245 6.586.486c.723.12 1.26.24 1.609.328c.174.046.331.091.472.13l.152.051h2.324l.152-.05l.088-.026c.122-.037.384-.103.989-.231c.723-.12 1.26-.24 1.609-.328C16.86 21.246 19.054 21 22 21h1V2h-8a4 4 0 0 0-3 1.354A4 4 0 0 0 9 2zM3 19.01V4h6a2 2 0 0 1 2 2v13.958c-.4-.1-.989-.23-1.766-.36c-1.379-.23-3.35-.457-5.914-.505zM19 10h-4V8h4zm0 3h-4v-2h4z"/></svg>
         </div>

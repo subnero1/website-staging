@@ -198,7 +198,7 @@ breadcrumb: UnetCube
         <div>
           <h6 class="title-tag">Whitepaper</h6>
           <h5>Unlocking Underwater Connectivity</h5>
-          <p>A whitepaper introducing UnetStack and its ecosystem — from architecture and editions to deployment scenarios — offering insight into how Subnero’s technologies enable scalable underwater networking.</p>
+          <p>A whitepaper introducing UnetStack and its ecosystem, from the simulation ladder and UnetCube to smart modems, architecture, and editions, showing how Subnero's technologies enable scalable underwater networking.</p>
         </div>
       </a>
     </div>
