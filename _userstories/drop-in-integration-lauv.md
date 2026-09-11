@@ -165,7 +165,7 @@ date: 2026-09-20
     <div class="large-7 columns">
       <p><b>When a research team puts a multi-hundred thousand or even million dollar AUV in the water, communication is what stands between a controlled mission and an anxious wait. Without a reliable acoustic link, every moment the vehicle is submerged is nerve wracking, the operators left to hope it surfaces where and when it should. Good communication turns those moments into command and control.</b></p>
       <p>The <a class="reference-link" href="https://arl.nus.edu.sg/" target="_blank" rel="noopener">Acoustic Research Laboratory (ARL)</a> at the National University of Singapore needed a capable AUV for a range of demanding projects, often in challenging conditions: shallow tropical waters, the strong currents of the Singapore Strait, and operations close to busy shipping channels. They chose the <a class="reference-link" href="https://www.oceanscan-mst.com/light-autonomous-underwater-vehicle/" target="_blank" rel="noopener">OceanScan MST LAUV</a>. To give it command and control that could stand up to those conditions, they integrated a Subnero smart modem. They did the work as a third party, with no customization to the modem or the vehicle, and only a small amount of fully user-defined software.</p>
-      <p>For anyone running an LAUV today, that makes the Subnero modem a true drop-in.</p>
+      <p>For anyone running an LAUV today, that makes the Subnero modem a drop-in.</p>
     </div>
     <div class="large-5 columns">
       <a class="pdf-download" href="{{site.baseurl}}/brochures/case-study-drop-in-integration-lauv.pdf" target="_blank" alt="Drop-In Integration: How LAUV Became Subnero Ready" style="width:260px;">
@@ -223,7 +223,7 @@ date: 2026-09-20
     </div>
     <div class="large-7 columns">
       <p>Snapping shrimp blanket the warm, shallow soundscape with intense impulsive clicks, at source levels above 190 dB re 1 &micro;Pa at 1 m, producing heavy-tailed, non-Gaussian noise that degrades receivers designed around the usual Gaussian assumptions <a class="cite" href="#ref-1">[1]</a>. The shipping lanes add a second layer. Breaking waves and passing ships inject bubbles into the water column, and while the dense clouds clear within minutes, long-lived microbubbles of around 100 &micro;m and smaller persist for hours and drift with the currents far beyond the lanes. With a ship passing every few minutes, their presence is effectively constant <a class="cite" href="#ref-2">[2]</a>.</p>
-      <p>Subnero modems were born in exactly these waters, designed around the true noise statistics rather than the Gaussian ideal, and they bring advanced networking features well suited to AUV operations. The LAUV, however, runs on the Dune software ecosystem, and no integration between the two existed. The open questions were how hard it would be, at what level the work would sit, mechanical, electrical, or software, and who would have to carry it.</p>
+      <p>Subnero modems were built in exactly these waters, designed around the true noise statistics rather than the Gaussian ideal, and they bring advanced networking features well suited to AUV operations. The LAUV, however, runs on the Dune software ecosystem, and no integration between the two existed. The open questions were how hard it would be, at what level the work would sit, mechanical, electrical, or software, and who would have to carry it.</p>
     </div>
     <div class="large-5 columns">
       <figure class="m0 p0">
@@ -240,7 +240,7 @@ date: 2026-09-20
   <div class="row large py2">
     <div class="columns full-header">
       <h2 class="sec-head text-gradient g-orange">The Integration</h2>
-      <p>The answer turned out to be: not hard at all, and no one had to carry very much.</p>
+      <p>It took one small software bridge and no changes to anything else.</p>
     </div>
     <div class="columns">
       <h3 class="sec-head text-gradient g-orange">Software</h3>
@@ -295,7 +295,7 @@ Transports       = UamTxFrame,
                    VehicleMedium</code></pre>
     </div>
     <div class="large-6 columns">
-      <p>A matching block on the topside points at the modem in the MANTA gateway on port 9998. Those few lines are the entire Dune side of the integration. As a bonus, the same link carries acoustic ranging alongside communication, so range to the vehicle comes free with the comms. Deploying the bridge is equally light: the compiled agents are uploaded to the two modems, the modems are rebooted, and the bridge is running.</p>
+      <p>A matching block on the topside points at the modem in the MANTA gateway on port 9998. Those few lines are the entire Dune side of the integration. As a bonus, the same link carries acoustic ranging alongside communication, so range to the vehicle comes free with the comms. Deploying the bridge is simple: the compiled agents are uploaded to the two modems, the modems are rebooted, and the bridge is running.</p>
     </div>
     <div class="columns mt2">
       <div class="hlight-card">
@@ -309,13 +309,12 @@ Transports       = UamTxFrame,
       <h3 class="sec-head text-gradient g-orange">Hardware</h3>
     </div>
     <div class="large-6 columns">
-      <p>The physical work was just as contained. Subnero shipped the modems to <a class="reference-link" href="https://www.oceanscan-mst.com/" target="_blank" rel="noopener">OceanScan MST</a> along with GA drawings and electrical interface details, one modem for the vehicle and one for the topside MANTA gateway. OceanScan MST fitted them, handled the mechanical and electrical integration seamlessly, and wrote no software at all.</p>
+      <p>Subnero shipped the modems to <a class="reference-link" href="https://www.oceanscan-mst.com/" target="_blank" rel="noopener">OceanScan MST</a> along with GA drawings and electrical interface details, one modem for the vehicle and one for the topside MANTA gateway. OceanScan MST fitted them, handled the mechanical and electrical integration, and wrote no software at all.</p>
     </div>
     <div class="large-6 columns">
       <p>Once the fit was done, they placed the software libraries provided by ARL in the appropriate locations, powered the modems on, and the acoustic link was instantly available in the console on both the vehicle and the gateway.</p>
     </div>
     <div class="columns">
-      <h3 class="sec-head text-gradient g-orange">Three parties, one clean split of effort.</h3>
       <div class="split-line">
         <div>
           <h4>ARL</h4>
@@ -344,7 +343,7 @@ Transports       = UamTxFrame,
       <p>Since the integration, ARL has been operating the vehicle and its acoustic link for more than a year, in precisely the conditions the lab set out to work in: shallow tropical waters, strong currents, and busy shipping channels. Across that time the link has delivered strong performance and reliable communication in the field.</p>
     </div>
     <div class="large-6 columns">
-      <p>For the projects the LAUV serves, that reliability is a game changer. Knowing what the vehicle is doing at all times, rather than launching it and holding your breath until it resurfaces, is a direct boost to operations.</p>
+      <p>For the projects the LAUV serves, that reliability is the whole point. Knowing what the vehicle is doing at all times, rather than launching it and holding your breath until it resurfaces, is what makes the difference.</p>
     </div>
     <div class="columns py2" style="text-align:center;">
       <figure>
@@ -358,10 +357,10 @@ Transports       = UamTxFrame,
       <h2 class="sec-head text-gradient g-orange">Why It Matters</h2>
     </div>
     <div class="large-6 columns">
-      <p>For LAUV operators, the message is immediate. The Subnero modem is available as a drop-in, and the LAUV team at OceanScan MST can now support Subnero modem integration requests for any customer. Work with Subnero or OceanScan MST to get your vehicle fitted.</p>
+      <p>The Subnero modem is available as a drop-in, and the LAUV team at OceanScan MST can now support Subnero modem integration requests for any customer. Work with Subnero or OceanScan MST to get your vehicle fitted.</p>
     </div>
     <div class="large-6 columns">
-      <p>The broader message is about openness. ARL did this integration as a third party, on their own terms, with their own tools, without depending on Subnero to support any step, and the code is open source for anyone to build on. If you are weighing how open a software-defined modem really is, this case study is the answer in practice.</p>
+      <p>The larger point is openness. ARL did this integration as a third party, on their own terms, with their own tools, without depending on Subnero to support any step, and the code is open source for anyone to build on.</p>
     </div>
   </div>
 
